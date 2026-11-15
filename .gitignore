@@ -1,0 +1,24 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# OS & editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Confidential local policy extracts & legacy policy reports (DO NOT COMMIT)
+data/local_policy/
+VERIFICATION_REPORT.md
+
+# Large external raw dumps & rebuilt SQLite binary (>90MB)
+data/raw/
+data/salus.db
+data/salus.db-wal
+data/salus.db-shm
+data/salus_summary.json

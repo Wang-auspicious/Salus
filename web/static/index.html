@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salus · 愿天下再无疾病 · 全球人类疾病与希望图谱 (25,697 Diseases)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Top Persistent Brand & Navigation Bar -->
+    <header class="top-header">
+      <div class="header-left">
+        <a href="#map" class="brand-logo" id="brand-home">
+          <svg class="brand-mark" viewBox="0 0 28 28" width="24" height="24" aria-hidden="true">
+            <circle cx="14" cy="14" r="11" fill="none" stroke="url(#salusGrad)" stroke-width="2.6" stroke-dasharray="52 16" stroke-linecap="round"/>
+            <circle cx="14" cy="14" r="5.5" fill="none" stroke="#10b981" stroke-width="2" opacity="0.85"/>
+            <circle cx="14" cy="14" r="2.2" fill="currentColor"/>
+            <defs>
+              <linearGradient id="salusGrad" x1="0" y1="0" x2="28" y2="28">
+                <stop offset="0%" stop-color="#10b981"/>
+                <stop offset="55%" stop-color="#3b82f6"/>
+                <stop offset="100%" stop-color="#ef4444"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          <span class="brand-word">Salus</span>
+          <span class="brand-sub">愿天下再无疾病 · 全球人类疾病认知与攻关图谱</span>
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <button type="button" class="nav-action-link" id="btn-about" title="关于 Salus">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9.5"/>
+            <path d="M12 16v-4.5"/>
+            <circle cx="12" cy="8" r="0.6" fill="currentColor"/>
+          </svg>
+          <span>关于 Salus</span>
+        </button>
+        <a class="nav-action-link" href="https://github.com/Wang-auspicious/Salus" target="_blank" rel="noopener noreferrer" title="GitHub 仓库">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.287-.6-1.175-1.025-1.412-.35-.188-.85-.65-.013-.663.788-.012 1.35.725 1.538 1.025.9 1.512 2.337 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.087.387-1.987 1.025-2.687-.1-.25-.45-1.275.1-2.65 0 0 .837-.263 2.75 1.025a9.43 9.43 0 0 1 5 0c1.912-1.3 2.75-1.025 2.75-1.025.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.338 4.688-4.563 4.938.363.312.675.912.675 1.85 0 1.337-.012 2.412-.012 2.75 0 .262.187.575.687.475A10.004 10.004 0 0 0 22 12c0-5.525-4.475-10-10-10z"/>
+          </svg>
+          <span>GitHub</span>
+        </a>
+        <button type="button" class="theme-icon-btn" id="btn-theme-toggle" title="切换白底/深色主题" aria-label="切换明暗主题"></button>
+      </nav>
+    </header>
+
+    <!-- Scime-style Secondary Control Strip (Mode Pill + Filter Chips) -->
+    <div class="sub-header">
+      <div class="mode-pill-group" role="tablist" aria-label="View Mode">
+        <button class="mode-pill active" data-mode="map">Map 星图</button>
+        <button class="mode-pill" data-mode="flow">Flow 趋势</button>
+        <button class="mode-pill" data-mode="directory">Directory 目录</button>
+        <button class="mode-pill" data-mode="roadmap">Roadmap 攻关与动态</button>
+      </div>
+
+      <div class="chip-bar" id="chip-bar">
+        <button class="filter-chip active" data-chip="all">全部病种 <span class="chip-count" id="cnt-all">25,697</span></button>
+        <button class="filter-chip" data-chip="curated">深度解读 <span class="chip-count" id="cnt-curated">124</span></button>
+        <button class="filter-chip" data-chip="hyperacute">数分钟突发致命</button>
+        <button class="filter-chip" data-chip="acute">急危重症</button>
+        <button class="filter-chip" data-chip="chronic">慢性疾病</button>
+        <button class="filter-chip" data-chip="rare">家族遗传 / 罕见病</button>
+        <button class="filter-chip" data-chip="treatable">可控制 / 已有疗法</button>
+        <button class="filter-chip" data-chip="trials">新药临床探索中</button>
+        <button class="filter-chip" data-chip="unmet">亟待攻克空白</button>
+      </div>
+    </div>
+
+    <!-- Main Workspace -->
+    <main class="main-stage">
+
+      <!-- ==================== MODE 1: MAP VIEW ==================== -->
+      <section id="view-map" class="view-panel active">
+        <canvas id="atlas-canvas"></canvas>
+        <div id="map-tooltip" class="map-tooltip hidden"></div>
+
+        <!-- Left Floating Overlay Card + Taxonomy Accordion -->
+        <aside class="map-left-panel" id="map-left-panel">
+          <div class="hero-card">
+            <div class="hero-card-head">
+              <div>
+                <h1 class="serif-title">看懂每种疾病与未来希望</h1>
+                <p class="muted-text">为患者、家属与关注生命科学的你梳理：这病有多危险、第一反应怎么办、如何监测预防与治疗，以及距离真正根治还需突破哪类技术。</p>
+              </div>
+              <button class="collapse-btn" id="btn-toggle-left" title="折叠面板">−</button>
+            </div>
+
+            <form id="locate-form" class="locate-box locate-row">
+              <div class="input-wrap locate-input-wrap">
+                <span class="search-ico">⌕</span>
+                <input
+                  id="locate-input"
+                  type="text"
+                  autocomplete="off"
+                  placeholder="搜索病名或遗传基因（如 抗凝血酶、肺栓塞、胰腺癌）"
+                />
+              </div>
+              <button type="submit" class="btn-primary btn-locate-compact">定位</button>
+              <button type="button" class="btn-ghost btn-locate-compact" id="btn-reset-map">重置</button>
+            </form>
+
+            <div id="search-dropdown" class="search-dropdown hidden"></div>
+
+            <div class="quick-examples">
+              <span class="muted-label">常见关注：</span>
+              <button type="button" class="example-pill" data-q="遗传性抗凝血酶缺乏症">遗传性抗凝血酶缺乏症</button>
+              <button type="button" class="example-pill" data-q="急性肺栓塞">急性肺栓塞</button>
+              <button type="button" class="example-pill" data-q="胰腺癌">胰腺癌</button>
+              <button type="button" class="example-pill" data-q="脊髓性肌萎缩症">SMA</button>
+              <button type="button" class="example-pill" data-q="脓毒症">脓毒症</button>
+            </div>
+          </div>
+
+          <div class="areas-card" id="areas-card">
+            <div class="areas-head">
+              <h2 class="serif-subtitle">按人体系统浏览：14 大类 <span id="areas-total-badge" class="badge-muted">25,697</span></h2>
+              <span class="muted-hint">点击下钻细节</span>
+            </div>
+            <div id="areas-list" class="areas-list"></div>
+          </div>
+        </aside>
+
+        <!-- Bottom Floating Controls (Treatability Scrubber + Zoom) -->
+        <div class="map-bottom-bar">
+          <div class="stage-scrubber">
+            <span class="scrubber-label">按治疗现状筛选：</span>
+            <button class="stage-pill active" data-stage="">全部现状</button>
+            <button class="stage-pill" data-stage="curable"><i class="dot" style="background:#10b981"></i>可治愈</button>
+            <button class="stage-pill" data-stage="controllable"><i class="dot" style="background:#3b82f6"></i>可长期稳控</button>
+            <button class="stage-pill" data-stage="approved_therapy"><i class="dot" style="background:#38bdf8"></i>已有获批药</button>
+            <button class="stage-pill" data-stage="partially_manageable"><i class="dot" style="background:#f59e0b"></i>部分缓解</button>
+            <button class="stage-pill" data-stage="phase3_trials"><i class="dot" style="background:#a855f7"></i>后期新药试验</button>
+            <button class="stage-pill" data-stage="phase2_trials"><i class="dot" style="background:#8b5cf6"></i>中期新药试验</button>
+            <button class="stage-pill" data-stage="unmet_no_effective_therapy"><i class="dot" style="background:#ef4444"></i>尚缺有效疗法</button>
+          </div>
+          <div class="zoom-controls">
+            <button class="ctrl-btn" id="btn-zoom-in" title="放大">+</button>
+            <button class="ctrl-btn" id="btn-zoom-out" title="缩小">−</button>
+            <button class="ctrl-btn ctrl-wide" id="btn-back-overview">返回全景视图</button>
+          </div>
+        </div>
+
+        <!-- Right Slide-in Multi-Layer Drill-Down & Dossier Drawer -->
+        <aside class="map-right-drawer" id="map-right-drawer">
+          <div class="drawer-header">
+            <div class="breadcrumbs" id="map-breadcrumbs"></div>
+            <button class="icon-btn" id="btn-close-right" title="收起右侧面板">✕</button>
+          </div>
+          <div class="drawer-body" id="map-drawer-body"></div>
+        </aside>
+      </section>
+
+      <!-- ==================== MODE 2: FLOW VIEW ==================== -->
+      <section id="view-flow" class="view-panel">
+        <div class="flow-layout">
+          <aside class="flow-left-sidebar">
+            <div class="year-hero">
+              <button class="year-arrow" id="flow-year-prev" title="上一年">‹</button>
+              <div class="year-display" id="flow-year-display">2023</div>
+              <button class="year-arrow" id="flow-year-next" title="下一年">›</button>
+            </div>
+
+            <div class="flow-loc-toggle">
+              <button class="loc-pill active" data-loc="WRLD">全球视角</button>
+              <button class="loc-pill" data-loc="CHN">中国视角</button>
+            </div>
+
+            <div class="snapshot-meta">
+              <h3 class="serif-subtitle" id="snapshot-heading">2023 年主要死因分布</h3>
+              <p class="muted-text" id="snapshot-subtext">世界卫生组织（WHO）全球健康估计（2000–2023）。右侧展示占总死亡比重及较上年变化。</p>
+            </div>
+
+            <div id="flow-leaderboard" class="flow-leaderboard"></div>
+
+            <div class="year-matrix-wrap">
+              <div class="year-matrix-title">点击切换统计年份 (2000–2023)</div>
+              <div id="flow-year-matrix" class="year-matrix"></div>
+            </div>
+          </aside>
+
+          <div class="flow-main">
+            <div class="flow-topbar">
+              <div class="flow-search-wrap">
+                <span class="search-ico">⌕</span>
+                <input id="flow-search" type="text" placeholder="查找想了解的疾病死因：心脏病、脑卒中、肺癌、糖尿病..." />
+              </div>
+              <div class="scale-toggle">
+                <button class="scale-pill active" data-scale="pct">死亡占比 %</button>
+                <button class="scale-pill" data-scale="deaths">绝对死亡人数</button>
+              </div>
+            </div>
+
+            <div class="flow-breadcrumbs-bar">
+              <div id="flow-breadcrumbs" class="breadcrumbs"></div>
+              <div class="flow-hint muted-hint">点击色带或左侧类别，逐层查看具体致死病因</div>
+            </div>
+
+            <div class="streamgraph-card">
+              <svg id="flow-svg" viewBox="0 0 960 390" preserveAspectRatio="none"></svg>
+              <div id="flow-tooltip" class="flow-tooltip hidden"></div>
+            </div>
+
+            <div class="flow-cards-section">
+              <div class="section-head">
+                <h3 class="serif-subtitle" id="flow-cards-title">重点关注疾病的应对指南与新希望</h3>
+                <span class="muted-hint" id="flow-cards-count"></span>
+              </div>
+              <div id="flow-related-cards" class="flow-cards-grid"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== MODE 3: DIRECTORY VIEW ==================== -->
+      <section id="view-directory" class="view-panel">
+        <div class="directory-container">
+          <div class="directory-hero">
+            <div>
+              <h1 class="serif-title">逐层疾病目录 · 快速找到你关心的病</h1>
+              <p class="muted-text">从 14 个人体系统 → 具体疾病分类 → 目前能不能治、治到什么程度 → 一目了然的应对指南与科研希望。</p>
+            </div>
+            <div class="dir-search-box">
+              <span class="search-ico">⌕</span>
+              <input id="dir-search-input" type="text" placeholder="输入病名关键词筛选..." />
+            </div>
+          </div>
+
+          <div class="dir-breadcrumbs" id="dir-breadcrumbs"></div>
+
+          <div class="miller-grid">
+            <div class="miller-col">
+              <div class="miller-col-head">第一步 · 按身体系统选择</div>
+              <div id="dir-col-l1" class="miller-list"></div>
+            </div>
+            <div class="miller-col">
+              <div class="miller-col-head">第二步 · 选择具体病种大类</div>
+              <div id="dir-col-l2" class="miller-list"></div>
+            </div>
+            <div class="miller-col">
+              <div class="miller-col-head">第三步 · 按当前可治程度看</div>
+              <div id="dir-col-l3" class="miller-list"></div>
+            </div>
+            <div class="miller-col miller-col-wide">
+              <div class="miller-col-head">
+                <span>第四步 · 具体疾病列表（点击看详情）</span>
+                <span id="dir-l4-count" class="badge-muted">0</span>
+              </div>
+              <div id="dir-col-l4" class="miller-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== MODE 4: SHARED BREAKTHROUGH ROADMAP & UPDATES ==================== -->
+      <section id="view-roadmap" class="view-panel">
+        <div class="roadmap-container">
+          <div class="roadmap-hero">
+            <div>
+              <div class="kicker-tag">共性攻关路线与持续更新</div>
+              <h1 class="serif-title">解决一类底层技术，能同时挽救多少看似不同的生命？</h1>
+              <p class="muted-text">许多表面完全不同的疾病，本质上却困在同一个底层难题上（例如“突发前毫无预警”、“天生缺少一种关键蛋白”、“药进不去大脑”）。把这些共性瓶颈、监测方案与研发动态摊开在这里，让家属看清希望，让想做真问题的人找到明确方向。</p>
+            </div>
+            <div id="roadmap-pipeline-badges" class="roadmap-kpis"></div>
+          </div>
+
+          <div class="roadmap-grid">
+            <!-- Left: 5 Core Common Technical Tracks -->
+            <div class="roadmap-col">
+              <div class="section-head">
+                <h2 class="serif-subtitle">五大跨疾病共性技术赛道</h2>
+                <span class="muted-hint">点击左侧赛道查看可同时挽救的疾病群</span>
+              </div>
+              <div id="roadmap-tracks-list" class="roadmap-tracks-list"></div>
+              <div id="roadmap-track-detail" class="roadmap-track-detail"></div>
+            </div>
+
+            <!-- Right: Dynamic Research & Knowledge Base Update Feed -->
+            <div class="roadmap-col">
+              <div class="section-head">
+                <h2 class="serif-subtitle">持续追踪：技术突破与知识库动态更新</h2>
+                <span class="muted-hint" id="roadmap-update-meta">持续追踪最新临床突破与监控手段</span>
+              </div>
+              <div class="roadmap-search-bar">
+                <input id="roadmap-search" type="text" class="input-ctrl" style="width:100%;" placeholder="检索某种病、基因或技术关键词的进展动态（如 SERPINC1、siRNA、基因编辑、溶栓...）" />
+              </div>
+              <div id="roadmap-updates-feed" class="roadmap-feed-scroll"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Spacious Editorial Disease Profile Modal -->
+    <div id="disease-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div class="modal-topbar">
+          <div id="modal-breadcrumbs" class="breadcrumbs"></div>
+          <div class="modal-actions">
+            <button class="btn-ghost" id="btn-modal-locate">在星图定位此病</button>
+            <button class="icon-btn" id="btn-close-modal" title="关闭">✕</button>
+          </div>
+        </div>
+        <div id="modal-content" class="modal-content"></div>
+      </div>
+    </div>
+
+    <!-- About Salus Modal -->
+    <div id="about-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+      <div class="modal-card modal-narrow">
+        <div class="modal-topbar">
+          <h2 class="serif-title" style="margin:0;">关于 Salus · 愿天下再无疾病</h2>
+          <button class="icon-btn" id="btn-close-about">✕</button>
+        </div>
+        <div class="modal-content about-body">
+          <div class="mission-banner">
+            <div class="mission-banner-title">初心与理念：愿天下再无疾病</div>
+            <p><strong>Salus</strong> 在古罗马神话与拉丁语中象征“安全、健康与守护”。建立它的初衷很简单，也很沉重——不愿再看到任何一条年轻或珍贵的生命，因为“发病前没被察觉、发作时来不及求救、或关键疗法还没做出来”而在几分钟内默默离开。</p>
+            <p style="margin-top:6px;">因此我们希望这里既是一本让患者与家属一眼看懂的<strong>救急避险与费用参考手册</strong>，也是一张帮有心投身生命科学的人看清“世界真正缺什么技术、我能往哪条路努力”的<strong>诚实路线图</strong>。</p>
+          </div>
+          <h3>数据来源与诚实呈现原则</h3>
+          <ul>
+            <li><strong>全球人类疾病全集（25,697 种）</strong>：整合 MONDO 人类疾病本体、Orphanet 罕见病流行病学与基因数据，以及 Open Targets Platform 26.09 公开临床管线阶段数据（遵循 CC0 1.0 数据许可协议）。</li>
+            <li><strong>全球与中国历年死因变化（2000–2023）</strong>：采用世界卫生组织（WHO）Global Health Estimates 官方统计序列，覆盖 226 个层级分类。</li>
+            <li><strong>疾病深度解读档案（重点高危/急症与核心常见病，持续扩充中）</strong>：涵盖遗传性易栓症、数分钟突发致命急症、主要实体瘤与血液病、危重感染及典型慢病；凡权威机构未单列死亡数字的罕见病，均诚实标示自然史说明，绝不臆造。</li>
+            <li><strong>信息分层不删档</strong>：大众优先看到通俗解答、危险信号、日常监测与希望方向；临床编码与前沿学术文献则收敛在可展开的专业详情区中完整留存并动态更新。</li>
+          </ul>
+          <p class="muted-text">医疗提示：本站内容旨在普及疾病认知、支持就医沟通与启发科研探索，不可替代临床医生面诊或急救处置。如出现突发胸痛、呼吸困难、单侧下肢突然肿痛、剧烈头痛或意识异常，请立即拨打 120 或就近前往急诊室。</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

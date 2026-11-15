@@ -1,0 +1,2519 @@
+{
+  "domain": "infectious_respiratory",
+  "generated_at": "2026-11-14",
+  "curator": "infectious-respiratory",
+  "records": [
+    {
+      "disease_id": "MONDO:1040015",
+      "name_zh": "脓毒症与脓毒性休克",
+      "name_en": "Sepsis and Septic Shock",
+      "aliases_zh": [
+        "败血症",
+        "脓毒症休克",
+        "感染性休克"
+      ],
+      "icd10": [
+        "A41.9",
+        "R65.2"
+      ],
+      "icd11": [
+        "1G40"
+      ],
+      "category": "急重症感染 (Critical Care Infection)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "宿主对感染反应失调引发危及生命的器官功能障碍；一旦进展至脓毒性休克，数小时至数日内可因多器官衰竭死亡。全球约占全部死亡人数的20%，住院及ICU患者病死率极高。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "早期（1小时集束化治疗）识别、足量静脉广谱抗感染、感染源控制及液体复苏/血管活性药物可逆转休克并临床治愈；但延误救治或耐药菌感染致死率显著升高，幸存者常遗留长期器官功能与认知后遗症。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 11000000,
+          "range_or_note": "全球估算约1,100万人死亡（约占全球总死亡的20%），年发病约4,890万例，其中近2,000万例发生在5岁以下儿童（Rudd等 Lancet 2020 / WHO脓毒症实况报道）。",
+          "year": "2017",
+          "source": "WHO Sepsis Fact Sheet / Rudd et al., Lancet 2020"
+        },
+        "annual_deaths_china": {
+          "value": 986929,
+          "range_or_note": "基于全国死因监测系统（NMSS）估算2020年中国脓毒症相关死亡约986,929例（造成约1,710万生命年损失YLLs），年龄标化死亡率由130.2/10万降至76.6/10万，但老年及ICU负担仍重。",
+          "year": "2020",
+          "source": "Weng et al., Critical Care 2023 (NMSS China)"
+        },
+        "prevalence_global": "2017年全球估算发病约4,890万例/年；高收入国家每例患者住院医疗支出常超过32,000美元，中低收入国家负担更为沉重。",
+        "prevalence_china": "中国ICU队列汇总分析显示，约25%的ICU收治患者合并或发生脓毒症，是最主要的ICU致死性综合征之一。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "按Surviving Sepsis Campaign指南执行1小时急救集束化策略（Hour-1 Bundle）：立即测量血乳酸并在抗生素前留取血培养（不延误用药）；1小时内静脉输注经验性广谱抗菌药物；对低血压或乳酸≥4 mmol/L患者在3小时内给予≥30 mL/kg晶体液快速复苏；液体复苏后仍低血压立即启用去甲肾上腺素维持MAP≥65 mmHg；同步尽快定位并外科/介入引流感染灶（清创、拔除感染导管等）。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用美罗培南",
+            "name_en": "Meropenem",
+            "drug_class": "碳青霉烯类广谱β-内酰胺抗生素",
+            "usage_role": "重症脓毒症及疑诊产ESBL革兰阴性菌感染一线经验性静脉抗感染",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "6–15元/支（0.5g，第7批国家集采后价格）",
+            "cost_source": "国家常规临床用药目录 / 第7批国家药品集中带量采购"
+          },
+          {
+            "name_zh": "注射用盐酸万古霉素",
+            "name_en": "Vancomycin",
+            "drug_class": "糖肽类抗生素",
+            "usage_role": "疑诊MRSA等耐药革兰阳性球菌感染的联合经验性或靶向治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "数十至数百元/支（需行血药浓度监测）",
+            "cost_source": "国家常规临床用药目录"
+          },
+          {
+            "name_zh": "注射用硫酸多黏菌素B",
+            "name_en": "Polymyxin B",
+            "drug_class": "多肽类抗耐药菌抗生素",
+            "usage_role": "碳青霉烯耐药革兰阴性杆菌（CRO）所致脓毒症挽救性治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "123元/瓶（50万单位，国家常规药品保障局反垄断专项降价后）",
+            "cost_source": "国家常规临床用药目录 / 国家常规药品保障局2024年反垄断降价公告"
+          },
+          {
+            "name_zh": "重酒石酸去甲肾上腺素注射液",
+            "name_en": "Norepinephrine",
+            "drug_class": "α/β肾上腺素能受体激动剂（血管活性药）",
+            "usage_role": "脓毒性休克首选一线升压药，维持平均动脉压MAP≥65 mmHg",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊感染源控制（脓肿穿刺引流、坏死组织清创、感染植入物拔除）",
+          "有创/无创血流动力学监测与晶体液精确复苏",
+          "连续性肾脏替代治疗（CRRT）及机械通气等ICU多器官功能支持"
+        ],
+        "annual_total_cost_china_cny": "单次住院总费用中位数约20,000–80,000+元人民币（合并CRRT、体外生命支持或长期ICU救治者费用显著更高）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "围绕脓毒症免疫失调表型分型（高炎症型 vs 免疫麻痹型）的精准免疫调节与内皮保护、血液净化吸附及mNGS超快速病原学诊断成为研究重点，多项靶向免疫检查点/细胞因子及微循环药物处于II/III期临床试验；目前临床救治仍高度依赖快速抗感染与器官支持集束化流程。",
+        "key_unmet_needs_zh": "尚无针对宿主失调反应本身的特效特异性靶向药物；多重耐药菌（CRO）引发的脓毒性休克病死率仍高，且幸存者“脓毒症后综合征”缺乏系统康复随访。"
+      },
+      "sources": [
+        {
+          "title": "Sepsis - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/sepsis",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Global, regional, and national sepsis incidence and mortality, 1990–2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31954465/",
+          "publisher": "The Lancet / PubMed",
+          "year": "2020"
+        },
+        {
+          "title": "National-level sepsis mortality and years of life lost in China (NMSS)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10425320/",
+          "publisher": "Critical Care / PMC",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0006502",
+      "name_zh": "急性呼吸窘迫综合征",
+      "name_en": "Acute Respiratory Distress Syndrome (ARDS)",
+      "aliases_zh": [
+        "ARDS",
+        "休克肺",
+        "急性肺损伤重症型"
+      ],
+      "icd10": [
+        "J80"
+      ],
+      "icd11": [
+        "CB00"
+      ],
+      "category": "急重症呼吸 (Acute Respiratory Failure)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "以急性弥漫性肺泡-毛细血管膜损伤、肺顺应性骤降及顽固性低氧血症为特征，数小时至数日内迅速恶化。全球大型ICU研究（LUNG SAFE）中轻、中、重度ARDS住院病死率分别达34.9%、40.3%和46.1%。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "目前缺乏直接修复肺泡-毛细血管屏障的特效药物，主要依靠小潮气量肺保护性通气、俯卧位通气、ECMO挽救及积极治疗原发病（如肺炎、脓毒症）使部分患者肺功能逐步恢复，但重度患者住院死亡率仍高达40%–56%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO全球卫生估计（GHE）未单列ARDS死因条目，其死亡通常归因于基础诱因（肺炎、脓毒症、创伤、COVID-19等）。LUNG SAFE研究显示ARDS住院总病死率约34.9%–46.1%。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国性单列死亡登记总量；多中心ICU前瞻性队列显示肺炎约占中国ARDS诱因的77%，总体住院病死率约40%–46%+（轻度约31%、中度约40%、重度约56%）。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球50国LUNG SAFE研究显示，ARDS占全部ICU收治患者的10.4%，占机械通气患者的23%，因识别不足常被低估。",
+        "prevalence_china": "国内多中心ICU监测中ARDS是机械通气患者最核心的危重呼吸综合征之一，冬季重症肺炎及流感/新冠流行季发病明显攀升。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "立即识别氧合指数（PaO2/FiO2 ≤300 mmHg，依据柏林定义或全球新定义）与双肺渗出影；快速建立高级气道并行肺保护性机械通气（小潮气量6 mL/kg预测体重、平台压≤30 cmH2O、个体化PEEP）；中重度（PaO2/FiO2 <150 mmHg）尽早启动每日≥12–16小时俯卧位通气；保守液体管理（休克纠正后限制液体过负荷）；常规通气难治性低氧血症尽快评估VV-ECMO支持，同时针对原发感染或诱因立即干预。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用美罗培南",
+            "name_en": "Meropenem",
+            "drug_class": "碳青霉烯类抗生素",
+            "usage_role": "肺炎或脓毒症诱发ARDS时的强效经验性/目标抗感染治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "6–15元/支（0.5g，第7批国采）",
+            "cost_source": "国家常规临床用药目录 / 第7批国家集采"
+          },
+          {
+            "name_zh": "注射用甲泼尼龙琥珀酸钠",
+            "name_en": "Methylprednisolone",
+            "drug_class": "全身性糖皮质激素",
+            "usage_role": "重度炎症反应或特定病因（如病毒性/非感染炎症性）ARDS的短期抗炎辅助治疗（存在争议，需个体化评估）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "注射用苯磺顺阿曲库铵",
+            "name_en": "Cisatracurium",
+            "drug_class": "非去极化神经肌肉阻滞剂",
+            "usage_role": "重度ARDS人机对抗难以纠正时的短期肌松辅助，改善氧合与肺保护通气",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "小潮气量肺保护性有创机械通气（TV 6 mL/kg PBW）",
+          "俯卧位通气（每日12–16小时以上）",
+          "静脉-静脉体外膜肺氧合（VV-ECMO）支持"
+        ],
+        "annual_total_cost_china_cny": "常规ICU机械通气住院费用常达50,000–200,000+元；需VV-ECMO救治者仅ECMO耗材及1–2周运行费约100,000–300,000+元，ECMO全程住院总费用常达200,000–700,000+元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "ARDS新全球定义（纳入高流量鼻导管吸氧HFNC与血氧饱和度/FiO2指标）扩展了早期识别窗口；间充质干细胞（MSC）修复肺泡上皮及内皮损伤、靶向炎症亚型精准药物治疗处于II/III期临床探索；国内ECMO规范化救治网络显著扩展。",
+        "key_unmet_needs_zh": "尚无获批的特异性逆转肺泡弥漫性损伤的病因药；ECMO救治费用极其高昂且中长期肺纤维化后遗症显著。"
+      },
+      "sources": [
+        {
+          "title": "Epidemiology, Patterns of Care, and Mortality for Patients With ARDS (LUNG SAFE)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26903337/",
+          "publisher": "JAMA / PubMed",
+          "year": "2016"
+        },
+        {
+          "title": "Epidemiology and outcomes of ARDS in Chinese intensive care units",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7439799/",
+          "publisher": "PMC",
+          "year": "2020"
+        },
+        {
+          "title": "Hospitalization costs and resource utilization for ECMO in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12297351/",
+          "publisher": "PMC",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005249",
+      "name_zh": "社区获得性肺炎与重症肺炎",
+      "name_en": "Community-Acquired Pneumonia and Severe Pneumonia",
+      "aliases_zh": [
+        "CAP",
+        "重症肺炎",
+        "下呼吸道感染肺炎型"
+      ],
+      "icd10": [
+        "J15",
+        "J18.9"
+      ],
+      "icd11": [
+        "CA40"
+      ],
+      "category": "急性呼吸道感染 (Acute Respiratory Infection)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "普通轻中症CAP可经抗感染治愈，但高龄、免疫低下或病原毒力强患者可在数日内进展为重症肺炎合并呼吸衰竭及脓毒症休克。下呼吸道感染居全球死因第4位，中国ICU重症CAP 28–30天病死率约37%，需有创机械通气者超过60%。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "绝大多数细菌性、非典型病原及部分病毒性肺炎经及时恰当抗微生物药物及氧疗支持可完全治愈；但耐药菌、混合感染及高龄重症肺炎病死率依然突出。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 2700000,
+          "range_or_note": "WHO 2023年全球十大死因报告显示下呼吸道感染（含肺炎）位列第4位，年致死约270万例（GBD 2021估算约为218万例；WHO肺炎实况指出2019年5岁以下儿童死于肺炎达740,180例，占该年龄组死亡的14%）。",
+          "year": "2023",
+          "source": "WHO Top 10 Causes of Death Fact Sheet (2026) / GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": 206930,
+          "range_or_note": "GBD 2021估算中国非COVID-19下呼吸道感染年死亡约206,930例（95% UI: 171,260–251,990），年发病约4,470万例次，绝大多数集中于老年人及婴幼儿。",
+          "year": "2021",
+          "source": "GBD 2021 China Lower Respiratory Infections Analysis (PMC12529499)"
+        },
+        "prevalence_global": "全球每年数亿人次下呼吸道感染发作，肺炎是全球感染性疾病致死及5岁以下儿童死亡的首要原因。",
+        "prevalence_china": "中国成人CAP年发病率超过7/1,000人年，高龄人群（≥65岁）及婴幼儿住院率最高；秋冬季肺炎支原体与病毒共感染波动显著。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "依据CURB-65或IDSA/ATS重症肺炎标准快速分诊；重症患者立即吸氧/经鼻高流量湿化氧疗（HFNC）或无创/有创通气维持SpO2≥92%；4小时内（休克者1小时内）静脉启动经验性联合抗感染（如β-内酰胺类联用大环内酯类或呼吸喹诺酮类），并送检痰/支气管肺泡灌洗液培养及mNGS；合并休克及呼吸衰竭按脓毒症/ARDS方案抢救。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用头孢曲松钠",
+            "name_en": "Ceftriaxone",
+            "drug_class": "第三代头孢菌素类抗生素",
+            "usage_role": "住院CAP基础一线经验性抗肺炎链球菌及常见革兰阴性菌用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "3–5元/支（1g，国家常规目录内及国采价）",
+            "cost_source": "国家常规临床药品目录 / 国家集采"
+          },
+          {
+            "name_zh": "利奈唑胺片/注射液",
+            "name_en": "Linezolid",
+            "drug_class": "恶唑烷酮类抗生素",
+            "usage_role": "疑诊或确诊MRSA所致重症坏死性肺炎的关键治疗药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "600mg片约31.25元/片（原研中选）或国产十余元/片；注射液数十元/袋",
+            "cost_source": "国家常规临床用药目录 / 第3批国家集采"
+          },
+          {
+            "name_zh": "注射用美罗培南",
+            "name_en": "Meropenem",
+            "drug_class": "碳青霉烯类抗生素",
+            "usage_role": "高耐药风险重症肺炎（铜绿假单胞菌或产ESBL肠杆菌）治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "6–15元/支（0.5g）",
+            "cost_source": "国家常规临床用药目录 / 第7批国家集采"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "经鼻高流量氧疗（HFNC）、无创通气（NIV）或气管插管机械通气",
+          "支气管镜吸痰及肺泡灌洗病原诊断",
+          "PCV13/PCV20肺炎球菌疫苗及流感疫苗高危人群预防接种"
+        ],
+        "annual_total_cost_china_cny": "儿童CAP单次住院费用约3,200–6,300元；成人普通住院至重症CAP单次住院常达10,000–30,000+元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "靶向多重耐药菌的新型β-内酰胺酶抑制剂复合制剂、20/21价肺炎球菌结合疫苗及肺炎支原体大环内酯耐药快速分子检测试剂已广泛应用或获批；针对重症CAP早期辅助糖皮质激素（如氢化可的松）降低28天死亡率的CAPE COD等大型III期研究推动指南更新。",
+        "key_unmet_needs_zh": "老年及多重耐药（如CRKP、CRAB）重症肺炎病死率仍极高；肺炎球菌及RSV疫苗在中国老年人中的公费或高覆盖普及仍不足。"
+      },
+      "sources": [
+        {
+          "title": "The top 10 causes of death - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death",
+          "publisher": "WHO",
+          "year": "2026"
+        },
+        {
+          "title": "Pneumonia in children - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pneumonia",
+          "publisher": "WHO",
+          "year": "2022"
+        },
+        {
+          "title": "Lower respiratory infections in China, GBD 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12529499/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        },
+        {
+          "title": "Economic burden of community-acquired pneumonia in China",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/21645515.2021.1996151",
+          "publisher": "Human Vaccines & Immunotherapeutics",
+          "year": "2022"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004766",
+      "name_zh": "重症哮喘持续状态与急性气道梗阻",
+      "name_en": "Status Asthmaticus and Acute Airway Obstruction",
+      "aliases_zh": [
+        "哮喘持续状态",
+        "危重症哮喘发作",
+        "急性重度气道痉挛梗阻"
+      ],
+      "icd10": [
+        "J46",
+        "J96.0"
+      ],
+      "icd11": [
+        "CA23.31"
+      ],
+      "category": "急重症呼吸 (Acute Respiratory Failure)",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "常规支气管舒张剂难以缓解的致死性支气管痉挛或急性上/下气道梗阻，数分钟至数小时内即可因严重低氧血症、高碳酸血症酸中毒、气胸或窒息导致心跳呼吸骤停。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "院前及急诊数分钟内迅速解痉、全身激素抗炎、解除梗阻及无创/有创通气可挽救绝大部分患者生命；出院后须转向哮喘长期规范控制以防再发。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO全球死因统计不单列“哮喘持续状态”，其急性致死归入支气管哮喘死亡口径（2023年全球哮喘死亡约442,000例；GBD 2021约为436,000例）。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "国家层面归入哮喘死亡统计（GBD 2021中国哮喘死亡约26,233例）；香港PICU 16年队列显示哮喘持续状态占PICU收治约2.4%，约10%因严重呼吸性酸中毒（低pH）需行气管插管有创机械通气；重症机械通气期国际规范通常采用允许性高碳酸血症策略（维持动脉pH>7.20），严防过度通气诱发动态肺过度充气与气压伤。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球约3.63亿哮喘患者中部分控制不良或遭遇过敏原/病毒触发者可突发危重持续状态。",
+        "prevalence_china": "中国成人哮喘约4,570万人，长期控制率偏低使基层及急诊科急性重度发作仍较常见。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "即刻高流量吸氧维持SpO2 93%–95%；连续或高频雾化吸入短效β2受体激动剂（SABA，如特布他林/沙丁胺醇）联合异丙托溴铵；尽早静脉推注或口服全身糖皮质激素（如甲泼尼龙/氢化可的松）；难治性危重病例静脉输注硫酸镁（2g静滴），合并过敏性休克/喉头水肿者即刻肌注肾上腺素；出现意识障碍、“沉默肺”、严重呼吸性酸中毒或低氧即刻气管插管机械通气（低呼吸频率、长呼气时间防内源性PEEP与气压伤）；怀疑异物/肿瘤致机械性急性气道梗阻则立即行海姆立克急救或急诊支气管镜解除梗阻。",
+        "standard_drugs": [
+          {
+            "name_zh": "硫酸特布他林雾化吸入用溶液",
+            "name_en": "Terbutaline Nebulizer Solution",
+            "drug_class": "短效β2肾上腺素能受体激动剂（SABA）",
+            "usage_role": "急性气道痉挛及哮喘持续状态一线快速支气管舒张急救药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "几元/支（国家集采/常规药品保障甲乙类）",
+            "cost_source": "国家常规临床药品目录 / 国家集采"
+          },
+          {
+            "name_zh": "注射用甲泼尼龙琥珀酸钠",
+            "name_en": "Methylprednisolone",
+            "drug_class": "全身性糖皮质激素",
+            "usage_role": "抑制致命性气道炎症、逆转支气管高反应性及降低插管率的核心急诊用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "吸入用异丙托溴铵溶液",
+            "name_en": "Ipratropium Bromide",
+            "drug_class": "短效抗胆碱能药物（SAMA）",
+            "usage_role": "重度哮喘急性发作时与SABA联用增强支气管舒张效果",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高流量吸氧与无创/有创机械通气（防气压伤与允许性高碳酸血症策略）",
+          "超难治哮喘持续状态危重病例的体外二氧化碳清除或VV-ECMO救治",
+          "急诊支气管镜清除粘液栓或气道异物"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "以奥马珠单抗、度普利尤单抗、美泊利珠单抗及本瑞利珠单抗等生物制剂作为“预防性上游拦截”大幅减少难治性哮喘进入危重持续状态的机会；吸入糖皮质激素/长效β2激动剂（ICS-福莫特罗）作为抗炎缓解疗法纳入全球哮喘防治创议（GINA）首选，显著降低了急诊与死亡风险。",
+        "key_unmet_needs_zh": "院前数分钟黄金时间急救药物（如急救肾上腺素自动注射笔及普及随身缓解吸入剂）可及性不足；部分高危人群对早期恶化信号识别滞后。"
+      },
+      "sources": [
+        {
+          "title": "Critical Care Management of Severe Asthma Exacerbations",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10856115/",
+          "publisher": "Journal of Clinical Medicine / PMC",
+          "year": "2024"
+        },
+        {
+          "title": "Outcome of status asthmaticus at a pediatric intensive care unit in Hong Kong",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31965725/",
+          "publisher": "The Clinical Respiratory Journal / PubMed",
+          "year": "2020"
+        },
+        {
+          "title": "Asthma - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+          "publisher": "WHO",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018059",
+      "name_zh": "流行性脑脊髓膜炎",
+      "name_en": "Meningococcal Meningitis",
+      "aliases_zh": [
+        "流脑",
+        "脑膜炎球菌脑膜炎",
+        "暴发型流脑"
+      ],
+      "icd10": [
+        "A39.0"
+      ],
+      "icd11": [
+        "1C1C.0"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "脑膜炎奈瑟菌经飞沫传播侵入血流及蛛网膜下腔；暴发型流脑（伴脓毒性休克/华-佛综合征）可在起病数小时至24小时内迅猛进展致多器官衰竭与死亡。WHO指出细菌性脑膜炎约1/6病例死亡、1/5幸存者遗留严重神经后遗症。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "极度依赖早期识别与第一时间静脉注射头孢曲松等抗菌药；抗生素配合休克复苏和激素抗脑水肿可显著降低病死率，多价结合疫苗（A/C/Y/W135及B群疫苗）可有效预防。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO全球死因未单列流脑全年龄汇总条目。GBD 2021估算儿童脑膜炎总死亡约11.2万例，其中脑膜炎奈瑟菌占14.03%；2025年非洲“脑膜炎带”24国累计报告疑似病例21,526例、死亡971例（病死率约4.5%）。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": 7,
+          "range_or_note": "2024年中国国家疾控局法定报告传染病显示，全国全年报告流行性脑脊髓膜炎129例、死亡7例（属乙类重点防控传染病，国内维持低散发但病死率较高）。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况"
+        },
+        "prevalence_global": "撒哈拉以南非洲“脑膜炎带”旱季仍频发流行；未经治疗病例病死率可高达50%以上。",
+        "prevalence_china": "得益于免疫规划（A群及A+C群流脑多糖疫苗纳入一类疫苗），国内发病例数已维持在百余例低水平，但W135/Y/B等非免疫规划血清群偶有暴发风险。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "高度疑诊流脑（突发高热、剧烈头痛、喷射性呕吐、皮肤瘀点瘀斑或颈项强直）即刻启动呼吸道隔离并留取血培养（切勿因等待腰穿或影像检查而延迟给药）；第一时间静脉推注足量第三代头孢菌素（如头孢曲松钠2g q12h）；暴发型伴休克及DIC者同步按脓毒性休克液体复苏、去甲肾上腺素升压及早期糖皮质激素减轻脑水肿与休克；密切接触者预防性口服环丙沙星或利福平。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用头孢曲松钠",
+            "name_en": "Ceftriaxone",
+            "drug_class": "第三代头孢菌素类抗生素",
+            "usage_role": "穿透血脑屏障极佳的流行性脑脊髓膜炎首选一线静脉急救抗生素",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "3–5元/支（1g，国家常规目录内及国采）",
+            "cost_source": "国家常规临床药品目录 / 国家集采"
+          },
+          {
+            "name_zh": "青霉素钠注射液",
+            "name_en": "Benzylpenicillin (Penicillin G)",
+            "drug_class": "青霉素类β-内酰胺抗生素",
+            "usage_role": "对青霉素敏感的脑膜炎奈瑟菌感染可选静脉治疗用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "严密呼吸道隔离与生命体征ICU监护、颅内压管理",
+          "适龄儿童接种免疫规划A群/A+C群流脑疫苗，自费接种ACYW135四价结合疫苗",
+          "暴发型休克及器官衰竭时行机械通气及CRRT支持"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "WHO推动“2030年战胜脑膜炎”路线图，含A、C、Y、W、X五价脑膜炎球菌结合疫苗（MenFive）在非洲“脑膜炎带”获批并推广接种；中国多价结合流脑疫苗覆盖扩展及B群流脑重组蛋白疫苗研发持续推进。",
+        "key_unmet_needs_zh": "暴发型流脑起病数小时内即致死，基层对早期皮肤瘀点及休克识别不足；B群疫苗及四价结合疫苗在中国尚未完全纳入国家免费免疫规划。"
+      },
+      "sources": [
+        {
+          "title": "Meningitis - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/meningitis",
+          "publisher": "WHO",
+          "year": "2025"
+        },
+        {
+          "title": "Global burden of childhood meningitis 1990–2021 (GBD 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12186954/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019173",
+      "name_zh": "狂犬病",
+      "name_en": "Rabies",
+      "aliases_zh": [
+        "恐水症",
+        "疯狗病"
+      ],
+      "icd10": [
+        "A82"
+      ],
+      "icd11": [
+        "1C82"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "噬神经病毒侵入中枢神经系统后呈急性进行性脑脊髓炎，出现临床症状（恐水、怕风、痉挛、麻痹）后多在数日至1–2周内因呼吸循环衰竭死亡，一旦发病病死率几乎100%（医学史上绝大多数患者均死亡）。",
+      "treatability_status": "unmet_no_effective_therapy",
+      "treatability_summary_zh": "发病前通过规范伤口冲洗+狂犬病疫苗+被动免疫制剂（狂犬病人免疫球蛋白或单抗）暴露后预防（PEP）近100%可阻断发病；一旦出现临床症状尚无有效治愈药物，几乎100%致死。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 59000,
+          "range_or_note": "WHO/CDC估算全球每年约59,000人死于狂犬病（平均约每9分钟1例），40%发生于15岁以下儿童，99%人类病例经犬咬伤或抓伤传播，集中于亚洲和非洲。",
+          "year": "2024",
+          "source": "WHO Rabies Fact Sheet (2024)"
+        },
+        "annual_deaths_china": {
+          "value": 148,
+          "range_or_note": "2024年国家疾控局法定报告传染病记录发病167例、死亡148例（较2023年122例死亡小幅回升，较2007年约3,300例高峰已大幅下降）。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况 / China CDC Weekly 2025"
+        },
+        "prevalence_global": "全球每年有超过2,900万人接受狂犬病暴露后预防（PEP）；未免疫暴露者发病后病死率约100%。",
+        "prevalence_china": "全国发病持续处于历史低位但呈农村散发反弹信号，部分III级暴露患者因未规范注射被动免疫制剂或抱侥幸心理漏接种而致死。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "【暴露后黄金预防（发病前有效）】II/III级暴露立即用肥皂水与流动清水交替彻底冲洗伤口≥15分钟并碘伏消毒；III级暴露及免疫低下II级暴露者将人狂犬病免疫球蛋白（HRIG）或狂犬病单抗尽可能全部浸润注射于伤口周围，同步在另一侧按程序接种狂犬病疫苗（未完成过全程免疫者严格遵5针或2-1-1程序）。【一旦发病处置】严密隔离防分泌物接触传播，给予深度镇静镇痛与对症支持以减轻极度痛苦。",
+        "standard_drugs": [
+          {
+            "name_zh": "冻干人用狂犬病疫苗（Vero细胞等）",
+            "name_en": "Human Rabies Vaccine",
+            "drug_class": "灭活病毒疫苗",
+            "usage_role": "暴露前/暴露后诱导中和抗体阻断病毒向中枢神经侵入（发病前100%预防关键）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "公立疾控/医院全程约380–500元（民营犬伤门诊约1,000–1,600+元）",
+            "cost_source": "全国公立疫苗接种点与犬伤门诊公开收费口径"
+          },
+          {
+            "name_zh": "狂犬病人免疫球蛋白（HRIG）",
+            "name_en": "Human Rabies Immunoglobulin",
+            "drug_class": "特异性被动免疫制剂",
+            "usage_role": "III级暴露在疫苗起效前提供即刻局部中和保护，浸润注射于伤口周边",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约200–1,000+元/人（按20 IU/kg体重计算，部分地区门诊可常规药品保障报销）",
+            "cost_source": "临床定价及部分统筹区常规药品保障外伤报销目录"
+          },
+          {
+            "name_zh": "奥木替韦单抗注射液（迅可）",
+            "name_en": "Ormutivimab",
+            "drug_class": "重组人源抗狂犬病毒单克隆抗体",
+            "usage_role": "替代传统HRIG用于III级暴露被动免疫，产能稳定且无血源安全风险",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "数百元/支（自费或部分商业保险及区域急诊政策支付）",
+            "cost_source": "国内犬伤门诊挂网自费定价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "暴露后即刻规范流动水与肥皂水彻底冲洗伤口≥15分钟（切忌盲目一期缝合封闭伤口）",
+          "大规模犬只狂犬病免疫覆盖（达70%以上可阻断传播链）",
+          "临床发病期深度姑息镇静及传染病隔离护理"
+        ],
+        "annual_total_cost_china_cny": "暴露后规范全程处置（公立疫苗+被动免疫制剂）约580–2,600+元；一旦发病进入ICU姑息支持费用高昂且几乎100%死亡"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "全球推行“Zero by 30”（2030年消除犬传人狂犬病死亡）战略；中国原研重组人源狂犬病毒单抗（如奥木替韦单抗等）已获批用于PEP解决血源HRIG短缺；mRNA狂犬疫苗、二倍体无佐剂疫苗及跨越血脑屏障的抗狂犬病毒鸡尾酒单抗正处于I–III期或临床前探索。",
+        "key_unmet_needs_zh": "临床一旦出现症状后全球仍缺乏有效治愈药物；农村散养犬免疫覆盖率偏低，边远地区PEP可及性与群众防护意识仍有死角。"
+      },
+      "sources": [
+        {
+          "title": "Rabies - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Epidemiological Characteristics of Human Rabies in China, 2024",
+          "url": "https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2025.227",
+          "publisher": "China CDC Weekly",
+          "year": "2025"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005526",
+      "name_zh": "破伤风",
+      "name_en": "Tetanus",
+      "aliases_zh": [
+        "锁口风",
+        "新生儿破伤风",
+        "非新生儿破伤风"
+      ],
+      "icd10": [
+        "A35",
+        "A33"
+      ],
+      "icd11": [
+        "1C12"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "破伤风梭菌芽孢在厌氧深部伤口繁殖释放强效神经毒素（破伤风痉挛毒素），阻断中枢抑制性神经递质，引发角弓反张、喉痉挛窒息及自主神经风暴；患者常在数日至2周内因呼吸肌痉挛窒息或严重自主神经功能紊乱死亡，重症住院病死率高达15%–50%+。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "可经强化ICU机械通气、深度镇静肌松、被动中和游离毒素（HTIG/单抗）、清创与甲硝唑抗梭菌治疗度过2–6周毒素结合恢复期而完全治愈（不遗留神经瘫痪）；通过含破伤风类毒素疫苗常规接种完全可预防。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO实况指出2021年全球新生儿破伤风死亡逾7,700例（较2000年的46,898例大幅下降84%）；GBD 2021估算5岁以下儿童破伤风死亡约8,811例，高负担集中于疫苗覆盖薄弱的低收入地区，全球全年龄合计亦呈显著下降。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国2024年法定传染病表仅报告新生儿破伤风19例、0死亡（已于2012年实现消除目标）；成人非新生儿破伤风尚未列入全国法定传染病常规统计表，临床重症成人住院病死率仍可达15%–50%+。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球随孕产妇及婴儿破伤风消除计划（MNTE）推进，新生儿病例剧减，但未完成加强免疫的成人外伤后散发感染仍在全球存在。",
+        "prevalence_china": "非新生儿成人破伤风多见于未及时接种加强针的农村及老年外伤者，一旦进入ICU往往需长达数周呼吸机与镇静支持。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "外伤后依据伤口污染度与免疫史及时清洗清创并按需注射被动免疫制剂（HTIG/单抗）与破伤风疫苗。已发病患者即刻置入单人避光防声安静病房；迅速肌注/静滴HTIG或重组抗破伤风毒素单抗中和游离毒素；第一时间静脉给予甲硝唑（或青霉素）清除产毒梭菌并彻底清创伤口；早期积极行预防性气管切开+机械通气控制致命喉痉挛；联合地西泮/咪达唑仑/丙泊酚甚至肌松剂控制阵发性肌肉强直，硫酸镁/β受体阻滞剂调控交感神经风暴。",
+        "standard_drugs": [
+          {
+            "name_zh": "破伤风人免疫球蛋白（HTIG）",
+            "name_en": "Human Tetanus Immunoglobulin",
+            "drug_class": "人源特异性被动免疫制剂",
+            "usage_role": "外伤后高风险暴露免疫及发病初期中和血液/组织游离毒素（免皮试、安全性优）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "250–300+元/支（250 IU，国家常规临床药品目录内）",
+            "cost_source": "国家常规临床药品目录 / 公立医院挂网价格"
+          },
+          {
+            "name_zh": "破伤风抗毒素（TAT）",
+            "name_en": "Tetanus Antitoxin (Equine)",
+            "drug_class": "马源被动免疫制剂",
+            "usage_role": "基层低成本被动免疫替代品（必须先做皮试，有过敏及血清病风险）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "十余元至几十元/支（约为HTIG价格的十分之一）",
+            "cost_source": "国家基本药物/常规药品保障目录常规收费"
+          },
+          {
+            "name_zh": "斯泰度塔单抗注射液",
+            "name_en": "Siltartoxatug",
+            "drug_class": "重组全人源抗破伤风毒素单克隆抗体",
+            "usage_role": "无需皮试、不依赖人血浆的新型高效被动免疫制剂，用于外伤后紧急预防",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "300–800元/剂（自费及部分商业或补充医疗保险覆盖）",
+            "cost_source": "国内创新药挂网及商业定价区间"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "外科彻底清创消除伤口厌氧坏死环境",
+          "早期预防性气管切开及有创机械通气防喉痉挛窒息",
+          "单人避光隔音监护与肠内高营养支持"
+        ],
+        "annual_total_cost_china_cny": "中国成人重症破伤风单次住院及ICU救治中位费用约55,000+元（重度长时间机械通气患者显著更高）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "中国原研全球首创抗破伤风毒素全人源单克隆抗体斯泰度塔单抗（Siltartoxatug）获批上市，彻底替代传统血源HTIG和易过敏马源TAT；国家层面发布《非新生儿破伤风诊疗规范》，大力推广含破伤风类毒素疫苗（TTCV）每10年成人加强免疫。",
+        "key_unmet_needs_zh": "一旦毒素已不可逆结合于突触前膜，尚无任何药物能即时逆转既定痉挛；成人破伤风常规免疫加强认知仍极其薄弱，急诊过度依赖被动免疫而忽略主动疫苗全程建立。"
+      },
+      "sources": [
+        {
+          "title": "Tetanus - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/tetanus",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Global burden of tetanus in children under 5 years, GBD 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12083341/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        },
+        {
+          "title": "Clinical and economic burden of adult tetanus hospitalization in China",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1951130/pdf",
+          "publisher": "Frontiers in Public Health",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005737",
+      "name_zh": "埃博拉病毒病",
+      "name_en": "Ebola Virus Disease",
+      "aliases_zh": [
+        "埃博拉出血热",
+        "埃博拉病",
+        "丝状病毒出血热"
+      ],
+      "icd10": [
+        "A98.4"
+      ],
+      "icd11": [
+        "1D60.0"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "极高致死性烈性丝状病毒传染病，起病后迅速进展为严重水样腹泻、低血容量性休克、凝血功能障碍及多器官功能衰竭，多在起病6–16天内死亡。历次暴发平均病死率约50%（不同暴发在25%–90%之间）。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "针对扎伊尔型埃博拉（Zaire ebolavirus）已有两种FDA批准的单抗特效药（Inmazeb、Ebanga）及获批疫苗（Ervebo），配合早期强力补液可显著降低死亡率；但苏丹型等其他亚型目前尚无获批特效抗病毒药或疫苗，仍主要依赖早期重症液体与器官支持。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "呈间歇暴发性流行，无固定年死亡基线。历次暴发平均病死率约50%（25%–90%）；2025年乌干达暴发苏丹型埃博拉病毒病疫情共确诊14例、死亡4例（2025年4月26日宣布结束）。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": 0,
+          "range_or_note": "2024年及既往全国法定监测记录均为0例输入或本土病例、0例死亡。",
+          "year": "2024",
+          "source": "国家疾病预防控制局全国传染病监测通报"
+        },
+        "prevalence_global": "局限暴发于中非、东非及西非地区，人际通过破损皮肤/黏膜接触感染者体液、血液及遗体传播，医护防护极为关键。",
+        "prevalence_china": "中国本土零流行，列为最高级别口岸检疫与生物安全四级/甲类管理防控目标传染病。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "即刻转入负压隔离病房（BSL-3/4级防护标准，双层防护服防体液泼溅与气溶胶操作）；第一时间强力静脉晶体液及电解质复苏纠正致死性低血容量与低钾/低钠血症；对确诊扎伊尔型病例尽早静脉输注Inmazeb或Ansuvimab（Ebanga）；合并休克及AKI/呼衰时给予升压药、吸氧、血液净化及广谱抗继发细菌脓毒症治疗。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿替韦单抗/马夫替韦单抗/奥德昔单抗注射液（Inmazeb）",
+            "name_en": "Atoltivimab / Maftivimab / Odesivimab (Inmazeb)",
+            "drug_class": "三联抗埃博拉糖蛋白单克隆抗体",
+            "usage_role": "FDA批准用于扎伊尔型埃博拉病毒病成人及儿童患者的特异性特效治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "安苏韦单抗（Ebanga）",
+            "name_en": "Ansuvimab (Ebanga)",
+            "drug_class": "单克隆抗体",
+            "usage_role": "FDA批准用于扎伊尔型埃博拉病毒病患者的特异性抗病毒治疗（PALM研究证实显著降低病死率）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "重组水泡性口炎病毒埃博拉疫苗（Ervebo）",
+            "name_en": "rVSV-ZEBOV (Ervebo)",
+            "drug_class": "病毒载体减毒活疫苗",
+            "usage_role": "FDA及WHO推荐用于扎伊尔型埃博拉高危暴露人群及环状接种预防",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "严格传染病负压隔离及最高等级个人防护（PPE）",
+          "早期积极静脉补液、电解质平衡与连续性肾脏替代治疗",
+          "疫情期间安全丧葬管理及密接环状追踪"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "扎伊尔型已有Inmazeb、Ebanga及Ervebo疫苗获批；2025年乌干达苏丹型埃博拉暴发期间，WHO牵头迅速开展了针对苏丹型（SUDV）的候选重组水泡口炎疫苗（rVSV-SUDV）及单克隆抗体（MBP134）应急临床试验与环状接种评估。",
+        "key_unmet_needs_zh": "苏丹型（Sudan ebolavirus）和本迪布焦型目前仍无正式获批上市的特异性单抗药物及广谱丝状病毒疫苗；非洲一线早期诊断与冷链配送能力不足。"
+      },
+      "sources": [
+        {
+          "title": "Ebola disease - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease",
+          "publisher": "WHO",
+          "year": "2023"
+        },
+        {
+          "title": "Ebola and Marburg haemorrhagic fevers: outbreaks and case locations (Uganda 2025)",
+          "url": "https://www.gov.uk/guidance/ebola-and-marburg-haemorrhagic-fevers-outbreaks-and-case-locations",
+          "publisher": "UK Health Security Agency (UKHSA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005784",
+      "name_zh": "肾综合征出血热（流行性出血热）",
+      "name_en": "Hemorrhagic Fever with Renal Syndrome (HFRS)",
+      "aliases_zh": [
+        "流行性出血热",
+        "汉坦病毒出血热",
+        "HFRS"
+      ],
+      "icd10": [
+        "A98.5"
+      ],
+      "icd11": [
+        "1D62.0"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "汉坦病毒感染引起全身小血管与毛细血管内皮损伤，典型经“发热期-低血压休克期-少尿期-多尿期-恢复期”五期演变；可于起病数日至1周内突发难治性低血压休克、急性肾衰竭、消化道大出血或肺水肿致死；规范救治下国内病死率现已降至1%–3%以下。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "虽无极高效抗汉坦病毒特效靶向药，但早期“三早一就”（早发现、早休息、早治疗、就近治疗）抗休克、防肺水肿及少尿期血液透析过渡绝大多数患者可完全康复、肾功能恢复正常。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO全球死因不单列HFRS条目；全球大多数HFRS病例集中在中国（其次为俄罗斯及东亚、欧洲部分地区），现代综合重症救治下总病死率约<1%–3%（汉滩病毒型较汉城病毒型更重）。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": 12,
+          "range_or_note": "2024年国家疾控局法定报告传染病显示全国报告流行性出血热4,259例、死亡12例（发病率0.3026/10万），陕西、黑龙江、国内部分地区、湖南等重点疫区高发，冬季及春季呈双峰特征。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况 / China CDC Weekly 2025"
+        },
+        "prevalence_global": "全球每年报告数万例HFRS，中国在历史上及当前仍占全球报告病例的绝大多数，主要由啮齿类动物（黑线姬鼠、褐家鼠）经气溶胶、接触或消化道传播。",
+        "prevalence_china": "中国属于乙类法定传染病重点防控区，每年报告数千例，呈明显农村秋收及冬春鼠媒季节性流行。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "发热早期即高度疑似并落实“三早一就”卧床休息（切忌长途颠簸）；严密监测血压、尿量及血小板/血红蛋白浓缩指标；低血压休克期快速以平衡盐晶体液及白蛋白/血浆扩容并短程去甲肾上腺素升压，避免过量补液诱发脑/肺水肿；少尿期严格“量出为入”，出现高血钾、尿毒症或高容量肺水肿立即行血液透析/CRRT治疗；防治腔道大出血。",
+        "standard_drugs": [
+          {
+            "name_zh": "利巴韦林注射液",
+            "name_en": "Ribavirin",
+            "drug_class": "广谱核苷类抗病毒药",
+            "usage_role": "病程早期（发热前4天内）辅助抗汉坦病毒治疗（临床指南建议早期慎用评估，重在支持治疗）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "双价肾综合征出血热灭活疫苗",
+            "name_en": "Bivalent HFRS Inactivated Vaccine (Hantaan/Seoul)",
+            "drug_class": "灭活病毒疫苗",
+            "usage_role": "中国高流行疫区16–60岁人群免费/重点主动免疫预防",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "低血压休克期精准补液扩容与血管渗漏监控",
+          "少尿期急性肾衰竭血液透析或连续性肾脏替代治疗（CRRT）",
+          "疫区防鼠灭鼠、粮食防污染及适龄高危群众疫苗接种"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "国内已大规模推广双价灭活疫苗显著压低高发区发病与重症率；靶向汉坦病毒包膜糖蛋白的中和单克隆抗体、抑制内皮通透性的血管渗漏阻断剂及多价核酸/DNA疫苗正在I/II期试验推进中。",
+        "key_unmet_needs_zh": "发病后仍缺少能够即时阻止内皮渗漏和肾损伤的高效特异性抗病毒单抗或小分子药物；农村务农人员对早期发热类似感冒症状易误诊误治。"
+      },
+      "sources": [
+        {
+          "title": "Epidemiological profile of hemorrhagic fever with renal syndrome in China",
+          "url": "https://weekly.chinacdc.cn/ys/article/doi/10.46234/ccdcw2025.141",
+          "publisher": "China CDC Weekly",
+          "year": "2025"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0015766",
+      "name_zh": "霍乱",
+      "name_en": "Cholera",
+      "aliases_zh": [
+        "甲类霍乱",
+        "产毒霍乱弧菌急性腹泻"
+      ],
+      "icd10": [
+        "A00"
+      ],
+      "icd11": [
+        "1A00"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "O1/O139群产毒霍乱弧菌引起剧烈“米泔水样”水泻与呕吐；重度病例若未及早补液，可在数小时内因极度脱水、低血容量性休克、严重低钾血症及代谢性酸中毒死亡，未治疗重症病死率高达50%以上。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "急救与治愈高度确定：及时足量口服补液盐（ORS）或快速静脉乳酸林格氏液复苏可将病死率压低至1%以下，抗生素辅助可缩短排菌与腹泻时间。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 6028,
+          "range_or_note": "WHO 2025年《流行病学周报》统计2024年全球60个国家和地区官方报告霍乱病例逾56万例、死亡6,028例（死亡人数较2023年的4,000+例骤增50%）；WHO同时估算全球实际每年约130万–400万例感染、21,000–143,000例死亡。",
+          "year": "2024",
+          "source": "WHO Weekly Epidemiological Record (2025) / WHO Cholera Fact Sheet"
+        },
+        "annual_deaths_china": {
+          "value": 0,
+          "range_or_note": "中国将霍乱列为甲类传染病严格管控；2024年国家疾控局法定传染病统计全年仅报告霍乱10例、死亡0例。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况"
+        },
+        "prevalence_global": "2024年受气候灾害、武装冲突与饮水卫生崩溃驱动，非洲、东地中海及美洲多国持续暴发霍乱疫情，口服霍乱疫苗全球库存长期紧缺。",
+        "prevalence_china": "国内以偶发散发病例为主，依靠完善的饮水卫生监测与肠道门诊筛查维持极低发病率与零死亡。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "甲类传染病即刻肠道隔离并网络直报；根据脱水程度立即启动液体复苏：轻中度脱水首选低渗口服补液盐（ORS），重度脱水伴休克或持续呕吐者即刻建立大口径双静脉通路，快速静滴林格氏乳酸钠溶液或生理盐水（前30分钟可予30 mL/kg快速纠正休克，随后补足累积丢失量并加钾预防致死性低钾）；同步口服多西环素或阿奇霉素缩短病程并减少排菌，儿童补锌。",
+        "standard_drugs": [
+          {
+            "name_zh": "口服补液盐散（III）",
+            "name_en": "Oral Rehydration Salts (ORS)",
+            "drug_class": "低渗电解质葡萄糖复方制剂",
+            "usage_role": "霍乱轻中度脱水一线根本救命治疗及静脉复苏后序贯维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "乳酸钠林格注射液",
+            "name_en": "Lactated Ringer's Solution",
+            "drug_class": "等渗平衡晶体补液剂",
+            "usage_role": "重度脱水伴休克时迅速恢复血容量与纠正酸中毒的核心急救液",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "阿奇霉素片/盐酸多西环素片",
+            "name_en": "Azithromycin / Doxycycline",
+            "drug_class": "大环内酯类 / 四环素类抗生素",
+            "usage_role": "中重度霍乱辅助抗菌，缩短腹泻持续时间约50%并减少粪便排菌",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "甲类传染病严格消化道隔离与排泄物终末消毒",
+          "高风险疫区口服霍乱疫苗（OCV）与安全饮用水及卫生设施保障"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "新型单剂/简化配方口服霍乱疫苗（如Euvichol-S）于2024年获WHO预认证以提高全球受灾区疫苗产能；国内重度脱水口服补液盐标准化与甲类传染病哨点实时快检持续巩固零死亡。",
+        "key_unmet_needs_zh": "全球动荡与洪涝区净水基础设施缺乏及口服疫苗产能远落后于爆发需求；部分弧菌株对传统抗生素耐药率上升。"
+      },
+      "sources": [
+        {
+          "title": "Cholera - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cholera",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Cholera annual report 2024 - Weekly Epidemiological Record",
+          "url": "https://www.who.int/publications/i/item/who-wer10036-347-364",
+          "publisher": "WHO WER",
+          "year": "2025"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005136",
+      "name_zh": "疟疾",
+      "name_en": "Malaria",
+      "aliases_zh": [
+        "打摆子",
+        "恶性疟",
+        "脑型疟"
+      ],
+      "icd10": [
+        "B50",
+        "B54"
+      ],
+      "icd11": [
+        "1F40"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "按蚊叮咬传播疟原虫，其中恶性疟原虫增殖迅速且阻塞脑及器官微循环；若未能尽早识别给药，重症脑型疟可在起病数日乃至24–48小时内因昏迷、惊厥、严重溶血性贫血、酸中毒或急性肾衰竭死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "青蒿素联合疗法（ACT）及重症静脉注射青蒿琥酯可迅速杀灭血内疟原虫，早期诊断与足疗程用药可实现100%寄生虫清除治愈；延误诊治的输入性恶性疟仍是我国输入性传染病的重要死因。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 610000,
+          "range_or_note": "WHO 2025年世界疟疾报告及实况更新显示，2024年全球80个疟疾流行国家与地区共发生约2.82亿例病例、610,000例死亡（非洲占死亡95%，其中约75%为5岁以下儿童；2023年为2.63亿例、597,000例死亡）。",
+          "year": "2024",
+          "source": "WHO Malaria Fact Sheet / World Malaria Report 2025"
+        },
+        "annual_deaths_china": {
+          "value": 15,
+          "range_or_note": "2024年国家疾控局报告全国疟疾2,783例、死亡15例（几乎全部为境外务工/商旅输入性病例）；中国自2017年起实现本土原发病例连续零报告，并于2021年6月获WHO消除疟疾认证。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况"
+        },
+        "prevalence_global": "全球近半数人口面临感染风险，非洲撒哈拉以南地区承受全球90%以上疟疾发病与死亡负担。",
+        "prevalence_china": "本土已彻底消除，每年仍有2,000余例非洲/东南亚输入性病例，因临床警惕性不足导致延误就诊是造成极少数输入性恶性疟死亡的主因。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "对所有非洲/东南亚归国不明原因高热者第一时间询问疫区史并立即行血涂片镜检与疟原虫RDT快检；确诊重症疟疾或脑型疟立即静脉注射青蒿琥酯（2.4 mg/kg首剂，随后12h、24h及每日一次直到可口服，完成后接续完整3日口服ACT疗程）；同步防治低血糖、高热惊厥、重度贫血（输血）、肺水肿及急性肾损伤；轻症非复杂恶性疟即刻口服ACT。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用青蒿琥酯",
+            "name_en": "Artesunate for Injection",
+            "drug_class": "青蒿素衍生物（半合成倍半萜内酯）",
+            "usage_role": "WHO全球与中国指南一致推荐的重症疟疾与脑型疟疾挽救生命绝对首选一线静脉用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "30–50元/支（国家常规临床用药目录，部分地区疾控亦纳入专项免费/储备供给）",
+            "cost_source": "国家常规临床用药目录 / 地方医疗机构采购价"
+          },
+          {
+            "name_zh": "双氢青蒿素哌喹片",
+            "name_en": "Dihydroartemisinin-Piperaquine (DHA-PPQ)",
+            "drug_class": "青蒿素联合疗法复方制剂（ACT）",
+            "usage_role": "非重症恶性疟及各种疟疾一线口服3日根治方案（及静脉青蒿琥酯后序贯收尾）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "40–60元/盒（国家常规临床药品目录内，中国原研青蒿素复方）",
+            "cost_source": "国家常规临床药品目录"
+          },
+          {
+            "name_zh": "磷酸伯氨喹片",
+            "name_en": "Primaquine",
+            "drug_class": "8-氨基喹啉类抗疟药",
+            "usage_role": "清除间日疟、卵形疟肝内休眠子防止远期复发（用药前必须筛查G6PD缺乏症防急性溶血）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "脑型疟重症监护、输血纠正重度贫血、脱水降颅压与血液透析",
+          "非洲儿童大规模接种RTS,S与R21/Matrix-M疟疾疫苗及药浸蚊帐防蚊",
+          "中国“1-3-7”输入性疟疾快速排查阻断本土再传播工作机制"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "全球第二款高效疟疾疫苗R21/Matrix-M于2023年底获WHO预认证并从2024年起在非洲多国铺开；针对东南亚与东非部分地区青蒿素部分耐药（Pfkelch13突变），三联青蒿素方案（TACT）与全新作用靶点非青蒿素抗疟药（如ganaplacide/lumefantrine III期）正推进临床；中国“复方双氢青蒿素+1-3-7模式”被WHO全球推广。",
+        "key_unmet_needs_zh": "非洲部分区域青蒿素部分耐药苗头已出现；部分中国非疫区临床医生对回国人员恶性疟发热识别不敏锐导致少数输入病例遗憾病亡。"
+      },
+      "sources": [
+        {
+          "title": "Malaria - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+          "publisher": "WHO",
+          "year": "2025"
+        },
+        {
+          "title": "World Malaria Report 2024",
+          "url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005502",
+      "name_zh": "登革热与重症登革热",
+      "name_en": "Dengue and Severe Dengue",
+      "aliases_zh": [
+        "登革出血热",
+        "登革休克综合征",
+        "断骨热"
+      ],
+      "icd10": [
+        "A90",
+        "A91"
+      ],
+      "icd11": [
+        "1D2Z"
+      ],
+      "category": "急症与罕见高危传染病 (High-Consequence Infectious Disease)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "由伊蚊传播4个血清型登革病毒；多数患者自限，但在退热前后第3–7天关键期部分患者（尤其二次不同血清型感染者）可突发严重血浆渗漏、低血容量性休克、大出血及器官损伤，未及时精细补液可在12–24小时内休克致死。",
+      "treatability_status": "symptomatic_only",
+      "treatability_summary_zh": "尚无针对登革病毒的特异性抗病毒药，但早期识别预警指征并在关键渗漏期实施严格、精准、分阶段的液体管理，可将重症登革热病死率从>20%压降至1%以下，患者通常在1–2周内完全康复。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 11201,
+          "range_or_note": "WHO《流行病学周报》披露2024年为全球历史最高纪录年份，共向WHO报告14,434,584例病例、52,738例重症及11,201例死亡，覆盖全部6个WHO大区；WHO估算每年实际总感染数约1亿–4亿人次。",
+          "year": "2024",
+          "source": "WHO Weekly Epidemiological Record (2025) / WHO Dengue Fact Sheet"
+        },
+        "annual_deaths_china": {
+          "value": 0,
+          "range_or_note": "2024年受气候与跨境输入驱动，中国国家疾控局共报告登革热24,278例、死亡0例，疫情主要集中于广东、云南等夏秋季南方省份。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况"
+        },
+        "prevalence_global": "全球约一半人口生活于登革热流行高风险区，2024年美洲、东南亚及西太平洋暴发规模空前。",
+        "prevalence_china": "属乙类法定传染病，虽以输入引发的夏秋季南方本地暴发为主，随媒介伊蚊分布北移，需加强预警与医院精细化补液培训。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "严密监测退热期危险预警信号（持续腹痛、频繁呕吐、黏膜出血、嗜睡烦躁、肝大及红细胞压积HCT急剧升高伴血小板骤降）；禁用阿司匹林及布洛芬等NSAIDs（极易诱发致命出血），退热仅用对乙酰氨基酚；发生血浆渗漏休克立即予以精准等渗晶体液（必要时胶体液）逐小时滴定复苏并严防渗漏恢复期肺水肿。",
+        "standard_drugs": [
+          {
+            "name_zh": "对乙酰氨基酚片",
+            "name_en": "Paracetamol (Acetaminophen)",
+            "drug_class": "解热镇痛药",
+            "usage_role": "登革热高热及剧烈骨关节痛唯一安全推荐解热镇痛药（严格禁用阿司匹林和布洛芬）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "减毒四价登革热疫苗（Qdenga / TAK-003）",
+            "name_en": "Dengue Tetravalent Vaccine (TAK-003)",
+            "drug_class": "四价减毒活疫苗",
+            "usage_role": "2024年5月获WHO预认证，推荐用于高传播流行区6–16岁儿童与青少年预防（中国暂未纳入常规上市/常规药品保障）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "关键期血细胞比容（HCT）、血小板与出入量每1–4小时严密动态监测及分阶段静脉精准补液",
+          "防蚊隔离（发病期住院病床加挂蚊帐防媒介伊蚊再次传播）",
+          "流行地区爱国卫生清理积水与灭蚊"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "WHO于2024年5月对新型四价减毒登革热疫苗Qdenga（TAK-003）给予预认证（不再强制要求预先血清学筛查）；巴西Butantan单剂四价疫苗Butantan-DV完成III期保护率验证；小分子抗登革NS4B抑制剂（如mosnodenvir等）已开展人挑战与临床研发。",
+        "key_unmet_needs_zh": "全球尚无获批的特效直接抗登革病毒小分子口服药物；二次感染抗体依赖增强效应（ADE）导致的血管渗漏精准阻断手段不足。"
+      },
+      "sources": [
+        {
+          "title": "Dengue and severe dengue - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Global dengue surveillance, 2024 - WHO Weekly Epidemiological Record",
+          "url": "https://www.who.int/publications/i/item/who-wer10052-665-678",
+          "publisher": "WHO WER",
+          "year": "2025"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002076",
+      "name_zh": "急性自发性气胸",
+      "name_en": "Acute Spontaneous Pneumothorax",
+      "aliases_zh": [
+        "自发性气胸",
+        "张力性气胸",
+        "原发性/继发性自发性气胸"
+      ],
+      "icd10": [
+        "J93.0",
+        "J93.1"
+      ],
+      "icd11": [
+        "CB21"
+      ],
+      "category": "急重症呼吸 (Acute Respiratory Failure)",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "脏层胸膜及肺大疱破裂使气体急剧涌入胸膜腔压迫肺脏；若演变为“张力性气胸”或发生于严重基础肺病（COPD、肺大疱、囊性肺病）基础上，纵隔移位阻断腔静脉回流，数分钟至数小时内即可诱发致命性循环呼吸骤停。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "张力性气胸经现场数分钟内粗针穿刺减压及后续胸腔闭式引流可立竿见影挽救生命；行胸腔镜下肺大疱切除与胸膜固定术可治愈并大幅降低复发。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO全球死因不单列气胸；年轻瘦高男性原发性自发性气胸（PSP）经及时救治病死率<1%，但继发性自发性气胸（SSP）及张力性气胸延误救治具有明确急性致死风险。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无全国单列死亡人数；国内队列研究提示合并COPD、肺结核或罕见弥漫性囊性肺病（如BHD综合征、LAM）的继发性气胸及双侧气胸危险度明显升高。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "原发性自发性气胸（PSP）年发病率男性约18–28/10万，女性约1.2–6/10万，吸烟使发病风险提高数倍至二十倍；5年复发率保守治疗可达近半。",
+        "prevalence_china": "是中国胸外科与呼吸急诊极为常见的急性胸痛呼吸困难急症，年轻瘦高男性剧烈运动/屏气及老年COPD肺大疱患者尤为高发。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "疑诊张力性气胸（极度呼吸困难、患侧呼吸音消失叩诊鼓音、颈静脉怒张、休克低血压、气管移向健侧）切勿等待拍胸片！即刻于患侧锁骨中线第2肋间或腋前/中线第4–5肋间行粗针头穿刺减压放气，随后立即行胸腔闭式引流；非张力性大量气胸立即高浓度吸氧（加速胸腔气体吸收）并行细管/闭式引流；持续漏气、血气胸或复发病例尽早行胸腔镜（VATS）手术修补与胸膜固定。",
+        "standard_drugs": [
+          {
+            "name_zh": "医用氧气（高流量吸氧治疗）",
+            "name_en": "Supplemental Oxygen Therapy",
+            "drug_class": "呼吸气体治疗",
+            "usage_role": "在保守观察或引流期间经氮气洗脱效应将胸膜腔空气吸收速率提高约4倍（慢阻肺高碳酸血症患者需调节滴定）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "盐酸利多卡因注射液",
+            "name_en": "Lidocaine Hydrochloride",
+            "drug_class": "局部酰胺类麻醉药",
+            "usage_role": "胸腔穿刺减压及胸腔闭式引流管置入术标准局麻镇痛",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "张力性气胸即刻针刺穿刺急救排气",
+          "胸腔闭式引流术（水封瓶负压吸引）",
+          "电视胸腔镜（VATS）肺大疱切除与机械/滑石粉胸膜固定术（可将5年复发率由约48.5%降至12.1%）"
+        ],
+        "annual_total_cost_china_cny": "单纯胸腔闭式引流住院约3,000–8,000元；行胸腔镜（VATS）微创手术住院约10,000–25,000元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "2023年英国BTS气胸指南突破性支持符合指征的无严重症状患者行门诊便携导管/保守随访治疗，减少住院与创伤；中国队列卫生经济学研究证实，相比单纯引流保守治疗，早期VATS可将5年复发率从48.5%大幅压低至12.1%且具有成本效果（ICER约160,300元/QALY）；年轻患者复发或家族气胸越来越常规筛查FLCN（BHD综合征）基因。",
+        "key_unmet_needs_zh": "院前对张力性气胸与急性心梗/肺栓塞的鉴别延迟可致命；年轻反复气胸背后遗传性肺囊性疾病基因诊断普及率仍待提高。"
+      },
+      "sources": [
+        {
+          "title": "Cost-effectiveness of VATS versus conservative treatment for spontaneous pneumothorax in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12964978/",
+          "publisher": "PMC",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0006052",
+      "name_zh": "肺结核（含耐多药肺结核 MDR-TB）",
+      "name_en": "Pulmonary Tuberculosis (including MDR-TB)",
+      "aliases_zh": [
+        "肺痨",
+        "结核病",
+        "耐多药/利福平耐药肺结核 (MDR/RR-TB)"
+      ],
+      "icd10": [
+        "A15.0",
+        "A16.2"
+      ],
+      "icd11": [
+        "1B10.0"
+      ],
+      "category": "重大传染病 (Major Notifiable Infectious Disease)",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "由结核分枝杆菌经空气飞沫传播引起慢性破坏性肺部传染病，但重症粟粒性肺结核、结核性脑膜炎或突发大咯血可在数日至数周内致死；未规律治疗病例5年病死率可达50%以上，仍高居全球单一传染病原死因首位。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "药物敏感肺结核经6个月规范联合化疗治愈率超过85%–90%；既往疗程长达18–24个月且毒性大的耐多药肺结核（MDR/RR-TB），现已进入“全口服短程6个月BPaL/BPaLM时代”，治愈率显著跃升至约85%–90%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 1130000,
+          "range_or_note": "WHO 2025年结核病实况统计2025年全球约1,060万人新发结核病、113万人死于结核病（含13.7万名HIV合并感染者）；此前2024年全球报告为2023年约1,080万发病例、125万死亡、40万例MDR/RR-TB。",
+          "year": "2025",
+          "source": "WHO Tuberculosis Fact Sheet (2025/2026)"
+        },
+        "annual_deaths_china": {
+          "value": 27000,
+          "range_or_note": "WHO全球结核病报告估算中国2023年结核病死亡约27,000例、新发估算约74.1万例（含约2.9万例MDR/RR-TB）；2024年中国法定传染病被动监测直接登记肺结核569,081例、死亡1,989例。",
+          "year": "2023",
+          "source": "WHO Global Tuberculosis Report 2024 / 国家疾控局"
+        },
+        "prevalence_global": "全球每年新发逾千万例且约四分之一世界人口处于结核潜伏感染状态，MDR/RR-TB治疗覆盖与高额费用仍为全球防控瓶颈。",
+        "prevalence_china": "中国属于全球30个结核病及MDR/RR-TB高负担国家之一，耐多药率与老年内源性复燃病例负担仍十分突出。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "遇突发大咯血（单次≥100 mL或24小时≥500 mL）即刻患侧卧位防血块阻塞健侧支气管窒息、保持气道通畅、静脉予垂体后叶素止血（无高血压禁忌时），内科无效急诊行支气管动脉栓塞术（BAE）；疑诊粟粒性肺结核并发ARDS或结核性脑膜炎尽早联合全身糖皮质激素与强效抗结核；疑似患者同步快速Xpert MTB/RIF分子耐药检测避免单药加药导致耐药放大。",
+        "standard_drugs": [
+          {
+            "name_zh": "异烟肼/利福平/吡嗪酰胺/乙胺丁醇标准四联（HRZE）",
+            "name_en": "Isoniazid / Rifampicin / Pyrazinamide / Ethambutol",
+            "drug_class": "一线抗结核固定剂量复合/联合方案",
+            "usage_role": "药物敏感型活动性肺结核标准6个月根治一线方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家免费提供一线基础抗结核核心药品（公卫减免项目）",
+            "cost_source": "国家免费抗结核药物公共卫生政策 / 国家常规基础药物"
+          },
+          {
+            "name_zh": "富马酸贝达喹啉片",
+            "name_en": "Bedaquiline",
+            "drug_class": "二芳基喹啉类ATP合酶抑制剂",
+            "usage_role": "WHO及中国指南推荐的耐多药肺结核（MDR/RR-TB）全口服短程核心基石药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约7,920–8,400元/盒（100mg×24片，常规目录药物限MDR-TB报销）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "普托马尼片（普瑞尼）",
+            "name_en": "Pretomanid",
+            "drug_class": "硝基咪唑并噁嗪类抗结核新药",
+            "usage_role": "构成全球革命性全口服6个月BPaL/BPaLM短程方案的关键新药，2024年底NMPA获批并于2025年国谈纳入常规药品保障",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2025年常规药品保障谈判纳入目录（2026年1月1日执行，个人自付比例通常约5%；此前6个月疗程全自费近9万元）",
+            "cost_source": "2025年国家常规临床药品目录 / China CDC Weekly 2026"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "国家结核病定点医院呼吸道隔离与直接面视下短程督导服药（DOTS）",
+          "大咯血急诊支气管动脉栓塞术（BAE）或耐药毁损肺外科肺叶切除",
+          "耐多药分子快速诊断（Xpert/全基因组测序）与营养支持"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "全口服6个月BPaLM方案（贝达喹啉+普托马尼+利奈唑胺+莫西沙星）取代了既往18–24个月含痛苦耳毒注射剂的传统方案；中国普托马尼于2025年底成功纳入国家常规临床药品目录（2026年1月1日执行，大幅压低9万元自费壁垒）；针对敏感结核的超短4个月利福喷丁-莫西沙星方案及M72/AS01E重组结核疫苗进入III期全球多中心临床试验。",
+        "key_unmet_needs_zh": "对贝达喹啉和氟喹诺酮双耐药的准广泛/广泛耐药结核（pre-XDR/XDR）仍缺少低毒高屏障新药；早期无症状潜伏感染筛查与偏远农村患者失访率仍制约消除速度。"
+      },
+      "sources": [
+        {
+          "title": "Tuberculosis - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+          "publisher": "WHO",
+          "year": "2026"
+        },
+        {
+          "title": "Pretomanid inclusion in China NRDL and access for MDR-TB",
+          "url": "https://weekly.chinacdc.cn/article/doi/10.46234/ccdcw2026.106",
+          "publisher": "China CDC Weekly",
+          "year": "2026"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005366",
+      "name_zh": "慢性乙型病毒性肝炎",
+      "name_en": "Chronic Hepatitis B (HBV)",
+      "aliases_zh": [
+        "慢性乙肝",
+        "乙型肝炎",
+        "HBV慢性感染"
+      ],
+      "icd10": [
+        "B18.1"
+      ],
+      "icd11": [
+        "1E51.0"
+      ],
+      "category": "重大传染病 (Major Notifiable Infectious Disease)",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "潜隐性持续肝细胞炎症坏死经过10–30年演变为肝硬化、肝功能失代偿、慢加急性肝衰竭（ACLF）及肝细胞癌（HCC）；中国肝癌病例绝大多数与慢性HBV感染相关。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "口服高耐药屏障核苷（酸）类似物（恩替卡韦、替诺福韦TDF/TAF）长期治疗可强效抑制病毒复制、逆转早期肝纤维化并大幅降低肝硬化和肝癌风险，年药费因集采低至百元左右，但多数患者目前需长期维持；聚乙二醇干扰素联合方案可使部分优势患者获得“临床治愈”（HBsAg清除）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 1100000,
+          "range_or_note": "WHO 2024年肝炎实况估计全球约2.4亿名慢性乙肝病毒携带者/患者（每年新发约90万例），2024年主要因肝硬化及肝细胞癌致死达110万人（病毒性肝炎合并死亡占每日约3,500人）。",
+          "year": "2024",
+          "source": "WHO Hepatitis B Fact Sheet (2024)"
+        },
+        "annual_deaths_china": {
+          "value": 219000,
+          "range_or_note": "GBD 2021中国HBV相关肝病负担研究估算中国每年约219,000例死于乙肝相关肝硬化与肝癌（ASMR已从23.86降至10.68/10万）；2024年国家疾控局直接报告当年就诊乙肝病例1,174,288例、急性/直接登记死亡301例（未含远期HCC）。",
+          "year": "2021",
+          "source": "GBD 2021 China HBV Burden Study (PMC12404462) / NDCPA"
+        },
+        "prevalence_global": "全球约2.4亿慢性HBV感染者，但诊断率（仅约13%）与抗病毒治疗覆盖率（约3%）仍极低，西太平洋与非洲区负担最重。",
+        "prevalence_china": "中国现存慢性HBV感染者约7,500万–8,600万人，新生儿普种乙肝疫苗结合母婴阻断已将5岁以下儿童感染率降至1%以下，存量成人及中老年肝硬化/肝癌筛查治理为主战场。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "恩替卡韦片/分散片",
+            "name_en": "Entecavir",
+            "drug_class": "核苷类似物（HBV多聚酶抑制剂）",
+            "usage_role": "中国慢性乙肝抗病毒绝对一线口服低耐药核心药，集采惠民代表药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "<0.2元/片（年药费仅数十元至约70元人民币）",
+            "cost_source": "国家集中带量采购价格 / 地方常规药品保障挂网公示"
+          },
+          {
+            "name_zh": "富马酸替诺福韦二吡呋酯片（TDF）",
+            "name_en": "Tenofovir Disoproxil Fumarate (TDF)",
+            "drug_class": "核苷酸类似物（高耐药屏障）",
+            "usage_role": "一线口服抗病毒及妊娠中晚期母婴阻断首选（近零耐药）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约0.3元/片（年药费约150元人民币）",
+            "cost_source": "国家集中带量采购价格"
+          },
+          {
+            "name_zh": "富马酸丙酚替诺福韦片（TAF）",
+            "name_en": "Tenofovir Alafenamide (TAF)",
+            "drug_class": "二代靶向肝细胞替诺福韦前药",
+            "usage_role": "兼具极高病毒抑制力与显著改善的肾脏/骨骼安全性（第7批国采覆盖）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产中选低至约0.32元/片（第7批国家集采）",
+            "cost_source": "国家常规目录药物 / 第7批国家集采"
+          },
+          {
+            "name_zh": "聚乙二醇干扰素α-2b/2a注射液",
+            "name_en": "Peginterferon alfa",
+            "drug_class": "长效免疫调节细胞因子",
+            "usage_role": "HBeAg阳性或低HBsAg水平优势人群追求表面抗原清除“临床治愈”的重要联合药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "每6个月定期肝脏超声+甲胎蛋白（AFP）肝癌早筛",
+          "新生儿出生12小时内“乙肝疫苗+乙肝免疫球蛋白”联合母婴阻断",
+          "代偿/失代偿肝硬化门脉高压食管胃底静脉曲张内镜套扎及失代偿人工肝/肝移植评估"
+        ],
+        "annual_total_cost_china_cny": "单纯一线口服集采抗病毒药物（恩替卡韦/TDF/TAF）年药费仅约70–150元；联合聚乙二醇干扰素追求临床治愈方案年费明显更高"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "中国《慢性乙型肝炎防治指南》已将抗病毒指征大幅放宽（“全治/扩治”策略减少漏网肝癌）；在研反义寡核苷酸药物Bepirovirsen及多款siRNA（小干扰RNA）+衣壳装配调节剂+治疗性疫苗联合方案已推进至全球及中国III期临床试验（如B-Well等），旨在显著突破HBsAg清除实现“功能性治愈”。",
+        "key_unmet_needs_zh": "由于肝细胞核内cccDNA与整合HBV DNA难以彻底消除，口服药停药复发率高需终身服药；现有干扰素方案临床治愈率及耐受性仍受限于低基线表面抗原人群。"
+      },
+      "sources": [
+        {
+          "title": "Hepatitis B - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "WHO sounds alarm on viral hepatitis infections claiming 3,500 lives each day",
+          "url": "https://www.who.int/news/item/09-04-2024-who-sounds-alarm-on-viral-hepatitis-infections-claiming-3500-lives-each-day",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Burden of HBV-related liver disease in China, GBD 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12404462/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005354",
+      "name_zh": "慢性丙型病毒性肝炎",
+      "name_en": "Chronic Hepatitis C (HCV)",
+      "aliases_zh": [
+        "慢性丙肝",
+        "丙型肝炎",
+        "可治愈病毒性肝炎"
+      ],
+      "icd10": [
+        "B18.2"
+      ],
+      "icd11": [
+        "1E51.1"
+      ],
+      "category": "重大传染病 (Major Notifiable Infectious Disease)",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "经血液、不安全注射及母婴等途径传播，急性感染约55%–85%转为慢性；隐匿进展15–30年可导致肝硬化、终末期肝病及肝细胞癌。全球年死亡逾23.9万人。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "人类传染病史上的彻底突破：全口服泛基因型直接抗病毒药物（DAA，如索磷布韦维磷他韦“丙通沙”）仅需8–12周规范服药即可使95%–99%以上患者实现持续病毒学应答（SVR12），即彻底病毒学根治治愈，且已纳入中国常规药品保障谈判目录。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 239000,
+          "range_or_note": "WHO 2024年丙肝实况报告全球约4,700万名慢性丙肝感染者（年新发约90万例），2024年主要因肝硬化与肝癌导致死亡约239,000例（2024年肝炎报告基线约5,000万人、24.2万死亡）。",
+          "year": "2024",
+          "source": "WHO Hepatitis C Fact Sheet (2024)"
+        },
+        "annual_deaths_china": {
+          "value": 2913,
+          "range_or_note": "2024年国家疾控局直接报告丙肝发病164,616例、法定报告直接死亡2,913例（该法定报告数字未全部归因统计既往漏诊慢性丙肝引发的远期肝癌与失代偿肝硬化死亡）。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况"
+        },
+        "prevalence_global": "全球约4,700万慢性HCV患者，仅约36%获得明确诊断，且仅约20%（约1,250万人）实际接受了可治愈的DAA治疗。",
+        "prevalence_china": "中国估算现存慢性丙肝病毒感染者约760万人左右，大量20世纪90年代前既往输血/不安全注射人群尚未筛查确诊。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "索磷布韦维磷他韦片（丙通沙）",
+            "name_en": "Sofosbuvir / Velpatasvir",
+            "drug_class": "泛基因型直接抗病毒复方制剂（NS5B+NS5A抑制剂）",
+            "usage_role": "不分基因型口服每日一片、12周实现>95%–99%彻底根治的全球/中国一线基石用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "4,368元/瓶（28片，12周全疗程3瓶报销前约13,104元，降幅超80%）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "艾尔巴韦格拉瑞韦片（择必达）",
+            "name_en": "Elbasvir / Grazoprevir",
+            "drug_class": "基因1/4型直接抗病毒药物（DAA）",
+            "usage_role": "经国谈大幅降价纳入常规药品保障、用于中国最常见基因1b型及慢性肾病合并丙肝人群的高效治愈方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "可洛派韦胶囊（联用索磷布韦）",
+            "name_en": "Coblopasvir",
+            "drug_class": "中国本土原研泛基因型NS5A抑制剂",
+            "usage_role": "国产原研泛基因型DAA方案，进入国家常规降价保障目录提升可及性",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "医院就诊人群“应检尽检”抗-HCV与HCV-RNA反射检测及微消除行动",
+          "治愈前已进展为F3/F4肝硬化者即使病毒清除仍需每6个月复查超声防肝癌",
+          "医疗机构血源与安全注射院感闭环管控"
+        ],
+        "annual_total_cost_china_cny": "一次性12周泛基因型治愈全疗程（如丙通沙）国家集采协商参考价约13,104元，经常规药品保障门诊/特殊慢病报销（各地通常报销70%–85%+）后患者自付数千元即可实现终身治愈"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "随着8–12周泛基因型口服DAA疗程（含国产原研可洛派韦、依米他韦等）全部进入国家常规药品保障大幅降价并配套推进“消除丙型肝炎公共卫生危害行动”，丙肝已成为极少数不靠手术即可99%药物根治的慢性病毒传染病；预防性丙肝疫苗因病毒高变异性仍在早期研发探索中。",
+        "key_unmet_needs_zh": "主要瓶颈在于发现与转化脱节：大批抗-HCV阳性既往患者未继续核查HCV RNA或未转诊接受DAA治愈治疗；目前尚无预防性HCV疫苗问世。"
+      },
+      "sources": [
+        {
+          "title": "Hepatitis C - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005109",
+      "name_zh": "艾滋病（人类免疫缺陷病毒感染）",
+      "name_en": "HIV / AIDS",
+      "aliases_zh": [
+        "获得性免疫缺陷综合征",
+        "HIV感染",
+        "AIDS"
+      ],
+      "icd10": [
+        "B20",
+        "B24"
+      ],
+      "icd11": [
+        "1C62"
+      ],
+      "category": "重大传染病 (Major Notifiable Infectious Disease)",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "HIV特异性破坏CD4+ T淋巴细胞导致渐进性严重细胞免疫缺陷；未经抗病毒治疗常在8–10年进展至艾滋病期，死于卡氏肺孢子菌肺炎（PCP）、结核、隐球菌脑膜炎等致命机会性感染或肿瘤；规范ART治疗下预期寿命可接近正常人群。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "高效联合抗逆转录病毒治疗（ART）可将病毒持续抑制至检测不到水平（U=U，不具传染性）并长期维持正常免疫与寿命，国家对“四免一关怀”标准方案实行免费供给；长效针剂及半年一针预防方案已实现突破，但因前病毒潜伏库存在仍需终身用药。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 570000,
+          "range_or_note": "WHO 2025年底HIV实况估测2025年全球HIV相关死亡约570,000例（较2023年UNAIDS报告的630,000例继续下降），当年新发感染约120万例。",
+          "year": "2025",
+          "source": "WHO HIV and AIDS Fact Sheet (2025/2026)"
+        },
+        "annual_deaths_china": {
+          "value": 19970,
+          "range_or_note": "2024年国家疾控局统计全国当年新报告艾滋病发病54,931例、死亡19,970例（包含历年累计现症HIV/AIDS病例当年度全因死亡，较2023年22,137例死亡继续下降）。",
+          "year": "2024",
+          "source": "国家疾病预防控制局 2024年全国法定传染病疫情概况"
+        },
+        "prevalence_global": "2025年底全球约有4,100万名HIV感染者（PLHIV），其中约77%正在接受抗逆转录病毒治疗（2023年基线约3,990万人）。",
+        "prevalence_china": "中国现存报告存活HIV感染者/艾滋病患者超过120万人，整体处于低流行水平但晚发现率（尤其老年男性与男男性行为人群）仍高于理想目标。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "替诺福韦/拉米夫定/依非韦伦等国家免费一线ART方案",
+            "name_en": "TDF + 3TC + EFV / DTG (National Free ART)",
+            "drug_class": "核苷/非核苷/整合酶抑制剂联合抗逆转录病毒方案",
+            "usage_role": "“四免一关怀”国家公共卫生全免费基础抗病毒方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "0元（国家疾控及定点医院免费提供抗病毒药品）",
+            "cost_source": "国家艾滋病“四免一关怀”免费抗病毒治疗政策"
+          },
+          {
+            "name_zh": "比克恩丙诺片（必妥维）",
+            "name_en": "Bictegravir / Emtricitabine / Tenofovir Alafenamide (B/F/TAF)",
+            "drug_class": "单片复方整合酶抑制剂方案",
+            "usage_role": "全球及国内临床首选的一日一片、高耐药屏障且耐受性极佳的升级一线方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "900–950元/盒（30片/月，常规目录药物谈判后较上市初3,680元大幅下降）",
+            "cost_source": "国家常规目录药物谈判目录（NHSA）"
+          },
+          {
+            "name_zh": "多替拉韦拉米夫定片（双妥）",
+            "name_en": "Dolutegravir / Lamivudine (DTG/3TC)",
+            "drug_class": "两药单片整合酶抑制剂方案",
+            "usage_role": "简化两药每日一片方案，减少长期核苷暴露毒性（含常规药品保障谈判降价）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "29.50元/片（约885元/月，费用减免前）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "艾诺米替片（复邦德）",
+            "name_en": "Ainuovirine / Lamivudine / Tenofovir (ANV/3TC/TDF)",
+            "drug_class": "中国原研1类新药三联单片复方制剂",
+            "usage_role": "替代传统依非韦伦、神经精神副作用明显降低的国产创新单片方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "24.15元/片（约8,800元/年，费用减免前）",
+            "cost_source": "国家常规目录药物谈判目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高危暴露后72小时内阻断（PEP）与高危人群暴露前预防（PrEP）",
+          "CD4+ T细胞计数、HIV病毒载量定期监测及机会性感染早期筛查预防",
+          "母婴传播阻断全程管理"
+        ],
+        "annual_total_cost_china_cny": "使用国家免费基础抗病毒方案药费0元；自愿选择常规目录药物高端单片复方（比克恩丙诺片、艾诺米替片等）年药费报销前约8,800–11,400元，经门诊特殊慢病报销后个人自付数千元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2025年6月美国FDA正式批准全球首个一年仅需皮下注射两次（每6个月一针）的HIV衣壳抑制剂来那卡帕韦（Lenacapavir / Yeztugo）用于HIV-1暴露前预防（PrEP），PURPOSE 1/2临床试验保护率高达96%–100%；超长效双月肌肉注射方案（卡替拉韦+利匹韦林）亦已上市，针对前病毒潜伏库的“激活并清除（Shock and Kill）”及CRISPR基因编辑尚处早期临床试验。",
+        "key_unmet_needs_zh": "迄今仍无普及性的艾滋病根治性治愈方案与有效预防性HIV疫苗；国内中老年人群晚发现及隐匿传播诊断延误比例仍较高。"
+      },
+      "sources": [
+        {
+          "title": "HIV and AIDS - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+          "publisher": "WHO",
+          "year": "2026"
+        },
+        {
+          "title": "Global HIV & AIDS statistics - Fact sheet",
+          "url": "https://www.unaids.org/en/resources/fact-sheet",
+          "publisher": "UNAIDS",
+          "year": "2024"
+        },
+        {
+          "title": "Yeztugo (lenacapavir) FDA Approval for Twice-Yearly HIV Prevention (June 2025)",
+          "url": "https://www.gilead.com/news/news-details/2025/yeztugo-lenacapavir-is-now-the-first-and-only-fda-approved-hiv-prevention-option-offering-6-months-of-protection",
+          "publisher": "Gilead Sciences",
+          "year": "2025"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005812",
+      "name_zh": "季节性流行性感冒",
+      "name_en": "Seasonal Influenza",
+      "aliases_zh": [
+        "流感",
+        "甲流/乙流",
+        "重症流感肺炎"
+      ],
+      "icd10": [
+        "J10",
+        "J11"
+      ],
+      "icd11": [
+        "1E30"
+      ],
+      "category": "急性呼吸道感染 (Acute Respiratory Infection)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "多数青壮年感染后1周内自愈；但高龄老人、婴幼儿、孕妇及慢阻肺/心血管基础病患者可在数日内进展为原发病毒性肺炎、继发细菌（金葡菌/肺炎链球菌）重症肺炎、ARDS及暴发性心肌炎致死，中国超额呼吸死亡80%以上发生在60岁及以上人群。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "发病48小时内尽早启用神经氨酸酶抑制剂（奥司他韦）或RNA聚合酶抑制剂（玛巴洛沙韦单剂口服）可显著缩短病程、抑制排毒并降低重症与住院风险；住院重症患者无论病程长短均应尽早抗病毒及器官支持。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 290000,
+          "range_or_note": "WHO季节性流感实况估算全球每年约有290,000–650,000例与流感直接相关的呼吸系统死亡（此处取区间保守下限值290,000，未计心血管等非呼吸系统诱发死亡），全球年发约10亿例（其中300万–500万例为重症）。",
+          "year": "2023",
+          "source": "WHO Influenza (Seasonal) Fact Sheet"
+        },
+        "annual_deaths_china": {
+          "value": 88100,
+          "range_or_note": "发表于Lancet Public Health的中国流感超额死亡研究估算全国平均每年约有88,100例流感相关呼吸系统超额死亡（80%以上为≥60岁老年人）；注意2024年国家疾控局被动法定登记流行性感冒8,417,396例、直接标注死因20例显著低估了慢病诱发超额死亡。",
+          "year": "2019",
+          "source": "Li et al., Lancet Public Health 2019 (PMID: 31493844) / NDCPA"
+        },
+        "prevalence_global": "全球每年约5%–10%成人和20%–30%儿童感染季节性流感，总计约10亿人次发病，温带地区呈显著冬春季高峰。",
+        "prevalence_china": "中国2023–2024年高发季就诊量与法定报告例数跃居乙丙类呼吸道传染病前列，甲型H1N1/H3N2与乙型Victoria交替主导流行。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "临床高危或重症表现（持续高热>3天、剧烈咳嗽咳脓血痰、呼吸频率增快、低氧血症SpO2<93%、神志异常或心肌酶急升）立即住院并行甲乙流核酸/抗原确诊，不等待结果即启动抗病毒治疗（首选奥司他韦75mg bid或玛巴洛沙韦，危重静脉不能口服可用帕拉米韦）；高度警惕继发MRSA/肺炎链球菌坏死性肺炎并及时联合抗菌；发生呼吸衰竭按CAP/ARDS方案行HFNC、无创或机械通气乃至ECMO救治。",
+        "standard_drugs": [
+          {
+            "name_zh": "磷酸奥司他韦胶囊/颗粒",
+            "name_en": "Oseltamivir",
+            "drug_class": "神经氨酸酶抑制剂",
+            "usage_role": "全年龄段（含婴幼儿与孕妇）及住院重症流感患者标准5日口服一线抗病毒药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "1–2元/粒（10–20余元/盒，第7/8批国家集采价）",
+            "cost_source": "国家常规临床药品目录 / 第7、8批国家集采"
+          },
+          {
+            "name_zh": "玛巴洛沙韦片（速福达）",
+            "name_en": "Baloxavir Marboxil",
+            "drug_class": "帽依赖性核酸内切酶抑制剂（PA抑制剂）",
+            "usage_role": "全程仅需单次口服即可快速阻断病毒复制并缩短排毒时间（适用≥5岁及成人）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "222.36元/盒（20mg×2片全疗程，国家常规目录药物谈判价）",
+            "cost_source": "国家常规目录药物谈判目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高危人群（老年人、医务人员、儿童及慢病者）每年秋季接种三价/四价流感疫苗",
+          "重度病毒性肺炎及ARDS的HFNC、有创机械通气与ECMO支持",
+          "家庭及学校聚集性疫情期间佩戴口罩与早期隔离"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "多款中国本土原研新一代RNA聚合酶抑制剂（如昂拉地韦Onradivir等靶向PB2/PA新药）在2024–2025年陆续获批或完成III期，进一步扩充替代选择；高剂量老年人佐剂流感疫苗及mRNA多价/通用流感联合疫苗（与COVID-19合二为一）处于III期研发推进中。",
+        "key_unmet_needs_zh": "中国全人口特别是60岁以上老年人年度流感疫苗接种率仅个位数至极低水平，远低于欧美高收入国家；流感重症对心脑血管与慢阻肺患者的诱发超额死亡长期被被动死因表低估。"
+      },
+      "sources": [
+        {
+          "title": "Influenza (Seasonal) - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(seasonal)",
+          "publisher": "WHO",
+          "year": "2023"
+        },
+        {
+          "title": "Influenza-associated excess respiratory mortality in China (Lancet Public Health)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31493844/",
+          "publisher": "The Lancet Public Health / PubMed",
+          "year": "2019"
+        },
+        {
+          "title": "2024年全国法定传染病疫情概况",
+          "url": "https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1998217472895258624.html",
+          "publisher": "国家疾病预防控制局 (NDCPA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0100096",
+      "name_zh": "新型冠状病毒感染",
+      "name_en": "Coronavirus Disease 2019 (COVID-19)",
+      "aliases_zh": [
+        "新冠",
+        "SARS-CoV-2感染",
+        "长新冠（Post-COVID-19 condition）"
+      ],
+      "icd10": [
+        "U07.1"
+      ],
+      "icd11": [
+        "RA01.0"
+      ],
+      "category": "急性呼吸道感染 (Acute Respiratory Infection)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "Omicron及后续亚变株总体致病力较早期毒株显著下降，但未免疫的高龄老人、肿瘤、移植及免疫缺陷者仍可于感染后数日至2周内进展为“沉默性低氧血症”、病毒性重症肺炎、ARDS、肺栓塞与多器官损伤致死。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "轻中症依托免疫屏障多可自愈；高危人群在症状出现5天内尽早口服小分子3CLpro抗病毒药（如先诺欣、帕罗韦德或来瑞特韦等）可大幅压低重症住院与死亡风险；重症伴低氧血症以糖皮质激素+抗凝+器官支持救治，部分长新冠（Long COVID）疲劳脑雾仍缺乏根治特效药。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 8800000,
+          "range_or_note": "WHO全球卫生估计（GHE）记录2021年COVID-19在全球跃升为第2大死因，直接/相关致死约880万人（WHO估算2020–2021两年全球超额全因死亡合计达1,480万–1,490万人）；至2023年随着群体免疫建立，已跌出WHO全球十大死因前列。",
+          "year": "2021",
+          "source": "WHO Top 10 Causes of Death / WHO Excess Mortality (PMC9812776)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "国家疾控局法定年度传染病报告汇总表未单列COVID-19年度连续可比全因死亡系列，当前以定期呼吸道多病原哨点监测及高危人群小波动感染管理为主。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "累计官方报告死亡超700万例（WHO超额死亡大幅高于直报），当前在全球进入季节性/周期性变异株低水平常态流行期。",
+        "prevalence_china": "国内以周期性小波峰呈常态化流行，社区轻症及高危老年人群预防重症为主要临床管理核心。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "高危患者发病≤5天且无禁忌时立即启动小分子抗病毒治疗以阻断进展；住院低氧血症（SpO2 ≤93%或需氧疗）患者立即氧疗/HFNC并予地塞米松（6mg/d，疗程至多10天）或等效激素抑制细胞因子风暴，监测D-二聚体并予低分子肝素预防血栓与肺栓塞；进展为重症ARDS即按俯卧位通气与肺保护机械通气救治。",
+        "standard_drugs": [
+          {
+            "name_zh": "先诺特韦片/利托那韦片组合包装（先诺欣）",
+            "name_en": "Simnotrelvir / Ritonavir",
+            "drug_class": "3CL蛋白酶抑制剂联合药代增强剂",
+            "usage_role": "中国原研3CLpro靶向抗新冠药物，2023年12月起正式进入国家常规降价保障目录乙类目录大幅替代高价进口药（注意CYP3A4药物相互作用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "479元/盒（全疗程，常规目录药物报销后自付通常<100元）",
+            "cost_source": "国家常规临床用药目录 / 药企官方公开定价"
+          },
+          {
+            "name_zh": "阿兹夫定片",
+            "name_en": "Azvudine",
+            "drug_class": "核苷类RNA聚合酶抑制剂",
+            "usage_role": "早期纳入国家常规临床药品目录、成本极低的本土小分子抗新冠口服治疗药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "11.58元/瓶（1mg×35片，常规药品保障谈判价格）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "奈玛特韦片/利托那韦片组合包装（Paxlovid）",
+            "name_en": "Nirmatrelvir / Ritonavir",
+            "drug_class": "3CL蛋白酶抑制剂",
+            "usage_role": "大型III期验证的高危轻中症防重症住院一线经典药物（临时常规药品保障已于2023年3月底结束，未能进正式国家常规临床药品目录）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "约1,890元/盒（各地医药挂网及自费零售参考价）",
+            "cost_source": "临时常规药品保障结束前后国内省级采购平台挂网价格"
+          },
+          {
+            "name_zh": "莫诺拉韦胶囊（利卓瑞）",
+            "name_en": "Molnupiravir",
+            "drug_class": "RdRp核苷类似物诱变前药",
+            "usage_role": "无明显CYP3A4相互作用的高危老年多药共存患者替代口服抗病毒选择（非NRDL目录）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "首发挂网约1,500元/瓶（自费）",
+            "cost_source": "省级集采平台首发自费挂网价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "针对高危人群定期接种更新型靶向流行株疫苗",
+          "俯卧位通气（含清醒俯卧位改善氧合）、HFNC与有创机械通气",
+          "长新冠（Long COVID）疲劳、自主神经失调及呼吸功能多学科肺康复"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "中国多款无需联用利托那韦、药物相互作用极小的新一代自主3CLpro抑制剂（如来瑞特韦等）已在国内获批并纳入常规药品保障竞争，解决老年慢病患者合并他汀/抗凝药用药受限痛点；WHO及各国围绕长新冠（Long COVID）病理机制与抗炎/抗病毒延长疗程开展大规模平台试验。",
+        "key_unmet_needs_zh": "长新冠（Post-COVID-19 condition）在乏力、运动不耐受及认知障碍上仍无公认特效治疗药物；针对超快变异免疫逃逸的广谱泛沙贝病毒疫苗仍待突破。"
+      },
+      "sources": [
+        {
+          "title": "WHO excess mortality associated with the COVID-19 pandemic 2020–2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9812776/",
+          "publisher": "Nature / PMC",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001577",
+      "name_zh": "呼吸道合胞病毒感染",
+      "name_en": "Respiratory Syncytial Virus (RSV) Infection",
+      "aliases_zh": [
+        "RSV感染",
+        "小儿毛细支气管炎",
+        "婴幼儿及老年RSV下呼吸道感染"
+      ],
+      "icd10": [
+        "B97.4",
+        "J12.1",
+        "J21.0"
+      ],
+      "icd11": [
+        "1E32"
+      ],
+      "category": "急性呼吸道感染 (Acute Respiratory Infection)",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "冬春高发呼吸道病毒；是全球婴儿及早产儿急性毛细支气管炎与住院的首要病原，小婴儿因气道极窄可在1–3天内突发黏液栓阻塞、高碳酸血症呼吸衰竭与呼吸暂停；同时也是≥60岁老年人及心肺基础病患者被严重低估的急性重症肺炎与心衰诱因。",
+      "treatability_status": "symptomatic_only",
+      "treatability_summary_zh": "目前已进入“可主动预防”全新时代，婴儿单剂长效预防性单抗（尼塞韦单抗，国内已上市）及成人/孕妇疫苗已获批，但一旦发生感染临床尚无安全高效的常规特异抗RSV药物，主要依靠氧疗、吸痰、水化及呼吸支持度过急性期（绝大多数可完全康复）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 100000,
+          "range_or_note": "WHO 2025年RSV实况估测全球5岁以下儿童每年因RSV直接导致逾360万次住院与约100,000例死亡（97%发生于中低收入国家，约半数死亡在6月龄以内小婴儿；此外老年人群亦存在巨大未单独统计的住院与超额死亡负担）。",
+          "year": "2025",
+          "source": "WHO Respiratory Syncytial Virus (RSV) Fact Sheet (2025)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "RSV尚未列入中国国家法定传染病常规报告病种，尚无全国单列死亡计数；国内多中心儿科及全年龄哨点监测证实，RSV长期位居冬春季婴幼儿住院急性下呼吸道感染（ALRI）与毛细支气管炎首位病原。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "几乎所有儿童在2岁前至少感染过一次RSV；全球婴儿ALRI相关住院近半数与之密切相关。",
+        "prevalence_china": "每年11月至次年3月在北方呈严峻冬春高峰、南方呈冬春或全年延长流行，常引起儿科急诊与PICU床位紧张。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "小婴儿毛细支气管炎出现呼吸急促（>60次/分）、鼻翼扇动、三凹征、呼吸暂停、发绀或拒奶脱水即刻收住儿科/PICU；给予加温湿化鼻导管吸氧、轻柔吸痰清理鼻咽分泌物保证气道畅通及静脉/鼻饲营养液体维持（避免过度盲目使用全身激素及无效支气管舒张剂）；呼吸衰竭予CPAP、HFNC或有创机械通气。防重于治：新生儿及首流行季婴儿尽早注射尼塞韦单抗（Nirsevimab）免疫保护。",
+        "standard_drugs": [
+          {
+            "name_zh": "尼塞韦单抗注射液（乐唯初）",
+            "name_en": "Nirsevimab",
+            "drug_class": "长效全人源抗RSV融合蛋白单克隆抗体（免疫预防）",
+            "usage_role": "全球及中国首个获批面向所有健康新生儿及高危婴儿的一针长效保护整个流行季免疫预防单抗（2024年1月NMPA批准）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "自费约2,000–3,000元/剂（视体重分50mg/100mg规格，各地疫苗接种或特需门诊）",
+            "cost_source": "国内上市后公立医院及社区接种点自费定价公开报道"
+          },
+          {
+            "name_zh": "硫酸沙丁胺醇雾化吸入溶液（个案试验评估）",
+            "name_en": "Salbutamol Nebulizer Solution",
+            "drug_class": "短效β2肾上腺素能受体激动剂（对症气道解痉）",
+            "usage_role": "对婴儿典型RSV毛细支气管炎不推荐无差别常规使用；仅对伴有显著喘息支气管痉挛表型者酌情短程试验性雾化评估",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "加温湿化高流量吸氧（HFNC）、CPAP与气道精细雾化吸引护理",
+          "孕妇孕晚期免疫接种（Abrysvo，欧美已批）或新生儿季节性被动单抗预防",
+          "老年人（≥60岁）接种重组蛋白或mRNA RSV疫苗预防"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年全球迎来RSV预防井喷：Arexvy、Abrysvo及mRNA-1345（mRESVIA）三款成人/孕妇疫苗相继获欧美批准，尼塞韦单抗（乐唯初）于2024年1月在中国获批用于婴儿保护整个RSV季；治疗方面，中国自主研发口服RSV融合蛋白抑制剂齐瑞索韦（Ziresovir / AK0529）已率先完成全球/国内III期积极临床试验并递交新药上市审评，有望成为全球首款获批抗RSV治疗小分子药物。",
+        "key_unmet_needs_zh": "尚无正式获批上市的儿童/成人RSV特效治疗小分子口服药；尼塞韦单抗在中国自费近2,000–3,000元且尚未纳入免疫规划，普及率仍低；老年RSV疫苗在国内尚未大范围获批落地。"
+      },
+      "sources": [
+        {
+          "title": "Respiratory syncytial virus (RSV) - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/respiratory-syncytial-virus-(rsv)",
+          "publisher": "WHO",
+          "year": "2025"
+        },
+        {
+          "title": "乐唯初（尼塞韦单抗）中国上市自费接种及市场价格分析报道",
+          "url": "https://m.21jingji.com/article/20260904/herald/9dc90c870edfb7f975008040be261941_zaker.html",
+          "publisher": "21世纪经济报道",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005002",
+      "name_zh": "慢性阻塞性肺疾病",
+      "name_en": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "aliases_zh": [
+        "慢阻肺",
+        "COPD",
+        "慢性支气管炎伴肺气肿"
+      ],
+      "icd10": [
+        "J44"
+      ],
+      "icd11": [
+        "CA22"
+      ],
+      "category": "慢性呼吸系统疾病 (Chronic Respiratory Disease)",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "以持续进行性气流受限与肺泡破坏为核心特征，经数年至数十年导致慢性II型呼吸衰竭与肺源性心脏病；同时高频率发作的“慢阻肺急性加重（AECOPD）”可在数日内迅速恶化至严重酸中毒与呼吸衰竭致死。全球稳居第3大死因。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "不可完全治愈，但严格戒烟、规律长期吸入长效支气管舒张剂或三联闭合制剂（LAMA+LABA+ICS）、家庭氧疗及肺康复可明显改善症状、大幅减少急性加重与住院、延缓肺功能恶化；2024年起COPD已迈入首个靶向生物制剂与PDE3/4新机制时代。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 3600000,
+          "range_or_note": "WHO 2023年全球十大死因报告显示COPD高居全球第3位死因，年致死约360万例，约占全球总死亡人数的6%（WHO专病实况引用早年基准约340万例）。",
+          "year": "2023",
+          "source": "WHO Top 10 Causes of Death Fact Sheet (2026) / WHO COPD Fact Sheet"
+        },
+        "annual_deaths_china": {
+          "value": 1285400,
+          "range_or_note": "GBD 2021估算中国COPD年死亡高达约1,285,400例，约占全国总死亡的11%，位列中国居民核心慢性致死疾病前列。",
+          "year": "2021",
+          "source": "GBD 2021 China COPD Burden Analysis (PMC12266252)"
+        },
+        "prevalence_global": "全球慢性呼吸系统疾病最主要负担源，中低收入国家暴露于烟草、室内生物质燃料烟雾者承压最重，占全球早死近90%。",
+        "prevalence_china": "王辰院士团队“中国肺健康研究（CPH）”显示中国20岁及以上成人COPD患病率为8.6%（40岁以上达13.7%），全国患者总数接近1亿人，但早期知晓率与规范吸入用药率长期偏低。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "慢阻肺急性加重（AECOPD）出现明显气促加重、痰量增多脓性或嗜睡意识模糊时，立即给予控制性低流量吸氧（控制靶向SpO2 88%–92%，严防高浓度吸氧抑制呼吸中枢引发CO2潴留肺性脑病）；高频雾化短效支气管舒张剂（SABA联合SAMA如沙丁胺醇/特布他林+异丙托溴铵）；即刻给予全身糖皮质激素（泼尼松30–40 mg/d或甲泼尼龙静滴5天）与针对脓痰及危重感染的抗菌药物；存在急性呼吸性酸中毒（pH ≤7.35且PaCO2 ≥45 mmHg）第一时间上无创正压通气（NIV/BiPAP）可极显著降低气管插管率与院内死亡。",
+        "standard_drugs": [
+          {
+            "name_zh": "布地格福吸入气雾剂（倍择瑞）",
+            "name_en": "Budesonide / Glycopyrrolate / Formoterol",
+            "drug_class": "ICS/LAMA/LABA 闭合三联吸入制剂",
+            "usage_role": "中重度伴反复急性加重史COPD一线基石维持药物（ETHOS等研究证实在减少急性加重同时可降低全因死亡风险）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "230–250元/瓶（120揿/月，年费报销前约2,800–3,000元，报销后自付约1,000–1,800元/年）",
+            "cost_source": "国家常规目录药物谈判目录（限中重度COPD维持治疗）"
+          },
+          {
+            "name_zh": "氟替美维吸入粉雾剂（全再乐）",
+            "name_en": "Fluticasone Furoate / Umeclidinium / Vilanterol",
+            "drug_class": "一日一次 ICS/LAMA/LABA 三联干粉吸入剂",
+            "usage_role": "每日仅需一吸依从性极佳的一线三联维持控制药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "230–240元/盒（30吸/月，年费报销前约2,760–2,900元，报销后自付约1,000–1,500元/年）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "布地奈德福莫特罗吸入粉雾剂",
+            "name_en": "Budesonide / Formoterol",
+            "drug_class": "ICS/LABA 双联吸入制剂",
+            "usage_role": "传统基础联合吸入治疗药物（国家集采大幅降价普及基层）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "几十至百余元/支（国家集采及常规目录药物价格）",
+            "cost_source": "国家常规目录药物 / 国家集采"
+          },
+          {
+            "name_zh": "度普利尤单抗注射液（达必妥）",
+            "name_en": "Dupilumab",
+            "drug_class": "抗IL-4Rα全人源单克隆抗体",
+            "usage_role": "2024年9月FDA及随后多国批准成为全球首个COPD靶向生物制剂，用于三联吸入控制仍急性加重且血嗜酸粒细胞升高（2型炎症）表型",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "现行哮喘/特应性皮炎常规药品保障价约1,500元/支（300mg；COPD新适应症单列支付细则随各地常规药品保障拓展更新）",
+            "cost_source": "FDA 2024适应症批准及现行中国NRDL乙类规格价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "彻底戒烟与脱离生物质燃料/职业粉尘暴露（唯一最有效阻断肺功能下降之干预）",
+          "慢性低氧者每日>15小时长期家庭氧疗（LTOT）及高碳酸血症家庭无创呼吸机",
+          "肺康复运动训练及每年接种流感、肺炎球菌、RSV与新冠疫苗"
+        ],
+        "annual_total_cost_china_cny": "中国COPD患者年均直接医疗费用中位数约5,500–15,000+元（均值约11,000–12,000元，其中约七成来自急性加重住院费用）；长期规律三联吸入维持年药费自付仅约1,000–1,800元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2024年打破COPD二十年靶向新药荒：2024年6月FDA批准二十余年来全新机制首创吸入式PDE3/PDE4双抑制剂恩司芬群（Ensifentrine / Ohtuvayre），兼具舒张支气管与抗炎作用；2024年9月度普利尤单抗（Dupilumab）凭借BOREAS/NOTUS两项III期研究（急性加重降逾30%）成为全球首个获批用于COPD的生物制剂；此外美泊利珠单抗及抗IL-33/ST2单抗（Itepekimab/Astegolimab）在III期持续推进。2024年9月中国将COPD正式纳入国家基本公卫服务。",
+        "key_unmet_needs_zh": "现有三联吸入药主要减轻急性加重及改善症状，仍难彻底阻止或再生修复已破坏的肺气肿肺泡；约1亿患者中基层肺功能仪检测普及及长期规范用吸入器率依然偏低。"
+      },
+      "sources": [
+        {
+          "title": "Chronic obstructive pulmonary disease (COPD) - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)",
+          "publisher": "WHO",
+          "year": "2024"
+        },
+        {
+          "title": "Prevalence and risk factors of COPD in China (China Pulmonary Health study)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29650248/",
+          "publisher": "The Lancet / PubMed",
+          "year": "2018"
+        },
+        {
+          "title": "National and subnational COPD deaths in China, GBD 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12266252/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        },
+        {
+          "title": "Economic burden and direct medical cost of COPD in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5079691/",
+          "publisher": "PMC",
+          "year": "2016"
+        },
+        {
+          "title": "Dupilumab FDA approval for COPD (September 2024)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761055s064lbl.pdf",
+          "publisher": "U.S. FDA",
+          "year": "2024"
+        },
+        {
+          "title": "Ensifentrine (Ohtuvayre) FDA Integrated Review (June 2024)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/217389Orig1s000IntegratedR.pdf",
+          "publisher": "U.S. FDA",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004979",
+      "name_zh": "支气管哮喘",
+      "name_en": "Bronchial Asthma",
+      "aliases_zh": [
+        "哮喘",
+        "重度嗜酸粒细胞性哮喘",
+        "变应性哮喘"
+      ],
+      "icd10": [
+        "J45"
+      ],
+      "icd11": [
+        "CA23"
+      ],
+      "category": "慢性呼吸系统疾病 (Chronic Respiratory Disease)",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "慢性气道炎症致气道高反应性与气道重塑；总体经规范控制后呈低死亡风险，但长期控制不良或未备抗炎吸入剂的患者可突发致死性重度急性发作窒息死亡，全球年死亡仍逾44万例。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "绝大多数轻中度哮喘经规律吸入糖皮质激素+长效β2激动剂（ICS-福莫特罗等）可实现“临床完全控制”、正常学习工作及运动；针对传统高剂量吸入+口服激素无效的重度2型炎症哮喘，现已有奥马珠、度普利尤、美泊利珠、本瑞利珠等多款生物制剂实现“临床缓解（Remission）”。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 442000,
+          "range_or_note": "WHO 2026年最新更新哮喘实况报告2023年全球约3.63亿哮喘患者、约442,000例死亡（GBD 2021模型口径估算为436,000例死亡及约2.6亿–2.61亿例患病）。",
+          "year": "2023",
+          "source": "WHO Asthma Fact Sheet (2026) / GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": 26233,
+          "range_or_note": "GBD 2021估算中国支气管哮喘年死亡约26,233例（年龄标化死亡率约1.47/10万），老年未规范控制哮喘占比最高。",
+          "year": "2021",
+          "source": "GBD 2021 China Asthma Burden Analysis (Chinese Medical Journal 2025)"
+        },
+        "prevalence_global": "全球约3.63亿患者，是儿童最常见慢性呼吸病；低收入国家因吸入激素缺位承压极高的可预防死亡。",
+        "prevalence_china": "“中国肺健康研究（CPH）”揭示我国≥20岁成人哮喘患病率达4.2%（约4,570万成人患者），其中超七成既往未曾确诊、规范使用吸入激素治疗率不足6%。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "参照急性哮喘发作及持续状态分级救治：立即吸氧维持SpO2 93%–95%；雾化或定量气雾剂加储雾罐连续吸入速效支气管舒张剂（SABA，如特布他林/沙丁胺醇）联合异丙托溴铵；中重度发作尽早口服/静脉给予全身糖皮质激素（甲泼尼龙/泼尼松）；难治急性呼吸酸中毒即转ICU机械通气。",
+        "standard_drugs": [
+          {
+            "name_zh": "布地奈德福莫特罗吸入粉雾剂",
+            "name_en": "Budesonide / Formoterol",
+            "drug_class": "ICS/LABA（兼作抗炎缓解与维持治疗）",
+            "usage_role": "GINA全球首选轨道1“抗炎缓解/维持兼顾（MART）”基石用药，取代单用SABA显著降低重度急性发作与死亡",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "几十至百余元/支（常规目录药物及集采）",
+            "cost_source": "国家常规临床用药目录 / 国家集采"
+          },
+          {
+            "name_zh": "注射用奥马珠单抗",
+            "name_en": "Omalizumab",
+            "drug_class": "抗IgE单克隆抗体",
+            "usage_role": "重度持续性过敏性哮喘传统生物制剂，显著减少急性发作并摆脱长期口服激素",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约900–1,300元/支（150mg，国家常规目录药物谈判价）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "度普利尤单抗注射液",
+            "name_en": "Dupilumab",
+            "drug_class": "抗IL-4Rα双靶点全人源单克隆抗体",
+            "usage_role": "重度2型嗜酸性粒细胞/激素依赖型哮喘关键生物制剂，国家常规药品保障已拓展报销适应症",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约1,500元/支（300mg，国家常规目录药物报销后自付更低）",
+            "cost_source": "国家常规目录药物谈判目录"
+          },
+          {
+            "name_zh": "美泊利珠单抗注射液",
+            "name_en": "Mepolizumab",
+            "drug_class": "抗IL-5单克隆抗体",
+            "usage_role": "重度嗜酸性粒细胞性哮喘靶向精准抑制IL-5生物制剂（美泊利珠单抗已进入国家常规降价保障目录乙类EGPA适应症，重度嗜酸性粒细胞哮喘常规药品保障拓展推进中）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "本瑞利珠单抗注射液（凡舒卓）",
+            "name_en": "Benralizumab",
+            "drug_class": "抗IL-5Rα单克隆抗体",
+            "usage_role": "重度嗜酸性粒细胞性哮喘精准耗竭嗜酸性粒细胞生物制剂（中国人群MIRACLE III期研究急性发作率直降74%，NMPA已获批，暂非全国常规NRDL目录报销）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "环境过敏原（尘螨、花粉、霉菌、宠物皮屑）控制与脱敏免疫治疗（AIT）",
+          "吸入装置规范操作宣教与呼出气一氧化氮（FeNO）/峰流速监测",
+          "极重度难治性哮喘支气管热成形术（BT）"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "重度哮喘治疗正转向多机制精准生物制剂及以“临床缓解（无症状、无发作、免口服激素、肺功能稳）”为目标：涵盖TSLP上游阻断剂（Tezepelumab适用于非2型炎症低嗜酸性粒细胞哮喘）及超长效半年一针IL-5单抗Depemokimab；国内本瑞利珠（Fasenra）与特泽利尤推动国内临床可及性扩大。",
+        "key_unmet_needs_zh": "约4,570万中国成人哮喘中近七成漏诊、长期规律吸入ICS比例极低，过度依赖口服短程激素及单独救急支气管扩张剂引发大量可避免的重度恶化。"
+      },
+      "sources": [
+        {
+          "title": "Asthma - WHO Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/asthma",
+          "publisher": "WHO",
+          "year": "2026"
+        },
+        {
+          "title": "Prevalence, risk factors, and management of asthma in China (CPH study follow-up)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11451406/",
+          "publisher": "PMC",
+          "year": "2024"
+        },
+        {
+          "title": "Burden of asthma in China, 1990–2021 (GBD 2021)",
+          "url": "https://mednexus.org/doi/abs/10.1097/CM9.0000000000003658",
+          "publisher": "Chinese Medical Journal",
+          "year": "2025"
+        },
+        {
+          "title": "Global asthma burden and trends, GBD 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11946875/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0800504",
+      "name_zh": "特发性肺纤维化",
+      "name_en": "Idiopathic Pulmonary Fibrosis (IPF)",
+      "aliases_zh": [
+        "IPF",
+        "特发性间质性肺炎",
+        "蜂窝肺"
+      ],
+      "icd10": [
+        "J84.1"
+      ],
+      "icd11": [
+        "CB03.4"
+      ],
+      "category": "罕见/间质性肺病 (Interstitial & Rare Lung Disease)",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "原因不明的进行性不可逆肺间质瘢痕化疾病，呼吸膜日益增厚直至肺泡彻底塌陷“蜂窝肺”；未抗纤维化治疗患者确诊后中位生存期仅3–5年，远差于多种恶性肿瘤；部分患者因感染、手术刺激突发“特发性肺纤维化急性加重（AE-IPF）”，数日至数周内院内病死率常超过50%。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "无法通过药物逆转已形成的纤维化瘢痕，仅能延缓用力肺活量（FVC）下降及降低急性加重风险；尼达尼布与吡非尼酮均已纳入中国常规药品保障大大降低负担，2025年全球与国内又迎来十余年首款全新PDE4B抑制剂奈兰米司特（Nerandomilast）获批，唯一根治仅靠肺移植。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "属罕见性致死间质性肺病（中国第一批罕见病目录），WHO死因表不单列IPF。全球现患病率估算约0.09–1.30/万（全球累计约300万–500万名患者），未经治疗中位生存仅3–5年。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国性单列登记死亡总量，但随人口老龄化及高分辨率CT（HRCT）普及，三级医院与呼吸科确诊数量持续上升；高发于60岁以上中老年及吸烟人群。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球约300万–500万人患病，患病率随年龄呈几何式攀升。",
+        "prevalence_china": "2018年已正式入选中国《第一批罕见病目录》（第45号），成为常规药品保障谈判与门诊特殊慢病优先关照罕见肺病。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "特发性肺纤维化急性加重（AE-IPF：1个月内不明原因呼吸困难急剧恶化+HRCT双肺新发磨玻璃影）出现后即刻住院给予高浓度吸氧或HFNC改善低氧，排除急性感染及心衰/肺栓塞后予广谱经验性抗感染联合短程高/中剂量全身糖皮质激素脉冲抗炎（避免对无感染证据的传统IPF慢病期长期使用糖皮质激素+硫唑嘌呤，免致额外死亡）；对尚在肺移植名单或潜在可逆诱因者谨慎评估有创通气与ECMO桥接移植。",
+        "standard_drugs": [
+          {
+            "name_zh": "乙磺酸尼达尼布软胶囊（维加特）",
+            "name_en": "Nintedanib",
+            "drug_class": "多靶点酪氨酸激酶抑制剂（VEGFR/FGFR/PDGFR）",
+            "usage_role": "抑制成纤维细胞增殖移行、延缓FVC年下降率约50%的一线国际标准抗纤维化药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "92–127元/粒（国家常规目录药物谈判价格，较最初大幅降价且纳入目录）",
+            "cost_source": "国家常规目录药物谈判目录 / 国内药物经济学研究（PMC10953120）"
+          },
+          {
+            "name_zh": "吡非尼酮胶囊/片（艾思瑞）",
+            "name_en": "Pirfenidone",
+            "drug_class": "多效抗纤维化吡啶酮小分子（抑制TGF-β1等）",
+            "usage_role": "临床广泛应用的一线国产及原研口服抗纤维化治疗药物（需注意光敏及胃肠反应防晒）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产制剂约700–850元/盒（国家常规临床用药目录报销）",
+            "cost_source": "国家常规临床用药目录"
+          },
+          {
+            "name_zh": "奈兰米司特（Jascayd）",
+            "name_en": "Nerandomilast (BI 1015550)",
+            "drug_class": "选择性磷酸二酯酶4B（PDE4B）抑制剂",
+            "usage_role": "2025年10月获FDA批准（12月扩批PPF）及中国NMPA同步批准上市的十余年来全球全新一代抗肺纤维化新机制药物",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "静息或运动低氧者开展长期家庭氧疗（LTOT）",
+          "个体化耐力肺康复训练",
+          "进展至终末期且无年龄/器官禁忌患者尽早转诊肺移植评估（唯一根治手段）"
+        ],
+        "annual_total_cost_china_cny": null
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2025年迎来IPF里程碑突破：口服选择性PDE4B抑制剂奈兰米司特（Nerandomilast / Jascayd）凭借III期FIBRONEER-IPF研究显著延缓FVC下降，于2025年10月获美国FDA及中国NMPA相继批准上市（2025年12月扩批进行性肺纤维化PPF）；同期中国AI制药企业英矽智能靶向TNIK的全球首创口服小分子Rentosertib（ISM001-055）已进入II期并展现FVC逆转/改善潜力信号。",
+        "key_unmet_needs_zh": "即使在双抗及新药联合时代仍仅能“刹车”或轻度稳住肺活量，极难实现成熟胶原瘢痕的逆转再生；急性加重（AE-IPF）致死率仍超半数且缺乏特效治疗。"
+      },
+      "sources": [
+        {
+          "title": "FDA approves drug to treat idiopathic pulmonary fibrosis (Nerandomilast, Oct 2025)",
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-idiopathic-pulmonary-fibrosis",
+          "publisher": "U.S. FDA",
+          "year": "2025"
+        },
+        {
+          "title": "FDA approves Jascayd (nerandomilast) for adults with progressive pulmonary fibrosis (Dec 2025)",
+          "url": "https://www.boehringer-ingelheim.com/us/human-health/lung-diseases/pulmonary-fibrosis/fda-approves-new-treatment-option-adults-ppf",
+          "publisher": "Boehringer Ingelheim",
+          "year": "2025"
+        },
+        {
+          "title": "Cost-effectiveness of nintedanib vs pirfenidone for IPF in China NRDL",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10953120/",
+          "publisher": "PMC",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004822",
+      "name_zh": "支气管扩张症",
+      "name_en": "Bronchiectasis",
+      "aliases_zh": [
+        "支扩",
+        "非囊性纤维化支气管扩张症 (NCFB)",
+        "咯血性支扩"
+      ],
+      "icd10": [
+        "J47"
+      ],
+      "icd11": [
+        "CA24"
+      ],
+      "category": "慢性呼吸系统疾病 (Chronic Respiratory Disease)",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "支气管壁肌肉及弹性组织破坏导致不可逆柱状/囊状扩张、黏液清除障碍与慢性绿脓杆菌等定植感染恶性循环；长期演变为慢性呼吸衰竭、肺心病，队列4–5年全因死亡率可达16%–25%；最凶险的急性致死急症为“支气管扩张突发大咯血”，可数分钟内窒息死亡。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "不可逆肺结构改变无法单纯服药逆转，但坚持气道廓清排痰、高发作风险人群低剂量长程大环内酯类抗炎、急性期针对铜绿假单胞菌强效抗感染及局部支扩肺叶切除可有效长期控病；2025年全球终于迎来首款获批特异性靶向中性粒细胞炎症的非囊性纤维化支扩新药Brensocatib。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO全球死因未单列支气管扩张症。全球发病/患病率在各地区约50–1,200+/10万不等，欧亚队列显示确诊患者4–5年全因死亡率高达16%–25%。",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国性单列死亡总数，但属于呼吸科第三大慢性气道疾病；既往大样本流行病学调查显示≥40岁人群医师诊断支扩患病率约1.2%（实际受既往肺结核及幼年肺炎后遗影响真实患病率更高）。",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球老龄化及CT筛查后病例诊断持续攀升，欧美患病率近二十年倍增。",
+        "prevalence_china": "中国40岁以上城市人口自我报告医师确诊率即达约1.2%，因既往结核及儿童下呼吸道感染史多发，是我国负担最沉重的“被忽视慢性肺病”之一。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "遇支气管扩张突发大咯血（单次≥100 mL或反复窒息风险）即刻患侧卧位、严格禁止盲目使用强镇咳药抑制排血引发血块窒息、即刻建立静脉通路予垂体后叶素/特利加压素收缩支气管动脉（监控血压冠脉），持续大咯血第一时间转介行“支气管动脉栓塞术（BAE）”急诊封堵；感染急性加重咳浓痰发热及时行痰培养（覆盖铜绿假单胞菌），静滴抗假单胞菌β-内酰胺（如头孢他啶/哌拉西林他唑巴坦/美罗培南）或氟喹诺酮14天。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿奇霉素片",
+            "name_en": "Azithromycin",
+            "drug_class": "大环内酯类抗生素（抗炎/免疫调节）",
+            "usage_role": "年急性加重≥2–3次患者稳定期低剂量长期维持治疗基石药物，可显著减少急性发作频率（需预先排除非结核分枝杆菌NTM定植防单药耐药）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "注射用美罗培南 / 抗假单胞菌β-内酰胺",
+            "name_en": "Meropenem",
+            "drug_class": "碳青霉烯类抗生素",
+            "usage_role": "铜绿假单胞菌或产ESBL革兰阴性耐药菌急性加重危重期住院静脉抗感染治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "6–15元/支（0.5g，第7批国采）",
+            "cost_source": "国家常规临床用药目录 / 第7批国家集采"
+          },
+          {
+            "name_zh": "布伦索卡替片（Brinsupri）",
+            "name_en": "Brensocatib",
+            "drug_class": "二肽基肽酶1（DPP-1）口服可逆抑制剂",
+            "usage_role": "2025年8月获美国FDA批准成为全球历史上首款获批专门治疗非囊性纤维化支气管扩张症（NCFB）的原创新药，靶向抑制中性粒细胞丝氨酸蛋白酶显著减少急性加重（国内暂未上市与进常规药品保障）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "每日坚持体位引流、主动循环呼吸技术（ACBT）及振荡正压呼气（OPEP）等气道廓清物理排痰",
+          "大咯血急诊微创支气管动脉栓塞术（BAE）",
+          "局限性单叶/单段反复大咯血或难治感染行外科切除"
+        ],
+        "annual_total_cost_china_cny": "常规急性加重感染住院单次约5,000–15,000元；若因大咯血行支气管动脉栓塞术（BAE）或重症救治，单次住院费用约20,000–50,000元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "长期“无药可用”局面于2025年历史性改写：全球首个口服可逆DPP-1抑制剂布伦索卡替（Brensocatib / Brinsupri）凭借大规模III期ASPEN试验显著降低年急性加重率约20%，于2025年8月获美国FDA正式批准成为首个NCFB获批新药；此外多种雾化吸入抗铜绿假单胞菌抗生素（如吸入妥布霉素国内上市/试验推进）及新兴组织蛋白酶C/中性粒细胞抑制剂同步处在II–III期临床队列。",
+        "key_unmet_needs_zh": "我国临床可及层面仍严重缺乏专门针对支扩获批的雾化抗生素与原研靶向抗炎药（如Brensocatib尚未在国内落地）；大部分城市尚未将其独立纳入门诊特殊慢病目录，患者长期门诊排查铜绿定植、物理排痰设备及重复住院负担高。"
+      },
+      "sources": [
+        {
+          "title": "Bronchiectasis in China: epidemiology and unmet clinical challenges",
+          "url": "https://www.ovid.com/journals/aats/fulltext/10.1513/annalsats.201511-740ps~bronchiectasis-in-china",
+          "publisher": "Annals of the American Thoracic Society",
+          "year": "2016"
+        },
+        {
+          "title": "Brinsupri (brensocatib) FDA Prescribing Information (Approved August 2025)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/217673s000lbl.pdf",
+          "publisher": "U.S. FDA",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0015926",
+      "name_zh": "尘肺病",
+      "name_en": "Pneumoconiosis",
+      "aliases_zh": [
+        "矽肺",
+        "煤工尘肺",
+        "职业性肺纤维化"
+      ],
+      "icd10": [
+        "J64",
+        "J60",
+        "J62"
+      ],
+      "icd11": [
+        "CA60"
+      ],
+      "category": "职业性肺病 (Occupational Lung Disease)",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "长期在职业活动中吸入游离二氧化硅、煤尘或石棉等生产性粉尘并在肺内潴留引起不可逆结节与进行性大块纤维化；肺组织逐年硬化伴慢阻肺、肺结核（矽肺并发肺结核率高）、反复气胸、呼吸衰竭及肺源性心脏病而危及生命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "脱离粉尘暴露后肺内纤维化进展仍可隐匿持续，目前无特效药物能够清除既定肺内粉尘或彻底逆转瘢痕结节，主要通过大容量全肺灌洗（早期）、汉防己甲素/抗纤维化评估、并发症（肺结核/气胸/COPD）防治及肺康复延缓恶化；终末期三期尘肺仅靠双肺移植重获新生。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 18323,
+          "range_or_note": "GBD 2021最新全球尘肺病负担研究估算2021年全球尘肺病致死约18,323例（95% UI: 16,041–20,916），中重度老龄职业暴露人群承受主要早死伤残负担。",
+          "year": "2021",
+          "source": "GBD 2021 Global Pneumoconiosis Burden Study (PMC11985417)"
+        },
+        "annual_deaths_china": {
+          "value": 8214,
+          "range_or_note": "GBD 2021中国尘肺专项研究估算中国2021年尘肺病相关死亡约8,214例（约占全球45%），模型估算现患约214,719例；国家卫健委职业病报告显示尘肺病长期占我国历年新报告职业病总数的约90%，国内累积生存确诊职业性尘肺患者逾45万人。",
+          "year": "2021",
+          "source": "GBD 2021 China Pneumoconiosis Burden Study (PMC12238073) / 国家卫健委"
+        },
+        "prevalence_global": "全球工业采矿、石材切割与制造发展中国家呈现极显著区域集中性，人造石英石台面高浓度矽尘近年来在新兴经济体引发大量年轻群聚性重度快进型矽肺。",
+        "prevalence_china": "中国是全球尘肺病累计病例数与负担最重的国家，现存确诊劳动者逾45万人，尚有大量未获正规职业病诊断备案的无劳动合同矿工/石材粉尘作业农民工。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "汉防己甲素片",
+            "name_en": "Tetrandrine",
+            "drug_class": "植物生物碱类抗矽肺/抗纤维化钙通道拮抗药",
+            "usage_role": "中国国家药监及职业病诊疗指南获批用于抑制肺内胶原合成与抗炎的尘肺基础代表药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "几十元/盒（国家常规临床药品目录及工伤保险职业病目录常规用药）",
+            "cost_source": "国家常规临床药品目录 / 工伤保险药品目录"
+          },
+          {
+            "name_zh": "吡非尼酮 / 尼达尼布",
+            "name_en": "Pirfenidone / Nintedanib",
+            "drug_class": "现代小分子抗肺纤维化药",
+            "usage_role": "针对呈进行性肺纤维化（PPF）表现的高阶/进展期矽肺正通过临床试验及拓展规范用于探索减缓肺功能下降（现行常规药品保障目录需符合特发性/PPF相关适配指征或工伤审批）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "吡非尼酮国产约700–850元/盒（尼达尼布92–127元/粒；具体由临床适配与工伤认定报销）",
+            "cost_source": "国家常规临床用药目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "立即彻底脱离接尘岗位及工作场所湿式作业与防尘工程治理",
+          "早期一期无明显肺心病禁忌者行大容量全肺灌洗清除肺泡表面游离粉尘与炎性介质",
+          "长期家庭氧疗、肺康复及终末期三期尘肺肺移植手术"
+        ],
+        "annual_total_cost_china_cny": "常规汉防己甲素及门诊维护年费较低且工伤保险全额实报；若进展至终末期需行肺移植手术费用约300,000–600,000+元，术后终身免疫抑制剂抗排异年药费约50,000–100,000+元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "国家卫健委持续开展全国尘肺病康复站基层全覆盖救治并落实无责任主体农民工兜底政策；临床研究正开展吡非尼酮及尼达尼布针对尘肺/矽肺伴进行性肺纤维化表型的III期随机对照试验验证，探索以现代抗纤维化药物阻断接尘停工后仍隐匿发展的块状纤维化进程。",
+        "key_unmet_needs_zh": "大量非正规矿山及人工石英石加工农民工因劳动关系举证困难无法享受工伤保险待遇；现有治疗尚无法逆转既已形成的矽结节与大块纤维化，终末期高额肺移植及长期随访负担极其沉重。"
+      },
+      "sources": [
+        {
+          "title": "Global burden of pneumoconiosis, 1990–2021 (GBD 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11985417/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        },
+        {
+          "title": "Burden and trends of pneumoconiosis in China, GBD 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12238073/",
+          "publisher": "PMC / GBD 2021",
+          "year": "2025"
+        }
+      ]
+    }
+  ]
+}

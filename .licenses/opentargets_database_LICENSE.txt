@@ -1,0 +1,52 @@
+Open Targets Platform Database Licence Notice
+=============================================
+
+Dataset Source: Open Targets Platform
+URL: https://platform.opentargets.org/
+FTP Release Path: https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/latest/output/
+Licence Documentation: https://platform-docs.opentargets.org/licence
+Croissant Metadata: https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/latest/croissant.json
+
+Release Snapshot Downloaded for Salus:
+- Version: 26.09
+- Date Published: 2026-09-18 (output parquet directory timestamped 2026-09-24)
+- Parquet Datasets Ingested:
+  * output/disease/00000000.parquet
+  * output/clinical_indication/00000000.parquet
+  * output/drug_molecule/00000000.parquet
+  * output/drug_mechanism_of_action/00000000.parquet
+
+1. Open Targets Platform Data Licence (CC0 1.0)
+-----------------------------------------------
+As documented at https://platform-docs.opentargets.org/licence:
+"Open Targets Platform is marked with CC0 1.0 (Creative Commons Zero 1.0 Universal,
+https://creativecommons.org/publicdomain/zero/1.0/). This dedicates the data to the
+public domain, allowing downstream users to consume the data without restriction.
+The Platform also conforms to the EBI long-term data preservation policies."
+
+2. Codebases Licence (Apache License 2.0)
+-----------------------------------------
+"The codebases that power the Platform - including our pipelines, GraphQL API, and
+React UI - are all open source and licensed under the APACHE LICENSE, VERSION 2.0."
+Repositories: https://github.com/opentargets
+
+3. Upstream Data Sources Licensing Note
+---------------------------------------
+Per https://platform-docs.opentargets.org/licence:
+"Please note that all data sources listed in the table, including the ones labeled
+with 'commercial use for Open Targets', have agreed for their data to be used without
+restriction by all Open Targets users."
+Key upstream sources integrated in these tables include:
+- MONDO (CC-BY 4.0)
+- Orphanet (CC-BY 4.0)
+- EFO (Apache 2.0)
+- ChEMBL (CC BY-SA 3.0)
+- UniProt / Reactome / Ensembl / Gene Ontology / IntOGen / ClinGen / HPO
+
+4. Attribution / Publication Citation
+-------------------------------------
+When using Open Targets Platform data or codebases, please cite:
+Buniello A, Suveges D, Cruz-Castillo C, et al.
+"Open Targets Platform: facilitating therapeutic hypotheses building in drug discovery."
+Nucleic Acids Res. 2025 Jan; 53(D1): D1467-D1475.
+DOI: 10.1093/nar/gkae1128 | PMID: 39657122 | PMCID: PMC11701534

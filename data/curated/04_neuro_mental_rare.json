@@ -1,0 +1,2409 @@
+{
+  "domain": "neuro_mental_rare",
+  "generated_at": "2026-11-15",
+  "curator": "neuro-mental-rare",
+  "records": [
+    {
+      "disease_id": "MONDO:0004975",
+      "name_zh": "阿尔茨海默病",
+      "name_en": "Alzheimer disease",
+      "aliases_zh": [
+        "老年痴呆症",
+        "阿尔茨海默型痴呆"
+      ],
+      "icd10": [
+        "G30"
+      ],
+      "icd11": [
+        "8A20"
+      ],
+      "category": "神经系统退行性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "β-淀粉样蛋白(Aβ)沉积与Tau蛋白过度磷酸化导致突触丢失和进行性皮层神经元凋亡，临床常在确诊后4–8年（部分可达10余年）进展至重度失能并因吸入性肺炎、营养衰竭或感染并发症死亡。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "目前尚无逆转神经元丢失的治愈疗法；传统胆碱酯酶抑制剂和美金刚仅对症改善认知，抗Aβ单抗（仑卡奈单抗、多奈单抗）可在早期MCI/轻度AD阶段延缓约27%–35%临床进展，需持续静脉输注并监测ARIA。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 1950000,
+          "range_or_note": "GBD 2021口径为阿尔茨海默病及其他痴呆症（全球约195万例，AD占总痴呆60%–70%；WHO全球卫生估计合计约210万例，居全球死因第5位）",
+          "year": "2021",
+          "source": "IHME GBD 2021 / WHO Dementia Fact Sheet"
+        },
+        "annual_deaths_china": {
+          "value": 491000,
+          "range_or_note": "GBD 2021估计中国阿尔茨海默病及其他痴呆症年死亡约49.1万–50万例（约占全球四分之一）",
+          "year": "2021",
+          "source": "GBD 2021 China Dementia Burden Analysis (PMC12489941)"
+        },
+        "prevalence_global": "全球痴呆症患者约5,686万–5,700万例（GBD 2021 / WHO），其中阿尔茨海默病占60%–70%",
+        "prevalence_china": "中国痴呆症患病人数约1,699万例（GBD 2021），AD为最主要亚型"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "多奈哌齐",
+            "name_en": "Donepezil",
+            "drug_class": "乙酰胆碱酯酶抑制剂(AChEI)",
+            "usage_role": "一线对症维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒（国家集采仿制药）",
+            "cost_source": "国家基本常规目录药物及国家药品集中采购目录"
+          },
+          {
+            "name_zh": "美金刚",
+            "name_en": "Memantine",
+            "drug_class": "NMDA受体拮抗剂",
+            "usage_role": "中重度一线联合维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒（集采后）",
+            "cost_source": "国家日常基本医疗支出减负目录及集中带量采购公开挂网价"
+          },
+          {
+            "name_zh": "仑卡奈单抗",
+            "name_en": "Lecanemab",
+            "drug_class": "抗Aβ原纤维单克隆抗体",
+            "usage_role": "早期疾病修饰治疗(DMT)",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2,508元/瓶(200mg)；月费约1.5万元，年治疗约18万元人民币",
+            "cost_source": "健康时报公开定价报道及首版商业健康保险创新药目录"
+          },
+          {
+            "name_zh": "多奈单抗",
+            "name_en": "Donanemab",
+            "drug_class": "抗N3pG-Aβ斑块单克隆抗体",
+            "usage_role": "早期疾病修饰治疗(DMT)",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "5,500元/支(350mg)；18个月完整疗程费用超36万元人民币",
+            "cost_source": "2024年12月NMPA批准及2025年国内商业上市公开报价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "认知训练与职业康复干预",
+          "精神行为症状(BPSD)非药物管理及照护者支持",
+          "血管危险因素控制、规律运动及营养防误吸护理"
+        ],
+        "annual_total_cost_china_cny": "常规对症口服药年药费约1,000–3,000元（不含失能长期照护）；采用抗Aβ单抗DMT及PET/MRI ARIA监测时，年直接医疗费用约18万–25万元人民币以上（未入日常基本医疗支出减负，部分依赖商保创新药目录/惠民保）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "仑卡奈单抗（NMPA 2024年1月批准）与多奈单抗（NMPA 2024年12月批准、2025年3月上市）双双进入中国首版商业健康保险创新药目录；国际上血浆p-tau217诊断生物标志物与抗Tau反义寡核苷酸(ASO)、鼻喷/皮下制剂正在推进。",
+        "key_unmet_needs_zh": "高价抗Aβ单抗尚未纳入日常基本医疗支出减负且伴ARIA脑水肿/出血监测门槛；中重度患者缺乏有效DMT；基层早期淀粉样蛋白PET/脑脊液及血液筛查可及性不足，家庭长期照护社会负担沉重。"
+      },
+      "sources": [
+        {
+          "title": "WHO Fact Sheet: Dementia",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+          "publisher": "World Health Organization",
+          "year": "2023"
+        },
+        {
+          "title": "PMC (PMC12489941): GBD 2021 Alzheimer's Disease and Other Dementias Burden",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12489941/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "国家药监局批准多奈单抗注射液上市公告",
+          "url": "https://www.nmpa.gov.cn/zhuanti/zt2023/ypgzhlfzh/shypqxgg/ggjzcx/20241220170912103.html?type=pc&m=",
+          "publisher": "国家药品监督管理局 (NMPA)",
+          "year": "2024"
+        },
+        {
+          "title": "健康时报：阿尔茨海默病靶向药仑卡奈单抗国内定价报道",
+          "url": "http://paper.people.com.cn/jksb/html/2024-01/16/content_26037558.htm",
+          "publisher": "人民日报健康时报",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005180",
+      "name_zh": "帕金森病",
+      "name_en": "Parkinson disease",
+      "aliases_zh": [
+        "震颤麻痹"
+      ],
+      "icd10": [
+        "G20"
+      ],
+      "icd11": [
+        "8A00"
+      ],
+      "category": "神经系统退行性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "黑质致密部多巴胺能神经元进行性丢失与α-突触核蛋白(路易小体)聚集，病程通常持续10–20年，晚期因吞咽困难、误吸性肺炎、严重跌倒骨折及卧床并发症显著升高死亡风险。",
+      "treatability_status": "symptomatic_only",
+      "treatability_summary_zh": "左旋多巴等药物及脑深部电刺激术(DBS)可显著改善运动症状并维持数年高质量生活，但中晚期常出现异动症及剂末现象；全球尚无获批可阻断多巴胺能神经元退变的疾病修饰疗法。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 388194,
+          "range_or_note": "GBD 2021全球帕金森病年死亡约388,194例（WHO早前基线报告约32.9万例）",
+          "year": "2021",
+          "source": "GBD 2021 Parkinson Disease Analysis (PMC12427116) / WHO"
+        },
+        "annual_deaths_china": {
+          "value": 92035,
+          "range_or_note": "GBD 2021中国帕金森病年死亡约92,035例（95% UI: 75,000–108,000），占全球死亡约23.71%",
+          "year": "2021",
+          "source": "GBD 2021 / 《中国帕金森病报告2025》(PMC12700741)"
+        },
+        "prevalence_global": "全球患病人数约1,177万例（GBD 2021），年龄标化患病率138.63/10万",
+        "prevalence_china": "中国现患人数超500万例（占全球约43.14%），年龄标化患病率245.73/10万（《中国帕金森病报告2025》）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "多巴丝肼片(左旋多巴/苄丝肼)",
+            "name_en": "Levodopa / Benserazide",
+            "drug_class": "多巴胺前体+外周脱羧酶抑制剂",
+            "usage_role": "核心一线症状控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒",
+            "cost_source": "国家基本常规基础药物及集采/挂网价"
+          },
+          {
+            "name_zh": "雷沙吉兰",
+            "name_en": "Rasagiline",
+            "drug_class": "选择性MAO-B抑制剂",
+            "usage_role": "早期单药或联合增效",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元至200元/盒",
+            "cost_source": "国家基本常规目录药物及集采挂网价"
+          },
+          {
+            "name_zh": "普拉克索",
+            "name_en": "Pramipexole",
+            "drug_class": "非麦角类多巴胺受体激动剂",
+            "usage_role": "早期一线及波动期联合",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒（集采仿制药）",
+            "cost_source": "国家日常基本医疗支出减负及集采中选目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "脑深部电刺激术（DBS，针对剂末/异动显著之中晚期患者）",
+          "帕金森病步态、言语(LSVT)与吞咽康复训练",
+          "肠内左旋多巴凝胶泵及皮下输注设备管理"
+        ],
+        "annual_total_cost_china_cny": "口服基础抗帕金森药物经常规医疗减负后年自付约1,000–5,000元；若行双侧DBS手术，全额器械及住院费用约15万–30万元人民币（部分省市试点常规药品保障报销比例超70%）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "iPSC/ESC诱导多巴胺能前体细胞移植、抗α-突触核蛋白单抗、LRRK2/GBA靶向小分子及自适应闭环DBS系统正处于Phase 2–3临床探索；长效皮下左旋多巴/卡比多巴输注方案改善晚期开关波动。",
+        "key_unmet_needs_zh": "缺乏神经保护性或阻断病程进展的DMT药物；晚期姿势步态障碍、冻结步态与认知痴呆对多巴胺能药物反应差；高额DBS神经调控器与持续程控负担仍有区域不均。"
+      },
+      "sources": [
+        {
+          "title": "WHO Fact Sheet: Parkinson disease",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/parkinson-disease",
+          "publisher": "World Health Organization",
+          "year": "2023"
+        },
+        {
+          "title": "PMC (PMC12427116): Global Burden of Parkinson's Disease (GBD 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12427116/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC12700741): China Parkinson Disease Burden Report 2025",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12700741/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005027",
+      "name_zh": "癫痫及癫痫持续状态",
+      "name_en": "Epilepsy and status epilepticus",
+      "aliases_zh": [
+        "羊角风",
+        "癫痫大发作",
+        "癫痫持续状态(SE)"
+      ],
+      "icd10": [
+        "G40",
+        "G41"
+      ],
+      "icd11": [
+        "8A60",
+        "8A66"
+      ],
+      "category": "神经系统发作性疾病与急症",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "慢性期多数可控，但全面性强直-阵挛癫痫持续状态（GCSE）超过5分钟未终止可迅速进展为难治性/超难治性SE，在数小时至数日内引发兴奋性神经毒性坏死、高热、横纹肌溶解、脑水肿及心肺衰竭；癫痫猝死(SUDEP)可在数分钟内致死。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "约70%慢性癫痫患者可通过规范抗癫痫发作药物(ASM)实现无发作，急性SE有明确时间窗急救流程；仍有约30%发展为耐药性癫痫(DRE)或超难治性SE，需联合多机制ASM或生酮/外科/神经调控。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 139851,
+          "range_or_note": "GBD 2021特发性癫痫全球年死亡约139,851例（WHO估计所有癫痫年死亡约12.5万例）；癫痫患者早逝风险较常人高约2–3倍",
+          "year": "2021",
+          "source": "GBD 2021 Epilepsy Mortality Study (PMID: 39962605) / WHO"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "全国性单一确诊癫痫/SE精确年总死亡数未被WHO或公开摘要直接单列；GBD 2021中国特发性癫痫年龄标化死亡率(ASMR)约0.8/10万（较1990年下降56.6%），国内多中心研究显示癫痫持续状态住院死亡率约1.2%–10%以上（随难治度及ICU并发症升高）",
+          "year": "2021",
+          "source": "GBD 2021 / China SE Inpatient Mortality Study (PMID: 31923706)"
+        },
+        "prevalence_global": "全球活动性全部癫痫约5,170万例（GBD 2021，其中特发性癫痫约2,420万例；WHO口径约5,000万例）",
+        "prevalence_china": "中国活动性癫痫患病人数约900万–1,000万例（GBD 2021特发性癫痫ASPR约214.7/10万）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "惊厥性癫痫持续状态(GCSE)黄金时间窗抢救：(1) 0–5分钟：稳定气道与呼吸循环、吸氧监测；(2) 5–20分钟一线治疗：立即静脉注射地西泮或劳拉西泮，无静脉通路时肌注咪达唑仑；(3) 20–40分钟二线静脉负荷：丙戊酸钠、左乙拉西坦或苯巴比妥钠（及磷苯妥英）；(4) >40分钟难治性SE：转入ICU气管插管机械通气并予持续静脉麻醉药（咪达唑仑、丙泊酚或氯胺酮）及脑电监测。",
+        "standard_drugs": [
+          {
+            "name_zh": "丙戊酸钠(片剂/注射用)",
+            "name_en": "Sodium valproate",
+            "drug_class": "广谱钠/GABA/组蛋白去乙酰化多靶点ASM",
+            "usage_role": "一线广谱维持及SE二线静脉负荷",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒（集采仿制药）",
+            "cost_source": "国家日常基本医疗支出减负目录及集中带量采购目录"
+          },
+          {
+            "name_zh": "左乙拉西坦(片剂/注射液)",
+            "name_en": "Levetiracetam",
+            "drug_class": "突触囊泡蛋白SV2A结合剂",
+            "usage_role": "一线局灶/全面性发作及SE二线急救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒（集采仿制药）",
+            "cost_source": "国家基本常规目录药物及集采目录"
+          },
+          {
+            "name_zh": "吡仑帕奈",
+            "name_en": "Perampanel",
+            "drug_class": "选择性非竞争性AMPA受体拮抗剂",
+            "usage_role": "局灶性及耐药性癫痫/RSE联合治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约120–130元/盒（2mg*28片常规药品保障挂网价，月均最低约230元）",
+            "cost_source": "国家降价协商常用药品目录(YPSW202300385)及公立医院挂网价"
+          },
+          {
+            "name_zh": "咪达唑仑 / 地西泮注射液",
+            "name_en": "Midazolam / Diazepam Injection",
+            "drug_class": "苯二氮䓬类GABA-A受体激动剂",
+            "usage_role": "癫痫持续状态一线急救终止发作",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "集采/基本药物低价注射剂（数元至数十元/支）",
+            "cost_source": "国家基本药物与日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "难治性局灶癫痫致痫灶切除或激光间质热疗(LITT)评估",
+          "迷走神经刺激术(VNS)与反应性神经电刺激(RNS)",
+          "难治性儿童癫痫生酮饮食治疗"
+        ],
+        "annual_total_cost_china_cny": "常规单药/双药维持年药费约1,000–5,000元（多入集采及常规药品保障）；如发生超难治性SE入ICU抢救，单次住院费用可达数万至十余万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "高选择性钠通道/KCNQ钾通道开放剂及Cenobamate显著提高耐药局灶癫痫无发作率（国内临床专家共识推荐并加速可及）；毗仑帕奈口服混悬液入常规药品保障提升儿童及RSE给药便利性；针对Dravet、SCN1A等单基因癫痫的反义寡核苷酸与基因疗法处于Phase 1–3。",
+        "key_unmet_needs_zh": "约30%耐药性癫痫与超难治性SE缺乏突破性无发作控制方案；SUDEP预防手段有限；基层医院与院前急救鼻喷/肌注苯二氮䓬类快速终止SE的规范配置仍需加强。"
+      },
+      "sources": [
+        {
+          "title": "WHO Fact Sheet: Epilepsy",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy",
+          "publisher": "World Health Organization",
+          "year": "2024"
+        },
+        {
+          "title": "PubMed (PMID: 39962605): GBD 2021 Global Epilepsy Burden and Mortality",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39962605/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "PubMed (PMID: 31923706): Status Epilepticus In-Hospital Mortality in China",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31923706/",
+          "publisher": "PubMed / NIH",
+          "year": "2020"
+        },
+        {
+          "title": "PubMed (PMID: 40882501): Perampanel in Refractory Status Epilepticus in China",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40882501/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004976",
+      "name_zh": "肌萎缩侧索硬化",
+      "name_en": "Amyotrophic lateral sclerosis",
+      "aliases_zh": [
+        "渐冻症",
+        "运动神经元病(MND)",
+        "ALS"
+      ],
+      "icd10": [
+        "G12.2"
+      ],
+      "icd11": [
+        "8B60.0"
+      ],
+      "category": "神经肌肉与运动神经元疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "上、下运动神经元进行性不可逆变性死亡（超90%存在TDP-43蛋白异常聚集），导致四肢瘫痪、延髓球麻痹吞咽困难及膈肌无力，常于起病后3–5年内因呼吸衰竭（或误吸性肺炎）死亡；部分球部起病或快进展型生存期不足2年。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "约90%散发性ALS仍缺乏强效疾病修饰疗法，利鲁唑与依达拉奉仅能小幅延长无气管切开生存数月；仅针对约2%–3% SOD1突变患者的反义寡核苷酸托夫生(Tofersen)获批并可显著延缓进展。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 39082,
+          "range_or_note": "GBD 2021运动神经元病(MND，以ALS为主)全球年死亡约39,082例",
+          "year": "2021",
+          "source": "GBD 2021 Motor Neuron Disease Study (PMID: 42897940)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国官方死因统计未将纯ALS单列年死亡绝对人数；文献估算中国MND年龄标化死亡率约0.18/10万且随人口老龄化上升，患者中位生存期约3–5年",
+          "year": "2021",
+          "source": "GBD 2021 MND Study / 中国《第一批罕见病目录》"
+        },
+        "prevalence_global": "Orphanet全球点患病率约3.85/10万，欧洲约5.2/10万（ORPHA:803）",
+        "prevalence_china": "中国年发病率约1.62/10万，文献报道粗患病率约3.3/10万（全国存量患者数万人）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性呼吸衰竭或重度球麻痹窒息急救：一旦出现用力肺活量(FVC)<50%、高碳酸血症或急性误吸窒息，立即经气道吸痰吸引、开启无创正压通气(NIV)；若NIV失效或严重延髓分泌物阻塞气道，在充分尊重患者及家属生前预嘱/知情同意前提下评估气管插管、气管切开有创机械通气及胃造瘘(PEG)营养通道。",
+        "standard_drugs": [
+          {
+            "name_zh": "利鲁唑片",
+            "name_en": "Riluzole",
+            "drug_class": "谷氨酸释放抑制剂",
+            "usage_role": "基础一线延缓生存",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数百元至1,000元/盒（过评仿制药显著降价）",
+            "cost_source": "国家基本常规目录药物及仿制药挂网价"
+          },
+          {
+            "name_zh": "依达拉奉",
+            "name_en": "Edaravone",
+            "drug_class": "自由基清除抗氧化剂",
+            "usage_role": "联合抗氧化辅助治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规常规目录药物注射液价格",
+            "cost_source": "国家基本常规临床用药目录"
+          },
+          {
+            "name_zh": "托夫生注射液",
+            "name_en": "Tofersen",
+            "drug_class": "靶向SOD1 mRNA反义寡核苷酸(ASO)",
+            "usage_role": "SOD1突变型ALS鞘内靶向治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "首年全额约140万元人民币，经约50%患者慈善援助后约70万元/年",
+            "cost_source": "2024年9月NMPA批准及每日经济新闻2025年公开费用报道"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无创双水平正压通气(BiPAP)及排痰机气道管理",
+          "经皮内镜胃造瘘术(PEG)保障早期肠内营养",
+          "眼动仪辅助沟通与多学科姑息照护"
+        ],
+        "annual_total_cost_china_cny": "常规利鲁唑+呼吸营养支持年医疗自付约1万–4万元；若为SOD1突变型使用托夫生注射液，年用药费用约70万–140万元人民币（未入国家日常基本医疗支出减负）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "全球首个ALS基因靶向ASO药物托夫生于2024年9月在中国获NMPA批准用于SOD1-ALS（无症状携带者ATLAS预防性试验进行中）；针对散发性ALS的TDP-43错误折叠调控(如STMN2/UNC13A剪接校正ASO)、FUS-ASO及iPSC神经干细胞保护疗法处于Phase 1–3。",
+        "key_unmet_needs_zh": "占90%以上的散发性ALS至今无能阻断病情或恢复运动功能的高效DMT；托夫生鞘内注射年费用高昂且未入常规药品保障，仅惠及少数SOD1突变人群。"
+      },
+      "sources": [
+        {
+          "title": "PubMed (PMID: 42897940): Global Burden of Disease 2021 Motor Neuron Disease",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42897940/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Disease Profile: Amyotrophic lateral sclerosis (ORPHA:803)",
+          "url": "https://www.orpha.net/en/disease/detail/803",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "每日经济新闻：全球首个SOD1-ALS靶向药托夫生国内费用与援助报道",
+          "url": "https://www.nbd.com.cn/articles/2025-06-12/3906169.html",
+          "publisher": "每日经济新闻",
+          "year": "2025"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005301",
+      "name_zh": "多发性硬化",
+      "name_en": "Multiple sclerosis",
+      "aliases_zh": [
+        "MS"
+      ],
+      "icd10": [
+        "G35"
+      ],
+      "icd11": [
+        "8A40"
+      ],
+      "category": "中枢神经系统脱髓鞘疾病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "T/B淋巴细胞介导的中枢神经系统炎性脱髓鞘与慢性轴突神经变性，急性发作主要致残（视力、肢体瘫痪、共济失调），长期累积重度残疾后因感染（尿路/肺部）及心血管并发症使预期寿命较常人缩短约5–10年。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "高效疾病修饰治疗(DMT，如抗CD20单抗奥法妥木单抗、S1P调节剂西尼莫德)在常规药品保障覆盖后大幅降低复发率与新发MRI病灶，但原发进展型(PPMS)和无复发隐匿进展(PIRA)仍难完全阻止。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 16000,
+          "range_or_note": "GBD 2021全年龄段MS全球年死亡约1.6万例（95% UI: 1.53万–1.70万；20–54岁中青年亚组约4,738例）",
+          "year": "2021",
+          "source": "GBD 2021 Multiple Sclerosis Study (PMID: 39928193)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国MS绝对年死亡人数在公开GBD摘要中未单列（中国MS年龄标化死亡率极低，疾病负担90%以上体现为伤残损失寿命年YLD而非直接急性死亡）",
+          "year": "2021",
+          "source": "GBD 2021 / China MS Burden Study (PMC11175640)"
+        },
+        "prevalence_global": "GBD 2021全球患病约189万例；MSIF《Atlas of MS》2023/2024全球调查估计约290万–310万例",
+        "prevalence_china": "中国患病率约2.32/10万，估计总患者约4.2万–5万余例，男女比约1:2（PMC11175640）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性临床复发处置：确诊新发或加重神经功能缺损后，早期予大剂量静脉甲泼尼龙冲击治疗（常500–1,000 mg/日×3–5天）；对激素反应不佳的重症视神经炎或高位脊髓炎复发，及时序贯血浆置换(PE)或免疫吸附治疗。",
+        "standard_drugs": [
+          {
+            "name_zh": "奥法妥木单抗注射液",
+            "name_en": "Ofatumumab",
+            "drug_class": "全人源抗CD20单克隆抗体",
+            "usage_role": "复发型MS(RMS)高效一线DMT",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约6,778元/支(20mg预充笔，由上市初约10,500元谈判降价)",
+            "cost_source": "健康时报2025报道及国家常规药品保障局2023/2026谈判目录(YPSN202600249)"
+          },
+          {
+            "name_zh": "西尼莫德片",
+            "name_en": "Siponimod",
+            "drug_class": "选择性S1P1/S1P5受体调节剂",
+            "usage_role": "复发及继发进展型MS(SPMS)口服DMT",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "49.26元/粒（首轮国谈常规药品保障支付标准）",
+            "cost_source": "国家降价协商常用药品目录公开标准"
+          },
+          {
+            "name_zh": "特立氟胺片",
+            "name_en": "Teriflunomide",
+            "drug_class": "二氢乳清酸脱氢酶抑制剂",
+            "usage_role": "轻中度复发缓解型MS基础口服DMT",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已入国家常规药品保障及仿制降价（数千元至万元/年）",
+            "cost_source": "国家基本常规临床用药目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "神经运动康复与痉挛步态物理治疗",
+          "神经源性膀胱管理及疲劳认知干预"
+        ],
+        "annual_total_cost_china_cny": "奥法妥木单抗或西尼莫德经国家集采降价与双通道常规降价后，年个人自付药费多在1.5万–4万元人民币区间（未报销前单抗年药费约8万–10万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "高选择性BTK抑制剂(如Tolebrutinib)在非复发继发进展型MS(nrSPMS)探索延缓独立于复发的残障进展(PIRA)；EB病毒靶向细胞免疫及促进髓鞘再生(Remyelination)药物正处Phase 2–3临床研究。",
+        "key_unmet_needs_zh": "进展型MS(PPMS/nrSPMS)中枢区室化慢性神经炎症与退行性萎缩仍缺乏高度有效药物；部分患者在确诊初期误诊为普通脑血管病或视神经炎而错失早期高效DMT窗口。"
+      },
+      "sources": [
+        {
+          "title": "PubMed (PMID: 39928193): GBD 2021 Global Multiple Sclerosis Burden",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39928193/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "PubMed (PMID: 42693747): MSIF Atlas of Multiple Sclerosis Global Prevalence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42693747/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC11175640): Epidemiology and Burden of Multiple Sclerosis in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11175640/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2024"
+        },
+        {
+          "title": "健康时报：奥法妥木单抗国谈降价与多发性硬化用药保障报道",
+          "url": "http://paper.people.com.cn/jksb/pad/content/202501/17/content_30053263.html",
+          "publisher": "人民日报健康时报",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019100",
+      "name_zh": "视神经脊髓炎谱系疾病",
+      "name_en": "Neuromyelitis optica spectrum disorder",
+      "aliases_zh": [
+        "Devic病",
+        "NMOSD",
+        "视神经脊髓炎"
+      ],
+      "icd10": [
+        "G36.0"
+      ],
+      "icd11": [
+        "8A43"
+      ],
+      "category": "中枢神经系统脱髓鞘疾病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "致病性AQP4-IgG自身抗体介导补体级联与星形胶质细胞损伤，单次重度急性复发即可致双目失明或截瘫；当病灶累及高颈段脊髓或脑干延髓呼吸中枢（最后区综合征合并延髓受累）时，可在数日内诱发中枢性呼吸衰竭致死。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "近五年靶向生物制剂（萨特利珠单抗、伊奈利珠单抗、依库珠单抗）实现“按机制精准防控复发”，AQP4阳性患者年复发率下降约75%–94%；急性期需尽早激素冲击+血浆置换。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE与GBD 2021未将NMOSD作为独立死因条目统计，无全球官方年死亡总数；自然史研究显示复发未控时代患者5年生存率受呼吸衰竭与感染显著威胁",
+          "year": null,
+          "source": "WHO / Orphanet ORPHA:71211"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "全国年死亡总数无独立统计；重度高颈髓/脑干复发及长期大剂量免疫抑制剂继发重症感染为主要致死原因",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / PMC8315565"
+        },
+        "prevalence_global": "Orphanet全球点患病率约2.071/10万，年发病率约0.1877/10万（ORPHA:71211；各族群范围约0.7–10/10万，东亚及非裔显著高于白人）",
+        "prevalence_china": "中国全国住院病案首页(HQMS)队列测算全人口年发病率0.28/10万（成人0.35/10万），全国成人现患约3.8万–4万例，女性:男性约4.7:1（PMC8315565）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性重度复发(高颈髓炎/脑干受累/重度视神经炎)抢救：(1) 立即评估呼吸肌力与血气，若脑干/C1–C4受累伴通气障碍尽早气管插管呼吸机支持；(2) 一线予大剂量静脉甲泼尼龙(1,000 mg/日×3–5天)冲击；(3) 反应不充分或起始即重度截瘫/全盲者，72小时内联合血浆置换(PE 5–7次)或静脉丙种球蛋白(IVIG)抢救。",
+        "standard_drugs": [
+          {
+            "name_zh": "萨特利珠单抗注射液",
+            "name_en": "Satralizumab",
+            "drug_class": "抗IL-6受体再循环单克隆抗体",
+            "usage_role": "AQP4-IgG阳性NMOSD一线防复发靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "挂网约10,186–11,380元/支(120mg，上市初39,800元/支)",
+            "cost_source": "2023国谈入国家常规目录药物(2024年执行)及定点医院公开挂网价"
+          },
+          {
+            "name_zh": "伊奈利珠单抗注射液",
+            "name_en": "Inebilizumab",
+            "drug_class": "抗CD19单克隆抗体(B细胞清除)",
+            "usage_role": "AQP4-IgG阳性NMOSD一线防复发靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品降价协商乙类支付价格",
+            "cost_source": "国家降价协商常用药品目录(YPSN202400176)"
+          },
+          {
+            "name_zh": "硫唑嘌呤 / 吗替麦考酚酯",
+            "name_en": "Azathioprine / Mycophenolate mofetil",
+            "drug_class": "传统广谱免疫抑制剂",
+            "usage_role": "经济受限或血清阴性患者维持免疫抑制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数百元至数千元/年",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急性期治疗性血浆置换(TPE)/免疫吸附",
+          "脊髓损伤截瘫神经康复与神经源性膀胱管理"
+        ],
+        "annual_total_cost_china_cny": "传统口服免疫抑制剂年药费约2,000–6,000元；若采用萨特利珠单抗或伊奈利珠单抗维持，经国谈降价及地方门诊单行支付/特殊慢病报销后，年个人自付约3万–5万元（未报销前维持年药费约10万–13万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "国内已覆盖抗IL-6R(萨特利珠)、抗CD19(伊奈利珠)与抗C5补体(依库珠单抗/瑞利珠单抗海外获批)全谱系防复发通路；针对AQP4自身反应性B细胞的CAR-T(如BCMA/CD19双靶点)早期临床探索提示部分极难治患者实现长期无药缓解。",
+        "key_unmet_needs_zh": "约20%–30%血清AQP4/MOG双阴性NMOSD患者缺乏获批精准单抗适应症且常规药品保障受限；依库珠单抗在华主要入常规药品保障覆盖gMG/PNH/aHUS而NMOSD高致残复发患者对急救及多靶点联合可及性仍有限；已发生的视神经与脊髓不可逆损伤无法逆转。"
+      },
+      "sources": [
+        {
+          "title": "PMC (PMC8315565): Nationwide Epidemiology of NMOSD in China (HQMS)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315565/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2021"
+        },
+        {
+          "title": "Orphanet Disease Profile: Neuromyelitis optica spectrum disorder (ORPHA:71211)",
+          "url": "https://www.orpha.net/en/disease/detail/71211",
+          "publisher": "Orphanet",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009688",
+      "name_zh": "重症肌无力",
+      "name_en": "Myasthenia gravis",
+      "aliases_zh": [
+        "MG",
+        "肌无力危象(Myasthenic Crisis)"
+      ],
+      "icd10": [
+        "G70.0"
+      ],
+      "icd11": [
+        "8C60"
+      ],
+      "category": "神经肌肉与运动神经元疾病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "针对神经肌肉接头乙酰胆碱受体(AChR)、MuSK或LRP4的自身抗体破坏突触后膜传递，诱发骨骼肌易疲劳与呼吸/吞咽肌麻痹；约15%–20%全身型MG(gMG)患者可突发“肌无力危象”，在数小时至数日内因急性高碳酸性呼吸衰竭或误吸窒息危及生命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "抗胆碱酯酶药、糖皮质激素/免疫抑制剂联合胸腺切除使多数患者达到微小症状表达(MMS)；FcRn拮抗剂(艾加莫德)及C5补体抑制剂(依库珠单抗)于2023年国谈入常规药品保障后，显著提升了难治性gMG控制率与危象急救成功率。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE与GBD 2021将MG归入“其他神经系统疾病”，未公布全球单独年死亡人数；国际队列肌无力危象住院死亡率已从历史>40%降至现代ICU约2%–5%",
+          "year": null,
+          "source": "WHO / Orphanet ORPHA:589"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无全国绝对死亡总数；中国国家死因监测系统测算MG年龄标化死亡率(ASMR)约1.86/100万，中位死亡年龄59.4岁（PMID: 37212271）；HQMS住院病死率约14.69‰（PMC8315547）",
+          "year": "2023",
+          "source": "China National Mortality Surveillance System (PMID: 37212271) / PMC8315547"
+        },
+        "prevalence_global": "全球平均患病率约173/百万（Orphanet全球7.77/10万，欧洲约20/10万，ORPHA:589）",
+        "prevalence_china": "中国年发病率约0.68/10万（PMC8315547），推算全国全身型重症肌无力(gMG)患者约17万人；全身型重症肌无力纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肌无力危象(Myasthenic Crisis)急危重症救治：(1) 当出现用力肺活量<15 mL/kg、呼吸窘迫或球麻痹排痰无力时立即行气管插管有创机械通气（早期轻中度呼吸窘迫可严密监护下短时试用BiPAP），同时停用或减停胆碱酯酶抑制剂以减少呼吸道分泌物并排除胆碱能危象；(2) 立即启动快速免疫急救：静脉丙种球蛋白(IVIG 0.4 g/kg/日×5天)或血浆置换(PE 5次)，可联用或桥接靶向FcRn/补体生物制剂；(3) 排查诱因（肺部感染、误停药、禁忌药物如氨基糖苷类/氟喹诺酮类/镁剂）并同步静脉足量糖皮质激素或非激素免疫抑制剂。",
+        "standard_drugs": [
+          {
+            "name_zh": "溴吡斯的明片",
+            "name_en": "Pyridostigmine bromide",
+            "drug_class": "可逆性乙酰胆碱酯酶抑制剂",
+            "usage_role": "一线基础对症改善肌力",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约70–100元/瓶(60片)",
+            "cost_source": "国家基本药物与基本常规基础药物目录"
+          },
+          {
+            "name_zh": "艾加莫德α注射液",
+            "name_en": "Efgartigimod alfa",
+            "drug_class": "FcRn拮抗剂（快速清除致病性IgG）",
+            "usage_role": "AChR+ gMG精准生物制剂/危象桥接",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2023国谈入常规药品保障（由上市初超30万元/年大幅降价，且后续扩皮下剂型）",
+            "cost_source": "2023国家降价协商常用药品目录及再鼎医药官方上市公告"
+          },
+          {
+            "name_zh": "依库珠单抗注射液",
+            "name_en": "Eculizumab",
+            "drug_class": "抗补体C5单克隆抗体",
+            "usage_role": "难治性AChR+ gMG靶向维持/急救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约2,510–2,518元/支（由约19,000元/支降幅约87%）",
+            "cost_source": "2023国谈纳入常规药品保障(2024年1月执行覆盖gMG)公开报道"
+          },
+          {
+            "name_zh": "静注人免疫球蛋白(IVIG)",
+            "name_en": "Intravenous Immunoglobulin",
+            "drug_class": "多克隆免疫球蛋白制剂",
+            "usage_role": "肌无力危象急救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "医院中标价约500–620元/瓶(2.5g)，单次危象5天疗程约1.5万–3万元人民币",
+            "cost_source": "省级集采挂网价与国家常规药品保障限重危适应症目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "胸腺瘤切除或非胸腺瘤AChR+患者胸腺扩大切除术",
+          "ICU有创机械通气与肌无力危象血浆置换(TPE)"
+        ],
+        "annual_total_cost_china_cny": "常规溴吡斯的明+免疫抑制剂年费用约2,000–6,000元；采用艾加莫德或依库珠单抗经国家常规药品保障及门诊特殊慢病报销后患者年自付多降至约2万–6万元（发作危象ICU抢救另增数万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "艾加莫德皮下制剂(PH20)及多个新型FcRn抑制剂(罗泽利昔珠单抗覆盖MuSK+患者)、补体C5抑制剂国内相继落地并推动向“无激素长期缓解”转型；BCMA/CD19 CAR-T及泰它西普在难治性gMG中展现出显著免疫重建与停药潜力。",
+        "key_unmet_needs_zh": "MuSK-MG、血清双阴性(SNMG)患者精准靶向药国内常规药品保障适应症覆盖仍有限；长效生物制剂长期停药复发规律尚不明确，基层医院危象急诊规范气管插管与IVIG应急供应存在明显短板。"
+      },
+      "sources": [
+        {
+          "title": "PMC (PMC8315547): Incidence and Mortality of Myasthenia Gravis in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8315547/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2021"
+        },
+        {
+          "title": "PubMed (PMID: 37212271): Myasthenia Gravis Mortality in China Surveillance System",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37212271/",
+          "publisher": "PubMed / NIH",
+          "year": "2023"
+        },
+        {
+          "title": "Orphanet Disease Profile: Myasthenia gravis (ORPHA:589)",
+          "url": "https://www.orpha.net/en/disease/detail/589",
+          "publisher": "Orphanet",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019956",
+      "name_zh": "细菌性/病毒性脑炎",
+      "name_en": "Bacterial and viral encephalitis",
+      "aliases_zh": [
+        "感染性脑炎",
+        "病毒性脑炎",
+        "细菌性脑膜脑炎"
+      ],
+      "icd10": [
+        "G04",
+        "A85",
+        "A83",
+        "A84",
+        "A86",
+        "B00.4"
+      ],
+      "icd11": [
+        "1D00",
+        "1C80"
+      ],
+      "category": "中枢神经系统感染性急症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "病原体直接侵袭脑实质及继发猛烈免疫炎症反应，在数小时至数日内引发弥漫性脑水肿、颅内压急剧升高、癫痫持续状态及脑疝压迫脑干生命中枢；未经及时治疗的单纯疱疹病毒1型(HSV-1)脑炎病死率极高（传统自然病程>70%），细菌性脑膜脑炎延误抗感染数小时即可致死。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "细菌性脑膜脑炎及HSV-1/VZV病毒性脑炎在急诊黄金时间窗内立即经验性予广谱抗细菌药与静脉阿昔洛韦可显著降低病死率并可治愈；但乙脑、肠道病毒等多数病毒缺乏特效抗病毒药，且重症患者易遗留癫痫或认知残疾。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 90000,
+          "range_or_note": "GBD 2021仅“脑炎(Encephalitis)”单独条目全球年死亡约89,900–92,000例（另脑膜炎在GBD中独立统计）",
+          "year": "2021",
+          "source": "GBD 2021 Encephalitis Burden Study (PMID: 41048286)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "未取得GBD中国感染性脑炎单项精确死亡绝对数；1990–2021年中国脑炎年龄标化死亡率随乙脑疫苗接种与ICU救治提升持续下降，但5岁以下儿童及85岁以上高龄人群急性致死与重症风险仍高",
+          "year": "2021",
+          "source": "GBD 2021 Encephalitis Study (PMID: 41048286)"
+        },
+        "prevalence_global": "GBD 2021脑炎全球年发病约140万–150万例（各地区按虫媒/疫苗覆盖差异显著）",
+        "prevalence_china": "中国病毒性脑炎（以HSV、肠道病毒、乙脑为主）及化脓性脑膜脑炎总体发病呈散在与季节性分布，基层早期精准病原学诊断仍具挑战"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性颅内感染黄金小时急救：(1) 怀疑脑炎/脑膜脑炎1小时内不待病原学结果，立即在血培养及（排除脑疝风险后）腰椎穿刺的同时或之后即刻启动经验性静脉抗感染：静脉阿昔洛韦(10 mg/kg q8h)覆盖HSV/VZV＋血脑屏障穿透性三代头孢(头孢曲松/头孢噻肟)联合万古霉素覆盖常见细菌性病原；(2) 合并惊厥持续状态或严重脑水肿颅高压时立即予甘露醇/高渗盐水脱水降颅压、控制癫痫发作及ICU气道保护；(3) 48小时内结合脑脊液mNGS二代测序精准降阶梯或加用抗寄生虫/自身免疫性脑炎鉴别治疗。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用阿昔洛韦",
+            "name_en": "Acyclovir IV",
+            "drug_class": "核苷类似物抗疱疹病毒药",
+            "usage_role": "HSV/VZV病毒性脑炎急诊经验性一线特效抗病毒",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "数元至十余元/支（极低成本急诊注射剂）",
+            "cost_source": "国家基本药物与日常基本医疗支出减负甲乙类目录"
+          },
+          {
+            "name_zh": "头孢曲松钠+万古霉素注射液",
+            "name_en": "Ceftriaxone + Vancomycin",
+            "drug_class": "三代头孢+糖肽类广谱抗菌药",
+            "usage_role": "细菌性脑膜脑炎急诊经验性覆盖肺炎链球菌/脑膜炎奈瑟菌",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "几十元至百余元/日（集采及日常基本医疗支出减负常规抗菌注射剂）",
+            "cost_source": "国家日常基本医疗支出减负目录与集采挂网价"
+          },
+          {
+            "name_zh": "静注人免疫球蛋白(IVIG)",
+            "name_en": "Intravenous Immunoglobulin",
+            "drug_class": "广谱免疫调节生物制剂",
+            "usage_role": "重症病毒性脑炎或免疫介导脑炎辅助免疫支持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约500–620元/瓶(2.5g)",
+            "cost_source": "医院中标挂网价与国家常规药品保障限重症目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "脑脊液宏基因组二代测序(mNGS)快速病原排查",
+          "ICU亚低温脑保护、机械通气与持续颅内压监测",
+          "恢复期认知、言语及运动神经康复"
+        ],
+        "annual_total_cost_china_cny": "常规静脉抗感染住院费用约1万–3万元人民币（常规药品保障常规住院统筹结算）；若入ICU机械通气、mNGS检测及应用IVIG，单次重症救治总费用约5万–15万元以上（约30%–40%重度神经后遗症需长期康复）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "脑脊液mNGS及微流控多重PCR显著将中国疑难颅内感染病原确诊率从不足30%提升至70%左右，缩短经验用药盲区；新型广谱抗病毒小分子、减毒/mRNA乙脑疫苗升级及急性神经炎症调节研究正推进以降低后遗症致残率。",
+        "key_unmet_needs_zh": "除HSV/VZV及特定细菌外，多数病毒性脑炎（肠道病毒、虫媒病毒等）缺乏直接高效抗病毒药物；mNGS检测属自费高端项目且基层医院覆盖不足；约30%–50%重症幸存者留存长期癫痫与智力障碍。"
+      },
+      "sources": [
+        {
+          "title": "PubMed (PMID: 41048286): Global Burden of Disease 2021 Encephalitis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41048286/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Disease Profile: Encephalitis (ORPHA:97275 / MONDO:0019956)",
+          "url": "https://www.orpha.net/en/disease/detail/97275",
+          "publisher": "Orphanet",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002009",
+      "name_zh": "重度抑郁障碍",
+      "name_en": "Major depressive disorder",
+      "aliases_zh": [
+        "抑郁症",
+        "临床抑郁症",
+        "MDD"
+      ],
+      "icd10": [
+        "F32",
+        "F33"
+      ],
+      "icd11": [
+        "6A70",
+        "6A71"
+      ],
+      "category": "精神与行为障碍",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "多基因易感与慢性应激诱发单胺递质失衡、神经可塑性受损及HPA轴亢进，主要造成长期职业与社会功能残疾；但重度发作伴急性自杀意念/行为或精神病性症状时，可在数小时至数日内因自杀行为直接致死。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "SSRIs/SNRIs结合认知行为疗法对多数患者有效，但约30%表现为难治性抑郁(TRD)；艾司氯胺酮鼻喷雾剂等快速作用抗抑郁药实现了24小时内缓解急性自杀意念的重要突破。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE与GBD统计口径不在疾病本身直接计入死亡数（自杀死亡独立归因于“自伤”代码；WHO报告2021年全球约72.7万例自杀死亡中重度抑郁为核心致病因素）",
+          "year": "2021",
+          "source": "WHO Depression Fact Sheet / IHME GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国官方疾病谱单列死亡统计不将抑郁障碍计作直接死因，自杀及心脑血管共病过早死亡构成主要潜在致命风险",
+          "year": null,
+          "source": "WHO / GBD 2021 China Depressive Disorders Burden (PMID: 39838265)"
+        },
+        "prevalence_global": "WHO估计全球约2.8亿人患抑郁症；GBD 2021全谱系抑郁障碍患病约3.32亿例",
+        "prevalence_china": "GBD 2021/2025研究估计中国抑郁障碍患者约5,310万例（PMID: 39838265）；中国精神卫生调查报告抑郁障碍终身患病率约6.8%–6.9%"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "重度抑郁伴急性自杀危机抢救：(1) 立即行自杀风险急诊评估并实施一对一防自伤看护与安全环境移除；(2) 对急性自杀意念或重度木僵/拒食患者，立即给予医疗机构严格管控下艾司氯胺酮鼻喷雾剂快速起效抗抑郁或启动无抽搐电休克治疗(MECT)；(3) 同步联合足量一线抗抑郁药物及危机心理干预，并评估急诊留观或封闭精神科住院。",
+        "standard_drugs": [
+          {
+            "name_zh": "艾司西酞普兰片",
+            "name_en": "Escitalopram",
+            "drug_class": "高选择性5-羟色胺再摄取抑制剂(SSRI)",
+            "usage_role": "一线常规口服抗抑郁维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约30–50元/盒（集采仿制药更低）",
+            "cost_source": "国家日常基本医疗支出减负目录与集中采购挂网价"
+          },
+          {
+            "name_zh": "伏硫西汀片",
+            "name_en": "Vortioxetine",
+            "drug_class": "5-HT多模式抗抑郁药",
+            "usage_role": "伴认知功能损害二线/换药维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "原研约340–510元/盒（仿制与常规药品保障价更低）",
+            "cost_source": "国家基本常规临床用药目录"
+          },
+          {
+            "name_zh": "盐酸艾司氯胺酮鼻喷雾剂",
+            "name_en": "Esketamine nasal spray",
+            "drug_class": "NMDA受体非竞争性拮抗剂",
+            "usage_role": "伴急性自杀意念或行为抑郁及TRD医院内急救",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "属第一类精神药品院内管控使用，已参与国家常规药品保障/商保目录评审谈判(YPSW202400421)",
+            "cost_source": "2023年4月NMPA批准及国家常规药品保障局2024年评审资料"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "认知行为治疗(CBT)与人际心理治疗(IPT)",
+          "无抽搐电休克治疗(MECT)用于危重自杀及木僵急症",
+          "重复经颅磁刺激(rTMS)治疗难治性抑郁"
+        ],
+        "annual_total_cost_china_cny": "常规一线口服药经常规医疗减负后年自付仅数百至2,000元；若需频繁心理治疗、rTMS/MECT及艾司氯胺酮急救住院，年综合诊疗费用约1万–5万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "NMDA拮抗(艾司氯胺酮鼻喷雾剂、右美沙芬/安非他酮复方)与神经类固醇GABA-A正性变构调节剂(Zuranolone海外获批产后抑郁)颠覆了传统“起效需2–4周”的局限；加速间歇θ爆发刺激(aiTBS/SAINT)在数日内缓解难治抑郁。",
+        "key_unmet_needs_zh": "中国患者识别率与规范治疗率仍显著偏低；心理治疗和rTMS在基层缺乏常规药品保障均等覆盖；约30%难治性抑郁(TRD)仍迫切需要长效可负担的快速起效与防复发方案。"
+      },
+      "sources": [
+        {
+          "title": "WHO Fact Sheet: Depressive disorder (depression)",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+          "publisher": "World Health Organization",
+          "year": "2023"
+        },
+        {
+          "title": "PubMed (PMID: 39838265): Burden of Depressive Disorders in China (53.1M)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39838265/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004985",
+      "name_zh": "双相情感障碍",
+      "name_en": "Bipolar disorder",
+      "aliases_zh": [
+        "双相障碍",
+        "躁郁症",
+        "躁狂抑郁症"
+      ],
+      "icd10": [
+        "F31"
+      ],
+      "icd11": [
+        "6A60",
+        "6A61"
+      ],
+      "category": "精神与行为障碍",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "躁狂/轻躁狂与重性抑郁反复交替，具有极高慢性复发率；严重精神疾病人群中自杀风险最高（终生自杀未遂率远高于常人），同时长期药物及生活代谢共病导致心血管过早死亡，总体预期寿命缩短约10年以上。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "以心境稳定剂（碳酸锂、丙戊酸盐）及二代抗精神病药为主的长期全病程管理可有效减少躁狂与抑郁复发，但双相抑郁相治疗难度较大且长期服药依从性及锂盐/代谢监测挑战大。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD与WHO死因统计不直接将双相情感障碍归为独立致死病因；高死亡负担体现于自杀死亡与心血管等共病造成的预期寿命缩短",
+          "year": null,
+          "source": "WHO Bipolar Disorder Fact Sheet / IHME GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无独立官方年直接死亡统计；被纳入国家严重精神障碍在册随访管理以预防自杀和肇事肇祸风险",
+          "year": null,
+          "source": "WHO / GBD 2021 (PMC13534825)"
+        },
+        "prevalence_global": "WHO报告全球约3,600万人受双相情感障碍影响（GBD 2021估计全球约3,747万例）",
+        "prevalence_china": "中国流行病学调查终身患病率约0.6%，GBD 2021中青年亚组等模型测算在患数百万人量级（PMC13534825）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性重度躁狂激越或混合发作自杀危机救治：(1) 评估冲动暴力或自杀急症风险并予安全隔离保护；(2) 急性躁狂伴激越即刻肌注或口服抗精神病药（奥氮平、氟哌啶醇或齐拉西酮）联用苯二氮䓬类迅速镇静；(3) 对锂/药耐受差之极端自杀危机或重度躁狂/木僵行急诊MECT。",
+        "standard_drugs": [
+          {
+            "name_zh": "碳酸锂片",
+            "name_en": "Lithium carbonate",
+            "drug_class": "经典情绪稳定剂",
+            "usage_role": "Ⅰ型双相维持及显著降低自杀风险一线金标准",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约20–30元/瓶(100片)",
+            "cost_source": "国家基本药物与基本常规基础药物目录"
+          },
+          {
+            "name_zh": "富马酸喹硫平片",
+            "name_en": "Quetiapine",
+            "drug_class": "非典型抗精神病药(D2/5-HT2A)",
+            "usage_role": "双相抑郁与急性躁狂全相一线治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约30–70元/盒（集采后）",
+            "cost_source": "国家基本常规目录药物及集采目录"
+          },
+          {
+            "name_zh": "鲁拉西酮片",
+            "name_en": "Lurasidone",
+            "drug_class": "新型D2/5-HT2A/5-HT7非典型抗精神病药",
+            "usage_role": "双相抑郁发作低代谢风险一线药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约120–150元/盒(30片)",
+            "cost_source": "国家降价协商常用药品目录公开价格"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "认知行为疗法与家庭聚焦疗法(FFT)",
+          "无抽搐电休克治疗(MECT)用于难治躁狂与重度抑郁",
+          "社会节律与睡眠规律干预"
+        ],
+        "annual_total_cost_china_cny": "纳入国家严重精神障碍基本药物及专项免费/减免保障后，常规维持年药物及血锂/肝肾定期监测自付通常仅1,000–4,000元人民币；急性住院单次约1万–3万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "卡利拉嗪(Cariprazine)及鲁拉西酮拓展了双相抑郁及混合特征的低代谢风险选择；针对双相抑郁难治亚群的精准神经调控(aiTBS)及氯胺酮辅助快速稳态策略正在临床验证。",
+        "key_unmet_needs_zh": "首次抑郁发作常被误诊为单相抑郁而单用抗抑郁药，导致平均延误诊断数年甚至诱发转躁；治疗窗窄(锂盐中毒监测)及抗精神病药引起的肥胖糖尿病等代谢综合征显著影响依从性。"
+      },
+      "sources": [
+        {
+          "title": "WHO Fact Sheet: Bipolar disorder",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/bipolar-disorder",
+          "publisher": "World Health Organization",
+          "year": "2024"
+        },
+        {
+          "title": "PMC (PMC13534825): Global and Regional Burden of Bipolar Disorder (GBD 2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13534825/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005090",
+      "name_zh": "精神分裂症",
+      "name_en": "Schizophrenia",
+      "aliases_zh": [
+        "思觉失调",
+        "精分"
+      ],
+      "icd10": [
+        "F20"
+      ],
+      "icd11": [
+        "6A20"
+      ],
+      "category": "精神与行为障碍",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "高度异质性慢性精神病性障碍，虽非直接器官坏死，但因自杀风险（约5%终生自杀死亡）、长期抗精神病药代谢异常所致心血管疾病、肺部感染及照护缺位，患者总体预期寿命较普通人群缩短10–20年。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "一代及二代多巴胺/5-HT受体拮抗剂可良好控制幻觉、妄想等阳性症状，长效针剂显著改善复发率；但对阴性症状（情感淡漠、意志减退）与认知缺损及约20%–30%难治性患者疗效有限。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD与WHO未将精神分裂症直接列为死亡原因代码（相关死亡归入心血管、代谢、感染及自杀条目）；WHO明确指出患者死亡风险为一般人群2–3倍，预期寿命缩短10–20年",
+          "year": "2022",
+          "source": "WHO Schizophrenia Fact Sheet / GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国官方死因统计不将精神分裂症计入直接死因绝对人数；是国家严重精神障碍综合管理核心在册病种，早死主要来自共病与意外/自杀",
+          "year": null,
+          "source": "WHO / GBD 2021 China Schizophrenia Study (PMID: 40980046)"
+        },
+        "prevalence_global": "WHO估计全球约1/300人（约2,400万–2,700万；GBD 2021直接建模约2,318万–2,360万例）",
+        "prevalence_china": "中国现患率约0.5%–0.6%（现患人数约530万例，PMC12447577 / PMID: 40980046）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性精神病性兴奋激越、自伤/伤人危机或恶性综合征(NMS)急救：(1) 环境降级减压与保护性约束；(2) 急性重度激越肌注氟哌啶醇、奥氮平或齐拉西酮联合苯二氮䓬类；(3) 若发生罕见致命的抗精神病药恶性综合征(高热、肌强直、CK骤升)，立即停用抗精神病药、ICU补液降温并予溴隐亭或丹曲林抢救；(4) 难治紧张症/木僵予急诊MECT。",
+        "standard_drugs": [
+          {
+            "name_zh": "利培酮 / 奥氮平片",
+            "name_en": "Risperidone / Olanzapine",
+            "drug_class": "非典型抗精神病药(D2/5-HT2A)",
+            "usage_role": "急性期及慢性期一线口服维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约1.5–40元/盒（高度普及集采低价药）",
+            "cost_source": "国家基本药物与国家集采目录"
+          },
+          {
+            "name_zh": "棕榈酸帕利哌酮注射液(1月/3月制剂)",
+            "name_en": "Paliperidone palmitate LAI",
+            "drug_class": "第二代抗精神病药长效针剂(LAI)",
+            "usage_role": "预防停药复发与社区随访关键制剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "1月剂型约1,000–1,550元/针",
+            "cost_source": "国家基本常规目录药物及多地免费/倾斜救治项目"
+          },
+          {
+            "name_zh": "氯氮平片",
+            "name_en": "Clozapine",
+            "drug_class": "多受体非典型抗精神病药",
+            "usage_role": "难治性精神分裂症及高自杀风险金标准",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "极低价（数元至十余元/瓶，需定期查白细胞防粒缺）",
+            "cost_source": "国家基本药物与常规基础药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "国家基本公共卫生严重精神障碍个案管理与长效针剂随访",
+          "认知矫正训练、社交技能康复与支持性就业",
+          "无抽搐电休克治疗(MECT)用于紧张症或超高冲动风险"
+        ],
+        "annual_total_cost_china_cny": "依托严重精神障碍Ⅰ类门慢及地方贫困救治项目，口服基础药物年个人自付常低于500–1,500元（多地长效针剂及基础口服药予免费或全额兜底）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "FDA于2024年9月批准全新非多巴胺D2靶点药物Cobenfy（KarXT，M1/M4毒蕈碱受体激动剂混合外周拮抗剂），成为数十年来首个突破传统D2机制的抗精神病药，可避免锥体外系反应及显著体重升高，国内多家药企亦在推进同类毒蕈碱M1/M4与TAAR1激动剂临床试验。",
+        "key_unmet_needs_zh": "长期阴性症状与认知损伤目前尚无国批特效药物；约30%患者对D2阻断剂应答不佳；社会病耻感及社区康复依从性断档仍是致残主因。"
+      },
+      "sources": [
+        {
+          "title": "WHO Fact Sheet: Schizophrenia",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia",
+          "publisher": "World Health Organization",
+          "year": "2022"
+        },
+        {
+          "title": "PMC (PMC12447577): Global Burden of Disease 2021 Schizophrenia Burden",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12447577/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "PubMed (PMID: 40980046): Schizophrenia Burden in China (GBD 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40980046/",
+          "publisher": "PubMed / NIH",
+          "year": "2025"
+        },
+        {
+          "title": "FDA News Release: Approval of Cobenfy (M1/M4 Muscarinic Agonist) for Schizophrenia",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-drug-new-mechanism-action-treatment-schizophrenia",
+          "publisher": "U.S. Food and Drug Administration",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001516",
+      "name_zh": "脊髓性肌萎缩症",
+      "name_en": "Spinal muscular atrophy",
+      "aliases_zh": [
+        "SMA",
+        "进行性脊髓性肌萎缩"
+      ],
+      "icd10": [
+        "G12.0",
+        "G12.1"
+      ],
+      "icd11": [
+        "8B61.0",
+        "8B61.1",
+        "8B61.2",
+        "8B61.3",
+        "8B61.Y"
+      ],
+      "category": "遗传性神经肌肉与神经发育罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "SMN1基因纯合缺失/突变致SMN蛋白严重不足，引起脊髓前角α运动神经元进行性退变；最重型I型（Werdnig-Hoffmann病）若无DMT，中位无气管切开生存不足2岁，常于婴幼儿期因呼吸肌无力及肺炎致死。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "全球已有反义寡核苷酸诺西那生钠、口服小分子利司扑兰和一次性AAV9基因替代Zolgensma三款DMT彻底改写自然史；中国已将前两款高值DMT通过灵魂砍价纳入常规药品保障，症状前治疗可使患儿接近正常发育。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列单基因SMA全球年死亡总数；自然史研究显示未经DMT治疗的SMA-1型患儿2岁前死亡率/永久机械通气率超90%",
+          "year": null,
+          "source": "Orphanet ORPHA:70 / 国家《第一批罕见病目录》"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡统计；2022–2023年诺西那生钠及利司扑兰陆续入常规药品保障后，婴幼儿及青少年生存率与呼吸支持脱机能力大幅提高",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / NHSA"
+        },
+        "prevalence_global": "Orphanet报道新生儿出生患病率约1/10,000（欧洲近端SMA总患病20/10万，SMA-2型点患病率2.03/10万，ORPHA:70）",
+        "prevalence_china": "中国新生儿发病率约0.51–0.58/万，人群SMN1致病基因携带率约1/50；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "SMA患儿急性呼吸道感染及呼吸危象救治：(1) 一旦并发肺部感染、黏液栓堵管或低氧血症，即刻予机械辅助排痰机气道廓清+高流量或无创正压通气(BiPAP)；(2) 避免高浓度单纯给氧导致二氧化碳潴留抑制呼吸；(3) 伴发严重吞咽呛咳时暂停经口进食并行鼻饲/胃造瘘营养保护，必要时短时插管有创通气过渡至稳定脱机。",
+        "standard_drugs": [
+          {
+            "name_zh": "诺西那生钠注射液",
+            "name_en": "Nusinersen",
+            "drug_class": "SMN2剪接修饰反义寡核苷酸(ASO)",
+            "usage_role": "全年龄5q-SMA鞘内注射一线疾病修正治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约3.3万元/支（由上市初约69.7万元/支降价超95%）",
+            "cost_source": "2021国家药品降价协商落地（2022年1月起执行）"
+          },
+          {
+            "name_zh": "利司扑兰口服溶液用散",
+            "name_en": "Risdiplam",
+            "drug_class": "SMN2前体mRNA剪接小分子调节剂",
+            "usage_role": "居家每日口服一线疾病修正治疗（含重度脊柱侧弯无法鞘注者）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "3,780元/瓶（由最初63,800元/瓶大幅砍价）",
+            "cost_source": "2022国家药品降价协商落地（2023年3月起执行）"
+          },
+          {
+            "name_zh": "Onasemnogene abeparvovec (Zolgensma)",
+            "name_en": "Onasemnogene abeparvovec",
+            "drug_class": "AAV9介导SMN1基因替代疗法",
+            "usage_role": "海外婴幼儿一次性静脉基因替代治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外定价约210万美元/次（中国大陆未上市、未入常规药品保障）",
+            "cost_source": "FDA/海外公开定价；中国尚未批准"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无创呼吸机(BiPAP)及排痰机居家肺康复",
+          "脊柱侧弯矫形支具与生长棒/脊柱融合手术",
+          "营养防误吸及运动康复"
+        ],
+        "annual_total_cost_china_cny": "经常规医疗减负及地方门慢/单独支付+大病医疗救助叠加后，诺西那生钠(维持期3针/年)或利司扑兰患者年个人自付多在1万–5万元人民币区间（未报销前药费仍达十余万至二十余万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "Zolgensma全球获批实现单次静脉基因替代，高剂量鞘内注射剂型(OAV101 IT)及针对大龄/成人的抗肌抑素单抗(Apitegromab)Phase 3结果积极并补充恢复骨骼肌力量；中国国产SMN1 AAV基因疗法亦进入注册临床，同时新生儿SMA基因筛查试点正在全国推广以抢占症状前黄金给药窗。",
+        "key_unmet_needs_zh": "对已失去大量运动神经元的晚发成人患者只能维持难言逆转；一次根治性AAV基因疗法尚未在国内正式获批上市；全国新生儿SMA普遍筛查尚未完全纳入免费公卫常态项目。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Proximal spinal muscular atrophy (ORPHA:70)",
+          "url": "https://www.orpha.net/en/disease/detail/70",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0010679",
+      "name_zh": "杜氏肌营养不良",
+      "name_en": "Duchenne muscular dystrophy",
+      "aliases_zh": [
+        "DMD",
+        "假肥大型肌营养不良",
+        "进行性肌营养不良"
+      ],
+      "icd10": [
+        "G71.0"
+      ],
+      "icd11": [
+        "8C70.1"
+      ],
+      "category": "遗传性神经肌肉与神经发育罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "X连锁隐性遗传DMD基因致病突变致抗肌萎缩蛋白(Dystrophin)完全缺失，引起骨骼肌、膈肌与心肌进行性坏死纤维化；患儿多于12岁前后丧失行走能力，未经综合干预常在青春晚期死于呼吸肌或心力衰竭，经现代糖皮质激素、机械通气与心脏保护后中位生存期延至约22–30余岁。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "国内临床仍以糖皮质激素延长步行能力、无创通气及ACEI/β受体阻滞剂延缓心肌病为主，尚未有任何外显子跳跃反义寡核苷酸、HDAC抑制剂或微抗肌萎缩蛋白基因疗法正式获批纳入常规药品保障，临床极度迫切。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列单基因DMD全球年死亡总数；国际多队列生存荟萃显示1990年以前出生患者中位生存约22岁，1990年后随心肺支持普及升至28–30岁以上（PMC8665435）",
+          "year": null,
+          "source": "DMD Survival Meta-analysis (PMC8665435) / Orphanet ORPHA:98896"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡总数；多于20–30岁间死于扩张型心肌病或呼吸衰竭",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / Orphanet ORPHA:98896"
+        },
+        "prevalence_global": "Orphanet报道全球出生患病率约9.9/10万（男性活产约1/3,600–1/9,300，ORPHA:98896）",
+        "prevalence_china": "推算中国男婴发病率约1/3,500–1/5,000，现患人数数万人；以“进行性肌营养不良”纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性横纹肌溶解肌红蛋白尿(麻醉意外)或急性心肺失代偿救治：(1) 绝对禁用琥珀胆碱及吸入挥发性麻醉药（防致死性高钾血症及恶性高热样危象）；(2) 发生急性呼吸酸中毒予无创正压通气(BiPAP)及辅助排痰；(3) 合并糖皮质激素长期使用者在重大应激/感染时予氢化可的松应激剂量补充防止肾上腺危象。",
+        "standard_drugs": [
+          {
+            "name_zh": "泼尼松 / 泼尼松龙",
+            "name_en": "Prednisone / Prednisolone",
+            "drug_class": "糖皮质激素",
+            "usage_role": "国内唯一可及的一线标准延缓肌力下降药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "极低价（数元至数十元/瓶）",
+            "cost_source": "国家基本药物与基本常规基础药物目录"
+          },
+          {
+            "name_zh": "地夫可特 (Deflazacort)",
+            "name_en": "Deflazacort",
+            "drug_class": "恶唑啉酮类糖皮质激素",
+            "usage_role": "海外优选一线激素（体重增加/骨质疏松较轻）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国大陆未正式上市、未入常规药品保障，依赖海外代购或特定医疗渠道",
+            "cost_source": "NMPA未批准国内常规上市"
+          },
+          {
+            "name_zh": "Delandistrogene moxeparvovec (Elevidys)",
+            "name_en": "Delandistrogene moxeparvovec",
+            "drug_class": "AAVrh74微抗肌萎缩蛋白基因疗法",
+            "usage_role": "美国FDA批准一次性静脉基因治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "美国定价约320万美元/次（约合2,300万元人民币，中国未上市）",
+            "cost_source": "36氪/FDA公开定价报道"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "夜间无创正压通气(BiPAP)及排痰机预防慢性高碳酸血症",
+          "跟腱矫形支具与脊柱侧弯手术固定",
+          "心脏MRI早期筛查及ACEI/沙库巴曲缬沙坦心衰干预"
+        ],
+        "annual_total_cost_china_cny": "仅维持泼尼松及心衰基础药年药费低于2,000元人民币；购置呼吸机、电动轮椅、康复及家庭专职照护年综合支出多在2万–8万元（若赴海外接受Elevidys等基因疗法则高达2,000余万元人民币）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "FDA于2024年3月批准首个非甾体口服HDAC抑制剂Givinostat(Duvyzat)延缓所有基因型DMD进展，并扩大微抗肌萎缩蛋白基因疗法Elevidys适用年龄；国内多家研发团队正推进国产AAV微抗肌萎缩蛋白、外显子跳跃ASO及Vamorolone/Givinostat引进临床。",
+        "key_unmet_needs_zh": "中国大陆尚无外显子跳跃疗法、Vamorolone、Givinostat或微抗肌萎缩蛋白基因疗法正式获批落地，且超2,000万元级别天价基因治疗支付可及性极其悬殊；非步行大龄青少年心衰救治仍是主要短板。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Duchenne muscular dystrophy (ORPHA:98896)",
+          "url": "https://www.orpha.net/en/disease/detail/98896",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC8665435): Life Expectancy in Duchenne Muscular Dystrophy Systematic Review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8665435/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2021"
+        },
+        {
+          "title": "FDA News Release: Approval of Duvyzat (Givinostat) Nonsteroidal Treatment for DMD",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-nonsteroidal-treatment-duchenne-muscular-dystrophy",
+          "publisher": "U.S. Food and Drug Administration",
+          "year": "2024"
+        },
+        {
+          "title": "36氪：全球最贵DMD基因疗法Elevidys（320万美元/针）报道",
+          "url": "https://m.36kr.com/p/2339777047830150",
+          "publisher": "36氪",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007739",
+      "name_zh": "亨廷顿病",
+      "name_en": "Huntington disease",
+      "aliases_zh": [
+        "亨廷顿舞蹈病",
+        "遗传性舞蹈病"
+      ],
+      "icd10": [
+        "G10"
+      ],
+      "icd11": [
+        "8A01.10"
+      ],
+      "category": "遗传性神经肌肉与神经发育罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "HTT基因1号外显子CAG三核苷酸重复异常扩增(≥36–40次)产生突变亨廷顿蛋白，引发纹状体中型多棘神经元及皮层进行性变性死亡；常于30–50岁发病，病程持续10–20年逐渐进展至全面痴呆、重度吞咽困难、误吸性肺炎及自杀/恶病质死亡。",
+      "treatability_status": "symptomatic_only",
+      "treatability_summary_zh": "当前获批疗法仅限于VMAT2抑制剂对症改善舞蹈样不自主运动及抗抑郁/抗精神病管理；全球及中国均尚无正式获批上市的减缓纹状体萎缩的疾病修饰药物，但基因沉默BLA已进入FDA优先审评。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列亨廷顿病全球年死亡总数；自然史起病后中位生存约15–20年，终末期多死于吸入性肺炎或心脏/营养并发症",
+          "year": null,
+          "source": "Orphanet ORPHA:399"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列年死亡总数统计；患者常因认知运动衰退伴发吸入性肺炎及并发自杀风险缩短寿命",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / Orphanet ORPHA:399"
+        },
+        "prevalence_global": "Orphanet全球点患病率约2.7/10万，欧美显著更高达12.0/10万（ORPHA:399）",
+        "prevalence_china": "由于东亚人群HTT单倍型CAG重复背景较低，中国患病率显著低于欧美（临床确诊多呈家族集聚性，估计全国数千例）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "氘代丁苯那嗪片",
+            "name_en": "Deutetrabenazine",
+            "drug_class": "选择性囊泡单胺转运体2(VMAT2)抑制剂",
+            "usage_role": "一线对症改善亨廷顿病舞蹈样动作",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2020年底国谈入常规药品保障并成功续约（入常规药品保障前约6,222–10,579元/28片，入常规药品保障后显著降价）",
+            "cost_source": "国家降价协商常用药品目录(YPSN202200090-N2)"
+          },
+          {
+            "name_zh": "氟哌啶醇 / 硫必利",
+            "name_en": "Haloperidol / Tiapride",
+            "drug_class": "多巴胺D2受体拮抗剂",
+            "usage_role": "合并精神症状、激越或基层替补控舞",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "数十元/盒（基本药物低价药）",
+            "cost_source": "国家基本药物与日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高热量防呛咳吞咽康复与经皮胃造瘘营养支持",
+          "家系基因遗传咨询与胚胎植入前遗传学检测(PGT-M)"
+        ],
+        "annual_total_cost_china_cny": "氘代丁苯那嗪经国家集采降价与常规特殊药品减负后，患者年药费个人自付多在数千元至2万元人民币左右；晚期内外科全护理与营养费用较高"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "uniQure脑纹状体微创注射AAV5-miRNA降低HTT基因疗法AMT-130在Phase 1/2 36个月随访中显示病程进展减缓高达75%，其生物制品许可申请(BLA)已获FDA受理并授予优先审评（目标PDUFA日期2027年5月1日）；口服剪接调节剂PTC518(votoplam)与更新一代ASO也在推进中。",
+        "key_unmet_needs_zh": "目前国内尚无任何已获批的神经保护或减缓认知及痴呆退变的DMT；抗舞蹈病对症药可诱发抑郁及静坐不能副作用；家系PGT阻断遗传仍存在费用与基层认知盲区。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Huntington disease (ORPHA:399)",
+          "url": "https://www.orpha.net/en/disease/detail/399",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "NeurologyLive: FDA Grants Priority Review to Huntington Disease Gene Therapy AMT-130 BLA",
+          "url": "https://www.neurologylive.com/view/fda-grants-priority-review-to-huntington-disease-gene-therapy-bla",
+          "publisher": "NeurologyLive",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009861",
+      "name_zh": "苯丙酮尿症",
+      "name_en": "Phenylketonuria",
+      "aliases_zh": [
+        "PKU",
+        "高苯丙氨酸血症",
+        "苯丙氨酸羟化酶缺乏症"
+      ],
+      "icd10": [
+        "E70.0",
+        "E70.1"
+      ],
+      "icd11": [
+        "5C50.0"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "low_lethality",
+      "lethality_detail_zh": "PAH基因突变致肝脏苯丙氨酸羟化酶活性缺乏（另小部分为BH4代谢障碍），血苯丙氨酸及其旁路代谢物蓄积通过血脑屏障产生神经毒性；本身罕见急性致死，但若未能在新生儿期筛查并在生后1–3月内启动低苯丙氨酸饮食控制，将在婴儿期造成不可逆重度智力障碍、难治性癫痫及行为异常。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "早期新生儿足底血筛查并终身坚持无/低苯丙氨酸特医食品可使患儿智力发育完全达到正常人水平；对BH4反应型患者口服分子伴侣沙丙蝶呤可放宽饮食，该药已于2026年由商保目录转入国家日常基本医疗支出减负。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列单基因PKU死亡人数；经早期新生儿筛查及饮食干预者预期寿命接近常人，核心风险为不可逆神经发育致残",
+          "year": null,
+          "source": "Orphanet ORPHA:716"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "基本非致死性遗传代谢病，无单列年死亡数；我国新生儿遗传代谢病筛查已实现高度覆盖",
+          "year": null,
+          "source": "国家卫健委 / 《第一批罕见病目录》"
+        },
+        "prevalence_global": "Orphanet欧洲出生患病率约11.4/10万（约1/10,000活产，ORPHA:716）",
+        "prevalence_china": "中国新生儿足底血筛查总患病率约1/10,000–1/18,000（北方高于南方，如西北地区可达约1/3,000–1/5,000）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "无苯丙氨酸特殊医学用途配方粉/蛋白代用品",
+            "name_en": "Phe-free Medical Food / Amino Acid Formula",
+            "drug_class": "医学营养治疗核心特医食品",
+            "usage_role": "全年龄PAH缺乏型PKU终身一线基石治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "年均数千元至2万–3万元人民币（属特医食品非药品，由地方公卫/民政/专项财政补贴，如浙江/甘肃/辽宁/云南/湖北等报销60%–70%上限1万–4万元/年）",
+            "cost_source": "国家卫健委PKU保障政策与地方特医食品救助方案"
+          },
+          {
+            "name_zh": "盐酸沙丙蝶呤片",
+            "name_en": "Sapropterin dihydrochloride",
+            "drug_class": "人工合成四氢生物蝶呤(BH4)酶辅因子",
+            "usage_role": "BH4缺乏症一线及部分BH4反应型PKU辅助放宽饮食",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2026年11月由首版商保创新药目录正式转入国家日常基本医疗支出减负目录（历史非常规药品保障零售约300元/片）",
+            "cost_source": "2026年国家常规临床药品目录调整官方新闻(上观新闻/解放日报)"
+          },
+          {
+            "name_zh": "Sepiapterin (Sephience)",
+            "name_en": "Sepiapterin",
+            "drug_class": "新一代口服BH4前体分子伴侣",
+            "usage_role": "FDA/EMA获批全年龄及更广泛类型PKU降血Phe新药",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外新近获批（中国大陆尚未正式上市）",
+            "cost_source": "FDA 2025药品说明书(NDA 219666)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "新生儿期足底血干血斑串联质谱/荧光法早期筛查",
+          "终身定期血苯丙氨酸浓度监测与营养师食谱管理",
+          "育龄期女性“母源性PKU”孕前及孕期严控血Phe以防胎儿小头/先心畸形"
+        ],
+        "annual_total_cost_china_cny": "依赖无苯丙氨酸特医食品年支出约1万–3万元人民币；BH4缺乏症使用沙丙蝶呤于2026年纳入日常基本医疗支出减负后自付可大幅回落"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "PTC公司新一代口服BH4前体Sepiapterin(Sephience)已在FDA及欧盟获批（涵盖1个月以上患者且在APHENITY Phase 3中使大量患者得以大幅放宽自然蛋白限制）；体内CRISPR碱基编辑与AAV-PAH肝靶向基因治疗正处于Phase 1/2探索中。",
+        "key_unmet_needs_zh": "无苯丙氨酸特医食品属特殊医学用途配方食品而非常规药品保障药品，部分省份成年患者及超龄患儿在常规药品保障与公卫财政衔接上存在断档，且“味道极差、严苛限食”导致青春期和成人失访停控率高。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Phenylketonuria (ORPHA:716)",
+          "url": "https://www.orpha.net/en/disease/detail/716",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "国家卫健委：苯丙酮尿症患儿保障政策新闻通报",
+          "url": "https://www.nhc.gov.cn/wjw/dfxw/201502/49ec2be1ed7d409fa2ff6a5d9c383a9b.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2015"
+        },
+        {
+          "title": "FDA Prescribing Information: Sephience (Sepiapterin, NDA 219666)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219666s000lbl.pdf",
+          "publisher": "U.S. Food and Drug Administration",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018150",
+      "name_zh": "戈谢病",
+      "name_en": "Gaucher disease",
+      "aliases_zh": [
+        "葡糖脑苷脂病",
+        "家族性脾性贫血"
+      ],
+      "icd10": [
+        "E75.2"
+      ],
+      "icd11": [
+        "5C56.0Y"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "GBA1基因双等位基因突变致溶酶体酸性β-葡糖脑苷脂酶缺乏，大量葡糖脑苷脂蓄积于单核-巨噬细胞形成“戈谢细胞”，导致巨脾、重度贫血/血小板减少出血、骨痛骨坏死；II型急性神经病变型多在2岁前因延髓喉痉挛及脑干衰竭死亡，I型和III型呈慢性进展。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "针对I型及III型内脏血液受累的酶替代疗法(ERT)可显著缩小肝脾并恢复血象；中国于2025年5月批准首个本土自主研发ERT“维拉苷酶β(戈芮宁)”有望打破进口百万天价垄断，但ERT均不能穿透血脑屏障治疗II/III型中枢受累。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列戈谢病全球年死亡数；II型急性神经病变型未治患儿常于<2岁死亡，I型经足量ERT治疗预期寿命明显改善",
+          "year": null,
+          "source": "Orphanet ORPHA:355"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无全国官方死亡总数；中国确诊病例中III型/II型神经病变亚型占比相对欧美更高，部分因天价自费药断药致脾亢出血或感染去世",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / Orphanet"
+        },
+        "prevalence_global": "Orphanet全球出生患病率约1.3/10万，欧洲点患病率约1.0/10万（ORPHA:355；德系犹太人高发）",
+        "prevalence_china": "中国文献估计患病率约0.2–0.5/10万（全国在册确诊约数百例）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "注射用伊米苷酶",
+            "name_en": "Imiglucerase",
+            "drug_class": "重组酸性β-葡糖脑苷脂酶替代疗法(ERT)",
+            "usage_role": "传统标准一线ERT（I型与III型内脏症状）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "约1.5万–1.8万元/支(400U)，足量维持年费用高达100万–250万元人民币（未入全国日常基本医疗支出减负，靠部分省专项基金/惠民保/慈善援助）",
+            "cost_source": "地方政府专项救助公告(如湘潭政务网)及2026日常基本医疗支出减负未纳入检索验证"
+          },
+          {
+            "name_zh": "注射用维拉苷酶β (戈芮宁)",
+            "name_en": "Velaglucerase beta (CAN103)",
+            "drug_class": "中国首个本土自主研发重组人β-葡糖脑苷脂酶ERT",
+            "usage_role": "12岁及以上I型/III型戈谢病长期ERT",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2025年5月NMPA获批，定价目标较进口降幅≥50%并已纳入商业健康保险创新药目录(YPSW202500223评审)",
+            "cost_source": "国家药监局2025年5月批准及国家常规药品保障局2025商保创新药目录评审PPT"
+          },
+          {
+            "name_zh": "依利格鲁司特 (Eliglustat)",
+            "name_en": "Eliglustat",
+            "drug_class": "口服葡糖神经酰胺合成酶底物减少疗法(SRT)",
+            "usage_role": "成人I型戈谢病每日口服替代静脉输液",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "未纳入国家日常基本医疗支出减负目录",
+            "cost_source": "国内特药商业及地方准入状态"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无脾切除指征下尽量避免脾切除（防骨危象加重），危急巨脾破裂或严重全血细胞减少可评估",
+          "骨密度与骨骼MRI监测及双膦酸盐辅助护骨"
+        ],
+        "annual_total_cost_china_cny": "足量进口伊米苷酶按体重长期静脉输注全额费用达100万–250万元人民币/年；国产维拉苷酶β获批并入商保目录正推动年费用腰斩级下降"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "北海康成国产1类生物创新药维拉苷酶β(戈芮宁)于2025年5月获NMPA批准并进入商保创新药目录，终结进口单药垄断；针对III型及可入脑的口服小分子SRT(Venglustat)、基因治疗FLT201及跨血脑屏障融合酶正处Phase 1–3临床研究。",
+        "key_unmet_needs_zh": "目前国内尚无任何戈谢病特效ERT被纳入全国统一基本医疗保险目录，跨省报销政策极不均衡；尚无药物能有效穿透血脑屏障阻止II型和III型戈谢病的中枢神经退变。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Gaucher disease (ORPHA:355)",
+          "url": "https://www.orpha.net/en/disease/detail/355",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "湘潭市政府：戈谢病伊米苷酶用药保障及百万级年费用说明",
+          "url": "https://www.xt.gov.cn/xt/hygq/202005/ef2e47ebf69843c589a5fde5be91b5b3.shtml",
+          "publisher": "湘潭市人民政府",
+          "year": "2020"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009290",
+      "name_zh": "庞贝病",
+      "name_en": "Pompe disease",
+      "aliases_zh": [
+        "糖原累积病Ⅱ型",
+        "酸性α-葡糖苷酶缺乏症"
+      ],
+      "icd10": [
+        "E74.0"
+      ],
+      "icd11": [
+        "5C51.3"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "GAA基因突变导致溶酶体酸性α-葡糖苷酶(GAA)缺乏，糖原广泛贮积破坏心肌与骨骼肌（尤其是膈肌）；经典婴儿型(IOPD)表现为进行性肥厚型心肌病与重度肌张力低下，未治疗患儿中位死亡年龄仅约6–9个月；晚发型(LOPD)缓慢进展至轮椅依赖及夜间呼吸衰竭。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "酶替代疗法(一代阿糖苷酶α及二代艾夫糖苷酶α)显著逆转IOPD心肌肥厚并大幅延长生存，但在中国均尚未纳入全国日常基本医疗支出减负，成人按体重年药费高达200万–300万元且骨骼肌/呼吸肌穿透力仍受限。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列庞贝病全球年死亡数；经典IOPD未治患儿1岁内死亡率>90%，经早期ERT干预5年生存率显著提高(PMC6642934)",
+          "year": null,
+          "source": "Pompe Survival Study (PMC6642934) / Orphanet ORPHA:365"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列年死亡数；因ERT尚未进国家日常基本医疗支出减负，国内大量晚发型成人及部分婴儿患者存在足量中断用药风险",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / 财新报道"
+        },
+        "prevalence_global": "Orphanet欧洲出生患病率约0.8/10万（全球文献总体约1/40,000–1/100,000，ORPHA:365）",
+        "prevalence_china": "国内正式确诊在册约数百例（实际人群携带者基数大，华南/台湾新生儿筛查提示东亚晚发变异较常见）；以“糖原累积病（I型、II型）”纳入《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "婴儿型(IOPD)急性心衰与呼吸衰竭抢救：(1) 严密监控心肌电生理稳定性，警惕全麻诱导心室颤动/骤停（尽量避免非必需深全麻）；(2) 急性肺感染或膈肌无力失代偿尽早启动机械通气及抗心衰治疗；(3) 对CRIM阴性患儿启用ERT前或同步予利妥昔单抗+甲氨蝶呤免疫耐受诱导(ITI)，防止中和抗体失效。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用阿糖苷酶α (美而赞)",
+            "name_en": "Alglucosidase alfa",
+            "drug_class": "第一代重组人酸性α-葡糖苷酶ERT",
+            "usage_role": "经典一线婴儿型/晚发型庞贝病ERT",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "约5,300–5,600元/支(50mg)；成人按体重每两周给药全额约200万–300万元人民币/年（未入国家日常基本医疗支出减负，浙江/湖南/江西/天津等曾试点地方统筹）",
+            "cost_source": "财新公开定价分析及地方大病专项机制"
+          },
+          {
+            "name_zh": "注射用艾夫糖苷酶α (耐而赞)",
+            "name_en": "Avalglucosidase alfa",
+            "drug_class": "第二代高甘露糖-6-磷酸(M6P)亲和力工程化ERT",
+            "usage_role": "2023年10月NMPA批准用于1岁及以上晚发型庞贝病",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "尚未纳入国家基本医疗保险目录，高值自费/依赖惠民保或援助",
+            "cost_source": "2023年NMPA批准及公开自费特药信息"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无创呼吸机(BiPAP)及排痰辅助维持夜间通气",
+          "温和有氧呼吸肌康复避免过度抗阻拉伤",
+          "高蛋白低碳水化合物代谢饮食调节"
+        ],
+        "annual_total_cost_china_cny": "由于成人按体重20 mg/kg每2周静脉输注，未入全国常规药品保障前药费常达100万–300万元人民币/年；多数国内成人患者减量维持或依赖地方惠民保与罕见病专项救助"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "第二代ERT艾夫糖苷酶α（耐而赞）已于2023年10月在中国获批改善M6P受体靶向内吞并优效于一代呼吸指标；双组分疗法Cipaglucosidase alfa联合酶稳定剂Miglustat已在海外获批；肝靶向/肌靶向AAV-GAA基因疗法及肌肉靶向抗体-酶偶联物处于Phase 1–3。",
+        "key_unmet_needs_zh": "两代庞贝病特效ERT至今仍未进入全国统一日常基本医疗支出减负目录，年百万级费用导致中国成人患者足量治疗率极低；一代与二代ERT对骨骼肌及膈肌长期糖原清除依然不完全，常难阻断长期呼吸支持依赖。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Glycogen storage disease due to acid maltase deficiency (ORPHA:365)",
+          "url": "https://www.orpha.net/en/disease/detail/365",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC6642934): Long-Term Survival and ERT Outcomes in Pompe Disease",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6642934/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2019"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0010526",
+      "name_zh": "法布雷病",
+      "name_en": "Fabry disease",
+      "aliases_zh": [
+        "法布里病",
+        "α-半乳糖苷酶A缺乏症"
+      ],
+      "icd10": [
+        "E75.2"
+      ],
+      "icd11": [
+        "5C56.01"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "X连锁GLA基因突变致α-半乳糖苷酶A缺乏，球形三己糖神经酰胺(GL-3/Lyso-GL-3)沉积于全身血管内皮、肾小球及心肌；青少年表现为肢端剧痛、无汗、血管角质瘤，30–50岁中青年期进展为终末期肾病(尿毒症)、肥厚型心肌病心律失常及早发脑卒中，未治疗男性寿命平均缩短约15–20年。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "阿加糖酶α(2021年入国家常规药品保障)大幅将年治疗自付从百万元压低至数万元级别，早期规则ERT可显著阻止肾衰竭与心肌纤维化恶化；一旦进入不可逆肾纤维化透析期疗效大幅受限。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列法布雷病全球年死亡总数；主要死因依次为心肌猝死/心衰、早发脑卒中及尿毒症并发症",
+          "year": null,
+          "source": "Orphanet ORPHA:324"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列年死亡数；因早期误诊为“生长痛”、“不明原因蛋白尿/肥厚型心肌病”平均延误确诊10年以上，确诊时往往已伴显著心肾损害",
+          "year": null,
+          "source": "国家《第一批罕见病目录》"
+        },
+        "prevalence_global": "Orphanet全球出生患病率约6.66/10万（约1/15,000；新生儿基因筛查纳入晚发型变异后检出更高，ORPHA:324）",
+        "prevalence_china": "国内文献估计经典型男性患病率约1/40,000–1/60,000（中国透析、肥厚心肌病及青年卒中高危筛查检出大量未确诊病例）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "阿加糖酶α注射用浓溶液",
+            "name_en": "Agalsidase alfa",
+            "drug_class": "重组人α-半乳糖苷酶A ERT",
+            "usage_role": "中国常规药品保障覆盖一线ERT维持治疗(每2周静脉输注)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2021国谈入常规药品保障，报销后患者年自付从约100万元降至约6万元人民币",
+            "cost_source": "2021国家药品降价协商落地公开报道"
+          },
+          {
+            "name_zh": "注射用阿加糖酶β",
+            "name_en": "Agalsidase beta",
+            "drug_class": "CHO细胞源高剂量α-半乳糖苷酶A ERT",
+            "usage_role": "高剂量ERT选择（中国尚未入全国日常基本医疗支出减负）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "约3.6万–3.9万元/支(35mg)，全额年费用约100万元人民币",
+            "cost_source": "国内上市特药渠道及未入常规药品保障公开信息"
+          },
+          {
+            "name_zh": "米加司他 (Migalastat)",
+            "name_en": "Migalastat",
+            "drug_class": "口服药理学分子伴侣",
+            "usage_role": "海外及部分引进通道针对“可响应GLA错义突变”口服替代",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "未纳入国家日常基本医疗支出减负目录",
+            "cost_source": "国内尚未常规纳入常规药品保障"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高危人群(不明原因蛋白尿、左室肥厚、青年卒中)干血斑α-Gal A/Lyso-GL-3高危筛查",
+          "ACEI/ARB降尿蛋白护肾与起搏器/ICD防心律失常猝死"
+        ],
+        "annual_total_cost_china_cny": "使用进入国家常规降价保障目录的阿加糖酶α并叠加地方门诊特殊慢病/单独支付与大病保险后，患者年自付多降至约3万–6万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "聚乙二醇化长效ERT Pegunigalsidase alfa(Elfabrio)已在欧美获批减少输液反应及免疫原性；口服底物减少疗法Lucerastat/Venglustat与单次肝脏靶向AAV基因疗法(如FLT190/ST-920，持续高水平稳定产酶)正处Phase 2–3临床研究，部分国产基因治疗已进入国内研究者发起/注册临床。",
+        "key_unmet_needs_zh": "中国肾内科、心内科与儿科对法布雷病的误诊率依然极高，导致错失器官纤维化前最佳启动ERT时机；女性杂合子及年轻无明显蛋白尿患者的早期启动保障与抗药抗体克服仍待进一步突破。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Fabry disease (ORPHA:324)",
+          "url": "https://www.orpha.net/en/disease/detail/324",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0015564",
+      "name_zh": "Castleman病",
+      "name_en": "Castleman disease",
+      "aliases_zh": [
+        "卡斯特尔曼病",
+        "巨大淋巴结增生症",
+        "血管滤泡性淋巴结增生"
+      ],
+      "icd10": [
+        "D47.7"
+      ],
+      "icd11": [
+        "4B2Y"
+      ],
+      "category": "淋巴增殖与免疫炎症罕见病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "病理分单中心型(UCD)和多中心型(MCD)；其中HIV/HHV-8阴性特发性多中心Castleman病(iMCD，尤其是TAFRO亚型)可因IL-6主导的急性细胞因子风暴在数周内迅速并发全身水肿、浆膜腔积液、血小板急剧下降、急性肾损伤及多器官衰竭致死，历史5年生存率仅约65%–75%。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "单中心型(UCD)经外科完整切除可实现近100%临床治愈；iMCD靶向抗IL-6单抗司妥昔单抗已于2023年国谈入常规药品保障，显著改善炎症风暴和长期生存。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列Castleman病全球年死亡总数；文献报道iMCD 5年总生存率(OS)约65%–75%，TAFRO重症亚型早期死于多器官衰竭与重症感染",
+          "year": null,
+          "source": "Orphanet ORPHA:160 / CDCN"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列年死亡数；中国Castleman病协作组(CCDN)多中心队列显示iMCD及伴POEMS/副肿瘤天疱疮(PNP)亚型死亡风险显著高于UCD（PMC10240361）",
+          "year": "2023",
+          "source": "China Castleman Disease Network Study (PMC10240361)"
+        },
+        "prevalence_global": "Orphanet全球点患病率标记为Unknown（美国iMCD年发病率估计约1–9/1,000,000，ORPHA:160）",
+        "prevalence_china": "中国Castleman病协作组(CCDN)累计大样本多中心研究已收录超1,600例患者（早前40家三甲中心20年总结580例，PMC10240361），推算我国每年新发iMCD超1,000例；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "iMCD/TAFRO高炎性细胞因子风暴危象抢救：(1) 立即转入ICU监测血压、肾功与毛细血管渗漏浆膜腔积液；(2) 即刻予大剂量静脉糖皮质激素脉冲(甲泼尼龙)联合紧急一线静脉输注抗IL-6单抗司妥昔单抗(11 mg/kg)阻断IL-6风暴；(3) 伴发严重血小板减少出血/肾衰时予连续性肾脏替代治疗(CRRT)、成分输血，必要时对IL-6难治患者立即加用BCD(硼替佐米+环磷酰胺+地塞米松)或沙利度胺方案。",
+        "standard_drugs": [
+          {
+            "name_zh": "司妥昔单抗 (Siltuximab)",
+            "name_en": "Siltuximab",
+            "drug_class": "人鼠嵌合抗IL-6单克隆抗体",
+            "usage_role": "HIV-/HHV-8-特发性多中心Castleman病(iMCD)全球及国内首选一线靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障前100mg约3,747元/400mg约13,529元，2023国谈入常规药品保障(2024年1月执行，院内挂网价显著下调至约1,906元/5,508元级别)",
+            "cost_source": "2023国家药品降价协商(2024版目录，de66e92b7edd4056ac41c0c4d3c011f3.pdf)及医院公开中标价"
+          },
+          {
+            "name_zh": "BCD方案(硼替佐米+环磷酰胺+地塞米松) / TCP方案",
+            "name_en": "Bortezomib + Cyclophosphamide + Dexamethasone / Thalidomide",
+            "drug_class": "蛋白酶体抑制剂+免疫调节化疗方案",
+            "usage_role": "非IL-6依赖性或司妥昔单抗耐药iMCD的中国协和经典方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "各组份均入日常基本医疗支出减负且多进集采（单疗程数千元）",
+            "cost_source": "国家日常基本医疗支出减负目录与国内CCDN临床共识"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "单中心型(UCD)外科根治性淋巴结切除术（治愈性）",
+          "危重TAFRO患者胸腹腔穿刺引流与CRRT器官功能支持"
+        ],
+        "annual_total_cost_china_cny": "UCD手术单次住院约1万–3万元人民币即达治愈；iMCD每3周输注司妥昔单抗经国家常规药品保障及2024年起国内部分地区等省门诊单独支付报销后，患者年自付多在3万–8万元人民币区间"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "以北京协和医院为首的中国CCDN在国际上首创全口服TCP(沙利度胺+环磷酰胺+泼尼松)及BCD方案验证了高缓解率且可及；近年mTOR抑制剂(西罗莫司)及JAK1/2抑制剂(芦可替尼)在难治性/IL-6阴性iMCD-TAFRO人群中取得突破性二线响应。",
+        "key_unmet_needs_zh": "约30%–50% iMCD患者对IL-6单抗原发或继发无应答（非IL-6驱动亚型生物标志物与特异性靶向药缺乏）；基层病理淋巴结活检极易误诊为淋巴瘤或反应性增生。"
+      },
+      "sources": [
+        {
+          "title": "PMC (PMC10240361): Multicenter Clinical Characteristics of Castleman Disease in China (CCDN)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10240361/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2023"
+        },
+        {
+          "title": "Orphanet Disease Profile: Castleman disease (ORPHA:160)",
+          "url": "https://www.orpha.net/en/disease/detail/160",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018982",
+      "name_zh": "C型尼曼匹克病",
+      "name_en": "Niemann-Pick disease type C",
+      "aliases_zh": [
+        "NPC",
+        "儿童阿尔茨海默病",
+        "尼曼匹克病C型"
+      ],
+      "icd10": [
+        "E75.2"
+      ],
+      "icd11": [
+        "5C56.0Y"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "NPC1(95%)或NPC2(5%)基因突变引起溶酶体内胆固醇及鞘脂类胞内转运障碍，致肝脾肿大及小脑、脑干进行性神经退行性变（垂直性核上性凝视麻痹、共济失调、痴呆、癫痫及吞咽困难）；早发婴儿型多在5–10岁死于吸入性肺炎，青少年型常于20岁前后因球麻痹呼吸并发症死亡。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "全球尚无根治疗法；中国已将唯一获批药物麦格司他(Miglustat)长期进入国家常规降价保障目录乙类仅能温和延缓神经退变进程；美国FDA于2024年9月批准Miplyffa及Aqneursa两款全新机制NPC药物，国内尚未引进。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列单基因NPC全球年死亡总数；临床多因进行性吞咽误吸、吸入性肺炎或肺衰竭于儿童至青年期死亡",
+          "year": null,
+          "source": "Orphanet ORPHA:646"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡统计；因高度漏诊，临床在册病例不足百例且多在神经系统明显倒退后始获基因确诊",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / 健康时报"
+        },
+        "prevalence_global": "Orphanet欧洲点患病率约1.0/10万（全球文献出生患病率约1/45,000–1/286,000，ORPHA:646）",
+        "prevalence_china": "文献理论参考发病约1/100,000–1/150,000，因认知度低与误诊导致国内实际注册确诊患者不足百例；以“尼曼匹克病”纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "麦格司他胶囊 (泽维可)",
+            "name_en": "Miglustat",
+            "drug_class": "葡糖神经酰胺合成酶抑制剂(SRT)",
+            "usage_role": "中国唯一获批并入常规药品保障的NPC进行性神经症状延缓药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约128元/粒(100mg)，报销前成人足量约30万元/年，经常规医疗减负及地方特殊慢病/单独支付后大幅下降",
+            "cost_source": "健康时报公开报道及国家常规临床药品目录(YPSN202500139连续续约)"
+          },
+          {
+            "name_zh": "Arimoclomol (Miplyffa) / Levacetylleucine (Aqneursa)",
+            "name_en": "Arimoclomol / Levacetylleucine",
+            "drug_class": "热休克蛋白放大剂 / 神经代谢调节氨基酸",
+            "usage_role": "2024年9月FDA最新批准治疗NPC神经症状药物",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国大陆尚未上市及未入常规药品保障",
+            "cost_source": "FDA 2024年9月官方批准公告"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "防误吸吞咽治疗与早期胃造瘘营养通道",
+          "痴呆与猝倒症(Cataplexy)/癫痫对症康复管理"
+        ],
+        "annual_total_cost_china_cny": "口服麦格司他未报销前按体重最高达约15万–30万元人民币/年；经国家常规目录药物及地方单独支付/特殊慢病报销与援助后患者年自付多降至约3万–8万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "FDA于2024年9月连续批准两款NPC新药——Miplyffa（arimoclomol联合麦格司他，改善/稳定神经评分）及Aqneursa（左旋乙酰亮氨酸单药，12周即显著改善SARA共济失调评分）；鞘内羟丙基-β-环糊精及AAV9-NPC1基因疗法处于海外临床研发。",
+        "key_unmet_needs_zh": "麦格司他仅能温和延缓神经功能下降而非阻止恶化；FDA新批的Aqneursa及Miplyffa尚需加速通过海南先行先试或NMPA免临床/桥接引入中国；国内“新生儿胆汁淤积+肝脾肿大”及“儿童期共济失调”漏诊率依然极高。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Niemann-Pick disease type C (ORPHA:646)",
+          "url": "https://www.orpha.net/en/disease/detail/646",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "FDA News Release: Approval of New Drugs to Treat Niemann-Pick Disease Type C (Miplyffa / Aqneursa)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-drug-treat-niemann-pick-disease-type-c",
+          "publisher": "U.S. Food and Drug Administration",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0010200",
+      "name_zh": "肝豆状核变性",
+      "name_en": "Wilson disease",
+      "aliases_zh": [
+        "Wilson病",
+        "威尔逊病",
+        "铜代谢障碍症"
+      ],
+      "icd10": [
+        "E83.0"
+      ],
+      "icd11": [
+        "5C64.00"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "ATP7B基因常染色体隐性突变破坏胆道排铜及铜蓝蛋白合成，过量游离铜蓄积毒害肝脏、基底节豆状核、角膜(K-F环)及红细胞；除慢性失代偿性肝硬化与严重肌张力障碍外，暴发型肝豆状核变性急性肝衰竭伴Coombs阴性溶血性贫血可在数周内致死，除非紧急肝移植。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "在遗传代谢病中属极少数可通过早期口服低廉排铜药及低铜饮食实现近正常寿命的“高度可治性罕见病”；但青霉胺神经系统一过性加重(Paradoxical worsening)及不耐受患者急需的曲恩汀(Trientine)国内价格高、未入常规药品保障。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列Wilson病全球年死亡总数；未及时驱铜或突发暴发性肝衰竭未获肝移植者病死率极高，规范早期驱铜者寿命接近正常",
+          "year": null,
+          "source": "Orphanet ORPHA:905"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无全国官方年死亡绝对数；多死于暴发性肝衰或失代偿肝硬化消化道出血及误诊延误导致的不可逆神经瘫痪感染",
+          "year": null,
+          "source": "PMC5567514 / 国家《第一批罕见病目录》"
+        },
+        "prevalence_global": "Orphanet全球出生患病率约2.25/10万，点患病率约2.02/10万（ORPHA:905）",
+        "prevalence_china": "中国及东亚明显高于西方，报道患病率约3.7–5.87/10万（安徽等高发队列及常见热点突变p.R778L携带率高，PMC5567514）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "暴发型肝豆状核变性(急性肝衰竭+剧烈溶血危机)救治：(1) 立即转入具备肝移植资质中心评估急诊原位肝移植（对肝性脑病/严重凝血异常暴发型几乎唯一根治手段，可一并纠正铜代谢基因缺陷）；(2) 桥接期间立即行连续性血液滤过/血浆置换(CRRT+PE)快速清除血循环游离毒铜与溶血产物；(3) 禁用迅速加重神志恶化的盲目大剂量冲击，审慎辅以低毒驱铜与白蛋白透析。",
+        "standard_drugs": [
+          {
+            "name_zh": "青霉胺片",
+            "name_en": "D-Penicillamine",
+            "drug_class": "巯基类铜螯合剂",
+            "usage_role": "中国一线经典口服排铜治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元至100元/瓶",
+            "cost_source": "国家基本药物与日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "二巯丙磺酸钠注射液 / 二巯丁二酸胶囊",
+            "name_en": "DMPS / Dimercaptosuccinic acid (DMSA)",
+            "drug_class": "二巯基铜螯合剂",
+            "usage_role": "中国特色高效静脉驱铜(DMPS)或口服替代(DMSA)，尤适青霉胺加重神经型患者",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "属常规药品保障常规低价药物（百元左右）",
+            "cost_source": "国家日常基本医疗支出减负目录与中华医学会Wilson病诊治指南"
+          },
+          {
+            "name_zh": "曲恩汀 (Trientine)",
+            "name_en": "Trientine",
+            "drug_class": "高耐受性多胺铜螯合剂",
+            "usage_role": "青霉胺过敏/肾病/狼疮不耐受患者国际一线替代",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "约数千元/盒（部分进口渠道供药，未入全国常规药品保障）",
+            "cost_source": "国内尚未纳入日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "醋酸锌 / 葡萄糖酸锌",
+            "name_en": "Zinc acetate / gluconate",
+            "drug_class": "金属硫蛋白诱导剂（阻断肠道铜吸收）",
+            "usage_role": "维持期单药或症状前儿童一线长期维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "几十元/盒（常规药品保障甲乙类低价药）",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "终身严格低铜饮食（忌食动物内脏、贝类、坚果、巧克力与菌菇）",
+          "暴发性肝衰或失代偿肝硬化行原位肝移植术（可临床治愈排铜缺陷）"
+        ],
+        "annual_total_cost_china_cny": "使用青霉胺+锌剂+二巯丁二酸经日常基本医疗支出减负及常规大病/特殊药品降价支持后，年药费及尿铜/肝功复查自付仅1,000–5,000元人民币；若需住院静脉DMPS驱铜年约1万–2万元；急诊肝移植费用约30万–60万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "中国拥有全球最大Wilson病临床队列并形成了独特的DMPS+DMSA联合驱铜标准；既往备受期待的AAV9肝靶向ATP7B基因疗法UX701在Phase 1/2/3 Cyprus2+研究中因未达到主要跨剂量群停药稳态疗效终点已被Ultragenyx公司宣布终止开发，目前新型小分子四硫代钼酸盐及下一代靶向基因编辑仍在早期优化。",
+        "key_unmet_needs_zh": "青霉胺诱发神经症状不可逆加重的风险依然困扰临床，而低毒高耐受二线替代药曲恩汀国内未入常规药品保障且价格昂贵；基因治疗(如UX701)遭遇瓶颈后仍需安全高效一次性纠正ATP7B肝脏铜代谢的新疗法。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Wilson disease (ORPHA:905)",
+          "url": "https://www.orpha.net/en/disease/detail/905",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC5567514): Wilson Disease Prevalence and Genetics in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5567514/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2017"
+        },
+        {
+          "title": "ClinicalTrials.gov (NCT04884815): UX701 AAV Gene Therapy Trial in Wilson Disease (Discontinued)",
+          "url": "https://clinicaltrials.gov/study/NCT04884815",
+          "publisher": "ClinicalTrials.gov / NIH",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009061",
+      "name_zh": "囊性纤维化",
+      "name_en": "Cystic fibrosis",
+      "aliases_zh": [
+        "CF",
+        "肺囊性纤维化"
+      ],
+      "icd10": [
+        "E84",
+        "E84.0",
+        "E84.1",
+        "E84.8"
+      ],
+      "icd11": [
+        "CA25"
+      ],
+      "category": "常染色体隐性遗传呼吸/外分泌腺罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "CFTR氯离子通道基因突变致气道、胰腺及消化道分泌物极度黏稠阻塞，引起铜绿假单胞菌等反复定植感染、进行性支气管扩张、呼吸衰竭与胰腺外分泌功能不全；欧美因CFTR高效调节剂普及中位预测生存龄已跃升至50–60岁，而在缺乏CFTR调节剂的中国许多患者青年期即进展为终末期呼衰。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "全球呈两极分化：欧美针对F508del的三联CFTR调节剂(Trikafta/Alyftrek)彻底改写疾病预后，使90%患者近乎功能控制；然而中国大陆至今无任何CFTR调节剂正式获批或入常规药品保障，且东亚人群突变谱(非F508del居多)截然不同，仍停留在对症排痰抗感染支持阶段。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列单基因CF全球年死亡总数；主要死因为终末期支气管扩张呼衰及耐药肺部感染",
+          "year": null,
+          "source": "Orphanet ORPHA:586"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡数；因缺少CFTR调节剂且广泛存在误诊为“普通支气管扩张”，大量患者未能获得精准统计与对因救治",
+          "year": null,
+          "source": "China CF Consensus (PMC6296146) / 国家《第一批罕见病目录》"
+        },
+        "prevalence_global": "Orphanet欧洲点患病率约11.13/10万（欧美白人出生率1/2,500–1/3,500，ORPHA:586）",
+        "prevalence_china": "Orphanet收录中国点患病率约0.7786/10万(1–9/100万)；中国大样本外显子队列及CF专家共识推算致病基因携带率约1/127，理论发病率约1/64,000–1/120,000（潜在患者超2万例，PMC6296146）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "CF肺部感染急性加重(PEx)或大咯血急救：(1) 依据痰培养(铜绿假单胞菌/洋葱伯克霍尔德菌/MRSA)尽早双联静脉足疗程高剂量抗假单胞菌β-内酰胺联合氨基糖苷/粘菌素；(2) 大咯血立即患侧卧位防窒息气道畅通并紧急行支气管动脉栓塞术(BAE)；(3) 伴急性I/II型呼吸衰竭时审慎应用气道湿化排痰与无创通气，终末期及时转介双肺移植评估。",
+        "standard_drugs": [
+          {
+            "name_zh": "乙酰半胱氨酸 / 高渗盐水雾化",
+            "name_en": "N-acetylcysteine / Hypertonic Saline",
+            "drug_class": "黏液溶解与气道水化制剂",
+            "usage_role": "国内基础每日肺部廓清维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数十元/盒（普通常规药品保障雾化制剂）",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "胰酶肠溶胶囊",
+            "name_en": "Pancrelipase",
+            "drug_class": "胰腺外分泌酶替代剂",
+            "usage_role": "合并胰腺外分泌不足(PI)营养吸收维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "数十元/盒（常规消化常规药品保障药）",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "依来卡托/替扎卡托/艾伐卡托 (Trikafta) 及 Alyftrek",
+            "name_en": "Elexacaftor/Tezacaftor/Ivacaftor & Vanzacaftor/Tezacaftor/Deutivacaftor",
+            "drug_class": "三联CFTR蛋白矫正剂与增效剂",
+            "usage_role": "欧美标准对因修复CFTR通道功能",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外年费约20万–30万美元（中国大陆均未正式上市、未入常规药品保障）",
+            "cost_source": "FDA 2024年12月Alyftrek说明书及海外公开定价；中国未批准"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高频胸壁振荡排痰背心与体位引流物理廓清",
+          "高热量高脂营养支持及脂溶性维生素补充",
+          "终末期双肺移植术"
+        ],
+        "annual_total_cost_china_cny": "仅对症雾化、抗感染及胰酶国内年治疗自付多约1万–4万元；如反复铜绿耐药菌感染住院或肺移植则达十万至数十万元（当前国内极少渠道可及高价进口CFTR调节剂）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "FDA于2024年12月批准每日一次新一代三联CFTR调节剂Alyftrek(vanzacaftor/tezacaftor/deutivacaftor)并进一步扩充可响应非F508del罕见突变；针对占全球~10%及中国高频无义/剪接突变(如G970D、c.1766+5G>T等)的吸入式mRNA疗法与LNPs/AAV气道基因疗法处于Phase 1/2临床试验；中国CF协作网正推进国产汗液氯离子检测与东亚突变体外类器官药敏筛选。",
+        "key_unmet_needs_zh": "中国患者长期处于“缺药、缺检、缺保”三重困境：(1) 国内无一CFTR调节剂及吸入阿法链道酶获批上市；(2) 中国特有CFTR突变谱在国际调节剂临床试验中代表性极低；(3) 汗液试验普及度极低且国内部分地区省等多数地方常规药品保障特殊慢病目录尚未将其纳入单列。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Cystic fibrosis (ORPHA:586)",
+          "url": "https://www.orpha.net/en/disease/detail/586",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC6296146): Chinese Experts Consensus on Diagnosis and Treatment of Cystic Fibrosis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6296146/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2018"
+        },
+        {
+          "title": "FDA Prescribing Information: Alyftrek (NDA 218730) for Cystic Fibrosis",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/218730s000lbl.pdf",
+          "publisher": "U.S. Food and Drug Administration",
+          "year": "2024"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019623",
+      "name_zh": "遗传性血管性水肿",
+      "name_en": "Hereditary angioedema",
+      "aliases_zh": [
+        "HAE",
+        "C1酯酶抑制物缺乏症"
+      ],
+      "icd10": [
+        "D84.1",
+        "T78.3"
+      ],
+      "icd11": [
+        "4A00.14"
+      ],
+      "category": "罕见急性致死性血管性水肿",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "SERPING1突变导致血浆C1酯酶抑制物(C1-INH)缺乏或功能障碍，激肽释放酶-缓激肽过度激活引发局部皮下与黏膜深层水肿；因属于缓激肽而非组胺介导，肾上腺素/抗组胺/糖皮质激素完全无效！当发生致命性急性喉头水肿时，可于数十分钟至数小时内机械性窒息死亡；文献显示未获规范急救下喉水肿历史病死率高达30%–34%。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "中国已形成“急性按需急救(艾替班特)+长期预防(拉那利尤单抗)”双核心国家常规药品保障准入闭环，可近乎完全消除致命性喉头水肿及剧烈腹痛发作；但基层急诊因误作过敏仅给抗组胺/激素耽误插管仍是致命风险点。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列HAE全球年死亡总数；临床统计未获特异性药物救治的喉头水肿患者历史病死率达30%–34%（PMC7846295）",
+          "year": null,
+          "source": "HAE Laryngeal Edema Mortality Study (PMC7846295) / Orphanet ORPHA:91378"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡数；因高误诊率及基层缺备艾替班特，急性喉头水肿误当过敏抢救无效致窒息曾是主要死因",
+          "year": null,
+          "source": "China HAE Cohort Study (PMC12325137) / 国家《第一批罕见病目录》"
+        },
+        "prevalence_global": "Orphanet欧洲点患病率约5.0/10万（临床常规估算约1/50,000，ORPHA:91378）",
+        "prevalence_china": "中国大湾区多中心等研究报道确诊患病率约0.04–0.6/10万（98%属I型，全国实际登记确诊数百至千余例，按1/5万推算潜在患者约1.5万–3万例，PMC12325137）；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "HAE急性喉头水肿/声音嘶哑吞咽困难超级急症抢救：(1) 高度警惕：传统过敏三联药物（肾上腺素、糖皮质激素、苯海拉明/氯雷他定）对HAE无效，严禁因等待激素起效而延误气道处理！；(2) 即刻随身/急诊皮下注射缓激肽B2受体拮抗剂醋酸艾替班特(30 mg sc)或静脉输注人C1-INH浓缩制剂(若缺乏特异性药且危及生命时可应急输注新鲜冰冻血浆FFP以补充C1-INH)；(3) 声音变化、吸气性喉鸣或咽后壁水肿即刻启动耳鼻喉及麻醉科清醒纤维支气管镜下气管插管，水肿完全梗阻插管失败时果断行环甲膜切开或紧急气管切开。",
+        "standard_drugs": [
+          {
+            "name_zh": "醋酸艾替班特注射液 (飞泽优)",
+            "name_en": "Icatibant",
+            "drug_class": "选择性缓激肽B2受体拮抗剂",
+            "usage_role": "一线急性发作按需皮下自我注射急救救命药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已进入国家常规降价保障目录乙类目录（经报销后各地患者单支自付约数百至一两千元级别）",
+            "cost_source": "国家常规临床药品目录(de66e92b7edd4056ac41c0c4d3c011f3.pdf)"
+          },
+          {
+            "name_zh": "拉那利尤单抗注射液 (达泽优)",
+            "name_en": "Lanadelumab",
+            "drug_class": "全人源血浆激肽释放酶单克隆抗体",
+            "usage_role": "12岁及以上HAE长期规律皮下预防(防止致命性水肿发作)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "未入常规药品保障前约87,080元/支(300mg)，经国家药品降价协商及2024/2026持续续约大幅降价覆盖",
+            "cost_source": "国家降价协商常用药品目录(YPSN202400147 / YPSN202600235)"
+          },
+          {
+            "name_zh": "达那唑胶囊",
+            "name_en": "Danazol",
+            "drug_class": "弱效雄激素(刺激肝脏合成C1-INH)",
+            "usage_role": "既往无生物制剂时代传统二线廉价长期预防（副作用多、禁用于孕妇儿童）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "数十元/瓶",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "随身携带HAE急救识别卡与2支备用艾替班特预充针（避免误当普通荨麻疹）",
+          "牙科手术、内镜或气管插管前预防性给药防医源性喉水肿"
+        ],
+        "annual_total_cost_china_cny": "艾替班特与拉那利尤单抗均已进入国家常规药品保障及国家常规保障降价范围，患者按需急救年自付约数千元；使用拉那利尤单抗长期规范预防经常规药品保障+特殊慢病报销后年自付多降至约3万–8万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "全球首个HAE体内CRISPR-Cas9基因编辑疗法NTLA-2002(靶向肝脏KLKB1永久下调激肽释放酶)已步入Phase 3临床试验，单次静脉输注即实现超90%患者多年零发作的功能性治愈潜力；新一代抗XIIa因子单抗Garadacimab(每月一次皮下)与全球首个按需口服激肽释放酶抑制剂Sebetralstat(告别急性期随身针剂)正在海外获批或注册递交中。",
+        "key_unmet_needs_zh": "国内90%以上潜在患者仍长期被误诊为慢性过敏性喉炎或急腹症（曾致不必要剖腹探查及窒息悲剧）；拉那利尤单抗需持续高频注射且自付部分对低收入家庭仍有一定压力，临床急需引入口服按需药物及一次性基因编辑治愈疗法。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Hereditary angioedema (ORPHA:91378)",
+          "url": "https://www.orpha.net/en/disease/detail/91378",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "PMC (PMC7846295): Mortality from Laryngeal Edema in Unmanaged Hereditary Angioedema",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7846295/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2021"
+        },
+        {
+          "title": "PMC (PMC12325137): Clinical Characteristics and Epidemiology of HAE in China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12325137/",
+          "publisher": "PubMed Central / NIH",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001734",
+      "name_zh": "结节性硬化症",
+      "name_en": "Tuberous sclerosis complex",
+      "aliases_zh": [
+        "TSC",
+        "Bourneville病"
+      ],
+      "icd10": [
+        "Q85.1"
+      ],
+      "icd11": [
+        "LD2D.2"
+      ],
+      "category": "遗传代谢与溶酶体贮积罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "TSC1或TSC2抑癌基因突变致mTORC1信号通路异常持续激活，引起脑皮层结节、室管膜下巨细胞星形细胞瘤(SEGA)、肾血管平滑肌脂肪瘤(AML)、肺淋巴管肌瘤病(LAM)及难治性婴儿痉挛症；主要致死原因为肾AML瘤体破裂大出血(Wunderlich综合征)、SEGA梗阻性急性脑积水、LAM气胸呼衰以及癫痫持续状态/SUDEP。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "中国已将mTOR抑制剂依维莫司（限定SEGA及TSC-AML）与婴儿痉挛症一线药物氨己烯酸散均进入国家常规降价保障目录乙类，靶向缩小肿瘤并改善部分难治癫痫；但终身累及多系统器官且无法完全逆转伴发的孤独症谱系障碍(TAND)与智力受损。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列TSC全球年死亡总数；主要死因聚焦于肾AML急性破裂出血、神经系统SEGA/癫痫持续状态与女性成人LAM肺衰",
+          "year": null,
+          "source": "Orphanet ORPHA:805"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列年死亡数；早期随访不足时易突发肾错构瘤大出血休克或因未规范应用氨己烯酸引发婴儿痉挛脑损伤",
+          "year": null,
+          "source": "国家《第一批罕见病目录》 / Orphanet ORPHA:805"
+        },
+        "prevalence_global": "Orphanet报道中国台湾点患病率1.58/10万、中国香港3.87/10万、瑞典5.38/10万（全球新生儿估计约1/6,000–1/10,000，ORPHA:805）",
+        "prevalence_china": "中国临床以台湾/香港流行病学参考推算约1.58–3.87/10万，估计全国存量患者数万人；纳入国家《第一批罕见病目录》"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "TSC两大致命急症救治：(1) 肾AML突发破裂腹膜后大出血(腰痛+失血性休克)：立即扩容配血，首选经导管急诊选择性肾动脉栓塞术(TAE)保肾止血（避免急诊盲目切除双肾致尿毒症）；(2) SEGA压迫室间孔致急性梗阻性脑积水/脑疝：立即神经外科脑室引流/切除或大剂量依维莫司快速缩瘤降压；婴儿痉挛症丛集发作按癫痫急症处置。",
+        "standard_drugs": [
+          {
+            "name_zh": "依维莫司片",
+            "name_en": "Everolimus",
+            "drug_class": "口服mTORC1激酶抑制剂",
+            "usage_role": "一线靶向缩小TSC相关SEGA、肾AML及TSC难治性局灶癫痫",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约3,900–4,600元/盒(5mg×30片常规药品保障中标参考价)",
+            "cost_source": "国家基本常规目录药物(YPSN202300179-N1)及公立医院公开挂网价"
+          },
+          {
+            "name_zh": "氨己烯酸口服溶液用散",
+            "name_en": "Vigabatrin",
+            "drug_class": "不可逆GABA转氨酶抑制剂",
+            "usage_role": "TSC伴发婴儿痉挛症公认一线首选特效抗癫痫药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家基本常规目录药物（限婴儿痉挛症），极大缓解既往高额进口购药荒",
+            "cost_source": "国家常规临床药品目录官方下载清单(775c45b9ac2f478bbc2ba135fc32a9f5.pdf)"
+          },
+          {
+            "name_zh": "西罗莫司片 / 外用凝胶",
+            "name_en": "Sirolimus",
+            "drug_class": "第一代mTOR抑制剂",
+            "usage_role": "TSC合并肺淋巴管肌瘤病(LAM)或皮肤面部血管纤维瘤控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规常规目录药物免疫抑制剂价位（数千元/年）",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "大肾脏AML选择性动脉栓塞术预防或抢救破裂出血",
+          "致痫灶脑电评估外科切除及生酮饮食辅助",
+          "多学科终身监测（每年脑MRI、肾脏影像及女性高分辨胸部CT）"
+        ],
+        "annual_total_cost_china_cny": "依维莫司片(按5–10 mg/日)未报销前约4.5万–10万元/年，经国家常规目录药物及2024年起国内部分地区门诊药品单独支付报销后年个人自付多降至约1万–3.5万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "高纯度大麻二酚口服液(Epidiolex)国外已批用于TSC相关顽固性癫痫；EPISTOP及PREVeNT等多中心试验验证了对TSC婴儿“脑电图未爆发痉挛前预防性予氨己烯酸”可延缓临床痉挛发作；新一代脑穿透性选择性mTORC1抑制剂与外用西罗莫司凝胶正推进本土及全球注册。",
+        "key_unmet_needs_zh": "需终生服用mTOR抑制剂（停药后SEGA及AML常迅速反弹再生），带来口腔溃疡、高脂血症与感染风险；TSC相关神经精神障碍(TAND，含孤独症与智障)及常规药品保障“限特定亚型不完全涵盖儿童难治癫痫”仍需解决。"
+      },
+      "sources": [
+        {
+          "title": "Orphanet Disease Profile: Tuberous sclerosis complex (ORPHA:805)",
+          "url": "https://www.orpha.net/en/disease/detail/805",
+          "publisher": "Orphanet",
+          "year": "2025"
+        },
+        {
+          "title": "国家卫健委：《第一批罕见病目录》（国卫医发〔2018〕10号）",
+          "url": "https://www.nhc.gov.cn/wjw/c100175/201806/049e945e6c8044c5b4cb6b4aa19ad98e.shtml",
+          "publisher": "国家卫生健康委员会",
+          "year": "2018"
+        }
+      ]
+    }
+  ]
+}

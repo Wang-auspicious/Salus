@@ -1,0 +1,3012 @@
+{
+  "domain": "oncology_hematology",
+  "generated_at": "2026-11-15",
+  "curator": "oncology-hematology",
+  "records": [
+    {
+      "disease_id": "MONDO:0008903",
+      "name_zh": "肺癌（含非小细胞肺癌与小细胞肺癌）",
+      "name_en": "Lung Cancer (NSCLC and SCLC)",
+      "aliases_zh": [
+        "原发性支气管肺癌",
+        "非小细胞肺癌",
+        "小细胞肺癌",
+        "肺腺癌",
+        "肺鳞癌"
+      ],
+      "icd10": [
+        "C34",
+        "C33"
+      ],
+      "icd11": [
+        "2C25"
+      ],
+      "category": "恶性肿瘤 / 胸部实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "总体呈慢性至亚急性进展（病程数月至数年），其中小细胞肺癌(SCLC)倍增快、早期易血行及脑转移，未治中位生存仅数月；晚期肺癌并发大气道梗阻窒息、大咯血、上腔静脉阻塞综合征(SVCS)或恶性心包填塞时可在数小时至数日内急性致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期Ⅰ–Ⅱ期手术联合围术期靶向/免疫辅助治疗具备临床治愈可能；晚期NSCLC驱动基因阳性（EGFR/ALK/ROS1/RET等）依托三代TKI实现长期慢病化控制，但耐药与SCLC低长期生存率仍是主要痛点。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 1817469,
+          "range_or_note": "约181.7万/年（占全球全部癌症死亡的18.7%，居全球恶性肿瘤死因第1位）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 733300,
+          "range_or_note": "约73.33万/年（占中国全部癌症死亡的28.49%，居中国癌症死因第1位）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发病例2,480,675例（占全球全部新发癌症12.4%，发病率居第1位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发病例1,060,600例（全国第1位；NSCLC约占85%、SCLC约占15%，中国非吸烟肺腺癌EGFR突变率达40%–50%，NCC 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "大咯血予垂体后叶素/支气管动脉栓塞并保持健侧卧位防窒息；大气道狭窄行急诊支气管镜支架置入或消融；上腔静脉综合征予高剂量激素、利尿及急诊放疗/支架；脑转移伴颅高压予甘露醇脱水降颅压。",
+        "standard_drugs": [
+          {
+            "name_zh": "奥希替尼",
+            "name_en": "Osimertinib",
+            "drug_class": "第三代EGFR酪氨酸激酶抑制剂(TKI)",
+            "usage_role": "EGFR突变NSCLC一线及术后辅助靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障支付价约165.54元/片(80mg)、约4,966.2元/30片盒（费用减免前）；报销后患者月自付约1,500–2,000元",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "阿美替尼",
+            "name_en": "Aumolertinib",
+            "drug_class": "国产第三代EGFR-TKI",
+            "usage_role": "EGFR突变NSCLC一线/二线靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障价约92.74元/片(55mg)、约1,854.8–2,000元/盒（常规药品保障前月费约5,000元）",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "阿来替尼",
+            "name_en": "Alectinib",
+            "drug_class": "二代ALK酪氨酸激酶抑制剂",
+            "usage_role": "ALK阳性NSCLC一线及术后辅助靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网单价约54.91元/片(150mg)，较常规药品保障前降价约70%",
+            "cost_source": "国家常规目录药物谈判目录(2024–2025)"
+          },
+          {
+            "name_zh": "替雷利珠单抗",
+            "name_en": "Tislelizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "驱动基因阴性NSCLC及广泛期SCLC一线免疫联合",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障价约1,253.53元/支(100mg)，经常规医疗减负后单支自付约370元",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "依沃西单抗",
+            "name_en": "Ivonescimab",
+            "drug_class": "PD-1/VEGF双特异性抗体",
+            "usage_role": "EGFR-TKI耐药后及PD-L1阳性NSCLC一线免疫",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2024–2026年NMPA陆续获批上市，常规药品保障准入前为创新药自费/商保支付",
+            "cost_source": "NMPA获批及公开常规药品保障动态(2024–2026)"
+          },
+          {
+            "name_zh": "塔拉妥单抗",
+            "name_en": "Tarlatamab",
+            "drug_class": "DLL3/CD3双特异性T细胞接合剂(BiTE)",
+            "usage_role": "铂类耐药广泛期小细胞肺癌(ES-SCLC)后线",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国尚未大规模商业化进常规药品保障（FDA已完全批准）",
+            "cost_source": "FDA批准公告(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "胸腔镜/机器人根治性肺叶切除术",
+          "立体定向体部放疗(SBRT)与同步放化疗",
+          "预防性全脑放疗(PCI)",
+          "支气管镜介入支架/消融"
+        ],
+        "annual_total_cost_china_cny": "早期手术约3万–8万元；中晚期靶向/免疫综合治疗费用减免前年均直接医疗费用约10万–30万元以上（中国卫生经济学与三甲医院肿瘤费用调研）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 康方生物全球首创PD-1/VEGF双抗依沃西单抗(Ivonescimab)于HARMONi-2研究一线头对头击败帕博利珠单抗，2024–2026年获NMPA多项适应症批准并获FDA受理BLA；2) Tarlatamab(DLL3/CD3 BiTE)于2024年5月获FDA加速批准、2025年11月获完全批准，显著延长广泛期SCLC生存；3) HER2-ADC(德曲妥珠单抗)、TROP2-ADC(Dato-DXd)、EGFR/MET双抗(埃万妥单抗联合兰泽替尼)及KRAS G12C/G12D抑制剂重塑耐药后线格局。",
+        "key_unmet_needs_zh": "早筛低剂量螺旋CT基层普及率不足导致约70%确诊为中晚期；三代EGFR-TKI耐药后（C797S/MET扩增/SCLC转化）仍易复发；广泛期SCLC中位OS仍普遍不足12–15个月。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007256",
+      "name_zh": "原发性肝癌（肝细胞癌）",
+      "name_en": "Hepatocellular Carcinoma (Primary Liver Cancer)",
+      "aliases_zh": [
+        "肝细胞癌",
+        "原发性肝癌",
+        "HCC"
+      ],
+      "icd10": [
+        "C22.0",
+        "C22"
+      ],
+      "icd11": [
+        "2C12"
+      ],
+      "category": "恶性肿瘤 / 消化系统实体瘤",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "多在慢性乙型/丙型肝炎及肝硬化基础上历经数年进展，确诊中晚期后未有效干预常于数月至1年内因肝功能衰竭恶化；并发肿瘤自发破裂大出血、食管胃底静脉曲张破裂大呕血或重度肝性脑病时可在数小时至数日内急剧死亡。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "极早期/早期手术切除、消融或肝移植可实现根治（5年生存率50%–70%）；中晚期经TACE/HAIC转化治疗及靶免联合（双达/双艾方案）显著延长中位OS至约20个月，但合并失代偿肝硬化者耐受性差且复发率高。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 758725,
+          "range_or_note": "约75.87万/年（占全球癌症死亡7.8%，居第3位）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 316500,
+          "range_or_note": "约31.65万/年（占中国癌症死亡12.30%，居第2位；全球近半肝癌死亡发生在中国）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球肝及肝内胆管癌新发病例866,136例（占4.3%，居第6位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发367,700例（居第4位；中国70%–85%以上病例伴HBV感染背景，约70%初诊已为中晚期，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肿瘤破裂腹腔大出血立即补液输血、急诊经导管肝动脉栓塞(TAE)止血；合并门脉高压食管胃底静脉曲张破裂出血按急性消化道大出血予生长抑素/特利加压素、紧急内镜套扎及止血复苏。",
+        "standard_drugs": [
+          {
+            "name_zh": "仑伐替尼",
+            "name_en": "Lenvatinib",
+            "drug_class": "多靶点VEGFR/FGFR酪氨酸激酶抑制剂",
+            "usage_role": "晚期肝细胞癌一线靶向治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第7批国家集采后国产仿制(4mg×30粒/盒)低至约96–330元/盒（集采前原研月费超万元）",
+            "cost_source": "第7批国家药品集中采购中选结果及医院挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "信迪利单抗",
+            "name_en": "Sintilimab",
+            "drug_class": "PD-1抑制剂",
+            "usage_role": "联合贝伐珠单抗类似物('双达'方案)一线治疗晚期HCC",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判价约1,080元/支(100mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "贝伐珠单抗（达攸同等生物类似药）",
+            "name_en": "Bevacizumab",
+            "drug_class": "抗VEGF单克隆抗体",
+            "usage_role": "联合PD-1一线抗血管生成治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药常规药品保障挂网价约1,000–1,500元/支(100mg)",
+            "cost_source": "国家常规临床药品目录及省级挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "卡瑞利珠单抗+阿帕替尼",
+            "name_en": "Camrelizumab + Apatinib",
+            "drug_class": "PD-1单抗 + VEGFR2-TKI ('双艾'组合)",
+            "usage_role": "不可切除HCC一线靶免联合",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "卡瑞利珠单抗约2,576.64元/瓶(200mg)；阿帕替尼约2,700–2,800元/盒(0.25g×30片)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "索拉非尼",
+            "name_en": "Sorafenib",
+            "drug_class": "多靶点TKI",
+            "usage_role": "晚期HCC经典一线/二线靶向及术后辅助探索",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "集采/常规药品保障仿制药(0.2g×60片/盒)约100–300元/盒",
+            "cost_source": "国家常规药品保障及联盟集采挂网价(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "解剖性肝切除术",
+          "经导管肝动脉化疗栓塞(TACE)与肝动脉灌注化疗(HAIC)",
+          "射频/微波消融(RFA/MWA)",
+          "钇-90(Y-90)选择性内放射治疗(SIRT)",
+          "原位肝移植"
+        ],
+        "annual_total_cost_china_cny": "早期手术/消融约3万–8万元；中晚期反复介入(TACE/HAIC)联合靶免年直接医疗费用约10万–25万元（肝移植手术总费用常达30万–60万元以上）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) CARES-310研究显示卡瑞利珠单抗联合阿帕替尼一线治疗晚期HCC中位OS突破22.1个月（创晚期肝癌一线新纪录）；2) 替雷利珠单抗单药非劣效于索拉非尼及度伐利尤单抗+替西木单抗(STRIDE方案)获批；3) 术前新辅助/转化治疗(HAIC+靶免)使部分初始不可切除肝癌重获根治性切除机会；GPC3 CAR-T及溶瘤病毒处于早期临床。",
+        "key_unmet_needs_zh": "HBV相关高危人群每6个月超声+AFP筛查依从性仍偏低，多数初诊已丧失手术机会；中重度肝硬化(Child-Pugh B/C级)缺乏安全有效的系统治疗；术后5年复发率仍高达50%–70%。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001056",
+      "name_zh": "胃癌",
+      "name_en": "Gastric Cancer",
+      "aliases_zh": [
+        "胃腺癌",
+        "胃食管结合部腺癌"
+      ],
+      "icd10": [
+        "C16"
+      ],
+      "icd11": [
+        "2B72"
+      ],
+      "category": "恶性肿瘤 / 消化道实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "早期多隐匿无症状，进展期浸润胃壁及腹膜淋巴转移，转移性胃癌中位生存约1年左右；并发上消化道急性大出血、肿瘤穿孔所致弥漫性腹膜炎或幽门完全梗阻时可在数小时至数日内危及生命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期胃癌内镜黏膜下剥离术(ESD)或根治手术5年生存率>90%；中国约80%初诊已属进展期，依托靶向HER2/CLDN18.2及PD-1免疫联合化疗可延长生存但腹膜转移控制仍困难。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 660175,
+          "range_or_note": "约66.0万/年（居全球癌症死因第5位）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 260400,
+          "range_or_note": "约26.04万/年（占中国癌症死亡10.12%，居中国癌症死因第3位）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发病例968,784例（居第5位，东亚为全球最高发区，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发358,700例（居第5位，2000–2018年标化发病率呈下降趋势但绝对负担仍居全球首位，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肿瘤溃疡大呕血予禁食补液输血、PPI静脉泵入及急诊内镜止血或介入栓塞；急性穿孔立即禁食胃肠减压、抗感染并行急诊外科修补或姑息切除。",
+        "standard_drugs": [
+          {
+            "name_zh": "奥沙利铂",
+            "name_en": "Oxaliplatin",
+            "drug_class": "第三代铂类细胞毒化疗药",
+            "usage_role": "围术期及晚期胃癌一线XELOX/SOX基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第5批国家集采(50mg/支)国产中选约91.8–198元/支，原研310.51元/支",
+            "cost_source": "第5批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "卡培他滨",
+            "name_en": "Capecitabine",
+            "drug_class": "口服氟尿嘧啶前体化疗药",
+            "usage_role": "辅助及晚期联合化疗基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第3批国家集采(0.5g×12片/盒)约22.14–27.6元/盒",
+            "cost_source": "第3批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "卡度尼利单抗",
+            "name_en": "Cadonilimab",
+            "drug_class": "PD-1/CTLA-4双特异性抗体",
+            "usage_role": "胃/胃食管结合部腺癌全人群一线免疫联合",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2024年底国谈纳入、2025–2026常规药品保障新增覆盖胃癌，常规药品保障标准价约1,860元/125mg支",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "维迪西妥单抗",
+            "name_en": "Disitamab Vedotin",
+            "drug_class": "国产HER2靶向ADC",
+            "usage_role": "HER2过表达(IHC 2+/3+)晚期胃癌后线",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判价3,800元/支(60mg)（进常规药品保障前13,500元/支，降幅72%）",
+            "cost_source": "国家降价协商常用药品目录"
+          },
+          {
+            "name_zh": "佐妥昔单抗",
+            "name_en": "Zolbetuximab",
+            "drug_class": "Claudin 18.2 (CLDN18.2)单克隆抗体",
+            "usage_role": "CLDN18.2阳性/HER2阴性晚期胃癌一线",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2025年1月NMPA批准上市，常规药品保障准入前为商业自费高值创新药",
+            "cost_source": "FDA(2024.10)及NMPA(2025.01)获批信息"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "早期内镜黏膜下剥离术(ESD)",
+          "根治性胃切除+D2淋巴结清扫",
+          "术前新辅助放化疗",
+          "腹腔热灌注化疗(HIPEC)"
+        ],
+        "annual_total_cost_china_cny": "早期手术及基础化疗约4万–8万元；晚期联合靶向/免疫治疗年直接医疗费用约8万–20万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 全球首款CLDN18.2单抗佐妥昔单抗(Zolbetuximab)于2024年10月获FDA批准、2025年1月获NMPA批准一线治疗胃癌；2) 德曲妥珠单抗(T-DXd)确立HER2阳性胃癌后线及一线联合地位；3) 国产CLDN18.2-ADC与CLDN18.2 CAR-T(如舒瑞基奥仑赛 CT041)在顽固腹膜转移胃癌临床试验中展现显著客观缓解。",
+        "key_unmet_needs_zh": "早期胃镜筛查覆盖有限致多数确诊偏晚；腹膜转移及印戒细胞癌对现有免疫/化疗反应差；非HER2/低PD-L1人群靶点仍匮乏。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005575",
+      "name_zh": "结直肠癌",
+      "name_en": "Colorectal Cancer",
+      "aliases_zh": [
+        "大肠癌",
+        "结肠癌",
+        "直肠癌",
+        "CRC"
+      ],
+      "icd10": [
+        "C18",
+        "C19",
+        "C20"
+      ],
+      "icd11": [
+        "2B90",
+        "2B91",
+        "2B92"
+      ],
+      "category": "恶性肿瘤 / 消化道实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "多经腺瘤-癌序列数年缓慢演进；转移性结直肠癌随靶免及肝转移转化治疗中位OS已达30个月以上，但并发急性完全性肠梗阻、肠穿孔或下消化道大出血时可在数小时至数日内出现感染性休克或失血性休克。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "Ⅰ–Ⅲ期规范手术联合辅助化疗治愈率高；dMMR/MSI-H型免疫单药/双免可实现长期深度缓解乃至免手术保肛，pMMR/MSS肝肺寡转移经MDT转化切除亦具长期生存机会。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 904019,
+          "range_or_note": "约90.4万/年（不同发布表微调为903,859–904,019例，占全球癌症死亡9.3%，居第2位）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 240000,
+          "range_or_note": "约24.0万/年（占中国癌症死亡9.32%，居第4位）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发病例1,926,425例（占9.6%，居全球第3位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发病例517,100例（发病跃居全国第2位，城市及年轻发病率呈上升态势，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肿瘤性急性肠梗阻立即禁食胃肠减压、纠酸补液，结肠镜置入金属支架(SEMS)减压桥接择期手术或急诊外科造口；急性肠穿孔急诊剖腹探查。",
+        "standard_drugs": [
+          {
+            "name_zh": "奥沙利铂+卡培他滨",
+            "name_en": "Oxaliplatin + Capecitabine (CAPEOX)",
+            "drug_class": "铂类+口服氟尿嘧啶基石化疗",
+            "usage_role": "Ⅱ/Ⅲ期辅助及晚期一线核心化疗方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第3/5批国采：卡培他滨22.14–27.6元/12片盒，国产奥沙利铂91.8–198元/50mg支",
+            "cost_source": "国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "贝伐珠单抗",
+            "name_en": "Bevacizumab",
+            "drug_class": "抗VEGF单克隆抗体",
+            "usage_role": "RAS突变/右半结肠晚期一线及跨线靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药常规药品保障价约1,000–1,500元/支(100mg)",
+            "cost_source": "国家常规临床用药目录及省级挂网价"
+          },
+          {
+            "name_zh": "西妥昔单抗",
+            "name_en": "Cetuximab",
+            "drug_class": "抗EGFR单克隆抗体",
+            "usage_role": "RAS/BRAF野生型左半结直肠癌一线靶向转化",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品降价协商乙类并多轮续约降价",
+            "cost_source": "国家常规临床药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "呋喹替尼",
+            "name_en": "Fruquintinib",
+            "drug_class": "国产高选择性VEGFR1/2/3抑制剂",
+            "usage_role": "转移性结直肠癌三线及以上标准靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障价1mg×21粒约1,885元/盒、5mg×7粒约2,513元/盒",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "帕博利珠单抗",
+            "name_en": "Pembrolizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "MSI-H/dMMR转移性结直肠癌一线",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品降价协商大幅降价纳入乙类",
+            "cost_source": "国家常规临床药品目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "肠镜早癌EMR/ESD切除",
+          "腹腔镜/机器人结直肠癌根治术(CME/TME)",
+          "局部进展期直肠癌新辅助放化疗",
+          "肝转移灶联合切除或射频消融"
+        ],
+        "annual_total_cost_china_cny": "早中期根治术加常规化疗约4万–9万元；晚期靶向/免疫综合全程治疗常达10万–25万元（常规药品保障报销后自付显著降低）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 国产原研呋喹替尼继国内进常规药品保障后于2023年底获FDA批准并在全球广泛应用；2) dMMR局部进展期直肠癌新辅助PD-1免疫单药(如Dostarlimab/信迪利单抗)临床完全缓解率高，开启免手术保肛新范式；3) ctDNA微小残留病灶(MRD)精准指导Ⅱ/Ⅲ期术后辅助化疗降阶梯及KRAS G12C抑制剂+EGFR单抗双靶突破耐药。",
+        "key_unmet_needs_zh": "占约95%的转移性MSS/pMMR结直肠癌对单药免疫检查点抑制剂原发耐药；50岁以下早发性结直肠癌发病呈全球上升；肠镜早筛依从性仍需提升。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007576",
+      "name_zh": "食管癌",
+      "name_en": "Esophageal Cancer",
+      "aliases_zh": [
+        "食道癌",
+        "食管鳞状细胞癌",
+        "食管腺癌"
+      ],
+      "icd10": [
+        "C15"
+      ],
+      "icd11": [
+        "2B70"
+      ],
+      "category": "恶性肿瘤 / 上消化道实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "进行性吞咽困难导致恶病质及多器官转移，未治疗晚期常于半年至1年内死亡；若发生食管气管瘘致重症吸入性肺炎或肿瘤侵及胸主动脉引起大咯血/呕血可在数分钟至数小时内猝死。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期局限于黏膜层者内镜ESD/根治术治愈率高；可切除局晚期行新辅助放化疗或免疫+化疗联合手术显著提高pCR率，但高发区中晚期确诊多且术后吻合口并发症与复发转移仍突出。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 445391,
+          "range_or_note": "约44.5万/年（居全球癌症死因第7位）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 187500,
+          "range_or_note": "约18.75万/年（占中国癌症死亡7.28%，居第5位）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发511,054例，死亡445,391例（高度集中于东亚及东非食管癌带，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发224,000例（占全球近44%，全国第7位），病理以食管鳞癌(ESCC)占约90%为主，Han et al. 2024"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "并发食管穿孔/食管气管瘘立即禁食水、广谱抗感染并行内镜覆膜支架封堵；并发侵及大血管大出血按失血性休克抢救并行血管介入栓塞/支架。",
+        "standard_drugs": [
+          {
+            "name_zh": "紫杉醇（含白蛋白结合型）",
+            "name_en": "Paclitaxel / Nab-Paclitaxel",
+            "drug_class": "微管稳定剂化疗药",
+            "usage_role": "食管鳞癌新辅助放化疗及晚期一线化疗基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国采普通紫杉醇单支数十元，白蛋白结合型紫杉醇约130–150元/100mg支",
+            "cost_source": "国家药品集中采购及地方挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "特瑞普利单抗",
+            "name_en": "Toripalimab",
+            "drug_class": "国产PD-1单抗",
+            "usage_role": "食管鳞癌一线免疫联合化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网价约1,884.86元/瓶(240mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "替雷利珠单抗",
+            "name_en": "Tislelizumab",
+            "drug_class": "PD-1单抗",
+            "usage_role": "食管鳞癌一线及二线免疫治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障价约1,253.53元/支(100mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "卡瑞利珠单抗",
+            "name_en": "Camrelizumab",
+            "drug_class": "PD-1单抗",
+            "usage_role": "食管鳞癌一线及二线免疫治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障参考价约2,576.64元/瓶(200mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "早期内镜ESD切除",
+          "胸腹腔镜食管癌根治术",
+          "新辅助/根治性同步放化疗",
+          "食管支架置入与肠内营养管支持"
+        ],
+        "annual_total_cost_china_cny": "外科手术及常规放化疗约5万–12万元；中晚期综合免疫联合治疗年直接医疗费用约8万–18万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 中国牵头的JUPITER-06、ESCORT-1st、RATIONALE-306、GEMSTONE-304等Ⅲ期研究确立国产PD-1/PD-L1全面进驻食管鳞癌一线并入常规药品保障；2) ESCORT-NEO等研究证实新辅助免疫联合化疗显著提升局晚期病理完全缓解率(pCR)；3) EGFR/TROP2-ADC及联合放疗免手术保食管策略正在推进Ⅲ期验证。",
+        "key_unmet_needs_zh": "农村高发区早期内镜筛查仍有缺口；重度吞咽梗阻致营养不良影响放化疗耐受；放化疗及免疫耐药后二线有效靶向药稀缺。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007254",
+      "name_zh": "乳腺癌",
+      "name_en": "Breast Cancer",
+      "aliases_zh": [
+        "女性乳腺癌",
+        "浸润性乳腺导管癌",
+        "三阴性乳腺癌",
+        "HER2阳性乳腺癌"
+      ],
+      "icd10": [
+        "C50"
+      ],
+      "icd11": [
+        "2C6Z"
+      ],
+      "category": "恶性肿瘤 / 乳腺与妇科实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "总体呈慢性病程，早期5年生存率达85%–90%以上，但三阴性乳腺癌及脑/肝广泛转移者进展较快，长期带瘤生存中需防范脑膜转移及内脏危象。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "分子分型治疗高度成熟：HR+/HER2-依赖CDK4/6i+内分泌实现长期控制，HER2+凭借双靶与新一代ADC大幅提升治愈与生存；晚期三阴性(TNBC)及内分泌耐药后仍是核心攻坚方向。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 666103,
+          "range_or_note": "约66.6万/年（占全球癌症死亡6.9%，女性癌症死因首位）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 75000,
+          "range_or_note": "约7.50万/年（占中国女性癌症死亡约7.94%）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球女性新发病例2,296,840例（居全球总癌种第2位、女性第1位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国女性新发357,200例（女性癌症第1位，总癌种第6位；中国中位发病年龄约45–55岁早于欧美，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "晚期骨转移致高钙血症危机予水化、双膦酸盐/地舒单抗及降钙素；脊髓压迫立即高剂量激素联合急诊减压放疗或手术；恶性胸腔积液穿刺引流。",
+        "standard_drugs": [
+          {
+            "name_zh": "曲妥珠单抗",
+            "name_en": "Trastuzumab",
+            "drug_class": "抗HER2单克隆抗体",
+            "usage_role": "HER2阳性早晚期乳腺癌基石靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已进入国家常规降价保障目录乙类及国产生物类似药集采，单支价格较原研初期大幅跳水",
+            "cost_source": "国家常规临床药品目录及省际集采结果(2024–2025)"
+          },
+          {
+            "name_zh": "德曲妥珠单抗（T-DXd）",
+            "name_en": "Trastuzumab Deruxtecan",
+            "drug_class": "新一代HER2靶向ADC",
+            "usage_role": "HER2阳性二线及HER2低表达乳腺癌精准ADC",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2025年1月起执行常规药品保障谈判价3,480元/瓶(100mg)（进常规药品保障前约8,860元/瓶）",
+            "cost_source": "国家常规临床药品目录(2024版，2025.01执行)"
+          },
+          {
+            "name_zh": "阿贝西利",
+            "name_en": "Abemaciclib",
+            "drug_class": "CDK4/6抑制剂",
+            "usage_role": "HR+/HER2-早期高危辅助及晚期一线内分泌联合",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判纳入乙类，单盒数百元至千元级，月自付显著下降",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "吡咯替尼",
+            "name_en": "Pyrotinib",
+            "drug_class": "国产不可逆HER2/EGFR小分子TKI",
+            "usage_role": "HER2阳性晚期二线/一线及新辅助治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "进入国家常规降价保障目录乙类协议支付，大幅降低月度口服自付负担",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "戈沙妥珠单抗",
+            "name_en": "Sacituzumab Govitecan",
+            "drug_class": "Trop-2靶向ADC",
+            "usage_role": "晚期三阴性乳腺癌(TNBC)及HR+内分泌耐药后线",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "尚未纳入国家日常基本医疗支出减负，自费参考价约8,400元/瓶(180mg)",
+            "cost_source": "国家药品降价协商公开进展及市场挂网价(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "保乳术或改良根治术+前哨淋巴结活检",
+          "术后全乳/区域淋巴结放疗",
+          "乳腺重建手术",
+          "卵巢功能抑制(OFS)"
+        ],
+        "annual_total_cost_china_cny": "早期手术及基础内分泌/化疗约3万–8万元；HER2阳性双靶/ADC或晚期全程多线治疗年直接医疗费用约10万–30万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) DESTINY-Breast04/06确立德曲妥珠单抗(T-DXd)将抗HER2治疗边界拓展至HER2低表达与超低表达人群，并已于2025年1月正式在华执行常规药品保障降价报销；2) AKT抑制剂Capivasertib(PIK3CA/AKT1/PTEN通路)、口服SERD(Elacestrant)及TROP2-ADC(Datopotamab deruxtecan/芦康沙妥珠单抗)重塑内分泌耐药及TNBC后线治疗。",
+        "key_unmet_needs_zh": "三阴性乳腺癌(TNBC)易早期复发与脑转移且Trop-2 ADC尚未纳入日常基本医疗支出减负；中国年轻乳腺癌生育力保存与长期内分泌依从性不足。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009831",
+      "name_zh": "胰腺癌",
+      "name_en": "Pancreatic Cancer",
+      "aliases_zh": [
+        "胰腺导管腺癌",
+        "PDAC",
+        "癌王"
+      ],
+      "icd10": [
+        "C25"
+      ],
+      "icd11": [
+        "2C10"
+      ],
+      "category": "恶性肿瘤 / 消化系统高致死实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "生物学恶性度极高、早期隐匿且极易侵犯神经血管并早期肝/腹膜转移，80%–85%初诊即无法手术切除；未治疗转移性胰腺癌中位生存仅3–6个月，总体5年生存率仅约10%–13%，并发胆道脓毒症、上消化道大出血或恶病质衰竭可在数周至数月内致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "仅15%–20%早期患者具备根治切除机会且术后复发率仍高；常规化疗(mFOLFIRINOX/AG方案)延长晚期中位生存至约8.5–11个月，高度依赖RAS靶向药等前沿突破。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 467409,
+          "range_or_note": "约46.74万/年（全球死亡/发病比高达~0.91，致死率居实体瘤前列）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 106300,
+          "range_or_note": "约10.63万/年（死亡/发病比近0.90）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发510,992例（居第12位），死亡却高达467,409例（居第6位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发118,700例（居第10位），死亡106,300例，随老龄化与代谢因素呈上升趋势，Han et al. 2024"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "胰头癌致恶性梗阻性黄疸伴急性化脓性胆管炎时立即行ERCP鼻胆管引流/支架置入或PTCD减黄联合广谱抗感染；十二指肠梗阻置入支架或行胃空肠吻合。",
+        "standard_drugs": [
+          {
+            "name_zh": "白蛋白结合型紫杉醇",
+            "name_en": "Nab-Paclitaxel",
+            "drug_class": "纳米白蛋白结合微管稳定剂",
+            "usage_role": "联合吉西他滨(AG方案)一线标准治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "经集采与常规药品保障协同后单支(100mg)降至约130–150元",
+            "cost_source": "国家/联盟药品集中采购挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "吉西他滨",
+            "name_en": "Gemcitabine",
+            "drug_class": "核苷类似物抗代谢化疗药",
+            "usage_role": "辅助及晚期一线核心化疗基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已全面纳入国家集采与常规药品保障目录，单支数十元至百元级",
+            "cost_source": "国家药品集中采购及常规药品保障目录"
+          },
+          {
+            "name_zh": "奥拉帕利",
+            "name_en": "Olaparib",
+            "drug_class": "PARP抑制剂",
+            "usage_role": "胚系BRCA1/2突变铂敏感转移性胰腺癌维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网约9,400元/盒(150mg×56片)（报销前），限特定人群常规目录药物报销",
+            "cost_source": "国家常规临床药品目录及医院挂网价"
+          },
+          {
+            "name_zh": "达拉索西布（Daraxonrasib / RMC-6236）",
+            "name_en": "Daraxonrasib",
+            "drug_class": "泛RAS(ON)三元复合物抑制剂（在研）",
+            "usage_role": "覆盖90%以上KRAS突变PDAC的二线/一线Ⅲ期临床突破",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "在研新药（已获FDA孤儿药及NDA优先审评推进，暂无中国上市价格）",
+            "cost_source": "FDA优先审评及RASolute 302临床试验报告(2025–2026)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "胰十二指肠切除术(Whipple手术)或胰体尾切除",
+          "立体定向放射治疗(SBRT)",
+          "ERCP/PTCD胆道支架减黄",
+          "腹腔神经丛阻滞镇痛与胰酶替代"
+        ],
+        "annual_total_cost_china_cny": "根治性胰腺外科及围术期并发症管理约8万–18万元；晚期系统化疗及对症介入综合年费用约8万–20万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 泛RAS(ON)抑制剂Daraxonrasib (RMC-6236)在NEJM发表优异Ⅰ/Ⅱ期结果后推进Ⅲ期RASolute 302研究(NCT06625320)并获FDA NDA优先审评受理(2025–2026)，有望成为首次覆盖绝大多数KRAS突变PDAC的突破性靶向药；2) 个体化新抗原mRNA疫苗Autogene cevumeran术后长期随访降低复发；Claudin 18.2靶向及肿瘤免疫微环境重塑临床试验积极开展。",
+        "key_unmet_needs_zh": "缺乏敏感高特异早筛血液标志物；致密纤维间质阻碍药物渗透且90%以上携带曾'不可成药'KRAS突变；对PD-1单抗单药高度免疫荒漠化。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002974",
+      "name_zh": "宫颈癌",
+      "name_en": "Cervical Cancer",
+      "aliases_zh": [
+        "子宫颈癌",
+        "宫颈鳞癌",
+        "宫颈腺癌"
+      ],
+      "icd10": [
+        "C53"
+      ],
+      "icd11": [
+        "2C77"
+      ],
+      "category": "恶性肿瘤 / 妇科实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "高危型HPV持续感染经CIN癌前病变历经数年至十余年进展为浸润癌；晚期盆腔广泛浸润输尿管可诱发急性双侧上尿路梗阻尿毒症或大出血，需及时肾造瘘及动脉栓塞救治。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "依托HPV疫苗接种与宫颈癌筛查是一级/二级可高度预防的肿瘤；ⅠA–ⅠB期手术或局晚期同步放化疗治愈率高，复发转移引入双抗(卡度尼利)与ADC(替索妥尤单抗)显著改善预后。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 348186,
+          "range_or_note": "约34.82万/年（中低HDI国家负担最重，WHO推进2030消除宫颈癌战略）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 55700,
+          "range_or_note": "约5.57万/年（GLOBOCAN中国估算为55,694例）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发662,301例，死亡348,186例（女性第4大恶性肿瘤，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发150,700例（全国第8位），95%以上与高危型HPV持续感染相关，Han et al. 2024"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肿瘤侵犯宫颈大血管引发急性阴道大出血立即纱条压迫填塞、止血复苏并急诊行双侧髂内/子宫动脉介入栓塞；双侧输尿管梗阻致急性肾衰行经皮肾穿刺造瘘或输尿管支架置入。",
+        "standard_drugs": [
+          {
+            "name_zh": "顺铂+紫杉醇",
+            "name_en": "Cisplatin + Paclitaxel",
+            "drug_class": "铂类+紫杉类化疗基石",
+            "usage_role": "局晚期放疗增敏及复发转移一线化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "顺铂与普通紫杉醇均纳入国家集采及日常基本医疗支出减负，单支数十元级",
+            "cost_source": "国家药品集中采购及日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "卡度尼利单抗",
+            "name_en": "Cadonilimab",
+            "drug_class": "国产PD-1/CTLA-4双特异性抗体",
+            "usage_role": "复发或转移性宫颈癌一线及二线免疫治疗（无需PD-L1限制）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2024年底国谈纳入、2025年执行并扩展宫颈癌适应症，常规药品保障价约1,860元/支(125mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "贝伐珠单抗",
+            "name_en": "Bevacizumab",
+            "drug_class": "抗VEGF单克隆抗体",
+            "usage_role": "复发转移性宫颈癌一线联合化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药常规药品保障挂网约1,000–1,500元/支(100mg)",
+            "cost_source": "国家常规临床药品目录"
+          },
+          {
+            "name_zh": "帕博利珠单抗",
+            "name_en": "Pembrolizumab",
+            "drug_class": "PD-1单抗",
+            "usage_role": "KEYNOTE-A18高危局晚期联合放化疗及PD-L1+复发转移一线",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已通过国谈纳入常规药品保障，适应症逐步扩展",
+            "cost_source": "国家降价协商常用药品目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "广泛性子宫切除术+盆腔淋巴结清扫",
+          "根治性外照射(EBRT)+三维后装近距离放疗(Brachytherapy)",
+          "HPV疫苗一级预防与LBC/HPV早筛"
+        ],
+        "annual_total_cost_china_cny": "早期手术及放化疗约4万–9万元；复发转移联合双抗/贝伐珠单抗年直接医疗费用约8万–18万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 国产PD-1/CTLA-4双抗卡度尼利单抗(COMPASSION-16)显著改善一线全人群无进展及总生存，2025年纳入常规药品保障大幅提高可及性；2) KEYNOTE-A18确立帕博利珠单抗联合同步放化疗成为高危局晚期宫颈癌治愈率新标准；3) 组织因子ADC(Tisotumab vedotin)获FDA完全批准，国产TROP2/Nectin-4/HER2 ADC及HPV治疗性疫苗处于Ⅱ/Ⅲ期。",
+        "key_unmet_needs_zh": "偏远地区适龄女性HPV疫苗与筛查覆盖仍不均衡；放化疗后盆腔复发或远处转移仍缺长效根治手段。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008315",
+      "name_zh": "前列腺癌",
+      "name_en": "Prostate Cancer",
+      "aliases_zh": [
+        "前列腺腺癌",
+        "去势抵抗性前列腺癌",
+        "CRPC"
+      ],
+      "icd10": [
+        "C61"
+      ],
+      "icd11": [
+        "2C82"
+      ],
+      "category": "恶性肿瘤 / 泌尿生殖实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "多数腺癌生长缓慢、呈长期慢性经过（5年总体生存率在筛查普及区超90%）；去势抵抗阶段(mCRPC)广泛骨转移可诱发脊髓压迫瘫痪或病理性骨折。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "限局期经根治术或根治放疗可获治愈；转移性激素敏感期(mHSPC)通过ADT联合二代雄激素受体抑制剂(ARi)实现长达数年高质量带瘤生存，BRCA突变及PSMA高表达mCRPC可应用PARP抑制剂及核素配体治疗。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 397430,
+          "range_or_note": "约39.74万/年（全球男性癌死因前列）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 47500,
+          "range_or_note": "约4.75万/年（GLOBOCAN中国估算47,522例；中国初诊转移比例高于欧美）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发1,467,854例（占7.3%，居全球第4位、男性第1位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发134,200例（全国第9位，随老龄化与PSA检测推广快速上升，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "骨转移椎体塌陷致急性脊髓压迫立即静注地塞米松并急诊脊柱减压/放疗以保全神经功能；肿瘤致急性尿潴留予导尿或耻骨上膀胱造瘘。",
+        "standard_drugs": [
+          {
+            "name_zh": "醋酸阿比特龙",
+            "name_en": "Abiraterone Acetate",
+            "drug_class": "CYP17A1雄激素合成抑制剂",
+            "usage_role": "mHSPC及mCRPC一线内分泌靶向基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已入常规目录药物，国产仿制药(250mg×120片/盒)低至约624元/盒（原研早期逾万元）",
+            "cost_source": "国家常规临床药品目录及公立医院挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "恩扎卢胺",
+            "name_en": "Enzalutamide",
+            "drug_class": "第二代雄激素受体(AR)拮抗剂",
+            "usage_role": "nmCRPC、mCRPC及mHSPC标准口服靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判挂网价约7,700–7,800元/盒(40mg×112粒)（报销前）",
+            "cost_source": "国家降价协商常用药品目录及医院公示挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "瑞维鲁胺",
+            "name_en": "Rezvilutamide",
+            "drug_class": "国产第二代AR抑制剂",
+            "usage_role": "高瘤负荷mHSPC一线治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "获批后快速通过国家药品降价协商纳入乙类报销",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "奥拉帕利",
+            "name_en": "Olaparib",
+            "drug_class": "PARP抑制剂",
+            "usage_role": "BRCA1/2等HRR突变mCRPC精准靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网约9,400元/56片盒，限基因检测阳性患者常规药品保障报销",
+            "cost_source": "国家常规临床药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "177Lu-PSMA-617（Pluvicto）",
+            "name_en": "Lutetium Lu 177 Vipivotide Tetraxetan",
+            "drug_class": "PSMA靶向放射配体治疗(RLT)",
+            "usage_role": "PSMA阳性既往ARi与紫杉类进展后mCRPC",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "高端进口放射性配体核药，国内常规药品保障尚未覆盖",
+            "cost_source": "FDA批准及国际临床指南(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "机器人辅助根治性前列腺切除术(RARP)",
+          "调强放疗(IMRT)/近距离粒子植入",
+          "去势维持联合骨保护剂(地舒单抗/唑来膦酸)"
+        ],
+        "annual_total_cost_china_cny": "内分泌ADT+国产阿比特龙/集采药物年直接医疗费用约2万–6万元；联合二代ARi/PARPi或核素治疗可达8万–20万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 国产二代AR抑制剂瑞维鲁胺(CHART研究)将中国高瘤负荷mHSPC患者死亡风险降低42%并纳入常规药品保障；2) 放射配体疗法177Lu-PSMA-617(PSMAfore研究)前移至化疗前mCRPC阶段；3) PARP抑制剂+新型内分泌(奥拉帕利+阿比特龙/他拉唑帕利+恩扎卢胺)确立HRR突变乃至全人群协同获益，PSMA双抗/CAR-T及AR蛋白降解剂(PROTAC)处于临床推进。",
+        "key_unmet_needs_zh": "中国50岁以上男性PSA早筛普及度仍较低导致约半数初诊即中晚期；去势抵抗及神经内分泌分化(NEPC)后仍缺乏长期控制方案。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002108",
+      "name_zh": "甲状腺癌",
+      "name_en": "Thyroid Cancer",
+      "aliases_zh": [
+        "甲状腺乳头状癌",
+        "甲状腺滤泡癌",
+        "甲状腺髓样癌",
+        "甲状腺未分化癌"
+      ],
+      "icd10": [
+        "C73"
+      ],
+      "icd11": [
+        "2D10"
+      ],
+      "category": "恶性肿瘤 / 内分泌高可治愈实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "low_lethality",
+      "lethality_detail_zh": "占90%以上的分化型甲状腺癌(乳头状癌/滤泡癌)呈惰性慢性病程、死亡率极低，10年生存率>95%；仅占1%–2%的甲状腺未分化癌(ATC)呈亚急性暴发进展，数周至数月内可因气管窒息致死。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "高治愈率标杆癌种：规范化手术±碘-131(RAI)清甲及TSH抑制治疗可根治绝大多数分化型患者；碘难治(RAIR-DTC)、RET突变髓样癌及BRAF V600E未分化癌已拥有高选择性靶向药控制。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 47067,
+          "range_or_note": "约4.71万/年（相较82万新发病例，总体死亡/发病比仅~0.057，预后极佳）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 11600,
+          "range_or_note": "约1.16万/年（GLOBOCAN中国估算为11,564例）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024 / GLOBOCAN 2022"
+        },
+        "prevalence_global": "2022年全球新发821,214例（居第7位，高频超声筛查显著推高检出率，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发466,100例（跃居全国第3大高发恶性肿瘤，女性新发尤为突出，但死亡极少，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "罕见未分化癌(ATC)或巨大肿瘤压迫气管引发急性吸气性呼吸困难与窒息时，立即高流量吸氧、紧急气管切开或气管支架置入，并行放疗/双靶抢救；术后低钙抽搐急诊静推葡萄糖酸钙。",
+        "standard_drugs": [
+          {
+            "name_zh": "左甲状腺素钠",
+            "name_en": "Levothyroxine Sodium",
+            "drug_class": "甲状腺激素替代与TSH抑制药物",
+            "usage_role": "术后终身替代及复发抑制基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及甲类常规药品保障极低廉（年药费通常仅数百元）",
+            "cost_source": "国家基本药物与常规基础药物目录"
+          },
+          {
+            "name_zh": "仑伐替尼",
+            "name_en": "Lenvatinib",
+            "drug_class": "多靶点TKI",
+            "usage_role": "放射性碘难治性分化型甲状腺癌(RAIR-DTC)一线靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第7批国家集采国产仿制药约96–330元/盒(4mg×30粒)",
+            "cost_source": "第7批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "达拉非尼+曲美替尼",
+            "name_en": "Dabrafenib + Trametinib",
+            "drug_class": "BRAF+MEK双靶向抑制剂",
+            "usage_role": "BRAF V600E突变甲状腺未分化癌(ATC)突破性挽救治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "双药均进入国家常规降价保障目录乙类目录（需特定适应症或按各地限定支付）",
+            "cost_source": "国家降价协商常用药品目录"
+          },
+          {
+            "name_zh": "塞普替尼",
+            "name_en": "Selpercatinib",
+            "drug_class": "高选择性RET激酶抑制剂",
+            "usage_role": "RET突变髓样甲状腺癌及RET融合分化型甲状腺癌一线靶向",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "高值进口精准靶向药（国内多依赖自费、惠民保或商保路径）",
+            "cost_source": "FDA及NMPA批准上市信息"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "甲状腺叶/全切除及中央区/侧颈区淋巴结清扫",
+          "放射性碘-131(RAI)治疗",
+          "低危微小乳头状癌主动监测(Active Surveillance)",
+          "局部病灶射频消融"
+        ],
+        "annual_total_cost_china_cny": "分化型甲状腺癌手术约2万–4万元，术后长期左甲状腺素随访年自付仅数千元以内；碘难治晚期靶向治疗年费用约数万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) LIBRETTO-531Ⅲ期研究确立高选择性RET抑制剂Selpercatinib作为RET突变晚期髓样癌一线标准（显著优于传统多靶点TKI）；2) BRAF V600E未分化癌应用达拉非尼+曲美替尼联合免疫新辅助实现过去极罕见的手术转化与长期生存；3) 精准去过度诊疗（低危微小癌主动监测与保留腺叶）成为国际指南核心共识。",
+        "key_unmet_needs_zh": "全国超声体检导致的微小乳头状癌过度诊断与过度手术问题突出；极罕见甲状腺未分化癌(ATC)及非RET野生型碘难治癌仍易迅速恶化。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018177",
+      "name_zh": "脑胶质瘤（胶质母细胞瘤）",
+      "name_en": "Glioblastoma (Malignant Glioma)",
+      "aliases_zh": [
+        "胶质母细胞瘤",
+        "GBM",
+        "高级别脑胶质瘤",
+        "WHO 4级胶质瘤"
+      ],
+      "icd10": [
+        "C71"
+      ],
+      "icd11": [
+        "2A00.0"
+      ],
+      "category": "恶性肿瘤 / 中枢神经系统肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "GBM为成人最常见且极具侵袭性的原发恶性脑肿瘤，肿瘤呈浸润性生长无法彻底切净且几乎100%复发；未治疗中位生存约3个月，标准术后同步放化疗中位总生存仅12–15个月、5年生存率<5%，并发瘤周重度水肿脑疝或癫痫持续状态可在数小时至数日内致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "目前仍难以根治：最大范围安全手术+Stupp方案(替莫唑胺同步及辅助放化疗)+肿瘤电场治疗(TTFields)可延长中位生存至约15–21个月；低级别IDH突变型胶质瘤获靶向药Vorasidenib显著延缓进展。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN 2022将脑及CNS恶性肿瘤合并统计为全球年死亡248,500例（新发321,731例），未单列GBM；GBM约占成人原发恶性脑肿瘤50%（CBTRUS 2024）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 & CBTRUS Statistical Report 2024"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "NCC 2024报告2022年中国脑及CNS恶性肿瘤新发87,500例、死亡56,600例（粗死亡率约4.44/10万），未单列GBM亚型独立死因计数",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "CBTRUS 2024统计GBM年年龄标化发病率约3.19–3.2/10万（男/女约1.6:1），Orphanet(ORPHA:360)全球年发病率约3.0/10万",
+        "prevalence_china": "中国脑及CNS恶性肿瘤2022年新发87,500例（Han et al. 2024），随人口老龄化及高场强MRI普及确诊持续增加"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "颅内压急剧升高伴脑疝先兆立即静滴甘露醇/高渗盐水联合地塞米松脱水降颅压并急诊开颅减压；癫痫持续状态立即静脉推注地西泮/咪达唑仑联合左乙拉西坦控制发作。",
+        "standard_drugs": [
+          {
+            "name_zh": "替莫唑胺",
+            "name_en": "Temozolomide",
+            "drug_class": "可穿透血脑屏障口服/静脉烷化剂",
+            "usage_role": "高级别胶质瘤同步放化疗及辅助化疗基石(Stupp方案)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第7批国家集采中选注射剂(0.1g/瓶)约96.5–126元/瓶，口服胶囊集采后亦降价80%–90%",
+            "cost_source": "第7批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "贝伐珠单抗",
+            "name_en": "Bevacizumab",
+            "drug_class": "抗VEGF单克隆抗体",
+            "usage_role": "复发GBM减轻瘤周脑水肿及改善症状",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药常规药品保障挂网价约1,000–1,500元/支(100mg)",
+            "cost_source": "国家常规临床药品目录"
+          },
+          {
+            "name_zh": "伏拉西尼（Vorasidenib）",
+            "name_en": "Vorasidenib",
+            "drug_class": "口服血脑屏障穿透型IDH1/IDH2双重突变抑制剂",
+            "usage_role": "术后携带IDH1/2突变2级胶质瘤靶向延缓进展",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2024年8月FDA批准，中国Ⅲ期注册临床进行中，国内尚未商业定价进常规药品保障",
+            "cost_source": "FDA批准公告(2024.08)及国内注册进展"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "荧光引导/术中唤醒显微神经外科最大安全切除",
+          "术后三维适形/调强放疗(60Gy)",
+          "肿瘤电场治疗(TTFields，已进入国内部分商业保险及常规药品保障探索)",
+          "脑室腹腔分流术"
+        ],
+        "annual_total_cost_china_cny": "开颅显微手术+同步放化疗常规医疗总费用约8万–18万元；若自费应用肿瘤电场治疗(TTFields)年费用可达数十万至上百万元（含商业险辅助）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 2024年8月FDA批准Vorasidenib成为全球首个用于2级IDH1/2突变脑胶质瘤的系统性靶向药(INDIGO研究显著推迟放化疗时间)；2) 2024–2025年针对复发GBM的双靶点CAR-T(EGFR+IL13Rα2鞘内注射)、溶瘤病毒及超声波开放血脑屏障(BBB)联合化疗均在Ⅰ/Ⅱ期临床取得瘤体快速缩小信号；3) 硼中子俘获疗法(BNCT)与国产新型电场设备加速推进。",
+        "key_unmet_needs_zh": "血脑屏障极大限制多数抗肿瘤大分子/靶向药入脑；肿瘤高度异质性与免疫抑制微环境致PD-1免疫及绝大多数新药Ⅲ期折戟；近20年GBM一线生存期未能实现根本跨越。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "CBTRUS Statistical Report: Primary Brain and Other Central Nervous System Tumors Diagnosed in the United States in 2017-2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39371035/",
+          "publisher": "PubMed / Neuro-Oncology (CBTRUS)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008170",
+      "name_zh": "卵巢癌",
+      "name_en": "Ovarian Cancer",
+      "aliases_zh": [
+        "上皮性卵巢癌",
+        "高级别浆液性卵巢癌",
+        "输卵管癌",
+        "原发性腹膜癌"
+      ],
+      "icd10": [
+        "C56"
+      ],
+      "icd11": [
+        "2C73"
+      ],
+      "category": "恶性肿瘤 / 妇科高致死实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "早期无特异性症状且缺乏有效筛查，约70%初诊已为Ⅲ–Ⅳ期广泛腹盆腔播散；虽对铂类初始化疗敏感，但反复复发最终发展为铂耐药致肠梗阻及恶病质衰竭。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "满意肿瘤细胞减灭术(R0)+紫杉醇/卡铂化疗联合PARP抑制剂一线维持(尤其BRCA/HRD阳性)显著延长PFS与5年生存，但铂耐药复发后仍极难控制。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 207252,
+          "range_or_note": "约20.73万/年（妇科恶性肿瘤中死亡/发病比最高）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 32600,
+          "range_or_note": "约3.26万/年（GLOBOCAN中国估算为32,516例）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发324,603例，死亡207,252例（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发61,100例（GLOBOCAN 61,060例），约20%–25%患者携带胚系或体系BRCA1/2突变，Han et al. 2024"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "晚期腹膜癌病致恶性肠梗阻予胃肠减压、静脉营养及生长抑素；大量恶性胸腹腔积液致呼吸窘迫时行超声引导穿刺分次缓慢引流。",
+        "standard_drugs": [
+          {
+            "name_zh": "尼拉帕利",
+            "name_en": "Niraparib",
+            "drug_class": "PARP抑制剂",
+            "usage_role": "卵巢癌全人群一线维持及铂敏感复发维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障支付标准降为约4,500–6,000元/盒(100mg×30粒)（进常规药品保障前约24,990元/盒）",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "奥拉帕利",
+            "name_en": "Olaparib",
+            "drug_class": "PARP抑制剂",
+            "usage_role": "BRCA突变一线维持（含联合贝伐珠单抗覆盖HRD+）及复发维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网约9,400元/盒(150mg×56片)（较上市初期月均逾两万大幅下降）",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "紫杉醇+卡铂",
+            "name_en": "Paclitaxel + Carboplatin",
+            "drug_class": "紫杉类+铂类一线化疗",
+            "usage_role": "术后辅助及新辅助标准一线化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "集采与国家日常基本医疗支出减负全面覆盖，单疗程基础化疗药费数百至千元级",
+            "cost_source": "国家药品集中采购及日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "索米妥昔单抗",
+            "name_en": "Mirvetuximab Soravtansine",
+            "drug_class": "靶向叶酸受体α(FRα)的ADC",
+            "usage_role": "FRα高表达铂耐药上皮性卵巢癌突破性后线",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2024年3月FDA完全批准，中国尚在上市审评/引进推进中，暂未进日常基本医疗支出减负",
+            "cost_source": "FDA完全批准公告(2024.03)及国内临床引进动态"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "肿瘤细胞减灭术(PDS/IDS，力争R0无肉眼残留)",
+          "腹腔热灌注化疗(HIPEC)",
+          "遗传咨询与BRCA1/2高危家族预防性附件切除"
+        ],
+        "annual_total_cost_china_cny": "初始减灭术+化疗约5万–10万元；联合PARP抑制剂一线维持费用减免前年费约6万–12万元（报销后自付约2万–4万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) MIRASOL Ⅲ期研究证实FRα-ADC索米妥昔单抗在铂耐药卵巢癌中首次实现总生存(OS)显著获益，并于2024年3月获FDA完全批准，打破铂耐药无有效靶向僵局；2) 德曲妥珠单抗获批用于HER2 IHC 3+泛瘤种包括卵巢癌，多款FRα/TROP2/CDH6-ADC与RAF/MEK抑制剂(用于低级别浆液性卵巢癌)在Ⅲ期推进。",
+        "key_unmet_needs_zh": "缺乏有效的早期筛查手段（CA125+经阴超声未能降低人群死亡率）；HRD阴性人群PARPi获益有限；铂耐药与PARPi耐药后选择仍极有限。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005012",
+      "name_zh": "黑色素瘤（皮肤及肢端黏膜型）",
+      "name_en": "Cutaneous Melanoma",
+      "aliases_zh": [
+        "恶性黑色素瘤",
+        "肢端雀斑样黑色素瘤",
+        "黏膜黑色素瘤"
+      ],
+      "icd10": [
+        "C43"
+      ],
+      "icd11": [
+        "2C30"
+      ],
+      "category": "恶性肿瘤 / 皮肤与黏膜肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "早期浅表病灶广泛切除5年生存率>90%；一旦发生淋巴结或肺/肝/脑远处转移，传统化疗极不敏感，中晚期未获免疫/靶向控制常于1年内进展致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "西方紫外线相关皮肤型对PD-1±CTLA-4免疫及BRAF+MEK双靶响应极佳（部分晚期实现长期无病生存）；中国以肢端型与黏膜型为主，对单药PD-1反应率较低，需免疫联合抗血管/化疗或TIL细胞疗法突破。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 58667,
+          "range_or_note": "约5.87万/年（澳新与欧美白人群体发病率极高）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 5813,
+          "range_or_note": "GLOBOCAN 2022估算中国皮肤黑色素瘤年死亡5,813例（新发约8,698–8,789例）；中国低发但初诊分期较晚、病死率偏高",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / WCRF"
+        },
+        "prevalence_global": "2022年全球皮肤黑色素瘤新发331,722例（GLOBOCAN 2022）",
+        "prevalence_china": "GLOBOCAN 2022中国新发8,789例（男4,402/女4,387）；中国患者中肢端型(约42%–50%)与黏膜型(约22%)占主导，BRAF V600突变率约25%"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "广泛脑转移（黑色素瘤脑转移出血倾向高）诱发急性颅内血肿或癫痫时，急诊脱水降颅压、止癫并行立体定向放射外科(SRS)或显微减压血肿清除。",
+        "standard_drugs": [
+          {
+            "name_zh": "特瑞普利单抗",
+            "name_en": "Toripalimab",
+            "drug_class": "国产PD-1抑制剂",
+            "usage_role": "晚期黑色素瘤（含黏膜型联合阿昔替尼探索）一线/二线免疫",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网价约1,884.86元/瓶(240mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "帕博利珠单抗",
+            "name_en": "Pembrolizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "不可切除/转移性黑色素瘤一线及ⅡB–Ⅲ期术后辅助",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已进入国家常规降价保障目录乙类（黑色素瘤适应症较早获常规药品保障覆盖）",
+            "cost_source": "国家常规临床药品目录"
+          },
+          {
+            "name_zh": "达拉非尼+曲美替尼",
+            "name_en": "Dabrafenib + Trametinib",
+            "drug_class": "BRAF+MEK双靶向抑制剂",
+            "usage_role": "BRAF V600突变晚期一线及Ⅲ期术后辅助治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判降幅超40%纳入乙类报销",
+            "cost_source": "国家降价协商常用药品目录"
+          },
+          {
+            "name_zh": "替莫唑胺",
+            "name_en": "Temozolomide",
+            "drug_class": "烷化剂化疗药",
+            "usage_role": "黏膜/肢端型联合顺铂或脑转移治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第7批国家集采中选96.5–126元/0.1g瓶",
+            "cost_source": "第7批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "Lifileucel (Amtagvi)",
+            "name_en": "Lifileucel",
+            "drug_class": "自体肿瘤浸润淋巴细胞(TIL)细胞疗法",
+            "usage_role": "PD-1及BRAF抑制剂耐药晚期黑色素瘤挽救治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2024年2月FDA加速批准成为全球首个实体瘤细胞疗法（海外定价超50万美元），中国尚处于临床试验阶段",
+            "cost_source": "FDA批准公告(2024.02)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "扩大切除术+前哨淋巴结活检",
+          "立体定向放射外科(SRS针对脑转移)",
+          "区域淋巴结清扫"
+        ],
+        "annual_total_cost_china_cny": "早期手术及辅助免疫/靶向年直接医疗费用约4万–12万元；晚期免疫联合靶向可达10万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 2024年2月FDA加速批准Lifileucel(Amtagvi)，标志肿瘤浸润淋巴细胞(TIL)首次实现实体瘤细胞疗法商业化破冰；2) NADINA Ⅲ期证实Ⅲ期可切除黑色素瘤新辅助双免(纳武利尤单抗+伊匹木单抗)无事件生存远优于术后辅助；3) 中国学者牵头抗PD-1联合抗血管(特瑞普利+阿昔替尼/仑伐替尼)及新辅助靶免策略显著改善中国高发的黏膜与肢端型黑色素瘤缓解率。",
+        "key_unmet_needs_zh": "中国特有的肢端型与黏膜型肿瘤突变负荷(TMB)低，对单药PD-1免疫治疗敏感性远低于西方皮肤型；TIL及LAG-3双免疫等高值新疗法国内可及性受限。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005086",
+      "name_zh": "肾细胞癌",
+      "name_en": "Renal Cell Carcinoma",
+      "aliases_zh": [
+        "肾癌",
+        "肾透明细胞癌",
+        "RCC"
+      ],
+      "icd10": [
+        "C64"
+      ],
+      "icd11": [
+        "2C90"
+      ],
+      "category": "恶性肿瘤 / 泌尿系统实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "早期局限于肾脏者经部分或根治肾切除预后极佳（5年生存率>90%）；转移性RCC总体呈慢性经过，但肿瘤侵犯下腔静脉形成高危癌栓脱落后可引发超急性致命肺栓塞。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "传统化疗和放疗不敏感，但依托靶向VEGFR-TKI与PD-1免疫检查点抑制剂联合('靶免一线')及新机制HIF-2α抑制剂，晚期患者中位总生存已延长至4年以上。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 156845,
+          "range_or_note": "约15.68万/年（GLOBOCAN 2022肾及肾盂癌C64–C65合并统计；部分数据口径155,953例）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 24000,
+          "range_or_note": "约2.40万/年（GLOBOCAN中国估算23,991–25,029例）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球肾癌新发434,840例，其中肾细胞癌(RCC)占约90%（75%–80%为透明细胞癌，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发73,700例（GLOBOCAN 73,656例，男性约为女性2倍，Han et al. 2024）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "合并下腔静脉癌栓脱落诱发急性肺栓塞立即按高危PE溶栓/取栓；孤立肾/双肾肿瘤出血伴血块填塞膀胱予急诊冲洗并介入超选择肾动脉栓塞止血。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿昔替尼",
+            "name_en": "Axitinib",
+            "drug_class": "高选择性VEGFR1/2/3抑制剂",
+            "usage_role": "联合PD-1单抗一线靶免治疗核心搭档",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判后5mg片支付价约200元/片",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "特瑞普利单抗",
+            "name_en": "Toripalimab",
+            "drug_class": "国产PD-1单抗",
+            "usage_role": "RENOTORCH方案联合阿昔替尼一线治疗中高危晚期肾癌",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障挂网价约1,884.86元/瓶(240mg)",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "舒尼替尼",
+            "name_en": "Sunitinib",
+            "drug_class": "多靶点VEGFR/PDGFR TKI",
+            "usage_role": "低危晚期RCC及二线替代靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产过评仿制药常规药品保障/集采价约250–500元/盒(12.5mg×28粒)",
+            "cost_source": "国家常规药品保障与仿制药挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "贝组替凡（Belzutifan）",
+            "name_en": "Belzutifan",
+            "drug_class": "全球首创HIF-2α抑制剂",
+            "usage_role": "VHL综合征相关RCC及既往靶免进展后晚期RCC",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "高值进口新机制靶向药，国内尚未纳入日常基本医疗支出减负",
+            "cost_source": "FDA批准及LITESPARK-005试验(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "保留肾单位肾部分切除术(NSS)",
+          "腹腔镜/机器人根治性肾切除+癌栓取出术",
+          "寡转移灶立体定向放疗(SBRT)/冷冻消融"
+        ],
+        "annual_total_cost_china_cny": "早期保留肾单位手术约3万–6万元；晚期靶免联合治疗费用减免前年费约8万–16万元（报销后自付约2万–5万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 国产RENOTORCH研究证实特瑞普利单抗+阿昔替尼一线靶免方案PFS与ORR大幅超越舒尼替尼并获批纳入常规药品保障，成为中国高性价比一线标准；2) HIF-2α抑制剂Belzutifan在LITESPARK-005研究中显著优于依维莫司，开辟VHL-HIF缺氧通路精准靶向新纪元；3) KEYNOTE-564证实术后辅助帕博利珠单抗首次显著延长高危透明细胞癌总生存(OS)。",
+        "key_unmet_needs_zh": "非透明细胞肾癌（乳头状、嫌色、集合管癌等）缺乏高循证专用药物；靶免联合耐药后仍缺乏高效三线挽救方案。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001187",
+      "name_zh": "膀胱癌（尿路上皮癌）",
+      "name_en": "Urinary Bladder Cancer",
+      "aliases_zh": [
+        "膀胱尿路上皮癌",
+        "肌层浸润性膀胱癌",
+        "非肌层浸润性膀胱癌"
+      ],
+      "icd10": [
+        "C67"
+      ],
+      "icd11": [
+        "2C94"
+      ],
+      "category": "恶性肿瘤 / 泌尿系统实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "约75%初诊为非肌层浸润性膀胱癌(NMIBC)，易复发但5年生存率高；一旦进展为肌层浸润(MIBC)或转移性尿路上皮癌，长期预后骤降且易并发反复重度肉眼血尿膀胱血块填塞或上尿路积水肾衰。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "NMIBC通过经尿道电切(TURBT)+卡介苗/化疗灌注长期控制；局晚期及转移性患者正被ADC+免疫联合方案(EV+Pembro、维迪西妥+PD-1)彻底改写生存纪录。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 220596,
+          "range_or_note": "约22.06万/年（老年男性高发）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 41400,
+          "range_or_note": "约4.14万/年",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al., J Natl Cancer Cent 2024"
+        },
+        "prevalence_global": "2022年全球新发614,298例，男性发病约为女性3–4倍（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发92,900例（全国第11位，GLOBOCAN 92,883例），与吸烟及职业化工芳香胺暴露密切相关，Han et al. 2024"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肿瘤破裂引发急性大血尿伴血块膀胱填塞立即置入三腔导尿管持续生理盐水冲洗、清除血块，必要时急诊膀胱镜电凝或双侧髂内动脉栓塞止血。",
+        "standard_drugs": [
+          {
+            "name_zh": "吉西他滨+顺铂",
+            "name_en": "Gemcitabine + Cisplatin",
+            "drug_class": "抗代谢+铂类化疗基石",
+            "usage_role": "MIBC新辅助及转移性一线传统化疗基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "双药均入国家集采及日常基本医疗支出减负，单疗程药费极低",
+            "cost_source": "国家药品集中采购及日常基本医疗支出减负目录"
+          },
+          {
+            "name_zh": "维迪西妥单抗",
+            "name_en": "Disitamab Vedotin",
+            "drug_class": "国产HER2靶向ADC",
+            "usage_role": "HER2过表达局晚期/转移性尿路上皮癌后线及一线联合PD-1突破",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判价3,800元/支(60mg)（进常规药品保障前13,500元/支）",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "维恩妥尤单抗",
+            "name_en": "Enfortumab Vedotin",
+            "drug_class": "靶向Nectin-4的ADC",
+            "usage_role": "联合帕博利珠单抗改写晚期一线标准(中位OS突破31.5个月)",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2024年8月NMPA批准上市，正推进国家日常基本医疗支出减负/商保创新药目录谈判准入",
+            "cost_source": "NMPA获批及2025国谈初审信息"
+          },
+          {
+            "name_zh": "替雷利珠单抗/特瑞普利单抗",
+            "name_en": "Tislelizumab / Toripalimab",
+            "drug_class": "PD-1单抗",
+            "usage_role": "尿路上皮癌二线及顺铂不耐受一线免疫治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障价替雷利珠1,253.53元/支，特瑞普利1,884.86元/瓶",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "经尿道膀胱肿瘤电切术(TURBT)+术后膀胱灌注(BCG/表柔比星)",
+          "根治性膀胱切除+尿流改道术",
+          "三联保膀胱治疗(TURBT+同步放化疗)"
+        ],
+        "annual_total_cost_china_cny": "TURBT及常规灌注化疗年费用约2万–5万元；全膀胱切除手术约6万–12万元；晚期ADC联合免疫自费方案年费用仍高达数十万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) EV-302研究证实维恩妥尤单抗(Nectin-4 ADC)+帕博利珠单抗较传统铂类化疗将晚期尿路上皮癌中位总生存几乎翻倍(31.5 vs 16.1个月)，并于2024年8月在华获批；2) 国产原研HER2-ADC维迪西妥单抗联合特瑞普利单抗Ⅲ期研究(RC48-C016)在一线人群展现惊艳生存突破；3) FGFR3抑制剂(Erdafitinib)与BCG无应答NMIBC溶瘤/基因膀胱灌注(Nadofaragene firadenovec)实现更多保膀胱选择。",
+        "key_unmet_needs_zh": "卡介苗(BCG)供应稳定性及BCG无应答高危NMIBC保膀胱治疗仍面临缺口；一线ADC+PD-1双高值生物药联合自付负担沉重。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018874",
+      "name_zh": "急性髓系白血病",
+      "name_en": "Acute Myeloid Leukemia (AML)",
+      "aliases_zh": [
+        "急性髓细胞白血病",
+        "AML",
+        "急性早幼粒细胞白血病(APL)"
+      ],
+      "icd10": [
+        "C92.0",
+        "C92.4"
+      ],
+      "icd11": [
+        "2A60"
+      ],
+      "category": "血液系统恶性肿瘤 / 急性白血病",
+      "course_type": "acute",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "骨髓原始粒细胞爆发性增殖迅速抑制正常造血：未治患者常于数周至数月内死于致命性败血症/侵袭性真菌感染或颅内出血；急性早幼粒细胞白血病(APL/M3)及高白细胞淤滞症(>100×10^9/L)可在数小时至数日内因弥散性血管内凝血(DIC)或脑出血猝死。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "APL(M3)经ATRA+三氧化二砷(ATO)双诱导靶向分化治愈率已超90%；非M3年轻患者依托强化疗+异基因移植约40%–50%获长期生存；老年/TP53突变患者即便采用维奈克拉+阿扎胞苷仍高复发且5年生存率偏低。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 130189,
+          "range_or_note": "约13.02万/年（成人最常见且最致命急性白血病，随老龄化死亡持续攀升）",
+          "year": "2021",
+          "source": "GBD 2021 (J Hematol Oncol 2024, PMID: 39256810)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "NCC 2024报告2022年中国全白血病年新发81,900例、死亡50,100例（未单列AML）；GBD 2021显示1990–2021年中国AML标化死亡率下降约14.76%，仍占成人急性白血病死因主体",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al. 2024 & GBD 2021"
+        },
+        "prevalence_global": "GBD 2021全球2021年AML新发144,645例（占全白血病新发>31%，PMID: 39256810）；Orphanet全球年发病率约2.5/10万",
+        "prevalence_china": "中国成人急性白血病中AML占70%–80%，人口老龄化导致≥60岁老年AML占比持续增大（Han et al. 2024 / CSCO）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "疑似APL立即给予口服全反式维A酸(ATRA)并积极输注血小板、冷沉淀及新鲜冰冻血浆纠治DIC防颅内出血；高白细胞血症立即水化碱化防肿瘤溶解综合征(TLS)并予羟基脲降白细胞或白细胞单采；粒缺发热1小时内经验性广谱抗假单胞菌β-内酰胺类抗感染。",
+        "standard_drugs": [
+          {
+            "name_zh": "维奈克拉",
+            "name_en": "Venetoclax",
+            "drug_class": "口服BCL-2抑制剂",
+            "usage_role": "联合阿扎胞苷治疗不适合强化疗初治成人AML核心标准",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已通过国家药品降价协商纳入乙类报销并多次降价续约",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "阿扎胞苷",
+            "name_en": "Azacitidine",
+            "drug_class": "去甲基化药物(HMA)",
+            "usage_role": "老年/不耐受强化疗AML联合维奈克拉及术后维持基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第3批国家集采中选单支降至约250–300元/支",
+            "cost_source": "第3批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "全反式维A酸+三氧化二砷",
+            "name_en": "ATRA + Arsenic Trioxide",
+            "drug_class": "分化诱导与PML-RARα靶向降解",
+            "usage_role": "急性早幼粒细胞白血病(APL/M3)去化疗治愈基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家基本药物及常规基础药物目录低廉保障，全疗程药费极低",
+            "cost_source": "国家基本药物目录及常规基础药物目录"
+          },
+          {
+            "name_zh": "吉瑞替尼",
+            "name_en": "Gilteritinib",
+            "drug_class": "二代高选择性FLT3抑制剂",
+            "usage_role": "FLT3突变复发/难治AML单药挽救靶向",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "未入常规国谈前挂网价约68,545元/盒(40mg×42片)，2025年积极参与国谈初审与挂网调价",
+            "cost_source": "省级医药挂网价及2025国谈申报信息"
+          },
+          {
+            "name_zh": "瑞维美尼（Revumenib）",
+            "name_en": "Revumenib",
+            "drug_class": "全球首创口服Menin抑制剂",
+            "usage_role": "KMT2A重排或NPM1突变复发/难治AML精准靶向",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2024年11月及2025年10月获FDA批准，国内暂未商业定价",
+            "cost_source": "FDA批准公告(2024.11 & 2025.10)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "异基因造血干细胞移植(allo-HSCT，包括北京方案单倍体移植)",
+          "层流无菌病房感染支持",
+          "辐照成分输血与血小板支持"
+        ],
+        "annual_total_cost_china_cny": "常规多周期诱导/巩固化疗每次住院数万元；接受异基因造血干细胞移植含预处理、仓费及抗排异全疗程总费用常达20万–50万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 全球首款Menin抑制剂Revumenib分别于2024年11月(KMT2A重排急性白血病)和2025年10月(NPM1突变R/R AML)获FDA批准，填补高危分子亚型靶向空白；2) 奎扎替尼(Quizartinib)联合化疗获批用于FLT3-ITD初治AML，IDH1/2抑制剂(艾伏尼布)入临床一线；3) CD123/CLL-1靶向通用型CAR-T与双抗及'北京方案'单倍体微移植技术不断提升复发难治AML缓解率。",
+        "key_unmet_needs_zh": "TP53突变及复杂核型AML对化疗及维奈克拉方案极度耐药；复发难治AML移植前MRD清除率低；老年高龄患者强化治疗毒副作用大。"
+      },
+      "sources": [
+        {
+          "title": "Global, regional, and national burden of acute myeloid leukemia, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39256810/",
+          "publisher": "PubMed / J Hematol Oncol (GBD 2021)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004967",
+      "name_zh": "急性淋巴细胞白血病",
+      "name_en": "Acute Lymphoblastic Leukemia (ALL)",
+      "aliases_zh": [
+        "急淋",
+        "ALL",
+        "B-ALL",
+        "T-ALL",
+        "Ph+ ALL"
+      ],
+      "icd10": [
+        "C91.0"
+      ],
+      "icd11": [
+        "2A70",
+        "2A71"
+      ],
+      "category": "血液系统恶性肿瘤 / 儿童及成人急性白血病",
+      "course_type": "acute",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "淋巴母细胞快速骨髓及髓外(中枢神经系统/纵隔/睾丸)浸润：未治数周至数月死于致命感染、脑出血或纵隔巨大肿物气道压迫；高瘤负荷诱导化疗初始数小时至数日易爆发急性肿瘤溶解综合征(TLS)致高钾心搏骤停及急性肾衰竭。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "儿童ALL治愈里程碑：规范多药分层化疗使儿童5年总生存率达85%–90%；成人Ph+ ALL在达沙替尼/奥雷巴替尼联合贝林妥欧单抗下实现'去化疗'高MRD阴性缓解；复发难治B-ALL经CD19 CAR-T或双抗亦具深度治愈机会。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 71200,
+          "range_or_note": "约71,200例/年（1990–2021年标化死亡率EAPC降约-1.73%至-2.11%，高SDI区死亡率显著低于低SDI区）",
+          "year": "2021",
+          "source": "GBD 2021 (PLOS One 2025 PMID: 40569983 / Front Public Health 2025)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "NCC 2024报告中国全类型白血病年死亡50,100例（未单列ALL）；儿童ALL是中国最常见儿童恶性肿瘤（约占儿童白血病75%–80%）",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al. 2024 & 国家儿童肿瘤监测"
+        },
+        "prevalence_global": "GBD 2021呈<5岁儿童主峰与中老年次峰双峰分布；Orphanet(ORPHA:513)欧洲年发病率约1.3–2.75/10万",
+        "prevalence_china": "中国白血病总新发约81,900例/年（NCC 2024），其中ALL在儿童中占比最高且近年来总体ASIR趋稳、儿童生存率接近国际先进水平"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "高白细胞/T-ALL巨大纵隔肿物警惕急性肿瘤溶解综合征(TLS)与气管压迫：立即充分水化、别嘌醇或拉布立酶降尿酸、监测血钾防致死心律失常，纵隔压迫紧急予糖皮质激素减容。",
+        "standard_drugs": [
+          {
+            "name_zh": "贝林妥欧单抗",
+            "name_en": "Blinatumomab",
+            "drug_class": "CD3/CD19双特异性T细胞接合剂(BiTE)",
+            "usage_role": "成人及儿童R/R B-ALL、MRD清除及巩固治疗标准",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "公立医院参考招标价约9,615元/瓶(35μg)，尚未正式进入日常基本医疗支出减负（积极申报国谈中）",
+            "cost_source": "医院公示采购价及国家药品降价协商申报动态(2024–2025)"
+          },
+          {
+            "name_zh": "奥雷巴替尼",
+            "name_en": "Olverembatinib",
+            "drug_class": "国产第三代BCR-ABL TKI",
+            "usage_role": "伴有T315I突变Ph+ ALL靶向治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家常规临床药品目录并在2026续约覆盖全部获批适应症",
+            "cost_source": "国家降价协商常用药品目录(2024–2026)"
+          },
+          {
+            "name_zh": "达沙替尼",
+            "name_en": "Dasatinib",
+            "drug_class": "二代BCR-ABL TKI（可透血脑屏障）",
+            "usage_role": "Ph+ ALL一线靶向联合基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家常规目录药物长期覆盖，仿制及原研单盒数百至千元",
+            "cost_source": "国家常规临床药品目录"
+          },
+          {
+            "name_zh": "培门冬酶/柔红霉素/长春新碱/甲氨蝶呤",
+            "name_en": "Pegaspargase / Daunorubicin / Vincristine / MTX",
+            "drug_class": "儿童及成人ALL多药联合化疗及鞘注基石",
+            "usage_role": "诱导缓解、巩固及CNSL预防",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均纳入国家日常基本医疗支出减负与儿童重大疾病保障范围，基础药费可控",
+            "cost_source": "国家日常基本医疗支出减负目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "定期腰椎穿刺鞘内注射预防/治疗中枢白血病(CNSL)",
+          "异基因造血干细胞移植(高危/MRD持续阳性)",
+          "CD19 CAR-T细胞回输"
+        ],
+        "annual_total_cost_china_cny": "儿童常规分层化疗全程(2–3年)直接医疗费用约10万–25万元（纳入常规药品保障大病救治）；若涉及双抗/CAR-T/异基因移植则达30万–80万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) E1910 Ⅲ期研究确立无论MRD状态如何，在BCR-ABL阴性成人B-ALL巩固化疗中加入贝林妥欧单抗均显著提高总生存，FDA于2024年6月扩大巩固治疗适应症；2) 国产CD19 CAR-T(纳基奥仑赛 CNCT19)获批用于成人R/R B-ALL，Obe-cel(Aucatzyl)于2024年11月获FDA批准实现低CRS毒性持久缓解；3) 中国儿童ALL多中心协作组(CCCG-ALL)与成人Ph+ ALL'达沙替尼/奥雷巴替尼+贝林妥欧单抗'去化疗方案实现近90%以上分子学缓解。",
+        "key_unmet_needs_zh": "成人及高危T-ALL复发后预后仍差（CD7 CAR-T尚在临床完善中）；高值免疫双抗与CAR-T产品尚未完全入日常基本医疗支出减负，基层家庭自付壁垒依然存在。"
+      },
+      "sources": [
+        {
+          "title": "Global, regional, and national burden of leukemia: Epidemiological trends analysis from 1990 to 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40569983/",
+          "publisher": "PubMed / PLOS One (GBD 2021)",
+          "year": "2025"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0011996",
+      "name_zh": "慢性粒细胞白血病",
+      "name_en": "Chronic Myeloid Leukemia (CML)",
+      "aliases_zh": [
+        "慢粒",
+        "慢性髓系白血病",
+        "CML"
+      ],
+      "icd10": [
+        "C92.1"
+      ],
+      "icd11": [
+        "2A20"
+      ],
+      "category": "血液系统恶性肿瘤 / 靶向慢病化标杆",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "BCR::ABL1融合基因驱动的慢性骨髓增殖性肿瘤；TKI靶向时代慢性期(CP)患者10年生存率达85%–90%接近常人寿命；仅在未规范治疗或耐药进展至加速期/急变期(BP，类似急性白血病)时出现数周至数月致命危象。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "人类肿瘤靶向精准医疗'慢性病化乃至功能性治愈'的绝对标杆：集采伊马替尼使年药费降至数千元，一代至三代TKI全面入常规药品保障，深度持续分子学缓解(DMR)患者中约40%–50%可安全实现无治疗缓解(TFR)停药。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 23159,
+          "range_or_note": "约23,159例/年（1990–2021年全球标化死亡率大幅下降61.1%，ASMR 0.28/10万，为降幅最大白血病亚型）",
+          "year": "2021",
+          "source": "GBD 2021 Leukemia Subtype Analysis"
+        },
+        "annual_deaths_china": {
+          "value": 1840,
+          "range_or_note": "约1,840例/年（ASMR 0.10/10万，95% UI: 0.06–0.16）",
+          "year": "2021",
+          "source": "GBD 2021 China Subtype Analysis"
+        },
+        "prevalence_global": "2021年全球新发约35,830例（ASIR 0.43/10万，GBD 2021），随长期生存现患人群持续累积（欧洲点患病率约6.0/10万，Orphanet:521）",
+        "prevalence_china": "中国标化发病率约0.36/10万（2021年新发约3,590例，GBD 2021），中国患者中位发病年龄约45–50岁较欧美年轻约10–15岁"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "慢粒急变期(Blast Crisis)或极重度白细胞淤滞(>300×10^9/L)伴视网膜出血、呼吸窘迫或阴茎异常勃起时，立即水化碱化、羟基脲/白细胞单采降负荷并按急性白血病诱导。",
+        "standard_drugs": [
+          {
+            "name_zh": "伊马替尼",
+            "name_en": "Imatinib",
+            "drug_class": "第一代BCR-ABL1酪氨酸激酶抑制剂(TKI)",
+            "usage_role": "慢性期CML一线标准首选靶向药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采国产仿制药约600元/盒（常规药品保障前原研格列卫曾达2.3万–2.5万元/盒），报销后年自付可降至数千元甚至更低",
+            "cost_source": "国家药品集中采购及地方常规药品保障执行价(2024–2025)"
+          },
+          {
+            "name_zh": "达沙替尼 / 尼洛替尼",
+            "name_en": "Dasatinib / Nilotinib",
+            "drug_class": "第二代BCR-ABL1 TKI",
+            "usage_role": "中高危初治优选及伊马替尼耐药/不耐受换药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均进入国家常规降价保障目录乙类并长期续约，集采/常规药品保障降价后单盒数百至数千元（原研尼洛替尼曾3.6万元/盒现腰斩再降）",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "奥雷巴替尼（耐立克）",
+            "name_en": "Olverembatinib",
+            "drug_class": "国产自主第三代BCR-ABL TKI",
+            "usage_role": "克服T315I耐药突变及一/二代TKI多重耐药CML",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家常规临床药品目录并在2026年底再次续约覆盖全适应症，大幅解决T315I患者无药可医困境",
+            "cost_source": "国家降价协商常用药品目录(2024–2026)"
+          },
+          {
+            "name_zh": "阿思尼布",
+            "name_en": "Asciminib",
+            "drug_class": "STAMP变构BCR-ABL抑制剂",
+            "usage_role": "三线及以上/T315I突变及新获批初治一线高耐受靶向",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "创新进口药物（FDA 2024.10扩展一线适应症），国内尚在商业/常规药品保障拓展阶段",
+            "cost_source": "FDA批准公告(2024.10)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "规律BCR-ABL1国际标准(IS)定量PCR监测",
+          "持续DMR达标后规范无治疗缓解(TFR)停药管理",
+          "少数耐药急变期异基因造血干细胞移植"
+        ],
+        "annual_total_cost_china_cny": "使用集采国产伊马替尼维持治疗患者费用减免前年均药费约6,000–8,000元（报销后自付约1,000–3,000元）；二代/三代TKI报销后年自付约数千至2万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) ASC4FIRST Ⅲ期研究证实变构STAMP抑制剂Asciminib在一线初治CML的主要分子学缓解(MMR)显著优于包括二代TKI在内的传统TKI且毒性更低，2024年10月获FDA加速批准用于一线；2) 国产三代TKI奥雷巴替尼在POLARIS全球研究证实对T315I及Asciminib耐药依然有效并在中国续保全面覆盖；3) 提升深度分子学缓解(MR4.5)与停药无治疗缓解(TFR)成功率成为当前核心探索。",
+        "key_unmet_needs_zh": "极少数进展为急变期或合并复杂额外染色体异常患者预后仍差；长期服药的心血管/胸腔积液慢性毒性及部分年轻患者停药复发预测精准度待提升。"
+      },
+      "sources": [
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018905",
+      "name_zh": "弥漫大B细胞淋巴瘤",
+      "name_en": "Diffuse Large B-Cell Lymphoma (DLBCL)",
+      "aliases_zh": [
+        "DLBCL",
+        "侵袭性B细胞非霍奇金淋巴瘤"
+      ],
+      "icd10": [
+        "C83.3"
+      ],
+      "icd11": [
+        "2A81"
+      ],
+      "category": "血液系统恶性肿瘤 / 侵袭性淋巴瘤",
+      "course_type": "acute",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "属于高度侵袭性非霍奇金淋巴瘤，未经治疗病灶数周至数月内呈倍增扩展压迫重要脏器致死；伴巨大肿瘤负荷启动免疫化疗后亦存在急性肿瘤溶解综合征(TLS)及纵隔上腔静脉压迫风险。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "可治愈的侵袭性淋巴瘤：一线R-CHOP或Pola-R-CHP方案可临床治愈约60%–70%患者；复发难治患者依托CD19 CAR-T（瑞基奥仑赛已实现国家常规药品保障历史性破冰降价！）及CD20×CD3双抗仍有35%–45%获长期无病生存。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN 2022未单列DLBCL，非霍奇金淋巴瘤(NHL)全球年新发553,389例、死亡250,679例；DLBCL约占全部NHL的30%–40%",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "NCC 2024报告2022年中国淋巴瘤新发85,200例、死亡41,600例（GLOBOCAN中国NHL死亡39,426例）；中国DLBCL占NHL约40%–50%，年新发约5万例",
+          "year": "2022",
+          "source": "中国国家癌症中心 Han et al. 2024 & 中国淋巴瘤流行病学报告"
+        },
+        "prevalence_global": "占全球NHL的30%–40%，欧美年发病率约4.9–7.5/10万（Orphanet:544 欧洲点患病率约43/10万）",
+        "prevalence_china": "中国最常见淋巴瘤亚型，约占全部NHL的40%–50%，估算年新发患者约50,000例，随老龄化持续上升"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "大包块高LDH患者化疗前常规预水化、碱化及降尿酸防TLS，必要时先予糖皮质激素预处理；纵隔大肿块伴上腔静脉综合征或气道梗阻立即高剂量激素及紧急启动免疫化疗；消化道淋巴瘤化疗后穿孔急诊外科处理。",
+        "standard_drugs": [
+          {
+            "name_zh": "利妥昔单抗",
+            "name_en": "Rituximab",
+            "drug_class": "人鼠嵌合抗CD20单克隆抗体",
+            "usage_role": "联合CHOP方案一线治愈基石(R-CHOP)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "原研及多款国产生物类似药均纳入常规目录药物及集采，单疗程药费降至数千元内",
+            "cost_source": "国家常规临床药品目录及省际集采挂网价"
+          },
+          {
+            "name_zh": "维泊妥珠单抗（泊洛妥珠单抗）",
+            "name_en": "Polatuzumab Vedotin",
+            "drug_class": "CD79b靶向ADC",
+            "usage_role": "Pola-R-CHP中高危初治DLBCL一线及复发难治挽救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2024年国谈成功纳入国家常规临床药品目录（常规药品保障前市场零售约1.04万元/30mg瓶）",
+            "cost_source": "2024年国家常规临床药品目录"
+          },
+          {
+            "name_zh": "瑞基奥仑赛（倍诺达）",
+            "name_en": "Relmacabtagene Autoleucel",
+            "drug_class": "国产靶向CD19自体CAR-T细胞疗法",
+            "usage_role": "三线及以上复发难治性大B细胞淋巴瘤治愈性细胞治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "原市场定价129万元/针，2025年底国谈历史性破冰纳入新版日常基本医疗支出减负并降至30万元/支以内，报销后自付有望降至10万元以内",
+            "cost_source": "2025年国家药品降价协商及商保创新药协同公告"
+          },
+          {
+            "name_zh": "阿基仑赛（奕凯达）",
+            "name_en": "Axicabtagene Ciloleucel",
+            "drug_class": "CD19 CAR-T细胞疗法",
+            "usage_role": "二线原发耐药/早期复发及三线DLBCL",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "定价约120万元/针，未入日常基本医疗支出减负，已入选2025年首版《商业健康保险创新药目录》与多地惠民保",
+            "cost_source": "2025年商保创新药目录公示"
+          },
+          {
+            "name_zh": "泽布替尼",
+            "name_en": "Zanubrutinib",
+            "drug_class": "国产二代共价BTK抑制剂",
+            "usage_role": "MCD型/非GCB型DLBCL及中枢累及联合靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已入常规药品保障多次续约，挂网约5,000元/盒（常规药品保障前月费约万元），报销后负担大减",
+            "cost_source": "国家降价协商常用药品目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "自体造血干细胞移植(ASCT，用于化疗敏感复发巩固)",
+          "大包块局部受累野放疗",
+          "CAR-T回输后细胞因子释放综合征(CRS)及ICANS监护"
+        ],
+        "annual_total_cost_china_cny": "一线R-CHOP标准疗程总医疗费用约6万–12万元；Pola-R-CHP或自体移植约15万–30万元；CAR-T自费时代约120万–130万元，瑞基奥仑赛入常规药品保障后患者自付骤降至10万元内级"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 支付政策历史突破：国产CAR-T瑞基奥仑赛于2025年底成功纳入日常基本医疗支出减负目录大幅降价，阿基仑赛入选首版商保创新药目录，打破百万细胞药支付天花板；2) CD20×CD3双特异性抗体(格菲妥单抗 Glofitamab、Epcoritamab、Odronextamab)现货型免疫接合剂单药及联合GEMOX显著延长二/三线DLBCL生存；3) POLARIX研究及分子分型精准免疫靶向(R-CHOP+X如泽布替尼/来那度胺)逐步降低MCD/双打击高危亚型复发率。",
+        "key_unmet_needs_zh": "双打击/三打击(MYC+BCL2/BCL6)及TP53突变患者仍极易原发耐药；继发中枢神经系统复发致死率高；CAR-T失败后仍缺乏标准后续手段。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "Cancer incidence and mortality in China, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39036382/",
+          "publisher": "National Cancer Center of China (J Natl Cancer Cent, Han et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009693",
+      "name_zh": "多发性骨髓瘤",
+      "name_en": "Multiple Myeloma (Plasma Cell Myeloma)",
+      "aliases_zh": [
+        "浆细胞骨髓瘤",
+        "MM",
+        "Kahler病"
+      ],
+      "icd10": [
+        "C90.0"
+      ],
+      "icd11": [
+        "2A83.1"
+      ],
+      "category": "血液系统恶性肿瘤 / 浆细胞疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "骨髓单克隆浆细胞恶性增殖引起CRAB靶器官损害（高钙血症、肾衰、贫血、溶骨病变），总体呈反复缓解-复发的多年慢性程；并发高钙危象、急性少尿性肾衰竭、胸腰椎病理骨折截瘫或重度感染败血症时可迅速危及生命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "目前仍属不可完全根治但高度可控制的慢性恶性血液病：经蛋白酶体抑制剂+免疫调节剂+CD38单抗(VRd/Dara-VRd)+自体移植，标危患者中位生存已突破8–10年，BCMA CAR-T与双抗开启深度MRD阴性长生存时代。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 121388,
+          "range_or_note": "约12.14万/年（占全球癌症死亡1.2%）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 (Bray et al., CA Cancer J Clin 2024)"
+        },
+        "annual_deaths_china": {
+          "value": 21625,
+          "range_or_note": "约2.16万/年（老龄化推动患病与死亡基数稳步增大）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China"
+        },
+        "prevalence_global": "2022年全球新发约187,952例（部分统计187,774例，Orphanet全球年发病率约6.0/10万）",
+        "prevalence_china": "GLOBOCAN 2022中国年新发34,836例（中国第2大血液系统恶性肿瘤），中位发病年龄约59岁略年轻于西方"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "高钙危象立即大量生理盐水静脉水化+袢利尿+双膦酸盐/地舒单抗+糖皮质激素；骨髓瘤管型肾病致急性肾衰立即紧急硼替佐米为基础方案降轻链负荷必要时血透/血浆置换；脊髓压迫急诊放疗/外科减压。",
+        "standard_drugs": [
+          {
+            "name_zh": "硼替佐米",
+            "name_en": "Bortezomib",
+            "drug_class": "第一代蛋白酶体抑制剂",
+            "usage_role": "初治诱导(VRd/VTD)及肾衰急症一线核心基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第4批国家集采大幅跳水，国产过评与原研单支价格较集采前千元大幅下降",
+            "cost_source": "第4批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "来那度胺",
+            "name_en": "Lenalidomide",
+            "drug_class": "口服免疫调节剂(IMiD)",
+            "usage_role": "一线诱导及移植后长期口服维持基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "多款仿制药竞价及常规目录药物降价至每盒数百至数千元，实现长期维持可负担",
+            "cost_source": "国家常规临床药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "达雷妥尤单抗（静脉及皮下制剂兆珂速）",
+            "name_en": "Daratumumab",
+            "drug_class": "抗CD38单克隆抗体",
+            "usage_role": "适合/不适合移植一线四药/三药及复发难治核心基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "静脉及3–5分钟皮下注射剂型均于2024年底成功常规药品保障续约降价(2025.01执行)，较初上市百万年费大幅下降",
+            "cost_source": "2024年国家降价协商常用药品目录"
+          },
+          {
+            "name_zh": "伊沙佐米",
+            "name_en": "Ixazomib",
+            "drug_class": "全口服蛋白酶体抑制剂",
+            "usage_role": "既往至少一线治疗后复发及便利全口服维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已进入国家常规降价保障目录乙类（常规报销40%–60%以上）",
+            "cost_source": "国家降价协商常用药品目录"
+          },
+          {
+            "name_zh": "伊基奥仑赛",
+            "name_en": "Equecabtagene Autoleucel",
+            "drug_class": "全人源BCMA靶向CAR-T细胞疗法",
+            "usage_role": "三线及以上复发难治性多发性骨髓瘤深度缓解",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "定价约99万–129万元/针，2025年已入选首版《商业健康保险创新药目录》多元支付",
+            "cost_source": "2025年国家商保创新药目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "大剂量马法兰预处理+自体造血干细胞移植(ASCT)",
+          "椎体成形术(PVP/PKP)修复溶骨病理骨折",
+          "双膦酸盐/地舒单抗骨事件预防",
+          "局部骨痛姑息放疗"
+        ],
+        "annual_total_cost_china_cny": "常规硼替佐米+来那度胺治疗常规药品保障报销后年自付约2万–5万元；联合达雷妥尤单抗或自体移植年总费用约10万–20万元以上；BCMA CAR-T原价百万级"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) PERSEUS Ⅲ期研究确立皮下达雷妥尤单抗+VRd(D-VRd)四药一线诱导+维持成为适合移植新诊断MM新全球标准；2) 靶向BCMA CAR-T(西达基奥仑赛 Carvykti、伊基奥仑赛 福可苏)向二线乃至高危一线前移，五线难治ORR达90%以上；3) BCMA×CD3双抗(特立妥单抗 Teclistamab、埃纳妥单抗 Elranatamab)及GPRC5D×CD3双抗(塔奎妥单抗 Talquetamab)彻底改变三重暴露耐药格局。",
+        "key_unmet_needs_zh": "高危细胞遗传学(如17p-/t(4;14)/1q21扩增/髓外浆细胞瘤)患者仍极易早期复发并快速产生多药耐药；CAR-T及双抗高昂定价尚需日常基本医疗支出减负覆盖。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin, Bray et al.)",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018881",
+      "name_zh": "骨髓增生异常综合征",
+      "name_en": "Myelodysplastic Syndrome (MDS)",
+      "aliases_zh": [
+        "骨髓增生异常肿瘤",
+        "MDS",
+        "难治性贫血"
+      ],
+      "icd10": [
+        "D46"
+      ],
+      "icd11": [
+        "2A3Z"
+      ],
+      "category": "血液系统恶性肿瘤 / 克隆性髓系肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "造血干细胞克隆性病态造血导致无效造血与外周血一系或多系减少；低危组主要因长期重度贫血输血铁过载器官损伤历数年恶化，高危组约1/3在数月至数年内向继发性AML转化，亦可突发致命重度感染或颅内出血。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "异基因造血干细胞移植是目前唯一根治手段但高龄患者多不耐受；低危组侧重改善贫血与减少输血依赖（罗特西普2025年底进常规药品保障大幅利好！），较高危组依赖集采去甲基化药物(阿扎胞苷/地西他滨)延缓向AML转化。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021将MDS与骨髓增殖性肿瘤(MDS/MPN)合并统计，全球ASMR约0.68/10万（2021年合并新发341,017例），无单独纯MDS全球死亡数统计",
+          "year": "2021",
+          "source": "GBD 2021 MDS/MPN Analysis (ASH / PubMed 2025)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国缺乏全国登记单独MDS年死亡计数；约三分之一患者进展为继发性AML，主要死因为骨髓衰竭所致重度感染、出血及AML转化",
+          "year": "2024",
+          "source": "中国老年MDS诊疗共识及卫生经济学研究"
+        },
+        "prevalence_global": "GBD 2021全球MDS/MPN新发341,017例（ASIR 3.96/10万）；欧美临床MDS年发病率约4.0–6.4/10万且随年龄急剧升高（Orphanet:52688）",
+        "prevalence_china": "中国文献报道临床年发病率约1.0–1.5/10万，中位发病年龄约62–65岁（显著年轻于欧美73–76岁），老龄化带动检出率上升"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "重度粒缺并发高热败血症立即采集血培养后经验性广谱静脉抗感染；血小板<10×10^9/L或活动性出血立即输注机采血小板；突发原始细胞飙升按急性AML转化抢救评估。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿扎胞苷",
+            "name_en": "Azacitidine",
+            "drug_class": "去甲基化药物(HMA)",
+            "usage_role": "较高危MDS(IPSS-R中高危)延缓AML转化及延长生存一线首选",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第3批国家集采中选单支降至约250–300元/支",
+            "cost_source": "第3批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "地西他滨",
+            "name_en": "Decitabine",
+            "drug_class": "去甲基化药物(HMA)",
+            "usage_role": "中高危MDS标准去甲基化治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "第5批国家集采大幅降价80%–90%，中选单支约90–300元/支",
+            "cost_source": "第5批国家药品集中采购中选结果"
+          },
+          {
+            "name_zh": "罗特西普（利布洛泽）",
+            "name_en": "Luspatercept",
+            "drug_class": "全球首创红细胞成熟剂(TGF-β配体陷阱)",
+            "usage_role": "较低危伴环形铁粒幼细胞(RS+)或输血依赖性MDS贫血一线/二线脱离输血突破",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2025年12月正式纳入新版国家常规临床药品目录，大幅降低MDS长期用药及输血依赖负担",
+            "cost_source": "2025年国家基本医疗保险药品目录"
+          },
+          {
+            "name_zh": "来那度胺",
+            "name_en": "Lenalidomide",
+            "drug_class": "免疫调节剂",
+            "usage_role": "伴5q-缺失较低危MDS贫血高度有效靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家常规目录药物加仿制药降价，每月数百至数千元",
+            "cost_source": "国家常规临床药品目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "异基因造血干细胞移植(唯一潜在根治)",
+          "定期红细胞/血小板成分输血及铁过载祛铁治疗",
+          "促红素(EPO)与粒细胞集落刺激因子支持"
+        ],
+        "annual_total_cost_china_cny": "集采去甲基化常规门诊/住院多周期治疗加输血支持年均直接医疗费用约5万–15万元（异基因移植约30万–50万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) COMMANDS Ⅲ期研究证实罗特西普一线治疗较低危输血依赖MDS脱离输血率远优于传统EPO(60.4% vs 34.8%)，并于2025年12月纳入中国国家常规临床药品目录；2) 端粒酶抑制剂Imetelstat(Rytelo)于2024年6月获FDA批准用于ESA耐药较低危MDS贫血；3) 全口服地西他滨/ASTX727、维奈克拉+阿扎胞苷(VERONA研究)及CD47/TIM-3/IDH靶向联合探索改善高危TP53突变MDS。",
+        "key_unmet_needs_zh": "高危TP53多打击突变MDS对现有去甲基化药物反应短暂且移植后极易复发；长期反复输血带来的铁过载与血源紧张仍是基层治疗瓶颈。"
+      },
+      "sources": [
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0015909",
+      "name_zh": "再生障碍性贫血",
+      "name_en": "Aplastic Anemia (AA)",
+      "aliases_zh": [
+        "再障",
+        "重型再生障碍性贫血",
+        "SAA",
+        "非重型再障"
+      ],
+      "icd10": [
+        "D61.3",
+        "D61.9"
+      ],
+      "icd11": [
+        "3A70"
+      ],
+      "category": "非恶性血液病 / 骨髓造血衰竭综合征",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "以T淋巴细胞异常亢进破坏造血干祖细胞引起全血细胞减少及骨髓脂肪化为核心；非重型(CAA)多呈多年慢性经过，而重型/极重型再障(SAA/VSAA)未及时行免疫抑制或造血干细胞移植者，1–2年内常于数周内因重度粒缺败血症、侵袭性真菌病或颅内出血致命（自然病死率>70%）。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "高度可治性骨髓衰竭病：年轻患者有全相合/单倍体供者行异基因造血干细胞移植治愈率达80%–90%；无移植指征或中老年SAA依托抗胸腺细胞球蛋白(ATG)+环孢素联合TPO受体激动剂(艾曲泊帕/海曲泊帕)血液学缓解率已提升至70%–80%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE与GBD 2021未单列再生障碍性贫血全球独立死因总数（并入广义贫血/血液系统疾病）；重型再障未经有效治疗1年病死率极高(>70%)",
+          "year": "2024",
+          "source": "Orphanet & Haematologica 全球流行病学综述"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无全国单列年死亡绝对值统计，死亡主要源自重型再障合并重度肺部/血流真菌细菌感染及颅内致命出血",
+          "year": "2024",
+          "source": "中国再障诊断与治疗指南(中华医学会血液学分会)"
+        },
+        "prevalence_global": "欧美年发病率约2/100万(1–2.3/100万)，亚洲人群发病率明显高于西方（约为欧美2–3倍，Orphanet / Haematologica）",
+        "prevalence_china": "中国全国协作组调查年发病率约0.74/10万（约7.4/100万，其中慢性再障约0.60/10万、重型/急性再障约0.14/10万），呈15–25岁青年与≥60岁老年双峰分布"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "极重型中性粒细胞<0.2×10^9/L伴高热立即入层流保护性隔离，留取病原后即刻联合广谱抗细菌+抢先抗曲霉/毛霉真菌治疗；血小板极低(<10×10^9/L)或黏膜活动出血急诊输注单采血小板。",
+        "standard_drugs": [
+          {
+            "name_zh": "抗胸腺细胞球蛋白（ATG）",
+            "name_en": "Anti-Thymocyte Globulin (Rabbit/Porcine)",
+            "drug_class": "强效T细胞免疫抑制生物制剂",
+            "usage_role": "不移植重型再生障碍性贫血(SAA)一线标准IST基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已进入国家常规降价保障目录乙类报销，单疗程ATG免疫治疗住院药物及支持总费用在报销前数万至十数万元（常规药品保障报销后自付大减）",
+            "cost_source": "国家常规临床药品目录及国内再障临床医疗费用调查"
+          },
+          {
+            "name_zh": "环孢素",
+            "name_en": "Ciclosporin",
+            "drug_class": "钙调磷酸酶抑制剂",
+            "usage_role": "非重型及重型再障长期维持免疫抑制基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "全面进入国家常规降价保障目录甲/乙类及集采，长期月药费仅数百元",
+            "cost_source": "国家常规药品保障及集采目录"
+          },
+          {
+            "name_zh": "海曲泊帕",
+            "name_en": "Hetrombopag",
+            "drug_class": "国产小分子血小板生成素受体激动剂(TPO-RA)",
+            "usage_role": "联合IST一线及免疫抑制治疗疗效不佳SAA促三系造血恢复",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "进入国家常规降价保障目录乙类大幅降价（常规药品保障前约5,736元/盒），部分地区常规药品保障报销后单盒自付降至数百元",
+            "cost_source": "国家降价协商常用药品目录(2024–2025)"
+          },
+          {
+            "name_zh": "艾曲泊帕",
+            "name_en": "Eltrombopag",
+            "drug_class": "口服TPO-RA",
+            "usage_role": "联合ATG+环孢素一线SAA标准三联IST核心方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规目录药物参考零售约3,780–5,980元/盒(25mg×28片)，经常规医疗减负后患者自付显著减轻",
+            "cost_source": "国家常规临床药品目录及医院零售价(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "异基因造血干细胞移植(同胞全相合或单倍体半相合HSCT)",
+          "层流保护性无菌护理",
+          "成分输血及过量铁负荷祛铁治疗"
+        ],
+        "annual_total_cost_china_cny": "重型再障未入常规药品保障前强化IST总医疗费用约30万–40万元，核心药物入常规药品保障及大病报销后患者年自付大幅缩减至数万元区间；行HSCT约30万–50万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) RACE Ⅲ期及中国多中心临床确立ATG+环孢素+TPO-RA(艾曲泊帕/海曲泊帕)三联方案将SAA完全血液学缓解率翻倍至40%以上、总缓解率近80%；2) 中国血液科率先突破的'北京方案'单倍体相合造血干细胞移植用于SAA挽救乃至一线替代，使无全相合供者年轻重型再障3年总生存率突破85%–90%；3) 需高度注意与先天遗传性骨髓衰竭综合征(如范可尼贫血/端粒病)及PNH克隆演变的精准基因鉴别。",
+        "key_unmet_needs_zh": "高龄重型再障患者对强免疫抑制及移植耐受性依然较差；IST后约10%–15%远期向MDS/AML或PNH克隆演变；免疫抑制后复发难治仍具挑战。"
+      },
+      "sources": [
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0010602",
+      "name_zh": "血友病A（甲型血友病）",
+      "name_en": "Hemophilia A",
+      "aliases_zh": [
+        "甲型血友病",
+        "遗传性凝血因子VIII缺乏症",
+        "FVIII缺乏症"
+      ],
+      "icd10": [
+        "D66"
+      ],
+      "icd11": [
+        "3B10"
+      ],
+      "category": "非恶性血液病 / X连锁隐性遗传出凝血罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "F8基因缺陷致内源性凝血因子VIII缺乏，终身反复自发关节/肌肉血肿致残；虽呈先天终身慢性过程，但一旦诱发自发或轻微外伤后颅内出血、颈部咽喉血肿压迫气道或消化道大出血，若未于数小时内足量输注凝血因子VIII可迅速在数小时至数日内致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "规律预防性替代治疗（按时输注重组FVIII或双抗艾美赛珠单抗）可使患者几乎接近正常人寿命与无出血生活；伴FVIII抑制物(约20%–30%重型患者发生)及成年预防常规药品保障限额不足仍是核心痛点，国际已批准首款AAV5基因疗法Roctavian。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WFH全球年度调查与WHO GHE重点监测登记患者数及凝血因子消耗IU，未单列全球血友病A年绝对死亡人数；颅内出血为其最主要急性致死原因",
+          "year": "2023",
+          "source": "WFH Annual Global Survey & PubMed Burden Studies"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡计数；随病毒灭活因子、国产重组FVIII及门诊特殊慢病政策推进，寿命正稳步接近普通人群，但成人预防治疗率偏低致残与急性出血风险犹存",
+          "year": "2024",
+          "source": "中国血友病诊治指南 & WFH China Registry Studies"
+        },
+        "prevalence_global": "WFH公式推算男性患病率约17.1/10万男性（约每5,000–6,000名活产男婴1例），占全部血友病患者约80%–85%",
+        "prevalence_china": "中国理论估算全部血友病约6.5万–13万人以上（诊断患病率约2.73–3.09/10万），全国登记在册A型患者已超2.7万例（重型及农村地区仍有漏诊缺口）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "疑似颅内出血（剧烈头痛/呕吐/意识障碍）或咽喉气道出血时'先输因子、再做CT'！立即静脉推注大剂量凝血因子VIII将活性提升至80%–100%，伴高滴度抑制物者立即启用重组活化VII因子(rFVIIa)或凝血酶原复合物旁路止血。",
+        "standard_drugs": [
+          {
+            "name_zh": "重组人凝血因子VIII（含国产安佳因等）",
+            "name_en": "Recombinant Coagulation Factor VIII",
+            "drug_class": "替代凝血因子制剂",
+            "usage_role": "按需止血与标准规律预防治疗基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已入常规目录药物并通过广东等跨省联盟集采降幅10%–30%以上，部分中选约388元/200IU（国产替代大幅压低费用）",
+            "cost_source": "国家常规临床药品目录及省际联盟集采结果(2024–2025)"
+          },
+          {
+            "name_zh": "艾美赛珠单抗（舒友立乐）",
+            "name_en": "Emicizumab",
+            "drug_class": "双特异性人源化单克隆抗体（模拟FVIIIa功能）",
+            "usage_role": "伴或不伴FVIII抑制物的皮下注射长效预防治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "未入日常基本医疗支出减负，按体重计年费用儿童约60万元、成人高达130万元/年",
+            "cost_source": "中国血友病支付调研及公开市场售价(2024–2025)"
+          },
+          {
+            "name_zh": "重组人凝血因子VIIa（诺其）",
+            "name_en": "Recombinant Factor VIIa",
+            "drug_class": "旁路途径止血制剂",
+            "usage_role": "伴FVIII高滴度抑制物患者急性致命出血抢救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "进入国家常规降价保障目录乙类（限伴抑制物患者急症/出血按规定报销）",
+            "cost_source": "国家常规临床药品目录"
+          },
+          {
+            "name_zh": "Valoctocogene roxaparvovec (Roctavian)",
+            "name_en": "Valoctocogene Roxaparvovec",
+            "drug_class": "AAV5-FVIII一次性基因治疗（海外获批）",
+            "usage_role": "重型血友病A成年患者单次给药内源恢复FVIII表达",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "FDA/EMA已批准（海外定价约290万美元），中国尚未上市",
+            "cost_source": "FDA批准公告"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "血友病多学科综合治疗中心(HTC)长期随访",
+          "靶关节超声评估与物理康复/骨科矫形置换",
+          "避免肌肉注射与阿司匹林等抗血小板药物"
+        ],
+        "annual_total_cost_china_cny": "传统因子按需或规范预防年直接医疗费用约10万–40万–60万元以上（成人全剂量预防受各地常规药品保障年封顶线制约；若自费使用艾美赛珠单抗则达60万–130万元/年）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 全球首款血友病A AAV5基因治疗Roctavian获FDA/EMA批准实现单次输注显著脱离因子预防（但随访第3–5年FVIII表达随时间递减是当前学界重点攻关课题）；2) 抗TFPI单抗Marstacimab与Concizumab、靶向抗凝血酶siRNA疗法Fitusiran(Qfitlia，2025年获FDA批准!)开启无论有无抑制物均可皮下月/周给药的'非因子止血平衡'新时代；3) 超长效FVIII融合蛋白Efanesoctocog alfa实现每周仅需一次静脉给药即维持近正常人凝血水平。",
+        "key_unmet_needs_zh": "成人规律预防治疗各地常规药品保障封顶线与自付负担依然沉重（多数成人仍被迫采用按需止血致关节致残）；FVIII抑制物产生者双抗艾美赛珠单抗尚未进入国家日常基本医疗支出减负。"
+      },
+      "sources": [
+        {
+          "title": "World Federation of Hemophilia (WFH) Annual Global Survey & Guidelines",
+          "url": "https://www.wfh.org/",
+          "publisher": "World Federation of Hemophilia",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0010604",
+      "name_zh": "血友病B（乙型血友病）",
+      "name_en": "Hemophilia B",
+      "aliases_zh": [
+        "乙型血友病",
+        "遗传性凝血因子IX缺乏症",
+        "Christmas病",
+        "FIX缺乏症"
+      ],
+      "icd10": [
+        "D67"
+      ],
+      "icd11": [
+        "3B11"
+      ],
+      "category": "非恶性血液病 / X连锁隐性遗传出凝血罕见病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "F9基因突变致凝血因子IX缺乏，临床出血表型与血友病A类似但总体发生率约为其1/5；重型患者反复关节致残，突发自发性颅内出血、颈咽压迫出血或内脏大出血未立即输注FIX可在数小时至数日内致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "规律凝血因子IX替代(尤其是长效rFIX-Fc)可控性极佳且抑制物发生率远低于A型(<5%)；2025年4月中国首个自主AAV基因治疗药波哌达可基(BBM-H901)获NMPA批准，2026年Q1价格大幅降至139万及以下开启单针功能性治愈时代！",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WFH与GBD未单列血友病B全球年死亡人数；重型患者急性颅内或内脏大出血未及救治可于数小时至数日致命",
+          "year": "2023",
+          "source": "WFH Annual Global Survey & Orphanet(ORPHA:98879)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列官方年死亡计数，已纳入国家第一批罕见病目录（第36号）并随凝血因子IX普及大幅改善生存预后",
+          "year": "2024",
+          "source": "中国国家第一批罕见病目录 & WFH"
+        },
+        "prevalence_global": "WFH估算男性患病率约3.8/10万男性（约每2.5万–3万名活产男婴1例），Orphanet(ORPHA:98879)欧洲点患病率约3.0/10万，占血友病总数的15%–20%",
+        "prevalence_china": "中国估算6.5万–13万余名血友病总人群中B型占15%–20%（约1万–2万余例潜在患者，登记管理持续推进）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "疑似颅内/气道/腹腔致命性出血立即紧急静脉输注凝血因子IX制剂（或紧急无FIX时予凝血酶原复合物PCC）将FIX活性拉升至60%–100%后再行影像学检查，严禁延迟止血。",
+        "standard_drugs": [
+          {
+            "name_zh": "波哌达可基注射液（BBM-H901 / 信玖凝）",
+            "name_en": "Dalcinonacog-vector / BBM-H901 AAV Gene Therapy",
+            "drug_class": "中国首个获批AAV肝脏靶向凝血因子IX基因治疗",
+            "usage_role": "中重度血友病B成年患者一次性静脉输注实现内源持续表达FIX",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2025年4月NMPA批准（最初409.2万/慈善封顶279万）；2026年Q1主动大幅降价，患者自付降至139万元及以下，叠加惠民保有望降至约100万元",
+            "cost_source": "NMPA获批(2025.04)及信念医药2026Q1公开降价方案"
+          },
+          {
+            "name_zh": "人凝血因子IX / 重组人凝血因子IX",
+            "name_en": "Coagulation Factor IX (Plasma-derived / Recombinant)",
+            "drug_class": "凝血因子IX替代制剂（含长效rFIX-Fc）",
+            "usage_role": "按需止血与常规每周预防治疗基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "人凝血因子IX已纳入国家常规临床药品目录及多省重点罕见病保障，规律预防未报销前年费十万至数十万元，常规药品保障报销后自付大减",
+            "cost_source": "国家常规临床药品目录及省级采购保障政策(2024–2025)"
+          },
+          {
+            "name_zh": "Etranacogene dezaparvovec (Hemgenix)",
+            "name_en": "Etranacogene Dezaparvovec",
+            "drug_class": "AAV5-FIX Padua高活性变体基因疗法（海外获批）",
+            "usage_role": "成人血友病B单次基因治疗脱离长期预防",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "FDA已批准（海外定价350万美元），中国尚未上市",
+            "cost_source": "FDA批准公告"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "血友病综合中心随访与关节物理康复",
+          "基因治疗前AAV中和抗体筛查与术后转氨酶监测",
+          "关节血肿固定制动与冷敷"
+        ],
+        "annual_total_cost_china_cny": "常规因子IX预防或按需治疗费用减免前年均直接医疗费用约十万至数十万元（研究显示常伴随高额间接误工与关节残障成本）；一次性国产基因治疗2026Q1自付门槛已降至≤139万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 2025年4月10日NMPA正式批准信念医药研发的波哌达可基注射液(BBM-H901/信玖凝)，成为中国首个获批上市的AAV基因治疗药物，实现患者长期摆脱外源FIX输注；2) 2026年Q1通过价格大幅下调至139万元及以下并联动惠民保探索罕见病创新基因药可持续支付模式；3) 国际FDA已批Hemgenix及Beqvez，FIX基因治疗凭借高活性Padua突变在持久性(>4–5年稳定因子水平)上整体优于血友病A。",
+        "key_unmet_needs_zh": "约20%–30%患者因既往存在预存AAV中和抗体无法接受当前AAV基因治疗；高值基因治疗尚需纳入多层次商业险/政府罕见病专项基金；极少数伴FIX抑制物者易发生严重过敏反应与肾病综合征。"
+      },
+      "sources": [
+        {
+          "title": "World Federation of Hemophilia (WFH) Annual Global Survey & Guidelines",
+          "url": "https://www.wfh.org/",
+          "publisher": "World Federation of Hemophilia",
+          "year": "2024"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "Open Targets Platform Disease & Clinical Precedence Dataset",
+          "url": "https://platform.opentargets.org/",
+          "publisher": "EMBL-EBI / Open Targets",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0016486",
+      "name_zh": "重型β-地中海贫血",
+      "name_en": "Beta-Thalassemia Major (Transfusion-Dependent Beta-Thalassemia)",
+      "aliases_zh": [
+        "重型β地贫",
+        "输血依赖型β-地中海贫血",
+        "Cooley贫血"
+      ],
+      "icd10": [
+        "D56.1"
+      ],
+      "icd11": [
+        "3A50.2"
+      ],
+      "category": "非恶性血液病 / 常染色体隐性遗传血红蛋白病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "HBB基因突变致β珠蛋白链严重缺如，婴儿期即呈极重度溶血性贫血与无效造血；不规律输血者多于儿童期死于重度贫血心衰，规律输血但未规范祛铁者常于青少年期至青壮年期因心肌重度铁沉积导致致死性心律失常或心力衰竭死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "异基因造血干细胞移植在儿童期高配型匹配下治愈率达85%–90%；全球首款CRISPR基因编辑疗法Casgevy已获FDA批准，中国自主tBE碱基编辑药物CS-101更于2026年4月登上《Nature》正刊实现彻底脱离输血！但广大家庭仍严重依赖终身输血+祛铁维持。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021报告全类型地中海贫血全球年死亡11,087例（95% UI: 7,882–14,110；ASMR 0.15/10万），未单列重型β-地贫绝对死亡数；重型β-地贫为地贫致死主体",
+          "year": "2021",
+          "source": "GBD 2021 Thalassemia Analysis (EClinicalMedicine 2024, PMID: 38745964)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列重型β-地贫官方年死亡人数；GBD 2021显示中国地贫标化死亡率及DALY降幅显著高于全球平均，得益于南方出生缺陷三级防控与祛铁普及",
+          "year": "2021",
+          "source": "GBD 2021 China & 中国地中海贫血蓝皮书"
+        },
+        "prevalence_global": "地中海、中东、南亚及东南亚高发，GBD 2021全球地贫出生标化发病率1.93/10万（95% UI: 1.51–2.49，PMID: 38745964）",
+        "prevalence_china": "《中国地中海贫血蓝皮书》及研究估计全国携带地贫基因人数数千万，重型及中间型患者估算约30万人（其中重型输血依赖患者约1.5万人持续在治），集中于广西、广东、海南、云南等南方省份"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "重度铁过载心肌病突发急性失代偿心力衰竭或恶性心律失常时，立即予持续静脉去铁胺(DFO)联合口服去铁酮强化协同祛铁、强心利尿及抗心律失常监护；急性溶血危象紧急交叉配血输注洗涤红细胞。",
+        "standard_drugs": [
+          {
+            "name_zh": "地拉罗司（含分散片及颗粒新剂型）",
+            "name_en": "Deferasirox",
+            "drug_class": "口服高依从性铁螯合剂",
+            "usage_role": "输血依赖型地贫慢性铁过载长期一线祛铁基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已入国家常规目录药物，部分规格常规药品保障挂网约500余元/盒；成人地拉罗司年药费报销前约8万元以上，报销后大减",
+            "cost_source": "国家常规临床药品目录及医院挂网价(2024–2025)"
+          },
+          {
+            "name_zh": "罗特西普（利布洛泽）",
+            "name_en": "Luspatercept",
+            "drug_class": "全球首创红细胞成熟剂",
+            "usage_role": "有效减少成人β-地贫患者红细胞输血需求量与铁负荷",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2022年在华获批β-地贫，2025年12月正式纳入新版国家常规临床药品目录大幅降价惠及患者",
+            "cost_source": "2025年国家基本医疗保险药品目录"
+          },
+          {
+            "name_zh": "去铁胺 / 去铁酮",
+            "name_en": "Deferoxamine / Deferiprone",
+            "drug_class": "经典注射/口服铁螯合剂",
+            "usage_role": "联合强化清除心脏及肝脏沉积铁负荷",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家基本药物及常规目录内廉价基础用药",
+            "cost_source": "国家基本药物与常规药品保障目录"
+          },
+          {
+            "name_zh": "CS-101（体外碱基编辑） / Casgevy (Exa-cel)",
+            "name_en": "CS-101 / Exagamglogene Autotemcel",
+            "drug_class": "造血干细胞碱基编辑 / CRISPR-Cas9基因编辑一次性治愈疗法",
+            "usage_role": "重激活胎儿血红蛋白(HbF)实现重型β-地贫彻底脱离输血",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "Casgevy海外定价约220万美元(FDA 2024.01批准)；国产CS-101正加速推进关键注册临床(2026.04发表于《Nature》正刊)",
+            "cost_source": "FDA批准公告 & Nature 2026 (PMID: 41951736)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "每2–4周规律高量输注去白洗涤红细胞(维持输血前Hb 95–105g/L)",
+          "同胞全相合或半相合异基因造血干细胞移植(HSCT)",
+          "心脏/肝脏MRI T2*定期铁负荷定量监测",
+          "南方婚前孕前及产前地贫基因筛查防控"
+        ],
+        "annual_total_cost_china_cny": "成人(50–60kg)规范输血+地拉罗司祛铁年均直接医疗费用约8万–9.6万至12万元（儿童及基层真实世界中位约4万元/年）；异基因移植总费用约30万–40万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 2026年4月正序生物与广西医科大学一附院研发的中国自主体外碱基编辑药物CS-101临床成果登上《Nature》正刊(PMID: 41951736)，成为中国基因编辑药物临床研究首登《Nature》正刊的里程碑，受试重度β-地贫患者实现持久脱离输血且避免DNA双链断裂风险；2) 全球首款CRISPR/Cas9疗法Casgevy于2024年1月获FDA批准并推进儿童Ⅲ期长期随访，国产CRISPR管线BRL-101等同步推进关键临床；3) 2025年12月罗特西普正式纳入国家日常基本医疗支出减负目录显著缓解输血与血荒压力。",
+        "key_unmet_needs_zh": "高发区季节性血源紧张常致患儿无法足量规律输血；无HLA全相合供者患儿仍难承担移植或高昂进口基因治疗（清髓预处理及百万级定价仍制约普及）；基层规范祛铁依从性仍有较大差距。"
+      },
+      "sources": [
+        {
+          "title": "Global, regional, and national burden of thalassemia, 1990-2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38745964/",
+          "publisher": "PubMed / EClinicalMedicine (GBD 2021)",
+          "year": "2024"
+        },
+        {
+          "title": "Clinical application of base editing for treating beta-thalassaemia (CS-101)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41951736/",
+          "publisher": "PubMed / Nature (Lai et al.)",
+          "year": "2026"
+        },
+        {
+          "title": "国家医疗保障局 国家基本医疗保险、工伤保险和生育保险药品目录及谈判/集采公告",
+          "url": "https://www.nhsa.gov.cn/",
+          "publisher": "国家医疗保障局 (NHSA)",
+          "year": "2025"
+        },
+        {
+          "title": "Orphanet Rare Disease Database & Epidemiological Data (Orphadata)",
+          "url": "https://www.orpha.net/",
+          "publisher": "Orphanet / INSERM",
+          "year": "2025"
+        },
+        {
+          "title": "FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        }
+      ]
+    }
+  ]
+}

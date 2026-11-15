@@ -1,0 +1,941 @@
+{
+  "total_diseases": 25697,
+  "domains": [
+    {
+      "id": "rare_genetic_congenital",
+      "name_zh": "遗传综合征与先天发育",
+      "name_en": "Genetic Syndromes & Congenital",
+      "color": "#a855f7",
+      "count": 4783,
+      "share_pct": 18.61,
+      "curated_count": 4,
+      "rare_count": 3015,
+      "approved_or_curable_count": 42,
+      "in_trials_count": 66,
+      "cx": 13.84,
+      "cy": 4.55,
+      "stages": {
+        "controllable": 1,
+        "approved_therapy": 41,
+        "partially_manageable": 2,
+        "phase3_trials": 39,
+        "phase2_trials": 21,
+        "phase1_trials": 6,
+        "symptomatic_only": 1,
+        "no_ot_drug_recorded": 4672
+      },
+      "subclusters": [
+        {
+          "name": "单基因/疑难罕见及未归类疾病",
+          "count": 3244,
+          "share_in_domain": 67.82,
+          "curated_count": 0,
+          "rare_count": 1775,
+          "cx": 115.91,
+          "cy": 42.49,
+          "stages": {
+            "approved_therapy": 35,
+            "phase3_trials": 29,
+            "phase2_trials": 18,
+            "phase1_trials": 4,
+            "no_ot_drug_recorded": 3158
+          }
+        },
+        {
+          "name": "多发畸形与发育遗传综合征",
+          "count": 1539,
+          "share_in_domain": 32.18,
+          "curated_count": 4,
+          "rare_count": 1240,
+          "cx": -201.31,
+          "cy": -75.43,
+          "stages": {
+            "controllable": 1,
+            "approved_therapy": 6,
+            "partially_manageable": 2,
+            "phase3_trials": 10,
+            "phase2_trials": 3,
+            "phase1_trials": 2,
+            "symptomatic_only": 1,
+            "no_ot_drug_recorded": 1514
+          }
+        }
+      ]
+    },
+    {
+      "id": "neurological_cns",
+      "name_zh": "神经与中枢系统",
+      "name_en": "Neurological & CNS",
+      "color": "#3b82f6",
+      "count": 4559,
+      "share_pct": 17.74,
+      "curated_count": 11,
+      "rare_count": 3810,
+      "approved_or_curable_count": 101,
+      "in_trials_count": 199,
+      "cx": -333.86,
+      "cy": 137.59,
+      "stages": {
+        "controllable": 5,
+        "approved_therapy": 96,
+        "partially_manageable": 5,
+        "phase3_trials": 109,
+        "phase2_trials": 78,
+        "phase1_trials": 12,
+        "symptomatic_only": 1,
+        "no_ot_drug_recorded": 4253
+      },
+      "subclusters": [
+        {
+          "name": "中枢神经变性与遗传性脑病",
+          "count": 3287,
+          "share_in_domain": 72.1,
+          "curated_count": 5,
+          "rare_count": 2756,
+          "cx": -275.36,
+          "cy": 145.35,
+          "stages": {
+            "controllable": 3,
+            "approved_therapy": 79,
+            "partially_manageable": 1,
+            "phase3_trials": 80,
+            "phase2_trials": 63,
+            "phase1_trials": 10,
+            "symptomatic_only": 1,
+            "no_ot_drug_recorded": 3050
+          }
+        },
+        {
+          "name": "神经肌肉与运动神经元病变",
+          "count": 668,
+          "share_in_domain": 14.65,
+          "curated_count": 4,
+          "rare_count": 585,
+          "cx": -551.46,
+          "cy": 237.98,
+          "stages": {
+            "controllable": 1,
+            "approved_therapy": 10,
+            "partially_manageable": 3,
+            "phase3_trials": 18,
+            "phase2_trials": 12,
+            "phase1_trials": 1,
+            "no_ot_drug_recorded": 623
+          }
+        },
+        {
+          "name": "癫痫与急性/发育性脑病",
+          "count": 604,
+          "share_in_domain": 13.25,
+          "curated_count": 2,
+          "rare_count": 469,
+          "cx": -411.5,
+          "cy": -15.69,
+          "stages": {
+            "controllable": 1,
+            "approved_therapy": 7,
+            "partially_manageable": 1,
+            "phase3_trials": 11,
+            "phase2_trials": 3,
+            "phase1_trials": 1,
+            "no_ot_drug_recorded": 580
+          }
+        }
+      ]
+    },
+    {
+      "id": "oncology_neoplasms",
+      "name_zh": "恶性肿瘤与新生物",
+      "name_en": "Oncology & Neoplasms",
+      "color": "#f97316",
+      "count": 4430,
+      "share_pct": 17.24,
+      "curated_count": 15,
+      "rare_count": 2944,
+      "approved_or_curable_count": 190,
+      "in_trials_count": 515,
+      "cx": 326.12,
+      "cy": -319.79,
+      "stages": {
+        "curable": 1,
+        "controllable": 7,
+        "approved_therapy": 182,
+        "partially_manageable": 7,
+        "phase3_trials": 200,
+        "phase2_trials": 282,
+        "phase1_trials": 33,
+        "no_ot_drug_recorded": 3718
+      },
+      "subclusters": [
+        {
+          "name": "实体恶性肿瘤与肉瘤",
+          "count": 4069,
+          "share_in_domain": 91.85,
+          "curated_count": 15,
+          "rare_count": 2735,
+          "cx": 351.37,
+          "cy": -310.4,
+          "stages": {
+            "curable": 1,
+            "controllable": 7,
+            "approved_therapy": 173,
+            "partially_manageable": 7,
+            "phase3_trials": 190,
+            "phase2_trials": 277,
+            "phase1_trials": 30,
+            "no_ot_drug_recorded": 3384
+          }
+        },
+        {
+          "name": "良性肿瘤与交界性增生",
+          "count": 361,
+          "share_in_domain": 8.15,
+          "curated_count": 0,
+          "rare_count": 209,
+          "cx": 41.49,
+          "cy": -425.68,
+          "stages": {
+            "approved_therapy": 9,
+            "phase3_trials": 10,
+            "phase2_trials": 5,
+            "phase1_trials": 3,
+            "no_ot_drug_recorded": 334
+          }
+        }
+      ]
+    },
+    {
+      "id": "musculoskeletal_sensory_skin",
+      "name_zh": "骨肌、五官与皮肤",
+      "name_en": "Musculoskeletal, Sensory & Skin",
+      "color": "#38bdf8",
+      "count": 3204,
+      "share_pct": 12.47,
+      "curated_count": 0,
+      "rare_count": 2439,
+      "approved_or_curable_count": 96,
+      "in_trials_count": 145,
+      "cx": 111.31,
+      "cy": 471.79,
+      "stages": {
+        "approved_therapy": 96,
+        "phase3_trials": 93,
+        "phase2_trials": 44,
+        "phase1_trials": 8,
+        "no_ot_drug_recorded": 2963
+      },
+      "subclusters": [
+        {
+          "name": "骨关节与肌肉骨骼疾病",
+          "count": 1307,
+          "share_in_domain": 40.79,
+          "curated_count": 0,
+          "rare_count": 1104,
+          "cx": 204.41,
+          "cy": 477.74,
+          "stages": {
+            "approved_therapy": 26,
+            "phase3_trials": 36,
+            "phase2_trials": 14,
+            "phase1_trials": 3,
+            "no_ot_drug_recorded": 1228
+          }
+        },
+        {
+          "name": "皮肤与附属器疾病",
+          "count": 800,
+          "share_in_domain": 24.97,
+          "curated_count": 0,
+          "rare_count": 634,
+          "cx": 38.94,
+          "cy": 617.18,
+          "stages": {
+            "approved_therapy": 34,
+            "phase3_trials": 30,
+            "phase2_trials": 23,
+            "phase1_trials": 3,
+            "no_ot_drug_recorded": 710
+          }
+        },
+        {
+          "name": "眼科与视觉系统疾病",
+          "count": 755,
+          "share_in_domain": 23.56,
+          "curated_count": 0,
+          "rare_count": 445,
+          "cx": 1.41,
+          "cy": 402.35,
+          "stages": {
+            "approved_therapy": 30,
+            "phase3_trials": 19,
+            "phase2_trials": 7,
+            "phase1_trials": 1,
+            "no_ot_drug_recorded": 698
+          }
+        },
+        {
+          "name": "耳鼻咽喉与听觉系统疾病",
+          "count": 342,
+          "share_in_domain": 10.67,
+          "curated_count": 0,
+          "rare_count": 256,
+          "cx": 167.45,
+          "cy": 262.26,
+          "stages": {
+            "approved_therapy": 6,
+            "phase3_trials": 8,
+            "phase1_trials": 1,
+            "no_ot_drug_recorded": 327
+          }
+        }
+      ]
+    },
+    {
+      "id": "endocrine_metabolic",
+      "name_zh": "内分泌与代谢病",
+      "name_en": "Endocrine & Metabolic",
+      "color": "#eab308",
+      "count": 2052,
+      "share_pct": 7.99,
+      "curated_count": 10,
+      "rare_count": 1793,
+      "approved_or_curable_count": 145,
+      "in_trials_count": 132,
+      "cx": -391.97,
+      "cy": -262.13,
+      "stages": {
+        "curable": 1,
+        "controllable": 7,
+        "approved_therapy": 137,
+        "partially_manageable": 2,
+        "phase3_trials": 69,
+        "phase2_trials": 50,
+        "phase1_trials": 13,
+        "no_ot_drug_recorded": 1773
+      },
+      "subclusters": [
+        {
+          "name": "糖尿病、甲状腺与内分泌病",
+          "count": 1748,
+          "share_in_domain": 85.19,
+          "curated_count": 5,
+          "rare_count": 1489,
+          "cx": -355.69,
+          "cy": -249.03,
+          "stages": {
+            "curable": 1,
+            "controllable": 4,
+            "approved_therapy": 128,
+            "phase3_trials": 61,
+            "phase2_trials": 45,
+            "phase1_trials": 12,
+            "no_ot_drug_recorded": 1497
+          }
+        },
+        {
+          "name": "先天遗传性代谢与线粒体病",
+          "count": 304,
+          "share_in_domain": 14.81,
+          "curated_count": 5,
+          "rare_count": 304,
+          "cx": -600.55,
+          "cy": -337.45,
+          "stages": {
+            "controllable": 3,
+            "approved_therapy": 9,
+            "partially_manageable": 2,
+            "phase3_trials": 8,
+            "phase2_trials": 5,
+            "phase1_trials": 1,
+            "no_ot_drug_recorded": 276
+          }
+        }
+      ]
+    },
+    {
+      "id": "cardiovascular_thrombosis",
+      "name_zh": "心血管与血栓血管",
+      "name_en": "Cardiovascular & Thrombosis",
+      "color": "#ef4444",
+      "count": 1599,
+      "share_pct": 6.22,
+      "curated_count": 24,
+      "rare_count": 1160,
+      "approved_or_curable_count": 96,
+      "in_trials_count": 137,
+      "cx": 626.7,
+      "cy": -13.77,
+      "stages": {
+        "curable": 3,
+        "controllable": 13,
+        "approved_therapy": 80,
+        "partially_manageable": 8,
+        "phase3_trials": 86,
+        "phase2_trials": 48,
+        "phase1_trials": 3,
+        "no_ot_drug_recorded": 1358
+      },
+      "subclusters": [
+        {
+          "name": "慢性心血管、心肌与血管病",
+          "count": 1186,
+          "share_in_domain": 74.17,
+          "curated_count": 4,
+          "rare_count": 862,
+          "cx": 661.94,
+          "cy": -28.91,
+          "stages": {
+            "controllable": 2,
+            "approved_therapy": 70,
+            "partially_manageable": 2,
+            "phase3_trials": 67,
+            "phase2_trials": 41,
+            "phase1_trials": 3,
+            "no_ot_drug_recorded": 1001
+          }
+        },
+        {
+          "name": "心律失常、心肌病与先心病",
+          "count": 298,
+          "share_in_domain": 18.64,
+          "curated_count": 3,
+          "rare_count": 249,
+          "cx": 525.2,
+          "cy": 85.36,
+          "stages": {
+            "controllable": 2,
+            "approved_therapy": 4,
+            "partially_manageable": 1,
+            "phase3_trials": 10,
+            "phase2_trials": 4,
+            "no_ot_drug_recorded": 277
+          }
+        },
+        {
+          "name": "急性致死性血管与心脏急症",
+          "count": 88,
+          "share_in_domain": 5.5,
+          "curated_count": 10,
+          "rare_count": 23,
+          "cx": 494.01,
+          "cy": -87.59,
+          "stages": {
+            "curable": 3,
+            "controllable": 2,
+            "approved_therapy": 5,
+            "partially_manageable": 5,
+            "phase3_trials": 9,
+            "phase2_trials": 3,
+            "no_ot_drug_recorded": 61
+          }
+        },
+        {
+          "name": "遗传性/获得性易栓症与凝血",
+          "count": 27,
+          "share_in_domain": 1.69,
+          "curated_count": 7,
+          "rare_count": 26,
+          "cx": 631.82,
+          "cy": -202.24,
+          "stages": {
+            "controllable": 7,
+            "approved_therapy": 1,
+            "no_ot_drug_recorded": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "hematology_coagulation",
+      "name_zh": "血液与凝血障碍",
+      "name_en": "Hematology & Coagulation",
+      "color": "#e64980",
+      "count": 1171,
+      "share_pct": 4.56,
+      "curated_count": 10,
+      "rare_count": 1131,
+      "approved_or_curable_count": 84,
+      "in_trials_count": 119,
+      "cx": -397.05,
+      "cy": 440.99,
+      "stages": {
+        "curable": 4,
+        "controllable": 4,
+        "approved_therapy": 76,
+        "partially_manageable": 2,
+        "phase3_trials": 53,
+        "phase2_trials": 57,
+        "phase1_trials": 9,
+        "no_ot_drug_recorded": 966
+      },
+      "subclusters": [
+        {
+          "name": "贫血、血细胞与凝血系统疾病",
+          "count": 624,
+          "share_in_domain": 53.29,
+          "curated_count": 0,
+          "rare_count": 593,
+          "cx": -323.6,
+          "cy": 436.52,
+          "stages": {
+            "approved_therapy": 31,
+            "phase3_trials": 25,
+            "phase2_trials": 30,
+            "phase1_trials": 5,
+            "no_ot_drug_recorded": 533
+          }
+        },
+        {
+          "name": "血液系统恶性肿瘤与MDS",
+          "count": 377,
+          "share_in_domain": 32.19,
+          "curated_count": 6,
+          "rare_count": 374,
+          "cx": -510.29,
+          "cy": 500.2,
+          "stages": {
+            "curable": 2,
+            "controllable": 2,
+            "approved_therapy": 35,
+            "partially_manageable": 2,
+            "phase3_trials": 24,
+            "phase2_trials": 19,
+            "phase1_trials": 2,
+            "no_ot_drug_recorded": 291
+          }
+        },
+        {
+          "name": "遗传性/获得性出血与造血障碍",
+          "count": 170,
+          "share_in_domain": 14.52,
+          "curated_count": 4,
+          "rare_count": 164,
+          "cx": -415.5,
+          "cy": 326.09,
+          "stages": {
+            "curable": 2,
+            "controllable": 2,
+            "approved_therapy": 10,
+            "phase3_trials": 4,
+            "phase2_trials": 8,
+            "phase1_trials": 2,
+            "no_ot_drug_recorded": 142
+          }
+        }
+      ]
+    },
+    {
+      "id": "infectious_parasitic",
+      "name_zh": "感染与寄生虫病",
+      "name_en": "Infectious & Parasitic",
+      "color": "#22c55e",
+      "count": 885,
+      "share_pct": 3.44,
+      "curated_count": 17,
+      "rare_count": 496,
+      "approved_or_curable_count": 153,
+      "in_trials_count": 91,
+      "cx": 36.3,
+      "cy": -541.74,
+      "stages": {
+        "curable": 11,
+        "controllable": 2,
+        "approved_therapy": 140,
+        "partially_manageable": 1,
+        "phase3_trials": 54,
+        "phase2_trials": 31,
+        "phase1_trials": 6,
+        "symptomatic_only": 2,
+        "unmet_no_effective_therapy": 1,
+        "no_ot_drug_recorded": 637
+      },
+      "subclusters": [
+        {
+          "name": "慢性、寄生虫与系统感染",
+          "count": 804,
+          "share_in_domain": 90.85,
+          "curated_count": 4,
+          "rare_count": 439,
+          "cx": 54.58,
+          "cy": -534.92,
+          "stages": {
+            "curable": 2,
+            "controllable": 2,
+            "approved_therapy": 136,
+            "phase3_trials": 50,
+            "phase2_trials": 25,
+            "phase1_trials": 6,
+            "no_ot_drug_recorded": 583
+          }
+        },
+        {
+          "name": "急性致命感染与脓毒症",
+          "count": 81,
+          "share_in_domain": 9.15,
+          "curated_count": 13,
+          "rare_count": 57,
+          "cx": -145.19,
+          "cy": -609.44,
+          "stages": {
+            "curable": 9,
+            "approved_therapy": 4,
+            "partially_manageable": 1,
+            "phase3_trials": 4,
+            "phase2_trials": 6,
+            "symptomatic_only": 2,
+            "unmet_no_effective_therapy": 1,
+            "no_ot_drug_recorded": 54
+          }
+        }
+      ]
+    },
+    {
+      "id": "immune_rheumatic",
+      "name_zh": "免疫与风湿结缔组织",
+      "name_en": "Immune & Rheumatic",
+      "color": "#ec4899",
+      "count": 692,
+      "share_pct": 2.69,
+      "curated_count": 8,
+      "rare_count": 497,
+      "approved_or_curable_count": 50,
+      "in_trials_count": 67,
+      "cx": 485.62,
+      "cy": 428.33,
+      "stages": {
+        "curable": 2,
+        "controllable": 5,
+        "approved_therapy": 43,
+        "partially_manageable": 1,
+        "phase3_trials": 44,
+        "phase2_trials": 20,
+        "phase1_trials": 3,
+        "no_ot_drug_recorded": 574
+      },
+      "subclusters": [
+        {
+          "name": "炎症性与系统性自身免疫病",
+          "count": 517,
+          "share_in_domain": 74.71,
+          "curated_count": 6,
+          "rare_count": 367,
+          "cx": 533.76,
+          "cy": 445.7,
+          "stages": {
+            "curable": 1,
+            "controllable": 4,
+            "approved_therapy": 41,
+            "partially_manageable": 1,
+            "phase3_trials": 43,
+            "phase2_trials": 16,
+            "phase1_trials": 3,
+            "no_ot_drug_recorded": 408
+          }
+        },
+        {
+          "name": "原发免疫缺陷与过敏危象",
+          "count": 175,
+          "share_in_domain": 25.29,
+          "curated_count": 2,
+          "rare_count": 130,
+          "cx": 343.4,
+          "cy": 377.0,
+          "stages": {
+            "curable": 1,
+            "controllable": 1,
+            "approved_therapy": 2,
+            "phase3_trials": 1,
+            "phase2_trials": 4,
+            "no_ot_drug_recorded": 166
+          }
+        }
+      ]
+    },
+    {
+      "id": "respiratory_thoracic",
+      "name_zh": "呼吸与胸腔系统",
+      "name_en": "Respiratory & Thoracic",
+      "color": "#06b6d4",
+      "count": 587,
+      "share_pct": 2.28,
+      "curated_count": 11,
+      "rare_count": 401,
+      "approved_or_curable_count": 44,
+      "in_trials_count": 39,
+      "cx": -621.29,
+      "cy": -11.59,
+      "stages": {
+        "curable": 3,
+        "controllable": 4,
+        "approved_therapy": 37,
+        "partially_manageable": 4,
+        "phase3_trials": 25,
+        "phase2_trials": 11,
+        "phase1_trials": 3,
+        "no_ot_drug_recorded": 500
+      },
+      "subclusters": [
+        {
+          "name": "急慢性呼吸与肺血管病变",
+          "count": 584,
+          "share_in_domain": 99.49,
+          "curated_count": 8,
+          "rare_count": 401,
+          "cx": -620.35,
+          "cy": -11.24,
+          "stages": {
+            "curable": 1,
+            "controllable": 4,
+            "approved_therapy": 37,
+            "partially_manageable": 3,
+            "phase3_trials": 25,
+            "phase2_trials": 11,
+            "phase1_trials": 3,
+            "no_ot_drug_recorded": 500
+          }
+        },
+        {
+          "name": "环境急症与呼吸危重症",
+          "count": 3,
+          "share_in_domain": 0.51,
+          "curated_count": 3,
+          "rare_count": 0,
+          "cx": -803.16,
+          "cy": -79.96,
+          "stages": {
+            "curable": 2,
+            "partially_manageable": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "psychiatric_behavioral",
+      "name_zh": "精神与心理行为",
+      "name_en": "Psychiatric & Behavioral",
+      "color": "#8b5cf6",
+      "count": 509,
+      "share_pct": 1.98,
+      "curated_count": 3,
+      "rare_count": 226,
+      "approved_or_curable_count": 45,
+      "in_trials_count": 71,
+      "cx": 552.38,
+      "cy": -394.8,
+      "stages": {
+        "controllable": 3,
+        "approved_therapy": 42,
+        "phase3_trials": 49,
+        "phase2_trials": 17,
+        "phase1_trials": 5,
+        "no_ot_drug_recorded": 393
+      },
+      "subclusters": [
+        {
+          "name": "精神、情绪与神经发育障碍",
+          "count": 509,
+          "share_in_domain": 100.0,
+          "curated_count": 3,
+          "rare_count": 226,
+          "cx": 552.38,
+          "cy": -394.8,
+          "stages": {
+            "controllable": 3,
+            "approved_therapy": 42,
+            "phase3_trials": 49,
+            "phase2_trials": 17,
+            "phase1_trials": 5,
+            "no_ot_drug_recorded": 393
+          }
+        }
+      ]
+    },
+    {
+      "id": "digestive_hepatobiliary",
+      "name_zh": "消化与肝胆系统",
+      "name_en": "Digestive & Hepatobiliary",
+      "color": "#f59e0b",
+      "count": 435,
+      "share_pct": 1.69,
+      "curated_count": 8,
+      "rare_count": 187,
+      "approved_or_curable_count": 41,
+      "in_trials_count": 48,
+      "cx": -107.48,
+      "cy": 640.6,
+      "stages": {
+        "curable": 2,
+        "controllable": 2,
+        "approved_therapy": 37,
+        "partially_manageable": 4,
+        "phase3_trials": 27,
+        "phase2_trials": 16,
+        "phase1_trials": 5,
+        "no_ot_drug_recorded": 342
+      },
+      "subclusters": [
+        {
+          "name": "胃肠、肝胆与胰腺疾病",
+          "count": 435,
+          "share_in_domain": 100.0,
+          "curated_count": 8,
+          "rare_count": 187,
+          "cx": -107.48,
+          "cy": 640.6,
+          "stages": {
+            "curable": 2,
+            "controllable": 2,
+            "approved_therapy": 37,
+            "partially_manageable": 4,
+            "phase3_trials": 27,
+            "phase2_trials": 16,
+            "phase1_trials": 5,
+            "no_ot_drug_recorded": 342
+          }
+        }
+      ]
+    },
+    {
+      "id": "reproductive_perinatal",
+      "name_zh": "生殖、孕产与围产期",
+      "name_en": "Reproductive & Perinatal",
+      "color": "#fb7185",
+      "count": 397,
+      "share_pct": 1.54,
+      "curated_count": 0,
+      "rare_count": 147,
+      "approved_or_curable_count": 21,
+      "in_trials_count": 25,
+      "cx": -423.67,
+      "cy": -551.74,
+      "stages": {
+        "approved_therapy": 21,
+        "phase3_trials": 18,
+        "phase2_trials": 7,
+        "no_ot_drug_recorded": 351
+      },
+      "subclusters": [
+        {
+          "name": "生殖系统、孕产与围产期病变",
+          "count": 397,
+          "share_in_domain": 100.0,
+          "curated_count": 0,
+          "rare_count": 147,
+          "cx": -423.67,
+          "cy": -551.74,
+          "stages": {
+            "approved_therapy": 21,
+            "phase3_trials": 18,
+            "phase2_trials": 7,
+            "no_ot_drug_recorded": 351
+          }
+        }
+      ]
+    },
+    {
+      "id": "renal_urinary",
+      "name_zh": "泌尿与肾脏系统",
+      "name_en": "Renal & Urinary",
+      "color": "#14b8a6",
+      "count": 394,
+      "share_pct": 1.53,
+      "curated_count": 3,
+      "rare_count": 282,
+      "approved_or_curable_count": 25,
+      "in_trials_count": 37,
+      "cx": 754.17,
+      "cy": 158.33,
+      "stages": {
+        "controllable": 2,
+        "approved_therapy": 23,
+        "partially_manageable": 1,
+        "phase3_trials": 23,
+        "phase2_trials": 13,
+        "phase1_trials": 1,
+        "no_ot_drug_recorded": 331
+      },
+      "subclusters": [
+        {
+          "name": "肾小球、肾小管与泌尿系统疾病",
+          "count": 394,
+          "share_in_domain": 100.0,
+          "curated_count": 3,
+          "rare_count": 282,
+          "cx": 754.17,
+          "cy": 158.33,
+          "stages": {
+            "controllable": 2,
+            "approved_therapy": 23,
+            "partially_manageable": 1,
+            "phase3_trials": 23,
+            "phase2_trials": 13,
+            "phase1_trials": 1,
+            "no_ot_drug_recorded": 331
+          }
+        }
+      ]
+    }
+  ],
+  "stage_meta": {
+    "curable": {
+      "zh": "临床可治愈",
+      "en": "Curable",
+      "color": "#10b981",
+      "order": 1
+    },
+    "controllable": {
+      "zh": "可长期控制",
+      "en": "Controllable (SOC)",
+      "color": "#3b82f6",
+      "order": 2
+    },
+    "approved_therapy": {
+      "zh": "已有获批药物",
+      "en": "Approved Drugs",
+      "color": "#38bdf8",
+      "order": 3
+    },
+    "partially_manageable": {
+      "zh": "部分缓解/仍高危",
+      "en": "Partially Manageable",
+      "color": "#f59e0b",
+      "order": 4
+    },
+    "phase3_trials": {
+      "zh": "Ⅲ期临床推进中",
+      "en": "Phase III Trials",
+      "color": "#a855f7",
+      "order": 5
+    },
+    "phase2_trials": {
+      "zh": "Ⅱ期临床探索中",
+      "en": "Phase II Trials",
+      "color": "#8b5cf6",
+      "order": 6
+    },
+    "phase1_trials": {
+      "zh": "Ⅰ期/早期临床",
+      "en": "Phase I / Early",
+      "color": "#6366f1",
+      "order": 7
+    },
+    "symptomatic_only": {
+      "zh": "仅对症支持",
+      "en": "Symptomatic Only",
+      "color": "#fb7185",
+      "order": 8
+    },
+    "unmet_no_effective_therapy": {
+      "zh": "尚无有效疗法",
+      "en": "Unmet / No Therapy",
+      "color": "#ef4444",
+      "order": 9
+    },
+    "no_ot_drug_recorded": {
+      "zh": "暂无药物管线记录",
+      "en": "No Recorded Pipeline",
+      "color": "#6b7280",
+      "order": 10
+    }
+  }
+}

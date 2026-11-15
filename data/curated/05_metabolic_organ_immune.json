@@ -1,0 +1,2691 @@
+{
+  "domain": "metabolic_organ_immune",
+  "generated_at": "2026-11-15",
+  "curator": "metabolic-organ-immune",
+  "records": [
+    {
+      "disease_id": "MONDO:0005147",
+      "name_zh": "1型糖尿病",
+      "name_en": "Type 1 Diabetes Mellitus",
+      "aliases_zh": [
+        "胰岛素依赖型糖尿病",
+        "T1DM",
+        "自身免疫性1型糖尿病"
+      ],
+      "icd10": [
+        "E10",
+        "E10.9"
+      ],
+      "icd11": [
+        "5A10"
+      ],
+      "category": "内分泌与代谢性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "自身免疫破坏胰岛β细胞致内源性胰岛素绝对缺乏，依赖外源性胰岛素维持生命；若停用或严重延误胰岛素治疗，数小时至数日内即可诱发糖尿病酮症酸中毒（DKA）、高渗昏迷或致命性低血糖而死亡；长期可致肾衰、失明及心血管早亡。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "目前尚无临床常规根治方案，但通过终生基础-餐时胰岛素替代、实时动态血糖监测（CGM）及自动胰岛素输注系统（闭环人工胰腺）可实现长期稳定控糖，延缓或预防急慢性并发症；2期患者可使用Teplizumab延缓发病，部分严重脆性患者进入干细胞分化胰岛移植临床试验。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 174000,
+          "range_or_note": "IDF Diabetes Atlas第11版估算2025年全球1型糖尿病相关年死亡约17.4万例",
+          "year": "2025",
+          "source": "IDF Diabetes Atlas 11th Edition"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "IDF第11版报告中国全类型糖尿病年相关死亡约76万例，国家死因监测与IDF摘要未单列中国1型糖尿病独立死亡人数",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "IDF Diabetes Atlas第11版估算全球约950万例1型糖尿病患者，年新发约51.3万例，其中43%以上为20岁以下儿童青少年。",
+        "prevalence_china": "中国1型糖尿病总患病人数居全球前三位；全国全年龄段发病率约1.01/10万人年，0-14岁儿童青少年发病率为1.93/10万人年，且65.3%的新发病例为20岁及以上成人（Weng等, BMJ 2018）。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性失代偿（DKA或严重低血糖）抢救：1) DKA按0.9%氯化钠静脉快速补液扩容；2) 小剂量短效胰岛素持续静脉泵入（0.1 U/kg/h）；3) 监测血钾并及时静脉补钾，纠治诱因（感染、中断胰岛素）；4) 严重低血糖伴意识障碍者立即静脉推注50%葡萄糖20-40 mL或肌注胰高血糖素。",
+        "standard_drugs": [
+          {
+            "name_zh": "甘精胰岛素注射液",
+            "name_en": "Insulin Glargine",
+            "drug_class": "长效基础胰岛素类似物",
+            "usage_role": "核心基础维持（每日1次皮下注射提供基础胰岛素）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约48-78元/支（300单位/3 mL，主流中选约70元/支）",
+            "cost_source": "国家常规药品保障局胰岛素专项接续集中带量采购中选结果（平均降价48%）"
+          },
+          {
+            "name_zh": "门冬胰岛素注射液",
+            "name_en": "Insulin Aspart",
+            "drug_class": "速效餐时胰岛素类似物",
+            "usage_role": "核心餐时降糖（三餐前皮下注射及胰岛素泵用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约18-25元/支（300单位/3 mL）",
+            "cost_source": "国家常规药品保障局胰岛素专项接续集中带量采购中选价格"
+          },
+          {
+            "name_zh": "重组人胰岛素（短效）",
+            "name_en": "Regular Human Insulin",
+            "drug_class": "短效人胰岛素",
+            "usage_role": "急症静脉抢救（DKA小剂量静脉泵入标准用药）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "替普利珠单抗",
+            "name_en": "Teplizumab",
+            "drug_class": "抗CD3单克隆抗体",
+            "usage_role": "疾病修饰免疫干预（FDA批准用于延缓2期向3期进展及部分8岁以上早期3期儿科患者）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "持续皮下胰岛素输注（CSII/胰岛素泵）及混合闭环人工胰腺系统",
+          "持续葡萄糖监测（CGM）与结构化碳水化合物计数医学营养管理",
+          "异体胰岛移植或胰肾联合移植（用于合并终末期肾病或难治性脆性低血糖患者）"
+        ],
+        "annual_total_cost_china_cny": "胰岛素专项接续集采平均降价48%后（甘精胰岛素约48-78元/支、门冬胰岛素约18-25元/支），基础注射药物年负担已大幅下降；但胰岛素泵及持续葡萄糖监测（CGM）传感器耗材仍多需额外自费"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 免疫干预方面，FDA在已批2期延缓发病适应证基础上，于PROTECT 3期儿童研究后进一步扩展Teplizumab用于新诊断3期1型糖尿病儿科患者以保护残存β细胞功能；2) 功能性治愈方面，Vertex的同种异体干细胞分化胰岛疗法Zimislecel（VX-880）在1/2/3期试验中使12例满剂量患者100%摆脱严重低血糖事件，10/12（83%）在1年时实现脱离外源性胰岛素。",
+        "key_unmet_needs_zh": "1) 患者仍需终生替代治疗，夜间及无感知低血糖威胁持续存在；2) 干细胞衍生胰岛移植目前仍依赖长期免疫抑制剂以防排斥，无免疫抑制包埋/基因编辑通用型胰岛尚在临床验证；3) 中国患者胰岛素泵与CGM传感器耗材常规药品保障报销覆盖仍不均衡。"
+      },
+      "sources": [
+        {
+          "title": "11th edition of the IDF Diabetes Atlas: global, regional, and national diabetes prevalence estimates for 2024 and projections for 2050",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41412135/",
+          "publisher": "PubMed / International Diabetes Federation",
+          "year": "2025"
+        },
+        {
+          "title": "IDF Diabetes Atlas 11th Edition (2025) & Type 1 Diabetes Facts",
+          "url": "https://idf.org/news-and-resources/resources/idf-diabetes-atlas-11th-edition-2025/",
+          "publisher": "International Diabetes Federation",
+          "year": "2025"
+        },
+        {
+          "title": "Incidence of type 1 diabetes in China, 2010-13: population based study",
+          "url": "https://www.bmj.com/content/360/bmj.j5295",
+          "publisher": "BMJ",
+          "year": "2018"
+        },
+        {
+          "title": "国家医疗保障局关于开展全国药品集中采购（胰岛素专项接续）中选结果执行通知",
+          "url": "https://www.nhsa.gov.cn/art/2024/4/17/art_14_12404.html",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        },
+        {
+          "title": "Vertex Presents Positive Data on Zimislecel in Type 1 Diabetes & FDA Tzield Stage 3 Pediatric Approval",
+          "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-presents-positive-data-zimislecel-type-1-diabetes",
+          "publisher": "Vertex Pharmaceuticals",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0012819",
+      "name_zh": "糖尿病酮症酸中毒",
+      "name_en": "Diabetic Ketoacidosis",
+      "aliases_zh": [
+        "DKA",
+        "酮症酸中毒",
+        "糖尿病急性高血糖危象"
+      ],
+      "icd10": [
+        "E10.1",
+        "E11.1",
+        "E14.1"
+      ],
+      "icd11": [
+        "5A22.0",
+        "5A22.3"
+      ],
+      "category": "内分泌与代谢急症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "严重胰岛素缺乏联合升糖激素急剧升高，导致高血糖、渗透性利尿脱水、脂肪分解产生大量酮体及严重代谢性酸中毒；未及时抢救可在数小时至数日内因低血容量性休克、恶性高/低钾心律失常、脑水肿（儿童尤高危）或呼吸循环衰竭死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "属于可完全逆转的急性代谢危象；在规范执行补液、小剂量胰岛素持续静滴、精确补钾及消除感染等诱因后，绝大多数患者可在24-72小时内纠酸脱险，总体住院生存率超95%，但合并重症脓毒症、脑水肿或高龄2型糖尿病患者死亡风险显著上升。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO及GBD死因分类将DKA归并入“糖尿病”总体死亡统计，未单列全球独立死亡数；临床队列显示发达地区成人DKA住院病死率<1%-2%，医疗欠发达地区及儿童脑水肿相关病死率显著更高",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "国家死因监测未单列DKA独立年死亡总数；中国三甲多中心研究显示整体住院病死率约1.7%，其中2型糖尿病合并DKA住院病死率约3.2%",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球Meta分析显示1型糖尿病患者初诊时即表现为DKA的比例高达41.9%，是儿童青少年及青年糖尿病最主要急性首发危象。",
+        "prevalence_china": "中国新发1型糖尿病患者DKA起病比例高，约40%的住院DKA由感染诱发，其次为胰岛素治疗中断或减量不当；SGLT2抑制剂广泛应用后正常血糖型DKA占比有所上升。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "标准四步抢救方案：1) 首要补液：前1-2小时静脉输入0.9%氯化钠1000-1500 mL恢复有效血容量，血糖降至13.9 mmol/L以下时加用5%葡萄糖盐水；2) 胰岛素治疗：确认血钾≥3.3 mmol/L后予0.1 U/kg/h短效人胰岛素持续静脉泵入至酮体转阴、酸中毒纠正；3) 严密监测并见尿补钾，防止溶酸后低血钾致心搏骤停；4) 积极抗感染及原发病处置，仅在pH<6.9时谨慎小剂量补碱。",
+        "standard_drugs": [
+          {
+            "name_zh": "重组人胰岛素注射液（短效）",
+            "name_en": "Regular Human Insulin",
+            "drug_class": "短效胰岛素",
+            "usage_role": "核心降糖抑酮（小剂量持续静脉输注）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "0.9%氯化钠注射液及氯化钾注射液",
+            "name_en": "0.9% Sodium Chloride & Potassium Chloride",
+            "drug_class": "晶体复苏液及电解质制剂",
+            "usage_role": "一线扩容复苏与预防致命性低血钾",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "5%碳酸氢钠注射液",
+            "name_en": "Sodium Bicarbonate Injection",
+            "drug_class": "碱性纠酸药物",
+            "usage_role": "仅用于重度酸中毒（动脉血pH<6.9）挽救性治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "重症监护每小时毛细血管/血气血糖、血酮及血钾电解质动态追踪",
+          "重度酸中毒伴急性肾衰竭/无尿时行连续性肾脏替代治疗（CRRT）",
+          "儿童DKA并发脑水肿时立即予甘露醇/高渗盐水脱水及气道保护"
+        ],
+        "annual_total_cost_china_cny": "急诊住院由日常基本医疗支出减负及DRG结算，核心抢救药物（短效人胰岛素、生理盐水、氯化钾、碳酸氢钠）均为国家基药及常规基础药物常规药；若合并多器官衰竭入ICU行CRRT（操作费200-350元/次另加耗材）费用明显上升"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "近年来全球内分泌与急救指南（2024 ADA/EASD/JBDS共识及中国DKA规范）重点推广连续性血β-羟丁酸床旁监测、平衡晶体液（乳酸林格/醋酸平衡液）替代大剂量纯生理盐水以减少高氯性酸中毒与缩短ICU住院时间；SGLT2抑制剂相关正常血糖型DKA（euDKA）早识别流程及家庭血酮监测普及显著降低再入院率。",
+        "key_unmet_needs_zh": "1) 初发儿童1型糖尿病“以DKA起病”比例在基层及全球仍居高不下，亟待提升早期高血糖警觉与胰岛自身抗体筛查；2) SGLT2抑制剂围手术期或感染期停药宣教不足导致正常血糖DKA误诊延误；3) 基层急诊频繁血气及血酮动态监测可及性不均。"
+      },
+      "sources": [
+        {
+          "title": "Worldwide prevalence of diabetic ketoacidosis at diagnosis of type 1 diabetes: A systematic review and meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42303108/",
+          "publisher": "PubMed",
+          "year": "2026"
+        },
+        {
+          "title": "Epidemiology, Mortality and Clinical Characteristics of Diabetic Ketoacidosis",
+          "url": "https://www.mdpi.com/1648-9144/60/11/1833",
+          "publisher": "Medicina (MDPI)",
+          "year": "2024"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005148",
+      "name_zh": "2型糖尿病",
+      "name_en": "Type 2 Diabetes Mellitus",
+      "aliases_zh": [
+        "非胰岛素依赖型糖尿病",
+        "T2DM",
+        "成年发病型糖尿病"
+      ],
+      "icd10": [
+        "E11",
+        "E11.9"
+      ],
+      "icd11": [
+        "5A11"
+      ],
+      "category": "内分泌与代谢性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "胰岛素抵抗伴进行性胰岛β细胞功能减退引起长期慢性高血糖，数年至数十年间持续损伤微血管和大血管，是心脑血管病（心肌梗死、脑卒中）、终末期肾病、失明及非创伤性截肢的核心致死致残动因；老年重度失代偿亦可发生致死率极高的高渗性高血糖状态（HHS）。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "绝大多数患者通过生活方式干预联合二甲双胍、SGLT2抑制剂、GLP-1受体激动剂（含双靶点激动剂）及胰岛素等多机制靶向治疗，不仅能稳定控制HbA1c，更可显著降低心肾终点死亡率；少数超重肥胖早期患者通过强效代谢手术或减重达标可实现临床缓解。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "IDF第11版报告2024年全球20-79岁全类型糖尿病相关年死亡超340万例，其中90%以上为2型糖尿病患者；因IDF摘要按全类型糖尿病口径合并报告，故未单列纯T2DM数值",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "IDF第11版估算中国20-79岁全类型糖尿病相关年死亡约76万例（居全球第一），其中绝大部分归因于2型糖尿病及其心肾并发症",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "IDF第11版（2025）报告全球20-79岁成人糖尿病患者约5.89亿（其中>90%为2型糖尿病），预计至2050年将升至8.53亿。",
+        "prevalence_china": "IDF第11版估算中国成人糖尿病患者约1.48亿，患病人数居全球首位；成人标化患病率持续攀升且农村及年轻人群增长显著。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "二甲双胍片/缓释片",
+            "name_en": "Metformin",
+            "drug_class": "双胍类降糖药",
+            "usage_role": "基础一线口服降糖药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "达格列净片",
+            "name_en": "Dapagliflozin",
+            "drug_class": "SGLT2抑制剂",
+            "usage_role": "一线/合并心衰及慢性肾病患者核心护心保肾降糖药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约4.36元/10 mg片（约130元/月，仿制药集采进一步下降）",
+            "cost_source": "国家降价协商常用药品目录公开价格"
+          },
+          {
+            "name_zh": "司美格鲁肽注射液（诺和泰）",
+            "name_en": "Semaglutide (T2DM)",
+            "drug_class": "GLP-1受体激动剂（周制剂）",
+            "usage_role": "合并动脉粥样硬化心血管病或超重肥胖2型糖尿病强效降糖与心肾获益用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约384-421.34元/1.5 mL支，716.28-814元/3 mL支（限2型糖尿病常规目录药物）",
+            "cost_source": "国家常规临床用药目录（2型糖尿病适应证）"
+          },
+          {
+            "name_zh": "替尔泊肽注射液 / 玛仕度肽注射液",
+            "name_en": "Tirzepatide / Mazdutide",
+            "drug_class": "GIP/GLP-1双受体激动剂 / GCG/GLP-1双受体激动剂",
+            "usage_role": "新一代超强效降糖减重双靶点注射制剂（已纳入国家常规临床药品目录T2DM适应证）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "替尔泊肽纳入常规药品保障后价格大幅下调约80%，约300-900元/月支（按剂量规格）",
+            "cost_source": "国家常规临床药品目录谈判公开挂网及申报档案（2025-2026年）"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "医学营养干预（低GI限能量饮食）及每周≥150分钟规律有氧与抗阻运动",
+          "代谢减重手术（腹腔镜袖状胃切除或胃旁路术，适用于重度肥胖合并难治性T2DM缓解治疗）",
+          "系统性高血压、血脂异常及尿白蛋白/肌酐比值（UACR）定期心肾早筛"
+        ],
+        "annual_total_cost_china_cny": "基础集采口服方案（二甲双胍、达格列净约4.36元/10 mg片等）年药费负担低；联用常规目录药物GLP-1或双靶点周制剂（诺和泰384-814元/支或替尔泊肽300-900元/月支）经常规医疗减负后显著减负；若进展至尿毒症透析则年医疗费攀升至6万-15万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2024-2026年多靶点肠促胰素药物迅速迭代：替尔泊肽（GIP/GLP-1双激动剂）及中国原研玛仕度肽（GCG/GLP-1双激动剂）相继获NMPA批准治疗2型糖尿病并进入国家常规临床药品目录；口服小分子非肽类GLP-1激动剂（Orforglipron）及GLP-1/GIP/GCG三靶点激动剂（Retatrutide）在3期研究中展现出接近代谢手术的降糖减重幅度与脂肪肝改善。",
+        "key_unmet_needs_zh": "1) 中国近半数患者尚未确诊或未达标（知晓率、治疗率及HbA1c<7%综合达标率仍待提升）；2) 基层糖尿病足、视网膜病变及早期CKD（UACR）筛查率严重偏低；3) 多重并发症高龄患者的去强化安全用药体系需加强。"
+      },
+      "sources": [
+        {
+          "title": "11th edition of the IDF Diabetes Atlas: global, regional, and national diabetes prevalence estimates for 2024 and projections for 2050",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41412135/",
+          "publisher": "PubMed / IDF",
+          "year": "2025"
+        },
+        {
+          "title": "IDF Diabetes Atlas 11th Edition Facts & Figures",
+          "url": "https://idf.org/about-diabetes/facts-figures/",
+          "publisher": "International Diabetes Federation",
+          "year": "2025"
+        },
+        {
+          "title": "Diabetes Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+          "publisher": "World Health Organization",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004425",
+      "name_zh": "甲状腺功能亢进症与甲状腺危象",
+      "name_en": "Hyperthyroidism and Thyroid Storm",
+      "aliases_zh": [
+        "甲亢",
+        "毒性弥漫性甲状腺肿",
+        "Graves病",
+        "甲状腺危象"
+      ],
+      "icd10": [
+        "E05.0",
+        "E05.5",
+        "E05.9"
+      ],
+      "icd11": [
+        "5A02",
+        "5A02.5"
+      ],
+      "category": "内分泌与代谢急症",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "普通甲亢为慢性高代谢性疾病，可逐步诱发甲亢性心脏病、房颤与心力衰竭；但当遭遇感染、手术、停药或创伤诱发“甲状腺危象（Thyroid Storm）”时，大量甲状腺激素释放入血，若未予抢救病死率高达80%-100%，即便经过现代ICU综合救治，其短期住院/90天病死率仍达8%-25%。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "常规甲亢可通过抗甲状腺药物（约40%-50%缓解）、放射性131I治疗或甲状腺次全/全切术实现临床控制甚至根治；甲状腺危象则须ICU级多药联合阻断激素合成、释放与外周转化并予糖皮质激素、支持与控心率。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列甲亢/甲状腺危象全球独立死因总数；临床文献显示甲状腺危象约占住院甲毒症患者的1.48%，未治病死率80%-100%，积极治疗下14天、28天及90天病死率分别约为5.23%、6.59%和8.12%（综合住院/ICU报道8%-25%）",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无独立全国年度死因统计；中国地区人群常规药品保障队列测算甲状腺危象年发病率约0.55/10万人年，病死风险集中于合并多器官功能衰竭及甲亢性心衰患者",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球碘充足地区显性甲亢患病率约0.2%-1.3%，Graves病占全部甲亢病例的60%-80%。",
+        "prevalence_china": "中国31省TIDE全国调查（约8万人样本）显示成人显性甲亢患病率为0.78%（女性1.16%、男性0.64%），其中Graves病患病率为0.53%（PMC8194401）。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "甲状腺危象（Burch-Wartofsky评分≥45分）四联序贯急救：1) 立即口服/鼻饲大剂量丙硫氧嘧啶（PTU首剂500-1000 mg后250 mg q4h）阻断新激素合成及外周T4向T3转化；2) 服用PTU后严格间隔1小时再予复方碘溶液（Lugol液）抑制已合成激素释放；3) 静脉或口服普萘洛尔控制交感风暴与心室率（心衰者改用短效艾司洛尔）；4) 静脉注射氢化可的松100 mg q8h防相对肾上腺皮质功能不全，同时物理降温、补液并抗感染；顽固高热/昏迷可行血浆置换。",
+        "standard_drugs": [
+          {
+            "name_zh": "甲巯咪唑片",
+            "name_en": "Methimazole (Thiamazole)",
+            "drug_class": "硫脲类抗甲状腺药",
+            "usage_role": "绝大多数非妊娠/非危象甲亢及Graves病首选一线长期口服维持药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约10-40元/盒",
+            "cost_source": "国家基本药物目录及常规目录药物常规药价"
+          },
+          {
+            "name_zh": "丙硫氧嘧啶片",
+            "name_en": "Propylthiouracil (PTU)",
+            "drug_class": "硫脲类抗甲状腺药",
+            "usage_role": "甲状腺危象抢救首选及妊娠早期甲亢首选药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约10-40元/盒",
+            "cost_source": "国家常规基础药物及基本药物目录药价"
+          },
+          {
+            "name_zh": "普萘洛尔片 / 艾司洛尔注射液",
+            "name_en": "Propranolol / Esmolol",
+            "drug_class": "非选择性/超短效β受体阻滞剂",
+            "usage_role": "快速控制甲状腺危象及重度甲亢伴心动过速、震颤与高交感张力",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "氢化可的松注射液",
+            "name_en": "Hydrocortisone Injection",
+            "drug_class": "糖皮质激素",
+            "usage_role": "甲状腺危象抑制T4向T3转化及替代肾上腺皮质应激",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "放射性131I碘内照射治疗（药效复发、老年或伴心脏病者根治性选择）",
+          "甲状腺次全/全切除手术（巨大压迫、疑似恶变或拒绝碘131治疗者）",
+          "危象难治患者行治疗性血浆置换（TPE）清除血液循环游离甲状腺激素"
+        ],
+        "annual_total_cost_china_cny": "常规口服抗甲状腺药物（甲巯咪唑/丙硫氧嘧啶约10-40元/盒）维持药费极低廉；若突发甲状腺危象入ICU多学科抢救及血浆置换等费用视并发症情况明显增加"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 针对Graves病及甲状腺相关眼病（TED）的精准靶向免疫治疗取得实质进展：FcRn抑制剂（Batoclimab、Efgartigimod）及靶向TSH受体的单克隆抗体/小分子拮抗剂（如K1-70）在2期试验中展示降低TRAb致病抗体水平潜力；2) 针对中重度活动性甲状腺眼病的IGF-1R抑制剂替妥尤单抗（Teprotumumab及国内同类生物制剂）推动多靶点个体化治疗。",
+        "key_unmet_needs_zh": "1) 抗甲状腺药物停药后复发率仍高达40%-50%，且少数患者发生粒细胞缺乏与重度肝损伤；2) 甲状腺危象早期非特异性症状易误诊为脓毒症或精神躁狂导致延误；3) 基层131I后甲减长期随访依从性不足。"
+      },
+      "sources": [
+        {
+          "title": "Hyperthyroidism Prevalence in China After Universal Salt Iodization",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8194401/",
+          "publisher": "Frontiers in Endocrinology (PMC)",
+          "year": "2021"
+        },
+        {
+          "title": "Thyroid Storm Patient Information & Clinical Overview",
+          "url": "https://www.thyroid.org/patient-thyroid-information/ct-for-patients/september-2023/vol-16-issue-9-p-12-13/",
+          "publisher": "American Thyroid Association",
+          "year": "2023"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0015128",
+      "name_zh": "原发性肾上腺皮质功能减退症与肾上腺危象",
+      "name_en": "Primary Adrenal Insufficiency and Adrenal Crisis",
+      "aliases_zh": [
+        "Addison病",
+        "艾迪生病",
+        "原发性慢性肾上腺皮质功能减退症",
+        "肾上腺危象"
+      ],
+      "icd10": [
+        "E27.1",
+        "E27.2"
+      ],
+      "icd11": [
+        "5A74.0",
+        "5A74.1"
+      ],
+      "category": "内分泌与代谢急症",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "双侧肾上腺皮质破坏（自身免疫、结核、出血或遗传性）导致皮质醇与醛固酮双重缺乏。平时呈慢性乏力与色素沉着，一旦遇感染、胃肠炎、外伤、手术或擅自停药，可在数小时至1-2日内突发肾上腺危象：严重难治性低血压休克、低钠高钾血症、顽固性低血糖，若未及时静注糖皮质激素抢救病死率极高。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "自身免疫等器质性破坏一般需终身激素替代治疗，但只要规范每日补充生理剂量氢化可的松及氟氢可的松、并在感染或手术应激期严格执行“应激加倍法则”，患者寿命和生活质量可接近常人；但肾上腺危象相关死亡使患者标化死亡率仍约为一般人群的2倍。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "属于罕见内分泌疾病，WHO/GBD无单列年度全球死亡计数；多项欧美大型登记队列显示肾上腺危象发生率约6-8例/100患者年，危象直接病死率约0.5例/100患者年，整体标化死亡率（SMR）约2倍",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国性Addison病死亡统计；临床死亡主要源于未识别或延误静注氢化可的松的急性肾上腺危象及合并结核性多浆膜炎感染",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "Orphanet（ORPHA:85138）记录慢性原发性肾上腺皮质功能减退症全球患病率约1-5/10,000（欧美登记约为82-144例/百万人）。",
+        "prevalence_china": "中国无全国流行病学横断面数据，总体亦属罕见病（已列入国家罕见病相关诊疗保障视野）；病因以自身免疫性肾上腺炎及肾上腺结核最为常见。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肾上腺危象抢救：绝对不能等待ACTH及皮质醇化验结果再给药！怀疑即刻执行：1) 立即静脉推注氢化可的松琥珀酸钠100 mg，随后24小时持续静脉泵入200 mg（或50 mg q6h静脉注射）；2) 快速静脉输注0.9%氯化钠注射液1000 mL（首小时）纠治顽固性低血容量休克，合并低血糖者同时静脉推注葡萄糖；3) 高钾血症常随扩容及激素替代自行改善，重度高钾予钙剂及胰岛素葡萄糖保护心肌；4) 排查并控制感染、出血等诱因。",
+        "standard_drugs": [
+          {
+            "name_zh": "氢化可的松片 / 琥珀酸钠注射液",
+            "name_en": "Hydrocortisone",
+            "drug_class": "短效糖皮质激素（生理性替代）",
+            "usage_role": "模拟皮质醇昼夜节律的一线维持替代（分2-3次口服）及危象急救静注用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "数十元/瓶（片剂及注射剂均廉价易得）",
+            "cost_source": "国家基本药物目录及常规基础药物目录"
+          },
+          {
+            "name_zh": "醋酸氟氢可的松片（赋能定等）",
+            "name_en": "Fludrocortisone Acetate",
+            "drug_class": "盐皮质激素",
+            "usage_role": "原发性患者核心醛固酮替代（调节血钠血钾与直立性血压）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约2.25元/0.1 mg片（100片装约225元，打破此前国内长期断药或天价代购困局）",
+            "cost_source": "2024年NMPA获批上市及国家降价协商常用药品目录乙类公开挂网价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "患者及家属系统性“应激期糖皮质激素加倍原则（Sick Day Rules）”及随身急救警示卡教育",
+          "伴肾上腺结核活动期者予规范四联抗结核治疗"
+        ],
+        "annual_total_cost_china_cny": "醋酸氟氢可的松国内上市并入常规药品保障谈判乙类（2.25元/0.1 mg片）后，联合基药氢化可的松（数十元/瓶）每日双激素替代年药费低廉，肾上腺危象急诊抢救静注氢化可的松属常规基础药物保障"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 中国可及性里程碑：2024年国产/引进醋酸氟氢可的松片获NMPA正式批准并成功通过常规药品保障谈判进入国家常规降价保障目录乙类目录（2.25元/片），彻底结束中国Addison病与失盐型先天性肾上腺皮质增生症患者长期无合法盐皮质激素可用的历史；2) 国际上持续开发控释生理节律氢化可的松微丸/缓释片及皮下泵输注以改善长期心血管与睡眠代谢结局。",
+        "key_unmet_needs_zh": "1) 非内分泌科及急诊医护对肾上腺危象早期识别不足（易误诊为普通感染性休克或急性胃肠炎而漏给氢化可的松）；2) 基层医院常备静脉氢化可的松及患者随身应急注射套盒可及性仍有缺口；3) 普通氢化可的松片难以完全复制凌晨皮质醇生理高峰。"
+      },
+      "sources": [
+        {
+          "title": "Primary adrenal insufficiency (ORPHA:85138)",
+          "url": "https://www.orpha.net/en/disease/detail/85138",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Group 1. Epidemiology of primary and secondary adrenal insufficiency: Prevalence and incidence, acute adrenal insufficiency, long-term morbidity and mortality",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29174931/",
+          "publisher": "European Journal of Endocrinology (PubMed)",
+          "year": "2017"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005393",
+      "name_zh": "高尿酸血症与痛风",
+      "name_en": "Hyperuricemia and Gout",
+      "aliases_zh": [
+        "痛风性关节炎",
+        "痛风石",
+        "慢性高尿酸血症"
+      ],
+      "icd10": [
+        "E79.0",
+        "M10.0",
+        "M10.9"
+      ],
+      "icd11": [
+        "FA25",
+        "FA25.0",
+        "5C55.Y"
+      ],
+      "category": "内分泌与代谢性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "low_lethality",
+      "lethality_detail_zh": "本身极少直接致死（GBD归类为非致死性致残病种），但长期尿酸盐结晶沉积可致剧痛性急性关节炎反复发作、痛风石形成及骨关节毁损，引起尿酸性肾结石、慢性痛风性肾病甚至进展为终末期肾衰，并显著增加冠心病与慢性肾病全因死亡风险。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "属高度可控代谢病；急性期采用秋水仙碱、NSAIDs或激素/抗IL-1β单抗快速镇痛消炎，缓解期通过别嘌醇、非布司他或苯溴马隆长期达标降尿酸（血尿酸控制<360或<300 μmol/L）并配合饮食体重管理，可完全预防复发并逐步溶解痛风石。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021将痛风归类为非致死性疾病（无独立归因死亡总数）；2021年全球痛风导致约175万伤残调整生命年（DALYs），主要源于剧烈疼痛与关节功能障碍",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无独立致死计数；GBD 2021数据显示中国痛风疾病负担中约31.4%的DALYs归因于高BMI肥胖危险因素",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "GBD 2021估算全球痛风现患人数约5,700万例，年新发约940万例，全球患病呈显著年轻化与上升趋势。",
+        "prevalence_china": "国家卫健委《成人高尿酸血症与痛风食养指南（2024年版）》引用调查显示，中国成人高尿酸血症患病率约14%（患者近2亿），痛风患病率为1.1%-3.2%，男性患病率高于女性2.8倍以上，年轻化趋势突出。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "别嘌醇片",
+            "name_en": "Allopurinol",
+            "drug_class": "黄嘌呤氧化酶抑制剂（降尿酸）",
+            "usage_role": "一线降尿酸首选（HLA-B*5801高危人群用药前需基因筛查以防重症药疹）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约0.94元/片（国家集采大幅降价，月费用十余元）",
+            "cost_source": "国家药品集中带量采购中选结果及常规基础药物"
+          },
+          {
+            "name_zh": "非布司他片",
+            "name_en": "Febuxostat",
+            "drug_class": "非嘌呤类选择性黄嘌呤氧化酶抑制剂",
+            "usage_role": "一线降尿酸药（肾功能不全轻中度者通常无需减量，常规药品保障限痛风患者长期降尿酸）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "秋水仙碱片",
+            "name_en": "Colchicine",
+            "drug_class": "微管聚合抑制剂（抗炎镇痛）",
+            "usage_role": "急性痛风发作24小时内小剂量一线控制及降尿酸初期预防诱发发作",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约10-25元/瓶（集采及常规基础药物低价药）",
+            "cost_source": "国家常规基础药物目录"
+          },
+          {
+            "name_zh": "伏欣奇拜单抗（Firsekibart）",
+            "name_en": "Firsekibart",
+            "drug_class": "重组抗IL-1β全人源单克隆抗体",
+            "usage_role": "中国1类原研创新药，用于传统抗炎镇痛药物不耐受/无效/禁忌的难治性急性痛风性关节炎长效控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "低嘌呤与限制高果糖浆饮料饮食管理、戒酒（尤其啤酒及烈酒）与循序减重",
+          "每日充足饮水（2000 mL以上）及枸橼酸氢钾钠碱化尿液（针对尿酸性肾结石患者）",
+          "关节巨大痛风石破溃、压迫神经或影响功能时的微创手术清除"
+        ],
+        "annual_total_cost_china_cny": "集采降尿酸药（如别嘌醇约0.94元/片）与急性期秋水仙碱（约10-25元/瓶）维持药费低廉；若常规治疗不耐受或难治需应用新版国家常规药品保障纳入的IL-1β单抗伏欣奇拜单抗则费用显著高于传统口服方案"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 中国1类原研抗IL-1β单抗伏欣奇拜单抗获批用于难治性急性痛风性关节炎并纳入新版国家常规临床药品目录，单次注射可长效镇痛并降低6个月内复发；2) 高选择性URAT1抑制剂多替诺雷（Dotinurad）及国产靶向URAT1新药在降低肝脏与肾结晶毒性方面进入临床广泛应用/后期验证阶段。",
+        "key_unmet_needs_zh": "1) 中国人群长期规范降尿酸达标率及依从性极低（大量患者仅发作期止痛、疼痛缓解即停药，导致痛风石与痛风性肾病进展）；2) 中国汉族高携带率的HLA-B*5801致死性超敏反应基因筛查普及不充分；3) 合并重度慢性肾病（eGFR<30）患者的降尿酸用药选择高度受限。"
+      },
+      "sources": [
+        {
+          "title": "Global burden and trends of gout incidence and prevalence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12700740/",
+          "publisher": "PubMed Central (GBD 2021 Analysis)",
+          "year": "2025"
+        },
+        {
+          "title": "成人高尿酸血症与痛风食养指南（2024年版）",
+          "url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d/files/1743476135548_41457.pdf",
+          "publisher": "国家卫生健康委员会",
+          "year": "2024"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005139",
+      "name_zh": "严重肥胖与代谢综合征",
+      "name_en": "Severe Obesity and Metabolic Syndrome",
+      "aliases_zh": [
+        "病态肥胖",
+        "重度肥胖症",
+        "中心性肥胖合并代谢综合征"
+      ],
+      "icd10": [
+        "E66.01",
+        "E66.2",
+        "E88.81"
+      ],
+      "icd11": [
+        "5B81",
+        "5B81.01",
+        "5A44"
+      ],
+      "category": "内分泌与代谢性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "内脏脂肪异常蓄积驱动严重胰岛素抵抗、系统性慢性低度炎症及高血压、高血脂、脂肪肝（MASH）等多器官代谢失调，数年至数十年间倍增心肌梗死、脑卒中、2型糖尿病、多种肥胖相关肿瘤及阻塞性睡眠呼吸暂停猝死风险，显著折损预期寿命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "可通过系统强化医学营养运动干预、新一代多靶点肠促胰素减重药物（减重幅度达15%-22%+）以及腹腔镜代谢减重手术（实现长期25%-35%持久减重并逆转糖尿病/睡眠呼吸暂停）获得强效控制，但停药或复胖挑战普遍存在。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD将高体质指数（High BMI）作为独立风险归因因素而非直接ICD根本死因统计（无单列“肥胖”直接死亡数字）；GBD评估高BMI每年在全球促成数百万例心血管及代谢相关性早亡",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单独“肥胖/代谢综合征”死亡统计条目，但高BMI在中国心血管、糖尿病与慢性肾病归因死亡中的贡献率在近二十年增速最快",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "WHO报告全球成人肥胖（BMI≥30）患病率约为16%（1990年至2022年翻倍以上增长），青少儿超重肥胖同步激增。",
+        "prevalence_china": "基于1580万中国成人的全国真实世界横断面研究显示，按中国BMI切点超重率约34.8%、肥胖率（BMI≥28）约14.1%（男性17.6%、女性9.6%），另有报道临床肥胖/超重相关并发症及代谢综合征成人患病率达20%-27%（PMID:37589256）。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "司美格鲁肽注射液（减重适应证/诺和盈）",
+            "name_en": "Semaglutide (Wegovy)",
+            "drug_class": "GLP-1受体激动剂",
+            "usage_role": "长期体重管理（平均减重约15%，合并心血管获益）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "单纯减重适应证不纳入国家常规临床药品目录，全程自费",
+            "cost_source": "国家基本医疗保险药品目录支付排除规则"
+          },
+          {
+            "name_zh": "替尔泊肽 / 玛仕度肽（减重适应证）",
+            "name_en": "Tirzepatide / Mazdutide (Obesity)",
+            "drug_class": "GIP/GLP-1或GCG/GLP-1双靶点激动剂",
+            "usage_role": "重度肥胖与代谢性脂肪肝强效减重（18%-22%+减重幅度）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "单纯减重适应证不纳入国家常规临床药品目录，全程自费",
+            "cost_source": "国家基本医疗保险药品目录支付排除规则"
+          },
+          {
+            "name_zh": "奥利司他胶囊",
+            "name_en": "Orlistat",
+            "drug_class": "胃肠道脂肪酶抑制剂",
+            "usage_role": "非中枢性常规辅助减重非处方药物",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "国家卫健委“体重管理年”多学科MDT饮食限能量与个体化运动行为干预",
+          "腹腔镜袖状胃切除术（LSG）或Roux-en-Y胃旁路术（RYGB）（用于BMI≥32.5或≥27.5合并严重代谢病者）",
+          "无创正压通气（CPAP）治疗合并的重度阻塞性睡眠呼吸暂停低通气综合征（OSAHS）"
+        ],
+        "annual_total_cost_china_cny": "减重适应证GLP-1及双靶点药物属全自费范围，长期自费负担较高；若重度病理性肥胖合并2型糖尿病/代谢综合征行腹腔镜袖状胃切除等代谢手术，单次手术总住院费约30,000-60,000元（符合治疗性并发症指征时住院常规药品保障可按30%-60%比例报销）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 国产原研双靶点GCG/GLP-1激动剂玛仕度肽（Mazdutide）在2025年获批中国成人长期体重管理并推动肥胖合并代谢综合征伴脂肪肝改善；2) 三靶点GIP/GLP-1/GCG激动剂Retatrutide（最高减重达24.2%）及口服非肽类GLP-1与胰淀素复方CagriSema处于全球3期冲刺；3) 司美格鲁肽证实可减少非糖尿病肥胖人群20%主要心血管不良事件（SELECT试验）。",
+        "key_unmet_needs_zh": "1) 根据日常基本医疗支出减负法律定位，减重适应证新药与生活方式治疗长期自费，患者难以长期承受引发停药反弹；2) 停用肠促胰素后脂肪反弹与骨骼肌流失问题需要联用肌保护新靶点（如ActRIIB/肌抑素通路）；3) 基层营养与减重多学科体系尚在建设期。"
+      },
+      "sources": [
+        {
+          "title": "Obesity and overweight Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+          "publisher": "World Health Organization",
+          "year": "2024"
+        },
+        {
+          "title": "Prevalence of obesity and associated complications in China: A cross-sectional, real-world study in 15.8 million adults",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37589256/",
+          "publisher": "Diabetes, Obesity and Metabolism (PubMed)",
+          "year": "2023"
+        },
+        {
+          "title": "国家医疗保障局药品目录及玛仕度肽相关审批/申报公开资料",
+          "url": "https://www.nhsa.gov.cn/attach/Ypsn2026/YPSW202600254/YPSW202600254.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2026"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005300",
+      "name_zh": "慢性肾脏病与终末期肾病（尿毒症）",
+      "name_en": "Chronic Kidney Disease and End-Stage Renal Disease",
+      "aliases_zh": [
+        "CKD",
+        "ESRD",
+        "尿毒症",
+        "慢性肾衰竭"
+      ],
+      "icd10": [
+        "N18.3",
+        "N18.4",
+        "N18.5"
+      ],
+      "icd11": [
+        "GB61",
+        "GB61.5"
+      ],
+      "category": "器官衰竭与泌尿系统疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "肾单位不可逆进行性丢失导致eGFR逐年下降，早中期常隐匿无症状但成倍放大心脑血管死亡风险；进展至5期尿毒症期若不行规律血液透析、腹膜透析或肾移植，数周至数月内即因严重高钾血症心跳骤停、尿毒症脑病、急性左心衰肺水肿及代谢性酸中毒死亡。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "早中期（1-3期）可通过ACEI/ARB、SGLT2抑制剂、非奈利酮（“护肾新支柱”）及病因靶向治疗显著延缓进展达十余年以上甚至长期稳定；终末期肾病虽不可逆但通过血液透析、腹膜透析及肾移植可替代维持生命数十年。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 1530000,
+          "range_or_note": "GBD 2021估算2021年全球慢性肾脏病直接导致约153万例死亡，另有大量归因于CKD伴发心血管疾病死亡",
+          "year": "2021",
+          "source": "GBD 2021 Study"
+        },
+        "annual_deaths_china": {
+          "value": 204000,
+          "range_or_note": "GBD 2021估算中国慢性肾脏病年死亡约20.4万例",
+          "year": "2021",
+          "source": "GBD 2021 Study"
+        },
+        "prevalence_global": "GBD 2021估算全球慢性肾脏病患病人数约6.7亿至8.5亿（成人患病率约9%-10%），为增长最快的重大慢性死因之一。",
+        "prevalence_china": "第六次全国慢性病及危险因素监测（JAMA Intern Med 2023）报告中国成人CKD患病率约为8.2%（约8,200万成人，知晓率仅约10%）；CNRDS登记显示至2023年底全国在透患者超106万例（其中血透916,647例、腹透152,745例）。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "尿毒症急性致命并发症紧急处理：合并高钾血症（血钾≥6.5 mmol/L或ECG出现QRS增宽）或急性肺水肿时，即刻静推10%葡萄糖酸钙10-20 mL稳定心肌膜电位，予胰岛素+葡萄糖及高剂量速尿/沙丁胺醇促钾内移，并紧急开通中心静脉导管行床旁血液透析或CRRT清除钾负荷与容量。",
+        "standard_drugs": [
+          {
+            "name_zh": "达格列净片",
+            "name_en": "Dapagliflozin",
+            "drug_class": "SGLT2抑制剂",
+            "usage_role": "不论是否合并糖尿病的蛋白尿型CKD一线基础护肾保心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约4.36元/10 mg片（约130元/月）",
+            "cost_source": "国家降价协商常用药品目录公开挂网价"
+          },
+          {
+            "name_zh": "非奈利酮片",
+            "name_en": "Finerenone",
+            "drug_class": "第三代高选择性非甾体盐皮质激素受体拮抗剂（MRA）",
+            "usage_role": "糖尿病相关慢性肾病减少蛋白尿、延缓肾衰及降低心衰死亡核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约6.45元/10 mg片（2024年常规药品保障成功续约）",
+            "cost_source": "2024年国家药品降价协商续约公开价"
+          },
+          {
+            "name_zh": "布地奈德肠溶胶囊（耐赋康/Nefecon）",
+            "name_en": "Targeted-release Budesonide",
+            "drug_class": "靶向回肠末端Peyer结黏膜糖皮质激素",
+            "usage_role": "中国高发原发性IgA肾病对因减缓eGFR丢失的突破性口服用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "罗沙司他胶囊 / 重组人促红素及碳酸镧等磷结合剂",
+            "name_en": "Roxadustat / EPO / Phosphate Binders",
+            "drug_class": "HIF-PHI / 促红细胞生成素 / 非含钙磷结合剂",
+            "usage_role": "纠正肾性贫血与慢性肾病矿物质骨代谢异常（CKD-MBD）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "维持性血液透析（HD，每周3次，我国在透主力方式超91万人）",
+          "持续非卧床/自动化腹膜透析（CAPD/APD，居家可及性强）",
+          "同种异体肾移植（最佳生活质量与长期生存替代方式，供肾短缺为主要瓶颈）"
+        ],
+        "annual_total_cost_china_cny": "血液透析年总医疗费用约80,000-150,000元，腹膜透析约60,000-100,000元；同种异体肾移植首年费用约200,000-300,000元，此后抗排异年维护约30,000-60,000元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 靶向药物领域，Nefecon（IgA肾病对因治疗进入中国常规药品保障）与司美格鲁肽FLOW试验显著降低T2DM合并CKD肾脏复合终点及死亡风险；2) 异种肾移植重大里程碑：2025年FDA正式批准eGenesis和United Therapeutics开展基因编辑猪肾人体异种移植临床试验，并在多例活体受者中观察到数月至半年以上持续功能存活；中国在基因编辑供体猪研究领域亦步入临床前/探索性临床转化。",
+        "key_unmet_needs_zh": "1) 中国成人CKD患者知晓率仅约10%，绝大多数患者直到出现尿毒症症状才首次确诊；2) 中国供肾移植年例数（约万余例）远不能满足超106万透析人群需求；3) 透析人群心血管死亡、血管钙化及难治性瘙痒依然沉重。"
+      },
+      "sources": [
+        {
+          "title": "Prevalence of Chronic Kidney Disease in China: Results From the Sixth China Chronic Disease and Risk Factor Surveillance",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9941971/",
+          "publisher": "JAMA Internal Medicine (PMC)",
+          "year": "2023"
+        },
+        {
+          "title": "Global burden of chronic kidney disease and risk factors, 1990–2021: an update from the global burden of disease study 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12366504/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        },
+        {
+          "title": "中国血液净化病例信息登记系统（CNRDS）透析人群发展报告（中华肾脏病杂志）",
+          "url": "http://www.cjn.org.cn/CN/10.3760/cma.j.cn441217-20220418-00158",
+          "publisher": "中华肾脏病杂志",
+          "year": "2022"
+        },
+        {
+          "title": "Efficacy and Safety of Nefecon in Patients with IgA Nephropathy from Mainland China: 2-Year NefIgArd Trial Results",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11687989/",
+          "publisher": "PubMed Central",
+          "year": "2024"
+        },
+        {
+          "title": "Recent progress in pig-to-human kidney xenotransplantation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12727543/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002492",
+      "name_zh": "急性肾损伤",
+      "name_en": "Acute Kidney Injury",
+      "aliases_zh": [
+        "AKI",
+        "急性肾衰竭",
+        "急性肾功能衰竭"
+      ],
+      "icd10": [
+        "N17",
+        "N17.9"
+      ],
+      "icd11": [
+        "GB60",
+        "GB60.2"
+      ],
+      "category": "急危重症与肾脏疾病",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "肾灌注骤降（休克/脓毒症）、肾毒性药物或尿路梗阻在48小时至7天内导致肾功能急剧恶化、水钠潴留与尿毒症毒素蓄积；重度AKI可于数小时至数日内因高钾血症心搏骤停、难治性肺水肿及多器官功能障碍（MODS）死亡，ICU需要透析患者的住院病死率常达50%以上。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "无特异性“逆转肾小管坏死”药物，以迅速去除病因（纠休克、停肾毒药、解梗阻）、精准容量管理及CRRT器官替代为基石；轻中度且肾前性/梗阻性AKI及时处理可完全复原，但重症伴MODS者病死率极高且相当比例幸存者遗留慢性肾脏病（AKI-to-CKD转化）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO/GBD死因清单未将AKI单独列为单一根本死因（多归于脓毒症、心源性休克或中毒原发病）；KDIGO估算全球每年数百万例住院患者并发AKI并相关死亡，普通住院AKI总体病死率约20%，ICU需肾脏替代治疗者达50%以上",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "无国家单列死因总数；杨莉团队《柳叶刀》中国全国调查显示综合住院患者AKI高漏诊（仅约1/4被及时诊断）、总体院内病死率约12%-13%，国内ICU危重病人AKI发生率超30%且病死率显著升高",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "KDIGO统计全球住院患者AKI发生率约为10%-15%，在重症监护室（ICU）中发生率高达30%-50%以上。",
+        "prevalence_china": "北京大学第一医院等牵头全国多中心调查估算中国每年住院患者中约有数百万人次发生AKI（《柳叶刀》研究推算约140万-290万例住院患者发生AKI，总漏诊率高达74%以上），药源性与脓毒症占主要病因。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "KDIGO急性期救治规范：1) 立即停用全部非必需肾毒性药物（氨基糖苷类、NSAIDs、含碘对比剂等）及排查超声泌尿系梗阻；2) 有创/动态容量评估下迅速恢复有效肾灌注压（晶体液复苏+必要时去甲肾上腺素升压）；3) 高钾血症即刻钙剂护心+降钾；4) 出现利尿剂抵抗性急性肺水肿、重度高钾、严重酸中毒（pH<7.15）或尿毒症脑病/心包炎时立即开通连续性肾脏替代治疗（CRRT）。",
+        "standard_drugs": [
+          {
+            "name_zh": "呋塞米注射液",
+            "name_en": "Furosemide Injection",
+            "drug_class": "襻利尿剂",
+            "usage_role": "仅用于评估容量负荷过重患者的肺水肿与利尿反应测试（不推荐无指征用于预防AKI）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "去甲肾上腺素注射液",
+            "name_en": "Norepinephrine",
+            "drug_class": "血管活性升压药",
+            "usage_role": "脓毒症及分布性休克相关AKI维持平均动脉压≥65 mmHg保障肾灌注",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "人血白蛋白 / 平衡晶体液",
+            "name_en": "Human Albumin / Balanced Crystalloids",
+            "drug_class": "血浆扩容及等渗液体",
+            "usage_role": "低血容量或肝肾综合征合并AKI患者的扩容复苏（后者联用特利加压素）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "连续性肾脏替代治疗（CRRT）及高通量血液滤过支持",
+          "解除泌尿系急性梗阻（输尿管支架置入、经皮肾造瘘）",
+          "出院后3个月内随访血肌酐与尿蛋白以早期阻断AKI向慢性肾脏病转化"
+        ],
+        "annual_total_cost_china_cny": "住院全程按日常基本医疗支出减负及DRG结算；如需行ICU连续性肾脏替代治疗（CRRT），治疗操作费约200-350元/次，另需加收一次性体外管路、滤器及置换液耗材，总体费用随休克脓毒症救治周期显著升高"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "1) 早筛生物标志物（如TIMP-2×IGFBP7 [NephroCheck]、NGAL及电子病历AKI实时预警系统）在全球ICU推广，可提前12-24小时识别亚临床肾小管损伤；2) STARRT-AKI及AKIKI-2等大型多中心RCT明确在无危及生命合并症时不提倡过早盲目启动CRRT；3) 靶向线粒体保护、抗凋亡及间充质干细胞修复AKI制剂（如Reldesemtiv/Teprasiran等曾探索路径）持续探索肾小管再生靶点。",
+        "key_unmet_needs_zh": "1) 目前全球尚无任何一种获批临床应用的特异性促进肾小管上皮再生/逆转已发生AKI的靶向药物；2) 中国住院患者AKI漏诊率超过七成、非肾科药物性AKI（中药、抗生素、止痛药联用）监测乏力；3) 缺乏有效阻止AKI向CKD纤维化慢性转化的临床干预方案。"
+      },
+      "sources": [
+        {
+          "title": "KDIGO Acute Kidney Injury Conference: Global Burden of AKI",
+          "url": "https://kdigo.org/wp-content/uploads/2018/02/2.-Mehta-KDIGO-AKI-Conference_Global-Burden.pdf",
+          "publisher": "KDIGO",
+          "year": "2018"
+        },
+        {
+          "title": "北京大学第一医院杨莉团队关于中国住院患者急性肾损伤全国调查研究进展",
+          "url": "http://news.pku.edu.cn/info/7921/2959351.htm",
+          "publisher": "北京大学新闻网（《柳叶刀》研究报道）",
+          "year": "2015"
+        },
+        {
+          "title": "Epidemiology of acute kidney injury in Chinese critical patients",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27320872/",
+          "publisher": "Journal of Southern Medical University (PubMed)",
+          "year": "2016"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0006515",
+      "name_zh": "重症急性胰腺炎",
+      "name_en": "Severe Acute Pancreatitis",
+      "aliases_zh": [
+        "SAP",
+        "急性出血坏死性胰腺炎",
+        "急性重症胰腺炎"
+      ],
+      "icd10": [
+        "K85",
+        "K85.9"
+      ],
+      "icd11": [
+        "DC31",
+        "DC31.Z"
+      ],
+      "category": "消化系统与急腹症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "胰酶异常激活并引发全身性炎症风暴（SIRS）与腹腔室隔室综合征，早期（发病1-2周内）常在数小时至数日内因持续性呼吸、循环与肾脏多器官功能衰竭致死；后期（>2周）则因胰腺坏死组织继发多重耐药菌感染、脓毒症休克或假性动脉瘤腹腔大出血死亡，ICU总体病死率仍高达10%-30%以上。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "尚无直接阻断胰酶瀑布与炎症风暴的特效靶向药，现行以早期目标导向精准液体复苏、ICU器官支持、早期经鼻空肠营养及坏死感染“升阶梯微创引流（Step-up）”为主导；相比轻症极低死亡率（全住院AP病死率约0.26%），15%-20%演进为重症SAP的患者救治难度大、致死率及致残率依然高企。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 122420,
+          "range_or_note": "GBD 2021估算全球胰腺炎年死亡约122,420例（按全胰腺炎汇总口径，其中重症/坏死性急性胰腺炎是急性死亡主要构成，重症住院病死率10%-30%+）",
+          "year": "2021",
+          "source": "GBD 2021 Study"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GBD 2021显示中国胰腺炎标化死亡率自1990年0.98/10万降至2021年0.64/10万，全国年住院约49万例，全住院AP病死率约0.26%，但进展为SAP及感染坏死者病死率高达10%-30%以上",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球急性胰腺炎年发病率约13-45/10万人年，其中约15%-20%进展为合并持续性器官衰竭的重症急性胰腺炎（SAP）。",
+        "prevalence_china": "中国近年每年急性胰腺炎住院人次约49万例，受胆石症、高甘油三酯血症及饮酒三重危险因素驱动，其中高脂血症性SAP占比快速攀升且呈年轻化趋势。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "发病最初48-72小时黄金救治：1) 禁食水、有效镇痛并监测腹内压；2) 首选乳酸林格液行适度目标导向补液（避免过度机械扩容加重腹腔高压与肺水肿）；3) 高甘油三酯性（TG>11.3 mmol/L）即刻予胰岛素泵降脂或血浆置换；4) 若伴胆道梗阻性胆管炎立即行急诊ERCP取石引流；5) 机械通气呼吸衰竭、休克及高肌酐早期接入ICU并尽早于24-72小时内恢复经鼻肠内营养维持肠黏膜屏障。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用生长抑素",
+            "name_en": "Somatostatin for Injection",
+            "drug_class": "生长抑素十四肽类",
+            "usage_role": "强力抑制胰液及胃肠液分泌、减轻胰腺自身消化（常规药品保障限重症胰腺炎等急症）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约40-100元/3 mg支（持续泵入日耗2支左右）",
+            "cost_source": "国家常规目录药物及各省集采/挂网价格"
+          },
+          {
+            "name_zh": "醋酸奥曲肽注射液",
+            "name_en": "Octreotide Acetate",
+            "drug_class": "长效生长抑素八肽类似物",
+            "usage_role": "抑制胰酶外分泌与降低内脏血流，常用于胰腺炎及预防胰瘘",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "注射用乌司他丁",
+            "name_en": "Ulinastatin for Injection",
+            "drug_class": "广谱蛋白酶抑制剂",
+            "usage_role": "抑制胰蛋白酶原激活及炎症细胞因子风暴（常规目录药物明确限定急性胰腺炎及重症循环休克）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约30-70元/10万U支",
+            "cost_source": "国家常规临床用药目录及公立医院采购价"
+          },
+          {
+            "name_zh": "碳青霉烯类（亚胺培南/美罗培南）",
+            "name_en": "Meropenem / Imipenem",
+            "drug_class": "广谱β-内酰胺类抗生素",
+            "usage_role": "高胰腺组织穿透力，严格用于确诊坏死感染或合并胆管炎/菌血症时强效抗感染",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "延迟且微创“升阶梯（Step-up）”清创路径：经皮穿刺置管引流（PCD）或超声内镜经胃/十二指肠穿刺支架引流，再视需要行视频辅助/内镜下腹膜后坏死清创",
+          "ICU连续性血液净化（CRRT）及高甘油三酯性重症急性胰腺炎急诊血浆置换/脂蛋白血浆滤过",
+          "早期空肠营养管鼻饲肠内营养（避免长时间全肠外营养引起肠道菌群移位）"
+        ],
+        "annual_total_cost_china_cny": "重症急性胰腺炎（SAP）伴持续器官衰竭或感染坏死需入ICU综合救治、微创清创引流及CRRT等支持，单次住院总费用常高达100,000-300,000元以上（按日常基本医疗支出减负住院及大病保险结算）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) 临床策略方面，WATERFALL试验确立“适度目标补液”优于激进大量输液，可显著降低重症化及液体超负荷死亡风险；2) 靶向药物方面，选择性钙释放激活钙通道（CRAC/Orai1）抑制剂Zegocractin（Auxora）获FDA快速通道并进入2b期CARPO随机对照研究，旨在发病早期直接阻断胰腺腺泡钙超载与肺损伤炎症风暴。",
+        "key_unmet_needs_zh": "1) 全球仍无任何一种特异性获批能够阻断腺泡细胞损伤及预防持续性器官衰竭的抗胰腺炎靶向药物；2) 极早期精准识别哪20%患者会迅速恶化为SAP的床旁工具匮乏；3) 中国高甘油三酯血症相关年轻人SAP复发预防及社区长程血脂干预体系薄弱。"
+      },
+      "sources": [
+        {
+          "title": "Comparative analysis of trends in the burden of pancreatitis in China and worldwide, 1990–2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12714637/",
+          "publisher": "PubMed Central (GBD 2021 Analysis)",
+          "year": "2025"
+        },
+        {
+          "title": "CalciMedica Announces FDA Alignment on Phase 2b Trial Design for Auxora in Acute Pancreatitis",
+          "url": "https://ir.calcimedica.com/news-releases/news-release-details/calcimedica-announces-fda-alignment-phase-2b-trial-design-auxora",
+          "publisher": "CalciMedica",
+          "year": "2024"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0021645",
+      "name_zh": "急性上消化道大出血与食管胃底静脉曲张破裂出血",
+      "name_en": "Acute Upper Gastrointestinal Bleeding and Esophageal Variceal Hemorrhage",
+      "aliases_zh": [
+        "EGVB",
+        "急性上消化道大出血",
+        "食管胃底静脉曲张破裂出血",
+        "呕血危象"
+      ],
+      "icd10": [
+        "I85.01",
+        "I85.11",
+        "K92.2"
+      ],
+      "icd11": [
+        "DB98.1",
+        "ME24.2"
+      ],
+      "category": "消化系统与急腹症",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "高压门静脉曲张破裂或胃十二指肠溃疡侵蚀大动脉后呈喷射状大量呕血与便血，可在数分钟至数小时内引发失血性休克、误吸窒息、心跳骤停及诱发肝性脑病和慢加急性肝衰竭；肝硬化静脉曲张出血患者1年随访病死率达12%-14%及以上，合并肝衰竭或肝癌时死亡率极高。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "通过绿色通道药物降门脉压/抑酸联合12-24小时内急诊胃镜套扎止血或组织胶注射，90%左右急性出血可获控制；对难治或早期高危患者及时桥接经颈静脉肝内门体分流术（TIPS）挽救率极高，但原发失代偿肝硬化远期再出血及肝衰死亡风险持续存在。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD死因清单将消化道出血死亡并入“肝硬化”及“消化性溃疡”核算，未单列独立统计；全球急性非静脉曲张上消化道出血住院病死率约2%-10%，肝硬化静脉曲张出血6周急性期病死率常达15%-20%",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "国家死因监测未单列；中国临床队列显示住院肝硬化患者中食管胃底静脉曲张破裂出血（EGVB）发生率达15%-20%，1年累积全因死亡率约12%-14%",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球急性上消化道出血（UGIB）年发病率约40-150/10万人年，老年人因抗血小板/抗凝药及幽门螺杆菌溃疡占非静脉曲张主力，门脉高压占致死性出血主因。",
+        "prevalence_china": "中国上海等大城市队列统计消化性溃疡仍占住院UGIB首要病因，但乙肝及酒精性肝硬化所致食管胃底静脉曲张破裂出血（EGVB）在重症急诊及死因构成中占比高达15%-30%且凶险度最高。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "上消化道大出血急诊绿色通道流程：1) 大量呕血伴意识不清即刻气管插管防误吸窒息，建立双路大口径静脉通道并合血交叉；2) 实行“限制性输血策略”（目标血红蛋白维持70-80 g/L以免反升门脉压致再出血）；3) 拟诊肝硬化门脉曲张者入院即刻（甚至院前）静注特利加压素或持续泵入生长抑素+预防性三代头孢抗感染，所有急性UGIB均予静脉质子泵抑制剂（PPI）；4) 血流动力学初步稳定后12小时内（静脉曲张）或24小时内行急诊胃镜下套扎（EVL）/硬化/组织胶止血；5) 镜下止血失败立即置入三腔二囊管或覆膜食管支架压迫，72小时内桥接急诊/抢救性TIPS手术。",
+        "standard_drugs": [
+          {
+            "name_zh": "注射用特利加压素",
+            "name_en": "Terlipressin for Injection",
+            "drug_class": "血管加压素合成衍生物",
+            "usage_role": "急性食管胃底静脉曲张破裂出血首选急诊降门静脉压止血药物（唯一证实降低死亡率的血管活性药之一）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约100-300元/1 mg支（国产仿制集采降幅明显）",
+            "cost_source": "国家常规临床用药目录（限食管静脉曲张出血等）及公立医院挂网价"
+          },
+          {
+            "name_zh": "注射用生长抑素 / 奥曲肽",
+            "name_en": "Somatostatin / Octreotide",
+            "drug_class": "内脏血管收缩肽类",
+            "usage_role": "持续静脉泵入迅速减少门脉血流量，适用于静脉曲张及不明原因大出血院前/急诊一线止血",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "生长抑素约40-100元/3 mg支",
+            "cost_source": "国家常规临床用药目录及集采价格"
+          },
+          {
+            "name_zh": "艾司奥美拉唑 / 泮托拉唑注射液",
+            "name_en": "Esomeprazole / Pantoprazole IV",
+            "drug_class": "质子泵抑制剂（PPI）",
+            "usage_role": "迅速升高胃内pH值稳定血凝块，为非静脉曲张溃疡大出血一线药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "卡维地洛片 / 普萘洛尔片",
+            "name_en": "Carvedilol / Propranolol",
+            "drug_class": "非选择性β受体阻滞剂（NSBB）",
+            "usage_role": "急性出血稳定后二级预防再出血的核心口服降门脉压用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊胃镜下套扎术（EVL）、组织黏合剂注射术（胃底静脉曲张）及钛夹/电凝热探头止血",
+          "经颈静脉肝内门体静脉分流术（Early TIPS及挽救性TIPS，彻底解除门脉高压）",
+          "超选择性经导管动脉栓塞术（TAE，用于难治性动脉性非静脉曲张出血）及三腔二囊管压迫止血"
+        ],
+        "annual_total_cost_china_cny": "单次内科药物及急诊胃镜止血住院约10,000-30,000元；若需高值支架行抢救性TIPS或ICU大量输血抢救，单次费用约50,000-120,000元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 高危肝硬化门脉出血（Child-Pugh C级<14分或B级伴活动出血）在72小时内实施“抢先TIPS（Pre-emptive TIPS）”经多项国际及中国多中心研究证实可将1年生存率从约60%提高至80%以上，已被Baveno VII共识确立为标准策略；2) 新型内镜止血粉剂及OTSC吻合夹（Over-the-scope clip）显著提升了传统止血失败难治性溃疡出血的首次止血成功率。",
+        "key_unmet_needs_zh": "1) 中国县域及夜间急诊12小时内全天候急诊胃镜与抢先TIPS开展能力极不均衡，造成黄金救治窗口延误；2) 大面积胃底曲张静脉组织胶注射后排胶大出血与异位栓塞风险尚待优化；3) 肝硬化高出血与高门静脉血栓并存患者的抗凝重启时机缺乏高质量RCT决策工具。"
+      },
+      "sources": [
+        {
+          "title": "Acute upper gastrointestinal bleeding: Analysis of 462 hospitalized Chinese patients in Shanghai",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11729622/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        },
+        {
+          "title": "Management of acute variceal bleeding in patients with cirrhosis",
+          "url": "https://www.wjgnet.com/2644-3236/full/v4/i1/1.htm",
+          "publisher": "World Journal of Gastrointestinal Endoscopy",
+          "year": "2022"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004565",
+      "name_zh": "急性肠梗阻",
+      "name_en": "Acute Intestinal Obstruction",
+      "aliases_zh": [
+        "机械性肠梗阻",
+        "绞窄性肠梗阻",
+        "肠套叠与嵌顿性肠梗阻"
+      ],
+      "icd10": [
+        "K56.0",
+        "K56.6",
+        "K56.7"
+      ],
+      "icd11": [
+        "DA91",
+        "DA92.0"
+      ],
+      "category": "消化系统与急腹症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "肠内容物运行受阻引起剧烈腹痛、频繁呕吐、水电解质酸碱失衡及肠腔高度扩张；若演变为闭襻性或“绞窄性肠梗阻”导致肠壁血运中断，数小时至1-2日内即发生肠坏死、肠穿孔、弥漫性化脓性腹膜炎与致命性感染中毒性休克，高龄老年患者绞窄穿孔后病死率高达10%-25%以上。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "属可治愈的外科核心急腹症；单纯性粘连性肠梗阻约70%-80%可通过禁食胃肠减压、纠电解质及生长抑素非手术治愈；一旦出现肠绞窄、闭襻征象、肠扭转或恶性梗阻，及时行急诊开腹/腹腔镜松解、坏死肠段切除或金属支架置入绝大多数可获救治。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021将麻痹性肠梗阻与机械性肠梗阻合并统计为PI&IO，全球2021年新发约1,580万例、标化死亡率约2.88/10万、导致约650万生命损失年（YLLs）；因该文献口径含麻痹性肠梗阻且低SDI地区极高死亡率与急救可及性高度相关，未单列急性机械性肠梗阻独立绝对死亡数",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列急性肠梗阻全国年度死因总数；GBD 2021指出受人口老龄化及腹部手术史增多影响中国绝对发病例数持续居高，但得益于急诊外科能力提升，近30年标化死亡率总体呈现下降趋势",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "GBD 2021估算全球麻痹性及机械性肠梗阻年新发约1,580万例，标化发病率约191.9/10万人年，疾病负担集中于<1岁婴儿（肠套叠/先天畸形）及≥65岁老人（肿瘤与嵌顿疝）。",
+        "prevalence_china": "中国成人肠梗阻以腹部术后粘连（约占40%-60%）、结直肠恶性肿瘤及腹股沟/股疝嵌顿为主；婴幼儿以急性肠套叠最为常见。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "外科急腹症评估与抢救：1) 严格禁食水并立即置入胃肠减压管（粘连性高危者早期经内镜置入长型经鼻肠梗阻导管有效减压）；2) 迅速静脉补液纠治等渗/高渗性脱水、低钾低氯代谢性碱中毒/酸中毒；3) 严密观察腹痛是否持续加重、腹膜刺激征（压痛反跳痛）、高热、血乳酸升高及CT肠壁强化减弱/腹水等绞窄警报；4) 一旦怀疑肠绞窄、肠扭转、嵌顿疝不能还纳或保守48小时无好转，果断急诊外科剖腹/腹腔镜探查减压及坏死肠切除；5) 合并肠腔细菌移位加用广谱抗厌氧菌+革兰阴性菌抗生素。",
+        "standard_drugs": [
+          {
+            "name_zh": "0.9%氯化钠/平衡盐液及氯化钾注射液",
+            "name_en": "Balanced Crystalloids & KCl",
+            "drug_class": "复苏晶体液与电解质",
+            "usage_role": "纠正第三间隙液体丢失与呕吐所致脱水休克及电解质紊乱的基石",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "生长抑素 / 奥曲肽注射液",
+            "name_en": "Somatostatin / Octreotide",
+            "drug_class": "生长抑素及其类似物",
+            "usage_role": "显著减少消化道液体分泌（可减少数升肠腔积液）减轻肠壁水肿与扩张压力",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "生长抑素约40-100元/3 mg支",
+            "cost_source": "国家常规临床用药目录及省级挂网价"
+          },
+          {
+            "name_zh": "头孢哌酮舒巴坦 / 美罗培南联合甲硝唑",
+            "name_en": "Cefoperazone-Sulbactam / Metronidazole",
+            "drug_class": "广谱抗菌药+抗厌氧菌药",
+            "usage_role": "防治肠壁缺血坏死后肠道革兰阴性菌及厌氧菌移位所致腹膜炎与脓毒症",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "经鼻型肠梗阻导管置入减压及水溶性造影剂（泛影葡胺）诊断性兼促通畅治疗（Bologna指南推荐）",
+          "急诊剖腹或腹腔镜粘连松解术、肠扭转复位术、坏死肠切除吻合或造瘘术",
+          "左半结肠癌性急性梗阻急诊结肠镜下自膨式金属支架（SEMS）置入桥接择期根治术"
+        ],
+        "annual_total_cost_china_cny": "单纯非手术胃肠减压保守治愈单次住院费用约3,000-8,000元；若需急诊肠梗阻导管置入或外科手术切除吻合及ICU护理，单次住院费用约15,000-60,000元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 2024国际及国内粘连性小肠梗阻指南确立“水溶性造影剂（如泛影葡胺）经胃管注入+动态CT复查”兼具明确手术指征与促肠蠕动疏通梗阻的双重价值，显著缩短保守住院时长与不必要手术率；2) 恶行结直肠癌急性梗阻中“内镜支架置入桥接腹腔镜一期手术（Bridge to Surgery）”广泛替代传统急诊两期造口术。",
+        "key_unmet_needs_zh": "1) 在肠壁不可逆坏死前精准鉴别“单纯梗阻”与“早期绞窄”的床旁特异性血浆生物标志物仍缺乏；2) 高龄衰弱人群合并多脏器病变的急诊麻醉手术风险依然高；3) 术后腹腔防粘连材料在复杂腹膜炎环境下的长期抗粘连效力有限。"
+      },
+      "sources": [
+        {
+          "title": "Global burden of paralytic ileus and intestinal obstruction, 1990-2021: a GBD 2021 analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40826126/",
+          "publisher": "PubMed",
+          "year": "2025"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001930",
+      "name_zh": "急性梗阻性化脓性胆管炎",
+      "name_en": "Acute Obstructive Suppurative Cholangitis",
+      "aliases_zh": [
+        "AOSC",
+        "急性重症胆管炎",
+        "急性胆管炎",
+        "雷诺五联征胆管炎"
+      ],
+      "icd10": [
+        "K80.3",
+        "K83.0"
+      ],
+      "icd11": [
+        "DC11.2"
+      ],
+      "category": "消化系统与急腹症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "胆道完全梗阻合并化脓性细菌感染致使胆管内压急剧超过肝细胞分泌压，大量革兰阴性杆菌及内毒素反流入血（胆血反流），迅速引发典型Reynolds五联征（腹痛、寒战高热、黄疸、休克、意识障碍），若未在数小时至24小时内急诊胆道引流减压，将迅速死于脓毒症休克及多器官衰竭（东京指南TG18 III级重症病死率仍达10%-30%以上）。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "属于“抢时间挽救生命”的高危胆道外科急症；核心并非单纯大剂量抗生素，而在于黄金时间窗（<24小时，极重度休克<6-12小时）内通过ERCP/鼻胆管引流（ENBD）或超声引导经皮肝穿刺胆道引流（PTBD）迅速减压，成功减压后绝大多数患者可转危为安并彻底治愈。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列急性梗阻性化脓性胆管炎独立死亡数（归入胆囊与胆道疾病汇总）；东京指南（TG13/TG18）临床评估轻中度（I/II级）急性胆管炎病死率<5%，而进展至III级重症/AOSC伴器官衰竭时住院病死率升至10%-30%以上",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无独立年度全国死因总数；临床死亡集中于高龄胆总管结石、合并糖尿病或未及时行急诊ERCP/PTBD减压引发重度脓毒性休克的人群",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球因胆总管结石、良恶性胆管狭窄引起的急性胆管炎高发于60岁以上老年人，占全部胆道急诊入院的5%-10%以上。",
+        "prevalence_china": "中国是原发性胆总管结石及肝内胆管结石高发区，胆管结石占AOSC病因的70%-80%以上，胆道恶性肿瘤与医源性胆管狭窄比例近年亦明显上升。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "AOSC/TG18 III级重症“分秒必争”抢救流程：1) 立即按脓毒症休克“1小时集束化治疗”快速晶体扩容、留取血培养并即刻静脉应用强效广谱抗革兰阴性及厌氧菌药物，必要时去甲肾上腺素升压；2) 24小时内（伴感染性休克建议稳定同时尽早<12小时）行急诊内镜逆行胰胆管造影+鼻胆管引流（ERCP+ENBD）或塑料支架减压（仅引流脓汁减压即可，极危重时不强求同期困难取石）；3) 凝血极差或解剖受阻者立即床旁超声引导PTBD外引流；4) 仅内镜/介入均失败时极少数紧急外科胆总管切开T管引流。",
+        "standard_drugs": [
+          {
+            "name_zh": "亚胺培南西司他丁 / 美罗培南",
+            "name_en": "Imipenem-Cilastatin / Meropenem",
+            "drug_class": "碳青霉烯类广谱抗生素",
+            "usage_role": "TG18 III级重症AOSC兼顾产ESBL肠杆菌科细菌及部分厌氧菌的一线抢救经验性抗感染",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "哌拉西林他唑巴坦 / 头孢哌酮舒巴坦",
+            "name_en": "Piperacillin-Tazobactam / Cefoperazone-Sulbactam",
+            "drug_class": "β-内酰胺酶抑制剂复合制剂",
+            "usage_role": "轻中度或高胆汁浓度渗透广谱抗菌一线覆盖（必要时联用抗耐药革兰阳性球菌万古霉素）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "去甲肾上腺素注射液",
+            "name_en": "Norepinephrine",
+            "drug_class": "血管活性升压药",
+            "usage_role": "维持AOSC脓毒性休克有效脏器灌注压的急救升压首选",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊经内镜鼻胆管引流术（ENBD）或胆管支架置入减压（首选微创救命途径）",
+          "经皮经肝胆管穿刺置管引流术（PTBD）",
+          "待急性感染休克平复后二期行ERCP彻底取石、胆道镜取石或胆肠吻合根治原发梗阻"
+        ],
+        "annual_total_cost_china_cny": "急诊ERCP+ENBD微创引流单次住院费用约15,000-30,000元（PTBD引流约8,000-20,000元）；若伴休克入ICU及二期取石总住院费用相应明显增加（均由住院常规药品保障报销）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 临床路径上，《东京指南TG18》及国内急诊胆道指南全面推行“先微创减压救命、后二期择期取石”分级分期救治模式，与既往强行急诊开腹探查相比大幅压低高龄危重患者手术死亡率；2) 内镜超声引导下胆道引流（EUS-BD）为传统ERCP插管失败或胃肠改道术后患者提供了新型无切口内引流救治通道。",
+        "key_unmet_needs_zh": "1) 我国县级基层医院夜间急诊ERCP+ENBD团队全天候值守可及性不足，高龄休克患者转运延误常错失最佳减压窗口；2) 多重耐药肠杆菌（CRE）及耐万古霉素肠球菌导致的胆道感染临床抗菌可选余地日益紧张。"
+      },
+      "sources": [
+        {
+          "title": "Comparison of two editions of Tokyo guidelines for the management of acute cholangitis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23813895/",
+          "publisher": "PubMed",
+          "year": "2014"
+        },
+        {
+          "title": "Diagnostic criteria and severity assessment of acute cholangitis: Tokyo Guidelines",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2784515/",
+          "publisher": "Journal of Hepato-Biliary-Pancreatic Surgery (PMC)",
+          "year": "2007"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005155",
+      "name_zh": "失代偿期肝硬化",
+      "name_en": "Decompensated Liver Cirrhosis",
+      "aliases_zh": [
+        "肝硬化失代偿期",
+        "肝硬变失代偿",
+        "失代偿期终末期肝病"
+      ],
+      "icd10": [
+        "K74.6",
+        "K70.31",
+        "K71.7"
+      ],
+      "icd11": [
+        "DB96",
+        "DB93.1"
+      ],
+      "category": "消化系统与急腹症",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "肝脏纤维化假小叶重构致肝功能衰竭与重度门静脉高压，一旦进入失代偿期出现难治性腹水、食管胃底静脉曲张大出血、肝性脑病或自发性细菌性腹膜炎（SBP），其2-5年生存率骤降；若并发慢加急性肝衰竭（ACLF）或消化道大出血，数日至数周内死亡率可高达40%-70%。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "肝移植是唯一根治终末期肝硬化的手段；但乙肝或丙肝所致失代偿期患者坚持强效抗病毒（恩替卡韦/替诺福韦或DAA）及彻底戒酒后，部分病例可发生令人振奋的“再代偿（Recompensation）”逆转，联合降门脉压、利尿、白蛋白与抗脑病治疗可显著延长寿命。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 1430000,
+          "range_or_note": "GBD 2021估算2021年全球肝硬化及相关慢性肝病年死亡约143万例（失代偿期为直接致死主阶段）",
+          "year": "2021",
+          "source": "GBD 2021 Study"
+        },
+        "annual_deaths_china": {
+          "value": 156400,
+          "range_or_note": "GBD 2021估算2021年中国肝硬化死亡约156,400例；得益于乙肝疫苗及抗病毒普及，中国标化死亡率自1990年20.49/10万大幅降至2021年7.69/10万",
+          "year": "2021",
+          "source": "GBD 2021 Study"
+        },
+        "prevalence_global": "GBD 2021报告全球2021年肝硬化新发约5,840万例（现患失代偿及代偿期人群合计达上亿级），乙肝、丙肝、酒精及MASLD为主要四大病因。",
+        "prevalence_china": "中国仍以慢性乙肝病毒感染（HBV）为失代偿期肝硬化首要病因（占比逐年缓降但基数巨大），同时酒精性肝病及代谢相关脂肪性肝病（MASLD）比例迅速升高；肝癌多在肝硬化基础上发生。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "失代偿急性并发症处置：1) 食管胃底静脉曲张大出血按急诊止血+特利加压素/生长抑素+急诊套扎及三代头孢抗感染；2) 自发性细菌性腹膜炎（SBP，腹水PMN≥250/mm³）即刻三代头孢静脉抗感染+第1/3天人血白蛋白（1.5 g/kg与1.0 g/kg）预防肝肾综合征；3) 急性肝性脑病予高剂量乳果糖灌肠/口服+利福昔明降血氨，排查出血及电解质失衡；4) 肝肾综合征1型予特利加压素+人血白蛋白。",
+        "standard_drugs": [
+          {
+            "name_zh": "恩替卡韦片 / 富马酸丙酚替诺福韦（TAF）",
+            "name_en": "Entecavir / Tenofovir Alafenamide",
+            "drug_class": "一线高耐药屏障口服核苷酸类似物",
+            "usage_role": "乙肝相关失代偿期肝硬化终身强效抑制病毒，预防ACLF、争取再代偿与降低肝癌风险",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "恩替卡韦/替诺福韦集采后月药费约数元至十余元；TAF进常规药品保障后显著降价",
+            "cost_source": "国家药品集中带量采购（4+7及续约）及国家常规临床药品目录"
+          },
+          {
+            "name_zh": "卡维地洛片 / 普萘洛尔片",
+            "name_en": "Carvedilol / Propranolol",
+            "drug_class": "非选择性β受体阻滞剂",
+            "usage_role": "降低肝静脉压力梯度（HVPG），预防首次及复发性门脉曲张出血",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "乳果糖口服溶液 / 利福昔明片",
+            "name_en": "Lactulose / Rifaximin",
+            "drug_class": "降血氨导泻剂及肠道不吸收抗生素",
+            "usage_role": "联合预防及控制显性肝性脑病反复发作的一线核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "人血白蛋白注射液",
+            "name_en": "Human Albumin",
+            "drug_class": "血液制品扩容制剂",
+            "usage_role": "大量放腹水后防循环障碍、SBP防肝肾综合征及肝肾综合征治疗（常规目录药物限肝硬化腹水低白蛋白血症等指征）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "同种异体肝移植（失代偿期合并反复并发症或MELD高分的唯一根治途径）",
+          "经颈静脉肝内门体分流术（TIPS，用于难治性腹水及反复静脉曲张大出血）",
+          "胃镜下定期曲张静脉套扎/组织胶二级预防及每3-6个月AFP+超声肝癌高危监测"
+        ],
+        "annual_total_cost_china_cny": "集采抗病毒基石药物（恩替卡韦/替诺福韦仅数元至十余元/月）维持负担极轻；但发生腹水输注人血白蛋白、食管胃底静脉曲张大出血急诊内镜（10,000-30,000元/次）或TIPS（50,000-120,000元/次）及行肝移植手术（数十万元级）时费用高企"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) Baveno VII国际共识与我国指南首次正式定义“肝硬化再代偿（Recompensation）”，证实长期有效清除病因（乙肝HBV抑制、丙肝治愈、戒酒）可使部分失代偿期肝硬化腹水消退并恢复代偿；2) 中国人群针对慢性乙肝功能性治愈（如核衣壳组装调节剂、反义寡核苷酸Bepirovirsen、siRNA联合聚乙二醇干扰素）以及针对MASH肝硬化的THR-β激动剂Resmetirom（及FGF21类似物3期研究）推进抗纤维化逆转。",
+        "key_unmet_needs_zh": "1) 已广泛假小叶化的晚期实质性肝纤维化仍缺乏直接逆转重塑的上市特效药物；2) 供肝极度短缺且高昂移植费用令绝大多数失代偿与ACLF患者难以获得移植机会；3) 人血白蛋白长期门诊高频输注受血浆原料供应与报销限制制约。"
+      },
+      "sources": [
+        {
+          "title": "Liver cirrhosis in 2021: Global Burden of Disease study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12273999/",
+          "publisher": "PubMed Central (GBD 2021 Analysis)",
+          "year": "2025"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019542",
+      "name_zh": "急性肝衰竭",
+      "name_en": "Acute Liver Failure",
+      "aliases_zh": [
+        "ALF",
+        "暴发性肝衰竭",
+        "急性重型肝炎",
+        "药物性急性肝衰竭"
+      ],
+      "icd10": [
+        "K72.0",
+        "K71.1"
+      ],
+      "icd11": [
+        "DB93.0"
+      ],
+      "category": "消化系统与急腹症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "无基础肝病者在起病26周内（常于数日至2周内）出现大块或亚大块肝细胞坏死，迅速继发严重凝血功能障碍（INR≥1.5）、肝性脑病昏迷、恶性脑水肿/脑疝、低血糖及多器官衰竭；若未及时获得急诊肝移植，中国多中心研究报告其自发住院病死率高达60%-63.28%。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "急诊肝移植是唯一被证实对King's College高危急性肝衰竭具有确定性挽救生命的手段（术后1年生存率>75%-85%）；药物治疗除对乙酰氨基酚中毒用N-乙酰半胱氨酸外缺乏特效逆转药，主要依靠人工肝支持系统（ALSS）清除毒素替代肝功“桥接”等待肝细胞再生或移植。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD死因清单未将急性肝衰竭单列（常归入病毒性肝炎、药物毒性损伤或急性肝病）；全球在未行急诊肝移植时代的自发死亡率超过50%-80%",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无全国单列ALF年度死亡总数；中国多中心研究显示药物及中草药（TCM/HDS）相关急性肝衰竭住院自发死亡率达60%-63.28%，核心死因为重度出血、脑病昏迷与极低肝移植率",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "欧美发达地区以对乙酰氨基酚（扑热息痛）过量中毒占急性肝衰竭首位（约占40%-50%），全球总体年发病率约1-6例/百万人年，罕见但极高致死率。",
+        "prevalence_china": "中国308家医疗中心研究显示全国住院药物性肝损伤（DILI）一般人群年发病率达23.80/10万人（高于西方），其中中草药/膳食补充剂（>26%）与抗结核药为最重要致因，连同急性乙肝爆发及毒蕈中毒构成中国ALF主力病因。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "ICU极重危抢救路径：1) 不论是否明确为对乙酰氨基酚中毒，早期非扑热息痛型早期ALF亦推荐静脉输注N-乙酰半胱氨酸（NAC）改善非移植生存率；2) 对急性HBV爆发性复制者即刻予恩替卡韦/替诺福韦强效抑毒；3) 入住ICU严密气道保护、床头抬高30°、静脉甘露醇或高渗盐水防治脑水肿脑疝、持续监测血糖预防致死性低血糖、酌情预防消化道出血及广谱防感染；4) 早期启动人工肝支持（血浆置换PE、DPMAS双重血浆分子吸附）降低高胆红素与炎症风暴；5) 一经达到King's College移植标准即刻启动极危重加急肝移植评估。",
+        "standard_drugs": [
+          {
+            "name_zh": "乙酰半胱氨酸注射液（NAC）",
+            "name_en": "N-Acetylcysteine IV",
+            "drug_class": "谷胱甘肽前体解毒及抗氧化剂",
+            "usage_role": "对乙酰氨基酚急性肝中毒特效解毒药，同时用于非对乙酰氨基酚I-II期肝性脑病ALF改善无移植生存率",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "恩替卡韦 / 替诺福韦",
+            "name_en": "Entecavir / Tenofovir",
+            "drug_class": "强效抗HBV核苷类药物",
+            "usage_role": "急性暴发性乙型肝炎肝衰竭即刻抑制病毒复制、减少移植后移植物再感染",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "集采口服片剂数元至十余元/月",
+            "cost_source": "国家药品集中带量采购及常规药品保障目录"
+          },
+          {
+            "name_zh": "人血白蛋白 / 新鲜冰冻血浆及凝血酶原复合物",
+            "name_en": "Human Albumin / FFP / PCC",
+            "drug_class": "血液制品及凝血替代制剂",
+            "usage_role": "仅在有活动性出血或有创穿刺置管前纠正极重度凝血功能障碍及血浆置换耗材",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊同种异体肝移植（符合King's College危重标准患者挽救生命的决定性手段）",
+          "非生物型人工肝血液净化系统（血浆置换PE、DPMAS、血浆滤过透析PDF），每1-2日交替桥接",
+          "高血氨及合并AKI时尽早联合连续性肾脏替代治疗（CRRT）控制高氨血症与脑水肿"
+        ],
+        "annual_total_cost_china_cny": "单次人工肝血液净化治疗（血浆置换PE/DPMAS等，含血浆与分子吸附柱耗材）约数千至1万余元/次，危重患者常需连续多疗程及ICU器官支持；若实施急诊同种异体肝移植手术总花费达数十万元级"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) 生物型/混合型人工肝（HBAL，如中国自主研发的含猪/人诱导肝细胞生物反应器）及间充质干细胞（MSC）外泌体/静脉输注在促进暴发性肝细胞再生方面开展2期临床评估；2) 异体肝细胞移植及体外基因编辑猪肝灌注在国内外进入极危重患者紧急同情/探索性临床试验阶段，试图赢得更长桥接时间窗。",
+        "key_unmet_needs_zh": "1) 中国公众误信“纯天然无毒”、不规范服用何首乌/土三七/保健中药材所致DILI与ALF高发，亟待强力监管与科普；2) 极急症供肝分配速度与多学科人工肝-移植衔接在部分地区仍有瓶颈，急诊移植实现率极低；3) 缺乏在24-48小时内快速促进大量残存肝细胞再生的特效小分子或生物药。"
+      },
+      "sources": [
+        {
+          "title": "Incidence and Etiology of Drug-Induced Liver Injury in Mainland China",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30742832/",
+          "publisher": "Gastroenterology (PubMed)",
+          "year": "2019"
+        },
+        {
+          "title": "Etiologies, Clinical Characteristics, and Outcomes of Herb-Induced Acute Liver Failure in China (Multicenter Study)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24335449/",
+          "publisher": "PubMed",
+          "year": "2013"
+        },
+        {
+          "title": "Characteristics and Prognosis of Acute Liver Failure in China (Multicenter Retrospective Cohort)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24278360/",
+          "publisher": "PubMed",
+          "year": "2013"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005011",
+      "name_zh": "克罗恩病",
+      "name_en": "Crohn Disease",
+      "aliases_zh": [
+        "克罗恩氏病",
+        "节段性肠炎",
+        "肉芽肿性肠炎",
+        "CD"
+      ],
+      "icd10": [
+        "K50",
+        "K50.9"
+      ],
+      "icd11": [
+        "DD50"
+      ],
+      "category": "消化系统与自身免疫性肠病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "从口腔至肛门全消化道全层透壁性慢性肉芽肿炎症，常在青壮年起病并终身反复缓解与复发；虽直接急性致命较少，但长期病变致肠狭窄梗阻、穿孔腹膜炎、复杂肛瘘脓肿、短肠综合征、重度营养不良并升高结直肠/小肠癌风险，重度脓毒症感染或穿孔大出血可致死。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "尚不能彻底根治，但已进入“生物制剂与小分子达标治疗（Treat-to-Target）”时代：抗TNF-α单抗、抗IL-12/23及抗IL-23p19单抗、肠道选择性抗整合素单抗及高选择性JAK1抑制剂等全面进入中国常规药品保障目录，可使绝大多数患者实现黏膜愈合与无激素深度缓解。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021将克罗恩病与溃疡性结肠炎合并统计为炎症性肠病（IBD）：2021年全球IBD合计年死亡约42,000例（ASMR 0.52/10万），未单列CD单独死亡计数",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GBD 2021估算2021年中国全炎症性肠病（IBD）合计年死亡约5,640例，未将CD单独拆分核算；重度CD死亡主要相关于腹腔严重脓毒症、短肠肠衰竭及继发肿瘤",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "GBD 2021估算全球IBD现患人数约383万例（高收入北美及北欧克罗恩病患病率可达100-300/10万人，亚洲新兴工业化地区呈迅猛追赶态势）。",
+        "prevalence_china": "GBD 2021报告2021年中国IBD现患约168,077例、年新发24,941例；专项流行病学调查显示中国克罗恩病标化患病率约3.39/10万人，高度经济发达城市（如江苏部分地区IBD达31.21/10万）及中青年人群发病率增速明显，且肛周病变占比高于西方。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "英夫利西单抗 / 阿达木单抗",
+            "name_en": "Infliximab / Adalimumab",
+            "drug_class": "抗TNF-α单克隆抗体",
+            "usage_role": "中重度克罗恩病及合并复杂肛瘘患者的标准一线生物制剂（常规目录药物报销）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "阿达木单抗国产生物类似药约1,150-1,290元/40 mg支（英夫利西单抗亦已纳入集采及常规目录药物）",
+            "cost_source": "国家常规临床药品目录乙类及集采/省级挂网价"
+          },
+          {
+            "name_zh": "乌司奴单抗 / 利桑珠单抗",
+            "name_en": "Ustekinumab / Risankizumab",
+            "drug_class": "抗IL-12/23单抗 / 高选择性抗IL-23p19单抗",
+            "usage_role": "免疫原性低、耐药少，一线或抗TNF失败中重度克罗恩病高黏膜愈合率核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "利桑珠单抗常规药品保障价8,130元/600 mg静脉支、5,499元/360 mg皮下支（均已纳入2025版常规药品保障目录）",
+            "cost_source": "国家降价协商常用药品目录公开价格"
+          },
+          {
+            "name_zh": "维得利珠单抗注射液",
+            "name_en": "Vedolizumab",
+            "drug_class": "肠道选择性抗α4β7整合素单抗",
+            "usage_role": "肠道局部免疫精准调控，全身感染风险极低（适用伴高龄或既往潜伏感染者）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约4,980元/300 mg支（每8周维持1次，已进入2024国家降价协商常用药品目录）",
+            "cost_source": "国家降价协商常用药品目录公开报价"
+          },
+          {
+            "name_zh": "乌帕替尼缓释片",
+            "name_en": "Upadacitinib",
+            "drug_class": "高选择性口服JAK1抑制剂",
+            "usage_role": "中重度克罗恩病（尤其多线生物制剂失败者）强效快速起效口服小分子药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约1,830-2,090元/盒（15 mg×28片）",
+            "cost_source": "国家降价协商常用药品目录公开挂网价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "全肠内营养（EEN，儿童青少年克罗恩病诱导缓解一线及术前营养优化）",
+          "肛周复杂瘘管经肛门括约肌间瘘管结扎（LIFT）、挂线引流及脂肪间充质干细胞局部注射",
+          "内镜下纤维性肠狭窄球囊扩张术及腹腔镜微创保留肠管节段切除手术"
+        ],
+        "annual_total_cost_china_cny": "生物制剂及靶向小分子均已大幅降价并入国家降价协商常用药品目录（如维得利珠约4,980元/300 mg支、阿达木类似药约1,150-1,290元/40 mg支、乌帕替尼约1,830-2,090元/28片盒、利桑珠单抗8,130元/600 mg支），在国内部分地区省实行门诊药品单独支付/门慢报销后患者年自付负担大幅降低"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 抗IL-23p19单抗（利桑珠单抗、古塞奇尤单抗、米吉珠单抗）与口服JAK1抑制剂乌帕替尼在2024-2026年相继获批及纳入中国常规药品保障，突破了既往抗TNF单药继发失应答（每年约10%-20%）天花板；2) 抗TL1A抗体（Tulisokibart、Duvakitug）不仅调控炎症更靶向抗肠纤维化，在克罗恩病2b/3期全球试验中展示双通路抗纤维化与高内镜应答潜力；3) 双靶向联合方案（如抗IL-23+抗TNF）突破难治患者疗效上限。",
+        "key_unmet_needs_zh": "1) 中国克罗恩病常易被误诊为“肠结核”而延迟1-3年确诊，错过窗口期导致穿孔与狭窄手术率高；2) 已形成的透壁性肠管纤维性狭窄仍无药物可逆转；3) 复杂克罗恩肛瘘长期愈合率与生物制剂继发耐药问题突出。"
+      },
+      "sources": [
+        {
+          "title": "From west to east: dissecting the global shift in inflammatory bowel disease burden and projecting future scenarios",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12330016/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        },
+        {
+          "title": "Growing burden of inflammatory bowel disease in China: Findings from the Global Burden of Disease Study 2021 and predictions to 2035",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39501850/",
+          "publisher": "PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005101",
+      "name_zh": "溃疡性结肠炎",
+      "name_en": "Ulcerative Colitis",
+      "aliases_zh": [
+        "UC",
+        "非特异性溃疡性结肠炎",
+        "慢性溃疡性结肠炎"
+      ],
+      "icd10": [
+        "K51",
+        "K51.9"
+      ],
+      "icd11": [
+        "DD51"
+      ],
+      "category": "消化系统与自身免疫性肠病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "主要累及直肠和结肠黏膜及黏膜下层的弥漫性溃疡性炎症，呈慢性复发缓解过程，持续全结肠炎8-10年后结直肠癌变率攀升；但在突发“急性重度溃疡性结肠炎（ASUC）”时，数日至数周内可并发中毒性巨结肠、结肠穿孔、下消化道大出血及腹腔感染性休克而危及生命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "轻中度患者一线使用美沙拉嗪（口服+栓剂/灌肠）即可获良好维持控制；中重度患者通过生物制剂（维得利珠、抗TNF-α、抗IL-23单抗）及口服小分子药（乌帕替尼等JAKi及S1P调节剂）可达成内镜黏膜愈合；内科难治或暴发型中毒性巨结肠患者通过全结肠切除+回肠储袋肛管吻合术（IPAA）亦可实现临床外科根治。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021将UC与克罗恩病合并统计为IBD：2021年全球IBD合计年死亡约42,000例，未单列UC单独死亡数字；现代规范生物治疗与适时结肠切除已使急性重度UC住院病死率降至1%-3%以下",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GBD 2021估算2021年中国全IBD合计年死亡约5,640例，未单拆UC；暴发型中毒性巨结肠延迟手术或并发巨细胞病毒感染、静脉血栓栓塞为主要死亡诱因",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球范围内溃疡性结肠炎患病率普遍高于克罗恩病（欧美发达国家可达200-500/10万人），全球发病率仍随工业化饮食与环境转型不断上升。",
+        "prevalence_china": "中国IBD患者中溃疡性结肠炎人数仍多于克罗恩病（中国城区的粗IBD年发病率达10.04/10万人年，整体呈现快速城市化相关升高趋势，30-40岁青壮年多发）。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性重度溃疡性结肠炎（ASUC，Truelove-Witts标准：血便≥6次/日+发热/心动过速/贫血/高血沉）住院抢救：1) 立即排除艰难梭菌及巨细胞病毒（CMV）感染后静脉给予甲泼尼龙40-60 mg/日（警惕大剂量掩盖穿孔）；2) 第3天若Travis标准未达标（便次>8次或3-8次伴CRP>45 mg/L）果断启动英夫利西单抗或环孢素静脉挽救，并同步肝素预防静脉血栓（VTE）；3) 出现中毒性巨结肠（横结肠直径>6 cm）、腹膜炎或大出血立即联合外科行次全结肠切除+末端回肠造口挽救生命。",
+        "standard_drugs": [
+          {
+            "name_zh": "美沙拉嗪肠溶片/栓剂/灌肠液",
+            "name_en": "Mesalazine (5-ASA)",
+            "drug_class": "5-氨基水杨酸类抗炎药",
+            "usage_role": "轻中度溃疡性结肠炎诱导及长期维持缓解绝对一线基础用药（内镜局部栓剂联合口服高效）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "肠溶片/缓释胶囊约30-200元/盒，栓剂（10枚装）约50-115元/盒",
+            "cost_source": "国家常规临床药品目录乙类及各地公立医院采购挂网价"
+          },
+          {
+            "name_zh": "维得利珠单抗注射液",
+            "name_en": "Vedolizumab",
+            "drug_class": "抗α4β7整合素单抗",
+            "usage_role": "中重度UC一线首选高安全性生物制剂（直接阻断淋巴细胞向肠黏膜归巢）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约4,980元/300 mg支（每8周维持）",
+            "cost_source": "国家降价协商常用药品目录公开价格"
+          },
+          {
+            "name_zh": "英夫利西单抗注射液",
+            "name_en": "Infliximab",
+            "drug_class": "抗TNF-α嵌合单克隆抗体",
+            "usage_role": "激素抵抗型急性重度UC（ASUC）静脉挽救治疗首选药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "乌帕替尼缓释片",
+            "name_en": "Upadacitinib",
+            "drug_class": "口服高选择性JAK1抑制剂",
+            "usage_role": "中重度难治性UC快速诱导黏膜愈合口服小分子首选（起效迅速，数日止泻止血）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约1,830-2,090元/盒（15 mg×28片）",
+            "cost_source": "国家降价协商常用药品目录公开挂网价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "全结肠直肠切除术+回肠储袋肛管吻合术（IPAA，用于暴发穿孔、中毒性巨结肠、顽固不愈或合并异型增生癌变患者）",
+          "病程超过8-10年的全结肠UC每1-2年高清色素内镜癌变监测",
+          "严格预防及治疗伴随巨细胞病毒（CMV）再激活与艰难梭菌合并感染"
+        ],
+        "annual_total_cost_china_cny": "轻中度使用美沙拉嗪（约30-200元/盒）整体负担较轻；中重度维持使用常规药品保障谈判维得利珠单抗（约4,980元/300 mg支）、英夫利西单抗或乌帕替尼（约1,830-2,090元/28片盒）可通过国内部分地区省门诊药品单独支付高比例直接报销"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 2025-2026年默沙东抗TL1A单抗Tulisokibart在3期ATLAS-UC诱导期研究中成功达到全部主要与次要终点，标志针对肿瘤坏死因子样配体1A全新机制治疗中重度UC取得3期突破；2) 口服S1P受体调节剂Etrasimod、Ozanimod与抗IL-23p19家族（Mirikizumab、Guselkumab、Risankizumab）丰富了无激素长程黏膜愈合管线；3) 工程化粪菌移植与活体生物药研究深入开展。",
+        "key_unmet_needs_zh": "1) 中重度UC即使使用最强效JAK或生物制剂仍有约40%-60%患者未能实现持久临床缓解或出现继发失应答；2) 糖皮质激素不合理长期反复滥用导致骨质疏松与机会性感染依然普遍；3) 直肠急迫感及全结肠切除IPAA术后慢性储袋炎（Pouchitis）尚缺理想疗法。"
+      },
+      "sources": [
+        {
+          "title": "From west to east: dissecting the global shift in inflammatory bowel disease burden and projecting future scenarios",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12330016/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        },
+        {
+          "title": "Growing burden of inflammatory bowel disease in China: Findings from the Global Burden of Disease Study 2021 and predictions to 2035",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39501850/",
+          "publisher": "PubMed",
+          "year": "2024"
+        },
+        {
+          "title": "Merck's Tulisokibart Met Primary and Key Secondary Endpoints in the Phase 3 ATLAS-UC Study in Ulcerative Colitis",
+          "url": "https://www.merck.com/news/mercks-tulisokibart-met-primary-and-key-secondary-endpoints-in-the-phase-3-atlas-uc-induction-only-study-in-patients-with-moderately-to-severely-active-ulcerative-colitis-uc/",
+          "publisher": "Merck & Co.",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007915",
+      "name_zh": "系统性红斑狼疮",
+      "name_en": "Systemic Lupus Erythematosus",
+      "aliases_zh": [
+        "SLE",
+        "红斑狼疮",
+        "狼疮"
+      ],
+      "icd10": [
+        "M32",
+        "M32.1",
+        "M32.9"
+      ],
+      "icd11": [
+        "4A40"
+      ],
+      "category": "风湿免疫与系统性血管炎",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "针对细胞核与双链DNA的大量自身抗体形成免疫复合物沉积全身微血管引发多系统破坏。虽多数呈慢性复发缓解，但突发狼疮危象如弥漫性肺泡出血（DAH）、重症狼疮性脑病、血栓性微血管病（TMA）及急进性狼疮肾炎，可在数小时至数日内因窒息、急性肾衰或机会性感染致命；长期糖皮质激素与免疫抑制亦显著推高感染及心血管死亡风险。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "以羟氯喹为基础，联合小剂量激素及双靶点生物制剂（贝利尤单抗、泰它西普），当代我国SLE患者5年生存率已从上世纪不足50%跃升至90%以上、10年生存率超80%；近年来CD19 CAR-T细胞疗法更在重症难治性狼疮患者中实现了震撼性的深度免疫重置与“无药缓解”。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO/GBD将SLE归入“其他肌肉骨骼疾病”合计数（未单独拆列全球死亡数）；多项跨国队列显示SLE标化死亡率仍为同龄普通人群的2-3倍以上，高发死因前三位为严重感染、活跃期重要脏器受累（肾/脑/肺）及早发心血管病",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单独SLE全国年度死亡总数；北京协和医院CSTAR多中心登记队列证实中国SLE患者5年生存率已达90%以上、10年生存率>80%，感染（约占死因半数附近）和狼疮性肾炎尿毒症/肺泡出血为主要致命诱因",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球SLE总体患病率约20-70/10万人，其中约90%为育龄期女性，黑人、亚裔及拉丁裔患病率显著高于白种人且肾脏受累比例更高。",
+        "prevalence_china": "中国SLE患病率约30-70/10万人（估算全国总患病人数约100万例，居全球各国之首）；CSTAR数据展示男女比约1:10至1:12，平均发病年龄约30.7岁，儿童狼疮肾炎比例高达60%-70%。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "重症狼疮危象（弥漫性肺泡出血、狼疮神经精神危象、急进性新月体性狼疮肾炎、重症血小板减少/TMA）抢救：1) 立即静脉大剂量甲泼尼龙冲击治疗（500-1000 mg/日×3天）；2) 联合静脉环磷酰胺（CTX）脉冲或大剂量吗替麦考酚酯，合并B细胞亢进或危象难控联用利妥昔单抗；3) 弥漫性肺泡出血、抗磷脂危象（CAPS）或TMA即刻加用血浆置换（PE）及静脉免疫球蛋白（IVIG）；4) 严格排查合并机会性真菌/细菌感染避免冲击致死。",
+        "standard_drugs": [
+          {
+            "name_zh": "硫酸羟氯喹片",
+            "name_en": "Hydroxychloroquine Sulfate",
+            "drug_class": "抗疟药免疫调节剂",
+            "usage_role": "所有无禁忌证SLE患者（含妊娠期）终生必用的基础锚定基石药物，可降低复发与死亡率",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "注射用泰它西普（泰爱）",
+            "name_en": "Telitacicept",
+            "drug_class": "中国原研BLyS/APRIL双靶点融合蛋白",
+            "usage_role": "一线常规治疗应答不佳的活动性SLE突破性国产靶向生物制剂，显著提升SRI-4应答与减激素率",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规药品保障谈判降价后约778-818元/80 mg支（年药费常规药品保障前约8万元，常规药品保障后显著降低）",
+            "cost_source": "国家降价协商常用药品目录乙类公开挂网价"
+          },
+          {
+            "name_zh": "注射用贝利尤单抗",
+            "name_en": "Belimumab",
+            "drug_class": "抗B淋巴细胞刺激因子（BLyS）单克隆抗体",
+            "usage_role": "获批涵盖成人及儿童SLE和活动性狼疮性肾炎（LN）的国际金标准生物制剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "120 mg/支约700-1,976元/支（已多轮降价并纳入常规目录药物报销）",
+            "cost_source": "国家降价协商常用药品目录（2024-2025年档案 YPSN202500055）"
+          },
+          {
+            "name_zh": "吗替麦考酚酯（MMF） / 环磷酰胺 / 他克莫司",
+            "name_en": "Mycophenolate Mofetil / Cyclophosphamide / Tacrolimus",
+            "drug_class": "传统免疫抑制剂及钙调磷酸酶抑制剂",
+            "usage_role": "狼疮性肾炎（III/IV/V型）诱导与长期维持缓解的核心主力方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗性血浆置换及免疫吸附（用于重症肺泡出血、狼疮脑病或暴发抗磷脂危象）",
+          "严格防晒防紫外线、高危妊娠多学科产科-风湿共管护航",
+          "并发ESRD患者行血液透析、腹膜透析或低活动状态下肾移植"
+        ],
+        "annual_total_cost_china_cny": "轻症单纯羟氯喹与传统免疫抑制基础维持药物费用低廉；活动性SLE及狼疮肾炎联用常规目录药物泰它西普（约778-818元/80 mg支，常规药品保障前基础年药费约8万元）或贝利尤单抗（700-1,976元/120 mg支），纳入门诊特殊慢病报销后患者自付显著减轻"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 免疫细胞治愈性里程碑：以德国团队（NEJM 2024）及中国多中心临床（CAR-T/通用型CAR-T）为代表的CD19靶向CAR-T细胞与CD19/BCMA双靶CAR-T，在重度难治性SLE患者中实现深度组织B细胞清空与免疫系统重构，多数患者随访1-2年+维持无需任何激素及免疫抑制剂的“完全无药缓解”；2) 抗I型干扰素受体单抗阿尼鲁单抗（Anifrolumab）及新型伏环孢素/奥妥珠单抗（Obinutuzumab）改善重度肾炎与皮肤受累。",
+        "key_unmet_needs_zh": "1) 患者群体以育龄女性为主，长期大剂量激素所致的股骨头坏死、肥胖、感染及早发心血管病仍是巨大痛点；2) 中国尚有高比例重度增殖型狼疮性肾炎在10年内仍进展为尿毒症；3) CAR-T个体化自体制备成本天价及通用型细胞疗法尚处于1/2期探索。"
+      },
+      "sources": [
+        {
+          "title": "China SLE Treatment and Research Group (CSTAR) Registry & Clinical Progress Reports",
+          "url": "https://www.pumch.cn/en/detail/28002.html",
+          "publisher": "Peking Union Medical College Hospital (PUMCH)",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008383",
+      "name_zh": "类风湿关节炎",
+      "name_en": "Rheumatoid Arthritis",
+      "aliases_zh": [
+        "RA",
+        "类风湿性关节炎",
+        "慢性滑膜炎"
+      ],
+      "icd10": [
+        "M05.9",
+        "M06.0",
+        "M06.9"
+      ],
+      "icd11": [
+        "FA20"
+      ],
+      "category": "风湿免疫与系统性血管炎",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "以对称性外周小关节持续滑膜炎和骨侵蚀为特征的自身免疫病，可在数年内造成关节畸形致残与劳动力丧失；同时长期慢性全身炎症与激素应用可引发类风湿相关间质性肺病（RA-ILD）、血管炎及加速性冠心病心衰，显著缩短患者寿命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "尚无停药根治疗法，但坚持“早期达标治疗（T2T）”，在起病3-6个月窗口期内以甲氨蝶呤为锚定药，联合来氟米特或升级TNF-α抑制剂、IL-6R拮抗剂（托珠单抗）或口服JAK抑制剂（托法替布/巴瑞替尼/乌帕替尼），可使绝大多数患者实现临床缓解、彻底阻止骨破坏致残。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 38300,
+          "range_or_note": "GBD 2021估算全球类风湿关节炎直接归因年死亡约37,300-38,300例（不同年龄截断报告微差，另有大量归因心血管及肺间质死亡）",
+          "year": "2021",
+          "source": "GBD 2021 Study"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GBD 2021显示1990-2021年中国RA年龄标化死亡率大幅下降约22%-26.23%，但由于人口老龄化致绝对患病和相关老年死亡仍高企（相关文献未单列精确绝对死亡数字）",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "GBD 2021估算全球约1,760万例类风湿关节炎患者（标化患病率约208.8/10万人），预计到2050年将攀升至约3,170万例，女性为男性2.5-3倍。",
+        "prevalence_china": "中国RA患病率约为0.2%-0.42%，估算全国患者总数超过500万例，女性占70%-80%，平均发病年龄约为45岁，总体规范达标控制率长期远低于西方。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "甲氨蝶呤片（MTX）",
+            "name_en": "Methotrexate",
+            "drug_class": "传统合成改善病情抗风湿药（csDMARDs）",
+            "usage_role": "绝对一线锚定核心药物（每周一次口服，联用叶酸减毒，单药或联用生物制剂增效）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "来氟米特片 / 艾拉莫德片",
+            "name_en": "Leflunomide / Iguratimod",
+            "drug_class": "传统合成/中国原研抗风湿药",
+            "usage_role": "甲氨蝶呤不耐受或疗效欠佳时的联合一线口服csDMARDs方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "阿达木单抗 / 托珠单抗",
+            "name_en": "Adalimumab / Tocilizumab",
+            "drug_class": "TNF-α抑制剂 / IL-6受体抑制剂",
+            "usage_role": "传统DMARDs应答不佳的中重度RA核心生物制剂（托珠单抗已有国产生物类似药入集采/常规药品保障）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "阿达木单抗生物类似药约1,150-1,290元/40 mg支",
+            "cost_source": "国家常规临床药品目录乙类及省级集采挂网"
+          },
+          {
+            "name_zh": "托法替布 / 乌帕替尼 / 艾玛昔替尼",
+            "name_en": "Tofacitinib / Upadacitinib",
+            "drug_class": "口服JAK抑制剂（tsDMARDs）",
+            "usage_role": "传统药及生物制剂失败中重度RA口服靶向用药（托法替布已集采大降价，乌帕替尼入常规药品保障）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "乌帕替尼约1,830-2,090元/盒（15 mg×28片）；托法替布已纳入国家集采大幅降价",
+            "cost_source": "国家药品集采及国家降价协商常用药品目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "关节畸形晚期破坏患者行人工膝/髋/肘关节置换术或滑膜切除重建功能",
+          "关节保护肌力康复锻炼与职业治疗，坚决戒烟（吸烟严重降低抗TNF药效并加速间质性肺病）",
+          "定期高分辨肺CT与心血管风险筛查"
+        ],
+        "annual_total_cost_china_cny": "传统甲氨蝶呤、来氟米特及集采托法替布年维持药物费用低廉；若需升级阿达木单抗生物类似药（约1,150-1,290元/40 mg支）、托珠单抗或乌帕替尼（约1,830-2,090元/28片盒），已全面进入国家常规降价保障目录乙类及各市门诊特殊慢病Ⅱ类保障"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 高选择性JAK1抑制剂（乌帕替尼、中国1类艾玛昔替尼等）及丰富国产阿达木/托珠/依那西普生物类似药大幅破除了高值靶向药价格壁垒；2) “难治性（D2T）类风湿关节炎”领域正开展CD19/BCMA双靶点CAR-T及双特异性T细胞衔接器（如Blinatumomab等探索）尝试清除滑膜组织深层致病B细胞；3) 抗瓜氨酸化蛋白抗体阳性（ACPA+）高危人群应用阿巴西普（Abatacept）进行临床前预防性阻断发病研究取得重要进展。",
+        "key_unmet_needs_zh": "1) 我国尤其是农村基层存在大量“偏方草药止痛”替代规范DMARDs治疗、确诊时已严重骨畸形致残现象，早期规范达标率仍不足；2) 约15%-20%多线靶向耐药的“难治性RA”急需新机理机制药物；3) 合并RA相关间质性肺病（UIP型）的治疗尚缺乏既能强效护关节又不加重肺纤维化或肺感染的安全指南标准方案。"
+      },
+      "sources": [
+        {
+          "title": "Global, regional, and national burden of rheumatoid arthritis, 1990–2020, and projections to 2050: a systematic analysis of the Global Burden of Disease Study 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10546867/",
+          "publisher": "The Lancet Rheumatology (PMC)",
+          "year": "2023"
+        },
+        {
+          "title": "Prevalence of rheumatoid arthritis in China: Variations and trends from the global burden of disease study 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12212633/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005306",
+      "name_zh": "强直性脊柱炎",
+      "name_en": "Ankylosing Spondylitis",
+      "aliases_zh": [
+        "AS",
+        "中轴型脊柱关节炎",
+        "放射学阳性中轴型脊柱关节炎",
+        "竹节样脊柱"
+      ],
+      "icd10": [
+        "M45",
+        "M45.9"
+      ],
+      "icd11": [
+        "FA00.0"
+      ],
+      "category": "风湿免疫与系统性血管炎",
+      "course_type": "chronic",
+      "lethality_speed": "low_lethality",
+      "lethality_detail_zh": "好发于青年男性的中轴关节与肌腱端慢性炎症，本身极少直接致死（低直接致死率）；但未控制炎症逐步导致骶髂关节及脊柱椎体韧带骨化融合形成不可逆驼背强直与髋关节破坏（极易青壮年重度致残），少数晚期可因“竹节样”骨质疏松脊柱轻微外伤骨折瘫痪、主动脉根部炎及肺尖纤维化增加致命风险。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "现阶段虽需长期控制无法停药治愈，但只要早期规律足量使用非甾体抗炎药（NSAIDs），对常规不佳者尽早启用TNF-α抑制剂、IL-17A抑制剂（司库奇尤/依奇珠）或口服JAK抑制剂，绝大多数青壮年患者可完全镇痛、恢复正常工作运动并显著阻断骨化融合进展。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD未将强直性脊柱炎从脊柱疾病与肌肉骨骼集合中单独剥离计死因；本质为高致残、低直接致死慢性风湿病，死亡风险略高主要源自继发颈椎骨折脊髓损伤、心脏瓣膜病变及加速性心血管事件",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国年死亡总数；重大危害聚焦于未及时诊治导致的青壮年劳动力脊椎后凸强直和双髋关节置换致残",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球强直性脊柱炎总体患病率约0.1%-1.4%，与人群HLA-B27基因阳性携带率呈高度正相关，青壮年男性（15-35岁）高发，男女比约2-3:1。",
+        "prevalence_china": "中国成人流行病学合并估算AS患病率约0.20%-0.42%（均值约0.29%），全国患者超过500万例，约88%-90%以上患者HLA-B27阳性（PMC7722578等中国研究背景）。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "塞来昔布 / 依托考昔 / 洛索洛芬等NSAIDs",
+            "name_en": "Celecoxib / Etoricoxib / NSAIDs",
+            "drug_class": "非甾体抗炎药",
+            "usage_role": "所有活动性中轴型脊柱关节炎的一线基石用药（足量连续服用显著缓解炎性腰背痛与晨僵）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "阿达木单抗 / 依那西普（及生物类似药）",
+            "name_en": "Adalimumab / Etanercept",
+            "drug_class": "TNF-α抑制剂",
+            "usage_role": "NSAIDs疗效欠佳或合并顽固前葡萄膜炎/IBD的中轴脊柱关节炎一线靶向生物制剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "阿达木单抗生物类似药约1,150-1,290元/40 mg支（常规药品保障限AS等常规风湿适应证）",
+            "cost_source": "国家常规临床药品目录乙类及省级集采挂网"
+          },
+          {
+            "name_zh": "司库奇尤单抗（可善挺） / 依奇珠单抗",
+            "name_en": "Secukinumab / Ixekizumab",
+            "drug_class": "抗IL-17A单克隆抗体",
+            "usage_role": "经中国3期MEASURE 5验证的高应答中轴核心靶向药（同时有力延缓放射学脊柱新骨赘形成）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已进入国家常规降价保障目录乙类报销（进常规药品保障后降幅显著，此前年全自费约3-6.5万元）",
+            "cost_source": "国家降价协商常用药品目录乙类"
+          },
+          {
+            "name_zh": "乌帕替尼 / 托法替布",
+            "name_en": "Upadacitinib / Tofacitinib",
+            "drug_class": "口服JAK抑制剂",
+            "usage_role": "口服靶向备选方案，尤其适用于不愿注射或生物制剂失败的活动期AS患者",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "乌帕替尼约1,830-2,090元/盒（28片）",
+            "cost_source": "国家降价协商常用药品目录公开价格"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "每日规律脊柱伸展、深呼吸扩胸、游泳及核心背肌功能康复锻炼（与药物同等重要）",
+          "严格戒烟（吸烟大幅加速脊柱韧带骨化僵直与韧带骨赘进展）",
+          "严重髋关节强直破坏行全髋关节置换术（THA）及极重度折叠驼背行脊柱截骨矫形术"
+        ],
+        "annual_total_cost_china_cny": "集采NSAIDs维持药费极低；需生物制剂（阿达木单抗类似药约1,150-1,290元/40 mg支、司库奇尤单抗进常规药品保障前约30,000-65,000元/年）或乌帕替尼（约1,830-2,090元/28片盒）长期维持者，可通过国内部分地区省门诊特殊慢病Ⅱ类高比例报销显著减负"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 双重抑制IL-17A与IL-17F的新型单抗比美吉珠单抗（Bimekizumab）在全球及亚太3期试验中同时取得极高ASAS40应答及放射学低进展；2) 靶向IL-17/TNF之外的全新致病轴如抑制致病性TRBV9+ T细胞克隆清除疗法（Seniprutug等在国际报道中实现长期临床缓解探索）开启潜在“对因重置免疫”新路线；3) 我国自主研发的多款IL-17A单抗（如夫那奇珠单抗/赛立奇单抗）相继获批扩大可及性。",
+        "key_unmet_needs_zh": "1) 青壮年典型炎性腰背痛常被长期误诊为“腰椎间盘突出/腰肌劳损”，平均确诊延迟长达5-8年，导致错过阻止脊柱骨融合最佳期；2) 一旦脊柱竹节样骨桥形成，现有全部药物均无法溶解已形成的骨强直；3) 合并复发葡萄膜炎的靶向选择与药物减量停药复发预测模型缺乏。"
+      },
+      "sources": [
+        {
+          "title": "Secukinumab provided significant and sustained improvement in the signs and symptoms of ankylosing spondylitis: results from the 52-week, Phase III China-centric study, MEASURE 5",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7722578/",
+          "publisher": "PubMed Central",
+          "year": "2020"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007191",
+      "name_zh": "贝赫切特病（白塞病）",
+      "name_en": "Behcet Disease",
+      "aliases_zh": [
+        "白塞病",
+        "白塞氏病",
+        "口-眼-生殖器三联征",
+        "丝绸之路病"
+      ],
+      "icd10": [
+        "M35.2"
+      ],
+      "icd11": [
+        "4A62"
+      ],
+      "category": "风湿免疫与系统性血管炎",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "累及全口径动静脉的多系统自身炎症性血管炎。皮肤黏膜型虽仅慢性痛楚却不影响寿命，但眼白塞可致不可逆全葡萄膜炎失明；一旦累及大血管（肺动脉瘤破裂咯血、主动脉瘤破裂、布加综合征）、中枢神经脑干实质（神经白塞）或胃肠回盲部深大溃疡穿孔出血，数日至数周内可猝然致命，是年轻男性患者最核心死因。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "需按表型分层施治：单纯黏膜病变以秋水仙碱与沙利度胺即可控制；但伴有视网膜炎、神经或大血管危重受累时，必须早期足量糖皮质激素联合环磷酰胺、硫唑嘌呤及强效抗TNF-α单抗（英夫利西/阿达木单抗）诱导缓解，可挽救视力并大幅压低动脉瘤致死风险。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "属罕见系统性血管炎，WHO与GBD无独立死因计数；全病程总体病死率在现代生物治疗下约5%左右，死亡几乎高度集中于大血管动脉瘤破裂大咯血（尤其青年男性）及脑干脑膜受累人群",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无独立全国死因总数；临床不良预后及死亡主要源自心脏主动脉瓣脱垂毁损、肺动脉瘤大咯血、肠道多发溃疡大出血穿孔及大剂量免疫抑制后重症感染",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "Orphanet（ORPHA:117）统计全球总体患病率约1-9/10万人，高发于“古丝绸之路”沿线（土耳其可达80-420/10万人，东亚约13-20/10万人）。",
+        "prevalence_china": "中国北方地区患病率显著高于南方（文献估算北方约为14/10万人附近，属于我国多发风湿性血管炎之一）；男性略多于女性（男:女约1.3:1），且男性大血管/心脏/神经及重度眼受累比例明显更高。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "肺动脉瘤大咯血及神经白塞急症抢救：1) 肺动脉瘤伴发热与血痰即刻警惕动脉瘤破裂前兆——严禁单用抗凝药溶栓！立即静脉大剂量甲泼尼龙冲击（500-1000 mg/日×3天）联合静脉环磷酰胺或英夫利西单抗强力抗炎缩瘤，同期血管介入行肺动脉支架或弹簧圈栓塞；2) 急性视网膜血管炎/全葡萄膜炎或脑干神经白塞同样即刻冲击联合英夫利西单抗防不可逆致盲或偏瘫；3) 回盲部穿孔行急诊肠段切除时务必配合足量免疫抑制控制吻合口极高再瘘率。",
+        "standard_drugs": [
+          {
+            "name_zh": "秋水仙碱片 / 沙利度胺片",
+            "name_en": "Colchicine / Thalidomide",
+            "drug_class": "免疫微管调节及抗TNF小分子",
+            "usage_role": "复发性口腔/生殖器溃疡及结节性红斑（黏膜皮肤型）一线维持用药（沙利度胺严禁用于未避孕育龄患者）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "秋水仙碱约10-25元/瓶",
+            "cost_source": "国家基本医疗保险药品目录（甲类）"
+          },
+          {
+            "name_zh": "硫唑嘌呤 / 环磷酰胺",
+            "name_en": "Azathioprine / Cyclophosphamide",
+            "drug_class": "传统细胞毒免疫抑制剂",
+            "usage_role": "硫唑嘌呤为眼白塞一线、环磷酰胺为大血管（肺动脉瘤）及神经白塞抢救必备一线免疫抑制剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "英夫利西单抗 / 阿达木单抗",
+            "name_en": "Infliximab / Adalimumab",
+            "drug_class": "TNF-α抑制剂",
+            "usage_role": "难治性眼白塞（视网膜保护）、肠白塞溃疡及神经/大血管白塞挽救性一线推荐生物制剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "阿达木单抗生物类似药约1,150-1,290元/40 mg支（英夫利西单抗亦已集采及常规药品保障覆盖）",
+            "cost_source": "国家常规临床药品目录及省际集采价格"
+          },
+          {
+            "name_zh": "阿普米司特片",
+            "name_en": "Apremilast",
+            "drug_class": "口服PDE4抑制剂",
+            "usage_role": "FDA唯一明确批准用于白塞病难治性口腔溃疡的口服非免疫抑制新药（国内常规药品保障目前主要覆盖银屑病/银屑病关节炎）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "肺动脉瘤或假性动脉瘤血管介入腔内弹簧圈栓塞/覆膜支架隔绝术",
+          "心脏白塞严重主动脉瓣关闭不全行手术瓣膜置换（术前术后均需围手术期强效免疫抑制预防瓣周漏）",
+          "肠白塞并发大出血/穿孔外科切除吻合及术后紧密生物制剂维持防吻合口溃疡复发"
+        ],
+        "annual_total_cost_china_cny": "单纯黏膜型口服秋水仙碱（约10-25元/瓶）等维持药费低廉；合并眼/肠/大血管重症使用阿达木单抗生物类似药（约1,150-1,290元/支）或英夫利西单抗以及行介入栓塞/瓣膜手术时医疗费用显著升高（由常规药品保障及门慢Ⅱ类保障）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) EULAR指南及中国白塞病诊疗规范广泛推动在顽固眼部、消化道及心脏血管白塞患者中早期前置应用英夫利西/阿达木单抗以逆转高失明与高术后瓣周漏困局；2) 除已获FDA批准口服PDE4抑制剂阿普米司特改善顽固溃疡外，抗IL-17、抗IL-6（托珠单抗针对神经白塞）及口服JAK抑制剂（托法替布、乌帕替尼用于血管/肠白塞）在国内外多中心临床试验与队列中显示高缓解潜力。",
+        "key_unmet_needs_zh": "1) 临床高度异质且缺乏特异性确诊抗体，胃肠型易与克罗恩病混淆、心脏瓣膜损害易被误当“普通风湿性心瓣膜病”直接开胸导致灾难性瓣周漏；2) 大血管肺动脉瘤与神经白塞远期最优停药与防复发方案仍缺少大样本RCT；3) 抗TNF单抗及阿普米司特在白塞病中的超说明书常规药品保障适应证审批部分地区尚未完全通畅。"
+      },
+      "sources": [
+        {
+          "title": "Behçet disease (ORPHA:117)",
+          "url": "https://www.orpha.net/en/disease/detail/117",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005100",
+      "name_zh": "系统性硬化症（硬皮病）",
+      "name_en": "Systemic Sclerosis",
+      "aliases_zh": [
+        "SSc",
+        "硬皮病",
+        "系统性硬皮病",
+        "进行性系统性硬化症"
+      ],
+      "icd10": [
+        "M34",
+        "M34.0",
+        "M34.8",
+        "M34.9"
+      ],
+      "icd11": [
+        "4A42"
+      ],
+      "category": "风湿免疫与系统性血管炎",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "自身免疫血管病变驱动内皮损伤与成纤维细胞胶原狂暴沉积，导致皮肤紧绷硬化及多内脏纤维化，是全部风湿免疫病中病死率最高的疾病（中国队列长期死亡比例约达24%）。最致命的三大并发症为：1）硬皮病肾危象（SRC，数天至数周内恶性高血压伴急性肾衰可死）；2）硬皮病相关间质性肺病（SSc-ILD，呼吸衰竭首位死因）；3）肺动脉高压（PAH，右心衰竭）。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "目前无彻底逆转广泛纤维化的根治药；过去常令风湿科束手无策，但目前通过吗替麦考酚酯（MMF）联合抗纤维化药尼达尼布或抗IL-6R单抗托珠单抗已能有效延缓肺功能（FVC）丢失；硬皮病肾危象一经尽早大剂量ACEI（卡托普利）降压则存活率明显改善。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO/GBD将SSc归并入“其他肌肉骨骼疾病”合计数（未单独拆分年度死因总数）；全风湿病中归因致死风险最高，10年生存率长期低于65%-75%（弥漫型与合并PAH/ILD者预后尤差）",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国年死亡总数；东亚与中国系统性硬化症大样本队列报告SSc相关间质性肺病（SSc-ILD）发生率达50%-70%以上，队列长期随访死亡率约24%，主要死因为肺纤维化呼吸衰竭与肺动脉高压右心衰",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "Orphanet与全球文献报告系统性硬化症患病率约7-30/10万人（美国及南欧较高，女性为男性4-9倍）。",
+        "prevalence_china": "中国亦将其列为重要罕见/疑难风湿病（约10/10万以下至罕见范围），多发于30-50岁中青年女性，亚洲人群抗Scl-70（拓扑异构酶I）阳性伴SSc-ILD比例显著高于高加索人。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "硬皮病肾危象（SRC，骤发恶性高血压常>150/90 mmHg+血肌酐急升+微血管病性溶血）急救：1) 首要且刻不容缓！即刻口服短效卡托普利并逐小时快速加量滴定降压（目标24-72小时内温和将收缩压回落，即便血肌酐短期略升也绝不轻停ACEI！）；2) 立即停用糖皮质激素或严格压低至≤15 mg/日泼尼松（大剂量激素是重要肾危象诱发因素）；3) 合并肺水肿或少尿高钾适时行CRRT/血透支持（部分受者坚持ACEI数月后肾功能可逐步脱离透析）。",
+        "standard_drugs": [
+          {
+            "name_zh": "乙磺酸尼达尼布软胶囊",
+            "name_en": "Nintedanib",
+            "drug_class": "多靶点酪氨酸激酶抗纤维化抑制剂",
+            "usage_role": "延缓系统性硬化症相关间质性肺病（SSc-ILD）肺活量年下降速率的里程碑抗纤维化药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "托珠单抗注射液",
+            "name_en": "Tocilizumab",
+            "drug_class": "抗IL-6受体单克隆抗体",
+            "usage_role": "早期弥漫皮肤型合并高炎症指标SSc-ILD保肺功能的一线生物制剂（已有国产生物类似药降价）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "吗替麦考酚酯（MMF） / 环磷酰胺",
+            "name_en": "Mycophenolate Mofetil / Cyclophosphamide",
+            "drug_class": "免疫抑制剂",
+            "usage_role": "SSc-ILD肺纤维化炎症阶段及严重皮肤硬化的一线基础治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "卡托普利 / 波生坦 / 西地那非等靶向扩血管药",
+            "name_en": "Captopril / Bosentan / Sildenafil",
+            "drug_class": "ACEI / 内皮素受体拮抗剂 / PDE5抑制剂",
+            "usage_role": "卡托普利挽救硬皮病肾危象；波生坦等靶向联用治疗指端难治缺血溃疡及SSc相关肺动脉高压",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "极重度弥漫皮肤型伴进展肺受累在部分筛选受者中行自体造血干细胞移植（HSCT，改善无事件生存率）",
+          "终末期SSc-ILD呼吸衰竭行肺移植或重度顽固指端坏疽护肢保暖理疗",
+          "伴显著食管动力学障碍及严重胃食管反流患者予终身质子泵抑制剂防反流误吸加重肺纤维化"
+        ],
+        "annual_total_cost_china_cny": "常规免疫抑制（MMF等）费用相对可控；合并进行性间质性肺病（SSc-ILD）及肺动脉高压（PAH）需长期联用常规目录药物尼达尼布、托珠单抗及靶向扩血管药物后，整体药费较高，依托门诊特殊慢病Ⅱ类及双通道机制有效分摊"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 2025年发表于NEJM的3期FIBRONEER-ILD国际多中心试验证实新一代口服高选择性PDE4B抑制剂Nerandomilast显著减缓进行性肺纤维化（含SSc-ILD等自身免疫性ILD）患者的用力肺活量丧失，且胃肠道耐受性大幅改善；2) 同年CD19 CAR-T细胞疗法（NEJM 2024及多国早期研究）在多药耐药的重度弥漫性SSc患者中展现出前所未有的皮肤软化、自身抗体转阴及肺间质病灶停止恶化甚至部分逆转信号。",
+        "key_unmet_needs_zh": "1) 尚无能够有效逆转已形成的肺部蜂窝纤维化与严重皮肤硬化的根治手段；2) 中国基层医生遇雷诺现象、皮肤紧硬时易盲目长期予大剂量激素诱发致死性硬皮病肾危象；3) 抗纤维化药尼达尼布等重度腹泻不耐受率较高且对早期PAH并无改善。"
+      },
+      "sources": [
+        {
+          "title": "Prevalence and risk factors of systemic sclerosis-associated interstitial lung disease in East Asia: A systematic review and meta-analysis",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9292335/",
+          "publisher": "PubMed Central",
+          "year": "2021"
+        },
+        {
+          "title": "FIBRONEER-IPF and FIBRONEER-ILD Phase III Data on Nerandomilast Presented at ATS and Published in NEJM",
+          "url": "https://www.boehringer-ingelheim.com/us/fibroneer-data-presented-ats-and-published-nejm",
+          "publisher": "Boehringer Ingelheim",
+          "year": "2025"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0012727",
+      "name_zh": "川崎病",
+      "name_en": "Kawasaki Disease",
+      "aliases_zh": [
+        "皮肤黏膜淋巴结综合征",
+        "KD",
+        "小儿急性系统性血管炎"
+      ],
+      "icd10": [
+        "M30.3"
+      ],
+      "icd11": [
+        "4A44.1"
+      ],
+      "category": "儿科急性系统性血管炎",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "主要侵袭5岁以下婴幼儿中小动脉的急性发热出疹性系统性血管炎；虽急性期直接住院死亡率极低（<0.1%），但最致命危害在于选择性破坏冠状动脉（未规范治疗时约20%-25%发展为冠状动脉瘤，即使及时治疗仍有约4%发生率及10%-20%IVIG耐药），可急性并发休克综合征（KDSS）或在亚急性至远期突发冠脉血栓心肌梗死或动脉瘤破裂猝死，已超越风湿热成为发达地区及中国儿童后天性心脏病的首要病因。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "属高度可治愈的儿科急性危重血管炎！只要在发病第5-10天黄金窗口期内足量单次大剂量静注丙种球蛋白（IVIG 2 g/kg）并联合阿司匹林抗炎抗血小板，绝大多数患儿可迅速退热痊愈、避免遗留永久性冠脉瘤；对IVIG耐药患儿及时追加二剂IVIG、甲泼尼龙或英夫利西单抗挽救亦绝大多数预后良好。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO与GBD未单列川崎病全国年度死亡数；在现代IVIG普及地区急性期病死率<0.1%，死亡绝大多数归因于未治或巨大型冠状动脉瘤（内径≥8 mm）闭塞性血栓导致的儿童/青少年心肌梗死或破裂猝死",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死因总数；临床死亡集中于延误诊断错过IVIG时机、形成巨大冠状动脉瘤伴血栓性心梗及合并川崎病休克综合征/巨噬细胞活化综合征（MAS）的重症患儿",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "Orphanet（ORPHA:2331）统计欧美地区年发病率约1/6,500-1/20,500儿童，而东亚人群遗传易感性高出欧美10倍以上（日本5岁以下儿童发病率超300/10万人，高居全球首位）。",
+        "prevalence_china": "中国是全球川崎病高发国之一（上海多年度流行病学监测显示5岁以下儿童发病率曾升至68至100/10万以上，北京及西南等地研究亦呈上升趋势）；80%以上病例集中于5岁以下婴幼儿，不完全（不典型）川崎病比例上升增加了早期误诊率。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "10天黄金期急性救治：1) 一旦符合完全或不完全川崎病诊断（高热≥5天伴典型5项主要症状及超敏CRP/心脏彩超异常），争取发病10天内单次大剂量静脉滴注人免疫球蛋白（IVIG 2 g/kg，10-12小时输完）；2) 联合中/高剂量阿司匹林（热退48-72小时后转为小剂量3-5 mg/kg/d抗血小板至少6-8周，有冠脉瘤者长期抗凝+抗血小板）；3) 若输注IVIG结束36-48小时后仍持续或复现发热（IVIG无反应型，约占10%-20%），立即行挽救性二线方案：重复IVIG、静脉甲泼尼龙冲击或静滴英夫利西单抗（5 mg/kg）；4) 合并巨大冠脉瘤者联合华法林/低分子肝素抗凝防急性血栓心梗。",
+        "standard_drugs": [
+          {
+            "name_zh": "静注人免疫球蛋白（pH4）（IVIG）",
+            "name_en": "Intravenous Immunoglobulin (IVIG)",
+            "drug_class": "血液制品免疫球蛋白",
+            "usage_role": "治疗川崎病预防冠状动脉瘤的绝对一线核心基石用药（国家常规目录药物明确单列“限川崎病”报销）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "2.5 g规格约540-620元/瓶、5 g规格约1,180元/支（按2 g/kg单次疗程合计通常数千元）",
+            "cost_source": "国家常规临床药品目录（2024年乙类明文限定川崎病）及各省公立医疗机构中选挂网价"
+          },
+          {
+            "name_zh": "阿司匹林肠溶片",
+            "name_en": "Aspirin",
+            "drug_class": "水杨酸类抗炎抗血小板药",
+            "usage_role": "急性期抗炎联用及恢复期/冠脉病变期长期小剂量抑制血小板防冠脉血栓",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "甲泼尼龙 / 英夫利西单抗",
+            "name_en": "Methylprednisolone / Infliximab",
+            "drug_class": "糖皮质激素 / TNF-α抑制剂",
+            "usage_role": "高危初发评分患儿联合增强（RAISE方案）及10%-20% IVIG耐药性川崎病一线挽救治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "起病第0周、第2周、第6周及长期规律二维超声心动图监测冠状动脉Z值动态变化",
+          "巨大冠状动脉瘤合并重度狭窄/血栓或急性心梗时行经皮冠脉介入球囊扩张或儿童冠脉搭桥术（CABG）"
+        ],
+        "annual_total_cost_china_cny": "核心药物静注人免疫球蛋白（2.5 g约540-620元/瓶，按2 g/kg单次疗程约数千元）由住院常规药品保障按“川崎病”限定适应证予以报销；若发生IVIG耐药联用英夫利西单抗或巨大冠脉瘤长期随访介入治疗则花费明显升高"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 面向IVIG耐药型或伴休克（KDSS）极重症患者，全球指南及近年儿童风湿共识加速验证白介素-1受体拮抗剂阿那白滞素（Anakinra）强效阻断冠状动脉损伤（ANAKID等1/2a与欧洲KAWAKINRA研究表现优异）；2) 阿托伐他汀辅助改善急性冠脉内皮重构进入儿科临床探索，AI辅助不典型川崎病早筛评分与基于中国人群的高危耐药预测模型提升精准分流能力。",
+        "key_unmet_needs_zh": "1) 病因迄今未完全明确，仍无法通过疫苗在一级预防上阻断发病；2) 不典型/不完全川崎病早期极易误诊为“普通化脓性扁桃体炎或肺炎”而拖延至发热>10天致巨大冠脉瘤形成；3) 婴幼儿巨大型冠状动脉瘤成人期后远期心梗再通介入与抗栓衔接缺乏大宗随机试验。"
+      },
+      "sources": [
+        {
+          "title": "Kawasaki disease (ORPHA:2331)",
+          "url": "https://www.orpha.net/en/disease/detail/2331",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Epidemiologic features of Kawasaki disease in Shanghai from 2013 through 2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31548437/",
+          "publisher": "PubMed",
+          "year": "2020"
+        },
+        {
+          "title": "Nomogram for Predicting Regression of Persistent Coronary Artery Aneurysms in Kawasaki Disease: A Three-year Follow-up Cohort Study in Southwest China",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41867467/",
+          "publisher": "PubMed",
+          "year": "2026"
+        },
+        {
+          "title": "国家基本医疗保险、工伤保险和生育保险药品目录（2024年，含IVIG川崎病限定）",
+          "url": "https://www.nhsa.gov.cn/module/download/downfile.jsp?classid=0&filename=de66e92b7edd4056ac41c0c4d3c011f3.pdf",
+          "publisher": "国家医疗保障局",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "ICD10:T67.0",
+      "name_zh": "热射病",
+      "name_en": "Heatstroke",
+      "aliases_zh": [
+        "重症中暑",
+        "劳力型热射病",
+        "经典型热射病",
+        "致死性中暑"
+      ],
+      "icd10": [
+        "T67.0"
+      ],
+      "icd11": [
+        "NE65.0"
+      ],
+      "category": "环境医学与急危重症",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "体温调节失衡导致核心体温骤升>40℃并伴中枢神经功能障碍（谵妄、抽搐、昏迷），热毒性直接破坏脑、心、肝、肾与胃肠黏膜屏障并迅速触发弥散性血管内凝血（DIC）与全身细胞因子风暴。临床黄金抢救窗以分钟计算（“黄金30分钟”），未及时快速降温者可在数小时内不可逆休克、脑水肿、急性肝肾衰或横纹肌溶解死亡，住院重度及ICU热射病患者病死率高达14%-65%。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "属时间依赖性极强的热急症：只要在发病现场30分钟内立即启动冰水浸泡等核心快速降温至38.5℃以下，近乎100%可获完整存活不留后遗症；一旦耽误降温超过1-2小时发展为热射病性DIC与多脏器衰竭（MODS），即使入ICU全力器官替代救治，死亡率与神经认知永久残障率依然居高不下。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "由于酷暑常被隐性编码为心肌梗死或卒中死因，WHO/GBD无单独精准热射病绝对死亡计数；WHO气候与健康报告引用全球每年约48.9万例以上热相关超额死亡（近年新研究估算达54.6万例/年），热射病为其最直接致命临床终端",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国CDC传染病与突发事件监测（2010-2023年）共记录确诊报告中暑病例86,406例（总病死率约1.98%，其中重症中暑病死率达6.19%，PMC12681910）；中国医院临床重症/ICU热射病（劳力性及经典型）队列报道院内病死率普遍在14%-65%以上，且总体热浪超额年死亡估算逾万例",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "受全球极端高温热浪频发驱动，热射病发病率逐年急剧上升，传统分布分为劳力型（青壮年高温高湿强体力劳动/军训运动员）与经典型（无空调散热的高龄失能独居老人）。",
+        "prevalence_china": "中国CDC监测显示2010-2023年中暑整体报告发病率约44.83/千万人年，夏秋季长江中下游、华南及华北极端湿热天气高发，其中7-8月占比绝对主导且高龄经典型热射病与户外高温作业劳力型患者死亡风险最高。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "中国热射病救治专家共识“十早一禁”及“黄金30分钟降温”核心原则：1) 现场第一目击者“先降温后转运”：立刻脱去衣物转移阴凉处，劳力型首选冷水/冰水浸泡（头部保持水上）或全躯干大动脉冰敷+凉水喷洒强风蒸发，力争30分钟内将核心（直肠）体温降至39.0℃以下、2小时内达38.5℃以下（切忌无指征擅用阿司匹林、布洛芬等退热药！）；2) 院内快速冷生理盐水静脉输注扩容，维持有效尿量（≥1-2 mL/kg/h）与碱化尿液预防横纹肌溶解阻塞肾小管；3) 抽搐昏迷及时苯二氮䓬镇静止惊及气管插管气道保护；4) 出现DIC、急性肝肾衰即刻启动血浆置换、CRRT血液净化及输注新鲜血浆/抗凝协同稳态管理。",
+        "standard_drugs": [
+          {
+            "name_zh": "冷4℃ 0.9%氯化钠注射液 / 平衡盐液",
+            "name_en": "Cold 0.9% Sodium Chloride / Crystalloids",
+            "drug_class": "血管内降温与液体复苏晶体液",
+            "usage_role": "快速降温同时纠正高热大汗及血管扩张引发的严重低血容量休克，防范横纹肌溶解所致AKI",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "地西泮 / 咪达唑仑注射液",
+            "name_en": "Diazepam / Midazolam Injection",
+            "drug_class": "苯二氮䓬类镇静止惊药",
+            "usage_role": "快速控制热射病抽搐、寒战反应（阻断肌肉持续产热耗氧）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          },
+          {
+            "name_zh": "乌司他丁 / 肝素类 / 新鲜冰冻血浆及凝血替代制品",
+            "name_en": "Ulinastatin / Anticoagulants & Blood Products",
+            "drug_class": "蛋白酶抑制剂与凝血调控血液制品",
+            "usage_role": "抑制热打击引发的内皮炎症风暴及按热射病DIC分期纠正凝血消耗危象",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "乌司他丁约30-70元/支",
+            "cost_source": "国家常规临床药品目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "院前/急诊冷水全身浸泡降温（CWI，最强效物理降温法）及血管内降温导管/目标体温管理（TTM）",
+          "连续性肾脏替代治疗（CRRT）及血浆置换（兼具物理降温与清除肌红蛋白、内毒素炎症介质之效）",
+          "高温作业职业暴露防护（极端高温红色预警强制停工与现场急救冰水桶配置）"
+        ],
+        "annual_total_cost_china_cny": "现场30分钟黄金窗迅速冷水浸泡降温未继发器官衰竭者仅需急诊留观常规费用；若延迟降温发展为多器官衰竭与DIC入ICU行CRRT（操作费200-350元/次另加体外循环耗材）及血浆置换等抢救，单次住院花费常达数万至10万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Preclinical",
+        "breakthroughs_and_trials_zh": "1) 机制转化研究方面，中南大学湘雅团队及全球研究揭示热打击诱导肠上皮屏障崩解触发内毒素（LPS）移位与RIPK1/3介导的PANoptosis/Caspase-11非经典焦亡引发致死性DIC核心机制，正在临床前筛选靶向焦亡及凝血阻断小分子抑制剂；2) 基层部队与户外高危行业大幅推广降温背心、便携冰水浸泡袋等院前“10分钟先降温后转运”体系，明显拉低劳力性热射病器官衰竭发生率。",
+        "key_unmet_needs_zh": "1) 迄今全球尚无针对热打击诱发血管内皮损伤与DIC细胞因子风暴的特异性上市解毒/细胞保护靶向药；2) 基层与公众仍普遍误信“送医院途中再处理”及误用“酒精擦浴”或退烧药，严重错失唯一有效的30分钟降温黄金窗；3) 气候变暖下高龄独居老人在室内无空调闷热环境中发生隐匿性“经典型热射病”早期报警体系极度缺失。"
+      },
+      "sources": [
+        {
+          "title": "Climate change: Heat and health Fact Sheet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health",
+          "publisher": "World Health Organization",
+          "year": "2024"
+        },
+        {
+          "title": "Surveillance epidemiology of heatstroke in China: when numerators are denominators (covering China CDC 2010-2023 surveillance)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12681910/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0800386",
+      "name_zh": "急性有机磷农药及常见急性中毒",
+      "name_en": "Acute Organophosphate and Common Acute Poisoning",
+      "aliases_zh": [
+        "AOPP",
+        "急性有机磷中毒",
+        "急性中毒",
+        "有机磷杀虫剂中毒"
+      ],
+      "icd10": [
+        "T60.0",
+        "T65.9"
+      ],
+      "icd11": [
+        "NF04.6"
+      ],
+      "category": "急诊中毒与理化因素疾病",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "高脂溶性毒物经消化道、皮肤或呼吸道迅速抑制乙酰胆碱酯酶，引发乙酰胆碱剧烈蓄积，可在数分钟至数小时内因支气管痉挛大汗肺水肿（窒息）、呼吸肌麻痹及中枢呼吸中枢衰竭致命；数日后仍可因“中间综合征”致延迟呼吸肌麻痹猝死，合并常见急性中毒（如百草枯、鼠药、镇静催眠药或一氧化碳）亦可急性致命。中国住院AOPP病死率据区域和毒物剧毒程度差异跨度达3%-40%。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "急性有机磷中毒具备黄金特效解毒剂组合（抗胆碱药阿托品/戊乙奎醚 + 胆碱酯酶复能剂氯解磷定），只要抢在胆碱酯酶“老化”前早期足量洗消解毒、尽早机械通气与血液灌流清除血中游离毒物，绝大多数患者可完全获救治愈。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO在SDG 3.9.3统计2019年全球意外中毒死亡约19.3万例（标化约0.7/10万），Mew等系统综述估算2006-2015年全球农药自服年致死11万-16.8万例，WHO另估计全球有机磷农药中毒（AOPP）年死亡约20万例；因“意外”、“自服”、“农药/全部中毒”交叉口径不一，按范围详述而不混同单一数值",
+          "year": null,
+          "source": null
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无全国全毒物单列精确年度总死因；流行病学文献显示有机磷农药中毒（AOPP）长期占我国急性中毒住院病例的20%-50%，病死率因地区急救条件及高剧毒老品种差异在3%-40%不等（随剧毒高毒有机磷禁限用已呈显著下行）",
+          "year": null,
+          "source": null
+        },
+        "prevalence_global": "全球每年估计发生约300万例重度急性有机磷中毒及其他高危化学毒物中毒，农村及农业发展中地区为绝对重灾区（高毒农药易得）。",
+        "prevalence_china": "我国基层及农村急诊中毒以急性有机磷/拟除虫菊酯农药、一氧化碳（冬季煤炭取暖）、野生毒蕈及药物（镇静安眠药、抗抑郁药）过量最为高发；近年来随着高毒有机磷逐步退市，城市居民药物、美容化学品及新型混合中毒比重上升。"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "急性有机磷中毒抢救“四早一彻底”原则：1) 迅速脱离现场、脱去污染衣物用肥皂水（敌百虫改用清水禁碱）彻底清洗皮肤毛发；口服者争分夺秒在保障气道安全前提下温清水彻底反复洗胃（防毒物残留反跳）+活性炭吸附；2) 立即双通路静脉联合使用特效解毒剂：早期大剂量反复静脉注射阿托品迅速达“阿托品化”（肺部湿啰音消失、心率适度、瞳孔不再缩小），或长效高选择M受体拮抗剂盐酸戊乙奎醚（长托宁）；同步尽早足量肌注/静脉氯解磷定（PAM-Cl）或解磷定复活被抑制的胆碱酯酶；3) 一旦呼吸肌无力/血氧跌落立即气管插管呼吸机支持，高龄重度患者备长程预防“中间综合征”；4) 脂溶性高/大剂量口服者即刻行血液灌流（HP）联合血液滤过快速清除游离毒物；其他常见中毒如CO中毒即刻高压氧、对乙酰氨基酚予NAC、阿片类予纳洛酮、苯二氮䓬予氟马西尼。",
+        "standard_drugs": [
+          {
+            "name_zh": "硫酸阿托品注射液 / 盐酸戊乙奎醚注射液（长托宁）",
+            "name_en": "Atropine Sulfate / Penehyclidine Hydrochloride",
+            "drug_class": "M胆碱受体拮抗剂",
+            "usage_role": "急性有机磷中毒急救解除肺水肿与支气管痉挛核心救命解毒剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "阿托品及同类救命抗胆碱注射液约数元至数十元/支",
+            "cost_source": "国家基本药物目录及常规目录内"
+          },
+          {
+            "name_zh": "氯解磷定注射液",
+            "name_en": "Pralidoxime Chloride Injection",
+            "drug_class": "胆碱酯酶复能剂（肟类）",
+            "usage_role": "早期特效解除烟碱样肌束震颤与呼吸肌麻痹（必须于酶老化前尽早联用，常规药品保障目录常规保障）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "约数元至数十元/支",
+            "cost_source": "国家基本药物目录及常规基础药物"
+          },
+          {
+            "name_zh": "纳洛酮 / 氟马西尼 / 乙酰半胱氨酸 / 亚甲蓝 / 羟钴胺等特种解毒剂",
+            "name_en": "Naloxone / Flumazenil / N-Acetylcysteine / Antidotes",
+            "drug_class": "特异性毒物拮抗解毒药",
+            "usage_role": "分别覆盖阿片类、苯二氮䓬、对乙酰氨基酚、亚硝酸盐及氰化物等常见急诊中毒抢救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": null,
+            "cost_source": null
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊血液灌流（HP，树脂/活性炭灌流器，每次操作费约200-350元+灌流器耗材约千余至两千元，常规药品保障覆盖）及CRRT连续血液净化",
+          "气管插管有创机械通气（应对急性胆碱能呼吸衰竭及第2-4天“中间综合征”）",
+          "急性一氧化碳中毒急诊高压氧舱治疗及精神心理危机干预预防再次自服中毒"
+        ],
+        "annual_total_cost_china_cny": "轻度中毒及时彻底洗胃并予阿托品/氯解磷定（数元至数十元/支）解毒者单次住院总花费通常在10,000元以内；重症入ICU多次血液灌流（操作费200-350元/次另加一次性灌流器耗材）及长程呼吸机支持时，单次抢救费用可达20,000-100,000元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 生物酶“血液内清除（Bioscavenger）”前沿转化：重组丁酰胆碱酯酶（rBChE）及工程化磷酸三酯酶纳米递送系统可在血液循环中直接催化水解高毒有机磷分子而不依赖传统肟类复能剂耐老化限制，已推进至早期临床/大动物军民毒物防护评估；2) 针对百草枯/敌草快等至今无特效解毒剂的急性高致死中毒，国内急诊学界深入探索新型靶向肺纤维化抑制剂（吡非尼酮/尼达尼布）及早期联合血液灌流+血浆置换标准化“泰山/齐鲁共识”路径，力争压降极高病死率。",
+        "key_unmet_needs_zh": "1) 氯解磷定及现有肟类对敌百虫、久效磷及部分新型快速老化型有机磷“酶老化”后彻底无效，亟待广谱可重活化新型肟类或生物清道夫酶上市；2) 新兴隐蔽性剧毒农药（如敌草快替代百草枯后中毒率激增）、未知复合网购减肥药/有毒野生菌缺乏床旁15分钟快速质谱毒物谱筛查；3) 基层医院常备冷僻解毒剂储备短缺问题依然存在。"
+      },
+      "sources": [
+        {
+          "title": "WHO SDG 3.9.3 Mortality rate attributed to unintentional poisoning",
+          "url": "https://data.who.int/indicators/i/55CF708/84FD3DE",
+          "publisher": "World Health Organization",
+          "year": "2024"
+        },
+        {
+          "title": "The global burden of fatal self-poisoning with pesticides 2006-15: Systematic review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28535450/",
+          "publisher": "Journal of Affective Disorders (PubMed)",
+          "year": "2017"
+        },
+        {
+          "title": "Epidemiological analysis of 2,368 pesticide poisoning patients in Quzhou City, China",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12164162/",
+          "publisher": "PubMed Central",
+          "year": "2025"
+        }
+      ]
+    }
+  ]
+}
