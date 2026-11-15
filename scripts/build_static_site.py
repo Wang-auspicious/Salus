@@ -41,7 +41,7 @@ def _write_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
-def build_static_site(out_dir: Path) -> dict[str, Any]:
+def build_static_site(out_dir: Path, *, cname: str = "salusatlas.cn") -> dict[str, Any]:
     t0 = time.perf_counter()
     if out_dir.exists():
         shutil.rmtree(out_dir)
@@ -72,6 +72,8 @@ def build_static_site(out_dir: Path) -> dict[str, Any]:
     (out_dir / "index.html").write_text(static_html, encoding="utf-8")
     (out_dir / "404.html").write_text(static_html, encoding="utf-8")
     (out_dir / ".nojekyll").write_text("", encoding="utf-8")
+    if cname.strip():
+        (out_dir / "CNAME").write_text(f"{cname.strip()}\n", encoding="utf-8")
     _write_json(
         out_dir / "esa.jsonc",
         {
@@ -222,11 +224,12 @@ def build_static_site(out_dir: Path) -> dict[str, Any]:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build 100% static Salus bundle into dist/")
     parser.add_argument("--out", default="dist", help="Output directory relative to project root or absolute")
+    parser.add_argument("--cname", default="salusatlas.cn", help="Custom CNAME domain written to dist/CNAME (empty to omit)")
     args = parser.parse_args()
     out_path = Path(args.out)
     if not out_path.is_absolute():
         out_path = salus_server.PROJECT_ROOT / out_path
-    stats = build_static_site(out_path)
+    stats = build_static_site(out_path, cname=args.cname)
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 
