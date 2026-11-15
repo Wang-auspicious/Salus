@@ -427,162 +427,176 @@ def api_search(q: str = Query(..., min_length=1), limit: int = Query(30, ge=1, l
     return JSONResponse({"query": query, "count": len(results), "results": results})
 
 
+def build_disease_detail_payload(
+    conn: sqlite3.Connection,
+    disease_id: str,
+    *,
+    include_neighbors: bool = True,
+    include_node: bool = True,
+) -> dict[str, Any] | None:
+    """Build integrated dossier payload for any master canonical_id or curated_id."""
+    lookup = get_atlas_node_lookup()
+    by_curated = _CACHE["node_by_curated"]
+    master: dict[str, Any] | None = None
+    curated: dict[str, Any] | None = None
+    drugs: list[dict[str, Any]] = []
+
+    if disease_id.startswith("CURATED:"):
+        cid_num = int(disease_id.split(":", 1)[1])
+        row = conn.execute("SELECT * FROM curated_dossiers WHERE id = ?", (cid_num,)).fetchone()
+        if row:
+            curated = dict(row)
+    else:
+        m_row = conn.execute("SELECT * FROM diseases_master WHERE canonical_id = ?", (disease_id,)).fetchone()
+        if m_row:
+            master = dict(m_row)
+            if master.get("curated_dossier_id"):
+                c_row = conn.execute("SELECT * FROM curated_dossiers WHERE id = ?", (master["curated_dossier_id"],)).fetchone()
+                if c_row:
+                    curated = dict(c_row)
+        else:
+            c_row = conn.execute("SELECT * FROM curated_dossiers WHERE disease_id = ?", (disease_id,)).fetchone()
+            if c_row:
+                curated = dict(c_row)
+
+    if not master and not curated:
+        return None
+
+    if curated:
+        raw_drugs = [
+            dict(d)
+            for d in conn.execute("SELECT * FROM curated_drugs WHERE dossier_id = ? ORDER BY china_nrdl_covered DESC, id", (curated["id"],))
+        ]
+        for d in raw_drugs:
+            d["cost_estimate_cny"] = _scrub_policy_text(d.get("cost_estimate_cny"))
+            d["cost_source"] = _scrub_policy_text(d.get("cost_source"))
+            d["usage_role"] = _scrub_policy_text(d.get("usage_role"))
+        drugs = raw_drugs
+
+    def parse_j(val: str | None, default: Any = None) -> Any:
+        if not val:
+            return default
+        try:
+            return json.loads(val)
+        except Exception:
+            return default
+
+    node = lookup.get(master["canonical_id"] if master else disease_id)
+    if not node and curated:
+        node = by_curated.get(curated["id"])
+
+    neighbors: list[dict[str, Any]] = []
+    if include_neighbors and node:
+        atlas = load_json_cached("atlas_nodes.json")
+        fields = atlas["fields"]
+        idx = {f: i for i, f in enumerate(fields)}
+        nx, ny = node["x"], node["y"]
+        cands = []
+        for r in atlas["rows"]:
+            if r[idx["id"]] == node["id"]:
+                continue
+            if r[idx["l1"]] == node["l1"] and r[idx["l2"]] == node["l2"]:
+                dist2 = (r[idx["x"]] - nx) ** 2 + (r[idx["y"]] - ny) ** 2
+                cands.append((dist2 - r[idx["is_curated"]] * 800.0, r))
+        cands.sort(key=lambda t: t[0])
+        for _, r in cands[:12]:
+            neighbors.append({
+                "id": r[idx["id"]],
+                "name_en": r[idx["name_en"]],
+                "name_zh": r[idx["name_zh"]],
+                "icd10": r[idx["icd10"]],
+                "l3": r[idx["l3"]],
+                "is_curated": r[idx["is_curated"]],
+                "lethality": r[idx["lethality"]],
+                "x": r[idx["x"]],
+                "y": r[idx["y"]],
+            })
+
+    genes_list = parse_j(master["genes_json"], []) if master else []
+    track_ids = _classify_tracks(
+        l1=node["l1"] if node else (curated["domain"] if curated else ""),
+        l2=node["l2"] if node else (curated["category"] if curated else ""),
+        lethality=(curated["lethality_speed"] if curated else (node["lethality"] if node else None)),
+        course=(curated["course_type"] if curated else (node["course"] if node else None)),
+        is_rare=int(master["is_rare"] or 0) if master else 0,
+        has_genes=bool(genes_list),
+    )
+    track_map = {t["id"]: t for t in BREAKTHROUGH_TRACKS}
+    breakthrough_tracks = [track_map[tid] for tid in track_ids if tid in track_map]
+
+    cm_obj = parse_j(curated["clinical_management_json"], {}) if curated else {}
+    if isinstance(cm_obj, dict):
+        cm_obj = _scrub_nested(cm_obj)
+
+    rp_obj = _scrub_nested(parse_j(curated["research_progress_json"], {}) if curated else {})
+    epi_obj = _scrub_nested(parse_j(curated["epidemiology_json"], {}) if curated else {})
+    sources_clean = _clean_sources(parse_j(curated["sources_json"], []) if curated else [])
+
+    payload: dict[str, Any] = {
+        "breakthrough_tracks": breakthrough_tracks,
+        "master": {
+            "canonical_id": master["canonical_id"],
+            "mondo_id": master["mondo_id"],
+            "name_en": master["name_en"],
+            "name_zh": master["name_zh"],
+            "definition_en": master["definition_en"],
+            "synonyms_en": parse_j(master["synonyms_en_json"], []),
+            "icd10": parse_j(master["icd10_json"], []),
+            "icd11": parse_j(master["icd11_json"], []),
+            "orpha_id": master["orpha_id"],
+            "omim_id": master["omim_id"],
+            "efo_id": master["efo_id"],
+            "disease_type": master["disease_type"],
+            "mondo_categories": parse_j(master["mondo_categories_json"], []),
+            "highest_clinical_stage": master["highest_clinical_stage"],
+            "approved_drug_count": master["approved_drug_count"],
+            "clinical_trial_count": master["clinical_trial_count"],
+            "top_drugs": parse_j(master["top_drugs_json"], []),
+            "orphanet_prevalence": master["orphanet_prevalence"],
+            "orphanet_prevalence_list": parse_j(master["orphanet_prevalence_json"], []),
+            "inheritance": master["inheritance"],
+            "age_of_onset": master["age_of_onset"],
+            "genes": genes_list,
+            "is_rare": bool(master["is_rare"]),
+            "source_flags": master["source_flags"],
+        } if master else None,
+        "curated": {
+            "id": curated["id"],
+            "domain": curated["domain"],
+            "disease_id": curated["disease_id"],
+            "name_zh": curated["name_zh"],
+            "name_en": curated["name_en"],
+            "aliases_zh": parse_j(curated["aliases_zh_json"], []),
+            "icd10": parse_j(curated["icd10_json"], []),
+            "icd11": parse_j(curated["icd11_json"], []),
+            "category": curated["category"],
+            "course_type": curated["course_type"],
+            "lethality_speed": curated["lethality_speed"],
+            "lethality_detail_zh": curated["lethality_detail_zh"],
+            "treatability_status": curated["treatability_status"],
+            "treatability_summary_zh": _scrub_policy_text(curated["treatability_summary_zh"]),
+            "epidemiology": epi_obj,
+            "clinical_management": cm_obj,
+            "research_progress": rp_obj,
+            "drugs": drugs,
+            "sources": sources_clean,
+        } if curated else None,
+    }
+    if include_node:
+        payload["node"] = node
+    if include_neighbors:
+        payload["neighbors"] = neighbors
+    return payload
+
+
 @app.get("/api/disease/{disease_id:path}")
 def api_disease_detail(disease_id: str) -> JSONResponse:
     """Return full integrated dossier for any master canonical_id or curated_id."""
-    lookup = get_atlas_node_lookup()
-    by_curated = _CACHE["node_by_curated"]
     conn = get_db()
     try:
-        master: dict[str, Any] | None = None
-        curated: dict[str, Any] | None = None
-        drugs: list[dict[str, Any]] = []
-
-        if disease_id.startswith("CURATED:"):
-            cid_num = int(disease_id.split(":", 1)[1])
-            row = conn.execute("SELECT * FROM curated_dossiers WHERE id = ?", (cid_num,)).fetchone()
-            if row:
-                curated = dict(row)
-        else:
-            m_row = conn.execute("SELECT * FROM diseases_master WHERE canonical_id = ?", (disease_id,)).fetchone()
-            if m_row:
-                master = dict(m_row)
-                if master.get("curated_dossier_id"):
-                    c_row = conn.execute("SELECT * FROM curated_dossiers WHERE id = ?", (master["curated_dossier_id"],)).fetchone()
-                    if c_row:
-                        curated = dict(c_row)
-            else:
-                c_row = conn.execute("SELECT * FROM curated_dossiers WHERE disease_id = ?", (disease_id,)).fetchone()
-                if c_row:
-                    curated = dict(c_row)
-
-        if not master and not curated:
+        payload = build_disease_detail_payload(conn, disease_id, include_neighbors=True)
+        if not payload:
             raise HTTPException(status_code=404, detail=f"Disease not found: {disease_id}")
-
-        if curated:
-            raw_drugs = [
-                dict(d)
-                for d in conn.execute("SELECT * FROM curated_drugs WHERE dossier_id = ? ORDER BY china_nrdl_covered DESC, id", (curated["id"],))
-            ]
-            for d in raw_drugs:
-                d["cost_estimate_cny"] = _scrub_policy_text(d.get("cost_estimate_cny"))
-                d["cost_source"] = _scrub_policy_text(d.get("cost_source"))
-                d["usage_role"] = _scrub_policy_text(d.get("usage_role"))
-            drugs = raw_drugs
-
-        # Parse JSON helper
-        def parse_j(val: str | None, default: Any = None) -> Any:
-            if not val:
-                return default
-            try:
-                return json.loads(val)
-            except Exception:
-                return default
-
-        node = lookup.get(master["canonical_id"] if master else disease_id)
-        if not node and curated:
-            node = by_curated.get(curated["id"])
-
-        # Find nearest neighbors in the same Level-2 subcluster (just like Scime nearest papers!)
-        neighbors: list[dict[str, Any]] = []
-        if node:
-            atlas = load_json_cached("atlas_nodes.json")
-            fields = atlas["fields"]
-            idx = {f: i for i, f in enumerate(fields)}
-            nx, ny = node["x"], node["y"]
-            cands = []
-            for r in atlas["rows"]:
-                if r[idx["id"]] == node["id"]:
-                    continue
-                if r[idx["l1"]] == node["l1"] and r[idx["l2"]] == node["l2"]:
-                    dist2 = (r[idx["x"]] - nx) ** 2 + (r[idx["y"]] - ny) ** 2
-                    cands.append((dist2 - r[idx["is_curated"]] * 800.0, r))
-            cands.sort(key=lambda t: t[0])
-            for _, r in cands[:12]:
-                neighbors.append({
-                    "id": r[idx["id"]],
-                    "name_en": r[idx["name_en"]],
-                    "name_zh": r[idx["name_zh"]],
-                    "icd10": r[idx["icd10"]],
-                    "l3": r[idx["l3"]],
-                    "is_curated": r[idx["is_curated"]],
-                    "lethality": r[idx["lethality"]],
-                    "x": r[idx["x"]],
-                    "y": r[idx["y"]],
-                })
-
-        genes_list = parse_j(master["genes_json"], []) if master else []
-        track_ids = _classify_tracks(
-            l1=node["l1"] if node else (curated["domain"] if curated else ""),
-            l2=node["l2"] if node else (curated["category"] if curated else ""),
-            lethality=(curated["lethality_speed"] if curated else (node["lethality"] if node else None)),
-            course=(curated["course_type"] if curated else (node["course"] if node else None)),
-            is_rare=int(master["is_rare"] or 0) if master else 0,
-            has_genes=bool(genes_list),
-        )
-        track_map = {t["id"]: t for t in BREAKTHROUGH_TRACKS}
-        breakthrough_tracks = [track_map[tid] for tid in track_ids if tid in track_map]
-
-        cm_obj = parse_j(curated["clinical_management_json"], {}) if curated else {}
-        if isinstance(cm_obj, dict):
-            cm_obj = _scrub_nested(cm_obj)
-
-        rp_obj = _scrub_nested(parse_j(curated["research_progress_json"], {}) if curated else {})
-        epi_obj = _scrub_nested(parse_j(curated["epidemiology_json"], {}) if curated else {})
-        sources_clean = _clean_sources(parse_j(curated["sources_json"], []) if curated else [])
-
-        payload: dict[str, Any] = {
-            "node": node,
-            "breakthrough_tracks": breakthrough_tracks,
-            "master": {
-                "canonical_id": master["canonical_id"],
-                "mondo_id": master["mondo_id"],
-                "name_en": master["name_en"],
-                "name_zh": master["name_zh"],
-                "definition_en": master["definition_en"],
-                "synonyms_en": parse_j(master["synonyms_en_json"], []),
-                "icd10": parse_j(master["icd10_json"], []),
-                "icd11": parse_j(master["icd11_json"], []),
-                "orpha_id": master["orpha_id"],
-                "omim_id": master["omim_id"],
-                "efo_id": master["efo_id"],
-                "disease_type": master["disease_type"],
-                "mondo_categories": parse_j(master["mondo_categories_json"], []),
-                "highest_clinical_stage": master["highest_clinical_stage"],
-                "approved_drug_count": master["approved_drug_count"],
-                "clinical_trial_count": master["clinical_trial_count"],
-                "top_drugs": parse_j(master["top_drugs_json"], []),
-                "orphanet_prevalence": master["orphanet_prevalence"],
-                "orphanet_prevalence_list": parse_j(master["orphanet_prevalence_json"], []),
-                "inheritance": master["inheritance"],
-                "age_of_onset": master["age_of_onset"],
-                "genes": genes_list,
-                "is_rare": bool(master["is_rare"]),
-                "source_flags": master["source_flags"],
-            } if master else None,
-            "curated": {
-                "id": curated["id"],
-                "domain": curated["domain"],
-                "disease_id": curated["disease_id"],
-                "name_zh": curated["name_zh"],
-                "name_en": curated["name_en"],
-                "aliases_zh": parse_j(curated["aliases_zh_json"], []),
-                "icd10": parse_j(curated["icd10_json"], []),
-                "icd11": parse_j(curated["icd11_json"], []),
-                "category": curated["category"],
-                "course_type": curated["course_type"],
-                "lethality_speed": curated["lethality_speed"],
-                "lethality_detail_zh": curated["lethality_detail_zh"],
-                "treatability_status": curated["treatability_status"],
-                "treatability_summary_zh": _scrub_policy_text(curated["treatability_summary_zh"]),
-                "epidemiology": epi_obj,
-                "clinical_management": cm_obj,
-                "research_progress": rp_obj,
-                "drugs": drugs,
-                "sources": sources_clean,
-            } if curated else None,
-            "neighbors": neighbors,
-        }
         return JSONResponse(payload)
     finally:
         conn.close()

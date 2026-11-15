@@ -3,6 +3,7 @@ import { FlowMortalityView } from './flowChart.js';
 import { DirectoryView } from './directoryPolicy.js';
 import { RoadmapView } from './roadmapView.js';
 import { renderDiseaseDossierHTML } from './dossierView.js';
+import { bootstrapAll, sliceDiseases, searchDiseases, getDiseaseDetail } from './salusApi.js';
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
@@ -84,12 +85,12 @@ class SalusApp {
     this._bindChrome();
 
     // Load bootstrap + map points + flow + roadmap in parallel
-    const [bootRes, ptsRes, flowRes, roadRes] = await Promise.all([
-      fetch('/api/bootstrap').then(r => r.json()),
-      fetch('/api/map-points').then(r => r.json()),
-      fetch('/api/flow').then(r => r.json()),
-      fetch('/api/roadmap').then(r => r.json()),
-    ]);
+    const {
+      bootstrap: bootRes,
+      mapPoints: ptsRes,
+      flow: flowRes,
+      roadmap: roadRes,
+    } = await bootstrapAll();
 
     this.hierarchy = bootRes.hierarchy;
     this.summary = bootRes.summary;
@@ -205,7 +206,7 @@ class SalusApp {
       const q = inp.value.trim();
       if (!q) { dd.classList.add('hidden'); return; }
       sTimer = setTimeout(async () => {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=12`).then(r => r.json());
+        const res = await searchDiseases(q, 12);
         if (!res.results?.length) {
           dd.innerHTML = `<div class="search-hit"><div class="search-hit-title">未找到匹配 "${esc(q)}" 的疾病</div></div>`;
           dd.classList.remove('hidden');
@@ -281,7 +282,7 @@ class SalusApp {
     document.querySelectorAll('.view-panel').forEach(p => p.classList.toggle('active', p.id === 'view-map'));
     setTimeout(() => this.mapEngine.resize(), 20);
 
-    const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=5`).then(r => r.json());
+    const res = await searchDiseases(q, 5);
     if (res.results && res.results.length) {
       const hit = res.results[0];
       const node = this.nodeIndex.get(hit.id) || hit;
@@ -434,13 +435,13 @@ class SalusApp {
     drawer.classList.remove('closed');
     this._renderMapBreadcrumbs();
 
-    const params = new URLSearchParams({ limit: '45' });
-    if (this.selectedDomain) params.set('domain', this.selectedDomain);
-    if (this.selectedSubcluster) params.set('subcluster', this.selectedSubcluster);
-    if (this.selectedStage) params.set('stage', this.selectedStage);
-    if (this.chip && this.chip !== 'all') params.set('chip', this.chip);
-
-    const data = await fetch(`/api/slice?${params}`).then(r => r.json());
+    const data = await sliceDiseases({
+      domain: this.selectedDomain,
+      subcluster: this.selectedSubcluster,
+      stage: this.selectedStage,
+      chip: this.chip,
+      limit: 45,
+    });
     const body = document.getElementById('map-drawer-body');
     const stCounts = data.stats?.stages || {};
     const total = Math.max(1, data.total);
@@ -528,7 +529,7 @@ class SalusApp {
 
     const body = document.getElementById('map-drawer-body');
     body.innerHTML = `<div class="muted-text" style="padding:20px;">正在加载完整疾病档案...</div>`;
-    const detail = await fetch(`/api/disease/${encodeURIComponent(diseaseId)}`).then(r => r.json());
+    const detail = await getDiseaseDetail(diseaseId);
 
     body.innerHTML = `
       <div style="margin-bottom:10px;">
@@ -571,7 +572,7 @@ class SalusApp {
     modal.classList.remove('hidden');
     content.innerHTML = `<div class="muted-text">正在读取档案...</div>`;
 
-    const detail = await fetch(`/api/disease/${encodeURIComponent(diseaseId)}`).then(r => r.json());
+    const detail = await getDiseaseDetail(diseaseId);
     const n = detail.node;
     const dom = n ? this.domainMap[n.l1] : null;
     bc.innerHTML = `

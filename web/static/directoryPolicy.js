@@ -1,4 +1,5 @@
 // Mode 3: 4-Tier Patient-Friendly Hierarchical Disease Directory
+import { sliceDiseases } from './salusApi.js';
 
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
@@ -135,15 +136,14 @@ export class DirectoryView {
   async loadL4() {
     const c4 = document.getElementById('dir-col-l4');
     const cntEl = document.getElementById('dir-l4-count');
-    const params = new URLSearchParams({ limit: '80' });
-    if (this.l1) params.set('domain', this.l1);
-    if (this.l2) params.set('subcluster', this.l2);
-    if (this.l3) params.set('stage', this.l3);
-    if (this.chip && this.chip !== 'all') params.set('chip', this.chip);
-    if (this.search) params.set('q', this.search);
-
-    const res = await fetch(`/api/slice?${params}`);
-    const data = await res.json();
+    const data = await sliceDiseases({
+      domain: this.l1,
+      subcluster: this.l2,
+      stage: this.l3,
+      chip: this.chip,
+      q: this.search,
+      limit: 80,
+    });
     cntEl.textContent = `${data.total.toLocaleString()} 种`;
     const stageMeta = this.hierarchy?.stage_meta || {};
 

@@ -1,4 +1,5 @@
 // Scime-Atlas-inspired Interactive WHO Mortality Flow & Year Snapshot Engine (2000-2023)
+import { sliceDiseases } from './salusApi.js';
 
 const STREAM_PALETTE = [
   '#ef4444', '#f97316', '#eab308', '#10b981', '#06b6d4',
@@ -321,9 +322,7 @@ export class FlowMortalityView {
     const cntEl = document.getElementById('flow-cards-count');
     let res;
     try {
-      const params = new URLSearchParams({ chip: 'curated', limit: '9' });
-      const r = await fetch(`/api/slice?${params}`);
-      res = await r.json();
+      res = await sliceDiseases({ chip: 'curated', limit: 9 });
     } catch {
       return;
     }

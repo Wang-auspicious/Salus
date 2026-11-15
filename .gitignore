@@ -22,3 +22,6 @@ data/salus.db
 data/salus.db-wal
 data/salus.db-shm
 data/salus_summary.json
+
+# Generated static distribution bundle (push to gh-pages branch when deploying)
+dist/
