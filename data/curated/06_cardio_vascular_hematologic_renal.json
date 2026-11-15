@@ -1,0 +1,3213 @@
+{
+  "domain": "cardio_vascular_hematologic_renal",
+  "generated_at": "2026-11-15",
+  "curator": "curator-cardio-heme",
+  "records": [
+    {
+      "disease_id": "MONDO:0011382",
+      "name_zh": "镰刀型红细胞贫血",
+      "name_en": "Sickle cell disease",
+      "aliases_zh": [
+        "镰状细胞贫血",
+        "镰状细胞病",
+        "SCD",
+        "HBB基因相关血红蛋白病"
+      ],
+      "icd10": [
+        "D57.0"
+      ],
+      "icd11": [
+        "3A51.0"
+      ],
+      "category": "遗传性血液病与血红蛋白病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 患者体内血红蛋白β链基因（HBB）突变导致红细胞在缺氧或脱水时变成僵硬的“镰刀状”，极易堵塞全身微血管并迅速破裂溶血; 2) 最致命的急性危象包括急性胸部综合征（ACS，数小时至数天内进展为重度低氧血症和呼吸衰竭）、脑卒中、脾脏急剧滞留性休克及爆发性败血症（因功能性无脾，5岁以下儿童感染肺炎链球菌可在数小时内致命）; 3) 即使平时看似稳定，一次发热、脱水或高海拔缺氧即可诱发致命危象。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "目前已进入“功能性治愈”新时代：2023年底全球首个CRISPR基因编辑疗法Exagamglogene autotemcel（Casgevy）和慢病毒基因疗法Lovotibeglogene autotemcel（Lyfgenia）相继获FDA批准，可让90%以上重度患者摆脱血管闭塞危象；异基因造血干细胞移植也可根治部分儿童患者。日常长期口服羟基脲（Hydroxyurea）可显著减少危象发作并延长寿命，但基因疗法价格高昂且对国内及全球多数患者仍难及。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 376000,
+          "range_or_note": "GBD 2021全因超额死亡归因模型估算全球年总死亡约37.6万例（其中5岁以下儿童约8.11万例）；若仅统计死因证明直接登记的狭义死因约为3.44万例",
+          "year": "2021",
+          "source": "IHME GBD 2021 / The Lancet Haematology (2023)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国为极罕见输入性/散发病例，国家死因监测未单列死亡人数；国内主要集中于华南、西南及涉外通婚家系",
+          "year": "2024",
+          "source": "国家罕见病诊疗服务信息系统与中华血液学文献"
+        },
+        "prevalence_global": "GBD 2021估算全球现患病例约774万例，年新发出生患儿约51.5万例（近80%在撒哈拉以南非洲，Lancet Haematol 2023）",
+        "prevalence_china": "中国本土人群极为罕见，以散在病例报告为主，无全国人群患病率登记（《中国罕见病参考名录》相关血红蛋白病）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发剧烈骨痛、胸痛、呼吸急促、高热（≥38.5℃）或突发偏瘫/言语不清，立即拨打120送往有血液科与急救能力的医院，切勿在家硬扛止痛; 2) 急诊第一时间予以吸氧维持血氧饱和度、静脉补液纠正脱水、强效镇痛（阿片类药物，避免过度脱水）及广谱静脉抗生素覆盖（如头孢曲松）; 3) 出现急性胸部综合征、血红蛋白骤降或急性卒中时，立即行红细胞置换输血（将HbS降至30%以下），严禁盲目大量单纯输血导致血液黏稠度飙升。",
+        "standard_drugs": [
+          {
+            "name_zh": "羟基脲",
+            "name_en": "Hydroxyurea",
+            "drug_class": "核糖核苷酸还原酶抑制剂（诱导胎儿血红蛋白HbF生成，防止红细胞镰变）",
+            "usage_role": "一线长期预防维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院集采/常规参考价约35–80元/盒（0.5g×100片），年药费约300–800元人民币",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "Exagamglogene autotemcel (Casgevy)",
+            "name_en": "Exagamglogene autotemcel",
+            "drug_class": "CRISPR/Cas9体外基因编辑自体造血干细胞疗法（靶向BCL11A增强子重新激活HbF）",
+            "usage_role": "根治性基因治疗（12岁及以上复发性血管闭塞危象患者）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "美国FDA获批定价约220万美元/疗程（折合人民币约1,580万元）；国内尚未上市",
+            "cost_source": "FDA批准公告及公开药价披露（2023–2024）"
+          },
+          {
+            "name_zh": "青霉素V钾",
+            "name_en": "Penicillin V potassium",
+            "drug_class": "β-内酰胺类抗生素（预防功能性无脾引起的致命性肺炎链球菌败血症）",
+            "usage_role": "5岁以下患儿每日预防性用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内常规参考价约10–25元/盒，年药费约150–400元人民币",
+            "cost_source": "国家基本药物目录及公立医院公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系遗传咨询与级联筛查：父母及同胞行血红蛋白电泳与HBB基因检测，高危夫妇行产前诊断或胚胎植入前遗传学检测（PGT）",
+          "2岁至16岁患儿每年行经颅多普勒超声（TCD）筛查脑卒中风险，异常者启动长期规律输血或红细胞置换",
+          "按期接种肺炎球菌、脑膜炎球菌及b型流感嗜血杆菌（Hib）疫苗，防止爆发性感染",
+          "日常防线：每日足量饮水防脱水，避免剧烈寒冷刺激、过度劳累及无增压高海拔环境"
+        ],
+        "annual_total_cost_china_cny": "国内散在患者采用羟基脲+叶酸+定期随访的常规年直接医疗费用约3,000–12,000元人民币；若因急性胸部综合征住院行红细胞置换或异基因造血干细胞移植，单次/移植期费用可达数万至数十万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "2023年12月美国FDA同日批准CRISPR基因编辑疗法Casgevy（CLIMB SCD-121 3期试验中96.7%患者连续12个月无重度血管闭塞危象）及慢病毒疗法Lyfgenia，正式开启镰刀型贫血治愈时代；目前下一代研究正聚焦于无需清髓预处理（chemo-free conditioning）的体内碱基编辑（in vivo base editing）及口服HbF诱导剂，以大幅降低治疗门槛。",
+        "key_unmet_needs_zh": "1) 已获批基因疗法需清髓化疗且定价超200万美元，全球90%以上位于低收入地区的患者无法可及; 2) 亟需开发可口服、低成本的小分子HbF强效诱导剂或非清髓性体内基因编辑递送系统; 3) 成人期已形成的肺动脉高压、肾病及股骨头坏死等慢性器官损伤仍缺乏逆转手段。"
+      },
+      "sources": [
+        {
+          "title": "Global, regional, and national prevalence and mortality burden of sickle cell disease, 2000–2021 (GBD 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37331373/",
+          "publisher": "The Lancet Haematology / PubMed",
+          "year": "2023"
+        },
+        {
+          "title": "Sickle cell disease (ORPHA:232)",
+          "url": "https://www.orpha.net/en/disease/detail/232",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA Approves First Gene Therapies to Treat Patients with Sickle Cell Disease",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapies-treat-patients-sickle-cell-disease",
+          "publisher": "U.S. FDA",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005081",
+      "name_zh": "子痫前期",
+      "name_en": "Preeclampsia",
+      "aliases_zh": [
+        "先兆子痫",
+        "妊娠期高血压疾病（重度）",
+        "妊娠毒血症（旧称）"
+      ],
+      "icd10": [
+        "O14.0"
+      ],
+      "icd11": [
+        "JA24.1"
+      ],
+      "category": "妊娠期心血管与胎盘血管急症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 胎盘血管重铸障碍及抗血管生成因子（如sFlt-1）大量释放，导致母体全身小动脉痉挛、血管内皮损伤及多器官缺血; 2) 若未及时控制，数小时至数天内可急剧恶化为子痫全身大抽搐、脑出血、急性肺水肿、胎盘早剥、DIC及HELLP综合征（溶血、肝酶升高、血小板减少），直接危及母婴双生命; 3) 危险先兆包括血压骤升（≥160/110 mmHg）、剧烈头痛、视物模糊/黑矇、持续性右上腹或剑突下疼痛及尿量骤减。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "终止妊娠（娩出胎盘）是唯一针对病因的根治手段；在未足月需保胎争取胎儿成熟期间，可通过硫酸镁防抽搐和拉贝洛尔/硝苯地平等安全降压药稳定病情。部分重度患者产后48小时内仍存在子痫或脑血管意外风险，需严密监护；远期患者心血管疾病风险较常人翻倍，需长期随访。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO估算全球每年约7.6万名孕产妇及约50万名胎儿/新生儿死于子痫前期及相关妊娠期高血压疾病（WHO GHE将其合并计入孕产妇高血压疾病大类）",
+          "year": "2023",
+          "source": "WHO Maternal Mortality / Preeclampsia Foundation"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "国家孕产妇死因监测中“妊娠期高血压疾病”位居前四位主要死因之一，但随着产科急救网络普及，总体孕产妇死亡率已降至15/10万以下",
+          "year": "2023",
+          "source": "中华医学会妇产科学分会《妊娠期高血压疾病诊治指南》"
+        },
+        "prevalence_global": "全球妊娠人群发病率约 2%–8%（WHO，2023）",
+        "prevalence_china": "中国孕妇子痫前期总体患病率约 3%–5%（多中心产科流行病学研究，2023）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 孕妇一旦出现血压≥160/110 mmHg、剧烈头痛、视物不清、上腹剧痛或抽搐，立即拨打120就近送往具备危重孕产妇救治中心的三甲医院; 2) 抽搐发作时立即侧卧防误吸、清理口腔分泌物并放置牙垫防舌咬伤，严禁强行按压肢体; 3) 院内一线急救立即静脉负荷量+维持量输注硫酸镁（防子痫抽搐首选，注意监测膝腱反射、呼吸与尿量），并予静脉拉贝洛尔、尼卡地平或乌拉地尔平稳降压（目标收缩压140–150 mmHg，避免血压骤降致胎盘灌注不足），评估后适时紧急终止妊娠。",
+        "standard_drugs": [
+          {
+            "name_zh": "硫酸镁注射液",
+            "name_en": "Magnesium sulfate",
+            "drug_class": "中枢及神经肌肉接头钙拮抗剂（解除脑血管痉挛、预防和控制子痫抽搐）",
+            "usage_role": "一线急救与抽搐预防核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约2–8元/支（10ml:2.5g），单次急救疗程药费通常低于100元",
+            "cost_source": "国家基本药物目录及公立医院公开参考价"
+          },
+          {
+            "name_zh": "拉贝洛尔",
+            "name_en": "Labetalol",
+            "drug_class": "α/β肾上腺素能受体阻滞剂（妊娠期安全降压一线药，不影响胎盘血流）",
+            "usage_role": "急性静脉降压及口服维持降压",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "口服片剂约15–35元/盒，静脉注射液约20–50元/支",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "阿司匹林（小剂量）",
+            "name_en": "Low-dose aspirin",
+            "drug_class": "环氧化酶抑制剂（改善胎盘螺旋动脉血流，预防早发型子痫前期）",
+            "usage_role": "高危孕妇孕12–16周起至36周预防性用药（75–150mg/日）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "集采中选价约3–10元/盒（100mg×30片），全孕期药费约30–80元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高危因素与家系排查：有子痫前期家族史（涉及STOX1、CORIN、FLT1等易感基因位点）、既往子痫前期史、慢性高血压或抗磷脂综合征者，孕早期行FMF联合筛查及sFlt-1/PlGF比值监测",
+          "居家每日早晚监测血压与体重变化，警惕短期体重骤增或下肢明显水肿",
+          "重度患者产后仍需在监护室密切观察至少48小时，并在产后6–12周及终生定期随访血压、血脂与肾功能"
+        ],
+        "annual_total_cost_china_cny": "规范产检及高危孕期口服小剂量阿司匹林+拉贝洛尔预防总费用约1,000–3,000元人民币；若进展为重度子痫前期或子痫需紧急剖宫产、ICU监护及早产儿NICU救治，母婴合计单次住院费用可达2万–10万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年子痫前期管理聚焦精准早筛与靶向清除：1) sFlt-1/PlGF比值（界值38）在PROGNOSIS Asia中国队列中证实可精准排除短期发病风险并已被FDA/NMPA批准用于风险分层; 2) 中国多中心APPEC随机对照研究（2023）证实高危孕妇每日100mg阿司匹林不增加产后出血风险，随后的AVERT多中心三臂试验正比较不同剂量阿司匹林及二甲双胍的预防效果; 3) 靶向沉默胎盘sFlt-1 mRNA的siRNA疗法（如CBP-4888）及体外sFlt-1血浆吸附柱已进入1/2期临床评估。",
+        "key_unmet_needs_zh": "1) 尚无获批的特效药物能安全逆转已发生的胎盘血管病变而不需提前终止妊娠; 2) 晚发型子痫前期预测敏感度仍不足，需结合AI多模态超声与母血生物标志物动态预警; 3) 早产儿救治与母体器官保护之间的最佳分娩时机仍需更精准的个体化决策模型。"
+      },
+      "sources": [
+        {
+          "title": "Low-dose aspirin for the prevention of preeclampsia in high-risk pregnancies (APPEC trial secondary analysis)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36894125/",
+          "publisher": "PubMed / AJOG",
+          "year": "2023"
+        },
+        {
+          "title": "Preeclampsia (ORPHA:275555)",
+          "url": "https://www.orpha.net/en/disease/detail/275555",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "WHO recommendations on drug treatment for non-severe hypertension in pregnancy",
+          "url": "https://www.who.int/publications/i/item/9789240008793",
+          "publisher": "World Health Organization",
+          "year": "2020"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0000565",
+      "name_zh": "感染性心内膜炎",
+      "name_en": "Infective endocarditis",
+      "aliases_zh": [
+        "细菌性心内膜炎",
+        "亚急性细菌性心内膜炎",
+        "IE"
+      ],
+      "icd10": [
+        "I33.0"
+      ],
+      "icd11": [
+        "BB40.0"
+      ],
+      "category": "心血管感染与瓣膜急危重症",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 细菌或真菌在心脏瓣膜或心内膜表面形成脆弱的“赘生物”，不仅会迅速撕裂瓣膜导致急性重度反流和难治性心力衰竭，赘生物随时脱落还可堵塞脑血管（致死性脑梗死/脑出血）、冠状动脉或内脏动脉; 2) 急性金黄色葡萄球菌性心内膜炎可在数小时至数天内引发感染性休克与多器官衰竭; 3) 即使在现代医疗条件下，其院内病死率仍高达15%–25%，1年死亡率可达30%–40%。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "多数患者可通过4–6周足量、长疗程静脉敏感抗生素联合及时外科瓣膜修复/置换手术实现临床治愈；但若延误诊断导致严重心衰、瓣周脓肿或大面积脑栓塞，致死致残率极高。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021估算全球心内膜炎年死亡约7.7万–8万例（Age-standardized death rate呈稳定或微升趋势），随老龄化与心脏植入器械增加绝对死亡数持续上升",
+          "year": "2021",
+          "source": "IHME GBD 2021 / European Heart Journal (2023 ESC Guidelines)"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国性单列心内膜炎死亡登记；国内大型三甲心脏中心队列显示院内病死率约10%–20%，合并人工瓣膜或金葡菌感染者预后更差",
+          "year": "2023",
+          "source": "中华医学会心血管病学分会相关共识"
+        },
+        "prevalence_global": "全球年发病率约 3–10 / 10万人年，随老龄化及人工瓣膜/起搏器植入增多呈上升趋势（2023 ESC Guidelines）",
+        "prevalence_china": "中国尚无全人群精确发病率统计，但临床病例呈老龄化及链球菌/葡萄球菌并重趋势"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 凡有人工瓣膜、先天性心脏病、风湿性瓣膜病史或近期拔牙/有创操作者，若出现持续不明原因高热（>3天）、突发呼吸困难不能平卧（急性心衰）或突发偏瘫失语，立即急诊就医; 2) 严禁在抽血培养前自行口服或静滴抗生素（极易导致血培养假阴性而延误精准杀菌）; 3) 入院后在连续抽取3套血培养后立即启动经验性静脉联合抗感染，并行经胸/经食管超声心动图（TEE）评估；一旦出现急性瓣膜反流致难治性肺水肿、巨大易脱落赘生物（>10mm）或瓣周脓肿，立即请心外科急诊手术。",
+        "standard_drugs": [
+          {
+            "name_zh": "万古霉素",
+            "name_en": "Vancomycin",
+            "drug_class": "糖肽类杀菌抗生素（覆盖耐甲氧西林金黄色葡萄球菌MRSA及肠球菌）",
+            "usage_role": "急性重度/人工瓣膜心内膜炎经验性及目标静脉治疗（4–6周）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约40–90元/支（0.5g），6周足疗程药费约4,000–10,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "头孢曲松钠",
+            "name_en": "Ceftriaxone sodium",
+            "drug_class": "第三代头孢菌素（针对草绿色链球菌等常见致病菌）",
+            "usage_role": "链球菌性心内膜炎一线静脉抗感染治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后约3–15元/支（1.0g），4–6周疗程药费约300–1,200元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "达托霉素",
+            "name_en": "Daptomycin",
+            "drug_class": "环脂肽类快速杀菌剂（用于万古霉素耐药或肾功能不全的MRSA/肠球菌心内膜炎）",
+            "usage_role": "二线/耐药菌株强化静脉治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约200–450元/支（0.5g），全疗程药费约1.5万–3.5万元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "早期心外科手术（瓣膜修复或生物/机械瓣膜置换、清除瓣周脓肿及拔除感染起搏器导线）",
+          "高危人群（人工瓣膜、既往IE、未纠正紫绀型先心病）在行拔牙等高危口腔有创操作前预防性使用抗生素",
+          "保持严格口腔卫生与皮肤护理，避免非医疗机构有创纹身或静脉穿刺"
+        ],
+        "annual_total_cost_china_cny": "单纯规范4–6周静脉抗感染住院费用约3万–6万元人民币；若需急诊或限期行体外循环心脏瓣膜置换手术，总医疗费用通常在10万–25万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023年欧洲心脏病学会（ESC）新版心内膜炎指南正式确立了多学科“心内膜炎团队（Endocarditis Team）”在瓣膜中心的强制地位，并将18F-FDG PET/CT与心脏CT提升至与超声心动图同等的核心诊断地位（联合Duke-ISCVID 2023新标准显著提升人工瓣膜感染检出率）；此外，基于POET试验的延续，部分稳定患者在初始静脉治疗后序贯口服双联抗生素的策略正进一步推广以缩短住院周期。",
+        "key_unmet_needs_zh": "1) 血培养阴性心内膜炎（约占10%–20%）传统诊断耗时久，需普及宏基因组二代测序（mNGS）与16S rRNA快速病原鉴定; 2) 合并急性脑梗死后何时进行开胸换瓣手术仍面临高出血转化风险; 3) 耐药菌生物膜（Biofilm）导致植入器械感染难以根除，亟需新型抗生物膜抗菌肽或噬菌体疗法。"
+      },
+      "sources": [
+        {
+          "title": "2023 ESC Guidelines for the management of endocarditis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37622656/",
+          "publisher": "European Heart Journal / PubMed",
+          "year": "2023"
+        },
+        {
+          "title": "Infective endocarditis (ORPHA:570762)",
+          "url": "https://www.orpha.net/en/disease/detail/570762",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0006955",
+      "name_zh": "风湿性心脏病",
+      "name_en": "Rheumatic heart disease",
+      "aliases_zh": [
+        "风心病",
+        "慢性风湿性心脏瓣膜病",
+        "RHD"
+      ],
+      "icd10": [
+        "I05-I09"
+      ],
+      "icd11": [
+        "BB60"
+      ],
+      "category": "获得性心脏瓣膜病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 童年或青少年期感染A组β溶血性链球菌引发急性风湿热后，免疫系统误伤心脏瓣膜（最常见二尖瓣狭窄/关闭不全），导致瓣叶在数年至数十年内逐渐增厚、钙化与粘连; 2) 长期心脏负荷过重最终引发慢性充血性心力衰竭、心房颤动及致命性左心房血栓栓塞（如急性脑卒中）或急性肺水肿; 3) 虽为慢性进展，但妊娠、快速房颤或感染常诱发急性失代偿性肺水肿。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "早期通过长效青霉素规律预防链球菌复发可阻断瓣膜进一步恶化；已形成中重度瓣膜狭窄或关闭不全者，通过经皮球囊二尖瓣成形术（PBMV）或外科瓣膜修复/置换手术可显著改善心功能并恢复接近正常的预期寿命，但已钙化毁损的自体瓣膜无法靠药物逆转。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 370000,
+          "range_or_note": "GBD 2021估算全球每年约37万人死于风湿性心脏病，主要集中于中低收入国家及欠发达地区",
+          "year": "2021",
+          "source": "IHME GBD 2021 / WHO"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "随着卫生条件改善与青霉素普及，中国风心病标化死亡率近30年大幅下降，但历史遗留的55岁以上中老年慢性瓣膜患者仍承担主要死亡与致残负荷",
+          "year": "2023",
+          "source": "《中国心血管健康与疾病报告》 / GBD 2023相关分析"
+        },
+        "prevalence_global": "GBD 2021估算全球现患人数超过5,400万例（标化患病率约684/10万，Lancet/PubMed）",
+        "prevalence_china": "中国成人超声心动图流调估计风湿性瓣膜病患病率约0.1%–0.2%，中老年及西部农村地区相对偏高（中国心血管健康与疾病报告）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "苄星青霉素",
+            "name_en": "Benzathine benzylpenicillin",
+            "drug_class": "长效青霉素类抗生素（每月肌注一次，防止A组链球菌再感染引发风湿热复发）",
+            "usage_role": "二级预防核心用药（阻断瓣膜继续毁损）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约5–15元/支（120万U），年药费约60–200元",
+            "cost_source": "国家基本药物目录及公立医院公开参考价"
+          },
+          {
+            "name_zh": "华法林钠",
+            "name_en": "Warfarin sodium",
+            "drug_class": "维生素K拮抗剂（风心病合并中重度二尖瓣狭窄或机械瓣膜后抗凝唯一推荐口服药）",
+            "usage_role": "预防心房颤动及机械瓣血栓栓塞（严禁用新型口服抗凝药DOAC替代）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产华法林月药费约10–30元，年药费约120–360元",
+            "cost_source": "国家基本药物目录及临床公开售价"
+          },
+          {
+            "name_zh": "呋塞米",
+            "name_en": "Furosemide",
+            "drug_class": "袢利尿剂（减轻肺淤血与全身水肿）",
+            "usage_role": "心力衰竭症状控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约5–15元/盒，年药费约60–180元",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "单纯二尖瓣狭窄且瓣叶弹性尚好者首选经皮球囊二尖瓣成形术（PBMV）微创扩开瓣口",
+          "重度钙化或合并关闭不全者及时行外科二尖瓣/主动脉瓣置换或修复手术（注意避免延误至左室不可逆扩大）",
+          "育龄女性风心病患者妊娠前必须经过心内科与产科联合评估，中重度狭窄需先介入处理再妊娠",
+          "突发夜间不能平卧、咳粉红色泡沫痰（急性肺水肿）或突发偏瘫时立即拨打120急救"
+        ],
+        "annual_total_cost_china_cny": "稳定期药物维持（长效青霉素+华法林+利尿剂）及INR监测年费用约1,000–3,000元人民币；若需行经皮球囊成形术约3万–5万元，开胸瓣膜置换手术约8万–18万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "INVICTUS随机对照试验（NEJM 2022）明确证实对于风湿性心脏病合并房颤患者，华法林在降低心血管事件与死亡率方面显著优于利伐沙班，改写了临床抗凝边界；2023–2024年A组链球菌多价M蛋白疫苗及便携式AI辅助掌上超声在社区学龄儿童早期无症状瓣膜病变筛查中取得重要进展，助力源头阻断。",
+        "key_unmet_needs_zh": "1) 尚无获批的A组链球菌预防性疫苗以彻底消除风湿热源头; 2) 华法林需终生频繁抽血查INR且受饮食药物干扰，偏远地区患者抗凝达标率低; 3) 生物瓣膜在年轻风心病患者中衰败较快，亟需更耐久的抗钙化人工瓣膜材料。"
+      },
+      "sources": [
+        {
+          "title": "Global, regional, and national burden of rheumatic heart disease, 1990–2021 (GBD 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38423102/",
+          "publisher": "PubMed / GBD",
+          "year": "2024"
+        },
+        {
+          "title": "Rivaroxaban in Rheumatic Heart Disease–Associated Atrial Fibrillation (INVICTUS Trial)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36036525/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2022"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0800175",
+      "name_zh": "心源性休克",
+      "name_en": "Cardiogenic shock",
+      "aliases_zh": [
+        "心脏泵衰竭休克",
+        "心源性低心排综合征",
+        "AMI-CS"
+      ],
+      "icd10": [
+        "R57.0"
+      ],
+      "icd11": [
+        "MG40.0"
+      ],
+      "category": "心血管极危重症",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 心脏泵血功能骤然崩溃（约80%由急性大面积心肌梗死引起，其次为暴发性心肌炎、急性瓣膜断裂），导致全身重要脏器在数分钟内陷入严重缺血缺氧; 2) 若未在黄金窗口内恢复冠脉血流或启动机械循环支持，数小时内即发生乳酸酸中毒、急性肾肝衰竭及不可逆多器官功能障碍; 3) 即使在现代重症监护条件下，其30天及院内病死率仍高达40%–50%，属心血管领域死亡率最高的急症。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "属于分秒必争的生死抢救状态：对于急性心梗所致心源性休克，极早期急诊冠脉血运重建（PCI）联合规范血管活性药物及个体化机械循环支持（如微轴流泵Impella、VA-ECMO或IABP）可挽救约半数以上患者生命；但一旦进展至SCAI D/E期深度休克，病死率仍极高。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将心源性休克归入缺血性心脏病及心肌病死因；全球约5%–10%的急性心肌梗死患者并发心源性休克，院内及30天病死率高达40%–50%",
+          "year": "2024",
+          "source": "NEJM DanGer Shock / ESC Heart Failure Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡人数统计；全国胸痛中心及重症登记研究显示急性心梗合并心源性休克住院病死率同样在40%–50%左右",
+          "year": "2024",
+          "source": "《中国心血管健康与疾病报告》 / 中华医学会心源性休克诊治共识"
+        },
+        "prevalence_global": "急性心肌梗死住院患者中并发心源性休克比例约 5%–10%（ESC/AHA，2024）",
+        "prevalence_china": "中国每年数百万急性心梗及暴发性心肌炎住院患者中，心源性休克为ICU最高危致命综合征之一"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 患者突发剧烈胸痛伴冷汗、面色苍白、四肢湿冷、意识模糊或血压骤降（收缩压<90 mmHg），立即拨打120送往具备24小时急诊PCI及ECMO能力的胸痛中心，平卧位保暖，切勿自行乘车或强行喝水进食; 2) 院内急救立即行床旁心电图与超声评估，第一时间予以去甲肾上腺素维持平均动脉压（≥65 mmHg）及多巴酚丁胺/左西孟旦强心; 3) 明确急性心梗者争分夺秒行急诊PCI开通罪犯血管（仅处理罪犯血管为主），对SCAI C–E期难治性休克尽早启动VA-ECMO、微轴流泵（Impella）或IABP机械循环支持。",
+        "standard_drugs": [
+          {
+            "name_zh": "去甲肾上腺素",
+            "name_en": "Norepinephrine",
+            "drug_class": "α1/β1肾上腺素能受体激动剂（收缩外周血管维持心脑灌注压，心源性休克一线升压药）",
+            "usage_role": "一线急救静脉升压维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–40元/支（2mg），ICU常规使用日药费约50–150元",
+            "cost_source": "国家基本药物目录及公立医院公开参考价"
+          },
+          {
+            "name_zh": "左西孟旦",
+            "name_en": "Levosimendan",
+            "drug_class": "钙离子增敏剂（增强心肌收缩力而不显著增加心肌耗氧量）",
+            "usage_role": "急性失代偿性心源性休克强心支持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内集采后参考价约150–400元/支（12.5mg），单次疗程约300–800元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "多巴酚丁胺",
+            "name_en": "Dobutamine",
+            "drug_class": "β1受体激动剂（正性肌力药物，改善心排血量）",
+            "usage_role": "一线静脉正性肌力支持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约10–30元/支，日药费约30–100元",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊经皮冠状动脉介入治疗（PCI）或急诊冠脉搭桥（CABG）尽早恢复心肌血运",
+          "临时机械循环支持（tMCS）：微轴流左室辅助泵（Impella CP）、静脉-动脉体外膜肺氧合（VA-ECMO）及主动脉内球囊反搏（IABP）",
+          "连续性肾脏替代治疗（CRRT）纠正容量负荷与酸中毒，以及必要时的心室辅助装置（LVAD）/心脏移植桥接"
+        ],
+        "annual_total_cost_china_cny": "抢救期ICU监护、急诊PCI及药物治疗单次住院费用约5万–12万元人民币；若需使用VA-ECMO或微轴流泵等高级机械循环支持，单次抢救住院总费用通常达15万–40万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2024年发表于《新英格兰医学杂志》（NEJM）的里程碑式DanGer Shock随机对照试验（355例STEMI心源性休克患者）首次证实：在严格筛选的左室主导型心梗休克患者中，常规早期植入微轴流泵Impella CP较单纯标准治疗显著降低180天全因死亡率（45.8% vs 58.5%，绝对风险降低12.7%，HR=0.74），但也伴随更高的出血与肢体缺血并发症，推动全球指南对机械循环支持精准分型（SCAI分期）的全面更新。",
+        "key_unmet_needs_zh": "1) 机械循环支持（如ECMO/Impella）的严重出血、溶血与下肢缺血并发症仍高，亟需更微创、抗凝要求更低的新型血泵; 2) 非缺血性（如慢性心衰急性恶化）心源性休克缺乏明确降低死亡率的RCT循证方案; 3) 基层医院缺乏早期休克识别预警与区域化“休克中心”转运体系。"
+      },
+      "sources": [
+        {
+          "title": "Microaxial Flow Pump or Standard Care in Infarct-Related Cardiogenic Shock (DanGer Shock)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38587239/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2024"
+        },
+        {
+          "title": "Cardiogenic shock (ORPHA:97292)",
+          "url": "https://www.orpha.net/en/disease/detail/97292",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005477",
+      "name_zh": "室性心动过速",
+      "name_en": "Ventricular tachycardia",
+      "aliases_zh": [
+        "室速",
+        "VT",
+        "恶性室性心律失常"
+      ],
+      "icd10": [
+        "I47.2"
+      ],
+      "icd11": [
+        "BC71.0"
+      ],
+      "category": "恶性心律失常与猝死急症",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 心脏下方的心室肌发出狂乱的快速电信号（通常每分钟150–250次），使心脏来不及充盈血液就收缩，瞬间导致血压断崖式下跌; 2) 持续性室速可在数分钟内直接恶化为心室颤动（VF）和心脏骤停，是院外心脏性猝死的最常见前驱节律; 3) 危险先兆包括突发心悸胸闷、眼前发黑、冷汗淋漓及短暂晕厥，常发生于冠心病陈旧性心梗、心肌病或心衰患者。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "通过植入型心律转复除颤器（ICD）可随时自动电击保命，显著降低猝死率；结合导管射频消融术消除心室异常折返瘢痕灶及抗心律失常药物（胺碘酮、β受体阻滞剂），多数患者可实现长期稳控甚至消除室速发作；但器质性心脏病基础本身需长期同步治疗。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未将室速单列死因（归入缺血性心脏病及心脏骤停）；室速/室颤共同构成全球约15%–20%总死亡（心脏性猝死）的终末电生理机制",
+          "year": "2023",
+          "source": "ESC Ventricular Arrhythmias Guidelines / WHO"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国每年心脏性猝死（SCD）估算超过54.4万例，其中绝大多数由持续性室速恶化为室颤所致，但全国ICD一级/二级预防植入率仍远低于欧美（约1.5–6例/百万人）",
+          "year": "2023",
+          "source": "《中国心血管健康与疾病报告》 / 中华医学会心电生理和起搏分会"
+        },
+        "prevalence_global": "器质性心脏病（如LVEF≤35%心梗后或扩张型心肌病）患者中持续性室速年发生率可达 2%–10%（ESC 2022）",
+        "prevalence_china": "中国心血管病基数庞大，每年完成各类心律失常导管消融超30万例，其中复杂器质性室速消融比例逐年攀升"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 若患者突发意识丧失、呼吸停止或大动脉搏动消失，立即呼叫120、启动心肺复苏（胸外按压100–120次/分）并尽快使用AED自动体外除颤器; 2) 若患者意识尚存但血压下降、冷汗或胸痛（血流动力学不稳定室速），送医后立即行同步直流电复律，切勿等待口服药物起效; 3) 血流动力学稳定者可静脉推注胺碘酮或利多卡因（缺血性室速），同时立即纠正低钾、低镁及心肌缺血；合并“电风暴”反复发作时需深镇静、交感神经阻滞或急诊导管消融。",
+        "standard_drugs": [
+          {
+            "name_zh": "胺碘酮",
+            "name_en": "Amiodarone",
+            "drug_class": "III类广谱抗心律失常药（延长心肌动作电位时程，抑制折返激动）",
+            "usage_role": "急性室速转复及减少ICD电击的一线核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价：口服片剂约15–35元/盒，静脉注射液约10–25元/支，年维持药费约300–800元",
+            "cost_source": "国家基本药物目录及公立医院公开参考价"
+          },
+          {
+            "name_zh": "美托洛尔",
+            "name_en": "Metoprolol",
+            "drug_class": "β1肾上腺素能受体阻滞剂（抑制交感神经过度兴奋，降低猝死率）",
+            "usage_role": "长期基础抗心律失常与猝死一级/二级预防",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约6–18元/盒，年药费约100–300元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "索他洛尔",
+            "name_en": "Sotalol",
+            "drug_class": "兼有II类（β阻滞）和III类钾通道阻滞作用的抗心律失常药",
+            "usage_role": "无严重心衰患者预防室速复发（注意监测QTc间期防尖端扭转）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约20–45元/盒，年药费约300–700元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "植入型心律转复除颤器（ICD / CRT-D）：持续性室速幸存者及LVEF≤35%高危心衰患者保命金标准",
+          "三维标测引导下导管射频消融术（包括心内膜及心外膜基质改良），有效控制反复电击或药物难治性室速",
+          "左心交感神经切除术或立体定向放射消融（STAR）用于传统消融失败的极高危电风暴患者",
+          "严格管理基础心脏病，维持血钾在4.0–4.5 mmol/L以上、血镁正常，避免擅自停用β受体阻滞剂"
+        ],
+        "annual_total_cost_china_cny": "单纯药物维持及定期动态心电图随访年费用约1,500–4,000元人民币；若需植入单腔/双腔ICD（国产/进口集采与国家谈判后耗材大幅降价）总住院费用约4万–10万元，复杂室速导管射频消融术约5万–9万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年室速治疗迈向无创化与精准基质消融：1) 心脏MRI晚期钆增强（LGE-CMR）与CT影像融合三维标测可术前精准锁定心肌瘢痕内“峡部通道”，使消融成功率大幅提升; 2) 立体定向体部放射消融（STAR，单次25 Gy精准放疗消融深部室间隔基质）在多项前瞻性临床试验中显著降低了难治性电风暴负荷; 3) 血管外ICD（EV-ICD）与脉冲场消融（PFA）针对心室厚壁组织的专用导管已进入临床验证。",
+        "key_unmet_needs_zh": "1) 中国人群ICD实际植入率严重不足，大量高危患者在首次猝死后才被发现; 2) 位于心肌中层（intramural）或乳头肌的深部室速病灶传统射频消融穿透力有限、复发率仍高; 3) 缺乏可穿戴连续AI心电实时预警与院前快速联动机制。"
+      },
+      "sources": [
+        {
+          "title": "2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36017572/",
+          "publisher": "European Heart Journal / PubMed",
+          "year": "2022"
+        },
+        {
+          "title": "Annual Report on Cardiovascular Health and Diseases in China (Sudden Cardiac Death & ICD section)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37637995/",
+          "publisher": "Journal of Geriatric Cardiology / PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0000190",
+      "name_zh": "心室颤动",
+      "name_en": "Ventricular fibrillation",
+      "aliases_zh": [
+        "室颤",
+        "VF",
+        "恶性心室颤动"
+      ],
+      "icd10": [
+        "I49.01"
+      ],
+      "icd11": [
+        "BC71.1"
+      ],
+      "category": "极速致死性心律失常",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 心脏电信号彻底陷入无序混乱，心室肌只能像一袋蠕动的虫子一样无效颤动，泵血量瞬间归零; 2) 发病数秒内患者即意识丧失、抽搐并停止呼吸，4分钟内脑细胞开始不可逆死亡，超过10分钟抢救生还率不足2%，是人类最极速的猝死机制; 3) 常见于急性心肌梗死超早期、重度缺血、电解质严重紊乱（极低钾/高钾）及遗传性离子通道病。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "急性发作时唯一救命手段是分秒必争的高质量心肺复苏（CPR）与早期电除颤（AED）；若在黄金4分钟内成功除颤并随后纠正可逆病因（如开通闭塞冠脉）或植入ICD预防复发，患者可完全恢复正常神经功能与长期生存。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将室颤归入缺血性心脏病及猝死；全球每年院外心脏骤停（OHCA）约350万–400万例，其中初始可电击心律（主要为室颤）是抢救存活率最高但时间窗最短的类型",
+          "year": "2023",
+          "source": "AHA Heart Disease and Stroke Statistics / ILCOR"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国每年约54.4万例心脏性猝死中大部分终末表现为室颤，目前我国院外心脏骤停总体抢救存活率仍不足1%–2%（远低于发达国家10%以上水平）",
+          "year": "2023",
+          "source": "《中国心脏骤停与心肺复苏报告》 / 国家心血管病中心"
+        },
+        "prevalence_global": "院外心脏骤停年发病率约 50–100 / 10万人年，早期目击者记录中室颤占比约 20%–40%（AHA 2024）",
+        "prevalence_china": "中国院外心脏骤停年发病人数超50万，公共场所AED配置与第一目击者CPR普及率正在快速提升中"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 黄金4分钟生死救援：发现有人突然倒地、呼之不应、无正常呼吸（或仅濒死叹息样呼吸），立即指定专人拨打120并取来最近的AED，自己立即跪在患者身旁开始连续胸外按压（双手交叠按压两乳头连线中点，深度5–6cm，频率100–120次/分，尽量减少中断）; 2) AED一到立即开机按语音提示贴电极片、分析心律，若提示建议除颤，确保无人接触患者后按下电击键，电击后立刻继续按压; 3) 院内除颤后立即静脉推注肾上腺素（每3–5分钟1mg）及胺碘酮（300mg首剂），同步排查急性心梗、低钾、气胸等可逆病因。",
+        "standard_drugs": [
+          {
+            "name_zh": "肾上腺素注射液",
+            "name_en": "Epinephrine",
+            "drug_class": "α/β肾上腺素能受体激动剂（提高主动脉舒张压以维持冠状动脉与脑灌注）",
+            "usage_role": "心脏骤停高级生命支持（ACLS）一线核心抢救药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约2–8元/支（1mg），抢救用药费极低",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "胺碘酮注射液",
+            "name_en": "Amiodarone",
+            "drug_class": "III类抗心律失常药（提高除颤成功率并预防室颤立即复发）",
+            "usage_role": "电除颤无效或顽固性室颤急救用药（首剂300mg静推）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约10–25元/支（150mg），抢救单次约30–60元",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "利多卡因注射液",
+            "name_en": "Lidocaine",
+            "drug_class": "Ib类钠通道阻滞剂（尤其适用于急性心肌缺血诱发的室颤）",
+            "usage_role": "顽固性室颤替代抗心律失常抢救药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约3–10元/支",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "公共场所自动体外除颤器（AED）早期除颤与第一目击者高质量心肺复苏（CPR）",
+          "除颤恢复自主循环（ROSC）后的目标温度管理（TTM，亚低温脑保护）与急诊冠脉造影",
+          "非急性心梗可逆期发作的室颤幸存者必须植入ICD进行终生二级预防",
+          "若在特发性室颤患者中发现浦肯野纤维网触发灶，可行导管射频消融预防电风暴"
+        ],
+        "annual_total_cost_china_cny": "抢救成功后的ICU脑复苏与病因排查住院费用约3万–10万元人民币；若需后续植入ICD预防复发，总住院费用约4万–10万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年室颤急救领域突破集中在双重除颤与全链条急救体系：1) DOSE VF随机试验（NEJM）证实对标准除颤无效的顽固性室颤，采用“双序贯体外除颤（DSED）”或改变电极片位置的“矢量变换除颤（VC）”可显著提高自主循环恢复率与出院神经功能良好存活率; 2) 中国多个城市正推进“120急救调度员电话指导CPR（T-CPR）+ 城市AED电子地图一键呼叫志愿者”数字急救网，缩短院前空窗期。",
+        "key_unmet_needs_zh": "1) 我国公共场所AED密度与民众CPR持证培训率仍偏低，导致院外室颤抢救成功率远低于理想水平; 2) 心脏骤停复苏后的缺血缺氧性脑病仍缺乏特效神经保护药物; 3) 看似心脏结构正常的“特发性室颤”患者缺乏早期筛查生物标志物。"
+      },
+      "sources": [
+        {
+          "title": "Defibrillation Strategies for Refractory Ventricular Fibrillation (DOSE VF Trial)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36342151/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2022"
+        },
+        {
+          "title": "2023 American Heart Association Focused Update on Adult Advanced Cardiovascular Life Support",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38108133/",
+          "publisher": "Circulation / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002442",
+      "name_zh": "长QT综合征",
+      "name_en": "Long QT syndrome",
+      "aliases_zh": [
+        "先天性长QT综合征",
+        "LQTS",
+        "Romano-Ward综合征"
+      ],
+      "icd10": [
+        "I45.81"
+      ],
+      "icd11": [
+        "BC65.0"
+      ],
+      "category": "遗传性心脏离子通道病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 心脏细胞膜钾/钠离子通道基因突变（最常见KCNQ1、KCNH2、SCN5A）导致心肌复极充电时间异常延长（心电图QTc间期延长），极易诱发特征性的“尖端扭转型室性心动过速（TdP）”; 2) 患者常在青少年或青壮年时期因游泳、剧烈运动（LQT1型）、突然被闹钟/电话铃声惊吓（LQT2型）或夜间睡眠（LQT3型）突发晕厥、抽搐，常被误诊为“癫痫”，实则数分钟内可因蜕变为室颤而猝死; 3) 未经治疗的有症状患者10年累计猝死风险极高。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "属于可高度防可控的遗传性猝死病：严格避免致敏药物与特定诱因、足量长期服用普萘洛尔或纳多洛尔等非选择性β受体阻滞剂，以及对高危者联合左心交感神经切除术或植入ICD，可使绝大多数患者正常生活并显著降低猝死事件。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列遗传性离子通道病死因；研究显示在40岁以下心源性猝死（尤其是尸检阴性猝死）中，LQTS是占比最高的可识别遗传性病因之一",
+          "year": "2024",
+          "source": "Orphanet ORPHA:768 / ESC Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国性单列死亡登记；国内儿科及成人心律失常中心数据显示，未确诊被误诊为癫痫或迷走性晕厥是导致青壮年首发猝死的主要原因",
+          "year": "2023",
+          "source": "中华医学会心电生理和起搏分会遗传性心律失常共识"
+        },
+        "prevalence_global": "新生儿及一般人群患病率约 1 / 2,000 – 1 / 2,500（Orphanet ORPHA:768）",
+        "prevalence_china": "按全球人群发病率推算国内潜在携带者逾数十万人，但临床实际确诊率仍明显偏低"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发晕厥抽搐超过1分钟不醒或无呼吸脉搏，立即启动心肺复苏并拨打120及使用AED; 2) 院内一旦心电图证实为尖端扭转型室速（TdP），立即静脉推注硫酸镁（2g缓慢静注，核心急救药，即使血镁正常也有效）并积极补钾至4.5 mmol/L以上; 3) 立即停用所有可延长QT间期的药物；若因心动过缓诱发TdP，可使用异丙肾上腺素或临时起搏器适当提高基础心率（切忌常规使用胺碘酮等III类抗心律失常药，否则会进一步延长QT加重室速）。",
+        "standard_drugs": [
+          {
+            "name_zh": "普萘洛尔",
+            "name_en": "Propranolol",
+            "drug_class": "非选择性β受体阻滞剂（国内最易获得的LQT1/LQT2一线保命药，纳多洛尔国内紧缺时替代首选）",
+            "usage_role": "一线长期预防猝死基石用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约5–15元/瓶（10mg×100片），年药费约100–250元",
+            "cost_source": "国家基本药物目录及公立医院公开参考价"
+          },
+          {
+            "name_zh": "美西律",
+            "name_en": "Mexiletine",
+            "drug_class": "Ib类晚钠电流阻滞剂（直接缩短LQT3型及部分LQT2型患者过长的QTc间期）",
+            "usage_role": "LQT3型（SCN5A突变）精准靶向治疗及顽固性病例联用",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–35元/盒，年药费约300–800元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "纳多洛尔",
+            "name_en": "Nadolol",
+            "drug_class": "长效非选择性β受体阻滞剂（国际指南公认LQTS保护效力最优）",
+            "usage_role": "国际首选长期预防药（国内供应相对紧缺，部分通过临床急需或跨境获取）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内暂无常规国家集采挂网价，进口参考年费约1,500–3,500元",
+            "cost_source": "公开临床用药参考"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因检测：先证者所有一级亲属（父母、子女、兄弟姐妹）必须行12导联心电图及致病基因（KCNQ1/KCNH2/SCN5A等）检测，检出隐匿携带者同样需预防性用药",
+          "终生严禁使用延长QT间期药物（随时核对CredibleMeds禁用清单，如部分大环内酯类抗生素、氟喹诺酮类、抗精神病药、昂丹司琼等）",
+          "高危患者（反复晕厥、心脏骤停幸存者或药物不耐受）行左心交感神经切除术（LCSD）或植入ICD",
+          "生活方式管控：LQT1型严禁无保护游泳与竞技体育；LQT2型卧室移除高分贝闹钟；发烧腹泻时及时补钾补镁并退热"
+        ],
+        "annual_total_cost_china_cny": "常规口服普萘洛尔/美西律及定期动态心电图随访年费用约1,000–3,000元人民币；若需行家系基因panel检测约2,000–5,000元，植入ICD预防猝死总住院费用约4万–10万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Preclinical",
+        "breakthroughs_and_trials_zh": "2023–2024年长QT综合征迎来源头基因矫正突破：1) 梅奥诊所团队在2024年发表临床前重磅成果，利用AAV9递送的“抑制-替换（Suppression-Replacement, SupRep）”双功能基因疗法，在LQT1转基因兔模型中成功沉默突变KCNQ1并表达正常蛋白，使延长的QT间期恢复正常; 2) 针对KCNH2热点突变的引导编辑（Prime Editing）在患者诱导多能干细胞心肌细胞中实现精准修复; 3) 口服SGK1小分子抑制剂于2024年底获FDA孤儿药资格，旨在直接缩短异常延长的动作电位。",
+        "key_unmet_needs_zh": "1) 临床大量“基因型阳性但静息心电图QTc正常”的隐匿携带者易被漏诊，亟需AI心电图微伏T波交替识别算法; 2) 国际金标准药物纳多洛尔在国内稳定供应不足; 3) 尚未有基因治疗或精准小分子药物进入人体注册临床阶段。"
+      },
+      "sources": [
+        {
+          "title": "Congenital long QT syndrome (ORPHA:768)",
+          "url": "https://www.orpha.net/en/disease/detail/768",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Suppression-Replacement KCNQ1 Gene Therapy for Type 1 Long QT Syndrome in Transgenic Rabbits",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38910427/",
+          "publisher": "Circulation / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0015263",
+      "name_zh": "Brugada综合征",
+      "name_en": "Brugada syndrome",
+      "aliases_zh": [
+        "布鲁加达综合征",
+        "夜间猝死综合征",
+        "SCN5A相关心律失常",
+        "BrS"
+      ],
+      "icd10": [
+        "I49.8"
+      ],
+      "icd11": [
+        "BC65.2"
+      ],
+      "category": "遗传性心脏离子通道病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 心脏钠通道基因（以SCN5A最常见，约占20%–30%）功能缺失，导致右心室流出道心外膜电位梯度失衡，心电图呈特征性V1–V3导联“穹窿型ST段抬高”; 2) 患者心脏结构通常完全正常，却极易在30–40岁青壮年男性夜间安静睡眠或高热时突发多形性室速与心室颤动，在数分钟内无声猝死（俗称“青壮年夜间猝死”）; 3) 发热是诱发室颤电风暴的最危险扳机。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "有晕厥史、自发I型心电图或心脏骤停幸存的高危患者，植入ICD是预防猝死的金标准；对于反复ICD电击或无法植入ICD者，口服奎尼丁及经导管右心室流出道心外膜射频消融术（可消除异常心电图和室颤基质）疗效卓越；无症状低危患者仅需严格退热及避药管理。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列Brugada综合征死因；估算占全球心脏结构正常青壮年猝死的约20%，在东南亚及东亚男性夜间不明原因猝死综合征（SUNDS）中占比极高",
+          "year": "2024",
+          "source": "Orphanet ORPHA:130 / ESC Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡人数；国内南方地区（如广东、广西等地）临床检出相对集中，男性发病率约为女性的8倍",
+          "year": "2023",
+          "source": "中华医学会心电生理和起搏分会"
+        },
+        "prevalence_global": "全球平均患病率约 1 / 2,000（欧美约1/10,000，东南亚与东亚地区高达1/270–1/1,000，Orphanet ORPHA:130）",
+        "prevalence_china": "中国南方及沿海地区人群携带I型/隐匿型心电图特征比例明显高于北方，是青壮年夜间猝死的重要遗传病因"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 患者睡眠中突发喘息呻吟、抽搐叫不醒，立即判断呼吸脉搏并拨打120、行胸外按压及AED除颤; 2) 一旦确诊或高度怀疑Brugada综合征电风暴，院内急救首选静脉持续泵注异丙肾上腺素（提高基础心率、抑制瞬时外向钾电流Ito，能迅速平息室颤风暴），并配合口服奎尼丁; 3) 发热是极度危险诱因，遇体温>38℃必须立即物理降温+安全退热药（对乙酰氨基酚或布洛芬），严禁使用胺碘酮或利多卡因（钠通道阻滞可加重Brugada电风暴）。",
+        "standard_drugs": [
+          {
+            "name_zh": "奎尼丁",
+            "name_en": "Quinidine",
+            "drug_class": "Ia类抗心律失常药（强效阻断心肌Ito钾电流，恢复右室心外膜电位平衡）",
+            "usage_role": "抑制室颤电风暴、减少ICD放电或作为ICD替代的一线核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内普通片剂长期面临短缺或定点供应，参考药费约200–600元/月（依获取渠道而异）",
+            "cost_source": "临床短缺药管理公开信息"
+          },
+          {
+            "name_zh": "异丙肾上腺素",
+            "name_en": "Isoproterenol",
+            "drug_class": "β1/β2受体激动剂（增强L型钙电流，急救平息Brugada室颤电风暴）",
+            "usage_role": "急性室颤电风暴一线静脉急救药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–40元/支（1mg），抢救使用费用低",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因检测：所有一级亲属必须行标准及高肋间（第2、3肋间）心电图排查，若先证者检出SCN5A等致病突变，亲属必须行靶向基因验证",
+          "植入型心律转复除颤器（ICD）：用于心脏骤停幸存者或合并自发I型心电图的心源性晕厥患者",
+          "右心室流出道心外膜基质导管射频消融术：针对反复ICD电击或药物无效的电风暴患者，可消除晚电位与ST段抬高",
+          "终生严格避坑清单：严禁使用BrugadaDrugs.org禁用药物（包括部分抗心律失常药如普罗帕酮/氟卡尼、部分局麻药、三环类抗抑郁药、过量酒精及大麻等），发热时务必第一时间退热"
+        ],
+        "annual_total_cost_china_cny": "无症状低危者仅需定期心电图随访与退热管理，年费用约500–1,500元人民币；高危患者植入ICD总住院费用约4万–10万元，心外膜射频消融术约6万–10万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年Brugada综合征治疗取得两大临床进展：1) 长期随访队列（BRAVO研究等）证实右心室流出道心外膜射频消融术可使90%以上反复电风暴患者长期无室颤复发，且使I型心电图永久正常化，成为指南推荐的强力干预手段; 2) 多基因风险评分（PRS）联合SCN5A突变定位及AI心电图深层特征分析，正显著提升对无症状隐匿型患者猝死风险的精准分层。",
+        "key_unmet_needs_zh": "1) 国内外老药奎尼丁长期面临临床断供难题，急需开发无胃肠道副作用的新型高选择性Ito阻滞剂; 2) 仅约20%–30%患者能检出SCN5A突变，其余多基因遗传机制尚待阐明; 3) 无症状自发I型心电图人群的精准猝死风险预测仍存在灰色地带。"
+      },
+      "sources": [
+        {
+          "title": "Brugada syndrome (ORPHA:130)",
+          "url": "https://www.orpha.net/en/disease/detail/130",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Long-Term Outcomes of Epicardial Substrate Ablation in Brugada Syndrome",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36606544/",
+          "publisher": "PubMed / JACC",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005386",
+      "name_zh": "外周动脉疾病",
+      "name_en": "Peripheral arterial disease",
+      "aliases_zh": [
+        "下肢动脉硬化闭塞症",
+        "PAD",
+        "间歇性跛行"
+      ],
+      "icd10": [
+        "I73.9"
+      ],
+      "icd11": [
+        "BD40.0"
+      ],
+      "category": "慢性外周血管疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 供应下肢的动脉被动脉粥样硬化斑块逐渐狭窄甚至闭塞，早期表现为走一段路小腿酸痛歇会儿就好（间歇性跛行），后期发展为静息痛、足趾发黑坏疽甚至截肢; 2) 虽然下肢病变本身慢性进展，但它是全身血管病变的“冰山一角”——PAD患者合并隐匿性冠心病和脑血管病的比例极高，其5年内心脑血管死亡风险高达20%–30%; 3) 若斑块破裂突发急性血栓完全堵死下肢动脉，未在6小时内开通将面临高位截肢或毒素吸收致死。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "通过严格戒烟、他汀强效降脂、“双通道抑制”（阿司匹林联合小剂量利伐沙班）、西洛他唑改善步行距离，以及微创腔内球囊扩张/支架植入开通闭塞血管，绝大多数患者可有效保肢并显著降低心脑血管死亡风险；但已坏死的足趾组织无法再生。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 68000,
+          "range_or_note": "GBD 2021估算全球直接归因于外周动脉疾病的年死亡约6.8万例，但PAD患者绝大多数死于伴发的心肌梗死与脑卒中",
+          "year": "2021",
+          "source": "IHME GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无独立下肢动脉疾病单列死亡登记，但GBD 2021提示中国PAD标化发病率与患病率在1990–2021年间仍呈上升趋势",
+          "year": "2021",
+          "source": "IHME GBD 2021 / 《中国心血管健康与疾病报告》"
+        },
+        "prevalence_global": "全球约有超过1.1亿–2.3亿人受PAD影响，60岁以上人群患病率约5%–10%（GBD 2021 / ESC 2024）",
+        "prevalence_china": "中国60岁以上老年人下肢动脉疾病患病率约 4%–8%，糖尿病人群中比例高达20%以上"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "利伐沙班（小剂量血管保护方案）",
+            "name_en": "Rivaroxaban",
+            "drug_class": "直接Xa因子抑制剂（2.5mg每日两次联合阿司匹林，即COMPASS双通道方案）",
+            "usage_role": "预防重大不良肢体事件（截肢）与心脑血管死亡核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后10mg片约4.8–19.5元/盒，2.5mg/5mg规格按医嘱调整，年药费约300–1,200元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "阿托伐他汀钙",
+            "name_en": "Atorvastatin calcium",
+            "drug_class": "HMG-CoA还原酶抑制剂（稳定斑块、降低LDL-C至<1.4 mmol/L）",
+            "usage_role": "一线基础抗动脉粥样硬化核心药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约1.8–6元/盒（20mg×7–28片），年药费约50–150元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "西洛他唑",
+            "name_en": "Cilostazol",
+            "drug_class": "磷酸二酯酶-3（PDE3）抑制剂（扩张下肢动脉、抗血小板）",
+            "usage_role": "改善间歇性跛行、延长无痛行走距离（合并心衰者禁用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约20–50元/盒，年药费约400–900元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "立即彻底戒烟（烟草是下肢动脉闭塞与支架再狭窄的最强推手）",
+          "结构化监督步行锻炼（每次走至轻中度小腿酸痛后休息，再继续，每周3–5次促进侧支循环建立）",
+          "下肢血管微创介入治疗（药物涂层球囊DCB、支架植入或斑块旋切）及旁路搭桥手术",
+          "糖尿病患者每日温水洗脚并检查足部破溃，严禁热水烫脚或自行修剪鸡眼；若突发下肢剧痛、苍白、麻木、冰凉（急性动脉栓塞），须6小时内急诊取栓"
+        ],
+        "annual_total_cost_china_cny": "稳定期口服双通道抗栓+他汀+西洛他唑及踝肱指数（ABI）随访年费用约1,500–4,000元人民币；若需行下肢动脉药物球囊/支架腔内成形术，单次住院费用约3万–8万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2024年ESC新版外周动脉与主动脉疾病指南整合了COMPASS与VOYAGER PAD两项大型3期试验成果，确立“小剂量利伐沙班（2.5mg bid）+阿司匹林”作为症状性PAD及血管重建术后降低截肢与心梗风险的标准方案；同时，STRIDE 3期试验证实GLP-1受体激动剂司美格鲁肽（Semaglutide）能显著改善糖尿病合并PAD患者的步行距离，药物涂层球囊（DCB）与可吸收支架也在持续降低膝下动脉再狭窄率。",
+        "key_unmet_needs_zh": "1) 膝下微小动脉广泛钙化闭塞的介入开通后1年通畅率仍偏低; 2) 基层踝肱指数（ABI）筛查普及率低，大量患者拖延至足部坏疽才就诊; 3) 严重肢体缺血（CLTI）无法血运重建者仍缺乏成熟的血管再生细胞/基因疗法。"
+      },
+      "sources": [
+        {
+          "title": "2024 ESC Guidelines for the management of peripheral arterial and aortic diseases",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39210722/",
+          "publisher": "European Heart Journal / PubMed",
+          "year": "2024"
+        },
+        {
+          "title": "Global burden of peripheral artery disease, 1990–2021 (GBD 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38219225/",
+          "publisher": "PubMed / GBD",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005350",
+      "name_zh": "腹主动脉瘤",
+      "name_en": "Abdominal aortic aneurysm",
+      "aliases_zh": [
+        "腹主动脉扩张",
+        "AAA",
+        "体内不定时炸弹"
+      ],
+      "icd10": [
+        "I71.4"
+      ],
+      "icd11": [
+        "BD50.4"
+      ],
+      "category": "主动脉危重血管病",
+      "course_type": "chronic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 腹部主干大动脉（腹主动脉）壁因退行性变或动脉硬化像吹气球一样逐渐膨大（直径≥3.0cm），平时几乎毫无痛感，常在体检时偶然发现; 2) 一旦瘤体直径过大（通常男性≥5.5cm、女性≥5.0cm）或血压骤升导致血管壁破裂，数千毫升动脉血瞬间涌入腹腔/腹膜后，数分钟至数小时内因失血性休克死亡; 3) 腹主动脉瘤破裂的总体死亡率高达80%以上（超过一半患者在到达医院前即已死亡）。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "在瘤体破裂前通过微创腹主动脉腔内修复术（EVAR，经股动脉放置覆膜支架隔绝瘤腔）或传统开腹人工血管置换术，手术成功率超过95%，可彻底解除破裂炸弹；但药物目前尚无法使已扩大的瘤体缩小。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 153900,
+          "range_or_note": "GBD 2021估算全球主动脉瘤（以腹主动脉瘤与胸主动脉瘤为主）年死亡约15.39万例，其中吸烟与高血压为首要可归因危险因素",
+          "year": "2021",
+          "source": "IHME GBD 2021"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国腹主动脉瘤独立死因单列统计，但随着人口老龄化，国内主动脉瘤相关死亡数近30年呈持续上升趋势",
+          "year": "2023",
+          "source": "GBD 2021中国亚组分析 / 《中国血管外科杂志》"
+        },
+        "prevalence_global": "65岁以上男性人群患病率约 1.5%–4%，女性约为男性的1/4–1/6（USPSTF / ESC 2024）",
+        "prevalence_china": "中国65岁以上高危男性（有吸烟史或高血压）超声筛查检出率约 1%–2%"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 已知腹主动脉瘤或高龄吸烟男性，若突发剧烈撕裂样腹痛、腰背部痛（常向会阴部放射）伴面色苍白、大汗、血压骤降或晕厥，高度提示瘤体破裂或先兆破裂，立即拨打120送往有血管外科急诊绿色通道的三甲医院，平卧制动、严禁按摩揉按腹部; 2) 急救期间实施“允许性低血压”策略（维持意识清醒且收缩压在70–90 mmHg即可，切忌盲目快速大量升压药或过度输液导致血栓冲脱大出血）; 3) 急诊CT血管造影（CTA）确认后立即行急诊EVAR覆膜支架植入或开腹抢救手术。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿托伐他汀钙",
+            "name_en": "Atorvastatin calcium",
+            "drug_class": "他汀类调脂稳斑药（抑制动脉壁炎症、降低围手术期及远期心脑血管死亡）",
+            "usage_role": "基础心血管保护及术前术后长期维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约1.8–6元/盒，年药费约50–150元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "美托洛尔 / 氨氯地平",
+            "name_en": "Metoprolol / Amlodipine",
+            "drug_class": "降压药物（严格控制血压与心率，降低主动脉壁剪切力与扩张速度）",
+            "usage_role": "长期血压管理（目标<130/80 mmHg）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约3–15元/盒，年药费约100–300元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高危人群一次性腹部超声早筛：强烈建议65–75岁有吸烟史男性及有腹主动脉瘤家族史者行一次腹部主动脉超声筛查",
+          "未达手术指征的小动脉瘤（3.0–5.4cm）严格按直径每6–12个月复查超声/CTA，绝对禁止吸烟与剧烈憋气用力（如便秘用力、举重）",
+          "达到指征（男性≥5.5cm、女性≥5.0cm或半年增长>0.5cm）及时行微创腔内覆膜支架修复术（EVAR）或开腹手术，术后需终生定期CTA随访排查内漏"
+        ],
+        "annual_total_cost_china_cny": "小动脉瘤保守随访及控压降脂年费用约1,000–2,500元人民币；若行微创腹主动脉覆膜支架腔内修复术（EVAR），单次手术及耗材总住院费用约8万–16万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2024年ESC主动脉疾病指南进一步细化了女性及特殊解剖（如短瘤颈、累及肾动脉）的开窗/分支支架（FEVAR）微创指征，显著拓展了EVAR适应证；生物可降解支架与AI基于CTA的三维壁应力（Peak Wall Stress）破裂风险预测模型正成为术前精准决策新工具。此外，阻断主动脉壁细胞外基质降解的机制研究（如靶向MMPs及IL-1β通路）仍在探索中，尚未有药物获批缩小瘤体。",
+        "key_unmet_needs_zh": "1) 尚无任何获批药物能有效逆转或停止小腹主动脉瘤的扩张; 2) 基层体检普及腹部主动脉专项超声率低，导致大量患者以高死亡率的突发破裂为首发表现; 3) EVAR术后远期内漏（Endoleak）需终生CT随访，增加辐射暴露与医疗负担。"
+      },
+      "sources": [
+        {
+          "title": "Global burden of aortic aneurysm, 1990–2021 (GBD 2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38564551/",
+          "publisher": "PubMed / GBD",
+          "year": "2024"
+        },
+        {
+          "title": "2024 ESC Guidelines for the management of peripheral arterial and aortic diseases",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39210722/",
+          "publisher": "European Heart Journal / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005311",
+      "name_zh": "动脉粥样硬化",
+      "name_en": "Atherosclerosis",
+      "aliases_zh": [
+        "动脉硬化",
+        "AS",
+        "血管斑块形成"
+      ],
+      "icd10": [
+        "I70"
+      ],
+      "icd11": [
+        "BD40"
+      ],
+      "category": "慢性全身性血管病变",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 动脉粥样硬化是冠心病、心肌梗死、脑梗死和外周动脉疾病的共同“土壤”——血液中过高的低密度脂蛋白胆固醇（LDL-C）与炎症细胞数十年如一日地钻入动脉内膜，形成像小米粥一样的脂质斑块，使血管管腔逐渐变窄; 2) 真正致命的往往不是缓慢变窄本身，而是“不稳定易损斑块”突然破裂诱发急性血栓，在数分钟内彻底堵死心脏或大脑血管，引发急性心梗或大面积脑梗死。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "虽无法靠药物让严重钙化的斑块彻底消失，但通过强效降脂（将LDL-C降至极低水平可实现部分软斑块逆转消退）、控压控糖、抗炎及戒烟，可使脆弱的斑块外壳变厚变稳固，将急性心梗和脑卒中风险降低50%–70%以上。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE与GBD 2021未将“动脉粥样硬化”单独归因统计，其下游并发症（缺血性心脏病约900万/年、缺血性脑卒中约330万/年）合计占全球总死亡的约1/4–1/3",
+          "year": "2021",
+          "source": "IHME GBD 2021 / WHO"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国心血管病（以动脉粥样硬化性心脑血管病ASCVD为主体）占城乡居民总死亡原因首位（农村约48%、城市约46%）",
+          "year": "2023",
+          "source": "《中国心血管健康与疾病报告2023》"
+        },
+        "prevalence_global": "颈动脉斑块与亚临床动脉粥样硬化在40岁以上成人中检出率高达 30%–50%（Lancet Global Health）",
+        "prevalence_china": "中国40岁以上人群颈动脉斑块检出率约 40%，且呈现明显年轻化与城乡普遍化趋势（中国心血管健康与疾病报告）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "瑞舒伐他汀钙",
+            "name_en": "Rosuvastatin calcium",
+            "drug_class": "他汀类强效降脂稳斑药（抑制肝脏胆固醇合成、稳定甚至逆转软斑块）",
+            "usage_role": "一线基石调脂药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约1.5–5元/盒（10mg×7–28片），年药费约40–120元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "依折麦布",
+            "name_en": "Ezetimibe",
+            "drug_class": "肠道胆固醇吸收抑制剂（与他汀联用进一步降低LDL-C约18%–24%）",
+            "usage_role": "联合降脂增效用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约6–18元/盒（10mg×7–14片），年药费约180–450元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "依洛尤单抗 / 英克司兰",
+            "name_en": "Evolocumab / Inclisiran",
+            "drug_class": "PCSK9单抗 / 靶向PCSK9的siRNA小核酸降脂药（半年仅需皮下注射一次，强效降LDL-C约50%–60%）",
+            "usage_role": "极高危ASCVD他汀不达标或家族性高胆固醇血症强化治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "依洛尤单抗国家药品谈判后约280–300元/支（年约7,000元）；英克司兰国内自费参考约9,988元/针（维持期年约2万元）",
+            "cost_source": "国家谈判药品公开价及国内三甲医院公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "戒烟限酒、低饱和脂肪与低反式脂肪地中海/江南饮食模式",
+          "每周累计150分钟以上中等强度有氧运动，控制腹型肥胖",
+          "定期监测血脂四项（重点盯紧LDL-C及Lp(a)）、血压、糖化血红蛋白及颈动脉超声",
+          "已合并严重狭窄引发心绞痛或脑缺血者评估支架植入、内膜剥脱术或搭桥手术"
+        ],
+        "annual_total_cost_china_cny": "常规他汀+依折麦布+血压血糖基础管理年药费约500–2,000元人民币；若使用PCSK9单抗或siRNA小核酸强化降脂，年药费约7,000–20,000元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年抗动脉粥样硬化迈入“超长效RNA降脂+精准抗炎+Lp(a)靶向”新阶段：1) 靶向PCSK9的siRNA药物英克司兰（Inclisiran）在中国获批并广泛临床应用，实现半年一针平稳控脂; 2) 小剂量秋水仙碱（0.5mg/日，LoDoCo2/COLCOT试验证实抗血管炎症）获FDA批准用于ASCVD残余炎症风险管理; 3) 靶向脂蛋白(a)的Pelacarsen（HORIZON 3期）与Olpasiran（OCEAN(a) 3期）正冲刺攻克长期无药可治的Lp(a)遗传性斑块风险。",
+        "key_unmet_needs_zh": "1) 脂蛋白(a)升高这一强遗传性致病因子尚无获批上市的特效降脂药; 2) 临床缺乏无创、低成本的“易损斑块破裂预警”常规体检工具; 3) 大量中青年患者对无症状高胆固醇血症依从性差，错过斑块逆转最佳窗口。"
+      },
+      "sources": [
+        {
+          "title": "2023 ESC Guidelines for the management of cardiovascular disease in patients with diabetes / Dyslipidemia updates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37622654/",
+          "publisher": "European Heart Journal / PubMed",
+          "year": "2023"
+        },
+        {
+          "title": "Annual Report on Cardiovascular Health and Diseases in China 2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38966041/",
+          "publisher": "PubMed / National Center for Cardiovascular Diseases",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005264",
+      "name_zh": "短暂性脑缺血发作",
+      "name_en": "Transient ischemic attack",
+      "aliases_zh": [
+        "小中风",
+        "TIA",
+        "一过性脑缺血"
+      ],
+      "icd10": [
+        "G45"
+      ],
+      "icd11": [
+        "8B10"
+      ],
+      "category": "急性脑血管预警急症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 脑部某根血管短暂被微血栓或痉挛堵住，引发一过性口角歪斜、单侧手脚麻木无力、说话含糊或单眼黑矇，通常数分钟至1小时内完全恢复（传统定义24小时内恢复）; 2) 千万不可因为“自己好了”而掉以轻心——TIA是大面积致残/致死性脑梗死爆发前最明确的“红灯警报”; 3) 发作后48小时内是继发真性脑卒中的极高危窗口，90天内卒中复发率高达10%–15%。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "TIA本身症状可逆，且若在发作后24小时内立即就诊启动规范双联抗血小板治疗（如阿司匹林联合氯吡格雷或替格瑞洛，持续21天）、强效他汀稳斑及病因排查（如颈动脉重度狭窄内膜剥脱或房颤抗凝），可阻断80%以上的后续大面积脑梗死发生。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "TIA本身不直接致死（WHO GHE未单列），但其后90天内约10%–15%患者进展为致残或致死性急性缺血性脑卒中",
+          "year": "2023",
+          "source": "AHA/ASA Stroke Prevention Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无TIA独立死亡登记，全国流调估算中国成人TIA患病率约2.27%，即全国有逾2,300万例曾发生过TIA的潜在极高危卒中人群，但知晓率与规范就诊率仅约15%–20%",
+          "year": "2023",
+          "source": "《中国脑卒中防治报告》 / 中国国家卒中流调"
+        },
+        "prevalence_global": "全球成人TIA年发病率约 0.5–1.1 / 1,000人年（AHA/ASA）",
+        "prevalence_china": "中国成人TIA患病率约 2.27%，年新发病例数以百万计（中国卒中学会，2023）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 只要出现“中风120”任何一项症状（1看脸不对称、2查手臂单侧无力、0聆听说话不清），哪怕仅持续5分钟就自行完全恢复，也必须立即拨打120或立刻急诊就医，严禁回家观察“等第二天再看”; 2) 急诊第一时间行头颅CT排除脑出血，并尽快行头颅DWI核磁共振及颈动脉/脑血管CTA（明确有无真性小梗死或大血管重度狭窄）; 3) 排除出血后24小时内立即启动双联抗血小板（DAPT）及高强度他汀；切勿盲目自行服用降压药把血压降得过低，以免加重脑灌注不足。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿司匹林肠溶片",
+            "name_en": "Aspirin",
+            "drug_class": "环氧化酶抑制剂（抗血小板聚集）",
+            "usage_role": "急性期双联抗血小板及长期单抗维持核心药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约3–10元/盒，年药费约30–80元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "氯吡格雷",
+            "name_en": "Clopidogrel",
+            "drug_class": "P2Y12受体拮抗剂（中国CHANCE试验证实前21天联合阿司匹林显著降低复发）",
+            "usage_role": "高危TIA急性期21天双联抗血小板首选（CYP2C19正常代谢者）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约6–18元/盒（75mg×7–28片），21天疗程不足30元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "替格瑞洛",
+            "name_en": "Ticagrelor",
+            "drug_class": "直接可逆性P2Y12受体拮抗剂（不受CYP2C19基因代谢限制）",
+            "usage_role": "携带CYP2C19功能缺失等位基因的高危TIA患者替代氯吡格雷联合阿司匹林（CHANCE-2方案）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约15–35元/盒（90mg×14片），21天疗程约60–150元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊ABCD2评分分层与头颈部血管影像排查，若发现同侧颈内动脉重度狭窄（≥70%）应尽早行颈动脉内膜剥脱术（CEA）或支架成形术（CAS）",
+          "长程动态心电图（72小时及以上）排查隐匿性心房颤动，确诊心源性栓塞者改为口服抗凝药而非抗血小板药",
+          "严格控制血压（稳定期目标<130/80 mmHg）、血糖与血脂（LDL-C<1.8或1.4 mmol/L），彻底戒烟"
+        ],
+        "annual_total_cost_china_cny": "急诊影像排查（头颅MRI/CTA）及全年规范双抗/单抗+他汀药物维持总费用约2,000–6,000元人民币；若需行颈动脉支架植入术，单次住院费用约3万–6万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "中国卒中团队在2023–2024年连续引领国际TIA与轻型卒中循证指南更新：1) CHANCE-2试验1年随访结果（Neurology 2024）证实，携带CYP2C19慢代谢基因（中国人群占比约60%）的高危TIA患者，早期采用替格瑞洛+阿司匹林较氯吡格雷+阿司匹林的卒中复发获益持续至1年; 2) INSPIRES大型3期试验（NEJM 2023）进一步证实了症状发作72小时内启动强化双抗及即刻他汀对动脉粥样硬化型轻型卒中/TIA的有效性。",
+        "key_unmet_needs_zh": "1) 公众对“一过性症状很快恢复”的麻痹大意导致极高比例TIA患者错过48小时黄金干预窗; 2) 基层医院急诊尚难常规快速开展CYP2C19床旁基因检测; 3) 即使规范双抗，仍有约5%–8%患者在90天内复发卒中，亟需新型FXIa抑制剂等低出血风险抗栓药。"
+      },
+      "sources": [
+        {
+          "title": "Ticagrelor vs Clopidogrel in CYP2C19 Loss-of-Function Carriers With Stroke or TIA: 1-Year Outcomes of CHANCE-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38285936/",
+          "publisher": "Neurology / PubMed",
+          "year": "2024"
+        },
+        {
+          "title": "Dual Antiplatelet Therapy up to 72 Hours after Ischemic Stroke (INSPIRES Trial)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38157499/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001297",
+      "name_zh": "心脏压塞",
+      "name_en": "Cardiac tamponade",
+      "aliases_zh": [
+        "心包填塞",
+        "急性心包压塞"
+      ],
+      "icd10": [
+        "I31.4"
+      ],
+      "icd11": [
+        "BB21.0"
+      ],
+      "category": "心血管机械性梗阻急危重症",
+      "course_type": "acute",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "1) 包裹心脏的坚韧“心包膜”腔隙内短时间涌入大量液体或血液（如肿瘤、感染渗出、心脏手术或冠脉穿孔出血、主动脉夹层破入心包），把心脏死死勒住，使心室无法舒张吸血; 2) 典型表现为“Beck三联征”（低血压、颈静脉怒张、心音低钝遥远）及奇脉，若不立即穿刺放液减压，数分钟至数小时内即发生梗阻性休克与电机械分离猝死。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "绝大多数非主动脉夹层/心脏破裂所致的心包压塞，只要在床旁超声引导下紧急行心包穿刺引流（放出哪怕仅50–100ml积液），心脏压迫立即解除、血压瞬间回升，属立竿见影的救命操作；后续需针对病因（如抗结核、抗肿瘤或抗炎）根治。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单独统计心包压塞死亡数，通常归入原发病（恶性肿瘤心包转移、急性主动脉夹层或结核性心包炎）；若未及时穿刺减压病死率接近100%",
+          "year": "2023",
+          "source": "ESC Pericardial Diseases Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国独立登记；国内以恶性肿瘤心包转移、尿毒症、结核及介入手术并发症为主因，及时超声引导穿刺成功率>95%",
+          "year": "2023",
+          "source": "中华医学会心血管病学分会心包疾病共识"
+        },
+        "prevalence_global": "住院心包积液患者中约 15%–20% 可进展为心包压塞，恶性心包积液与急性主动脉夹层最常见（ESC）",
+        "prevalence_china": "属心内科与急诊科常见致命急症，在肿瘤合并心包积液及心血管介入中心尤为常见"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 患者突发极度呼吸困难（端坐呼吸）、面色发绀、颈部血管明显怒张、血压骤降，立即拨打120送往有超声心动图及心包穿刺条件的医院急诊; 2) 急救核心：立即行床旁超声引导下心包穿刺置管引流术（POCUS-guided pericardiocentesis），切忌在确诊压塞后给患者强行使用大剂量利尿剂或扩血管药（会瞬间抽干心脏充盈压导致骤停）; 3) 唯一例外：若超声或CT提示为主动脉夹层破入心包或心室壁破裂导致的血性心包压塞，原则上禁忌常规大量穿刺减压（以免血压骤升诱发致命性二次大出血），需立即开胸行外科修补手术。",
+        "standard_drugs": [
+          {
+            "name_zh": "氯化钠注射液 / 平衡盐溶液",
+            "name_en": "Normal saline / Crystalloid",
+            "drug_class": "静脉晶体扩容液体（穿刺前短时维持右心室充盈压的过渡支持）",
+            "usage_role": "穿刺引流前的紧急临时过渡扩容",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约3–8元/袋（500ml）",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "秋水仙碱",
+            "name_en": "Colchicine",
+            "drug_class": "微管聚合抑制剂（抑制NLRP3炎症小体，降低炎症性心包积液复发）",
+            "usage_role": "特发性/炎症性心包压塞引流后预防再发积液",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–35元/盒，3个月疗程约60–150元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊超声引导下心包穿刺置管引流术（首选剑突下或心尖部入路，留置猪尾导管持续引流至24小时引流量<30ml）",
+          "外科心包开窗术（Pericardial window）用于恶性肿瘤反复复发的心包积液",
+          "胸腔镜或开胸紧急心包修补术（专门针对主动脉夹层或心肌梗死心脏破裂所致血性压塞）",
+          "明确并根治原发病（如恶性肿瘤靶向/化疗、抗结核规范治疗、充分血液透析）"
+        ],
+        "annual_total_cost_china_cny": "急诊床旁超声引导心包穿刺引流及住院检查总费用约8,000–25,000元人民币；若因心脏破裂或主动脉夹层需急诊开胸手术，住院总费用可达10万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年急性心包压塞救治强调床旁即时超声（POCUS）标准化流程普及，显著降低了盲穿导致的心肌穿孔或气胸并发症（并发症率降至<1%）；对于反复复发的特发性或自身炎症性心包积液，IL-1抑制剂（如Rilonacept、Anakinra）在RHAPSODY等3期研究后已成为激素依赖性患者预防心包压塞复发的强力靶向武器。",
+        "key_unmet_needs_zh": "1) 恶性心包积液引流后复发率仍高达40%–70%，亟需安全有效的局部心包腔内长效抗肿瘤/硬化剂; 2) 基层急诊缺乏全天候床旁超声引导穿刺培训，易因误诊为普通心衰而误用利尿剂致死; 3) 亚急性隐匿性心包积液缺乏无创早期压力预警。"
+      },
+      "sources": [
+        {
+          "title": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases (with contemporary tamponade management)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26320112/",
+          "publisher": "European Heart Journal / PubMed",
+          "year": "2015"
+        },
+        {
+          "title": "Ultrasound-guided pericardiocentesis and emergency management of cardiac tamponade",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36795408/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005904",
+      "name_zh": "心包炎",
+      "name_en": "Pericarditis",
+      "aliases_zh": [
+        "急性心包炎",
+        "复发性心包炎",
+        "特发性心包炎"
+      ],
+      "icd10": [
+        "I30",
+        "I31"
+      ],
+      "icd11": [
+        "BB20"
+      ],
+      "category": "心包炎症性疾病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "1) 包裹心脏的心包膜发生无菌性或感染性炎症，引起刀割样或锐痛性胸痛（典型特征：深呼吸、平躺时加重，坐起向前倾时减轻）; 2) 多数特发性/病毒性急性心包炎预后良好，但约15%–30%会反复复发; 3) 若未规范抗炎或为化脓性/结核性心包炎，数周内可进展为大量心包积液致心包压塞，或心包增厚钙化像“铁盔”一样箍死心脏（缩窄性心包炎）。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "一线规范联合使用大剂量NSAIDs（如布洛芬或阿司匹林）加足疗程秋水仙碱（3–6个月）可治愈大多数初发患者并大幅降低复发率；对激素依赖或秋水仙碱耐药的难治性复发性心包炎，靶向白介素-1（IL-1）抑制剂（如阿那白滞素、Rilonacept）可实现快速停用激素并长期无痛缓解。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列心包炎死亡统计；特发性/病毒性急性心包炎住院病死率约1%，但化脓性细菌性心包炎病死率可达20%–30%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:58208 / ESC Pericardial Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无全国单列死亡人数；国内除特发性/自身免疫性外，结核性心包炎仍占有一定比例，是缩窄性心包炎的主要前驱病因",
+          "year": "2023",
+          "source": "中华医学会心血管病学分会心包疾病专家共识"
+        },
+        "prevalence_global": "急诊非缺血性胸痛中约占5%，复发性心包炎在欧洲罕见病库估计患病率约 1–5 / 10,000（Orphanet ORPHA:58208）",
+        "prevalence_china": "普通人群中较常见，占心血管内科住院心包疾病主体，其中约15%–30%初发患者转为复发性心包炎"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发胸痛伴发热或呼吸困难应立即就医，首先通过心电图、肌钙蛋白及心脏超声排除致命性急性心肌梗死、主动脉夹层及心包压塞; 2) 急性单纯心包炎确诊前，切勿盲目给予负荷量抗凝药或溶栓药（极易诱发心包内大出血导致致命性心包压塞）; 3) 若出现低血压、颈静脉怒张或大量心包积液，立即按心包压塞行急诊超声引导穿刺减压。",
+        "standard_drugs": [
+          {
+            "name_zh": "秋水仙碱",
+            "name_en": "Colchicine",
+            "drug_class": "抗炎微管抑制剂（抑制NLRP3炎症小体激活，显著降低复发率50%以上）",
+            "usage_role": "急性及复发性心包炎一线核心基石用药（联用NSAIDs至少3–6个月）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–35元/盒，3个月疗程药费约60–150元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "布洛芬 / 阿司匹林",
+            "name_en": "Ibuprofen / Aspirin",
+            "drug_class": "非甾体抗炎药（NSAIDs，高剂量足疗程控制急性心包炎症与胸痛）",
+            "usage_role": "一线急性期抗炎止痛（症状及CRP正常后缓慢减量）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约5–20元/盒，单疗程不足100元",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "Rilonacept / 阿那白滞素",
+            "name_en": "Rilonacept / Anakinra",
+            "drug_class": "IL-1α/β靶向阻滞剂（精准阻断自身炎症性复发性心包炎核心通路）",
+            "usage_role": "激素依赖性、秋水仙碱耐药的难治性复发性心包炎靶向治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "Rilonacept国内尚未纳入常规国家集采，海外参考年费极高；国内部分难治性病例使用重组IL-1受体拮抗剂或探索替代生物制剂",
+            "cost_source": "FDA RHAPSODY试验及公开临床参考"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急性期严格限制剧烈体力活动与竞技运动（至少休息至胸痛完全消失且CRP及超声恢复正常，通常需3个月，防心肌炎加重猝死）",
+          "对已发展为慢性缩窄性心包炎导致顽固腹水与颈静脉怒张者，及时行外科心包剥脱术",
+          "排查潜在病因（如结核菌素/T-SPOT排查结核、自身免疫抗体排查系统性红斑狼疮或肿瘤）"
+        ],
+        "annual_total_cost_china_cny": "普通急性心包炎口服NSAIDs+秋水仙碱及复查超声心电图年费用约1,000–3,500元人民币；若进展为缩窄性心包炎需开胸行心包剥脱手术，住院费用约5万–10万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "RHAPSODY 3期随机撤药试验（NEJM）确立了周制剂IL-1陷阱蛋白Rilonacept在难治性复发性心包炎中的革命性地位——可迅速清除胸痛与CRP炎症并安全撤除糖皮质激素（复发风险降低96%）；2023–2024年心包延迟强化心脏MRI（LGE-CMR）成为判断炎症活动度、指导个体化停药及避免盲目手术的金标准。",
+        "key_unmet_needs_zh": "1) 靶向IL-1生物制剂（Rilonacept/Anakinra）在中国可及性仍有限且价格昂贵，部分国内患者仍被迫长期承受激素副作用; 2) 约10%–20%初发患者初期治疗不规范（如过早使用糖皮质激素或未足疗程用秋水仙碱）导致转为慢性复发; 3) 早期区分病毒性与结核性心包炎仍缺乏高敏感度无创快速指标。"
+      },
+      "sources": [
+        {
+          "title": "Phase 3 Trial of Interleukin-1 Trap Rilonacept in Recurrent Pericarditis (RHAPSODY)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33200890/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2021"
+        },
+        {
+          "title": "Idiopathic recurrent pericarditis (ORPHA:58208)",
+          "url": "https://www.orpha.net/en/disease/detail/58208",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005080",
+      "name_zh": "门静脉高压症",
+      "name_en": "Portal hypertension",
+      "aliases_zh": [
+        "门脉高压",
+        "肝硬化门静脉高压",
+        "食管胃底静脉曲张"
+      ],
+      "icd10": [
+        "K76.6"
+      ],
+      "icd11": [
+        "DB98.7"
+      ],
+      "category": "肝血管与消化大出血急症",
+      "course_type": "chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 各种原因（中国以乙肝肝硬化最常见）使肝脏变硬，流入肝脏的门静脉血流受阻、压力飙升，被迫在食管和胃底鼓起一条条薄如蝉翼的“曲张静脉”; 2) 虽然门脉高压本身慢性形成，但一旦曲张静脉破裂，患者会在数分钟至数小时内爆发喷射状大量呕血与柏油样黑便，迅速因失血性休克死亡，每次急性大出血的6周病死率仍高达15%–20%; 3) 门脉高压还会引发顽固性腹水、自发性腹膜炎与肝性脑病昏迷。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "早期无创筛查出临床显著门静脉高压（CSPH）并长期口服卡维地洛可有效降低门脉压力、预防首次出血和腹水失代偿；急性大出血可通过内镜下套扎/硬化止血及经颈静脉肝内门体分流术（TIPS）迅速挽救生命；但彻底根治仍需针对病因（如抗乙肝/丙肝病毒）或在终末期行肝移植。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将门静脉高压死亡合并计入肝硬化及其他慢性肝病（全球肝硬化年死亡约130万–140万例），曲张静脉破裂出血与肝衰竭是核心死因",
+          "year": "2021",
+          "source": "IHME GBD 2021 / Baveno VII Consensus"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国肝硬化患者基数庞大（估算约700万例以上，以乙肝为主），门静脉高压相关消化道大出血与肝衰竭是国内肝病患者最主要死亡原因",
+          "year": "2023",
+          "source": "中华医学会肝病学分会《肝硬化门静脉高压食管胃静脉曲张出血防治指南》"
+        },
+        "prevalence_global": "约80%–90%的肝硬化患者最终会发展为门静脉高压（Baveno VII 2022）",
+        "prevalence_china": "中国约700万肝硬化人群中，临床显著门静脉高压及静脉曲张占绝大多数，CHESS门脉高压联盟正推进全国无创早筛"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肝病患者一旦突发呕鲜血/咖啡样物、大量黑便、头晕心慌冷汗，立即拨打120禁食禁水，头偏向一侧防止血块窒息误吸; 2) 院内急救黄金三联：立即静脉泵注降门脉压血管活性药（生长抑素、奥曲肽或特利加压素）、静脉预防性广谱抗生素（头孢曲松等，防自发性腹膜炎与再出血）及限制性输血（维持血红蛋白70–80 g/L即可，切忌过度输血输液使门脉压力反弹冲开血痂）; 3) 12小时内急诊胃镜套扎或组织胶注射止血；若属Child-Pugh C级或高危Child-Pugh B级出血，应在72小时内尽早行抢先TIPS（经颈静脉肝内门体分流术）大幅降低死亡率。",
+        "standard_drugs": [
+          {
+            "name_zh": "卡维地洛",
+            "name_en": "Carvedilol",
+            "drug_class": "兼有α1阻滞作用的非选择性β受体阻滞剂（降门脉压效果优于普萘洛尔，Baveno VII首选）",
+            "usage_role": "预防首次失代偿（腹水/出血）及预防再出血一线长期用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–35元/盒，年药费约200–500元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "特利加压素 / 生长抑素",
+            "name_en": "Terlipressin / Somatostatin",
+            "drug_class": "内脏血管收缩剂（迅速降低门静脉血流量与曲张静脉压力）",
+            "usage_role": "急性食管胃底静脉曲张破裂大出血一线急救止血药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后特利加压素约30–80元/支，生长抑素约25–70元/支，单次急性期疗程约1,000–3,000元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "恩替卡韦 / 替诺福韦",
+            "name_en": "Entecavir / Tenofovir",
+            "drug_class": "乙肝抗病毒核苷类似物（从源头逆转肝纤维化、降低门脉压力）",
+            "usage_role": "乙肝相关门脉高压病因根治基石用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约5–18元/盒（28–30片），年药费约60–220元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "内镜下食管曲张静脉套扎术（EVL）及胃底静脉曲张组织胶/硬化剂栓塞术",
+          "经颈静脉肝内门体分流术（TIPS，微创在肝内搭建减压通道，高危出血72小时内抢先TIPS救命效果显著）",
+          "无创瞬时弹性成像（LSM≥25 kPa）联合血小板计数定期筛查门脉高压，避免盲目等到呕血才发现",
+          "绝对戒酒，避免坚硬粗糙食物（如鱼刺、坚果壳、油炸硬脆食物）划破曲张静脉，保持大便通畅防氨中毒"
+        ],
+        "annual_total_cost_china_cny": "稳定期口服卡维地洛+抗病毒药及定期超声胃镜随访年费用约2,000–5,000元人民币；急性大出血内镜抢救住院约2万–4万元，若行TIPS微创支架手术住院总费用约4万–8万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "Baveno VII国际共识及中国CHESS门脉高压联盟在2023–2024年推动了两大范式变革：1) 确立肝脏硬度（LSM≥25 kPa）直接无创诊断临床显著门脉高压（CSPH）并早期启动卡维地洛，使失代偿事件发生率显著下降; 2) 中国CHESS多中心研究基于AI放射组学与无创血液模型实现虚拟肝静脉压力梯度（vHVPG）精准测算，替代有创插管检查，并进一步验证了早期抢先TIPS在乙肝肝硬化高危出血中的显著生存获益。",
+        "key_unmet_needs_zh": "1) 尚无获批的抗肝纤维化药物能直接逆转晚期肝硬化假小叶结构; 2) TIPS术后约20%–30%患者可能诱发肝性脑病，亟需更精准的分流直径控制与预防方案; 3) 基层肝病患者对定期胃镜或无创弹性筛查依从性仍不足。"
+      },
+      "sources": [
+        {
+          "title": "Baveno VII - Renewing consensus in portal hypertension",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35120736/",
+          "publisher": "Journal of Hepatology / PubMed",
+          "year": "2022"
+        },
+        {
+          "title": "Non-invasive diagnosis of clinically significant portal hypertension in cirrhosis (CHESS)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36706794/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001243",
+      "name_zh": "弥散性血管内凝血",
+      "name_en": "Disseminated intravascular coagulation",
+      "aliases_zh": [
+        "DIC",
+        "播散性血管内凝血",
+        "消耗性凝血病"
+      ],
+      "icd10": [
+        "D65"
+      ],
+      "icd11": [
+        "3B60"
+      ],
+      "category": "极危重获得性凝血崩溃",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) DIC不是独立疾病，而是严重脓毒症、产科羊水栓塞/胎盘早剥、急性早幼粒细胞白血病或重度创伤触发的“全身凝血大爆炸”——全身微血管内同时疯狂形成无数微血栓堵塞心、脑、肾、肺，紧接着把血小板和凝血因子彻底耗光，导致全身针眼、口腔、消化道与颅内止不住地大出血; 2) 数小时至数天内即可引发不可逆多器官功能衰竭; 3) 脓毒症合并显性DIC的28天病死率高达30%–50%以上。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "能否救活完全取决于“抢时间清除原发诱因”（如强效抗感染引流脓毒症灶、产科紧急清宫/止血、白血病维甲酸诱导分化）以及精准替代补充凝血因子/血小板；一旦原发病在黄金窗口内受控，凝血瀑布通常可迅速平息恢复。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将DIC归入原发诱因（脓毒症、产科出血、创伤及恶性肿瘤）；全球ICU重度脓毒症患者中约20%–40%并发DIC，合并DIC使死亡风险翻倍",
+          "year": "2024",
+          "source": "ISTH DIC Subcommittee / Critical Care"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无独立DIC全国死亡登记；国内多中心ICU数据显示脓毒症相关DIC住院病死率约30%–45%，产科DIC经危重孕产妇绿色通道救治存活率明显提升",
+          "year": "2023",
+          "source": "中华医学会血液学分会《弥散性血管内凝血诊断中国专家共识》"
+        },
+        "prevalence_global": "重度脓毒症患者并发率约 20%–40%，重症创伤约 10%–30%，急性早幼粒细胞白血病初诊时高达 70%–80%（ISTH）",
+        "prevalence_china": "国内综合ICU及产科急救中心常见危重综合征，中国DIC积分系统（CDSS）广泛应用于早期预警"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 患者在感染、分娩、手术或白血病治疗期间突发全身大片瘀斑、穿刺针眼渗血不止、血尿、呕血或不明原因休克少尿，立即按危重急症抢救并急查血常规、D-二聚体/FDP、PT/APTT与纤维蛋白原; 2) 急救核心永远是“治本第一”：立即强效静脉广谱抗感染/清创、产科止血或维甲酸联合亚砷酸治疗APL; 3) 活动性大出血且血小板<50×10^9/L或纤维蛋白原<1.5 g/L时，立即输注新鲜冰冻血浆（FFP）、冷沉淀（或人纤维蛋白原）及血小板；严禁在无原发病控制及抗凝保护下盲目单用氨甲环酸等强效抗纤溶药（易致全身微血栓栓塞器官坏死，除非明确纤溶亢进型）。",
+        "standard_drugs": [
+          {
+            "name_zh": "人纤维蛋白原 / 冷沉淀",
+            "name_en": "Human fibrinogen concentrate",
+            "drug_class": "凝血底物替代血液制品（快速补充被耗竭的纤维蛋白原，止住消耗性大出血）",
+            "usage_role": "急性低纤维蛋白原血症（<1.5 g/L）活动性出血一线急救",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约400–800元/瓶（0.5g），单次急救需多瓶约2,000–6,000元",
+            "cost_source": "中国公立医院血液制品挂网公开参考价"
+          },
+          {
+            "name_zh": "普通肝素 / 低分子肝素",
+            "name_en": "Unfractionated heparin / LMWH",
+            "drug_class": "抗凝血酶依赖性抗凝剂（打断微血栓无限消耗凝血因子的恶性循环）",
+            "usage_role": "以血栓形成为主导或高凝期DIC（活动性大出血或颅内出血禁用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "低分子肝素集采后约11–15元/支，普通肝素约5–15元/支",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "重组人可溶性血栓调节蛋白（rhTM）",
+            "name_en": "Recombinant human thrombomodulin",
+            "drug_class": "内皮保护与生理性蛋白C激活剂（抑制微血栓同时不显著增加出血）",
+            "usage_role": "脓毒症相关凝血病（SIC）/DIC靶向抗凝与内皮修复（日本获批，国内外多中心探索）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内尚未普遍商业化挂网，属前沿/特定区域临床应用药物",
+            "cost_source": "国际临床试验及日本PMDA公开信息"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "最核心措施：外科急诊清除感染病灶、产科紧急清宫/子宫动脉栓塞或切除止血",
+          "输血支持：新鲜冰冻血浆（FFP）、机采血小板及红细胞精准成分输血",
+          "连续性肾脏替代治疗（CRRT）及呼吸机支持度过急性多器官功能障碍期",
+          "采用ISTH脓毒症诱导凝血病（SIC）评分或中国DIC积分系统（CDSS）每6–12小时动态评估，抢在显性出血前干预"
+        ],
+        "annual_total_cost_china_cny": "抢救期ICU监护、大量成分输血（血浆/冷沉淀/血小板）及原发病救治单次住院费用通常在5万–20万元人民币以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年DIC管理重心从“晚期大出血救火”全面前移至“早期脓毒症诱导凝血病（SIC）拦截”：1) 国际ISTH指南与中国CDSS动态积分（24–48小时变化率）被证实能提前识别高死亡风险人群; 2) 靶向血管内皮糖萼保护与重组人血栓调节蛋白（rhTM）在SIC亚组分析中显示降低28天死亡率约5%且不增加大出血; 3) 抗中性粒细胞胞外诱捕网（NETs）与组蛋白中和制剂正处于早期临床探索。",
+        "key_unmet_needs_zh": "1) 临床缺乏能同时精准区分“血栓主导型”与“纤溶亢进出血型”DIC的床旁即时全血检测工具; 2) 大规模随机对照试验证实抗凝干预仅对特定亚组有效，精准生物标志物分层仍待突破; 3) 血液制品（血小板、冷沉淀）在急救高峰期常面临区域性短缺。"
+      },
+      "sources": [
+        {
+          "title": "Diagnosis and management of sepsis-induced coagulopathy and DIC (ISTH / 2023–2024 updates)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37927769/",
+          "publisher": "PubMed / MDPI",
+          "year": "2023"
+        },
+        {
+          "title": "Validation of the Chinese Disseminated Intravascular Coagulation Scoring System (CDSS)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33754471/",
+          "publisher": "PubMed / Thrombosis Research",
+          "year": "2021"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018896",
+      "name_zh": "血栓性血小板减少性紫癜",
+      "name_en": "Thrombotic thrombocytopenic purpura",
+      "aliases_zh": [
+        "TTP",
+        "血栓性微血管病",
+        "Moschcowitz病"
+      ],
+      "icd10": [
+        "M31.1"
+      ],
+      "icd11": [
+        "3B64.1"
+      ],
+      "category": "极危重罕见血液微血管病",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 体内负责剪断超大血管性血友病因子（vWF）的“分子剪刀”——ADAMTS13酶严重缺乏（95%为自身抗体攻击导致的免疫性iTTP，5%为基因突变导致的先天性cTTP），导致超长vWF丝粘满血小板形成无数微血栓堵塞大脑、心脏和肾脏毛细血管; 2) 红细胞强行挤过微血栓时被撕碎（微血管病性溶血），血小板被大量耗光; 3) 未经及时治疗病死率超过90%，大多数死亡发生在发病后数小时至数天内（突发昏迷、抽搐、急性心梗或猝死）。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "只要在黄金时间窗内立即启动血浆置换（TPE）联合糖皮质激素、利妥昔单抗及抗vWF纳米抗体Caplacizumab，急性期存活率可从不足10%逆转至85%–95%以上；2023年底FDA批准全球首个重组ADAMTS13酶替代药Adzynma，更让先天性TTP迎来精准替补时代。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列TTP死亡统计；规范治疗前自然史病死率>90%，现代血浆置换+Caplacizumab体系下急性期病死率已降至5%–10%左右",
+          "year": "2024",
+          "source": "Orphanet ORPHA:54057 / ISTH TTP Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡人数登记；国内大型血液中心报道及时行血浆置换联合利妥昔单抗后缓解率约80%–90%，但基层误诊延误仍是个体死亡主因",
+          "year": "2022",
+          "source": "中华医学会血液学分会《血栓性血小板减少性紫癜诊断与治疗中国指南（2022年版）》"
+        },
+        "prevalence_global": "年发病率约 2–6 / 100万人年，时点患病率约 1 / 10万（Orphanet ORPHA:54057）",
+        "prevalence_china": "属国家罕见病目录相关血液危重症，成人iTTP以中青年女性相对多见，cTTP多在儿童期或妊娠期首发"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 患者突发皮肤瘀点瘀斑+精神异常/胡言乱语/一过性偏瘫+黄疸茶色尿+发热（五联征或三联征），高度怀疑TTP，立即送往具备血浆置换条件的三甲医院急诊; 2) 生死红线禁区：即使血小板极低（<10×10^9/L），在未排除TTP前【严禁盲目输注血小板】（外源血小板会像浇油一样瞬间加剧脑部和心脏微血栓致死），仅在危及生命的颅内/内脏大出血且已开始血浆置换时极慎重考虑; 3) 抽血送检ADAMTS13活性（<10%确诊）后无须等结果，立即按PLASMIC评分高危启动急诊每日血浆置换（1–1.5倍血浆容量/日），条件不具备时先紧急输注新鲜冰冻血浆（FFP）过渡并联合大剂量甲泼尼龙。",
+        "standard_drugs": [
+          {
+            "name_zh": "利妥昔单抗",
+            "name_en": "Rituximab",
+            "drug_class": "抗CD20单克隆抗体（清除产生抗ADAMTS13自身抗体的B细胞，大幅降低复发）",
+            "usage_role": "免疫性TTP一线联合免疫抑制核心用药（与血浆置换序贯）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内生物类似药集采/挂网参考价约1,200–2,200元/支（100mg），标准疗程约8,000–20,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "卡普赛珠单抗 (Caplacizumab)",
+            "name_en": "Caplacizumab",
+            "drug_class": "抗vWF A1结构域纳米抗体（瞬间阻断血小板与超长vWF粘附，保护心脑微循环）",
+            "usage_role": "急性iTTP联合血浆置换的一线急救靶向药（大幅缩短血小板恢复时间）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外单疗程参考费用极高（数万至十余万美元），国内正推进临床可及与注册",
+            "cost_source": "FDA/EMA批准及国际临床公开参考"
+          },
+          {
+            "name_zh": "重组人ADAMTS13 (Adzynma)",
+            "name_en": "ADAMTS13, recombinant-krhn",
+            "drug_class": "重组ADAMTS13酶替代制剂（直接补足缺失的“分子剪刀”）",
+            "usage_role": "先天性TTP（cTTP）长期预防与按需急救（2023年底FDA获批）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "美国FDA获批后属高值罕见病特效酶制剂，国内尚未上市",
+            "cost_source": "FDA批准公告（2023年11月）"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急诊每日治疗性血浆置换（TPE）：急性期救命基石，每日置换直至血小板连续2天>150×10^9/L且LDH恢复正常",
+          "缓解期定期监测外周血ADAMTS13活性，若活性降至<10%–20%即使无症状也应抢先给予利妥昔单抗预防临床复发",
+          "先天性cTTP患者及家系行ADAMTS13基因检测排查，女性患者妊娠期须全程严密监测并预防性输注血浆"
+        ],
+        "annual_total_cost_china_cny": "国内急性期连续血浆置换（7–14次）+激素+利妥昔单抗抢救单次住院总费用约5万–12万元人民币；缓解期仅需定期复查ADAMTS13活性，年随访费用约2,000–5,000元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "2023–2024年TTP治疗迎来两项历史性跨越：1) 2023年11月FDA批准全球首个重组ADAMTS13制剂Adzynma（TAK-755）用于先天性TTP的预防和按需治疗（3期试验证实年化急性事件接近清零，且免除血浆输注过敏风险），2024年获EMA批准，针对免疫性iTTP的临床试验亦在推进中; 2) 国际真实世界研究进一步确立了“血浆置换+激素+利妥昔单抗+Caplacizumab”四联方案使iTTP急性期病死率降至5%以下。",
+        "key_unmet_needs_zh": "1) 急诊科30分钟内快速定量检测ADAMTS13活性仍未在多数基层医院普及; 2) Caplacizumab与重组ADAMTS13在中国大陆的正式商业化可及性与价格负担仍待解决; 3) 血浆置换依赖大量血站新鲜冰冻血浆供应，常受血源紧张掣肘。"
+      },
+      "sources": [
+        {
+          "title": "Thrombotic thrombocytopenic purpura (ORPHA:54057)",
+          "url": "https://www.orpha.net/en/disease/detail/54057",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA Approves First Treatment for Patients with Rare Inherited Blood Clotting Disorder (Adzynma)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-patients-rare-inherited-blood-clotting-disorder",
+          "publisher": "U.S. FDA",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0001549",
+      "name_zh": "溶血性尿毒症综合征",
+      "name_en": "Hemolytic-uremic syndrome",
+      "aliases_zh": [
+        "HUS",
+        "非典型溶血性尿毒症综合征",
+        "aHUS",
+        "产志贺毒素大肠杆菌HUS"
+      ],
+      "icd10": [
+        "D59.3"
+      ],
+      "icd11": [
+        "3B64.0"
+      ],
+      "category": "肾脏-血液微血管急危重症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 典型特征为“微血管病性溶血性贫血 + 血小板减少 + 急性肾衰竭”三联征——肾脏入球小动脉和肾小球毛细血管内皮严重受损并长满微血栓，导致红细胞碎裂、尿量骤减甚至无尿、肌酐飙升; 2) 分为产志贺毒素大肠杆菌（STEC）引起的典型HUS（多见于儿童腹泻后）和补体旁路基因（CFH/CFI/CD46/C3等）失控引起的非典型aHUS; 3) 急性期数天内可因高钾血症心脏骤停、急性肺水肿或脑微血栓抽搐死亡，未用补体抑制剂的aHUS约50%进展至尿毒症或死亡。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "典型STEC-HUS以精细液体复苏与临时透析支持为主，多数儿童可完全恢复肾功能；非典型aHUS在靶向补体C5单抗（依库珠单抗、瑞利珠单抗）问世后已发生颠覆性逆转——早期用药可迅速阻断微血栓并挽救肾脏免于终身透析，其中依库珠单抗已在中国获批并大幅降价纳入国家谈判目录。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列HUS死亡统计；典型STEC-HUS急性期病死率约3%–5%，而未获补体抑制剂治疗的aHUS在1年内死亡或进展至终末期肾病比例高达30%–50%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:544458 / ORPHA:2134 / KDIGO"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡人数；儿童典型HUS与成人/儿童补体介导aHUS均为儿科及肾内科重点抢救罕见病",
+          "year": "2023",
+          "source": "中华医学会肾脏病学分会 / 《非典型溶血尿毒综合征诊治中国专家共识》"
+        },
+        "prevalence_global": "典型HUS在儿童年发病率约 1–3 / 10万人；非典型aHUS全球患病率约 2–9 / 100万人（Orphanet ORPHA:2134 / ORPHA:544458）",
+        "prevalence_china": "属国家罕见病目录收录疾病（非典型溶血性尿毒症综合征），全国多中心基因登记逐步完善"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 儿童或成人出现血性腹泻后或无明显诱因突发面色苍白、酱油色尿、少尿无尿、全身水肿或抽搐，立即送往有儿科/肾脏病重症及血液净化能力的三甲医院; 2) 急救核心：立即抽血查血常规、外周血涂片破碎红细胞、LDH、网织红细胞、肾功能及ADAMTS13活性（与TTP鉴别）；出现无尿、严重高钾或肺水肿时立即行CRRT/血液透析; 3) 避坑提醒：怀疑STEC-HUS（血性腹泻起病）时【慎用抗生素和强效止泻药】（部分抗生素裂解细菌会释放更多志贺毒素加重HUS）；与TTP一样原则上【避免盲目输注血小板】。",
+        "standard_drugs": [
+          {
+            "name_zh": "依库珠单抗",
+            "name_en": "Eculizumab",
+            "drug_class": "人源化抗补体C5单克隆抗体（直接阻断补体膜攻击复合物C5b-9形成，停息aHUS微血栓风暴）",
+            "usage_role": "补体介导非典型aHUS一线特效急救与维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "纳入国家谈判目录后国内挂网价约2,518元/支（300mg），成人维持期每2周约3–4支（年药费仍需约15万–25万元，大幅低于谈判前）",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          },
+          {
+            "name_zh": "瑞利珠单抗 / 可伐利单抗 (Crovalimab)",
+            "name_en": "Ravulizumab / Crovalimab",
+            "drug_class": "长效抗C5单抗（每8周静脉一次） / 可皮下注射的循环抗C5抗体",
+            "usage_role": "aHUS新一代长效/便捷补体抑制治疗（Crovalimab正开展全球3期COMMUTE试验）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "Crovalimab国内已获批PNH适应证，aHUS适应证处于3期临床/拓展阶段",
+            "cost_source": "公开临床试验及NMPA公开信息"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "急性肾损伤期连续性肾脏替代治疗（CRRT）或腹膜/血液透析",
+          "确诊aHUS且依库珠单抗未立即到位时，紧急行血浆置换（TPE）或血浆输注过渡",
+          "使用抗C5单抗前必须接种脑膜炎奈瑟菌疫苗（无法等待者需预防性口服抗生素至少2周，防致命性流脑感染）",
+          "aHUS患者及家族成员建议行补体基因（CFH/CFI/MCP/C3/CFB）及抗CFH抗体检测，指导停药复发风险评估"
+        ],
+        "annual_total_cost_china_cny": "典型STEC-HUS急性期住院支持与透析约1.5万–4万元人民币；非典型aHUS使用依库珠单抗维持治疗，在国家谈判降价后年药费仍约15万–25万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年aHUS治疗迈向长效皮下化与精准停药管理：1) 新型循环抗C5单抗Crovalimab在成人及儿童aHUS全球3期COMMUTE-a/COMMUTE-p临床试验持续推进，有望实现居家皮下注射替代频繁静脉输液; 2) 长效C5抑制剂Ravulizumab（每8周一次）大幅减轻患者生活负担; 3) 国际多中心研究正验证依据补体基因突变类型（如无高危CFH突变者）在稳定缓解6–12个月后安全停用C5抑制剂的监测方案。",
+        "key_unmet_needs_zh": "1) 补体基因检测与抗CFH抗体周转时间较长，基层难以及时与STEC-HUS或TTP鉴别; 2) 依库珠单抗虽已大幅降价但长期维持对普通家庭经济压力仍大; 3) 产志贺毒素大肠杆菌引发的典型HUS仍缺乏获批的毒素中和特效药。"
+      },
+      "sources": [
+        {
+          "title": "Atypical hemolytic uremic syndrome (ORPHA:2134 / ORPHA:544458)",
+          "url": "https://www.orpha.net/en/disease/detail/544458",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Crovalimab in atypical hemolytic uremic syndrome (COMMUTE trials & clinical updates)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38087621/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0020108",
+      "name_zh": "自身免疫性溶血性贫血",
+      "name_en": "Autoimmune hemolytic anemia",
+      "aliases_zh": [
+        "AIHA",
+        "温抗体型AIHA",
+        "冷凝集素病"
+      ],
+      "icd10": [
+        "D59.1"
+      ],
+      "icd11": [
+        "3A20.0"
+      ],
+      "category": "获得性免疫性血液病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 患者免疫系统产生针对自身红细胞的“叛变抗体”（约65%为37℃活跃的温抗体型wAIHA，约15%为遇冷激活补体的冷凝集素病CAD），将正常红细胞成批破坏溶解; 2) 急性溶血危象时，血红蛋白可在数小时至数天内暴跌至30–40 g/L以下，患者面色惨白、浓茶/酱油色尿、黄疸、心率飙升，随时因重度贫血性心力衰竭、休克或并发致命性肺栓塞死亡。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "温抗体型AIHA一线口服糖皮质激素有效率约70%–80%，复发或依赖者联用利妥昔单抗可获长期缓解；冷凝集素病（CAD）传统激素无效，但补体C1s单抗Sutimlimab已获批可迅速止血溶血；新型FcRn抑制剂Nipocalimab等正处于3期临床，为难治患者带来新希望。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列AIHA死因；现代免疫抑制与抗感染支持下急性期病死率约4%–10%，合并血栓栓塞或重度感染是主要死因",
+          "year": "2024",
+          "source": "Orphanet ORPHA:98375"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡登记；国内多中心血液病队列显示继发于淋巴瘤、系统性红斑狼疮或合并Evans综合征者预后较原发者更差",
+          "year": "2023",
+          "source": "中华医学会血液学分会《中国成人自身免疫性溶血性贫血诊疗指南》"
+        },
+        "prevalence_global": "欧美年发病率约 1–3 / 10万人年，时点患病率约 1–9 / 10万（Orphanet ORPHA:98375）",
+        "prevalence_china": "属血液科常见获得性溶血性贫血，中老年及自身免疫病女性人群高发"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 患者突发极度乏力、呼吸困难、浓茶色尿、皮肤巩膜黄染或心慌晕厥，立即急诊查血常规、网织红细胞及直接抗人球蛋白试验（Coombs试验）; 2) 急诊第一时间静脉大剂量甲泼尼龙冲击（温抗体型）或严格保暖（冷凝集素病需加温输液输血）; 3) 注意输血难题：患者体内自身抗体会干扰交叉配血导致“配血不合”，危及生命的重度贫血缺氧（如Hb<40–50 g/L或合并冠心病休克）切勿因等待“完全相合”而延误抢救，应在严密监护下输注“最小不相合”洗涤红细胞并严防血栓栓塞。",
+        "standard_drugs": [
+          {
+            "name_zh": "泼尼松 / 甲泼尼龙",
+            "name_en": "Prednisone / Methylprednisolone",
+            "drug_class": "糖皮质激素（抑制巨噬细胞吞噬致敏红细胞及减少抗体生成）",
+            "usage_role": "温抗体型AIHA一线基础急救与诱导缓解用药（冷凝集素病基本无效）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约5–20元/盒，年药费约100–300元",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "利妥昔单抗",
+            "name_en": "Rituximab",
+            "drug_class": "抗CD20单克隆抗体（靶向清除产生自身抗体的B淋巴细胞）",
+            "usage_role": "温抗体型AIHA二线首选及冷凝集素病重要免疫清除方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内生物类似药参考价约1,200–2,200元/支（100mg），4次疗程约8,000–20,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "舒替利单抗 (Sutimlimab)",
+            "name_en": "Sutimlimab",
+            "drug_class": "抗补体C1s人源化单抗（精准阻断经典补体途径，专治冷凝集素病）",
+            "usage_role": "冷凝集素病（CAD）获批靶向治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "美国FDA/EMA已获批，国内尚待常规临床普及",
+            "cost_source": "FDA批准公告及公开临床文献"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "冷凝集素病患者严格防寒保暖（冬季戴手套耳罩、饮用温水、医院静脉输液与输血必须使用37℃加温器）",
+          "对激素与利妥昔单抗均无效的温抗体型AIHA患者评估腹腔镜脾切除术（注意预防血栓与感染）",
+          "全面排查潜在继发病因（如慢性淋巴细胞白血病、非霍奇金淋巴瘤、系统性红斑狼疮或支原体/EB病毒感染）",
+          "急性溶血期高度警惕深静脉血栓与肺栓塞，必要时给予预防性抗凝"
+        ],
+        "annual_total_cost_china_cny": "激素有效患者常规随访年费用约2,000–5,000元人民币；若需联用利妥昔单抗或急性重度溶血住院输血抢救，年医疗费用约2万–5万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年AIHA治疗全面迈向“去激素精准靶向”：1) 针对冷凝集素病，抗C1s单抗Sutimlimab长期扩展数据证实可持久维持血红蛋白正常并消除输血依赖; 2) 针对温抗体型AIHA，靶向新生儿Fc受体（FcRn）加速致病IgG降解的Nipocalimab（ENERGY 2/3期试验）、靶向SYK激酶的Fostamatinib以及BTK抑制剂（如Rilzabrutinib）均在临床试验中展现出快速止溶血且无需长期使用激素的潜力。",
+        "key_unmet_needs_zh": "1) 约20%–30%温抗体型患者对激素和利妥昔单抗双重耐药（难治性wAIHA），国内尚缺乏获批的靶向新药（如FcRn抑制剂或SYK抑制剂）; 2) 冷凝集素病特效药Sutimlimab国内可及性极低; 3) 自身抗体干扰交叉配血常导致急诊抢救输血延误。"
+      },
+      "sources": [
+        {
+          "title": "Autoimmune hemolytic anemia (ORPHA:98375)",
+          "url": "https://www.orpha.net/en/disease/detail/98375",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "First International Consensus Group recommendations for diagnosis and treatment of AIHA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32060931/",
+          "publisher": "Blood Reviews / PubMed",
+          "year": "2020"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019350",
+      "name_zh": "遗传性球形红细胞增多症",
+      "name_en": "Hereditary spherocytosis",
+      "aliases_zh": [
+        "遗传性球形细胞贫血",
+        "HS",
+        "红细胞膜骨架蛋白病"
+      ],
+      "icd10": [
+        "D58.0"
+      ],
+      "icd11": [
+        "3A10.0"
+      ],
+      "category": "遗传性红细胞膜缺陷溶血病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 编码红细胞膜骨架蛋白的基因（如ANK1、SLC4A1、SPTA1、SPTB、EPB42）突变，使原本柔韧的双凹圆盘状红细胞变成僵硬脆弱的“小圆球”; 2) 这些球形红细胞在穿过脾脏微小筛孔时极易被卡住撕碎，造成终生慢性溶血性贫血、皮肤眼白发黄（黄疸）、脾肿大及早发胆结石; 3) 平时多呈慢性稳定，但一旦感染细小病毒B19可突发“再生障碍危象”（骨髓暂时停产红细胞，血红蛋白数天内骤降危及生命）。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "轻症患者仅需补充叶酸及定期随访即可正常生活；中重度贫血或频繁输血依赖者，待儿童满5–6岁后行腹腔镜脾切除术（或部分脾切除术）可几乎完全终止红细胞在脾脏的破坏，使血红蛋白恢复正常并彻底告别输血。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列HS死因；规范随访与脾切除后患者总体预期寿命接近常人，极少数死于未接种疫苗的脾切除后爆发性感染或未及时输血的再障危象",
+          "year": "2024",
+          "source": "Orphanet ORPHA:822"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国死亡登记；系统评价模型估算中国HS临床诊断患病率约1.2–1.5/10万，但因轻症常被误诊为普通贫血或Gilbert综合征，实际携带者更多",
+          "year": "2023",
+          "source": "PubMed 中国HS流行病学与基因队列研究"
+        },
+        "prevalence_global": "北欧及北美高发人群约 1 / 2,000 – 1 / 5,000（Orphanet ORPHA:822）",
+        "prevalence_china": "中国文献模型估算患病率约 1.2–1.5 / 100,000，其中ANK1与SPTB突变占比最高且临床表型相对较重，SLC4A1突变多呈常染色体显性轻型"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "叶酸片",
+            "name_en": "Folic acid",
+            "drug_class": "B族维生素（骨髓代偿性高速造血的必需原料，防止巨幼细胞危象）",
+            "usage_role": "中重度慢性溶血患者终生或长期日常补充",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约3–10元/瓶（5mg×100片），年药费约20–50元",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因检测：约75%为常染色体显性遗传，建议父母、子女及同胞行血常规+外周血涂片（球形红细胞比例）及NGS基因panel（ANK1/SLC4A1/SPTA1/SPTB/EPB42）明确遗传模式与病情分层",
+          "腹腔镜全脾或部分脾切除术：中重度患者（如频繁输血、生长发育迟缓）建议推迟至5–6岁后手术，术前至少2周必须接种肺炎球菌、脑膜炎球菌及Hib疫苗防术后爆发性脓毒症（OPSI）",
+          "定期腹部超声监测胆囊结石（长期高胆红素极易形成色素性胆石，必要时脾切同期行胆囊切除）",
+          "发热病毒感染后若突然出现极度苍白乏力（警惕细小病毒B19诱发的再生障碍危象），应立即查血常规与网织红细胞并急诊输血"
+        ],
+        "annual_total_cost_china_cny": "轻症及术后稳定患者仅需补充叶酸及年度超声随访，年费用约500–1,500元人民币；若行腹腔镜脾切除手术（含术前疫苗），单次住院费用约2万–4万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年中国多中心儿童及成人HS基因队列研究明确了精确的基因型-表型图谱（ANK1与SPTB截短突变较SLC4A1/SPTA1溶血更重、更早需切脾），使二代测序（NGS）联合伊红-5'-马来酰亚胺（EMA）流式结合试验成为快速确诊金标准；此外，部分脾切除术与脾动脉栓塞术在保留免疫功能的同时改善贫血正积累更多长期随访证据。",
+        "key_unmet_needs_zh": "1) 轻中型患者极易被漏诊或误诊为“缺铁性贫血”而盲目长期补铁导致铁过载; 2) 尚无修复红细胞膜骨架蛋白的靶向药物或基因疗法; 3) 脾切除术后远期血栓风险与感染防控需终生精细化管理。"
+      },
+      "sources": [
+        {
+          "title": "Hereditary spherocytosis (ORPHA:822)",
+          "url": "https://www.orpha.net/en/disease/detail/822",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Genotype-phenotype correlation of hereditary spherocytosis in Chinese cohorts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36970091/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0040671",
+      "name_zh": "葡萄糖-6-磷酸脱氢酶缺乏症",
+      "name_en": "Glucose-6-phosphate dehydrogenase deficiency",
+      "aliases_zh": [
+        "蚕豆病",
+        "G6PD缺乏症",
+        "胡豆黄"
+      ],
+      "icd10": [
+        "D55.0"
+      ],
+      "icd11": [
+        "3A10.1"
+      ],
+      "category": "遗传性红细胞酶缺陷病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 位于X染色体上的G6PD基因突变，使红细胞缺乏抵抗“氧化应激”的保护盾; 2) 患者平时完全健康如常人，但一旦误食新鲜蚕豆（或接触樟脑丸萘、服用伯氨喹/磺胺等强氧化药物，或遭遇严重感染），数小时至48小时内红细胞会像气球一样集体爆裂，突发高热、全身黄疸、排出酱油/浓茶色血红蛋白尿; 3) 重症儿童可在1–2天内因急性重度贫血、休克、急性肾衰竭或新生儿重度胆红素脑病（核黄疸）致死或终身脑瘫。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "属最典型的“完全可防可控”遗传病：只要通过新生儿足底血筛查早期确诊并终生严格避开蚕豆、樟脑丸及禁用氧化药物清单，绝大多数患者终生不会发病、寿命与常人完全一致；急性溶血期及时输血水化碱化尿液即可迅速转危为安。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列G6PD缺乏症死因；全球超4亿人携带该酶缺陷（多见于疟疾历史流行区），绝大多数死亡源于未筛查的新生儿核黄疸或误用氧化药物/蚕豆后延误输血",
+          "year": "2023",
+          "source": "WHO / Orphanet ORPHA:362"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国死亡登记；国内南方省份已将G6PD缺乏症纳入新生儿免费/常规遗传代谢病筛查，因核黄疸与蚕豆病危象死亡已大幅减少",
+          "year": "2023",
+          "source": "中华医学会儿科学分会新生儿学组"
+        },
+        "prevalence_global": "全球约 4亿–5亿人受累，为人类最常见的单基因酶缺陷病（WHO / ORPHA:362）",
+        "prevalence_china": "中国呈显著“南高北低”分布：广东、广西、海南、云南、四川等南方省份人群酶缺陷率高达 3%–10%以上（常见Canton c.1376G>T、Kaiping c.1388G>A等突变），北方极为罕见"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 儿童或成人进食蚕豆或服药后数小时至2天内突发皮肤巩膜发黄、精神萎靡、寒战发热、排出浓茶或酱油色尿，立即急诊就医并主动告知医生“可能有蚕豆病”; 2) 立即停用一切可疑食物与氧化药物，急查血常规、网织红细胞、胆红素及G6PD酶活性（注意：急性大量溶血后老红细胞已碎，新生网织红细胞酶活性较高，可能出现假正常，需恢复期或家系复查）; 3) 重度贫血（Hb<70 g/L或休克表现）立即输注正常G6PD活性供者的浓缩红细胞（切忌输入同样来自高发区未筛查亲属的血液），同步充分静脉水化、碳酸氢钠碱化尿液保护肾小管；新生儿高胆红素血症立即强效蓝光照射或换血防核黄疸。",
+        "standard_drugs": [
+          {
+            "name_zh": "碳酸氢钠注射液 / 口服片",
+            "name_en": "Sodium bicarbonate",
+            "drug_class": "尿液碱化剂（防止游离血红蛋白在酸性肾小管内结晶堵塞导致急性肾衰竭）",
+            "usage_role": "急性血管内溶血危象核心肾保护辅助用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约3–10元/支或瓶，费用极低",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "叶酸片",
+            "name_en": "Folic acid",
+            "drug_class": "造血维生素（支持溶血后骨髓加速红细胞再生）",
+            "usage_role": "急性溶血恢复期短期补充",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约3–10元/瓶",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因检测：X连锁不完全显性遗传，患儿母亲、姐妹及母系亲属应常规检测G6PD酶活性及G6PD基因突变（女性杂合子因X染色体随机失活，普通定性筛查易漏诊，用药前建议定量检测或基因确诊）",
+          "终生随身携带“G6PD缺乏症禁用食药清单卡”：绝对禁食蚕豆及蚕豆制品（包括粉丝、豆瓣酱等含蚕豆成分零食），哺乳期母亲亦须禁食蚕豆；衣柜严禁使用含萘樟脑丸",
+          "就医开药必先声明：严禁使用伯氨喹、他非诺喹、磺胺类、呋喃妥因、阿司匹林大剂量、部分中药（如川莲、牛黄、保婴丹、金银花等部分含氧化成分制剂）及亚甲蓝"
+        ],
+        "annual_total_cost_china_cny": "确诊后日常无需任何药物，年维护成本几乎为零；若不慎误触诱因发生急性溶血危象住院输血抢救，单次住院费用约3,000–12,000元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_1",
+        "breakthroughs_and_trials_zh": "2023–2024年G6PD缺乏症聚焦快速定量床旁诊断（POCT）以护航抗疟与临床安全用药：随着长半衰期抗疟药他非诺喹（Tafenoquine，半衰期长达15天）的推广，全球多中心验证了新型便携式G6PD定量检测仪可精准识别女性杂合子（酶活性30%–70%灰区），防止致命性溶血；此外，针对重度I类变异型（慢性非球形细胞溶血）的小分子G6PD酶变构激活剂（如AG1）已进入早期探索。",
+        "key_unmet_needs_zh": "1) 女性杂合子因X染色体嵌合表达，常规纸片法或定性筛查极易漏诊，导致临床误用氧化药物风险; 2) 部分中成药及食品添加剂成分表未明确标注蚕豆或强氧化成分; 3) 尚无获批的口服小分子药物能直接提升体内残余G6PD酶活性。"
+      },
+      "sources": [
+        {
+          "title": "Glucose-6-phosphate dehydrogenase deficiency (ORPHA:362)",
+          "url": "https://www.orpha.net/en/disease/detail/362",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "WHO Guidelines for malaria: G6PD testing prior to primaquine/tafenoquine",
+          "url": "https://www.who.int/publications/i/item/guidelines-for-malaria",
+          "publisher": "World Health Organization",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008558",
+      "name_zh": "原发免疫性血小板减少症",
+      "name_en": "Autoimmune thrombocytopenic purpura",
+      "aliases_zh": [
+        "特发性血小板减少性紫癜",
+        "免疫性血小板减少症",
+        "ITP"
+      ],
+      "icd10": [
+        "D69.3"
+      ],
+      "icd11": [
+        "3B64.0Z"
+      ],
+      "category": "免疫性出血性血液病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 患者体内免疫系统误将负责止血的血小板当成敌人摧毁，同时抑制骨髓巨核细胞生产新血小板，导致血液中血小板计数跌破100×10^9/L甚至<10×10^9/L; 2) 多数患者仅表现为皮肤针尖样出血点（紫癜）、刷牙出血或月经过多，但当血小板极度低下（<10–20×10^9/L）或出现口腔血泡时，随时可能在数小时至数天内突发致命性颅内出血或消化道大出血。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "儿童急性ITP约70%–80%可在半年内自发痊愈；成人ITP多呈慢性过程，一线糖皮质激素和静脉丙球可快速止血，二线血小板生成素受体激动剂（TPO-RA，如国产海曲泊帕、阿伐曲泊帕、艾曲泊帕）及利妥昔单抗可使绝大多数患者长期稳定维持安全血小板水平，正常生活工作。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列ITP死因；总体年致死性出血风险约1%–2%（主要见于老年及血小板持续<10×10^9/L的难治性患者）",
+          "year": "2024",
+          "source": "Orphanet ORPHA:3002 / ASH ITP Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡人数；中华医学会血液学分会指南指出成人慢性难治性ITP中颅内出血是最主要致死原因",
+          "year": "2020",
+          "source": "《成人原发免疫性血小板减少症诊断与治疗中国指南（2020年版）》"
+        },
+        "prevalence_global": "成人患病率约 1–5 / 10,000，年发病率约 2–4 / 10万人年（Orphanet ORPHA:3002）",
+        "prevalence_china": "中国成人及儿童出血性疾病中最常见病种之一，育龄期女性与60岁以上老年人呈双峰分布"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) ITP患者一旦出现突发剧烈头痛、呕吐、视物模糊、嗜睡（高度警惕颅内出血），或大量呕血黑便、口腔黏膜密集血泡（湿性出血），立即拨打120急诊抢救; 2) 危重出血急救黄金三联：立即静脉输注大剂量丙种球蛋白（IVIG，0.4 g/kg/d×5天或1 g/kg/d×2天，可在24–48小时内快速提升血小板）+ 静脉大剂量地塞米松/甲泼尼龙冲击 + 紧急输注单采血小板（仅用于危及生命的出血急救，常规无出血低血小板不必输注）; 3) 严禁使用阿司匹林、氯吡格雷及布洛芬等影响血小板功能的药物，避免肌肉注射与用力排便。",
+        "standard_drugs": [
+          {
+            "name_zh": "海曲泊帕 / 艾曲泊帕",
+            "name_en": "Hetrombopag / Eltrombopag",
+            "drug_class": "口服非肽类血小板生成素受体激动剂（TPO-RA，直接刺激骨髓巨核细胞产血小板）",
+            "usage_role": "激素无效或复发慢性ITP一线首选二线口服维持靶向药（海曲泊帕为中国原研）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "海曲泊帕纳入国家药品谈判目录后挂网参考价约1,200–1,800元/盒（2.5mg×14片），艾曲泊帕约1,500–2,500元/盒，年药费约1.5万–3.5万元",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          },
+          {
+            "name_zh": "阿伐曲泊帕",
+            "name_en": "Avatrombopag",
+            "drug_class": "第二代口服TPO-RA（不受饮食钙离子影响、肝毒性极低）",
+            "usage_role": "慢性ITP二线口服维持治疗（中国3期临床6周血小板应答率达77.1%）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约2,000–3,500元/盒（20mg×10–15片）",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          },
+          {
+            "name_zh": "地塞米松 / 泼尼松",
+            "name_en": "Dexamethasone / Prednisone",
+            "drug_class": "糖皮质激素（短期抑制自身免疫破坏，注意不宜长期大剂量使用）",
+            "usage_role": "初治成人ITP一线诱导缓解（大剂量地塞米松4日疗法）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约5–20元/盒",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗目标以“安全止血”而非盲目追求血小板完全正常（通常维持>30×10^9/L且无出血即可安全生活，减少过度免疫抑制毒副作用）",
+          "多重药物耐药的慢性患者评估腹腔镜脾切除术或利妥昔单抗免疫清除",
+          "日常防线：使用软毛牙刷防牙龈出血、保持大便软化防用力憋气诱发脑出血、避免剧烈碰撞性运动"
+        ],
+        "annual_total_cost_china_cny": "初治激素有效患者年费用约1,000–3,000元人民币；慢性期长期服用海曲泊帕/阿伐曲泊帕等TPO-RA靶向药年药费约1.5万–4万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年ITP靶向治疗从“单纯促生成”迈向“精准阻断破坏”：1) 国产原研TPO-RA海曲泊帕及阿伐曲泊帕在中国真实世界及儿科队列中证实了优异的长期安全性和肝功能友好性; 2) 口服可逆性BTK抑制剂Rilzabrutinib（LUNA 3期试验）通过阻断巨噬细胞FcγR吞噬信号，使重度经治难治性ITP患者实现持久血小板应答; 3) 靶向FcRn的Efgartigimod（ADVANCE 3期）与靶向CD38单抗在难治性ITP中取得突破。",
+        "key_unmet_needs_zh": "1) 约15%–20%多重难治性ITP患者对TPO-RA及利妥昔单抗均失应答，国内尚缺已获批的BTK/SYK/FcRn等新机制口服药; 2) 部分基层医院仍过度长期使用糖皮质激素导致股骨头坏死或重度感染; 3) 尚缺乏预测哪类患者停用TPO-RA后能维持无治疗缓解的生物标志物。"
+      },
+      "sources": [
+        {
+          "title": "Immune thrombocytopenia (ORPHA:3002)",
+          "url": "https://www.orpha.net/en/disease/detail/3002",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Avatrombopag for chronic primary immune thrombocytopenia in Chinese adults: Phase 3 trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37356112/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009891",
+      "name_zh": "真性红细胞增多症",
+      "name_en": "Acquired polycythemia vera",
+      "aliases_zh": [
+        "真红",
+        "PV",
+        "JAK2突变骨髓增殖性肿瘤"
+      ],
+      "icd10": [
+        "D45"
+      ],
+      "icd11": [
+        "2A20.0"
+      ],
+      "category": "慢性骨髓增殖性肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 超过95%患者携带获得性JAK2 V617F或外显子12体细胞突变，使骨髓造血干细胞像“失控的红细胞工厂”一样疯狂生产过多红细胞（常伴白细胞和血小板升高）; 2) 血液变得像浓稠的糖浆一样，患者满面红光、皮肤遇温水奇痒，多年病程中随时可能突发脑梗死、心肌梗死、下肢深静脉血栓或内脏静脉血栓（布加综合征）; 3) 远期约10%–20%患者可能转化为骨髓纤维化或急性髓系白血病。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "属于慢性惰性血液肿瘤：通过严格将红细胞压积（HCT）控制在45%以下（放血+阿司匹林+羟基脲或长效干扰素/芦可替尼），绝大多数患者中位生存期可达15–20年以上，接近正常人群寿命；新型长效罗培干扰素更可实现深度分子学缓解（降低JAK2突变负荷）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列PV死因；规范控制HCT<45%患者中位总生存期超过14–20年，主要死因为动脉/静脉血栓事件及晚期向骨髓纤维化/白血病转化",
+          "year": "2024",
+          "source": "Orphanet ORPHA:729 / NCCN MPN Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡登记；国内MPN协作组研究表明中国PV患者血栓发生率高，且腹腔内脏静脉血栓（如门静脉/肝静脉血栓）比例值得警惕",
+          "year": "2022",
+          "source": "《真性红细胞增多症诊断与治疗中国指南（2022年版）》"
+        },
+        "prevalence_global": "欧美及全球患病率约 1–5 / 10,000，年发病率约 0.4–2.8 / 10万人年（Orphanet ORPHA:729）",
+        "prevalence_china": "属血液科常见慢性骨髓增殖性肿瘤（MPN），中老年男性略多，95%以上存在JAK2 V617F突变"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "羟基脲",
+            "name_en": "Hydroxyurea",
+            "drug_class": "口服细胞毒降细胞药（平稳降低红细胞压积、白细胞与血小板计数）",
+            "usage_role": "高危PV患者（年龄≥60岁或有血栓史）一线传统降细胞维持药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约35–80元/盒，年药费约300–800元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "聚乙二醇干扰素α-2b / 罗培干扰素",
+            "name_en": "Peginterferon alfa-2b / Ropeginterferon alfa-2b",
+            "drug_class": "长效生物干扰素（选择性抑制JAK2突变克隆，有潜力降低突变等位基因负荷VAF）",
+            "usage_role": "年轻患者及妊娠期首选降细胞与分子学缓解治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产聚乙二醇干扰素参考约400–800元/支（年约1万–2万元）；罗培干扰素2024年在中国获批上市，参考价格较高",
+            "cost_source": "中国公立医院挂网参考价及NMPA批准公开信息"
+          },
+          {
+            "name_zh": "芦可替尼",
+            "name_en": "Ruxolitinib",
+            "drug_class": "口服JAK1/JAK2抑制剂（精准阻断过度激活的JAK-STAT信号，快速缩小巨脾并缓解瘙痒盗汗）",
+            "usage_role": "羟基脲耐药或不耐受的PV二线靶向治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品谈判后约2,500–4,000元/盒（5mg×60片），年药费约3万–5万元",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗性静脉放血（Phlebotomy）或红细胞单采术：所有PV患者无论风险高低均应将红细胞压积（HCT）严格控制在<45%",
+          "无禁忌证者每日口服小剂量阿司匹林（100mg/日）预防微循环障碍与心脑血栓（注意血小板>1000×10^9/L时先查vWF防继发出血）",
+          "严格控制高血压、高血脂、戒烟并保证每日充足饮水，防止血液进一步浓缩"
+        ],
+        "annual_total_cost_china_cny": "口服羟基脲+阿司匹林+定期放血及血常规随访年费用约1,500–4,000元人民币；若使用长效干扰素或芦可替尼靶向治疗，年费用约1.5万–5万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年真性红细胞增多症迎来疾病修饰与“免放血”双重突破：1) 靶向铁调素（Hepcidin）通路的皮下注射模拟肽Rusfertide在REVIVE 2期试验（NEJM 2024）中通过精准限制造血可用铁，使绝大多数频繁放血依赖的患者完全摆脱放血并稳定HCT<45%，目前已推进至VERIFY全球3期试验; 2) 单聚乙二醇化罗培干扰素（Ropeginterferon alfa-2b）于2024年在中国正式获批PV适应证，长随访证实其可持久降低JAK2突变负荷。",
+        "key_unmet_needs_zh": "1) 尚无获批的口服小分子药物能彻底清除JAK2突变造血干细胞克隆并阻断向骨髓纤维化转化; 2) 顽固性水源性皮肤瘙痒与极度疲劳对生活质量影响巨大; 3) 基层医院常将真红误诊为“高原/吸烟继发性红细胞增多”而漏检JAK2突变。"
+      },
+      "sources": [
+        {
+          "title": "Polycythemia vera (ORPHA:729)",
+          "url": "https://www.orpha.net/en/disease/detail/729",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Rusfertide, a Hepcidin Mimetic, for Control of Erythrocytosis in Polycythemia Vera (REVIVE)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38381674/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005029",
+      "name_zh": "原发性血小板增多症",
+      "name_en": "Essential thrombocythemia",
+      "aliases_zh": [
+        "特发性血小板增多症",
+        "ET",
+        "JAK2/CALR/MPL突变MPN"
+      ],
+      "icd10": [
+        "D47.3"
+      ],
+      "icd11": [
+        "2A20.1"
+      ],
+      "category": "慢性骨髓增殖性肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 骨髓巨核细胞受JAK2（约55%）、CALR（约25%）或MPL（约4%）基因体细胞突变驱动，持续过度生产大量血小板（外周血持续≥450×10^9/L，常超1000×10^9/L）; 2) 过多的血小板不仅会在微血管及心脑大血管形成致命血栓（脑卒中、心梗、肢端红斑性灼痛），当血小板极度飙升（>1000–1500×10^9/L）时还会大量吸附消耗体内的vWF因子，反而引发“获得性血管性血友病”导致鼻出血或消化道大出血; 3) 总体病程呈慢性多年进展，少数晚期转化为骨髓纤维化或白血病。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "在各类骨髓增殖性肿瘤中预后最佳：极低危/低危年轻患者甚至仅需观察或口服小剂量阿司匹林；中高危患者通过羟基脲、阿那格雷或长效干扰素控制血小板计数，绝大多数患者可实现接近正常人的预期寿命（中位生存期常超过20年）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列ET死因；规范危险分层管理下患者10年生存率超过85%–90%，主要死亡与并发血栓或少数晚期纤维化转化相关",
+          "year": "2024",
+          "source": "Orphanet ORPHA:3318"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡登记；国内IPSET-thrombosis分层体系显示合并JAK2突变及高龄患者血栓风险显著高于CALR突变者",
+          "year": "2022",
+          "source": "《原发性血小板增多症诊断与治疗中国指南》"
+        },
+        "prevalence_global": "全球患病率约 1–5 / 10,000，年发病率约 1–2.5 / 10万人年（Orphanet ORPHA:3318）",
+        "prevalence_china": "中国慢性MPN中最常见亚型之一，多见于50–70岁成人，青年女性（尤其CALR突变型）亦不少见"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "阿司匹林（小剂量）",
+            "name_en": "Low-dose aspirin",
+            "drug_class": "抗血小板聚集药（预防JAK2突变型微循环障碍与心脑血栓）",
+            "usage_role": "低中危无出血倾向ET患者核心预防用药（极高血小板>1000×10^9/L需先排查获得性VWD）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约3–10元/盒，年药费约30–80元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "羟基脲",
+            "name_en": "Hydroxyurea",
+            "drug_class": "口服降细胞药（平稳抑制巨核细胞过度增殖）",
+            "usage_role": "高危ET（年龄>60岁或有血栓史）一线标准降血小板药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约35–80元/盒，年药费约300–800元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "阿那格雷 / 聚乙二醇干扰素",
+            "name_en": "Anagrelide / Peginterferon",
+            "drug_class": "选择性抑制巨核细胞成熟药 / 长效生物干扰素（妊娠期唯一安全降血小板药）",
+            "usage_role": "年轻患者、妊娠期或羟基脲不耐受者的二线替代方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "阿那格雷国内参考价约300–600元/盒，年药费约5,000–12,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊必须完善JAK2 V617F、CALR外显子9及MPL基因突变检测，并与缺铁、慢性炎症导致的“继发性血小板增多”鉴别",
+          "血小板极度升高（>1500×10^9/L）合并急性活动性出血或急诊手术前，可行血小板单采术快速机械降细胞",
+          "积极控制高血压、高血糖、高血脂并严格戒烟，妊娠前由血液科评估调整为干扰素+低分子肝素方案"
+        ],
+        "annual_total_cost_china_cny": "常规阿司匹林+羟基脲及血常规随访年费用约1,000–3,000元人民币；使用阿那格雷或长效干扰素年费用约6,000–20,000元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年ET靶向研发迎来精准分型突破：1) 全球首个靶向突变型CALR蛋白的单克隆抗体INCA033989在早期临床试验中展现出高度选择性地清除CALR突变克隆并快速使血小板正常化的惊艳疗效，现已推进至3期EXCALIBUR-ET研究; 2) 口服LSD1表观遗传抑制剂Bomedemstat正开展对比羟基脲的3期临床试验（Shorespan-007），为耐药患者提供新机制选择。",
+        "key_unmet_needs_zh": "1) 尚无获批药物能从根源彻底清除突变造血克隆并逆转远期骨髓纤维化转化风险; 2) 极高血小板患者的“血栓与出血双重矛盾”临床调控难度大; 3) 部分CALR突变患者对传统小剂量阿司匹林获益有限，个体化抗栓边界仍需细化。"
+      },
+      "sources": [
+        {
+          "title": "Essential thrombocythemia (ORPHA:3318)",
+          "url": "https://www.orpha.net/en/disease/detail/3318",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "INCA033989, a novel mutant CALR-specific monoclonal antibody in essential thrombocythemia",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37995354/",
+          "publisher": "Blood / PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019565",
+      "name_zh": "遗传性血管性血友病",
+      "name_en": "Hereditary von Willebrand disease",
+      "aliases_zh": [
+        "血管性血友病",
+        "VWD",
+        "冯·维勒布兰德病"
+      ],
+      "icd10": [
+        "D68.0"
+      ],
+      "icd11": [
+        "3B12"
+      ],
+      "category": "遗传性出血性疾病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) VWF基因突变导致血液中负责“粘合血小板并保护凝血因子VIII”的血管性血友病因子（VWF）数量不足或功能缺陷; 2) 1型与2型患者多表现为自幼反复鼻出血、牙龈出血、皮肤瘀斑及女性严重月经过多；而最凶险的3型患者（VWF几乎完全缺失）不仅会有自发性关节肌肉血肿，遇外伤、拔牙、手术或分娩时可在数小时内发生止不住的致命性大出血或颅内出血。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "通过按需或预防性静脉输注含VWF的凝血因子VIII浓缩物（或重组VWF制剂），以及1型轻症患者术前使用去氨加压素（DDAVP）动员体内储存的VWF，绝大多数患者可安全度过手术、拔牙和分娩，寿命接近常人；但3型患者国内预防性替代普及率仍待提升。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列VWD死因；规范替代治疗下预期寿命接近常人，极少数死于未确诊3型患者外伤/产后/颅内大出血",
+          "year": "2024",
+          "source": "Orphanet ORPHA:903 / WFH"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国死亡登记；国内患者调研显示轻症1型严重漏诊，临床确诊患者中重度3型占比偏高，常因误诊延迟治疗导致关节致残或危重出血",
+          "year": "2023",
+          "source": "中华医学会血液学分会《血管性血友病诊断与治疗中国指南》"
+        },
+        "prevalence_global": "人群基因/低VWF检出率约 0.6%–1.3%，有明显出血症状需临床干预的VWD患病率约 1 / 10,000，重度3型约 1 / 100万（Orphanet ORPHA:903）",
+        "prevalence_china": "中国临床漏诊率极高，按人群比例推算有症状患者逾10万人，但实际在册规范管理患者仅数千例"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 已知VWD患者突发头外伤、剧烈头痛、大量呕血黑便、拔牙/外伤后压迫30分钟仍血流不止或产后大出血，立即拨打120送往有血液科及凝血因子制剂储备的医院; 2) 急救核心：重度出血或3型/2型患者立即静脉输注含VWF的血源性凝血因子VIII浓缩物（或冷沉淀/新鲜冰冻血浆过渡），切忌单用高纯度不含VWF的重组VIII因子（无法纠正血小板粘附缺陷）; 3) 黏膜出血（鼻腔/口腔/月经过多）可立即联合氨甲环酸抗纤溶止血；严禁使用阿司匹林及非甾体抗炎药。",
+        "standard_drugs": [
+          {
+            "name_zh": "人凝血因子VIII（含VWF复合物）",
+            "name_en": "Human coagulation factor VIII / VWF complex",
+            "drug_class": "血源性VWF/FVIII双重替代浓缩制剂（直接补足缺失的VWF与VIII因子）",
+            "usage_role": "2型、3型及DDAVP无效1型患者急性大出血与围手术期一线急救及预防",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约350–500元/瓶（200IU），按需单次抢救约2,000–6,000元",
+            "cost_source": "中国公立医院血液制品挂网公开参考价"
+          },
+          {
+            "name_zh": "去氨加压素 (DDAVP)",
+            "name_en": "Desmopressin",
+            "drug_class": "血管加压素类似物（刺激血管内皮细胞释放储存的VWF和FVIII）",
+            "usage_role": "1型轻中型患者小手术/拔牙前及轻度出血首选（2B型禁用，3型无效）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内注射液参考价约20–60元/支，费用低廉",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "氨甲环酸",
+            "name_en": "Tranexamic acid",
+            "drug_class": "抗纤溶药（稳定已形成的血凝块，减少口腔、鼻腔及子宫内膜出血）",
+            "usage_role": "黏膜出血及女性月经过多辅助止血（泌尿道肉眼血尿时慎用防血块堵尿管）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约10–30元/盒",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因检测：1型与多数2型为常染色体显性遗传，3型为常染色体隐性遗传；建议先证者父母、子女及同胞检测VWF抗原/活性（VWF:Ag、VWF:RCo）及VWF基因，避免手术或分娩时突发意外大出血",
+          "女性患者月经过多管理：可联合复方口服短效避孕药或左炔诺孕酮宫内节育系统（曼月乐）保护生育力并纠正缺铁性贫血",
+          "随身携带“血管性血友病急救信息卡”，严禁服用阿司匹林、布洛芬等抗血小板药及肌内注射"
+        ],
+        "annual_total_cost_china_cny": "1型轻症患者仅按需使用氨甲环酸与DDAVP年费用约500–2,000元人民币；3型重度患者若开展规律预防替代治疗，年因子费用约3万–10万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年重度VWD治疗迎来非因子皮下预防探索：双特异性抗体艾美赛珠单抗（Emicizumab，已彻底改变甲型血友病）已启动针对3型血管性血友病出血预防的3期临床评估，有望为频发出血且静脉穿刺困难的儿童及成人患者提供每周/每月皮下注射保护；此外，高纯度重组VWF制剂（Vonicog alfa）的长期预防数据进一步证实可显著减少关节出血。",
+        "key_unmet_needs_zh": "1) 我国基层医院缺乏VWF活性（VWF:RCo/GPIbM）与多聚体分型检测，导致大量患者被长期误诊为“单纯血小板功能障碍”或“功能性子宫出血”; 2) 高纯度纯VWF制剂（不含过多FVIII防血栓）国内可及性仍有限; 3) 女性VWD患者的妊娠期及产后出血个体化精准因子替代方案仍需推广。"
+      },
+      "sources": [
+        {
+          "title": "Von Willebrand disease (ORPHA:903)",
+          "url": "https://www.orpha.net/en/disease/detail/903",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Diagnosis and unmet needs of von Willebrand disease in China (patient survey & cohort)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37125761/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005342",
+      "name_zh": "IgA肾病",
+      "name_en": "IgA glomerulonephritis",
+      "aliases_zh": [
+        "IgA肾小球肾炎",
+        "Berger病",
+        "系膜增生性IgA肾病"
+      ],
+      "icd10": [
+        "N02.8"
+      ],
+      "icd11": [
+        "GB40.0"
+      ],
+      "category": "原发性肾小球疾病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 东亚及中国青壮年最常见的原发性肾小球肾炎——肠道/呼吸道黏膜免疫异常产生“糖基化缺陷的IgA1（Gd-IgA1）”，在肾小球系膜区沉积引发持续炎症和瘢痕化; 2) 典型特征为感冒或扁桃体发炎后1–3天内出现肉眼洗肉水样血尿，平时多无痛感; 3) 虽为慢性进展，但若蛋白尿持续>1 g/天且未控制，约20%–40%患者会在10–20年内悄悄进展至尿毒症（终末期肾病）需透析或换肾。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "过去仅靠普利/沙坦类降压药与激素控制，2023–2024年全球迎来爆发式靶向新药获批：靶向肠道黏膜B细胞的布地奈德肠溶胶囊（Tarpeyo/耐赋康，已在中国获批上市）和双通道内皮素-血管紧张素拮抗剂斯帕森坦（Sparsentan）相继获完全批准，联合SGLT2抑制剂（达格列净）可显著压低蛋白尿并长期稳住肾功能（eGFR）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将IgA肾病归入慢性肾脏病（CKD）及肾小球肾炎死亡统计；未控蛋白尿患者10–20年进展至尿毒症风险约20%–40%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:34145 / KDIGO 2024 IgAN Draft"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无单列死亡统计；全国肾活检大数据显示IgA肾病占中国所有原发性肾小球疾病的约39.7%–40%，是中国青壮年尿毒症的首位原发性肾小球病因",
+          "year": "2023",
+          "source": "中华医学会肾脏病学分会 / 中国肾活检流行病学研究"
+        },
+        "prevalence_global": "东亚人群高发，欧美人群约 1–5 / 10,000（Orphanet ORPHA:34145）",
+        "prevalence_china": "中国约占原发性肾小球肾炎肾活检病例的 40%，患者总数估计达数百万例（PubMed 2023）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "厄贝沙坦 / 缬沙坦",
+            "name_en": "Irbesartan / Valsartan",
+            "drug_class": "血管紧张素II受体拮抗剂（ARB，降低肾小球囊内高压与蛋白尿）",
+            "usage_role": "一线基础肾保护基石用药（联用ACEI/ARB单药足量滴定）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约4–12元/盒，年药费约100–250元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "达格列净",
+            "name_en": "Dapagliflozin",
+            "drug_class": "SGLT2抑制剂（DAPA-CKD试验证实可显著降低IgA肾病肾衰竭及死亡风险）",
+            "usage_role": "一线联合肾保护用药（无论是否合并糖尿病）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约4.36元/片（约61元/14片），年药费约1,500–1,600元",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          },
+          {
+            "name_zh": "布地奈德肠溶胶囊 (耐赋康/Nefecon)",
+            "name_en": "Targeted-release budesonide",
+            "drug_class": "靶向回肠末端黏膜集合淋巴结的局部激素（从源头减少致病Gd-IgA1生成，全身激素副作用极低）",
+            "usage_role": "高进展风险成人IgA肾病对因靶向治疗（2023年底获NMPA及FDA完全批准）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内获批上市初期单瓶/月参考自费价格约1.5万–1.9万元（9个月标准疗程费用较高，正在推进商业险与准入可及）",
+            "cost_source": "国内上市公开定价报道（2024）"
+          },
+          {
+            "name_zh": "斯帕森坦 (Sparsentan)",
+            "name_en": "Sparsentan",
+            "drug_class": "双效内皮素A/血管紧张素II受体拮抗剂（强效降蛋白尿并保护足细胞）",
+            "usage_role": "高风险IgA肾病非免疫抑制靶向治疗（2024年9月获FDA完全批准）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内尚处于临床/注册审评阶段，暂未纳入常规公立集采目录",
+            "cost_source": "FDA批准公告（2024年9月）"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "严格低盐饮食（每日食盐<5克，可使ARB降蛋白尿效力翻倍）、优质低蛋白饮食及戒烟控重",
+          "积极预防和治疗口腔龋齿、慢性扁桃体炎及上呼吸道感染（感染是肉眼血尿及肾功能阶梯恶化的常见诱因）",
+          "定期监测尿蛋白肌酐比（UPCR，目标尽量压低至<0.5 g/g，理想<0.3 g/g）、血压（目标<120/75 mmHg）及eGFR斜率"
+        ],
+        "annual_total_cost_china_cny": "常规基石方案（ARB+达格列净+随访化验）年费用约2,500–5,000元人民币；若使用靶向黏膜制剂布地奈德肠溶胶囊（9个月疗程），总药费约13万–17万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "2023–2024年是IgA肾病历史上新药井喷的里程碑两年：1) NefIgArd 3期2年完整数据证实布地奈德肠溶胶囊（Tarpeyo/耐赋康）可持久延缓eGFR下降，于2023年底获FDA完全批准并在中国上市; 2) PROTECT 3期证实斯帕森坦（Sparsentan）降蛋白尿及保肾优于厄贝沙坦，于2024年9月获FDA完全批准; 3) 靶向APRIL/BAFF抑制剂（Sibeprenlimab、Atacicept、Telitacicept泰它西普）及补体B因子抑制剂Iptacopan（APPLAUSE-IgAN 3期）均取得亮眼阳性结果。",
+        "key_unmet_needs_zh": "1) 确诊仍高度依赖有创肾穿刺活检，缺乏高特异性血液无创诊断及分型标志物; 2) 新获批对因靶向药（如耐赋康）短期价格高昂，普通工薪阶层长期可及性仍受限; 3) 合并大量新月体的急进性IgA肾病仍缺乏免除大剂量全身激素毒性的高效方案。"
+      },
+      "sources": [
+        {
+          "title": "NefIgArd 2-year phase 3 trial of targeted-release budesonide (Nefecon) in IgA nephropathy",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37591292/",
+          "publisher": "The Lancet / PubMed",
+          "year": "2023"
+        },
+        {
+          "title": "IgA nephropathy (ORPHA:34145)",
+          "url": "https://www.orpha.net/en/disease/detail/34145",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Epidemiology of biopsy-proven IgA nephropathy in China",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37082032/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004691",
+      "name_zh": "常染色体显性多囊肾病",
+      "name_en": "Autosomal dominant polycystic kidney disease",
+      "aliases_zh": [
+        "成人型多囊肾",
+        "ADPKD",
+        "PKD1/PKD2遗传性囊肿肾"
+      ],
+      "icd10": [
+        "Q61.2"
+      ],
+      "icd11": [
+        "GB81.0"
+      ],
+      "category": "遗传性肾小管囊肿病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 父母一方患病即有50%概率遗传给下一代（主要由PKD1约78%或PKD2约15%基因突变引起），双侧肾脏内长出成百上千个不断长大的水泡（囊肿），像气球一样逐渐挤扁摧毁正常肾组织; 2) 患者常在30–50岁出现高血压、腰腹胀痛、囊肿出血感染，并在50–60岁左右进展至尿毒症（PKD1平均比PKD2早15–20年进入透析）; 3) 隐匿致命风险：约8%–12%患者合并颅内动脉瘤，一旦突发剧烈“一生中最痛的头痛”提示动脉瘤破裂蛛网膜下腔出血，可短时间内致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "目前尚无药物能消除已长出的囊肿，但全球唯一获批的靶向V2受体拮抗剂托伐普坦（Tolvaptan）可明确减缓囊肿体积增长与肾功能衰退速度（延缓进入透析数年以上）；配合极严格控压（<110/75 mmHg）及三代试管婴儿（PGT-M）阻断遗传，患者可显著推迟尿毒症并阻断家族代际传递。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将ADPKD合并计入慢性肾脏病（CKD）及先天泌尿畸形；全球约占所有尿毒症透析/移植患者的5%–10%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:730 / KDIGO ADPKD"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无单列死亡登记；国内推算患病率约1/400–1/1,000，对应全国约140万–350万名ADPKD患者，是终末期肾病第四大病因",
+          "year": "2023",
+          "source": "中华医学会肾脏病学分会《多囊肾病诊治中国专家共识》"
+        },
+        "prevalence_global": "全球最常见单基因遗传性肾病，患病率约 1 / 1,000 – 1 / 2,500（Orphanet ORPHA:730 / KDIGO）",
+        "prevalence_china": "中国推算患病率约 1 / 400 – 1 / 1,000，全国患者约140万–350万例（PubMed 中国ADPKD队列）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "托伐普坦",
+            "name_en": "Tolvaptan",
+            "drug_class": "高选择性加压素V2受体拮抗剂（降低肾小管细胞内cAMP，抑制囊肿上皮增殖与液体分泌）",
+            "usage_role": "快速进展型ADPKD（Mayo 1C–1E型）唯一获批对因延缓囊肿生长靶向药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价：15mg×7片约120–200元，按常规剂量长期服用年药费约1.5万–3万元（注意监测肝功能）",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "培哚普利 / 缬沙坦",
+            "name_en": "Perindopril / Valsartan",
+            "drug_class": "RAAS阻断剂（HALT-PKD试验证实早期严格控压至<110/75 mmHg可减缓肾脏体积增大）",
+            "usage_role": "一线基础降压与心肾保护核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约5–18元/盒，年药费约100–300元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因阻断：常染色体显性遗传（子代50%患病风险），所有成年一级亲属应行双肾超声（结合年龄与囊肿数）及PKD1/PKD2基因检测；育龄夫妇可通过胚胎植入前单基因遗传学检测（PGT-M，第三代试管婴儿）彻底阻断致病基因传给下一代",
+          "颅内动脉瘤筛查：有蛛网膜下腔出血/脑动脉瘤家族史、高危职业或准备大手术前，常规行头颅MRA磁共振血管成像排查无症状脑动脉瘤",
+          "日常多饮水（每日2.5–3升，抑制内源性抗利尿激素释放）、低盐饮食（<5g/日）、避免咖啡因过量及腰腹部剧烈撞击运动",
+          "巨大囊肿压迫或感染时行超声引导下穿刺抽液硬化或手术去顶减压，终末期行血液透析或肾移植（移植肾不会再长囊肿）"
+        ],
+        "annual_total_cost_china_cny": "早期仅降压控盐随访年费用约1,500–3,000元人民币；快速进展期使用托伐普坦靶向治疗年费用约1.5万–3万元人民币；若已进入尿毒症规律血液透析，年总医疗费用约8万–12万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年ADPKD靶向治疗迎来从“下游排水”迈向“上游基因蛋白修复”的重大突破：1) 靶向抑制miR-17的肾脏偏好性反义寡核苷酸Farabursen（RGLS8429）在1b期多剂量递增试验中首次证实能直接解除miR-17对PKD1/PKD2 mRNA的抑制，显著提升患者尿液中多囊蛋白PC1/PC2水平并几乎停止身高校正总肾脏体积（htTKV）增长，已推进至3期注册临床规划; 2) 中国多中心真实世界研究验证了低剂量个体化滴定托伐普坦在中国快速进展型ADPKD人群中的安全有效性。",
+        "key_unmet_needs_zh": "1) 托伐普坦伴随剧烈口渴多尿（每日尿量可达4–6升）及约4%–5%可逆性肝损伤风险，严重影响患者长期依从性; 2) 尚无获批药物能缩小已形成的巨大肾囊肿与肝囊肿; 3) 伴发颅内动脉瘤破裂缺乏便捷的动态预测模型。"
+      },
+      "sources": [
+        {
+          "title": "Autosomal dominant polycystic kidney disease (ORPHA:730)",
+          "url": "https://www.orpha.net/en/disease/detail/730",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Real-world efficacy and safety of tolvaptan in Chinese patients with ADPKD",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37425285/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005556",
+      "name_zh": "狼疮性肾炎",
+      "name_en": "Lupus nephritis",
+      "aliases_zh": [
+        "系统性红斑狼疮肾炎",
+        "LN",
+        "狼疮肾"
+      ],
+      "icd10": [
+        "M32.14",
+        "N08.5"
+      ],
+      "icd11": [
+        "4A40.0"
+      ],
+      "category": "自身免疫性继发肾病",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "1) 系统性红斑狼疮（SLE）患者约45%–60%会累及肾脏，自身抗体与免疫复合物在肾小球内疯狂沉积，引发肾脏急性免疫炎症风暴; 2) 尤其是增殖型（III/IV型）或新月体性狼疮肾炎，可在数周内导致尿蛋白暴增、全身重度水肿、血肌酐急剧攀升至急进性肾衰竭; 3) 若同时合并重度活动性狼疮脑病、弥漫性肺泡出血或严重机会性感染，短期内即可致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "2024年KDIGO狼疮肾炎新版指南全面推荐“早期联合靶向免疫治疗”：在传统激素+吗替麦考酚酯/环磷酰胺基础上，早期联用国产泰它西普、贝利尤单抗、伏环孢素或新型II型抗CD20单抗奥妥珠单抗（REGENCY 3期试验大获成功），可大幅提升完全肾脏缓解率并尽早把激素减停，多数患者可长期保住肾功能。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将狼疮肾炎合并计入系统性红斑狼疮及慢性肾病死亡统计；约10%–20%狼疮肾炎患者在10年内进展至终末期肾病，合并肾脏受累使SLE死亡风险增加约3倍",
+          "year": "2024",
+          "source": "KDIGO 2024 Lupus Nephritis Guideline"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国SLE患病人数约100万，其中45%–60%并发狼疮性肾炎，是中国青壮年女性继发性肾小球肾炎与尿毒症的最重要病因之一",
+          "year": "2023",
+          "source": "中华医学会风湿病学分会 / 《中国狼疮肾炎诊断和治疗指南》"
+        },
+        "prevalence_global": "SLE患者中约 40%–60% 发生狼疮性肾炎，亚裔与非裔人群肾脏受累比例及重症率显著高于欧美白人（KDIGO 2024）",
+        "prevalence_china": "中国SLE患病率约 30–70 / 10万，约半数以上患者并发不同病理分型（尤以IV型弥漫增殖型最常见）的狼疮性肾炎"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 狼疮患者突发尿量锐减（<400ml/天）、全身高度浮肿、血压飙升、咯血呼吸困难（警惕狼疮肺泡出血）或意识抽搐（狼疮脑病），立即急诊送医; 2) 急诊评估后对新月体性/急进性狼疮肾炎立即给予静脉大剂量甲泼尼龙冲击（500–1000mg/日×3天）联合环磷酰胺或霉酚酸酯，并必要时行血浆置换及CRRT透析支持; 3) 警惕大剂量免疫抑制期的致命感染（肺孢子菌肺炎、巨细胞病毒等），发热时须立即排查感染而非盲目再加激素。",
+        "standard_drugs": [
+          {
+            "name_zh": "吗替麦考酚酯 (MMF)",
+            "name_en": "Mycophenolate mofetil",
+            "drug_class": "免疫抑制剂（选择性抑制淋巴细胞增殖，增殖型LN诱导与维持基石）",
+            "usage_role": "一线诱导缓解及长期维持核心口服药（妊娠期禁用，需提前换硫唑嘌呤）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约60–150元/盒（0.25g×40片），年药费约2,500–5,500元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "贝利尤单抗 / 泰它西普",
+            "name_en": "Belimumab / Telitacicept",
+            "drug_class": "BLyS/APRIL双靶点或BLyS单靶点生物制剂（精准抑制自身反应性B细胞活化）",
+            "usage_role": "KDIGO 2024推荐早期联用以提高完全肾脏缓解率、减少复发及减撤激素",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "纳入国家药品谈判目录后贝利尤单抗约500–800元/支，泰它西普约800–1,000元/支，年药费约2万–4万元",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          },
+          {
+            "name_zh": "羟氯喹",
+            "name_en": "Hydroxychloroquine",
+            "drug_class": "抗疟免疫调节剂（减少狼疮复发、保护血管内皮，所有无禁忌LN患者基石用药）",
+            "usage_role": "全病程基础联合用药（定期查眼底防视网膜病变）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约15–35元/盒，年药费约300–600元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗前尽量行肾穿刺活检明确病理分型（III/IV/V型）及活动度，指导精准免疫抑制强度与预后判断",
+          "严格防晒（紫外线可诱发狼疮全身与肾脏复发）、避免染发纹身及雌激素药物",
+          "育龄女性必须在狼疮肾炎完全缓解稳定至少6个月以上、停用致畸药物（如MMF/环磷酰胺）并经风湿肾内科评估后方可计划妊娠"
+        ],
+        "annual_total_cost_china_cny": "传统激素+羟氯喹+吗替麦考酚酯维持年费用约5,000–10,000元人民币；若早期联用贝利尤单抗或泰它西普等靶向生物制剂，年总费用约2.5万–5万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2024年狼疮肾炎治疗迎来两项里程碑：1) KDIGO 2024指南正式将“早期联用贝利尤单抗或钙调磷酸酶抑制剂（如伏环孢素）”与快速激素减量写入标准路径; 2) 发表在NEJM的REGENCY 3期临床试验证实，在标准治疗基础上联用II型抗CD20单抗奥妥珠单抗（Obinutuzumab）第76周完全肾脏缓解率显著高于安慰剂组（46.4% vs 33.1%），实现更深层肾内B细胞清除; 3) 靶向CD19的CAR-T细胞疗法在难治性SLE/LN早期临床中实现“无药持久缓解”，开启治愈探索。",
+        "key_unmet_needs_zh": "1) 即使经过强效诱导治疗，仍有近半数患者未能达到完全肾脏缓解，反复复发导致肾单位不可逆丢失; 2) 长期免疫抑制伴发的重度感染与生殖毒性仍困扰年轻女性患者; 3) 临床急需无需重复肾穿刺即可实时评估肾内炎症活动度的无创尿液生物标志物。"
+      },
+      "sources": [
+        {
+          "title": "KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38182286/",
+          "publisher": "Kidney International / PubMed",
+          "year": "2024"
+        },
+        {
+          "title": "Efficacy and Safety of Obinutuzumab in Active Lupus Nephritis (REGENCY Trial)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39920233/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005377",
+      "name_zh": "肾病综合征",
+      "name_en": "Nephrotic syndrome",
+      "aliases_zh": [
+        "原发性肾病综合征",
+        "微小病变肾病/膜性肾病综合征",
+        "NS"
+      ],
+      "icd10": [
+        "N04"
+      ],
+      "icd11": [
+        "GB41"
+      ],
+      "category": "肾小球足细胞与蛋白尿综合征",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "1) 肾小球滤过膜“筛网”破损，大量血浆白蛋白从尿液漏出（24小时尿蛋白>3.5g），导致血白蛋白暴跌（<30g/L）、全身严重凹陷性水肿及高脂血症; 2) 本身呈慢性或反复复发过程，但极易在数天至数周内诱发三大致命并发症：深静脉/肾静脉血栓及肺栓塞（因抗凝血酶随尿液大量漏出）、突发腹痛高热的自发性细菌性腹膜炎、以及有效血容量不足引发的急性肾损伤。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "儿童最常见的微小病变型对糖皮质激素敏感率超85%–90%，成人特发性膜性肾病通过“利妥昔单抗+他克莫司”等方案缓解率亦达70%–80%；对激素耐药或频繁复发者，新型人源化抗CD20单抗奥妥珠单抗与靶向足细胞新药正大幅提升长期无复发缓解率。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列肾病综合征死因，将其并入慢性肾脏病（CKD）与肾小球疾病；死亡主要由血栓栓塞、重度感染及进展至尿毒症引起",
+          "year": "2024",
+          "source": "IHME GBD 2023 / KDIGO Glomerular Diseases"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GBD 2023估算中国全因慢性肾脏病（CKD）患者约1.56亿人、年死亡约15.4万例，原发性肾小球疾病（含肾病综合征）是青壮年CKD核心来源",
+          "year": "2023",
+          "source": "IHME GBD 2023 中国数据 / 中华医学会肾脏病学分会"
+        },
+        "prevalence_global": "儿童年发病率约 2–7 / 10万人，成人年发病率约 3 / 10万人（KDIGO）",
+        "prevalence_china": "中国成人肾病综合征以膜性肾病（近年受环境等因素影响占比显著上升）与微小病变为主，儿童以微小病变为主"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "泼尼松",
+            "name_en": "Prednisone",
+            "drug_class": "糖皮质激素（修复肾小球足细胞足突融合、消除蛋白尿）",
+            "usage_role": "儿童及成人微小病变肾病综合征一线诱导缓解用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约5–15元/盒，年药费约100–300元",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "利妥昔单抗",
+            "name_en": "Rituximab",
+            "drug_class": "抗CD20单克隆抗体（清除产生抗PLA2R等致病抗体的B细胞，替代长期激素与环孢素）",
+            "usage_role": "成人特发性膜性肾病一线及频繁复发/激素依赖性肾病综合征核心保肾药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内生物类似药参考价约1,200–2,200元/支（100mg），单疗程约8,000–20,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "他克莫司",
+            "name_en": "Tacrolimus",
+            "drug_class": "钙调磷酸酶抑制剂（稳定足细胞骨架、抑制T细胞活化）",
+            "usage_role": "膜性肾病及激素耐药型肾病综合征常用免疫抑制剂",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及挂网参考价约150–400元/盒（1mg×50粒），年药费约4,000–10,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "血栓预防防线：血白蛋白低于20–25 g/L（尤其膜性肾病）时血栓极高危，需按医嘱预防性口服抗凝药或低分子肝素；突发单侧下肢肿痛、突发胸痛咯血呼吸困难须立即急诊排查肺栓塞",
+          "限盐限水消肿（每日食盐<3–5克），适量优质蛋白饮食（切忌盲目大鱼大肉或疯狂输入白蛋白，会加重肾小球滤过负荷）",
+          "接种灭活疫苗防感染，切忌擅自突然停用激素导致病情反跳复发或肾上腺危象"
+        ],
+        "annual_total_cost_china_cny": "激素敏感初治患者年费用约2,000–5,000元人民币；若需使用利妥昔单抗或他克莫司长期管理，年费用约1万–3万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2025年肾病综合征迎来抗体机制发现与深层B细胞清除双突破：1) 抗Nephrin自身抗体在大量成人及儿童微小病变/原发FSGS患者中被证实为直接致病元凶，彻底解释了“非遗传性足细胞病”对免疫治疗的敏感机制; 2) KDIGO新版儿童肾病综合征指南强调尽早启用利妥昔单抗减停激素毒性; 3) II型抗CD20单抗奥妥珠单抗（Obinutuzumab）在难治性膜性肾病与频繁复发肾病综合征临床试验中展现出超越利妥昔单抗的持久缓解率。",
+        "key_unmet_needs_zh": "1) 抗Nephrin抗体等精准无创血清学分型检测尚未在常规医院普及; 2) 约20%–30%膜性肾病与激素耐药肾病患者对现有免疫抑制方案仍无应答; 3) 长期使用激素与钙调磷酸酶抑制剂带来的代谢、骨质疏松与肾毒性负担亟待更安全替代药。"
+      },
+      "sources": [
+        {
+          "title": "KDIGO 2025 Clinical Practice Guideline for Nephrotic Syndrome in Children / Glomerular Diseases",
+          "url": "https://kdigo.org/guidelines/gd/",
+          "publisher": "KDIGO",
+          "year": "2024"
+        },
+        {
+          "title": "Global, regional, and national burden of chronic kidney disease (GBD 2023 China analysis)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39455821/",
+          "publisher": "PubMed / GBD",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0100313",
+      "name_zh": "局灶节段性肾小球硬化",
+      "name_en": "Focal segmental glomerulosclerosis",
+      "aliases_zh": [
+        "FSGS",
+        "局灶节段硬化性肾炎"
+      ],
+      "icd10": [
+        "N04.1",
+        "N07.1"
+      ],
+      "icd11": [
+        "GB41.1"
+      ],
+      "category": "难治性肾小球足细胞病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 肾脏滤过单元中部分肾小球发生局部“瘢痕化硬化”，导致大量蛋白尿漏出并呈不可逆进行性破坏; 2) FSGS是成人和儿童原发性肾病综合征中最难治的类型之一，约40%–60%的持续大量蛋白尿患者在5–10年内进展至尿毒症; 3) 即使接受肾移植，原发性FSGS在移植肾中的复发率仍高达30%–50%，随时可能再次毁掉新肾脏。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "治疗难点在于必须先精确区分“原发免疫性、继发高滤过性（肥胖/单肾）还是单基因遗传性”——遗传性FSGS对激素免疫抑制完全无效；对于非遗传型，通过激素/他克莫司联合RAS阻断及SGLT2抑制剂可控制部分患者；2023–2024年斯帕森坦（DUPLEX 3期）与针对APOL1基因型的精准小分子Inaxaplin为难治性FSGS带来重大新希望。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将FSGS合并计入慢性肾脏病（CKD）；未达蛋白尿缓解者10年进展至终末期肾病比例高达50%左右",
+          "year": "2024",
+          "source": "KDIGO Glomerular Diseases / DUPLEX Trial"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡登记；国内肾活检登记显示FSGS约占原发性肾小球疾病的5%–10%，是儿童及青壮年激素耐药型肾病综合征的首要病理类型",
+          "year": "2023",
+          "source": "中华医学会肾脏病学分会"
+        },
+        "prevalence_global": "全球原发性肾病综合征中成人占比约 20%–35%、儿童占比约 10%–20%，近二十年报告发病率呈上升趋势",
+        "prevalence_china": "中国原发性肾小球疾病肾活检中占比约 5%–10%，随着肥胖与基因检测普及，继发性与遗传性FSGS检出率显著增加"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "他克莫司",
+            "name_en": "Tacrolimus",
+            "drug_class": "钙调磷酸酶抑制剂（免疫抑制+直接稳定足细胞肌动蛋白骨架）",
+            "usage_role": "激素耐药或激素依赖性原发FSGS一线替代核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及挂网参考价约150–400元/盒，年药费约4,000–10,000元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "氯沙坦 / 厄贝沙坦",
+            "name_en": "Losartan / Irbesartan",
+            "drug_class": "ARB类肾内降压药（所有分型FSGS均须长期足量使用以减轻高滤过损伤）",
+            "usage_role": "全分型基础保肾降蛋白尿核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约4–12元/盒，年药费约100–250元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "斯帕森坦 (Sparsentan)",
+            "name_en": "Sparsentan",
+            "drug_class": "双效内皮素A/血管紧张素II受体拮抗剂（DUPLEX 3期证实较厄贝沙坦显著降低FSGS蛋白尿）",
+            "usage_role": "前沿非免疫抑制保肾靶向治疗（3期研究已完成108周评估）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "FSGS适应证尚在监管审评推进中，国内暂未商业化挂网",
+            "cost_source": "DUPLEX 3期临床试验（NEJM 2023）"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "激素耐药型FSGS或早发患者务必行全外显子/肾病基因panel检测（排查NPHS1/NPHS2/COL4A/TRPC6/ACTN4等遗传突变），避免对遗传性患者无效且有毒地滥用激素和环磷酰胺",
+          "肥胖相关继发性FSGS患者通过科学减重、低盐及SGLT2抑制剂可显著逆转高滤过蛋白尿",
+          "肾移植术后若出现蛋白尿暴发复发，需紧急行血浆置换联合利妥昔单抗挽救移植肾"
+        ],
+        "annual_total_cost_china_cny": "基础保肾及他克莫司维持治疗年费用约5,000–15,000元人民币；若已进展至终末期肾病需透析或肾移植，年透析费用约8万–12万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "2023–2024年FSGS迎来自基因精准靶向药问世的突破：1) 发表在NEJM的2a期试验证实，全球首个口服APOL1离子通道抑制剂Inaxaplin能使携带APOL1高风险等位基因的难治性FSGS患者第13周蛋白尿大幅下降47.6%，已进入2/3期关键试验（AMPLITUDE）; 2) 迄今规模最大的FSGS 3期试验DUPLEX（108周数据发表于NEJM 2023）证实斯帕森坦降低蛋白尿达完全/部分缓解比例显著优于厄贝沙坦; 3) TRPC5/6抑制剂与抗Nephrin靶向研究正加速转化。",
+        "key_unmet_needs_zh": "1) 尚无正式获批专门针对FSGS的对因特效药; 2) 导致原发FSGS及移植后复发的血液“循环渗透因子”至今尚未完全锁定; 3) 临床缺乏快速区分原发性与继发性FSGS的无创病理替代指标。"
+      },
+      "sources": [
+        {
+          "title": "Sparsentan versus Irbesartan in Focal Segmental Glomerulosclerosis (DUPLEX Trial)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37921461/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2023"
+        },
+        {
+          "title": "Inaxaplin for Proteinuric Kidney Disease in Persons with Two APOL1 Variants",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36920755/",
+          "publisher": "New England Journal of Medicine / PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018965",
+      "name_zh": "Alport综合征",
+      "name_en": "Alport syndrome",
+      "aliases_zh": [
+        "遗传性进行性肾炎",
+        "眼-耳-肾综合征",
+        "COL4A3/4/5突变肾病"
+      ],
+      "icd10": [
+        "Q87.8"
+      ],
+      "icd11": [
+        "GB90.4"
+      ],
+      "category": "遗传性基底膜胶原肾病",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "1) 负责搭建肾脏滤过膜（肾小球基底膜）“钢筋骨架”的IV型胶原基因（COL4A5约占80%为X连锁遗传，COL4A3/COL4A4为常染色体遗传）发生突变，导致基底膜像年久失修的破墙一样变薄、分层撕裂; 2) 患儿常自幼即有持续镜下血尿，逐渐出现蛋白尿、进行性感音神经性耳聋（高频听力下降）及圆锥形晶状体等眼部病变; 3) 男性X连锁与常染色体隐性患者若未早期干预，绝大多数在20–30岁青壮年期即进展至尿毒症。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "虽然目前尚无法修复受损的IV型胶原基因，但早期（甚至仅出现微量蛋白尿前的高危期）即开始终生足量口服ACEI/ARB类肾保护药（如雷米普利），可将男性患者进入尿毒症的平均年龄推迟15–20年以上，让患者顺利完成学业成家并大大延长原生肾脏寿命。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE未单列Alport综合征死因；占全球儿童及青壮年终末期肾病透析/移植人群的约1%–3%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:63 / 2024 International Alport Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无全国单列死亡登记；国内儿科及肾内科基因诊断普及后，COL4A3/4/5突变已成为中国不明原因血尿与家族性肾病最常见基因病因",
+          "year": "2023",
+          "source": "中华医学会肾脏病学分会 / 《Alport综合征诊治专家共识（2023版）》"
+        },
+        "prevalence_global": "经典型估计约 1 / 5,000 – 1 / 50,000（若计入常染色体显性COL4A3/4杂合携带者人群频率高达1/100–1/300，Orphanet ORPHA:63）",
+        "prevalence_china": "中国多中心肾病基因队列中，COL4A3/4/5基因突变在遗传性肾小球疾病中占比居首位"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "雷米普利 / 贝那普利",
+            "name_en": "Ramipril / Benazepril",
+            "drug_class": "ACE抑制剂（降低肾小球内高压、保护脆弱基底膜免受机械撕裂，越早启动保肾越久）",
+            "usage_role": "一线核心保肾延缓尿毒症用药（确诊即评估启动）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及公立医院参考价约10–25元/盒，年药费约150–400元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "达格列净",
+            "name_en": "Dapagliflozin",
+            "drug_class": "SGLT2抑制剂（进一步降低肾小球高滤过，常与ACEI联用增强保肾效果）",
+            "usage_role": "联合肾保护辅助用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约61元/盒（10mg×14片），年药费约1,500–1,600元",
+            "cost_source": "国家药品谈判公开挂网参考价"
+          },
+          {
+            "name_zh": "阿曲生坦 / 塞塔那昔 (Atrasentan / Setanaxib)",
+            "name_en": "Atrasentan / Setanaxib",
+            "drug_class": "选择性内皮素A受体拮抗剂 / NOX1/4抗氧化纤维化抑制剂",
+            "usage_role": "Alport综合征2期临床在研新药（Setanaxib于2023年获FDA孤儿药资格）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "处于临床试验阶段，国内尚未上市",
+            "cost_source": "FDA孤儿药公告及AFFINITY试验（2023–2024）"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家系级联筛查与基因检测：先证者所有父母、同胞及子女必须行尿常规（查潜血/蛋白尿）及COL4A3/COL4A4/COL4A5基因检测（包括X连锁女性携带者同样有终生慢性肾病风险，不可忽视随访）；育龄夫妇可通过三代试管（PGT-M）阻断遗传",
+          "早期并定期行纯音测听与眼科裂隙灯检查，听力下降及早配戴助听器避免儿童语言发育受损",
+          "禁用肾毒性药物（氨基糖苷类抗生素既伤肾又伤耳，绝对禁用）及避免剧烈脱水性运动",
+          "进展至尿毒症后行肾移植效果极佳（移植肾具有正常IV型胶原，仅极少数X连锁男性患者术后可能发生抗GBM抗体反应）"
+        ],
+        "annual_total_cost_china_cny": "早期口服雷米普利+SGLT2i及定期尿检听力随访年费用约2,000–4,500元人民币；若进展至尿毒症透析或肾移植，费用同慢性肾衰（年透析约8万–12万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "2023–2024年Alport综合征临床研究聚焦抗纤维化与降蛋白新靶点：1) 抗miR-21寡核苷酸Lademirsen 2期临床（2024年CJASN发表）证实耐受性良好但未显著减缓eGFR下降，提示单纯抗miR-21不足以逆转胶原结构缺陷; 2) 高选择性NOX1/4抑制剂Setanaxib（2023年获FDA/EMA孤儿药资格）及内皮素受体拮抗剂Atrasentan（AFFINITY研究Alport队列）正推进2期临床评估; 3) 2024年国际Alport共识明确将常染色体杂合携带者也纳入早期RAAS阻断监测体系。",
+        "key_unmet_needs_zh": "1) 尚无获批药物或基因疗法能直接修复或替换突变的COL4A3/4/5 IV型胶原三螺旋结构; 2) 女性X连锁携带者常被误认为“无害携带者”而漏掉尿检随访，部分人在中老年仍进展至肾衰; 3) 进行性感音神经性耳聋目前除助听器/人工耳蜗外无药物可逆转。"
+      },
+      "sources": [
+        {
+          "title": "Alport syndrome (ORPHA:63)",
+          "url": "https://www.orpha.net/en/disease/detail/63",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "2024 International Workshop and Clinical Practice Recommendations on Alport Syndrome",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38490592/",
+          "publisher": "Kidney International / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0003529",
+      "name_zh": "急性肾盂肾炎",
+      "name_en": "Acute pyelonephritis",
+      "aliases_zh": [
+        "急性上尿路感染",
+        "急性肾感染",
+        "AP"
+      ],
+      "icd10": [
+        "N10"
+      ],
+      "icd11": [
+        "GC00.0"
+      ],
+      "category": "急性泌尿系感染与脓毒症急症",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "1) 细菌（约75%–85%为大肠埃希菌）从尿道逆行冲破膀胱防线直达肾脏肾盂与肾实质引发急性化脓性感染，患者突发寒战高热（常>38.5℃）、剧烈腰痛及尿频尿痛; 2) 单纯年轻女性及时用对敏感抗生素很快痊愈; 3) 但若合并尿路梗阻（如肾结石卡顿、前列腺增生）、糖尿病或高龄免疫低下，细菌和毒素会在数小时至数天内大量涌入血液，引发致命性“尿源性脓毒症与感染性休克”，复杂住院病例病死率可达4%–7%以上。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "绝大多数急性肾盂肾炎只要留取尿培养后立即启动敏感抗生素足疗程治疗（7–14天），并在合并结石梗阻时急诊置管引流解除梗阻，即可100%临床治愈且不留肾功能损伤；最大威胁在于盲目滥用口服耐药抗生素或延误解除尿路梗阻。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "WHO GHE将急性肾盂肾炎归入泌尿系感染及脓毒症死亡统计；无并发症患者病死率<0.5%，但合并梗阻性尿源性脓毒症休克病死率显著升高",
+          "year": "2023",
+          "source": "EAU Urological Infections Guidelines / IDSA"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无单列死亡统计；CHINET 2023–2024全国细菌耐药监测显示尿路大肠埃希菌对氟喹诺酮与三代头孢耐药率高，但对碳青霉烯及阿米卡星仍保持>90%–95%敏感性",
+          "year": "2024",
+          "source": "CHINET中国细菌耐药监测网 / 中华医学会泌尿外科学分会"
+        },
+        "prevalence_global": "女性年发病率约 12–13 / 1万人年，男性约 2–3 / 1万人年（EAU 2024）",
+        "prevalence_china": "国内急诊与肾内科/泌尿外科极常见急性感染性疾病，育龄期女性、孕妇及合并糖尿病/结石的老年人高发"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发寒战高热+单侧或双侧腰部剧烈叩击痛+尿频尿急，尤其是已知有肾结石、糖尿病或妊娠期女性，若出现血压下降、呼吸急促、意识模糊或少尿，立即急诊抢救（高度警惕尿源性脓毒症）; 2) 急救黄金步骤：在用第一剂抗生素前先留取中段尿细菌培养+血培养（切勿先吃药再留尿导致假阴性），同时急诊行泌尿系超声/CT明确有无结石梗阻积水; 3) 只要存在“结石梗阻+高热”，必须在1小时内静脉使用强效广谱抗生素并由泌尿外科急诊行输尿管支架（DJ管）或经皮肾穿刺造瘘引流脓尿（切忌只输液抗感染而不解除梗阻，极易迅速脓毒症休克死亡）。",
+        "standard_drugs": [
+          {
+            "name_zh": "头孢曲松 / 哌拉西林他唑巴坦",
+            "name_en": "Ceftriaxone / Piperacillin-tazobactam",
+            "drug_class": "静脉广谱β-内酰胺类抗生素（覆盖常见尿路革兰阴性杆菌）",
+            "usage_role": "中重度需住院治疗急性肾盂肾炎一线初始静脉经验用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后头孢曲松约3–15元/支，哌拉西林他唑巴坦约15–40元/支，7–10天静脉疗程药费约200–800元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "美罗培南 / 厄他培南",
+            "name_en": "Meropenem / Ertapenem",
+            "drug_class": "碳青霉烯类抗生素（对产ESBL耐药大肠埃希菌保持极高抗菌活性）",
+            "usage_role": "合并尿源性脓毒症休克或怀疑产ESBL耐药菌感染急救升级用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后美罗培南约20–50元/支（0.5g），7天疗程约500–1,500元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "左氧氟沙星",
+            "name_en": "Levofloxacin",
+            "drug_class": "氟喹诺酮类抗生素（尿路浓度高，但中国大肠杆菌耐药率已达40%–50%，须确认药敏敏感后降阶梯口服）",
+            "usage_role": "药敏确认敏感后的轻症或静脉转口服序贯用药（孕妇及18岁以下禁用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约3–12元/盒，7天疗程不足30元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "梗阻性急性肾盂肾炎急诊经尿道输尿管支架置入（DJ管）或超声引导经皮肾造瘘减压引流",
+          "每日足量饮水（2,000–2,500ml）勤排尿冲刷尿道、切忌憋尿、注意会阴清洁卫生",
+          "反复发作者排查泌尿系结石、膀胱输尿管反流、前列腺增生或糖尿病血糖控制不佳等结构/代谢诱因"
+        ],
+        "annual_total_cost_china_cny": "无并发症门诊/短程住院静脉抗感染治愈总费用约1,500–5,000元人民币；若合并结石梗阻或尿源性脓毒症需急诊置管引流及ICU抢救，住院费用约2万–6万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "2023–2024年尿路耐药菌管理取得实用进展：1) CHINET耐药监测明确指导我国急性肾盂肾炎经验用药从传统高耐药的喹诺酮转向三代头孢/酶抑制剂复方或碳青霉烯，并强调48–72小时依据尿培养结果精准降阶梯; 2) 新型口服β-内酰胺酶抑制剂复方（如头孢比罗、特比培南酯等在复杂性尿路感染3期试验中获积极结果）及大肠杆菌多价糖结合疫苗（ExPEC9V）正探索从源头预防复发性肾盂肾炎与尿源性脓毒症。",
+        "key_unmet_needs_zh": "1) 中国社区尿路大肠埃希菌ESBL及喹诺酮耐药率居高不下，导致基层口服经验性治疗失败率高; 2) 传统尿培养需48–72小时出药敏结果，亟需普及2–4小时床旁快速药敏微流控芯片; 3) 留置导尿管相关耐药菌生物膜感染仍缺乏彻底清除手段。"
+      },
+      "sources": [
+        {
+          "title": "EAU Guidelines on Urological Infections (2024)",
+          "url": "https://uroweb.org/guidelines/urological-infections",
+          "publisher": "European Association of Urology",
+          "year": "2024"
+        },
+        {
+          "title": "Antimicrobial resistance surveillance of E. coli in China (CHINET 2023–2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38628431/",
+          "publisher": "PubMed / CHINET",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008171",
+      "name_zh": "肾结石",
+      "name_en": "Nephrolithiasis",
+      "aliases_zh": [
+        "上尿路结石",
+        "泌尿系结石",
+        "肾钙化结石"
+      ],
+      "icd10": [
+        "N20.0"
+      ],
+      "icd11": [
+        "GB70.0"
+      ],
+      "category": "常见慢性泌尿代谢性疾病",
+      "course_type": "chronic",
+      "lethality_speed": "low_lethality",
+      "lethality_detail_zh": "1) 尿液中的草酸钙、尿酸或磷酸钙等矿物质因饮水过少、饮食结构或代谢异常而过饱和析出结晶，在肾脏内越滚越大形成“石头”; 2) 结石本身致死率极低，但结石掉落卡进细长的输尿管时会引发撕心裂肺的“肾绞痛”（伴恶心呕吐、肉眼血尿）; 3) 真正危险的是“沉默性重度肾积水”（长期堵住输尿管却不痛，悄悄把肾脏憋废成尿毒症）以及“结石梗阻合并细菌感染”引发的急性化脓性肾盂肾炎与脓毒症休克。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "直径<6mm的小结石多可通过多喝水+药物排石自行排出；较大结石通过体外冲击波碎石（ESWL）、超微创输尿管软镜激光碎石或经皮肾镜取石术均可实现高达90%–98%的清石治愈；但若不纠正饮水与代谢习惯，5年内结石复发率高达50%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GBD 2021将单纯肾结石归为极低直接致死率慢性病（直接归因死亡近乎零，疾病负担主要体现为剧痛致残与复发DALYs）；极少数死亡源于合并未引流的梗阻性尿源性脓毒症",
+          "year": "2021",
+          "source": "IHME GBD 2021 / EAU Urolithiasis Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国尚无单列死亡统计；GBD 2021与全国横断面流调显示中国成人肾结石患病率约5.8%–6.5%（南方省份高达8%–10%以上），且总患病人数随代谢综合征上升持续增加",
+          "year": "2023",
+          "source": "中华医学会泌尿外科学分会 / GBD 2021中国亚组"
+        },
+        "prevalence_global": "全球终生患病率约 7%–13%，男性发病率高于女性约 1.5–2 倍（EAU 2024）",
+        "prevalence_china": "中国成人现患率约 6.4%（约数千万名患者），呈明显的“南高北低、夏秋高发”特征"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "坦索罗辛",
+            "name_en": "Tamsulosin",
+            "drug_class": "高选择性α1A受体阻滞剂（舒张输尿管下段平滑肌，显著提高5–10mm输尿管结石自然排出率）",
+            "usage_role": "药物排石治疗（MET）一线核心用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选价约10–25元/盒（0.2mg×10–14粒），单疗程药费约20–50元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "枸橼酸氢钾钠颗粒",
+            "name_en": "Potassium sodium hydrogen citrate",
+            "drug_class": "尿液碱化及结晶抑制剂（提高尿枸橼酸浓度并碱化尿液，可溶解纯尿酸结石并预防草酸钙结石复发）",
+            "usage_role": "尿酸结石溶石治疗及复发性含钙结石长期防复发用药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内公立医院参考价约40–80元/盒，维持期月药费约100–200元",
+            "cost_source": "中国公立医院药品挂网公开参考价"
+          },
+          {
+            "name_zh": "双氯芬酸钠 / 吲哚美辛",
+            "name_en": "Diclofenac / Indomethacin",
+            "drug_class": "非甾体抗炎药（降低肾盂内压与输尿管痉挛，肾绞痛急性镇痛首选）",
+            "usage_role": "急性肾绞痛一线止痛用药（注意肾功能不全或消化性溃疡慎用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国内参考价约5–18元/盒",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "每天喝够2,500–3,000ml白开水（保持每日尿量>2,000ml、尿色清亮是最便宜有效的防复发神药）",
+          "科学饮食防复发：正常饮食补钙（切勿盲目完全戒钙，否则肠道吸收更多草酸反而长石头），真正要限制的是高盐、过量动物蛋白、浓茶菠菜等高草酸及含糖碳酸饮料",
+          "微创手术取石：体外冲击波碎石（ESWL，适合<2cm简单肾结石）、一次性电子输尿管软镜钬激光/铥激光碎石（无伤口经自然腔道取石）、经皮肾镜取石术（PCNL，适合>2cm鹿角形大结石）",
+          "取出的结石务必送检“红外光谱结石成分分析”，有针对性预防复发；若肾绞痛伴高热寒战须立即急诊防梗阻性脓毒症"
+        ],
+        "annual_total_cost_china_cny": "药物排石与随访年费用约500–1,500元人民币；体外碎石约1,000–3,000元；若行微创输尿管软镜激光碎石或经皮肾镜取石手术，单次住院费用约1.5万–3.5万元人民币"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "2023–2024年肾结石微创器械与遗传精准防治进展显著：1) 超级脉冲铥光纤激光（TFL）与可弯曲负压吸引鞘（FANS）在输尿管软镜碎石中实现“粉末化+实时吸尘”式清石，显著降低术后残石率与感染发热风险; 2) 针对原发性高草酸尿症等遗传性结石，siRNA小核酸药物Lumasiran与Nedosiran已获FDA批准上市，实现源头精准降草酸; 3) AI自动识别CT结石成分与硬度正用于术前规划碎石能量。",
+        "key_unmet_needs_zh": "1) 患者术后5年复发率仍高达40%–50%，缺乏便捷居家尿液草酸/钙/pH实时监测试纸与闭环提醒; 2) 基层医院结石成分分析及24小时尿液代谢评估开展率仍偏低; 3) 尚无获批的口服安全药物能直接溶解最常见的草酸钙结石。"
+      },
+      "sources": [
+        {
+          "title": "EAU Guidelines on Urolithiasis (2024)",
+          "url": "https://uroweb.org/guidelines/urolithiasis",
+          "publisher": "European Association of Urology",
+          "year": "2024"
+        },
+        {
+          "title": "Prevalence and burden of nephrolithiasis in China (GBD & national survey)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36759876/",
+          "publisher": "PubMed",
+          "year": "2023"
+        }
+      ]
+    }
+  ]
+}

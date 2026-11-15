@@ -1,0 +1,3355 @@
+{
+  "domain": "oncology_solid_hematologic",
+  "generated_at": "2026-11-15",
+  "curator": "curator-oncology",
+  "records": [
+    {
+      "disease_id": "MONDO:0015459",
+      "name_zh": "鼻咽癌",
+      "name_en": "Nasopharyngeal carcinoma",
+      "aliases_zh": [
+        "广东瘤",
+        "NPC",
+        "鼻咽恶性肿瘤",
+        "EBV相关鼻咽癌"
+      ],
+      "icd10": [
+        "C11.0",
+        "C11.9"
+      ],
+      "icd11": [
+        "2B6B.0"
+      ],
+      "category": "恶性肿瘤 / 头颈部实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "多数呈亚急性至慢性进展（病程数月至数年），早期常仅表现为回吸涕中带血、单侧耳闷/耳鸣或无痛性颈部淋巴结肿大，极易被误诊为鼻炎或中耳炎；肿瘤向上侵犯颅底可致剧烈头痛、复视及脑神经麻痹，晚期放疗后颈部血管坏死或肿瘤破溃可突发致命性大出血（颈动脉破裂出血可在数分钟内危及生命）。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "对放疗高度敏感，是头颈肿瘤中治愈率最高的类型之一：Ⅰ–Ⅱ期单纯调强放疗(IMRT)5年生存率可达85%–95%；局部晚期通过诱导化疗+同步放化疗+PD-1免疫联合治疗，5年生存率仍达75%–85%；复发/转移性患者依靠吉西他滨+顺铂联合特瑞普利单抗/替雷利珠单抗等免疫治疗可显著延长生存。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 62060,
+          "range_or_note": "2022年全球约6.21万例死亡，呈现显著地理聚集性，超过70%病例集中于东亚及东南亚",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 26126,
+          "range_or_note": "2022年中国约2.61万例死亡，占全球鼻咽癌死亡病例的42%以上，高发于广东、广西、福建、湖南、江西等华南及南方省份",
+          "year": "2022",
+          "source": "中国国家癌症中心(NCC) / IARC GLOBOCAN 2022 China"
+        },
+        "prevalence_global": "2022年全球新发约119,750例，高发区与EB病毒(EBV)潜伏感染、遗传易感性及腌制食品暴露密切相关（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发约49,302例（占全球约41.2%），华南高发区年龄标化发病率可达20–30/10万，非角化型未分化癌占95%以上且几乎100%伴EBV阳性"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 鼻咽大出血/放疗后假性动脉瘤破裂：立即保持头低侧卧位防窒息，紧急前/后鼻孔填塞压迫，同步120送有介入条件医院行急诊数字减影血管造影(DSA)覆膜支架植入或弹簧圈栓塞，严禁盲目强行拔除鼻腔填塞物; 2) 急性气道梗阻或严重张口困难伴窒息风险：立即评估行气管切开术建立气道; 3) 颅底侵犯伴急性颅高压/脑神经危象：予甘露醇脱水及糖皮质激素减轻瘤周水肿并急诊放疗评估。",
+        "standard_drugs": [
+          {
+            "name_zh": "特瑞普利单抗",
+            "name_en": "Toripalimab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "复发/转移性鼻咽癌一线联合吉西他滨+顺铂及后线单药治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判降价后约1,912元/支(240mg)，常规每3周1次，费用减免前年药费约3万元",
+            "cost_source": "国家药品谈判目录及公立医院挂网参考价(2024–2025)"
+          },
+          {
+            "name_zh": "替雷利珠单抗",
+            "name_en": "Tislelizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "复发/转移性鼻咽癌一线联合化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约1,253.53元/支(100mg)，常规每次200mg每3周一次",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "吉西他滨",
+            "name_en": "Gemcitabine",
+            "drug_class": "嘧啶类抗代谢化疗药",
+            "usage_role": "局部晚期诱导化疗(GP方案)及复发转移一线基石化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选后约30–90元/支(1.0g)，单周期药费仅数百元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "尼妥珠单抗",
+            "name_en": "Nimotuzumab",
+            "drug_class": "人源化抗EGFR单克隆抗体",
+            "usage_role": "局部晚期鼻咽癌联合同步放化疗靶向增敏",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约870–1,050元/支(50mg)，每周200mg，放疗期间6–7周总药费约2.2万–2.8万元",
+            "cost_source": "国家药品目录谈判参考价(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "调强放射治疗(IMRT)与质子重离子放疗（核心根治手段）",
+          "高发区（华南）及鼻咽癌一级亲属定期行血浆EBV-DNA定量及鼻咽镜早筛",
+          "放疗前洁牙与氟托护齿、放疗后坚持鼻腔冲洗与张口训练防放射性颌骨坏死及颞颌关节纤维化",
+          "戒烟限酒及减少咸鱼、腌制蔬菜等亚硝胺食物摄入"
+        ],
+        "annual_total_cost_china_cny": "早期单纯IMRT放疗全程约4万–7万元；局部晚期诱导+同步放化疗加免疫/靶向全程约8万–16万元；复发转移维持治疗费用减免前年均约5万–12万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 马骏院士团队CONTINUUM与DIPPER等3期临床证实局部晚期鼻咽癌放化疗联合PD-1单抗（信迪利单抗/卡瑞利珠单抗）显著降低远处转移并提升3年无事件生存率至86%以上；2) 特瑞普利单抗(JUPITER-02)及派安普利单抗(Penpulimab, 2025年4月获FDA批准)确立复发转移鼻咽癌免疫联合化疗国际标准；3) 血浆游离EBV-DNA片段组学与甲基化AI早筛模型将华南高危人群早期检出率提升至80%以上；4) 针对TROP2/EGFR-HER3双抗ADC(如BL-B01D1)及EBV特异性TCR-T/CAR-T细胞疗法在铂耐药人群展现高缓解率。",
+        "key_unmet_needs_zh": "1) 放疗后长期口干、听力下降、吞咽困难及放射性脑损伤等远期毒副反应仍明显影响生存质量; 2) 免疫及铂类耐药后的复发转移患者缺乏高有效率后线标准方案; 3) 华南以外地区基层对无痛性颈部淋巴结肿大与回吸涕血的早期识别率仍偏低。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS (CA Cancer J Clin)",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves penpulimab-kcqx for non-keratinizing nasopharyngeal carcinoma",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-penpulimab-kcqx-non-keratinizing-nasopharyngeal-carcinoma",
+          "publisher": "U.S. FDA",
+          "year": "2025"
+        },
+        {
+          "title": "Nasopharyngeal carcinoma (ORPHA:150)",
+          "url": "https://www.orpha.net/en/disease/detail/150",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018906",
+      "name_zh": "滤泡性淋巴瘤",
+      "name_en": "Follicular lymphoma",
+      "aliases_zh": [
+        "FL",
+        "滤泡中心淋巴瘤",
+        "惰性B细胞淋巴瘤"
+      ],
+      "icd10": [
+        "C82.0",
+        "C82.9"
+      ],
+      "icd11": [
+        "2A85.1"
+      ],
+      "category": "恶性肿瘤 / 惰性成熟B细胞淋巴瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "典型惰性非霍奇金淋巴瘤，进展缓慢，中位总生存期常超过15–20年；但约2%–3%/年（累计15%–20%）患者可发生向弥漫大B细胞淋巴瘤(DLBCL)的组织学转化，表现为淋巴结短期急剧增大、高热盗汗及LDH飙升，未及时干预可在数周至数月内危及生命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "除极早期（Ⅰ–Ⅱ期局限性）经受累野放疗有约40%–50%长期无病生存/治愈可能外，绝大多数患者诊断时为Ⅲ–Ⅳ期，虽尚难彻底根治，但可通过“观察等待（无治疗指征时）”或免疫化疗、R2无化疗方案、双抗及CAR-T实现长达十余年的高质量带瘤生存。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从非霍奇金淋巴瘤(NHL)中单列FL死亡人数；欧美人群FL约占全部NHL的20%–25%，中位OS已超15–18年，5年相对生存率约88%–90%（SEER）",
+          "year": "2024",
+          "source": "NCI SEER / Orphanet ORPHA:545"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国未单列全国FL死亡统计；中国FL占NHL比例约为8%–12%，低于欧美但近年检出率呈上升趋势",
+          "year": "2024",
+          "source": "《中国滤泡性淋巴瘤诊断与治疗指南》 / CSCO淋巴瘤指南"
+        },
+        "prevalence_global": "欧美年发病率约2–4/10万，85%–90%存在t(14;18)(q32;q21)染色体易位致BCL2过表达（Orphanet ORPHA:545）",
+        "prevalence_china": "占中国非霍奇金淋巴瘤的约8%–12%，推算年新发约7,000–10,000例（基于NCC 2022年中国NHL新发约8.68万例推算）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 巨块型病变（直径>7–10cm）首次启动利妥昔单抗/奥妥珠单抗联合化疗时警惕肿瘤溶解综合征(TLS)：予充分水化碱化、别嘌醇或拉布立酶降尿酸及密切监测血钾/磷/钙/肌酐; 2) 腹腔/腹膜后巨大淋巴结压迫输尿管或肠道引发急性肾积水或肠梗阻：急诊行双J管置入减压或胃肠减压并尽快启动减瘤治疗。",
+        "standard_drugs": [
+          {
+            "name_zh": "奥妥珠单抗",
+            "name_en": "Obinutuzumab",
+            "drug_class": "糖基化改造Ⅱ型抗CD20单克隆抗体",
+            "usage_role": "中高肿瘤负荷FL一线联合化疗及维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,925元/支(1000mg)，诱导+维持两年总药费费用减免前约7万–9万元",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "利妥昔单抗",
+            "name_en": "Rituximab",
+            "drug_class": "人鼠嵌合Ⅰ型抗CD20单克隆抗体",
+            "usage_role": "一线联合化疗(R-CHOP/BR)或联合来那度胺(R2方案)及维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药集采后约1,000–1,400元/支(500mg)，单次用量600–700mg约1,500–2,000元",
+            "cost_source": "国家药品目录及生物类似药集采参考价"
+          },
+          {
+            "name_zh": "来那度胺",
+            "name_en": "Lenalidomide",
+            "drug_class": "免疫调节剂(IMiD，CRBN E3连接酶调节)",
+            "usage_role": "联合利妥昔单抗组成无化疗R2方案用于一线或复发FL",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选后约100–200元/盒(25mg×21粒)，月药费显著降至百元级",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "泽布替尼",
+            "name_en": "Zanubrutinib",
+            "drug_class": "高选择性共价BTK抑制剂",
+            "usage_role": "联合奥妥珠单抗用于二线及以上复发难治FL（2024年获FDA加速批准）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约4,000–4,500元/盒(80mg×64粒)，月药费约4,000–4,500元（费用减免前）",
+            "cost_source": "国家药品谈判目录及公立医院参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无症状低肿瘤负荷患者的规范‘观察等待(Watch & Wait)’策略，避免过度治疗",
+          "Ⅰ–Ⅱ期局限性病灶的受累部位放疗(ISRT)",
+          "年轻高危复发或POD24（24个月内早期进展）患者的自体造血干细胞移植或CAR-T评估",
+          "定期监测LDH、PET-CT及活检排除向侵袭性DLBCL的组织学转化"
+        ],
+        "annual_total_cost_china_cny": "观察等待期年随访检查费约2,000–5,000元；一线免疫化疗/R2年费用减免前约3万–8万元；后线双抗/CAR-T治疗费用可达数十万至上百万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) CD20×CD3双特异性抗体彻底改写复发难治FL格局：艾可瑞妥单抗(Epcoritamab)于2025年11月获FDA完全批准单药及联合R2方案用于R/R FL(EPCORE FL-1研究PFS显著翻倍)，莫妥珠单抗(Mosunetuzumab)皮下剂型亦于2026年1月获FDA批准；2) CAR-T细胞疗法Liso-cel(Breyanzi)于2024年5月获FDA批准用于≥2线R/R FL，CR率超90%；3) Tafasitamab(CD19单抗)+R2于2025年6月获FDA批准；4) 国内格菲妥单抗、泽布替尼+奥妥珠单抗(ROSEWOOD)已惠及POD24高危人群。",
+        "key_unmet_needs_zh": "1) 占约20%的POD24（一线治疗24个月内进展）患者预后仍差，亟需精准分子分型早期识别; 2) 多次复发后仍缺乏确定可治愈的有限疗程方案; 3) 双抗及CAR-T在国内高昂自费价格限制了基层普及。"
+      },
+      "sources": [
+        {
+          "title": "Follicular lymphoma (ORPHA:545)",
+          "url": "https://www.orpha.net/en/disease/detail/545",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves epcoritamab-bysp for follicular lymphoma indications",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-epcoritamab-bysp-follicular-lymphoma-indications",
+          "publisher": "U.S. FDA",
+          "year": "2025"
+        },
+        {
+          "title": "SEER Cancer Stat Facts: Follicular Lymphoma",
+          "url": "https://seer.cancer.gov/statfacts/html/follicular.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018876",
+      "name_zh": "套细胞淋巴瘤",
+      "name_en": "Mantle cell lymphoma",
+      "aliases_zh": [
+        "MCL",
+        "套区淋巴瘤",
+        "t(11;14)淋巴瘤"
+      ],
+      "icd10": [
+        "C83.1"
+      ],
+      "icd11": [
+        "2A85.4"
+      ],
+      "category": "恶性肿瘤 / 侵袭性与异质性B细胞淋巴瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "兼具惰性淋巴瘤的难治愈性与侵袭性淋巴瘤的快速进展特征：经典型/母细胞样变型(Blastoid)倍增快、常累及骨髓和胃肠道，TP53突变者对传统化疗极度耐药，中位生存期曾不足2–3年；并发严重骨髓衰竭、消化道大出血或中枢浸润时可在数周内致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "目前传统方案仍难彻底治愈，但BTK抑制剂、BCL-2抑制剂与CD19 CAR-T已将年轻患者中位总生存推至8–10年以上；部分惰性白血病样非淋巴结型可先观察等待，高危TP53突变患者则需尽早转向靶向无化疗及细胞免疫治疗。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列MCL死亡统计；MCL约占全部NHL的5%–7%，中位发病年龄约65–70岁，男女比约3:1，5年相对生存率约50%–65%（近年伴随BTK抑制剂普及持续提升）",
+          "year": "2024",
+          "source": "Orphanet ORPHA:52416 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列MCL死亡登记；国内多中心统计MCL约占NHL的2%–5%，诊断时约80%已属Ⅲ–Ⅳ期",
+          "year": "2024",
+          "source": "《中国套细胞淋巴瘤诊断与治疗指南》"
+        },
+        "prevalence_global": "年发病率约0.5–1.0/10万，>95%存在t(11;14)(q13;q32)导致CCND1(Cyclin D1)过表达（Orphanet ORPHA:52416）",
+        "prevalence_china": "占中国非霍奇金淋巴瘤的约2%–5%，推算年新发约2,000–4,000例"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 母细胞样MCL或高白细胞(>50×10^9/L)伴高肿瘤负荷启动治疗时高度警惕肿瘤溶解综合征(TLS)：予水化、拉布立酶/别嘌醇及电解质心电监护; 2) 胃肠道多发性息肉样浸润突发消化道大出血或肠套叠/肠梗阻：立即禁食、抑酸止血、输血支持并行内镜/外科急诊评估。",
+        "standard_drugs": [
+          {
+            "name_zh": "伊布替尼",
+            "name_en": "Ibrutinib",
+            "drug_class": "第一代共价BTK抑制剂",
+            "usage_role": "复发难治MCL基石靶向药及一线联合(TRIANGLE方案)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,500–4,800元/盒(140mg×90粒)，MCL常规每日560mg(4粒)，月药费费用减免前约4,500–6,000元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "泽布替尼",
+            "name_en": "Zanubrutinib",
+            "drug_class": "第二代高选择性共价BTK抑制剂",
+            "usage_role": "既往至少接受过一次治疗的MCL靶向治疗（房颤及出血副作用更低）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约4,000–4,500元/盒(80mg×64粒)，月药费费用减免前约8,000–9,000元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "阿可替尼",
+            "name_en": "Acalabrutinib",
+            "drug_class": "第二代选择性BTK抑制剂",
+            "usage_role": "一线联合苯达莫司汀+利妥昔单抗(BR)或单药治疗复发MCL（2025年1月获FDA一线批准）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内已获批上市，尚未全面进入国家常规降价目录前月自费约1万–2万元",
+            "cost_source": "公开三甲医院创新药参考价(2024–2025)"
+          },
+          {
+            "name_zh": "匹妥布替尼",
+            "name_en": "Pirtobrutinib",
+            "drug_class": "非共价可逆第三代BTK抑制剂",
+            "usage_role": "共价BTK抑制剂耐药(如BTK C481S突变)后的复发难治MCL",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国已获批/加速引入，创新药自费月均约数万元",
+            "cost_source": "FDA及NMPA公开获批信息(2023–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初治时常规检测TP53突变、Ki-67指数及SOX11以精准分层",
+          "年轻适合患者一线含大剂量阿糖胞苷化疗+BTK抑制剂（TRIANGLE研究支持部分患者可豁免自体移植）",
+          "BTK耐药后尽早评估CD19 CAR-T细胞疗法（Brexu-cel或Liso-cel）",
+          "胃肠道内镜筛查（针对有腹痛、便血或消化道受累高风险患者）"
+        ],
+        "annual_total_cost_china_cny": "一线免疫化疗加BTK抑制剂维持费用减免前年均约8万–18万元；后线三代BTK或CAR-T细胞治疗费用约30万–120万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 欧洲TRIANGLE 3期研究证实年轻MCL一线免疫化疗联合伊布替尼可显著提升无失败生存率，使部分患者免于高毒性的自体干细胞移植；2) 2025年1月FDA批准阿可替尼联合BR用于初治不适合移植的老年MCL(ECHO研究)；3) 2026年5月FDA加速批准新一代BCL-2抑制剂Sonrotoclax用于BTK经治后R/R MCL；4) Liso-cel(2024年5月获FDA批准)与Brexu-cel两款CD19 CAR-T在BTK耐药MCL中实现60%以上完全缓解，非共价BTK抑制剂匹妥布替尼有效克服C481突变耐药。",
+        "key_unmet_needs_zh": "1) TP53突变及母细胞样变型患者对传统化疗和单药BTK抑制剂仍极易早期耐药; 2) 共价+非共价BTK双重耐药(如门控突变)后的治疗选择匮乏; 3) 缺乏可根治的标准化有限疗程无化疗方案。"
+      },
+      "sources": [
+        {
+          "title": "Mantle cell lymphoma (ORPHA:52416)",
+          "url": "https://www.orpha.net/en/disease/detail/52416",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves acalabrutinib with bendamustine and rituximab for previously untreated mantle cell lymphoma",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-acalabrutinib-bendamustine-and-rituximab-previously-untreated-mantle-cell-lymphoma",
+          "publisher": "U.S. FDA",
+          "year": "2025"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004952",
+      "name_zh": "霍奇金淋巴瘤",
+      "name_en": "Hodgkin lymphoma",
+      "aliases_zh": [
+        "HL",
+        "何杰金淋巴瘤",
+        "经典型霍奇金淋巴瘤",
+        "R-S细胞淋巴瘤"
+      ],
+      "icd10": [
+        "C81",
+        "C81.9"
+      ],
+      "icd11": [
+        "2B30"
+      ],
+      "category": "恶性肿瘤 / 可治愈性淋巴瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "好发于青壮年（15–35岁）及老年双峰人群，通常呈慢性无痛性淋巴结肿大进展，规范治疗极易治愈；但若纵隔巨大肿块压迫气管及上腔静脉，可引发急性呼吸困难、上腔静脉阻塞综合征(SVCS)或心包填塞，未处理可在数日至数周内危及生命。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "现代医学治愈率最高的恶性肿瘤之一！早期患者经ABVD方案联合/不联合受累野放疗，临床治愈率达85%–95%；即使晚期（Ⅲ–Ⅳ期）患者，依托维布妥昔单抗(BV)或PD-1单抗(纳武利尤单抗/信迪利单抗/替雷利珠单抗)联合化疗，5年生存率亦达80%–90%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 19515,
+          "range_or_note": "2022年全球约1.95万例死亡，死因占比显著低于非霍奇金淋巴瘤，反映出其极高的治愈率",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 1838,
+          "range_or_note": "2022年中国约1,838例死亡，发病率显著低于欧美但同样呈现青壮年高治愈特征",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约84,495例，约占全部恶性淋巴瘤的10%–15%（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发约4,764例（占全部淋巴瘤约5%），经典型霍奇金淋巴瘤(cHL)占90%以上"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 纵隔巨大肿块致急性上腔静脉阻塞综合征(SVCS)或气管严重受压：立即抬高床头、吸氧，予静脉糖皮质激素减轻水肿（前提是已完成病理活检确诊），并紧急启动低剂量预处理化疗或放疗减压，严禁强行平卧位行镇静麻醉; 2) 博来霉素(ABVD方案)引起的急性间质性肺炎/呼吸衰竭：立即停用博来霉素并给予大剂量糖皮质激素。",
+        "standard_drugs": [
+          {
+            "name_zh": "维布妥昔单抗",
+            "name_en": "Brentuximab vedotin",
+            "drug_class": "靶向CD30的抗体偶联药物(ADC)",
+            "usage_role": "晚期初治联合AVD(A+AVD)及复发难治cHL靶向治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,990元/支(50mg)，单周期按体重约需2–3支（约8,000–1.2万元/次，费用减免前）",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "信迪利单抗",
+            "name_en": "Sintilimab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "至少经过二线系统化疗的复发/难治性经典型霍奇金淋巴瘤",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约1,080元/支(100mg)，每3周200mg，费用减免前年药费约3.5万元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "替雷利珠单抗",
+            "name_en": "Tislelizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "复发/难治性经典型霍奇金淋巴瘤单药治疗（ORR超85%）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约1,253.53元/支(100mg)",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "多柔比星+博来霉素+长春碱+达卡巴嗪(ABVD)",
+            "name_en": "ABVD chemotherapy",
+            "drug_class": "经典联合化疗基石方案",
+            "usage_role": "早期及晚期经典型霍奇金淋巴瘤一线根治性化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "多为国家集采及基本药物，单周期药费约1,000–2,500元",
+            "cost_source": "国家基本药物及集采挂网参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗中期PET-CT(iPET)评估指导降阶梯减毒（及时停用博来霉素或豁免放疗）",
+          "育龄期青壮年患者化疗前强烈建议行生育力保存（精子库冻存或卵母细胞/卵巢组织冻存）",
+          "受累部位放疗(ISRT)及复发患者的自体造血干细胞移植(ASCT)",
+          "治愈后长期监测第二原发肿瘤（如乳腺癌、肺癌）及放化疗远期心脏毒性/甲减"
+        ],
+        "annual_total_cost_china_cny": "早期标准ABVD+必要放疗全程约3万–6万元；晚期联合CD30-ADC或PD-1方案费用减免前约8万–16万元；复发自体移植约15万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 3期SWOG S1826研究确立纳武利尤单抗+AVD(N-AVD)在晚期cHL中2年PFS达92%，显著优于BV-AVD且神经毒性更低，2024–2025年推动NCCN将PD-1+AVD列为晚期一线新标准；2) 2025–2026年BrECADD方案(HD21研究)以高疗效及大幅降低的生殖毒性替代传统BEACOPP；3) 靶向CD30的CAR-T细胞疗法与PD-1/LAG-3双靶点在多线耐药cHL中开展2期临床探索。",
+        "key_unmet_needs_zh": "1) 约10%–15%患者经ASCT及PD-1/CD30-ADC治疗后仍复发，缺乏高效后线治愈手段; 2) 青少年治愈人群长期生存后的继发心血管疾病、肺纤维化及第二肿瘤远期毒性仍需进一步降阶梯规避; 3) 国内一线PD-1+AVD方案的规范化普及仍待加速。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "Hodgkin lymphoma (ORPHA:98293)",
+          "url": "https://www.orpha.net/en/disease/detail/98293",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Nivolumab+AVD in Advanced-Stage Classic Hodgkin Lymphoma (SWOG S1826)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39413375/",
+          "publisher": "NEJM / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004948",
+      "name_zh": "慢性淋巴细胞白血病",
+      "name_en": "B-cell chronic lymphocytic leukemia",
+      "aliases_zh": [
+        "CLL",
+        "小淋巴细胞淋巴瘤",
+        "SLL",
+        "慢淋"
+      ],
+      "icd10": [
+        "C91.1"
+      ],
+      "icd11": [
+        "2A82.0"
+      ],
+      "category": "恶性肿瘤 / 惰性成熟B细胞白血病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "绝大多数患者病程长达数年至十余年，早期无症状甚至无需吃药；但晚期骨髓衰竭或免疫缺陷可引发致命性重症肺部感染/败血症、自身免疫性溶血性贫血(AIHA)，另有约2%–10%患者发生Richter转化（转化为高度侵袭性DLBCL），转化后数周至数月内迅速恶化。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "目前已全面迈入“无化疗口服靶向慢病管理时代”：早期无指征者仅需定期观察等待；有治疗指征者通过BTK抑制剂或BCL-2抑制剂(维奈克拉)有限疗程方案，5年生存率超85%–90%，绝大多数患者可长期高质量生活。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN将CLL并入白血病大类统计，未单独拆分；欧美成人最常见白血病（占约25%–30%），SEER数据显示5年相对生存率约88.5%",
+          "year": "2024",
+          "source": "NCI SEER / Orphanet ORPHA:67038"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无独立CLL死亡统计；中国发病率显著低于欧美（约0.2–0.6/10万），但随人口老龄化呈逐年上升趋势",
+          "year": "2024",
+          "source": "《中国慢性淋巴细胞白血病/小淋巴细胞淋巴瘤诊治指南》"
+        },
+        "prevalence_global": "欧美年发病率约4–5/10万（中位发病年龄70–72岁），东亚人群约为欧美1/10（Orphanet ORPHA:67038）",
+        "prevalence_china": "中国年发病率约0.2–0.6/10万，推算全国年新发约4,000–8,000例，具有家族聚集倾向（一级亲属患病风险升高5–8倍）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 维奈克拉启动期高度警惕肿瘤溶解综合征(TLS)：必须严格执行5周剂量爬坡(20→50→100→200→400mg)、充分水化并按肿瘤负荷预防性使用别嘌醇/拉布立酶及严密监测血钾/磷/尿酸; 2) 突发重症感染/中性粒细胞缺乏性发热：立即留取血培养并经验性覆盖广谱抗细菌及抗真菌/PCP治疗; 3) 急性溶血危象(AIHA)或免疫性血小板减少(ITP)：急予大剂量糖皮质激素或IVIG并避免盲目输血加重溶血。",
+        "standard_drugs": [
+          {
+            "name_zh": "泽布替尼",
+            "name_en": "Zanubrutinib",
+            "drug_class": "第二代高选择性共价BTK抑制剂",
+            "usage_role": "初治及复发CLL/SLL一线口服靶向（SEQUOIA/ALPINE研究优效）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约4,000–4,500元/盒(80mg×64粒)，每日320mg月药费费用减免前约8,000–9,000元",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "奥布替尼",
+            "name_en": "Orelabrutinib",
+            "drug_class": "国产高选择性共价BTK抑制剂",
+            "usage_role": "复发/难治及一线CLL/SLL靶向治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,900–4,200元/盒，月药费费用减免前约7,800–8,500元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "维奈克拉",
+            "name_en": "Venetoclax",
+            "drug_class": "口服BCL-2蛋白抑制剂",
+            "usage_role": "联合奥妥珠单抗或BTK抑制剂用于有限疗程深度缓解(uMRD)治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判纳入AML目录，CLL适应症部分地区/公立医院参考月费约1万–2万元（费用减免前）",
+            "cost_source": "国家药品谈判目录及公立医院参考价(2024–2025)"
+          },
+          {
+            "name_zh": "匹妥布替尼",
+            "name_en": "Pirtobrutinib",
+            "drug_class": "非共价可逆BTK抑制剂",
+            "usage_role": "既往BTK耐药后CLL（2026年9月NMPA批准单药，2026年10月FDA批准无17p缺失初治CLL）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "2026年新获批上市，尚未进入国家常规降价目录前自费月均约数万元",
+            "cost_source": "NMPA及FDA获批公告(2026)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无治疗指征(Binet A期/Rai 0–Ⅱ期无症状)患者坚持‘观察等待’与血常规随访",
+          "治疗前常规检测FISH del(17p)、TP53突变与IGHV突变状态以指导精准选药",
+          "高危低丙种球蛋白血症及反复感染患者定期评估IVIG支持与带状疱疹/肺炎疫苗接种",
+          "家族中多名一级亲属患CLL时注意遗传咨询与血常规早筛"
+        ],
+        "annual_total_cost_china_cny": "观察等待期年随访费约1,500–3,000元；口服国产二代BTK抑制剂持续维持费用减免前年均约9万–11万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 全口服有限疗程(Fixed-duration)成为新趋势：2026年2月FDA批准阿可替尼联合维奈克拉(AMPLIFY研究)用于初治CLL，实现14个月停药并达深度微小残留病阴性(uMRD)；2) 非共价BTK抑制剂匹妥布替尼于2026年9月获中国NMPA批准用于CLL/SLL，并于2026年10月获FDA批准扩展至无17p缺失的初治CLL一线治疗；3) 靶向BTK的蛋白降解剂(BTK PROTAC，如NX-5948/BGB-16673)与CD19 CAR-T(Liso-cel)有效攻克BTK+BCL2双重耐药人群。",
+        "key_unmet_needs_zh": "1) del(17p)/TP53异常及Richter转化患者仍极易耐药且长期预后差; 2) BTK与BCL-2抑制剂双耐药(‘双难治’)人群治疗手段有限; 3) 持续口服BTK抑制剂带来的长期房颤、出血及高血压累积风险仍需有限疗程停药方案替代。"
+      },
+      "sources": [
+        {
+          "title": "B-cell chronic lymphocytic leukemia (ORPHA:67038)",
+          "url": "https://www.orpha.net/en/disease/detail/67038",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves pirtobrutinib for previously untreated CLL/SLL without 17p deletion",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/",
+          "publisher": "U.S. FDA",
+          "year": "2026"
+        },
+        {
+          "title": "SEER Cancer Stat Facts: Chronic Lymphocytic Leukemia",
+          "url": "https://seer.cancer.gov/statfacts/html/clyl.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0019087",
+      "name_zh": "胆管癌",
+      "name_en": "Cholangiocarcinoma",
+      "aliases_zh": [
+        "肝内胆管癌",
+        "肝门部胆管癌",
+        "远端胆管癌",
+        "iCCA",
+        "胆道系统恶性肿瘤"
+      ],
+      "icd10": [
+        "C22.1",
+        "C24.0"
+      ],
+      "icd11": [
+        "2C12.1",
+        "2C15.0"
+      ],
+      "category": "恶性肿瘤 / 肝胆胰高凶险实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "起病隐匿但恶性度极高、侵袭转移快，患者常以无痛性进行性黄疸或肝内占位首诊，多数确诊已属不可切除晚期，未治中位生存期仅3–6个月；胆道完全梗阻并发急性化脓性胆管炎(AOSC)时可在数小时至数日内因感染性休克及肝衰竭致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期可根治性R0手术切除（约占20%–30%患者）联合术后辅助卡培他滨是唯一治愈途径，术后5年生存率约25%–40%；晚期整体5年生存率仅约3%–10%，但近年“化疗+PD-1/PD-L1免疫”及针对FGFR2融合、IDH1突变、HER2扩增、BRAF V600E的精准靶向已将部分患者中位生存延长至1年以上。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN通常将肝内胆管癌(iCCA，约占原发性肝癌的10%–15%)归入肝癌大类，肝外胆管癌归入胆道/胆囊大类；全球肝内胆管癌死亡率近年呈持续上升趋势，东南亚（尤其泰北肝吸虫流行区）发病率最高",
+          "year": "2024",
+          "source": "IARC GLOBOCAN 2022 / EASL-ILCA Cholangiocarcinoma Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国未单列全国胆管癌死亡统计；国内iCCA约占原发性肝癌的10%–15%（推算年死亡约3万–4.5万例），华南肝吸虫（华支睾吸虫）及肝胆管结石高发区负担尤重",
+          "year": "2024",
+          "source": "《原发性肝癌诊疗指南》 / CSCO胆道恶性肿瘤诊疗指南"
+        },
+        "prevalence_global": "欧美年发病率约1–3/10万，东南亚高发区可达50–85/10万（Orphanet ORPHA:70567）",
+        "prevalence_china": "中国肝内胆管癌年新发推算约3.5万–5.5万例，且肝内胆管癌中约10%–15%携带FGFR2融合、10%–20%携带IDH1突变"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 胆道梗阻并发急性梗阻性化脓性胆管炎(Charcot三联征/Reynolds五联征：高热寒战、黄疸、腹痛、休克、意识障碍)：立即静脉广谱抗感染+抗休克补液，24小时内急诊行ERCP内镜胆道支架置入或PTCD经皮经肝胆道引流减压; 2) 胆道出血或肿瘤破裂出血：立即禁食止血、输血并急诊介入动脉栓塞(TAE)。",
+        "standard_drugs": [
+          {
+            "name_zh": "度伐利尤单抗",
+            "name_en": "Durvalumab",
+            "drug_class": "PD-L1免疫检查点抑制剂",
+            "usage_role": "联合吉西他滨+顺铂(GC)作为晚期胆管癌一线标准方案(TOPAZ-1)",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国已获批胆道癌一线适应症，常规1500mg每3周一次，未入常规目录前自费配合慈善赠药年费约8万–15万元",
+            "cost_source": "NMPA获批及公开三甲医院创新药参考价(2024–2025)"
+          },
+          {
+            "name_zh": "佩米替尼",
+            "name_en": "Pemigatinib",
+            "drug_class": "高选择性FGFR1/2/3酪氨酸激酶抑制剂",
+            "usage_role": "FGFR2融合或重排的晚期胆管癌二线靶向治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内已获批上市，每周期(用2周停1周)自费参考价约数万元，需常规监测高磷血症",
+            "cost_source": "NMPA获批及公开临床参考价(2024)"
+          },
+          {
+            "name_zh": "艾伏尼布",
+            "name_en": "Ivosidenib",
+            "drug_class": "口服IDH1突变抑制剂",
+            "usage_role": "IDH1突变既往经治局部晚期或转移性胆管癌",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内已获批（AML及胆管癌），未进常规目录前自费月费较高",
+            "cost_source": "NMPA获批及公开信息(2024)"
+          },
+          {
+            "name_zh": "吉西他滨+顺铂",
+            "name_en": "Gemcitabine + Cisplatin",
+            "drug_class": "双药基石细胞毒化疗",
+            "usage_role": "晚期一线标准基石及转化治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采成熟药物，单周期药费约300–800元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "早期可切除患者的肝叶切除/胰十二指肠切除及区域淋巴结清扫",
+          "不可切除患者常规行NGS大Panel基因检测（必查FGFR2、IDH1、BRAF、HER2、NTRK、NRG1、MSI-H）",
+          "梗阻性黄疸患者的ERCP/PTCD胆道引流减黄及肝动脉灌注化疗(HAIC)/钇-90微球选择性内放射",
+          "高危人群（肝胆管结石、原发性硬化性胆管炎、华支睾吸虫感染）规范驱虫及定期超声/MRCP随访"
+        ],
+        "annual_total_cost_china_cny": "根治性手术及辅助化疗全程约6万–12万元；晚期化疗联合PD-1/PD-L1或FGFR2/IDH1靶向药费用减免前年均约10万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 2026年胆管癌精准靶向迎来密集获批：FDA于2026年5月批准HER2/HER3双抗Zenocutuzumab用于NRG1融合胆管癌，2026年9月批准高选择性FGFR2不可逆抑制剂Lirafugratinib；中国NMPA于2026年附条件批准国产FGFR2抑制剂Fanregratinib；2) HER2阳性胆管癌靶向药物Zanidatamab(HER2双抗)与德曲妥珠单抗(T-DXd)显著提升后线ORR至40%以上；3) TOPAZ-1与KEYNOTE-966确立免疫联合GC化疗一线基石地位；4) 胆汁ctDNA液体活检结合AI影像组学正显著提升极难活检的肝门部胆管癌早期诊断率。",
+        "key_unmet_needs_zh": "1) 约70%患者确诊时已丧失手术根治机会，早期无创诊断标志物极度缺乏; 2) FGFR2多克隆耐药突变及缺乏可靶向基因突变(约占50%–60%)的患者生存仍很有限; 3) 丰富致密纤维间质微环境严重阻碍药物与免疫细胞浸润。"
+      },
+      "sources": [
+        {
+          "title": "Cholangiocarcinoma (ORPHA:70567)",
+          "url": "https://www.orpha.net/en/disease/detail/70567",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "SEER Cancer Stat Facts: Liver and Intrahepatic Bile Duct Cancer",
+          "url": "https://seer.cancer.gov/statfacts/html/livibd.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0003220",
+      "name_zh": "胆囊癌",
+      "name_en": "Gallbladder carcinoma",
+      "aliases_zh": [
+        "GBC",
+        "原发性胆囊癌",
+        "胆囊恶性肿瘤"
+      ],
+      "icd10": [
+        "C23"
+      ],
+      "icd11": [
+        "2C13"
+      ],
+      "category": "恶性肿瘤 / 胆道高凶险实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "胆道系统最常见且最凶险的恶性肿瘤之一，胆囊壁缺乏黏膜下层且毗邻肝脏与重要血管，极易早期直接浸润肝脏及淋巴结转移；晚期常并发恶性梗阻性黄疸、急性化脓性胆囊炎穿孔或肝功能衰竭，未治中位生存仅3–6个月。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期（T1a期）单纯胆囊切除或（T1b–T2期）扩大根治术可获得较高治愈率（Ⅰ期5年生存率约60%–80%）；但因早期症状与胆囊结石/胆囊炎高度重叠，超过70%确诊为中晚期，整体5年生存率仅约15%–20%，晚期主要依靠化疗联合免疫及HER2等靶向延缓进展。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 92029,
+          "range_or_note": "2022年全球约9.20万例死亡，死亡发病比高达0.73，高发于智利、印度北部及东亚部分地区",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 25682,
+          "range_or_note": "2022年中国约2.57万例死亡，占全球胆囊癌死亡总数的约27.9%，女性发病略高于男性且与胆囊结石高度相关",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约126,384例，约80%–90%合并胆囊结石（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发约33,523例（占全球约26.5%），中老年女性及长期胆囊结石/胆囊息肉(>1cm)/瓷化胆囊人群为高危群体"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤坏死或合并急性化脓性胆囊炎导致胆囊穿孔/胆汁性腹膜炎：立即禁食胃肠减压、静脉抗感染补液并急诊外科手术引流或介入经皮胆囊穿刺引流(PTGBD); 2) 肿瘤压迫肝总管致急性梗阻性黄疸伴胆管炎：急诊行PTCD或ERCP引流减黄。",
+        "standard_drugs": [
+          {
+            "name_zh": "度伐利尤单抗",
+            "name_en": "Durvalumab",
+            "drug_class": "PD-L1免疫检查点抑制剂",
+            "usage_role": "联合吉西他滨+顺铂一线治疗局部晚期或转移性胆囊癌(TOPAZ-1)",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国已获批适应症，未进常规目录前配合患者援助项目年自费约8万–15万元",
+            "cost_source": "NMPA获批及公开三甲医院参考价(2024–2025)"
+          },
+          {
+            "name_zh": "帕博利珠单抗",
+            "name_en": "Pembrolizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "联合GC方案一线治疗晚期胆道癌(KEYNOTE-966)或MSI-H实体瘤",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "约17,918元/支(100mg)，未进常规目录前配合援助项目年费约10万–18万元",
+            "cost_source": "公开三甲医院及慈善援助参考价(2024)"
+          },
+          {
+            "name_zh": "卡培他滨",
+            "name_en": "Capecitabine",
+            "drug_class": "口服氟尿嘧啶前体化疗药",
+            "usage_role": "胆囊癌根治术后辅助标准口服化疗（BILCAP研究）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后约15–40元/盒(0.5g×12片)，6个月辅助化疗药费仅千余元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "德曲妥珠单抗",
+            "name_en": "Trastuzumab deruxtecan (T-DXd)",
+            "drug_class": "HER2靶向抗体偶联药物(ADC)",
+            "usage_role": "HER2高表达(IHC 3+)复发转移性胆囊癌后线治疗（胆囊癌HER2阳性率约12%–15%，显著高于胆管癌）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内挂网价约8,860元/支(100mg)，按5.4mg/kg每3周一次年自费较昂贵",
+            "cost_source": "公开挂网及创新药参考价(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "高危癌前病变预防性切除（直径≥1cm单发胆囊息肉、瓷化胆囊、合并胆囊结石>3cm或胰胆管合流异常）",
+          "意外胆囊癌(术后病理发现≥T1b期)尽早行二次根治性扩大肝楔形切除+区域淋巴结清扫",
+          "常规检测HER2表达/扩增、MSI-H/dMMR及NGS靶点",
+          "术后定期复查肝胆超声/增强CT及CA19-9/CEA"
+        ],
+        "annual_total_cost_china_cny": "根治性扩大手术及术后卡培他滨辅助全程约5万–10万元；晚期化疗联合PD-1/PD-L1或HER2-ADC费用减免前年均约10万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) TOPAZ-1与KEYNOTE-966确立PD-L1/PD-1联合GC化疗为晚期胆囊癌一线全球标准; 2) 胆囊癌是胆道肿瘤中HER2阳性率最高(约12%–15%)的亚型，Zanidatamab(HER2双抗，HERIZON-BTC-01研究)与T-DXd(DESTINY-PanTumor02)在HER2 IHC 3+人群均取得约40%–56%的客观缓解率; 3) 2024–2026年多项新辅助免疫联合化疗及放疗降期转化研究正探索提高局部进展期胆囊癌R0切除率。",
+        "key_unmet_needs_zh": "1) 早期极易被当成‘普通胆囊炎/胆结石’延误，约70%以上患者丧失根治手术机会; 2) 腹腔种植与肝转移复发率极高，缺乏高敏感血液早筛标志物; 3) HER2阴性且免疫原发性耐药患者的二线方案有效率不足10%。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "SEER Cancer Stat Facts: Gallbladder Cancer",
+          "url": "https://seer.cancer.gov/statfacts/html/gallbladder.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0011962",
+      "name_zh": "子宫内膜癌",
+      "name_en": "Endometrial cancer",
+      "aliases_zh": [
+        "子宫体癌",
+        "子宫内膜腺癌",
+        "Lynch综合征相关内膜癌"
+      ],
+      "icd10": [
+        "C54.1",
+        "C54.9"
+      ],
+      "icd11": [
+        "2C76"
+      ],
+      "category": "恶性肿瘤 / 妇科恶性肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "多数子宫内膜样腺癌分化较好、绝经后异常阴道流血出现较早，总体呈慢性进展；但浆液性癌、癌肉瘤及p53异常(p53abn)分子亚型极具侵袭性，易早期腹膜与远处转移。晚期大出血或肿瘤穿孔合并急性盆腹腔感染可在数小时至数日内危及生命。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "早期（Ⅰ期）手术切除后5年生存率高达90%–95%，是预后最好的妇科恶性肿瘤之一；即使复发或晚期患者，近年依托TCGA四大分子分型（POLE超突变型预后极佳可降阶梯、dMMR/MSI-H对PD-1免疫治疗敏感度极高、p53abn联合靶免治疗），长期生存获得突破性改善。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 100680,
+          "range_or_note": "2022年全球子宫体癌（绝大部分为子宫内膜癌）约10.07万例死亡",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 12528,
+          "range_or_note": "2022年中国约1.25万例死亡，发病率及死亡率在大城市受代谢肥胖及生活方式变化影响呈上升趋势",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约434,620例（居全球女性恶性肿瘤第6位，GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发约75,611例，跃居中国女性生殖系统第二大恶性肿瘤（仅次于宫颈癌，部分大城市已居首位）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤侵蚀血管突发大出血致失血性休克：立即建立双静脉通道扩容输血，急诊行宫腔填塞压迫止血、氨甲环酸静脉止血或急诊介入双侧子宫动脉栓塞(UAE); 2) 合并子宫积脓破裂致感染性休克：立即广谱抗感染并急诊清宫引流或手术处理。",
+        "standard_drugs": [
+          {
+            "name_zh": "紫杉醇+卡铂(TC方案)",
+            "name_en": "Paclitaxel + Carboplatin",
+            "drug_class": "铂类联合紫杉类基石化疗",
+            "usage_role": "中高危术后辅助及晚期一线基石化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "紫杉醇与卡铂均已纳入国家集采，单周期药费约400–1,200元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "仑伐替尼+帕博利珠单抗",
+            "name_en": "Lenvatinib + Pembrolizumab",
+            "drug_class": "抗血管生成多靶点TKI联合PD-1抑制剂",
+            "usage_role": "既往含铂化疗失败的非MSI-H/pMMR晚期子宫内膜癌二线（可乐组合）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "仑伐替尼集采后约100–300元/盒，帕博利珠单抗未进常规目录前配合援助年费约10万–18万元",
+            "cost_source": "国家集采及公开三甲医院创新药参考价"
+          },
+          {
+            "name_zh": "信迪利单抗/斯鲁利单抗/替雷利珠单抗",
+            "name_en": "PD-1 inhibitors (domestic)",
+            "drug_class": "国产PD-1免疫检查点抑制剂",
+            "usage_role": "dMMR/MSI-H复发或晚期子宫内膜癌免疫单药或联合治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后单支约1,080–1,400元，配合降价目录后患者自付负担大幅降低",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "多斯塔利单抗",
+            "name_en": "Dostarlimab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "原发晚期或复发子宫内膜癌一线联合TC化疗（2024年8月FDA批准扩展至全人群）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外已广泛使用，国内可及性及常规目录覆盖尚在推进中",
+            "cost_source": "U.S. FDA批准公告(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "所有新确诊患者常规行分子分型(POLE、MMR/MSI、p53)指导术后精准放化疗升降阶梯",
+          "微卫星高度不稳定(dMMR/MSI-H)或年轻患者家系务必排查林奇综合征(Lynch syndrome：MLH1/MSH2/MSH6/PMS2胚系突变)，并对一级亲属开展肠镜与妇科肿瘤早筛",
+          "早期有强烈生育需求且符合指征的ⅠA期G1内膜样癌可严格评估高效孕激素保育治疗",
+          "控制体重、逆转肥胖与胰岛素抵抗、规范管理绝经后阴道流血"
+        ],
+        "annual_total_cost_china_cny": "早期微创分期手术全程约2.5万–5万元；术后辅助放化疗约4万–8万元；晚期免疫/ADC治疗费用减免前年均约8万–20万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) RUBY与NRG-GY018 3期研究证实化疗联合PD-1(多斯塔利单抗/帕博利珠单抗)可使dMMR晚期患者疾病进展风险降低超70%，FDA于2024年8月批准多斯塔利单抗+化疗扩展至全人群晚期一线；2) 2024–2025年FDA批准HER2-ADC(T-DXd)及TROP2-ADC(Dato-DXd)、FRα-ADC等在复发难治亚型取得突破；3) RAINBO国际伞式试验正根据POLE/MMRd/p53abn/NSMP分子分型全面重构术后辅助治疗标准。",
+        "key_unmet_needs_zh": "1) p53异常(p53abn)及非激素依赖的浆液性癌/癌肉瘤极易复发且对传统内分泌和单药免疫不敏感; 2) pMMR/MSS人群一线免疫联合的长期获益幅度仍有待提升; 3) 基层医院分子分型及林奇综合征家系级联筛查覆盖率偏低。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "FDA expands endometrial cancer indication for dostarlimab-gxly with chemotherapy",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-endometrial-cancer-indication-dostarlimab-gxly-chemotherapy",
+          "publisher": "U.S. FDA",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0010108",
+      "name_zh": "睾丸生殖细胞肿瘤",
+      "name_en": "Testicular germ cell tumor",
+      "aliases_zh": [
+        "睾丸癌",
+        "精原细胞瘤",
+        "非精原细胞性生殖细胞肿瘤",
+        "TGCT"
+      ],
+      "icd10": [
+        "C62",
+        "C62.9"
+      ],
+      "icd11": [
+        "2C80"
+      ],
+      "category": "恶性肿瘤 / 高治愈率泌尿生殖实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "青年男性（20–40岁）最常见实体瘤，其中绒毛膜癌等非精原细胞瘤倍增极快、早期易肺脑转移；尽管总体治愈率极高，但巨大纵隔/腹膜后转移瘤可压迫下腔静脉或气管，绒毛膜癌肺/脑转移灶极易突发致命性大咯血或脑出血（绒癌综合征），可在数小时至数日内致命。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "实体瘤领域“可治愈”的典范！Ⅰ期患者经根治性睾丸切除术治愈率接近99%；即使发生肺、肝、腹膜后广泛转移，凭借以顺铂为核心的BEP方案联合挽救性腹膜后淋巴结清扫，总体5年生存率仍达95%以上（高危转移组亦达50%–70%）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 9240,
+          "range_or_note": "2022年全球约9,240例死亡，死因占比极低，凸显顺铂联合化疗的卓越治愈效果",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 782,
+          "range_or_note": "2022年中国约782例死亡，发病率远低于北欧白人男性但仍为青年男性重要可治愈肿瘤",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约70,714例，隐睾症史为最明确危险因素（风险升高4–8倍，GLOBOCAN 2022 / ORPHA:363504）",
+        "prevalence_china": "2022年中国新发约3,486例，其中精原细胞瘤与非精原细胞瘤约各占一半"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 高度怀疑绒毛膜癌肺/脑转移且hCG极高(>50,000 IU/L)伴多发肺转移：警惕‘绒癌综合征’，首次全量化疗极易诱发转移灶肿瘤溶解性大咯血/脑出血及呼吸衰竭，应先在ICU监护下行低剂量EP诱导减瘤后再过渡至全量BEP; 2) 合并睾丸扭转剧痛或外伤破裂血肿：急诊超声鉴别并严禁经阴囊穿刺活检（防肿瘤种植），应行经腹股沟高位精索阻断及根治性切除。",
+        "standard_drugs": [
+          {
+            "name_zh": "顺铂+依托泊苷+博来霉素(BEP方案)",
+            "name_en": "Bleomycin + Etoposide + Cisplatin (BEP)",
+            "drug_class": "铂类基石联合根治化疗",
+            "usage_role": "中高危及转移性睾丸生殖细胞肿瘤一线标准治愈方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "三药均为国家集采及基本药物，单周期药费仅约800–2,000元",
+            "cost_source": "国家基本药物及集采中选结果"
+          },
+          {
+            "name_zh": "卡铂",
+            "name_en": "Carboplatin",
+            "drug_class": "第二代铂类化疗药",
+            "usage_role": "Ⅰ期高危精原细胞瘤术后单剂辅助化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后约20–60元/支，单次辅助治疗药费仅数百元",
+            "cost_source": "国家集采及公立医院挂网价"
+          },
+          {
+            "name_zh": "紫杉醇+异环磷酰胺+顺铂(TIP方案)",
+            "name_en": "Paclitaxel + Ifosfamide + Cisplatin",
+            "drug_class": "二线挽救联合化疗",
+            "usage_role": "一线BEP复发患者的二线挽救治疗或移植前动员",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为集采及国家基本药物，单周期药费约1,500–3,000元",
+            "cost_source": "国家药品目录及集采参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "严禁经阴囊穿刺活检或经阴囊切除，必须行经腹股沟根治性睾丸切除术",
+          "青年患者化疗前常规行精子库冻存保存生育力",
+          "化疗后残余腹膜后淋巴结(>1cm非精原或>3cm PET阳性精原)行腹膜后淋巴结清扫术(RPLND)",
+          "婴幼儿隐睾症2岁前完成睾丸下降固定术，青年男性每月睾丸自检"
+        ],
+        "annual_total_cost_china_cny": "早期手术及监测全程约1.5万–3万元；转移性3–4周期BEP化疗加RPLND手术全程约4万–9万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 血浆miR-371a-3p液体活检在多项2024–2025年大型前瞻性队列中显示诊断灵敏度与特异度均超90%，有望替代部分影像与传统AFP/hCG/LDH，精准识别化疗后残余病灶活肿瘤细胞，避免不必要的RPLND手术; 2) TIGER国际3期临床对比常规化疗TIP与大剂量化疗+自体干细胞移植(HDCT)在复发TGCT中的最佳挽救策略; 3) Claudin-6靶向CAR-T(BNT211)联合mRNA疫苗在铂耐药复发难治生殖细胞肿瘤1/2期试验中展示出令人鼓舞的客观缓解。",
+        "key_unmet_needs_zh": "1) 占约5%–10%的顺铂耐药及极高危纵隔原发非精原细胞瘤仍极难治愈，缺乏有效靶向/免疫药物; 2) 青年治愈患者数十年随访中的顺铂相关心血管代谢综合征、神经病变、耳毒性及博来霉素肺纤维化仍需更低毒替代方案; 3) 部分患者因‘羞于启齿’延误就诊导致晚期巨块转移。"
+      },
+      "sources": [
+        {
+          "title": "Testicular germ cell tumor (ORPHA:363504)",
+          "url": "https://www.orpha.net/en/disease/detail/363504",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "SEER Cancer Stat Facts: Testicular Cancer",
+          "url": "https://seer.cancer.gov/statfacts/html/testis.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009807",
+      "name_zh": "骨肉瘤",
+      "name_en": "Osteosarcoma",
+      "aliases_zh": [
+        "成骨肉瘤",
+        "青少年骨恶性肿瘤",
+        "OS"
+      ],
+      "icd10": [
+        "C40",
+        "C41",
+        "C40.2"
+      ],
+      "icd11": [
+        "2B51"
+      ],
+      "category": "恶性肿瘤 / 骨与软组织肉瘤（青少年高发）",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "好发于10–25岁青少年长骨干骺端（股骨远端、胫骨近端最常见），极易被误诊为‘生长痛’或运动扭伤；肿瘤恶性度高且早期即可发生血行肺转移，未接受规范新辅助化疗+手术者80%以上在1–2年内因肺转移呼吸衰竭死亡。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期无转移患者通过“新辅助化疗+保肢/根治手术+术后辅助化疗”三明治标准模式，5年生存率约65%–75%且85%以上可成功保肢；但一旦初诊即伴肺/骨转移或化疗后复发，5年生存率骤降至20%–30%，近40年一线化疗骨架尚未出现颠覆性突破。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN将骨与关节肉瘤合并统计未单列骨肉瘤；全球年发病率约3–4/百万人口，占儿童青少年恶性肿瘤约3%–5%，SEER总体5年相对生存率约65%–70%",
+          "year": "2024",
+          "source": "NCI SEER / WHO Classification of Soft Tissue and Bone Tumours"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列骨肉瘤全国死亡登记；推算中国每年新发约3,000–4,500例，复发肺转移仍为主要死因",
+          "year": "2024",
+          "source": "《中国临床肿瘤学会(CSCO)经典型骨肉瘤诊疗指南》"
+        },
+        "prevalence_global": "全球儿童及青少年最常见原发恶性骨肿瘤，年发病率约0.3–0.4/10万，双峰年龄分布（10–20岁青少年及>60岁继发于Paget病/放疗）",
+        "prevalence_china": "中国年新发约3,000–4,500例，约70%发生在膝关节周围（股骨远端、胫骨近端）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤溶骨破坏突发长骨病理性骨折伴剧痛及血管神经压迫：立即夹板/支具外固定制动患肢、止痛并急诊骨肿瘤科会诊评估，严禁盲目推拿正骨或不当内固定导致肿瘤广泛播散; 2) 大剂量甲氨蝶呤(HD-MTX)化疗后血药浓度排泄延迟致急性肾损伤/重度黏膜炎：立即强化水化碱化、按浓度曲线加大亚叶酸钙(CF)解救剂量甚至羧肽酶。",
+        "standard_drugs": [
+          {
+            "name_zh": "大剂量甲氨蝶呤+顺铂+多柔比星(MAP方案)",
+            "name_en": "High-dose Methotrexate + Doxorubicin + Cisplatin",
+            "drug_class": "经典三明治新辅助与辅助基石联合化疗",
+            "usage_role": "非转移及转移性经典型骨肉瘤一线标准治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "甲氨蝶呤、顺铂、多柔比星均为国家集采及基本药物，单周期药费约1,500–3,500元（含亚叶酸钙解救及血药浓度监测）",
+            "cost_source": "国家基本药物及集采参考价"
+          },
+          {
+            "name_zh": "安罗替尼",
+            "name_en": "Anlotinib",
+            "drug_class": "国产多靶点抗血管生成TKI（VEGFR/FGFR/PDGFR/c-Kit）",
+            "usage_role": "标准化疗失败后的晚期/复发骨肉瘤二线靶向维持（ALTER0203）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约2,100–2,800元/盒(12mg×7粒)，月药费费用减免前约4,200–5,600元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "瑞戈非尼",
+            "name_en": "Regorafenib",
+            "drug_class": "口服多靶点酪氨酸激酶抑制剂",
+            "usage_role": "铂类及蒽环类失败的复发转移性骨肉瘤二线治疗(REGOBONE)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,500–4,500元/盒(40mg×28粒)，单周期约6,000–8,000元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "阿帕替尼",
+            "name_en": "Apatinib",
+            "drug_class": "高度选择性VEGFR-2抑制剂",
+            "usage_role": "国内广泛应用于复发难治骨肉瘤或联合卡瑞利珠单抗二线治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后月药费约3,000–5,000元（费用减免前）",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "务必在有骨肿瘤MDT经验的中心行穿刺活检（遵循保肢切口原则）及定制3D打印假体/瘤段灭活再植保肢手术",
+          "孤立性或寡转移肺转移灶积极行胸腔镜肺转移瘤切除术（显著提升长期生存）",
+          "青少年多发肿瘤或早发家族癌史排查TP53(Li-Fraumeni综合征)及RB1胚系突变并开展家系随访",
+          "青少年生长痛若伴夜间静息痛、局部皮温升高或肿块，严禁理疗按摩，立即行X线/MRI排查"
+        ],
+        "annual_total_cost_china_cny": "全程标准MAP新辅助/辅助化疗加保肢定制假体置换手术总费用约12万–25万元（假体类型差异较大）；复发后靶向免疫维持约5万–12万元/年"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 抗血管生成TKI联合PD-1单抗（如阿帕替尼+卡瑞利珠单抗、安罗替尼+免疫）在多项国内2期临床中使肺转移复发患者PFS延长至6–8个月以上; 2) B7-H3靶向ADC(如HS-20093/Ifinatamab deruxtecan)及GD2/B7-H3 CAR-T在复发难治骨肉瘤1/2期试验中展示出突破性肿瘤退缩信号; 3) 3D打印个性化多孔钛合金骨假体与机器人辅助精准截骨大幅降低保肢术后并发症。",
+        "key_unmet_needs_zh": "1) 一线MAP化疗方案近40年未实质升级，对新辅助化疗肿瘤坏死率<90%的耐药患者缺乏有效强化手段; 2) 免疫荒漠型肿瘤微环境导致单药PD-1几乎无效(ORR<5%); 3) 肺转移复发率高且缺乏精准液体活检MRD预测工具。"
+      },
+      "sources": [
+        {
+          "title": "SEER Cancer Stat Facts: Bone and Joint Cancer",
+          "url": "https://seer.cancer.gov/statfacts/html/bones.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        },
+        {
+          "title": "Osteosarcoma (ORPHA:668)",
+          "url": "https://www.orpha.net/en/disease/detail/668",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0012817",
+      "name_zh": "尤因肉瘤",
+      "name_en": "Ewing sarcoma",
+      "aliases_zh": [
+        "尤文肉瘤",
+        "EWSR1-FLI1肉瘤",
+        "外周原始神经外胚层肿瘤"
+      ],
+      "icd10": [
+        "C40.0",
+        "C41.9"
+      ],
+      "icd11": [
+        "2B52"
+      ],
+      "category": "恶性肿瘤 / 儿童青少年小圆细胞肉瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "高度恶性的小圆蓝细胞肿瘤，特征性携带EWSR1-ETS（约85%为EWSR1-FLI1）融合基因，生长极快且极易早期血行播散至肺、骨与骨髓；脊柱/骨盆原发灶可压迫脊髓致数小时至数日内急性截瘫。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "与骨肉瘤不同，尤因肉瘤对化疗和放疗均高度敏感：局限期患者通过密集双周VAC/IE方案联合局部手术及/或放疗，5年生存率已达70%–80%；但初诊伴远处转移（尤其骨/骨髓转移）或复发患者5年生存率仅25%–35%，亟需靶向EWSR1-FLI1融合蛋白的新药破局。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从骨与软组织肉瘤中单列尤因肉瘤；全球白人人群发病率约2.5–3/百万，东亚人群发病率略低（约0.5–1.5/百万），SEER总体5年生存率约70%–75%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:319 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无独立全国死亡统计；按发病率推算全国年新发约800–1,500例，主要见于5–20岁儿童青少年",
+          "year": "2024",
+          "source": "中国儿童肿瘤登记及肉瘤临床研究"
+        },
+        "prevalence_global": "儿童青少年第二常见原发恶性骨肿瘤（仅次于骨肉瘤），90%以上存在EWSR1基因重排（Orphanet ORPHA:319）",
+        "prevalence_china": "东亚人群发病率显著低于欧美，年新发约800–1,500例，骨盆、股骨及胸壁(Askin瘤)为常见原发部位"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 脊柱或椎旁尤因肉瘤压迫脊髓致突发双下肢麻木无力/大小便失禁：立即大剂量地塞米松静脉冲击并6–12小时内急诊椎管减压或启动急诊化疗/放疗，挽救神经功能; 2) 巨块型胸壁/盆腔病变首次化疗警惕肿瘤溶解综合征(TLS)：予充分水化及降尿酸处理。",
+        "standard_drugs": [
+          {
+            "name_zh": "VAC/IE双周密集交替化疗",
+            "name_en": "Vincristine + Doxorubicin + Cyclophosphamide alternating with Ifosfamide + Etoposide",
+            "drug_class": "多药联合剂量化疗基石方案",
+            "usage_role": "局限期及转移性尤因肉瘤一线标准新辅助与辅助化疗（每2周1次压缩间隔）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "长春新碱、多柔比星、环磷酰胺、异环磷酰胺、依托泊苷均为集采/基本药物，单周期药费约1,000–2,500元",
+            "cost_source": "国家基本药物及集采参考价"
+          },
+          {
+            "name_zh": "伊立替康+替莫唑胺(IT方案)",
+            "name_en": "Irinotecan + Temozolomide",
+            "drug_class": "拓扑异构酶I抑制剂联合烷化剂",
+            "usage_role": "复发难治尤因肉瘤二线首选方案(rEECur研究证实优效)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "两药均已进入国家集采，单周期药费约1,500–3,000元",
+            "cost_source": "国家集采中选结果"
+          },
+          {
+            "name_zh": "卡博替尼",
+            "name_en": "Cabozantinib",
+            "drug_class": "MET/VEGFR2/AXL多靶点TKI",
+            "usage_role": "复发难治尤因肉瘤2期临床(CABONE)显示26%客观缓解率（海外指南推荐）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内尚未正式批准该适应症，跨境或自费参考价较高",
+            "cost_source": "公开临床试验及国际指南(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "诊断必须依托病理FISH或NGS确认EWSR1基因重排（区分骨肉瘤及其他小圆细胞肉瘤）",
+          "新辅助化疗后行广泛切除手术及/或精准放疗（质子放疗对儿童骨盆/脊柱病灶保护正常器官尤佳）",
+          "高危骨/骨髓转移患者评估大剂量化疗联合自体造血干细胞支持(HDCT/ASCT)",
+          "青春期患者化疗前评估生育力保护及治疗后长期监测继发白血病/心脏毒性"
+        ],
+        "annual_total_cost_china_cny": "14–17周期双周密集化疗联合保肢手术及/或放疗全程约10万–22万元（质子放疗另需20万–30万元）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) 欧洲rEECur大型随机对照3期试验确立拓扑替康+环磷酰胺(TC)与高剂量异环磷酰胺(IFOS)在复发尤因肉瘤中的基准疗效，2024–2026年新增卡博替尼等靶向臂评估; 2) 直接靶向传统‘不可成药’融合转录因子EWSR1-FLI1及其辅因子（如LSD1抑制剂Seclidemstat、TK216、门控蛋白降解剂）进入1/2期临床; 3) B7-H3、GD2及STEAP1靶向ADC与CAR-T细胞疗法正开展针对儿童复发尤因肉瘤的多中心临床试验。",
+        "key_unmet_needs_zh": "1) 尚无任何直接靶向EWSR1-FLI1融合基因的药物获批上市; 2) 初诊骨/骨髓多发转移及2年内复发患者生存率长期徘徊在15%–30%; 3) 密集VAC/IE化疗叠加放疗对儿童生长发育、心脏及继发第二肿瘤(如t-AML)毒性沉重。"
+      },
+      "sources": [
+        {
+          "title": "Ewing sarcoma (ORPHA:319)",
+          "url": "https://www.orpha.net/en/disease/detail/319",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "SEER Cancer Stat Facts: Bone and Joint Cancer",
+          "url": "https://seer.cancer.gov/statfacts/html/bones.html",
+          "publisher": "NCI SEER",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005212",
+      "name_zh": "横纹肌肉瘤",
+      "name_en": "Rhabdomyosarcoma",
+      "aliases_zh": [
+        "RMS",
+        "胚胎性横纹肌肉瘤",
+        "腺泡状横纹肌肉瘤",
+        "儿童软组织肉瘤"
+      ],
+      "icd10": [
+        "C49.9",
+        "C49.0"
+      ],
+      "icd11": [
+        "2B55"
+      ],
+      "category": "恶性肿瘤 / 儿童软组织肉瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "儿童及青少年最常见的软组织肉瘤，好发于头颈部（眼眶/鼻咽/脑膜旁）、泌尿生殖道及四肢；其中PAX3/7-FOXO1融合阳性的腺泡状横纹肌肉瘤极易早期淋巴结及骨髓/肺转移，脑膜旁病变侵及颅底可致脑神经麻痹与颅高压危象，未治数周至数月内致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "高度依赖风险分层治疗：低危组（如眼眶/非脑膜旁胚胎型）经VAC方案化疗联合手术/放疗，5年生存率高达85%–90%以上；中危组约65%–75%；但高危转移或融合阳性复发组5年生存率仅25%–30%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列横纹肌肉瘤；全球儿童（<15岁）年发病率约4.5/百万，占儿童恶性肿瘤约3%–4%，总体5年生存率约65%–70%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:780 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；推算中国每年新发儿童及青少年RMS约1,200–1,800例",
+          "year": "2024",
+          "source": "中国抗癌协会小儿肿瘤专业委员会(CCCG)研究数据"
+        },
+        "prevalence_global": "儿童最常见软组织肉瘤（占儿童软组织肉瘤约50%），约70%在10岁前确诊（Orphanet ORPHA:780）",
+        "prevalence_china": "推算年新发约1,200–1,800例，胚胎型约占60%–70%、腺泡型约占20%–25%"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 鼻咽/咽旁/喉部横纹肌肉瘤阻塞上气道致吸气性呼吸困难：立即吸氧、保持端坐位并急诊行气管插管或气管切开; 2) 泌尿生殖道肿瘤压迫尿道致急性尿潴留或双侧肾积水：急诊导尿或经皮肾造瘘引流; 3) 脑膜旁病灶颅内侵犯伴急性颅高压：予甘露醇脱水及地塞米松减轻水肿。",
+        "standard_drugs": [
+          {
+            "name_zh": "长春新碱+放线菌素D+环磷酰胺(VAC方案)",
+            "name_en": "Vincristine + Dactinomycin + Cyclophosphamide",
+            "drug_class": "国际标准三药联合化疗基石",
+            "usage_role": "各危险度儿童及成人横纹肌肉瘤一线诱导与巩固化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "长春新碱、环磷酰胺及放线菌素D均在国家药品目录内，单周期药费约800–2,000元（放线菌素D偶有临床短缺需医院协调）",
+            "cost_source": "国家基本药物及公立医院挂网参考价"
+          },
+          {
+            "name_zh": "长春瑞滨+环磷酰胺(维持方案)",
+            "name_en": "Vinorelbine + Cyclophosphamide",
+            "drug_class": "低剂量节拍维持化疗",
+            "usage_role": "高危局限性RMS完成一线治疗后的6个月维持治疗（EpSSG RMS 2005研究显著提升OS）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及基本药物，月药费仅数百元",
+            "cost_source": "国家药品目录参考价"
+          },
+          {
+            "name_zh": "伊立替康+长春新碱(VI方案)",
+            "name_en": "Irinotecan + Vincristine",
+            "drug_class": "拓扑异构酶I抑制剂联合微管抑制剂",
+            "usage_role": "一线交替强化及复发难治RMS二线方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "两药均已集采，单周期药费约1,000–2,000元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊常规检测FOXO1(PAX3/PAX7-FOXO1)融合基因与MYOD1突变进行精准危险度分层",
+          "多学科MDT评估保器官功能手术切除及精准放疗（儿童头颈/盆腔推荐质子放疗减少发育畸形）",
+          "早发、多发或双侧横纹肌肉瘤患儿家系排查Li-Fraumeni综合征(TP53)及DICER1综合征并开展亲属早筛",
+          "治疗后长期随访内分泌生长发育、视力听力及继发肿瘤风险"
+        ],
+        "annual_total_cost_china_cny": "低中危标准VAC化疗加手术/普通放疗全程约8万–16万元；高危含质子放疗或复发多线治疗可达20万–40万元以上"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "1) 分子分型全面取代传统组织学分型：FOXO1融合状态成为核心预后与分组金标准，而MYOD1 L122R突变型被识别为极高危耐药亚型; 2) 欧洲EpSSG FaR-RMS大型多臂3期研究正评估高危患儿放疗剂量优化、伊立替康联合强化及延长维持化疗的获益; 3) 靶向FGFR4/B7-H3/HER2的CAR-T细胞疗法与ADC药物在复发难治融合阳性RMS开展早期临床试验。",
+        "key_unmet_needs_zh": "1) PAX3-FOXO1融合阳性及MYOD1突变型极易复发，复发后5年生存率不足20%; 2) 头颈部脑膜旁及盆腔放疗导致儿童颜面发育不对称、垂体功能减退及生育力受损; 3) 国内部分经典儿童化疗药（如放线菌素D）基层稳定保供仍需完善。"
+      },
+      "sources": [
+        {
+          "title": "Rhabdomyosarcoma (ORPHA:780)",
+          "url": "https://www.orpha.net/en/disease/detail/780",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Childhood Rhabdomyosarcoma Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/rhabdomyosarcoma-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005072",
+      "name_zh": "神经母细胞瘤",
+      "name_en": "Neuroblastoma",
+      "aliases_zh": [
+        "NB",
+        "儿童交感神经系统恶性肿瘤",
+        "MYCN扩增神经母细胞瘤"
+      ],
+      "icd10": [
+        "C74.9",
+        "C47.9"
+      ],
+      "icd11": [
+        "2D10.1"
+      ],
+      "category": "恶性肿瘤 / 儿童颅外最常见实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "婴幼儿最常见的颅外恶性实体瘤，被称为“儿童肿瘤之王”：低危婴儿型甚至可自发消退；但约半数确诊即属高危组（>18月龄伴MYCN扩增或广泛骨/骨髓转移），进展极快，可突发哑铃型肿瘤压迫脊髓致急性截瘫、巨大腹膜后肿块致肠梗阻/呼吸窘迫或骨髓衰竭致命。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "预后呈现极端的“冰火两重天”：低中危组经单纯观察、手术或温和化疗，5年生存率高达90%–98%；高危组即便经历诱导化疗+手术+自体干细胞移植+放疗+抗GD2免疫治疗+异维A酸维持的“全套强化治疗”，5年生存率仍仅约50%左右。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列神经母细胞瘤；全球儿童年发病率约10/百万（<15岁），虽仅占儿童肿瘤约7%–8%，却贡献了约15%的儿童肿瘤总死亡",
+          "year": "2024",
+          "source": "Orphanet ORPHA:635 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；推算中国每年新发神经母细胞瘤约3,000–4,000例，其中高危组占比超50%",
+          "year": "2024",
+          "source": "国家儿童医学中心(北京儿童医院/上海儿童医学中心)队列报告"
+        },
+        "prevalence_global": "婴儿期最常见恶性肿瘤，90%在5岁前确诊（中位年龄17–18个月，Orphanet ORPHA:635）",
+        "prevalence_china": "推算年新发约3,000–4,000例，MYCN基因扩增约占20%、ALK突变/扩增约占10%–14%"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 椎旁‘哑铃型’肿瘤经椎间孔压迫脊髓致突发双下肢无力、拒站或尿潴留：属于儿童肿瘤急症，立即静脉地塞米松冲击并急诊启动化疗（比急诊椎板减压更少脊柱畸形后遗症）或神经外科减压; 2) 新生儿4S期巨大肝转移致腹腔室隔综合征、下腔静脉回流受阻及呼吸衰竭：立即ICU呼吸支持并急诊低剂量化疗或小剂量肝区放疗减容; 3) 视性眼阵挛-肌阵挛-共济失调综合征(OMS)：予激素/IVIG/利妥昔单抗免疫调节。",
+        "standard_drugs": [
+          {
+            "name_zh": "达妥昔单抗β",
+            "name_en": "Dinutuximab beta",
+            "drug_class": "人鼠嵌合抗GD2单克隆抗体",
+            "usage_role": "高危神经母细胞瘤诱导/移植后免疫巩固及复发难治核心靶向免疫药",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国已获批上市，每支约6万元（4.5ml/20mg），5个周期标准免疫巩固总费用约40万–80万元（需结合慈善援助或商保）",
+            "cost_source": "NMPA获批及公开三甲儿童专科医院参考价(2024–2025)"
+          },
+          {
+            "name_zh": "那西妥单抗",
+            "name_en": "Naxitamab",
+            "drug_class": "人源化抗GD2单克隆抗体",
+            "usage_role": "联合GM-CSF治疗骨或骨髓复发难治性高危神经母细胞瘤（中国已获批）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "博鳌先行先试及国内获批后高值自费创新药，单疗程费用较高",
+            "cost_source": "NMPA及FDA批准公告(2020–2024)"
+          },
+          {
+            "name_zh": "洛拉替尼",
+            "name_en": "Lorlatinib",
+            "drug_class": "第三代ALK/ROS1抑制剂",
+            "usage_role": "ALK突变或扩增的高危/复发神经母细胞瘤精准靶向（NCCN及COG ANBL1531研究纳入一线试验）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判纳入肺癌目录，儿科超适应症/临床使用参考月费约1万–2万元（费用减免前）",
+            "cost_source": "国家药品谈判目录及临床研究参考"
+          },
+          {
+            "name_zh": "异维A酸(13-顺式维甲酸)+环磷酰胺/顺铂/依托泊苷/拓扑替康",
+            "name_en": "Isotretinoin + Multiagent Chemotherapy",
+            "drug_class": "诱导分化维持药及诱导化疗骨架",
+            "usage_role": "高危组诱导化疗(N5/N6或COG方案)及免疫巩固阶段分化维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "常规化疗药及异维A酸多为集采/基本药物，诱导化疗单周期药费约1,500–3,500元",
+            "cost_source": "国家基本药物及集采参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊务必检测MYCN扩增、11q/1p缺失、ALK突变及DNA倍体以精确INRG分期",
+          "高危组完成诱导化疗后行复杂腹膜后肿瘤切除、清髓性大剂量化疗+自体造血干细胞移植(ASCT)及瘤床放疗",
+          "家族性神经母细胞瘤（占约1%–2%）或双侧/多灶患儿家系常规排查ALK与PHOX2B胚系突变",
+          "长期随访顺铂耳毒性（听力筛查）、生长发育及心脏功能"
+        ],
+        "annual_total_cost_china_cny": "低中危手术/常规化疗全程约5万–12万元；高危全套治疗（含移植、放疗）约25万–40万元，若加用抗GD2单抗总花费可达60万–120万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 口服ODC抑制剂依氟鸟氨酸(Eflornithine, Iwilfin)于2023年12月获FDA批准用于抗GD2治疗后维持，将高危患儿4年无事件生存率进一步推升至84%; 2) 靶向GD2的第三代CAR-T细胞疗法(GD2-CART01，意大利Bambino Gesù团队发表于NEJM)在多线复发难治神经母细胞瘤取得63%客观缓解率，国内多项GD2/B7-H3 CAR-T临床亦呈高缓解态势; 3) COG ANBL1531 3期研究正验证ALK抑制剂洛拉替尼联合一线化疗用于ALK驱动高危患儿。",
+        "key_unmet_needs_zh": "1) MYCN扩增及复发耐药高危患儿长期治愈率仍仅约50%以下，复发后几乎无标准可治愈方案; 2) 抗GD2单抗及细胞疗法价格高昂且未入国家常规报销目录，普通家庭经济负担极其沉重; 3) 尚无针对MYCN转录因子的直接获批靶向药。"
+      },
+      "sources": [
+        {
+          "title": "Neuroblastoma (ORPHA:635)",
+          "url": "https://www.orpha.net/en/disease/detail/635",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves eflornithine for adult and pediatric patients with high-risk neuroblastoma",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-eflornithine-adult-and-pediatric-patients-high-risk-neuroblastoma",
+          "publisher": "U.S. FDA",
+          "year": "2023"
+        },
+        {
+          "title": "GD2-CART01 for Relapsed or Refractory High-Risk Neuroblastoma",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37018492/",
+          "publisher": "NEJM / PubMed",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0006058",
+      "name_zh": "肾母细胞瘤",
+      "name_en": "Wilms tumor",
+      "aliases_zh": [
+        "Wilms瘤",
+        "肾胚胎瘤",
+        "儿童肾脏恶性肿瘤"
+      ],
+      "icd10": [
+        "C64"
+      ],
+      "icd11": [
+        "2C90.0"
+      ],
+      "category": "恶性肿瘤 / 儿童泌尿系统高治愈率实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "婴幼儿最常见的原发性肾脏恶性肿瘤，家长常在给孩子洗澡时无意摸到腹部光滑无痛性巨大包块；肿瘤血供丰富、包膜较脆，若腹部受撞击或不当按压可突发肿瘤破裂腹腔内大出血，或瘤栓经肾静脉蔓延至下腔静脉/右心房引发急性肺栓塞，数小时内危及生命。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "儿童实体瘤治愈典范之一！良好组织学分型(FH)患儿经手术联合长春新碱+放线菌素D(±多柔比星)规范化疗及必要放疗，总体5年生存率高达90%以上（Ⅰ–Ⅱ期超过95%）；仅约5%–10%的弥漫性间变型(UH)或双侧复发患儿预后较差。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN将肾母细胞瘤并入肾癌统计未单列；全球<15岁儿童年发病率约7–10/百万，高收入国家5年生存率超90%，低收入地区受限于延误诊治仍仅40%–60%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:654 / NCI PDQ"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；推算中国每年新发约1,500–2,500例，国内大型儿童肿瘤中心良好型5年生存率已达85%–92%",
+          "year": "2024",
+          "source": "CCCG-WT研究 / 国家儿童医学中心临床数据"
+        },
+        "prevalence_global": "占儿童肾脏肿瘤的90%以上，80%在5岁前确诊（中位年龄3–4岁，Orphanet ORPHA:654）",
+        "prevalence_china": "约5%–10%为双侧肾母细胞瘤，约10%伴先天性畸形综合征（WAGR、Denys-Drash、Beckwith-Wiedemann综合征）"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发腹部剧痛、腹围骤增及面色苍白低血压（高度怀疑肿瘤破裂腹腔大出血）：立即绝对卧床制动，严禁按压腹部，急诊输血扩容并行介入肾动脉栓塞或外科急诊止血手术; 2) 下腔静脉/右心房瘤栓致急性心衰或肺栓塞：立即心脏超声定位并多学科体外循环联合取栓评估; 3) 肾素分泌型高血压危象：予静脉尼卡地平/拉贝洛尔平稳降压。",
+        "standard_drugs": [
+          {
+            "name_zh": "长春新碱+放线菌素D(EE-4A/VA方案)",
+            "name_en": "Vincristine + Dactinomycin",
+            "drug_class": "微管抑制剂联合抗肿瘤抗生素",
+            "usage_role": "Ⅰ–Ⅱ期良好组织学肾母细胞瘤标准双药化疗（无需蒽环类与放疗）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "长春新碱集采价低廉，放线菌素D在国家目录内，单周期药费约500–1,200元",
+            "cost_source": "国家基本药物及公立医院参考价"
+          },
+          {
+            "name_zh": "多柔比星+环磷酰胺+依托泊苷(DD-4A/强化方案)",
+            "name_en": "Doxorubicin + Cyclophosphamide + Etoposide",
+            "drug_class": "蒽环类/烷化剂/鬼臼毒素类联合化疗",
+            "usage_role": "Ⅲ–Ⅳ期、间变型(UH)或1q增益高危肾母细胞瘤强化化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采及基本药物，单周期药费约1,000–2,500元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "卡铂+异环磷酰胺+依托泊苷(ICE方案)",
+            "name_en": "Ifosfamide + Carboplatin + Etoposide",
+            "drug_class": "二线挽救联合化疗",
+            "usage_role": "复发或高危间变型肾母细胞瘤挽救治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为集采及目录内药物，单周期药费约1,500–3,000元",
+            "cost_source": "国家药品目录参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "家长发现小儿腹部包块切忌用力揉按，及时行腹部超声及增强CT明确诊断",
+          "双侧肾母细胞瘤或孤立肾患儿先行术前新辅助化疗缩瘤，争取保留肾单位手术(NSS)避免终生透析",
+          "合并无虹膜(WAGR)、泌尿生殖畸形或偏侧肥大(BWS)患儿及家族成员务必行WT1、11p15甲基化及REST/CTR9胚系基因检测与遗传咨询",
+          "高危遗传综合征儿童每3个月行一次腹部超声早筛直至8岁"
+        ],
+        "annual_total_cost_china_cny": "早期Ⅰ–Ⅱ期手术+双药化疗全程约4万–8万元；Ⅲ–Ⅳ期或复发需多线化疗、放疗及移植全程约10万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 1q染色体臂增益(1q gain)及1p/16q杂合性缺失(LOH)正式纳入COG与SIOP国际危险度分层标准，精准筛选出需要强化化疗的‘伪低危’患儿，同时让真正低危组豁免放疗和心脏毒性蒽环类药物; 2) 循环肿瘤DNA(ctDNA)微小残留病监测在2024–2025年儿童肾脏肿瘤队列中实现复发提前数月预警; 3) 针对弥漫性间变型(TP53突变)的Aurora激酶抑制剂及靶向GPC3/B7-H3免疫疗法正开展早期儿科试验。",
+        "key_unmet_needs_zh": "1) 弥漫性间变型(Diffuse Anaplasia)及含1q增益复发患儿5年生存率仍仅40%–55%; 2) 双侧肾母细胞瘤保肾术后远期慢性肾脏病(CKD)及高血压风险突出; 3) 放线菌素D偶发性全国供应链短缺曾影响儿童按期规范化疗。"
+      },
+      "sources": [
+        {
+          "title": "Wilms tumor (ORPHA:654)",
+          "url": "https://www.orpha.net/en/disease/detail/654",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Wilms Tumor and Other Childhood Kidney Tumors Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/kidney/hp/wilms-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008380",
+      "name_zh": "视网膜母细胞瘤",
+      "name_en": "Retinoblastoma",
+      "aliases_zh": [
+        "RB",
+        "儿童眼内恶性肿瘤",
+        "白瞳症肿瘤",
+        "RB1基因相关眼癌"
+      ],
+      "icd10": [
+        "C69.2"
+      ],
+      "icd11": [
+        "2D02.2"
+      ],
+      "category": "恶性肿瘤 / 儿童眼部遗传性实体瘤",
+      "course_type": "congenital_genetic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "婴幼儿最常见的眼内原发恶性肿瘤，典型早期信号是闪光灯拍照出现“猫眼/白瞳症(Leukocoria)”或斜视；若未及时治疗，肿瘤突破眼球壁经视神经侵犯颅内或血行转移至骨髓，数月至1年内即可致命；遗传型患儿还存在发生颅内松果体区“三侧性视网膜母细胞瘤”及青春期继发骨肉瘤/软组织肉瘤的终生风险。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "眼内期（A–D期）经眼科动脉灌注化疗(IAC)、玻璃体腔注药、激光/冷冻及全身化疗，在现代医疗条件下总生存率高达95%–99%且大部分可成功保眼保视力；但眼外期或颅内侵犯患者生存率骤降，早期发现“白瞳症”是保命保眼的关键。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列RB；全球每年新发约8,000–9,000例（约1/15,000–1/20,000活产儿），高收入国家生存率>95%，而撒哈拉以南非洲等低收入地区因就诊极晚死亡率仍达50%–70%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:790 / Lancet Global Health RB Study"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡登记；推算中国每年新发约1,000–1,200例（约占全球12%），国内眼内期5年生存率已超95%",
+          "year": "2024",
+          "source": "中国医师协会眼科医师分会眼肿瘤专委会共识"
+        },
+        "prevalence_global": "约40%为遗传型（常染色体显性遗传，RB1胚系突变，常双侧或多灶发病），约60%为散发单侧型（Orphanet ORPHA:790）",
+        "prevalence_china": "每年新发约1,000–1,200例，90%以上在3岁前确诊"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤坏死引发急性继发性青光眼/眼压骤升伴剧烈眼痛哭闹、角膜水肿及眼球突出：急诊降眼压治疗并尽快评估肿瘤控制或必要时眼球摘除防颅内转移; 2) 视神经侵犯伴颅内压增高（头痛呕吐、嗜睡）：立即头颅MRI排查颅内播散或三侧性RB并予脱水降颅压。",
+        "standard_drugs": [
+          {
+            "name_zh": "美法仑（眼动脉介入灌注/玻璃体注药）",
+            "name_en": "Melphalan (IAC / Intravitreal)",
+            "drug_class": "烷化剂局部高浓度靶向化疗",
+            "usage_role": "超选择性眼动脉灌注化疗(IAC)及玻璃体腔注射(IViC)保眼核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品目录内药物，单次眼动脉介入手术+药物综合费用约1.5万–2.5万元",
+            "cost_source": "国家药品目录及国内大型眼肿瘤中心参考价"
+          },
+          {
+            "name_zh": "卡铂+依托泊苷+长春新碱(CEV方案)",
+            "name_en": "Carboplatin + Etoposide + Vincristine",
+            "drug_class": "全身静脉三药联合化疗",
+            "usage_role": "双侧RB减容保眼、高危病理术后辅助及眼外转移全身治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采及基本药物，单周期药费约800–1,800元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "拓扑替康",
+            "name_en": "Topotecan",
+            "drug_class": "拓扑异构酶I抑制剂",
+            "usage_role": "联合美法仑用于顽固玻璃体种植或眼内动脉灌注挽救保眼",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及目录内药物，单周期药费约1,000–2,000元",
+            "cost_source": "国家药品目录参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "所有患儿及父母、同胞兄弟姐妹必须行RB1基因胚系突变检测及遗传咨询（遗传型子女有50%遗传概率，可通过PGT-M三代试管婴儿阻断）",
+          "遗传型RB1突变携带患儿终生严禁或极严格限制眼眶外照射放疗（放疗会成倍诱发青春期骨肉瘤等第二原发癌），并定期随访脑MRI排查三侧性RB及第二肿瘤",
+          "眼内局部激光光凝、经瞳孔温热疗法(TTT)及冷冻治疗巩固保眼疗效",
+          "婴幼儿常规红光反射筛查，一旦发现照片‘白瞳’或斜视立即至专业眼底肿瘤科就诊"
+        ],
+        "annual_total_cost_china_cny": "全身化疗+局部激光冷冻全程约4万–8万元；多次眼动脉介入灌注(IAC)保眼治疗全程约8万–18万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 房水液体活检(Aqueous Humor ctDNA)成为2024–2025年突破性无创技术，由于RB严禁眼球活检，房水cfDNA可直接检测RB1突变及6p染色体增益预测保眼成功率; 2) 超选择性眼动脉灌注化疗(IAC)联合玻璃体腔美法仑/拓扑替康使D期晚期眼内RB保眼率从不足30%跃升至70%以上; 3) 靶向MDM2-p53通路及溶瘤腺病毒(VCN-01)眼内注射在顽固复发保眼临床试验中展示出保留眼球的新希望。",
+        "key_unmet_needs_zh": "1) 偏远地区基层对‘白瞳症’认知不足，仍有患儿延误至眼球突出(E期/眼外期)才就诊; 2) 遗传型RB1突变患儿终生面临极高的第二原发恶性肿瘤（骨肉瘤、黑色素瘤、软组织肉瘤）风险; 3) E期极晚期伴视神经筛板后侵犯患者仍常需眼球摘除保命。"
+      },
+      "sources": [
+        {
+          "title": "Retinoblastoma (ORPHA:790)",
+          "url": "https://www.orpha.net/en/disease/detail/790",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Retinoblastoma Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/retinoblastoma/hp/retinoblastoma-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007959",
+      "name_zh": "髓母细胞瘤",
+      "name_en": "Medulloblastoma",
+      "aliases_zh": [
+        "MB",
+        "小脑髓母细胞瘤",
+        "儿童后颅窝胚胎性脑肿瘤"
+      ],
+      "icd10": [
+        "C71.6"
+      ],
+      "icd11": [
+        "2A00.10"
+      ],
+      "category": "恶性肿瘤 / 儿童中枢神经系统恶性肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "儿童最常见的恶性脑肿瘤（好发于小脑蚓部），因紧邻第四脑室，极易阻塞脑脊液循环引发急性梗阻性脑积水与枕骨大孔疝，表现为晨起喷射性呕吐、剧烈头痛及步态共济失调，脑疝发作时可在数小时内致呼吸心跳骤停；且极易沿脑脊液发生脊髓椎管播散转移。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "总体5年生存率已达70%–80%，且高度依赖四大分子分型：WNT型预后极佳（5年生存率>95%），SHH型与Group 4型居中（约75%–85%），而伴MYC扩增或TP53突变的Group 3/SHH-TP53型预后较差（5年生存率约40%–55%）。手术全切+全脑全脊髓放疗(CSI)+联合化疗是核心治愈路径。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN将中枢神经系统肿瘤合并统计未单列髓母细胞瘤；儿童年发病率约5–6/百万，占儿童恶性脑肿瘤约20%，高收入国家总体5年生存率约70%–80%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:616 / WHO CNS5 Classification"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；推算中国每年新发儿童及成人髓母细胞瘤约1,500–2,500例",
+          "year": "2024",
+          "source": "中国儿童脑肿瘤协作组(CNOG)及神经外科临床报告"
+        },
+        "prevalence_global": "约70%发生在10岁以下儿童，成人仅占约15%–20%（以SHH型为主，Orphanet ORPHA:616）",
+        "prevalence_china": "儿童后颅窝最常见恶性肿瘤，四大分子分型占比：WNT(~10%)、SHH(~30%)、Group 3(~25%)、Group 4(~35%)"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤阻塞第四脑室致急性梗阻性脑积水、意识障碍及枕骨大孔疝先兆（剧烈头痛、喷射呕吐、颈强直、呼吸节律不整）：立即抬高床头、静脉甘露醇+地塞米松脱水降颅压，急诊行脑室外引流(EVD)或内镜下第三脑室底造瘘术(ETV)挽救生命，严禁行腰椎穿刺（防诱发致命性脑疝）; 2) 术后小脑缄默综合征(CMS)：早期语言吞咽康复干预。",
+        "standard_drugs": [
+          {
+            "name_zh": "顺铂+洛莫司汀(CCNU)+长春新碱",
+            "name_en": "Cisplatin + Lomustine + Vincristine",
+            "drug_class": "经典放疗后辅助联合化疗(Packer方案)",
+            "usage_role": "标危及高危髓母细胞瘤全脑全脊髓放疗后的标准巩固化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "顺铂、长春新碱为集采药物，洛莫司汀价格低廉，单周期药费约1,000–2,000元",
+            "cost_source": "国家药品目录及临床采购参考价"
+          },
+          {
+            "name_zh": "大剂量甲氨蝶呤+环磷酰胺+卡铂/依托泊苷(婴幼儿去放疗方案)",
+            "name_en": "Head Start / HIT-SKK infant regimens",
+            "drug_class": "大剂量化疗联合自体干细胞挽救（替代全脑放疗）",
+            "usage_role": "<3岁婴幼儿患者避免全脑放疗致严重智力损伤的替代策略",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "多为国家基本药物及集采药物，含移植全程约15万–25万元",
+            "cost_source": "国家药品目录及儿童血液肿瘤中心参考"
+          },
+          {
+            "name_zh": "维莫德吉",
+            "name_en": "Vismodegib",
+            "drug_class": "口服SMO(Hedgehog通路)抑制剂",
+            "usage_role": "成人或骨骼成熟青少年SHH亚型复发髓母细胞瘤精准靶向（未成熟儿童禁用防骨骺早闭）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外已获批/指南推荐，国内尚无该适应症国家常规药品目录",
+            "cost_source": "NCCN CNS指南及临床试验数据"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊病理务必完成WHO CNS5四大分子分型（WNT、SHH-TP53野生型、SHH-TP53突变型、Non-WNT/Non-SHH）",
+          "神经导航下安全最大范围肿瘤切除术+全脑全脊髓精准放疗(CSI，强烈推荐质子放疗保护儿童耳蜗、甲状腺与心脏)",
+          "SHH亚型患儿务必排查PTCH1/SUFU(Gorlin综合征)及TP53(Li-Fraumeni综合征)胚系突变并开展家系筛查与防晒防辐射管理",
+          "治愈后长期随访内分泌（生长激素/甲状腺素补充）、认知学习能力及听力"
+        ],
+        "annual_total_cost_china_cny": "开颅手术+普通全脑全脊髓放疗+标准化疗全程约10万–20万元；若采用质子放疗总费用约30万–45万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "1) 分子分层降阶梯与强化临床试验（SJMB12、PNET5）正尝试对预后极佳的WNT型安全降低全脑全脊髓放疗剂量(从23.4Gy降至15–18Gy)以显著改善儿童远期智商与生活质量; 2) 脑脊液ctDNA液体活检实现无创追踪分子亚型及比影像学更早数月发现MRD残留与复发; 3) 靶向Group 3 MYC扩增的CDK4/6抑制剂、BET抑制剂及脑室内注射B7-H3/HER2 CAR-T正在复发难治儿童脑肿瘤中开展1/2期临床。",
+        "key_unmet_needs_zh": "1) Group 3(MYC扩增)及SHH-TP53突变型复发后几乎无药可救，5年生存率不足10%; 2) 全脑全脊髓放疗导致的不可逆神经认知下降、矮小症、不孕不育及放射性脑坏死亟待质子放疗与靶向替代; 3) <3岁婴幼儿尚缺兼具高治愈率与低神经毒性的靶向方案。"
+      },
+      "sources": [
+        {
+          "title": "Medulloblastoma (ORPHA:616)",
+          "url": "https://www.orpha.net/en/disease/detail/616",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Childhood Medulloblastoma and Other CNS Embryonal Tumors Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/brain/hp/child-cns-embryonal-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0016642",
+      "name_zh": "脑膜瘤",
+      "name_en": "Meningioma",
+      "aliases_zh": [
+        "颅内脑膜瘤",
+        "脊膜瘤",
+        "NF2相关脑膜瘤",
+        "非典型/间变性脑膜瘤"
+      ],
+      "icd10": [
+        "D32.9",
+        "C70.0"
+      ],
+      "icd11": [
+        "2A01.0"
+      ],
+      "category": "恶性与交界性肿瘤 / 成人最常见原发颅内肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "约80%为WHO 1级良性生长极慢，许多体检偶发者可终生无症状；但WHO 2级（非典型，约15%–18%）与WHO 3级（间变/恶性，约1%–3%）易局部浸润脑组织并反复复发；若巨大脑膜瘤引发重度脑水肿、癫痫持续状态或小脑幕切迹疝，可在数小时至数日内致命。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "绝大多数（WHO 1级）经显微镜下Simpson I级全切即可获得临床治愈，10年无进展生存率超85%–90%；无法全切的高危颅底/海绵窦病灶结合立体定向放射外科(伽玛刀/射波刀)长期控制率极高；唯独WHO 3级恶性脑膜瘤5年生存率约35%–60%，目前尚缺乏特效靶向/化疗药。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN仅统计恶性CNS肿瘤，未包含占比达80%的WHO 1级良性脑膜瘤；欧美CBTRUS数据显示脑膜瘤占全部原发颅内肿瘤约40%，年发病率约8–10/10万，女性约为男性2–2.5倍",
+          "year": "2024",
+          "source": "CBTRUS Statistical Report / Orphanet ORPHA:2495"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列脑膜瘤全国死亡统计；国内脑膜瘤同样居成人原发颅内肿瘤第1–2位，推算全国年新发约5万–8万例（含无症状体检偶发）",
+          "year": "2024",
+          "source": "《中国脑膜瘤诊疗指南》 / 国家神经系统疾病临床医学研究中心"
+        },
+        "prevalence_global": "成人最常见原发性中枢神经系统肿瘤（占约39%–40%），40%–60%散发病例携带NF2基因失活突变（Orphanet ORPHA:2495）",
+        "prevalence_china": "中老年女性高发，长期大剂量孕激素使用史及既往头部放疗史为明确危险因素"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 巨大脑膜瘤伴重度瘤周水肿突发脑疝先兆（剧烈头痛呕吐、一侧瞳孔散大、意识昏迷）：立即静脉推注20%甘露醇125–250ml+地塞米松10mg脱水降颅压，紧急行开颅肿瘤切除/去骨瓣减压术; 2) 突发癫痫持续状态：立即静脉推注地西泮/咪达唑仑或左乙拉西坦控制发作并保持呼吸道通畅。",
+        "standard_drugs": [
+          {
+            "name_zh": "甘露醇+地塞米松",
+            "name_en": "Mannitol + Dexamethasone",
+            "drug_class": "脱水降颅压及抗瘤周水肿急救用药",
+            "usage_role": "术前、围手术期及放疗后急性脑水肿/颅高压控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家基本药物，单日药费仅数十元",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "左乙拉西坦",
+            "name_en": "Levetiracetam",
+            "drug_class": "新型抗癫痫发作药物",
+            "usage_role": "脑膜瘤相关症状性癫痫控制及开颅围术期预防（无肝酶诱导相互作用）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选后约20–50元/盒(0.5g×30片)，月药费仅数十元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "贝伐珠单抗",
+            "name_en": "Bevacizumab",
+            "drug_class": "抗VEGF单克隆抗体",
+            "usage_role": "复发难治高级别脑膜瘤及放疗后顽固性放射性脑坏死/水肿超适应症姑息控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药集采/挂网约1,000–1,200元/支(100mg)",
+            "cost_source": "国家药品目录及生物类似药参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无症状小脑膜瘤（直径<2–3cm、无水肿及神经压迫）首选定期头颅MRI‘观察等待’，避免过度开颅",
+          "有症状或生长进展病灶行显微神经外科肿瘤全切（争取Simpson I级切除硬脑膜附着点），高危部位残留行伽玛刀/射波刀精准放疗",
+          "多发性脑膜瘤、年轻起病(<30岁)或伴双侧听神经瘤患者家系务必排查NF2相关神经鞘瘤病(NF2)及SMARCE1胚系突变",
+          "WHO 2–3级脑膜瘤术后常规行辅助外照射放疗，并检测TERT启动子突变与CDKN2A/B纯合缺失（WHO CNS5自动升级为3级）"
+        ],
+        "annual_total_cost_china_cny": "观察等待期年MRI随访约800–1,500元；开颅显微手术全程约4万–9万元；伽玛刀/射波刀单疗程约2万–4万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) WHO CNS5分类与DNA甲基化谱彻底革新脑膜瘤预后评估，明确TERT启动子突变与CDKN2A/B纯合缺失即使形态学似良性亦归为3级恶性并需积极术后放疗; 2) 针对复发脑膜瘤的精准靶向伞式试验(Alliance A071401)正验证FAK抑制剂(针对NF2突变)、AKT抑制剂(针对AKT1 E17K突变)及SMO抑制剂(针对SMO突变)的临床疗效; 3) 靶向生长抑素受体SSTR2的核素肽受体放射性核素疗法(177Lu-DOTATATE)在复发难治高级别脑膜瘤2期临床展示出良好疾病控制率。",
+        "key_unmet_needs_zh": "1) WHO 3级恶性及多次复发耐药脑膜瘤尚无任何获批的高效全身靶向或化疗药物; 2) 颅底海绵窦、岩斜区脑膜瘤因包绕颈内动脉与颅神经无法全切，术后颅神经损伤率仍较高; 3) 尚缺无创鉴别良性与隐匿恶性进展(TERT突变)的术前影像AI预测工具。"
+      },
+      "sources": [
+        {
+          "title": "Meningioma (ORPHA:2495)",
+          "url": "https://www.orpha.net/en/disease/detail/2495",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Adult Central Nervous System Tumors Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/brain/hp/adult-brain-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005065",
+      "name_zh": "恶性间皮瘤",
+      "name_en": "Mesothelioma",
+      "aliases_zh": [
+        "恶性胸膜间皮瘤",
+        "MPM",
+        "石棉相关间皮瘤",
+        "腹膜间皮瘤"
+      ],
+      "icd10": [
+        "C45",
+        "C45.0"
+      ],
+      "icd11": [
+        "2C26.0"
+      ],
+      "category": "恶性肿瘤 / 胸部与浆膜腔极高凶险实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "与石棉职业/环境暴露高度相关（潜伏期长达20–40年），肿瘤沿胸膜呈“盔甲样”弥漫包裹肺脏并产生大量血性胸水，患者常因顽固性胸痛、进行性呼吸困难及肺不张在1年内衰竭死亡；并发张力性大量恶性胸腔积液或恶性心包填塞时可在数小时至数日内窒息/循环衰竭猝死。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "高度难治的恶性肿瘤之一，极少能在早期实现彻底根治，整体5年生存率仅约10%–12%；但CheckMate 743等研究确立的纳武利尤单抗+伊匹木单抗双免疫方案及化疗+帕博利珠单抗(KEYNOTE-483)已将晚期中位总生存从约12个月延长至18个月以上（肉瘤样亚型获益尤为显著）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 22715,
+          "range_or_note": "2022年全球约2.27万例死亡，死亡发病比高达0.83，绝大多数源于既往石棉工业暴露",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 1681,
+          "range_or_note": "2022年中国约1,681例死亡，但因既往石棉建材及造船业暴露存在20–40年滞后效应及基层病理漏诊，实际疾病负担可能被低估",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约27,350例，胸膜间皮瘤占80%–85%，腹膜间皮瘤约占10%–15%（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发约2,381例，浙江大窑、云南大姚等既往青石棉环境暴露区及重工业区为高发监测点"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 恶性大量胸腔积液致急性呼吸窘迫、端坐呼吸及低氧血症：立即吸氧并行床旁超声引导下胸腔穿刺置管引流（首次放液不超过800–1000ml，防复张性肺水肿）; 2) 肿瘤侵犯心包致急性心包填塞（低血压、颈静脉怒张、心音遥远）：立即床旁超声引导下心包穿刺引流减压。",
+        "standard_drugs": [
+          {
+            "name_zh": "培美曲塞+顺铂/卡铂（±贝伐珠单抗）",
+            "name_en": "Pemetrexed + Cisplatin/Carboplatin (± Bevacizumab)",
+            "drug_class": "抗叶酸化疗联合铂类（±抗血管生成）",
+            "usage_role": "不可切除恶性胸膜间皮瘤经典一线化疗基石（必须补充叶酸及维生素B12减毒）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "培美曲塞与顺铂/卡铂均已纳入国家集采，单周期药费约600–1,500元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "纳武利尤单抗+伊匹木单抗",
+            "name_en": "Nivolumab + Ipilimumab",
+            "drug_class": "PD-1联合CTLA-4双免疫检查点抑制剂",
+            "usage_role": "不可切除恶性胸膜间皮瘤一线无化疗方案（CheckMate 743，非上皮样/肉瘤样亚型首选）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "中国已获批该适应症，未进常规目录前自费配合慈善援助年费约15万–25万元",
+            "cost_source": "NMPA获批及公开三甲医院参考价(2024)"
+          },
+          {
+            "name_zh": "帕博利珠单抗+培美曲塞+铂类",
+            "name_en": "Pembrolizumab + Pemetrexed + Platinum",
+            "drug_class": "PD-1免疫联合化疗",
+            "usage_role": "2024年9月FDA批准用于不可切除恶性胸膜间皮瘤一线治疗（KEYNOTE-483）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "帕博利珠单抗未进常规目录前配合援助年费约10万–18万元",
+            "cost_source": "U.S. FDA批准及公开参考价(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "确诊必须依靠胸腔镜胸膜多点活检及免疫组化（BAP1缺失、MTAP、Calretinin、WT1）区分反应性增生或肺腺癌",
+          "极早期上皮样患者可谨慎评估胸膜剥脱/去皮质术(P/D)，近年来MARS 2研究提示扩大手术获益有限，切忌盲目行胸膜外全肺切除",
+          "年轻、无石棉暴露史或家族多发肿瘤患者排查BAP1肿瘤易感综合征胚系突变（关联葡萄膜黑色素瘤、肾癌）",
+          "严格禁绝石棉职业与环境暴露，有暴露史者定期行低剂量胸部CT随访"
+        ],
+        "annual_total_cost_china_cny": "一线培美曲塞+铂类化疗及胸水胸膜固定术全程约3万–6万元；若采用双免疫(O+Y)或帕博利珠单抗联合方案年费约12万–25万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 2024年9月FDA批准帕博利珠单抗联合培美曲塞+铂类一线治疗晚期恶性胸膜间皮瘤(KEYNOTE-483); 2) 精氨酸剥夺疗法ADI-PEG20联合化疗在ASS1缺失的非上皮样间皮瘤3期ATOMIC-Meso试验中取得总生存阳性突破; 3) 靶向间皮素(Mesothelin)的CAR-T细胞疗法与ADC药物，以及针对BAP1/CDKN2A/MTAP合成致死通路的PRMT5/MAT2A抑制剂正处于1/2期临床前沿。",
+        "key_unmet_needs_zh": "1) 缺乏针对间皮瘤高频抑癌基因缺失（BAP1、NF2、CDKN2A）的已上市精准靶向药; 2) 上皮样以外的肉瘤样/双相型间皮瘤对化疗极度耐药，整体中位生存仍不足1.5年; 3) 胸腔镜活检前常被误诊为‘结核性胸膜炎’导致长期误治。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves pembrolizumab with chemotherapy for unresectable advanced or metastatic malignant pleural mesothelioma",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemotherapy-unresectable-advanced-or-metastatic-malignant-pleural",
+          "publisher": "U.S. FDA",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0011719",
+      "name_zh": "胃肠道间质瘤",
+      "name_en": "Gastrointestinal stromal tumor",
+      "aliases_zh": [
+        "GIST",
+        "胃肠间质瘤",
+        "Cajal间质细胞肿瘤"
+      ],
+      "icd10": [
+        "C26.9",
+        "C49.4"
+      ],
+      "icd11": [
+        "2B5B"
+      ],
+      "category": "恶性肿瘤 / 胃肠道靶向治疗典范软组织肉瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "起源于胃肠道壁卡哈尔(Cajal)间质细胞的肉瘤，传统放化疗几乎完全无效；极小胃GIST(<2cm)常呈惰性，但中高危GIST易肝转移及腹膜种植。肿瘤破溃可突发消化道大出血（呕血/黑便休克）或瘤体破裂致腹腔大出血及肠梗阻，数小时内危及生命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "靶向治疗改变命运的典范！局限期手术完整切除（高危术后口服伊马替尼辅助3年）治愈率高，SEER局限期5年生存率达95%；即使发生肝/腹膜转移，依托伊马替尼→舒尼替尼→瑞戈非尼→瑞派替尼/阿伐替尼四线接力靶向，总体5年生存率仍达80%–85%（晚期5年生存约50%），绝大多数患者可带瘤长期正常生活。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从消化道/肉瘤中单列GIST；全球年发病率约1–1.5/10万，SEER全分期5年相对生存率约80%–85%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:44890 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；推算中国每年新发GIST约1.5万–2.5万例，约60%发生于胃、30%发生于小肠",
+          "year": "2024",
+          "source": "《中国胃肠间质瘤诊断治疗专家共识》 / CSCO GIST指南"
+        },
+        "prevalence_global": "胃肠道最常见间叶源性肿瘤，约75%–80%携带KIT基因突变、约10%携带PDGFRA突变、约10%–15%为野生型(SDHx缺陷/NF1/BRAF等，Orphanet ORPHA:44890)",
+        "prevalence_china": "推算年新发约1.5万–2.5万例，中老年高发"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤黏膜破溃致急性消化道大出血（大量呕血、柏油样黑便、休克）：立即禁食、扩容输血、静脉质子泵抑制剂(PPI)及生长抑素，急诊内镜止血或介入血管栓塞，无效则急诊外科切除止血; 2) 巨块GIST自发或外伤破裂致腹腔大出血/急性腹膜炎：急诊剖腹止血切除并严格腹腔冲洗防广泛种植（术后需按高危立即足疗程伊马替尼）。",
+        "standard_drugs": [
+          {
+            "name_zh": "伊马替尼",
+            "name_en": "Imatinib",
+            "drug_class": "第一代KIT/PDGFRA酪氨酸激酶抑制剂",
+            "usage_role": "中高危术后辅助(3年)、术前新辅助缩瘤及晚期GIST一线标准口服靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产仿制药集采后约400–800元/盒(0.1g×60片)，每日400mg月药费费用减免前约800–1,600元",
+            "cost_source": "国家组织药品集中采购及药品目录参考价"
+          },
+          {
+            "name_zh": "舒尼替尼",
+            "name_en": "Sunitinib",
+            "drug_class": "多靶点TKI（抑制KIT/PDGFR/VEGFR）",
+            "usage_role": "伊马替尼耐药后的晚期GIST二线标准靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及谈判后月药费约2,000–4,000元（费用减免前）",
+            "cost_source": "国家药品目录及集采参考价"
+          },
+          {
+            "name_zh": "瑞戈非尼",
+            "name_en": "Regorafenib",
+            "drug_class": "口服多靶点TKI",
+            "usage_role": "伊马替尼和舒尼替尼失败后的晚期GIST三线标准靶向",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,500–4,500元/盒(40mg×28粒)",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "瑞派替尼",
+            "name_en": "Ripretinib",
+            "drug_class": "开关控制型广谱KIT/PDGFRA抑制剂",
+            "usage_role": "既往接受过≥3种激酶抑制剂的晚期GIST四线标准靶向（KIT外显子11二线INTRIGUE亚组亦具优势）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家药品谈判目录，月药费较原研上市初期大幅降至数千元区间",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "阿伐替尼",
+            "name_en": "Avapritinib",
+            "drug_class": "高选择性PDGFRA D842V突变抑制剂",
+            "usage_role": "对伊马替尼原发耐药的PDGFRA外显子18(D842V)突变GIST一线特效药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家药品谈判目录，精准破解D842V耐药难题",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗前务必行KIT(外显子9/11/13/17)与PDGFRA(外显子12/14/18)基因检测指导精准用药（D842V禁用伊马替尼，直接用阿伐替尼；野生型警惕SDHx缺陷）",
+          "外科手术严禁肿瘤破裂，避免常规过度淋巴结清扫",
+          "年轻患者或SDHx缺陷型野生型GIST排查Carney-Stratakis综合征(SDHB/C/D)及NF1胚系突变",
+          "绝不擅自漏服或随意停用伊马替尼，定期复查腹盆增强CT监测耐药"
+        ],
+        "annual_total_cost_china_cny": "局限期手术及国产伊马替尼辅助年费约2万–4万元；后线瑞派替尼/阿伐替尼入常规目录后年自费负担显著可控"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 新一代高选择性KIT抑制剂Bezuctinib(CGT9486，3期PEAK研究联合舒尼替尼)与IDRX-42(Velzatinib)正全面攻克KIT外显子13/14/17/18多克隆继发耐药; 2) 2024–2025年ctDNA液体活检分型试验(INSIGHT)证实血液实时监测KIT继发突变可精准指导二线选药（外显子17/18突变选瑞派替尼vs外显子13/14选舒尼替尼）; 3) 针对SDHx缺陷野生型GIST的替莫唑胺与HIF-2α抑制剂正开展临床验证。",
+        "key_unmet_needs_zh": "1) 四线瑞派替尼耐药后多克隆继发突变高度异质性，缺乏五线有效标准药物; 2) 占约10%–15%的野生型GIST（尤其是儿童/青年SDHx缺陷型）对所有KIT/PDGFRA TKI均不敏感; 3) 切忌在未做基因检测前盲目盲吃伊马替尼导致D842V患者延误时机。"
+      },
+      "sources": [
+        {
+          "title": "Gastrointestinal stromal tumor (ORPHA:44890)",
+          "url": "https://www.orpha.net/en/disease/detail/44890",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Gastrointestinal Stromal Tumors Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/gist-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0008233",
+      "name_zh": "嗜铬细胞瘤",
+      "name_en": "Pheochromocytoma",
+      "aliases_zh": [
+        "PCC",
+        "肾上腺嗜铬细胞瘤",
+        "儿茶酚胺分泌瘤",
+        "PPGL"
+      ],
+      "icd10": [
+        "D35.0",
+        "C74.1"
+      ],
+      "icd11": [
+        "2D11.1",
+        "2F37.Z"
+      ],
+      "category": "恶性与内分泌功能性肿瘤 / 肾上腺神经内分泌肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "hyperacute_minutes",
+      "lethality_detail_zh": "极具隐匿杀伤力的“定时炸弹”！约85%–90%呈良性生物学行为，但因阵发性或持续性狂飙释放大量肾上腺素/去甲肾上腺素，可因按压腹部、排尿、麻醉诱导或情绪激动在数分钟内诱发恶性高血压危象（收缩压>250mmHg）、急性脑出血、主动脉夹层、儿茶酚胺心肌病/Takotsubo心衰或室颤猝死；约10%–15%为转移性恶性嗜铬细胞瘤。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "良性局限性嗜铬细胞瘤（约85%）在充分术前α受体阻滞剂准备后行腹腔镜手术完整切除即可彻底治愈，血压恢复正常；即使10%–15%发生骨/肝/肺转移，肿瘤生长多较缓慢，依托放射性核素治疗、CVD化疗或HIF-2α/TKI靶向，5年生存率仍可达50%–70%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列嗜铬细胞瘤；全球年发病率约2–8/百万人口（0.2–0.8/10万），约40%病例与遗传性胚系突变相关（所有肿瘤中遗传比例最高之一）",
+          "year": "2024",
+          "source": "Endocrine Society Clinical Practice Guideline / Orphanet ORPHA:276624"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡登记；在继发性高血压病因中占约0.1%–0.6%，未确诊而在麻醉手术中突发危象的围术期死亡率极高",
+          "year": "2024",
+          "source": "《嗜铬细胞瘤和副神经节瘤诊断治疗专家共识》"
+        },
+        "prevalence_global": "年发病率约2–8/百万，约35%–40%携带SDHB/SDHD/VHL/RET/NF1等胚系致病突变",
+        "prevalence_china": "推算全国年新发约3,000–8,000例，转移性病例中约40%–50%携带SDHB胚系突变"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发儿茶酚胺高血压危象（剧烈头痛、大汗淋漓、心悸、面色苍白、血压飙升）：【绝对避坑铁律】严禁在未充分使用α受体阻滞剂前单独使用β受体阻滞剂（如美托洛尔/普萘洛尔），否则会因阻断血管β2舒张受体导致α受体无拮抗缩血管，引发致死性血压反跳飙升及急性肺水肿！应立即静脉泵入酚妥拉明(Phentolamine)或乌拉地尔/硝普钠扩血管，待α阻滞充分后再谨慎加用艾司洛尔控制心动过速; 2) 严禁对未排除嗜铬细胞瘤的肾上腺肿物盲目行穿刺活检（可诱发致命危象）; 3) 肿瘤切除瞬间警惕血压骤降及严重低血糖，需提前扩容及备好去甲肾上腺素。",
+        "standard_drugs": [
+          {
+            "name_zh": "酚苄明 / 多沙唑嗪",
+            "name_en": "Phenoxybenzamine / Doxazosin",
+            "drug_class": "长效α肾上腺素能受体阻滞剂",
+            "usage_role": "所有嗜铬细胞瘤术前至少7–14天强制性血压与血容量准备基石药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家基本药物及集采常规药，月药费约30–150元",
+            "cost_source": "国家基本药物及公立医院参考价"
+          },
+          {
+            "name_zh": "酚妥拉明",
+            "name_en": "Phentolamine",
+            "drug_class": "短效静脉α受体阻滞剂",
+            "usage_role": "急诊室及手术麻醉期突发儿茶酚胺高血压危象一线静脉急救药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "急救基本药物，单支约20–80元",
+            "cost_source": "国家基本药物目录"
+          },
+          {
+            "name_zh": "环磷酰胺+长春新碱+达卡巴嗪(CVD方案) / 舒尼替尼",
+            "name_en": "CVD Chemotherapy / Sunitinib",
+            "drug_class": "经典化疗及抗血管生成TKI",
+            "usage_role": "转移性恶性嗜铬细胞瘤全身控制（FIRSTMAPPP 2期随机研究证实舒尼替尼显著延长PFS）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采及基本药物，单周期/月费约几百至三千元",
+            "cost_source": "国家药品目录及集采参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "所有确诊患者（无论年龄与家族史）强烈推荐行SDHx(SDHB/SDHD/SDHC)、VHL、RET、NF1、TMEM127、MAX胚系基因检测，并对突变携带者一级亲属开展级联筛查与终生生化/MRI随访",
+          "术前充分高盐饮食与补液扩容（防术后顽固性低血压），达标后再行微创腹腔镜/机器人切除",
+          "绝不能按压肿瘤部位、避免使用多巴胺拮抗剂（如甲氧氯普胺）及三环类抗抑郁药诱发危象",
+          "所有患者术后均需终生每年复查血浆游离甲氧基肾上腺素(MNs)预防复发或异时性转移"
+        ],
+        "annual_total_cost_china_cny": "术前准备+腹腔镜手术切除治愈全程约2.5万–5万元；转移性患者靶向/核素治疗费用差异较大，常规药物年费约1万–5万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) 首个随机双盲2期试验FIRSTMAPPP证实舒尼替尼用于进展期恶性PPGL显著改善12个月无进展生存率(35.9% vs 18.9%，Lancet 2024); 2) 口服HIF-2α抑制剂贝组替凡(Belzutifan)在LITESPARK-015研究（针对VHL及SDHx假缺氧通路驱动的PPGL）展示出高疾病控制率，有望成为首个靶向假缺氧通路的精准新药; 3) 68Ga-DOTATATE PET/CT显著提升转移灶检出灵敏度，并指导177Lu-DOTATATE肽受体放射性核素治疗。",
+        "key_unmet_needs_zh": "1) 转移性恶性嗜铬细胞瘤目前尚无彻底治愈手段，传统化疗与靶向缓解持久度有限; 2) 良恶性在初次手术病理上无法绝对区分（须靠转移发生才能确诊恶性），亟需精准分子转移预测标志物; 3) 基层误诊为普通原发性高血压并在全麻手术中诱发未准备危象仍时有发生。"
+      },
+      "sources": [
+        {
+          "title": "Pheochromocytoma (ORPHA:276624)",
+          "url": "https://www.orpha.net/en/disease/detail/276624",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "First-line sunitinib in progressive malignant pheochromocytoma and paraganglioma (FIRSTMAPPP)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38401552/",
+          "publisher": "The Lancet / PubMed",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009691",
+      "name_zh": "蕈样肉芽肿",
+      "name_en": "Mycosis fungoides",
+      "aliases_zh": [
+        "MF",
+        "皮肤T细胞淋巴瘤",
+        "CTCL",
+        "蕈样霉菌病"
+      ],
+      "icd10": [
+        "C84.0"
+      ],
+      "icd11": [
+        "2B01"
+      ],
+      "category": "恶性肿瘤 / 惰性皮肤T细胞淋巴瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "最常见的原发性皮肤T细胞淋巴瘤（虽名“肉芽肿”，实为恶性淋巴瘤而非真菌感染），早期常长达数年甚至十余年仅表现为顽固红斑、鳞屑或瘙痒，极易误诊为湿疹、银屑病或体癣；病程总体慢性进展，但进入肿瘤期/红皮病期(Sézary综合征)或发生大细胞转化后，极易并发金黄色葡萄球菌败血症及内脏播散致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "早期（ⅠA–ⅠB期，占约70%）经外用激素、氮芥、光疗(NB-UVB/PUVA)等皮肤定向治疗即可长期控制，预期寿命接近正常人；中晚期（ⅡB–Ⅳ期）需联合系统维A酸、干扰素、甲氨蝶呤、维布妥昔单抗(CD30-ADC)或莫加利珠单抗(CCR4单抗)控制，5年生存率约40%–65%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列蕈样肉芽肿；全球年发病率约4–6/百万，占全部皮肤淋巴瘤约50%–60%，早期ⅠA期10年生存率超95%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:2584 / EORTC Cutaneous Lymphoma Registry"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；国内三甲皮肤科与血液科联合诊治中心近年检出率明显提升，但基层早期误诊率仍极高",
+          "year": "2024",
+          "source": "《中国皮肤T细胞淋巴瘤诊治指南》"
+        },
+        "prevalence_global": "年发病率约0.4–0.6/10万，中位确诊年龄55–60岁，男女比约2:1（Orphanet ORPHA:2584）",
+        "prevalence_china": "占中国原发皮肤淋巴瘤首位，从首发皮疹到确诊平均延误常达3–6年"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 广泛皮肤破溃糜烂或红皮病伴高热寒战（高度警惕皮肤屏障破坏继发致命性金黄色葡萄球菌败血症/脓毒症休克）：立即留取血培养及皮损拭子培养，经验性静脉覆盖抗耐甲氧西林金葡菌(MRSA)抗生素并加强创面无菌护理; 2) 肿瘤期大细胞转化伴高肿瘤负荷化疗时警惕肿瘤溶解综合征。",
+        "standard_drugs": [
+          {
+            "name_zh": "维布妥昔单抗",
+            "name_en": "Brentuximab vedotin",
+            "drug_class": "靶向CD30的抗体偶联药物(ADC)",
+            "usage_role": "既往系统治疗失败的CD30阳性皮肤T细胞淋巴瘤(ALCANZA 3期研究ORR约67%)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约3,990元/支(50mg)，有效控制肿瘤期及大细胞转化皮损",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "西达本胺",
+            "name_en": "Chidamide",
+            "drug_class": "国产口服组蛋白去乙酰化酶(HDAC)抑制剂",
+            "usage_role": "复发难治外周/皮肤T细胞淋巴瘤系统维持治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约343元/片(5mg)，常规每周2次每次30mg，月药费费用减免前约1.6万元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          },
+          {
+            "name_zh": "莫加利珠单抗",
+            "name_en": "Mogamulizumab",
+            "drug_class": "人源化抗CCR4单克隆抗体",
+            "usage_role": "复发难治MF及Sézary综合征（尤其血液受累显著者，MAVORIC研究）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内已获批上市，尚未进入国家常规降价目录前自费月费较高",
+            "cost_source": "NMPA获批及公开信息(2022–2024)"
+          },
+          {
+            "name_zh": "甲氨蝶呤 / 阿维A / 聚乙二醇干扰素",
+            "name_en": "Methotrexate / Acitretin / Peginterferon",
+            "drug_class": "经典低毒系统免疫调节与抗代谢药物",
+            "usage_role": "中早期顽固性斑块及红皮病期一线系统维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采及基本药物，月药费仅数十至数百元",
+            "cost_source": "国家基本药物及集采参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "皮肤定向治疗基石：窄谱中波紫外线(NB-UVB)、PUVA光化学疗法、局部电子束照射(TSEBT)及外用强效糖皮质激素/氮芥软膏",
+          "对长期不愈、对称性非曝光部位（如臀部、躯干‘泳衣区’）顽固‘湿疹/银屑病’尽早行多点皮肤病理活检+TCR基因重排检测",
+          "加强皮肤保湿护理、温和洗浴，严禁自行搔抓及使用来路不明偏方药膏诱发继发感染",
+          "年轻高危晚期患者可评估异基因造血干细胞移植（唯一潜在治愈手段）"
+        ],
+        "annual_total_cost_china_cny": "早期光疗+外用药/甲氨蝶呤年费约3,000–8,000元；中晚期维布妥昔单抗/西达本胺/莫加利珠单抗费用减免前年均约5万–18万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 靶向CCR4单抗莫加利珠单抗与CD30-ADC维布妥昔单抗已成为中晚期MF/Sézary综合征国际标准，国内多中心真实世界研究进一步验证其清除血液肿瘤细胞的高效性; 2) 靶向CD47(巨噬细胞免疫检查点)、KIR3DL2(Lacutamab 2期TELLOMAK研究在Sézary综合征展示持久缓解)及JAK1/2抑制剂正在开展国际多中心试验; 3) AI皮肤镜图像识别结合浅层皮肤高通量TCR测序正显著缩短基层早期误诊时间。",
+        "key_unmet_needs_zh": "1) 早期极易被误诊为慢性湿疹或银屑病，平均确诊延迟数年; 2) 除异基因移植外尚无药物可根治晚期肿瘤期/Sézary综合征，停药易复发; 3) 顽固剧烈皮肤瘙痒与外观损毁严重影响患者心理与社交生活。"
+      },
+      "sources": [
+        {
+          "title": "Mycosis fungoides (ORPHA:2584)",
+          "url": "https://www.orpha.net/en/disease/detail/2584",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Mycosis Fungoides (Including Sézary Syndrome) Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/lymphoma/hp/mycosis-fungoides-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002571",
+      "name_zh": "原发中枢神经系统淋巴瘤",
+      "name_en": "Primary central nervous system lymphoma",
+      "aliases_zh": [
+        "PCNSL",
+        "脑原发淋巴瘤",
+        "中枢神经系统弥漫大B细胞淋巴瘤"
+      ],
+      "icd10": [
+        "C83.3",
+        "C85.9"
+      ],
+      "icd11": [
+        "2A81.1"
+      ],
+      "category": "恶性肿瘤 / 中枢神经系统侵袭性淋巴瘤",
+      "course_type": "acute_on_chronic",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "罕见但高度侵袭性的结外淋巴瘤（90%–95%为弥漫大B细胞淋巴瘤，常携带MYD88 L265P/CD79B突变），肿瘤在脑实质深部快速浸润生长，未治中位生存仅1.5–3个月；一旦并发重度脑水肿或脑疝，可在数小时至数日内因呼吸中枢受压死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "虽然起病极凶险，但与胶质母细胞瘤不同，PCNSL对大剂量甲氨蝶呤(HD-MTX)为基础的化疗高度敏感！适合强化治疗的年轻患者经“HD-MTX诱导+自体干细胞移植(ASCT)或减量全脑放疗”巩固，5年生存率可达50%–65%，部分患者可实现长期临床治愈。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从NHL/CNS肿瘤中单列PCNSL；全球年发病率约4–5/百万（占原发脑肿瘤约2%–3%、占NHL约1%–2%），免疫功能正常老年人发病率近年呈上升趋势",
+          "year": "2024",
+          "source": "Orphanet ORPHA:46135 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡登记；推算中国每年新发约4,000–7,000例，多见于55–70岁免疫正常成人及HIV/移植免疫抑制人群",
+          "year": "2024",
+          "source": "《中国原发中枢神经系统淋巴瘤诊治指南》"
+        },
+        "prevalence_global": "年发病率约0.4–0.5/10万，约95%病理为非生发中心(non-GCB)来源DLBCL，约10%–20%同时累及眼内玻璃体/视网膜（Orphanet ORPHA:46135）",
+        "prevalence_china": "推算年新发约4,000–7,000例，脑深部白质、基底节及胼胝体为典型好发部位"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 突发重度颅高压或脑疝先兆（剧烈头痛、呕吐、偏瘫、意识模糊）：立即静脉甘露醇脱水降颅压；【核心诊断避坑铁律】在未完成立体定向脑活检获取病理前，除非脑疝迫在眉睫，否则严禁提前大剂量使用糖皮质激素（如地塞米松），因为激素可在数天内让淋巴瘤细胞‘戏剧性溶解消失’，导致活检假阴性、延误救命化疗！; 2) HD-MTX化疗期间密切监测尿量、尿pH(>7.0)及血药浓度，防急性肾衰竭。",
+        "standard_drugs": [
+          {
+            "name_zh": "大剂量甲氨蝶呤(HD-MTX，联合利妥昔单抗/替莫唑胺/阿糖胞苷如MATRix/R-MPV)",
+            "name_en": "High-dose Methotrexate-based Regimens (MATRix / R-MPV)",
+            "drug_class": "可穿透血脑屏障的抗叶酸基石化疗+CD20单抗",
+            "usage_role": "所有适合强化治疗PCNSL患者的一线绝对核心诱导方案（禁止单纯手术切除，以立体定向活检确诊后立即化疗为主）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "甲氨蝶呤、阿糖胞苷、替莫唑胺及国产利妥昔单抗均已集采/入目录，单周期药费约2,000–4,500元",
+            "cost_source": "国家药品目录及集采参考价"
+          },
+          {
+            "name_zh": "泽布替尼 / 奥布替尼 / 伊布替尼",
+            "name_en": "Zanubrutinib / Orelabrutinib / Ibrutinib",
+            "drug_class": "高透脑血脑屏障BTK抑制剂",
+            "usage_role": "复发难治PCNSL（MYD88/CD79B突变高敏）及老年不耐受强化化疗者联合方案（奥布替尼脑脊液穿透率高，国内获批及指南推荐）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后月药费约7,800–9,000元（费用减免前）",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "塞替派(Thiotepa)",
+            "name_en": "Thiotepa",
+            "drug_class": "高透脑烷化剂",
+            "usage_role": "PCNSL诱导(MATRix)及自体干细胞移植前预处理(TBC/TT-BCNU)核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家药品目录，但国内部分医院存在阶段性备药协调需求",
+            "cost_source": "国家药品目录参考"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "确诊首选微创立体定向穿刺活检（广泛开颅切除不仅无法治愈还会增加神经功能缺损）",
+          "所有PCNSL患者确诊时必查眼科裂隙灯（排查眼内淋巴瘤）及腰穿脑脊液细胞学/流式/MYD88检测",
+          "年轻体能好者诱导缓解后首选自体造血干细胞移植(ASCT)巩固，避免全脑放疗(WBRT)导致的远期痴呆与白质脑病",
+          "老年不适合移植者可采用减量全脑放疗或口服BTK抑制剂/来那度胺维持"
+        ],
+        "annual_total_cost_china_cny": "HD-MTX联合诱导化疗全程约6万–12万元；含塞替派预处理自体移植巩固全程约18万–30万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "1) 脑脊液IL-10联合MYD88 L265P/ctDNA液体活检成为无创快速诊断与复发监测利器，部分危重深部无法活检患者获益显著; 2) 华山医院/北京协和等国内中心牵头的多项‘大剂量甲氨蝶呤+奥布替尼/泽布替尼+PD-1/来那度胺(OR-MTX)’一线及二线临床试验取得超80%客观缓解率; 3) CD19 CAR-T(Axi-cel/Tisa-cel)在多项国际2期试验中证实可跨越血脑屏障，在复发难治PCNSL中实现50%以上完全缓解且ICANS神经毒性可控。",
+        "key_unmet_needs_zh": "1) >70岁高龄或肾功能不全患者无法耐受HD-MTX，缺乏同等高效低毒的一线替代方案; 2) 约40%–50%患者一线缓解后仍于2年内复发，复发后中位生存仅数月; 3) 术前基层误用糖皮质激素导致活检‘假阴性’延误确诊的现象仍较常见。"
+      },
+      "sources": [
+        {
+          "title": "Primary central nervous system lymphoma (ORPHA:46135)",
+          "url": "https://www.orpha.net/en/disease/detail/46135",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Primary CNS Lymphoma Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/lymphoma/hp/primary-cns-lymphoma-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0007243",
+      "name_zh": "伯基特淋巴瘤",
+      "name_en": "Burkitt lymphoma",
+      "aliases_zh": [
+        "BL",
+        "MYC重排淋巴瘤",
+        "高度侵袭性B细胞淋巴瘤"
+      ],
+      "icd10": [
+        "C83.7"
+      ],
+      "icd11": [
+        "2A85.6"
+      ],
+      "category": "恶性肿瘤 / 超高度侵袭性B细胞淋巴瘤",
+      "course_type": "acute",
+      "lethality_speed": "acute_hours_days",
+      "lethality_detail_zh": "人类已知倍增时间最短、生长最快的恶性肿瘤（Ki-67接近100%，肿瘤体积可在24–48小时内翻倍）！特征性携带MYC基因易位t(8;14)；极易并发致命性肿瘤溶解综合征(TLS)、肠套叠/肠穿孔及骨髓/中枢神经系统浸润，未及时治疗数日至数周内即可死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "虽然来势极其凶猛，但对短疗程、高强度免疫化疗极其敏感！儿童及年轻成人经利妥昔单抗联合CODOX-M/IVAC或DA-EPOCH-R方案治疗，早期治愈率高达85%–95%，即使晚期高危组长期治愈率仍达65%–80%；救治成败的关键在于“确诊后数天内启动治疗并严防肿瘤溶解综合征”。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从NHL中单列伯基特淋巴瘤；占欧美儿童NHL的30%–40%、成人NHL的1%–2%，赤道非洲地方性亚型（与EBV及疟疾共感染相关）为当地儿童最常见恶性肿瘤",
+          "year": "2024",
+          "source": "Orphanet ORPHA:543 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；以散发型为主（约占儿童NHL的20%–30%），高水平儿童/成人血液中心5年生存率已达80%以上",
+          "year": "2024",
+          "source": "CCCG-BNHL研究 / 《中国淋巴瘤诊疗指南》"
+        },
+        "prevalence_global": "散发型年发病率约2–3/百万，95%以上携带IG-MYC易位（Orphanet ORPHA:543）",
+        "prevalence_china": "好发于儿童青少年（回盲部腹腔肿块最常见）及HIV相关免疫缺陷成人"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 【极高危肿瘤溶解综合征(TLS)急救铁律】伯基特淋巴瘤在化疗前即可发生自发TLS，首次化疗后6–72小时内大量肿瘤细胞崩解释放高钾、高磷、高尿酸，可致室颤猝死及急性肾衰竭！必须提前24小时入住监护病房：给予充分静脉水化(3000ml/m2/d)、首选拉布立酶(Rasburicase，禁用于G6PD缺乏症/蚕豆病患者，可改用非布司他/别嘌醇)、每4–6小时查血钾/磷/钙/尿酸/肌酐，必要时紧急CRRT血液透析，并采用低剂量COP预处理方案平滑减瘤后再上全量化疗; 2) 回盲部肿块诱发急性肠套叠或肠穿孔：立即禁食抗感染并急诊外科干预。",
+        "standard_drugs": [
+          {
+            "name_zh": "利妥昔单抗+CODOX-M/IVAC 或 DA-EPOCH-R",
+            "name_en": "Rituximab + CODOX-M/IVAC or DA-EPOCH-R",
+            "drug_class": "CD20单抗联合高强度短程免疫化疗",
+            "usage_role": "成人及儿童伯基特淋巴瘤一线根治性标准方案（含大剂量甲氨蝶呤/阿糖胞苷及鞘内注射预防CNS复发）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产利妥昔单抗及化疗药物均已集采/入目录，单周期药费约2,500–5,000元",
+            "cost_source": "国家药品目录及集采参考价"
+          },
+          {
+            "name_zh": "拉布立酶",
+            "name_en": "Rasburicase",
+            "drug_class": "重组尿酸氧化酶",
+            "usage_role": "高肿瘤负荷伯基特淋巴瘤高尿酸血症及肿瘤溶解综合征急诊降尿酸救命药",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内已获批上市，单支(1.5mg)参考价约1,500–2,500元，按体重短程使用数天",
+            "cost_source": "公开三甲医院急救药品参考价"
+          },
+          {
+            "name_zh": "环磷酰胺+长春新碱+泼尼松(COP预处理)",
+            "name_en": "COP Prephase",
+            "drug_class": "低剂量诱导减瘤预处理",
+            "usage_role": "治疗前高危TLS患者的缓冲过渡，大幅降低早期猝死率",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家基本药物，药费仅百元左右",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "治疗前严禁延误等待常规慢速病理，疑似病例急诊行骨髓/体液流式+FISH检测MYC重排以在48–72小时内确诊",
+          "所有患者均需常规行腰穿脑脊液检查及鞘内注射预防中枢神经系统浸润",
+          "切忌行过度扩大切除的腹腔肿瘤减瘤手术（术后恢复会延误救命化疗时机）",
+          "HIV阳性伯基特淋巴瘤患者同步启动高效抗逆转录病毒治疗(ART)"
+        ],
+        "annual_total_cost_china_cny": "4–6个周期高强度免疫化疗及TLS监护支持全程约8万–16万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) DA-EPOCH-R方案在成人伯基特淋巴瘤多中心研究中取得与高毒性CODOX-M/IVAC相当的85%以上治愈率，且显著降低老年及HIV患者治疗相关死亡率; 2) 针对极其难治的复发伯基特淋巴瘤，CD19/CD22双靶点CAR-T与CD20×CD3双抗(格菲妥单抗)正开展挽救性临床研究; 3) 2024–2025年全基因组研究进一步揭示ID3/TCF3/CCND3通路协同MYC驱动机制。",
+        "key_unmet_needs_zh": "1) 一旦一线强化疗后早期复发或原发耐药，目前尚无任何高有效率二线方案，复发后中位生存不足3个月; 2) 基层医院对高肿瘤负荷TLS认识不足导致早期死于高钾/急性肾衰; 3) 缺乏直接靶向MYC癌蛋白的获批小分子药物。"
+      },
+      "sources": [
+        {
+          "title": "Burkitt lymphoma (ORPHA:543)",
+          "url": "https://www.orpha.net/en/disease/detail/543",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Adult Non-Hodgkin Lymphoma Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/lymphoma/hp/adult-nhl-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0018935",
+      "name_zh": "毛细胞白血病",
+      "name_en": "Hairy cell leukemia",
+      "aliases_zh": [
+        "HCL",
+        "经典型毛细胞白血病",
+        "BRAF V600E白血病"
+      ],
+      "icd10": [
+        "C91.4"
+      ],
+      "icd11": [
+        "2A82.1"
+      ],
+      "category": "恶性肿瘤 / 罕见惰性成熟B细胞白血病",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "进展极为缓慢的慢性B细胞白血病，典型表现为全血细胞减少、单核细胞明显减低及巨脾（外周血涂片可见胞浆呈“毛发状”突起的淋巴细胞）；几乎100%经典型HCL携带BRAF V600E突变。病程可达十余年以上，主要致命风险是严重中性粒细胞缺乏继发的机遇性重症感染（如非结核分枝杆菌、曲霉菌肺炎及败血症）。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "预后极佳的白血病之一！单疗程（5–7天）嘌呤类似物克拉屈滨(Cladribine)即可让80%–90%患者获得持续5–10年以上的完全缓解；复发后联合利妥昔单抗或口服BRAF抑制剂维莫非尼/达拉非尼依然高度有效，患者总体预期寿命几乎与同龄健康人相当。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列HCL；占全部白血病约2%（年发病率约3/百万），男女比约4–5:1，10年总生存率超过90%",
+          "year": "2024",
+          "source": "Orphanet ORPHA:58017 / NCI SEER"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；属罕见血液肿瘤，国内年新发推算约500–1,000例",
+          "year": "2024",
+          "source": "《中国毛细胞白血病诊断与治疗指南》"
+        },
+        "prevalence_global": "年发病率约0.3/10万，95%–100%经典型HCL携带BRAF V600E体细胞突变（Orphanet ORPHA:58017）",
+        "prevalence_china": "罕见成人慢性白血病，易被误诊为再生障碍性贫血、骨髓纤维化或脾功能亢进"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 重度中性粒细胞缺乏（常合并单核细胞绝对值近乎为零）突发高热、肺部阴影或感染性休克：立即住院抽血培养并覆盖广谱抗细菌、抗真菌（曲霉菌）及必要时非结核分枝杆菌感染治疗，在未控制活动性重症感染前应暂缓使用克拉屈滨，可先用口服维莫非尼安全桥接恢复血象; 2) 巨脾受外伤破裂：急诊外科或介入栓塞止血。",
+        "standard_drugs": [
+          {
+            "name_zh": "克拉屈滨",
+            "name_en": "Cladribine",
+            "drug_class": "嘌呤核苷类似物",
+            "usage_role": "有治疗指征经典型HCL一线绝对基石（仅需连续静脉或皮下给药5–7天一个疗程）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品目录内药物，单疗程（5–7天）总药费约2,000–5,000元",
+            "cost_source": "国家药品目录及公立医院参考价"
+          },
+          {
+            "name_zh": "利妥昔单抗",
+            "name_en": "Rituximab",
+            "drug_class": "抗CD20单克隆抗体",
+            "usage_role": "联合克拉屈滨显著提高深度MRD阴性缓解率（尤其复发及变异型HCL-v）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产生物类似药单次约1,500–2,000元",
+            "cost_source": "国家药品目录及集采参考价"
+          },
+          {
+            "name_zh": "维莫非尼",
+            "name_en": "Vemurafenib",
+            "drug_class": "口服BRAF V600E抑制剂",
+            "usage_role": "嘌呤类似物耐药复发、或合并活动性重症感染不能耐受化疗者的快速无化疗桥接/挽救治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判纳入目录（黑色素瘤），单月参考药费约数千元（费用减免前）",
+            "cost_source": "国家药品谈判目录参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "无症状且血象达标者可先‘观察等待’，避免过早化疗引发免疫抑制",
+          "确诊务必行骨髓流式细胞术(CD103/CD11c/CD25/CD123阳性)及BRAF V600E检测以区分经典型HCL与预后较差的HCL变异型(HCL-v)",
+          "全血细胞减少患者切忌在未做骨髓活检前盲目行脾切除术",
+          "克拉屈滨治疗后半年至1年内避免接种减毒活疫苗，警惕迟发机会性感染"
+        ],
+        "annual_total_cost_china_cny": "一线单疗程克拉屈滨(±利妥昔单抗)全程约1万–3万元，缓解后多年仅需数千元/年定期血常规随访"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 克拉屈滨同期联合利妥昔单抗(CDAR方案)在多项前瞻性研究中使微小残留病阴性(uMRD)率从单药40%跃升至90%以上，实现近10年超长无复发生存; 2) BRAF抑制剂维莫非尼联合奥妥珠单抗或MEK抑制剂曲美替尼的无化疗方案在复发难治HCL中取得90%以上完全缓解率; 3) 靶向CD22免疫毒素Moxetumomab pasudotox及BTK抑制剂伊布替尼为BRAF野生型及HCL变异型(HCL-v)提供了有效选择。",
+        "key_unmet_needs_zh": "1) 变异型毛细胞白血病(HCL-v，BRAF V600E阴性、常伴TP53突变)对单药克拉屈滨反应率不足50%，预后明显差于经典型; 2) 基层全血细胞减少患者易被误诊为‘再障’或‘脾亢’行切脾延误诊治; 3) 嘌呤类似物引起的长期CD4+ T细胞耗竭及继发感染风险仍需无化疗方案替代。"
+      },
+      "sources": [
+        {
+          "title": "Classic hairy cell leukemia (ORPHA:58017)",
+          "url": "https://www.orpha.net/en/disease/detail/58017",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Hairy Cell Leukemia Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/leukemia/hp/hairy-cell-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0020311",
+      "name_zh": "慢性粒单核细胞白血病",
+      "name_en": "Chronic myelomonocytic leukemia",
+      "aliases_zh": [
+        "CMML",
+        "骨髓增生异常/骨髓增殖性肿瘤",
+        "慢粒单"
+      ],
+      "icd10": [
+        "C93.1"
+      ],
+      "icd11": [
+        "2A41"
+      ],
+      "category": "恶性肿瘤 / 髓系MDS/MPN重叠肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "好发于中老年（中位发病年龄70–75岁）的髓系克隆性肿瘤，兼具骨髓增生异常(MDS)的血细胞减少与骨髓增殖性(MPN)的单核细胞持续升高（>0.5×10^9/L且占比≥10%）；约15%–30%患者可向急性髓系白血病(AML)转化，并发重度感染、致命性出血或高白细胞淤滞时可在数周内恶化。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "异基因造血干细胞移植(allo-HSCT)是目前唯一潜在治愈手段，但因患者多高龄，仅少数年轻体能好者可耐受移植；绝大多数患者依托去甲基化药物（阿扎胞苷/地西他滨）及羟基脲支持治疗控制症状、延缓向AML转化，总体中位生存期约2–4年（低危可达5年以上，高危CMML-2仅约1–1.5年）。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从白血病中单列CMML；欧美年发病率约4/百万，>90%患者存在TET2、SRSF2、ASXL1或RAS通路体细胞突变",
+          "year": "2024",
+          "source": "Orphanet ORPHA:98823 / WHO 5th Myeloid Classification"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；伴随老龄化及外周血单核细胞流式/NGS普及，国内诊断率持续提高",
+          "year": "2024",
+          "source": "《中国慢性粒单核细胞白血病诊断与治疗指南》"
+        },
+        "prevalence_global": "年发病率约0.4/10万，男女比约2:1（Orphanet ORPHA:98823）",
+        "prevalence_china": "多见于65岁以上老年男性，常伴脾大、皮肤白血病浸润或自身免疫表现"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 增殖型CMML白细胞极度升高(>100×10^9/L)伴呼吸困难、意识模糊或视物模糊（白细胞淤滞症）：立即静脉水化、予羟基脲快速降白细胞并必要时行白细胞单采术，切忌未降白细胞前大量输注红细胞加重血液黏滞; 2) 血小板极度减低(<10–20×10^9/L)伴活动性出血或发热：急诊输注单采血小板及广谱抗感染。",
+        "standard_drugs": [
+          {
+            "name_zh": "阿扎胞苷",
+            "name_en": "Azacitidine",
+            "drug_class": "DNA去甲基化药物(HMA)",
+            "usage_role": "伴有明显血细胞减少或原始细胞增多(CMML-2)中高危患者一线标准治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选后约100–300元/支(100mg)，单周期7天药费约1,000–2,500元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "地西他滨",
+            "name_en": "Decitabine",
+            "drug_class": "DNA去甲基化药物(HMA)",
+            "usage_role": "中高危CMML一线或阿扎胞苷替代方案（DACOTA 3期研究证实增殖型CMML缓解率高）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采中选后约150–400元/支(50mg)，单周期药费约1,000–2,000元",
+            "cost_source": "国家集采中选结果"
+          },
+          {
+            "name_zh": "羟基脲",
+            "name_en": "Hydroxyurea",
+            "drug_class": "核糖核苷酸还原酶抑制剂",
+            "usage_role": "增殖型CMML(白细胞显著升高、巨脾)一线温和降细胞维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家基本药物，月药费仅数十元",
+            "cost_source": "国家基本药物目录"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊务必行骨髓形态学、染色体核型及髓系NGS基因检测（必查ASXL1/NRAS/RUNX1/SETBP1以CPSS-Mol危险度分层，并排除BCR-ABL及PDGFRA/B重排）",
+          "无症状低危(CMML-0/1)患者可定期观察随访，避免过早化疗",
+          "年轻体能好(<65–70岁)的中高危CMML-2患者尽早评估减低预处理强度异基因造血干细胞移植(RIC allo-HSCT)",
+          "规范成分输血及铁过载监测（长期输注红细胞需适时祛铁治疗）"
+        ],
+        "annual_total_cost_china_cny": "羟基脲及随访年费约3,000–6,000元；去甲基化药物(阿扎胞苷/地西他滨)周期维持年费约2万–5万元；异基因移植全程约30万–50万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "1) WHO第5版(2022)及ICC分类将CMML诊断阈值单核细胞下调至≥0.5×10^9/L，实现更早期精准识别“寡单核细胞型CMML”; 2) 靶向粒细胞-巨噬细胞集落刺激因子(GM-CSF)单抗Lenzilumab联合阿扎胞苷(PREACH-M 2/3期研究)与JAK1/2抑制剂芦可替尼(针对增殖型脾大)在RAS通路突变人群展示积极信号; 3) 口服去甲基化药物Decitabine/Cedazuridine(Inqovi)极大提升老年患者居家治疗便利性。",
+        "key_unmet_needs_zh": "1) 去甲基化药物虽可改善血象，但极少能清除克隆或阻止最终向AML转化，且高危ASXL1/RAS突变患者仍易早期耐药; 2) 老年患者难以耐受异基因造血干细胞移植; 3) 尚无针对CMML特异性靶点的获批靶向新药。"
+      },
+      "sources": [
+        {
+          "title": "Chronic myelomonocytic leukemia (ORPHA:98823)",
+          "url": "https://www.orpha.net/en/disease/detail/98823",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Myelodysplastic/Myeloproliferative Neoplasms Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/myeloproliferative/hp/mds-mpd-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0009692",
+      "name_zh": "原发性骨髓纤维化",
+      "name_en": "Primary myelofibrosis",
+      "aliases_zh": [
+        "PMF",
+        "特发性骨髓纤维化",
+        "骨髓纤维化",
+        "JAK2/CALR/MPL相关MPN"
+      ],
+      "icd10": [
+        "D47.4",
+        "C94.4"
+      ],
+      "icd11": [
+        "2A20.2"
+      ],
+      "category": "恶性肿瘤 / 慢性骨髓增殖性肿瘤(MPN)",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "骨髓造血微环境被纤维瘢痕组织逐步替代，引发髓外造血（巨脾、肝脏肿大）、严重贫血及消耗性体质症状；低危患者中位生存期可达10–15年以上，而高危组中位生存仅1.5–3年；并发门静脉高压食管胃底静脉曲张大出血、致命性血栓栓塞或向急性白血病转化时可迅速致命。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "异基因造血干细胞移植是唯一根治手段，适用于年轻中高危患者；绝大多数患者通过口服JAK抑制剂（芦可替尼/泽布替尼/莫美洛替尼等）可显著缩小巨脾、消除盗汗乏力等症状并延长生存，实现长期带病稳控。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列PMF；全球年发病率约5–15/百万，约55%–60%携带JAK2 V617F突变、25%–30%携带CALR突变、5%–10%携带MPL突变",
+          "year": "2024",
+          "source": "Orphanet ORPHA:824 / MIPSS70+ International Registry"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；国内PMF发病年龄较欧美略年轻（中位约55–60岁），高危组主要死因为感染、出血及白血病转化",
+          "year": "2024",
+          "source": "《原发性骨髓纤维化诊断与治疗中国指南》"
+        },
+        "prevalence_global": "年发病率约0.5–1.5/10万，属BCR-ABL阴性经典骨髓增殖性肿瘤(MPN)中预后最差的一型（Orphanet ORPHA:824）",
+        "prevalence_china": "推算全国现患患者数万例，约85%–90%可检出JAK2/CALR/MPL三大驱动基因之一"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 巨脾合并门静脉高压致食管胃底静脉曲张破裂大出血：立即禁食、静脉生长抑素/特利加压素降门脉压、输血扩容并急诊内镜套扎止血; 2) 巨脾自发梗死或破裂出血（突发左上腹剧痛休克）：绝对卧床并急诊介入脾动脉部分栓塞或外科评估; 3) 停用芦可替尼切忌骤停，否则可诱发致命性‘JAK抑制剂撤药综合征’（高热、休克、脾脏反跳性肿大），必须逐步减量或激素桥接。",
+        "standard_drugs": [
+          {
+            "name_zh": "芦可替尼",
+            "name_en": "Ruxolitinib",
+            "drug_class": "第一代JAK1/JAK2抑制剂",
+            "usage_role": "中高危PMF一线缩脾及改善体质症状基石口服靶向药",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判纳入目录，常规剂量(15–20mg bid)月药费费用减免前约4,000–6,000元",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "吉卡昔尼(Jaktinib)",
+            "name_en": "Jaktinib",
+            "drug_class": "国产新型JAK/ACVR1双靶点抑制剂",
+            "usage_role": "中国自主研发获批用于中高危骨髓纤维化（兼顾缩脾与改善贫血）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家药品谈判目录，大幅提升国内患者可及性",
+            "cost_source": "国家药品谈判目录及NMPA获批信息(2024–2025)"
+          },
+          {
+            "name_zh": "莫美洛替尼",
+            "name_en": "Momelotinib",
+            "drug_class": "JAK1/JAK2/ACVR1抑制剂",
+            "usage_role": "伴中重度贫血的中高危骨髓纤维化首选（2023年9月FDA批准，降低铁调素改善贫血）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "欧美已获批上市，国内临床及引入推进中",
+            "cost_source": "U.S. FDA批准公告(2023)"
+          },
+          {
+            "name_zh": "羟基脲 / 沙利度胺+泼尼松 / 罗特西普",
+            "name_en": "Hydroxyurea / Thalidomide / Luspatercept",
+            "drug_class": "细胞减少及红系成熟促进支持药物",
+            "usage_role": "早期增殖控制及改善骨髓纤维化相关性贫血",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "羟基脲、沙利度胺极为低廉（月费数十元）；罗特西普已入常规目录用于输血依赖贫血",
+            "cost_source": "国家药品目录参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊行骨髓活检网状纤维染色(MF-0~3级)及JAK2/CALR/MPL+高危基因(ASXL1/EZH2/SRSF2/IDH1/2)检测进行MIPSS70危险度分层",
+          "年轻(<65岁)中高危-2/高危患者尽早评估异基因造血干细胞移植（唯一治愈手段）",
+          "小剂量口服阿司匹林（血小板>50且无出血倾向的JAK2阳性患者）预防动静脉血栓",
+          "规律监测血象、脾脏B超及骨髓原始细胞比例"
+        ],
+        "annual_total_cost_china_cny": "口服芦可替尼或国产吉卡昔尼维持费用减免前年均约5万–8万元；异基因移植全程约30万–50万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 兼顾贫血的JAK/ACVR1抑制剂莫美洛替尼(FDA批准)与国产吉卡昔尼(NMPA批准)打破传统芦可替尼加重贫血的瓶颈; 2) 联合方案成为3期焦点：BET抑制剂Pelabresib联合芦可替尼(MANIFEST-2 3期)显著提高脾脏缩小率并部分逆转骨髓纤维化，BCL-XL/BCL-2抑制剂Navitoclax及端粒酶抑制剂Imetelstat(IMpactMF 3期以OS为终点)正验证生存延长获益; 3) 针对CALR外显子9突变的新型双特异性抗体(INCA033989)及疫苗进入早期临床，有望实现突变克隆靶向清除。",
+        "key_unmet_needs_zh": "1) 现有JAK抑制剂主要控制症状与缩脾，难以真正逆转骨髓纤维化或阻止克隆演进向白血病转化; 2) 合并重度血小板减少(<50×10^9/L)的患者难以足量使用JAK抑制剂; 3) 芦可替尼耐药或失效后中位生存仅约1年，亟需非JAK靶点新药。"
+      },
+      "sources": [
+        {
+          "title": "Primary myelofibrosis (ORPHA:824)",
+          "url": "https://www.orpha.net/en/disease/detail/824",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "FDA approves momelotinib for myelofibrosis patients with anemia",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-ojjaara-momelotinib-treatment-adults-intermediate-or-high-risk-myelofibrosis",
+          "publisher": "U.S. FDA",
+          "year": "2023"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005055",
+      "name_zh": "卡波西肉瘤",
+      "name_en": "Kaposi's sarcoma",
+      "aliases_zh": [
+        "KS",
+        "Kaposi肉瘤",
+        "HHV-8相关血管肉瘤",
+        "多发性特发性出血性肉瘤"
+      ],
+      "icd10": [
+        "C46.0",
+        "C46.9"
+      ],
+      "icd11": [
+        "2B57"
+      ],
+      "category": "恶性肿瘤 / 病毒(HHV-8/KSHV)驱动血管内皮肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "由人类疱疹病毒8型(HHV-8/KSHV)感染诱发的血管增殖性肿瘤，临床分为经典型（多见于老年男性，新疆部分民族地区相对多见，进展极慢）、地方性、医源性（器官移植免疫抑制相关）及艾滋病(HIV)相关型；单纯皮肤受累多呈慢性进展，但累及肺部或消化道时可突发致命性大咯血、呼吸衰竭或消化道大出血。",
+      "treatability_status": "controllable",
+      "treatability_summary_zh": "局限性经典型通过局部手术、放疗或瘤内注射即可长期控制，预期寿命接近常人；HIV相关型通过规范启动抗逆转录病毒治疗(ART)重建免疫力，约半数轻症皮损可自行消退，中重度内脏受累联合脂质体多柔比星或紫杉醇化疗有效率超70%–80%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 10727,
+          "range_or_note": "2022年全球约1.07万例死亡，超过80%发病与死亡集中于撒哈拉以南非洲HIV高流行区",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GLOBOCAN及NCC未单列中国KS独立死亡数（全国总体极为罕见）；新疆维吾尔族/哈萨克族等中老年男性经典型发病率显著高于内地汉族",
+          "year": "2024",
+          "source": "Orphanet ORPHA:33276 / 中国皮肤科临床流调"
+        },
+        "prevalence_global": "2022年全球新发约34,230例，几乎100%合并HHV-8(KSHV)感染（GLOBOCAN 2022）",
+        "prevalence_china": "全国人群极为罕见，主要见于新疆地区经典型及HIV感染/肾移植术后免疫抑制人群"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肺卡波西肉瘤突发大咯血或支气管阻塞致急性呼吸衰竭：立即保持患侧卧位防窒息、吸氧并行支气管镜/介入栓塞止血，急诊启动脂质体多柔比星全身化疗; 2) 胃肠道KS病变破溃大出血：禁食输血、内镜止血及血管介入评估; 3) HIV患者启动ART后突发‘免疫重建炎性综合征(IRIS-KS)’致皮损及肺部病变一过性急剧恶化：切忌盲目停用ART，在严密监护下联用全身化疗（严禁单独大剂量使用糖皮质激素，激素会显著刺激KS暴发进展！）。",
+        "standard_drugs": [
+          {
+            "name_zh": "聚乙二醇化脂质体多柔比星(PLD)",
+            "name_en": "Pegylated liposomal doxorubicin",
+            "drug_class": "脂质体包裹蒽环类化疗药",
+            "usage_role": "广泛皮肤、淋巴水肿及内脏受累卡波西肉瘤全球一线标准化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及国产仿制后约800–1,800元/支(20mg)，单周期约1,600–3,600元",
+            "cost_source": "国家药品目录及集采参考价"
+          },
+          {
+            "name_zh": "紫杉醇",
+            "name_en": "Paclitaxel",
+            "drug_class": "微管稳定剂化疗药",
+            "usage_role": "脂质体多柔比星耐药或不可及时的二线/替代一线高效方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后约100–300元/支，单周期药费仅数百元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "泊马度胺",
+            "name_en": "Pomalidomide",
+            "drug_class": "第三代口服免疫调节剂",
+            "usage_role": "FDA批准用于ART治疗无效的HIV相关及HIV阴性卡波西肉瘤（ORR约67%–71%）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "已纳入国家药品目录（骨髓瘤），月药费约2,000–4,000元",
+            "cost_source": "国家药品谈判目录参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "HIV相关KS必须立即启动或优化高效抗逆转录病毒治疗(ART)",
+          "器官移植后医源性KS在确保移植物安全前提下将钙调磷酸酶抑制剂(他克莫司/环孢素)转换为mTOR抑制剂（西罗莫司/依维莫司，兼具抗肿瘤与免疫抑制双重作用）",
+          "局限性经典型皮肤斑块/结节行局部电子束放疗、液氮冷冻或手术切除",
+          "避免不必要的糖皮质激素使用（外源性激素可激活HHV-8复制诱发KS恶化）"
+        ],
+        "annual_total_cost_china_cny": "局限性局部治疗约3,000–8,000元；系统脂质体多柔比星化疗全程约1.5万–4万元（HIV患者ART可享国家免费抗病毒治疗政策支持）"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Maintenance",
+        "breakthroughs_and_trials_zh": "1) 泊马度胺(Pomalidomide)凭借低毒全口服优势确立了复发难治HIV及经典型KS的去化疗免疫调节地位; 2) 帕博利珠单抗与纳武利尤单抗等PD-1抑制剂在多项2期试验(如CITN-12)中对经典型及控制良好的HIV-KS取得约60%–70%缓解率，同时有效清除部分HHV-8病毒微环境; 3) 靶向mTOR/PI3K与VEGF的多靶点疗法正进一步优化移植后KS治疗。",
+        "key_unmet_needs_zh": "1) 尚无直接清除潜伏期HHV-8/KSHV病毒的特异性抗病毒药物; 2) 肺部及消化道广泛受累的晚期患者复发率高，化疗停药后易反弹; 3) 经典型易被误诊为普通血管瘤、色素痣或静脉曲张性皮炎。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "Kaposi sarcoma (ORPHA:33276)",
+          "url": "https://www.orpha.net/en/disease/detail/33276",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0020804",
+      "name_zh": "皮肤基底细胞癌",
+      "name_en": "Basal cell carcinoma",
+      "aliases_zh": [
+        "BCC",
+        "基底细胞上皮瘤",
+        "非黑色素瘤皮肤癌"
+      ],
+      "icd10": [
+        "C44.9",
+        "C44.3"
+      ],
+      "icd11": [
+        "2C32"
+      ],
+      "category": "恶性肿瘤 / 高治愈率皮肤肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "low_lethality",
+      "lethality_detail_zh": "人类发病率最高但恶性度极低的皮肤恶性肿瘤（90%以上由Hedgehog信号通路PTCH1/SMO突变及长期紫外线日晒诱发），生长极其缓慢，远处转移率不足0.1%；但若长期放任不管（所谓“侵蚀性溃疡”），可缓慢深部破坏鼻翼、眼睑、耳廓甚至颅骨引发严重容貌损毁与局部感染。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "接近100%可治愈！绝大多数早期病灶通过标准外科切除或莫氏(Mohs)显微描记手术即可一次根治，5年治愈率高达98%–99%；极少数无法手术或罕见转移性晚期患者通过口服Hedgehog抑制剂(维莫德吉/索尼德吉)或PD-1单抗(西米普利单抗)亦可获得高缓解率。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "由于发病极高而极少致命且多数国家癌症登记不单独强制上报，GLOBOCAN未单列BCC统计；欧美白种人终生发病风险约20%–30%，病死率极低(<0.1%)",
+          "year": "2024",
+          "source": "WHO / Skin Cancer Foundation / NCCN BCC Guidelines"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；黄种人发病率显著低于白人，但在老年户外工作者头面部十分常见，绝大部分手术治愈",
+          "year": "2024",
+          "source": "《中国皮肤基底细胞癌诊疗专家共识》"
+        },
+        "prevalence_global": "全球最常见人类恶性肿瘤（占全部非黑色素瘤皮肤癌约75%–80%），90%以上发生于头颈部曝光区",
+        "prevalence_china": "多见于50岁以上中老年人鼻部、眼周及面颊部，常被老人误认为是‘抠不掉的黑痣或老年斑’"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": null,
+        "standard_drugs": [
+          {
+            "name_zh": "维莫德吉 / 索尼德吉",
+            "name_en": "Vismodegib / Sonidegib",
+            "drug_class": "口服Hedgehog(SMO)信号通路靶向抑制剂",
+            "usage_role": "极少数手术/放疗无法控制的局部晚期或转移性基底细胞癌一线靶向治疗",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内尚未全面进入常规降价目录，自费进口或特殊渠道月费较高（极少患者需要全身用药）",
+            "cost_source": "FDA批准及NCCN指南(2024)"
+          },
+          {
+            "name_zh": "咪喹莫特乳膏 / 5-氟尿嘧啶乳膏",
+            "name_en": "Imiquimod 5% cream / Topical 5-FU",
+            "drug_class": "局部免疫调节剂 / 外用抗代谢药",
+            "usage_role": "低危浅表型基底细胞癌不适合手术患者的局部外用替代治疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家药品目录内常规外用药，单疗程药费约100–400元",
+            "cost_source": "国家药品目录及公立医院参考价"
+          },
+          {
+            "name_zh": "西米普利单抗",
+            "name_en": "Cemiplimab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "Hedgehog抑制剂耐药或不耐受的局部晚期/转移性BCC二线免疫治疗（FDA已批准）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "海外已获批，国内尚待引入",
+            "cost_source": "U.S. FDA批准公告"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "头面部高危部位（眼周、鼻翼、耳廓）首选莫氏(Mohs)显微描记外科切除术，兼顾最高根治率与最小面部毁容",
+          "不适合手术的老年患者可行浅层电子线放疗或光动力治疗(ALA-PDT)",
+          "年轻患者(<30岁)出现多发性BCC合并下颌骨囊肿、掌跖凹陷或大头畸形，务必排查基底细胞痣综合征(Gorlin综合征，PTCH1/SUFU胚系突变)及家系筛查",
+          "日常严格物理防晒（遮阳帽+广谱SPF50+防晒霜），严禁反复抠抓、激光点痣或偏方腐蚀皮肤黑斑"
+        ],
+        "annual_total_cost_china_cny": "绝大多数患者门诊或短期住院行扩大切除+皮瓣修复手术全程仅约2,000–8,000元即可治愈"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 莫氏显微外科联合术中荧光共聚焦显微镜实现切缘实时无创判定，将头面部复发率降至1%–2%以下; 2) 西米普利单抗(PD-1单抗)填补了Hedgehog抑制剂耐药晚期BCC的二线空白; 3) AI皮肤镜智能手机端辅助识别模型对BCC与良性色素痣的鉴别准确率已达皮肤科专家级水平(>93%)。",
+        "key_unmet_needs_zh": "1) 基层美容院或非正规机构将早期色素型BCC误当‘黑痣/老年斑’行激光点烧，导致肿瘤向深部潜行复发甚至毁容; 2) 口服SMO抑制剂长期使用易出现味觉丧失、肌肉痉挛及脱发，停药后复发率高; 3) 巨大难切病灶的术前新辅助缩瘤方案仍待标准化。"
+      },
+      "sources": [
+        {
+          "title": "Skin Cancer (Non-Melanoma) Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/skin/hp/skin-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        },
+        {
+          "title": "Gorlin syndrome / Nevoid basal cell carcinoma syndrome (ORPHA:377)",
+          "url": "https://www.orpha.net/en/disease/detail/377",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0002358",
+      "name_zh": "喉癌",
+      "name_en": "Laryngeal carcinoma",
+      "aliases_zh": [
+        "喉鳞状细胞癌",
+        "声门癌",
+        "声门上型喉癌",
+        "LSCC"
+      ],
+      "icd10": [
+        "C32",
+        "C32.0"
+      ],
+      "icd11": [
+        "2C23"
+      ],
+      "category": "恶性肿瘤 / 头颈部实体瘤",
+      "course_type": "chronic",
+      "lethality_speed": "subacute_weeks",
+      "lethality_detail_zh": "95%以上为鳞状细胞癌，与长期吸烟、重度饮酒高度相关；早期声门型喉癌常以“持续性声音嘶哑超过2–4周”为首发信号；肿瘤向喉腔内生长堵塞声门可突发急性吸气性呼吸困难与“三凹征”，一旦合并喉水肿或痰栓堵塞，可在数分钟至数小时内窒息死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "早期（Ⅰ–Ⅱ期）经支撑喉镜CO2激光微创切除或单纯精准放疗，5年生存率高达85%–95%且能完美保留发声功能；局部晚期（Ⅲ–Ⅳ期）需行部分/全喉切除联合放化疗或免疫治疗，5年生存率约45%–65%，全喉切除后可通过食管发声、电子喉或发音钮重建交流能力。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 96619,
+          "range_or_note": "2022年全球约9.66万例死亡，男性发病与死亡显著高于女性（男女比约7–10:1）",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 17113,
+          "range_or_note": "2022年中国约1.71万例死亡，东北及华北烟酒高暴露地区发病率相对更高",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约193,937例（GLOBOCAN 2022）",
+        "prevalence_china": "2022年中国新发约29,538例，早期声门型占比最高且预后最好，声门上型隐匿性颈淋巴结转移率高"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 【急性上气道梗阻/喉梗阻急救】患者出现吸气性喉鸣、呼吸极度困难、口唇发绀、三凹征或烦躁大汗：立即吸氧、保持端坐位，严禁使用镇静剂（如地西泮）抑制呼吸，立即120急救或床旁行急诊环甲膜穿刺/气管切开术建立生命气道，并静脉予地塞米松减轻喉头水肿; 2) 肿瘤破溃或颈动脉受侵大出血：立即头低侧卧位吸引防窒息并压迫止血/急诊介入。",
+        "standard_drugs": [
+          {
+            "name_zh": "顺铂 / 多西他赛+顺铂+5-氟尿嘧啶(TPF方案)",
+            "name_en": "Cisplatin / TPF Induction Chemotherapy",
+            "drug_class": "铂类同期放化疗增敏及诱导化疗",
+            "usage_role": "局部晚期喉癌保留喉功能(Larynx preservation)诱导化疗及同步放化疗核心药物",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采及基本药物，单周期药费约400–1,200元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "帕博利珠单抗 / 替雷利珠单抗",
+            "name_en": "Pembrolizumab / Tislelizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "复发或转移性头颈鳞癌(含喉癌)一线单药或联合铂类+5-FU化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国产替雷利珠单抗等已纳入目录（约1,253元/支），帕博利珠单抗未入常规目录前自费较高",
+            "cost_source": "国家药品谈判目录参考价(2024–2025)"
+          },
+          {
+            "name_zh": "西妥昔单抗",
+            "name_en": "Cetuximab",
+            "drug_class": "抗EGFR单克隆抗体",
+            "usage_role": "联合放疗（不耐受顺铂患者）或联合化疗治疗复发转移喉鳞癌",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家谈判后约1,184元/支(100mg)，费用减免前单周约5,000–7,000元",
+            "cost_source": "国家药品谈判目录参考价(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "早期声门型喉癌首选支撑喉镜下CO2激光微创切除或单纯放疗保喉",
+          "局部晚期患者由头颈MDT评估‘诱导化疗+同步放化疗保喉’与‘全喉切除术’的肿瘤控制与功能平衡",
+          "全喉切除术后早期介入言语康复训练（食管发声、气管食管发音钮或电子喉）及造瘘口湿化护理",
+          "必须彻底戒烟戒酒（继续吸烟会成倍增加放疗失败及第二原发肺癌/食管癌风险），持续声嘶>2周立即行电子喉镜检查"
+        ],
+        "annual_total_cost_china_cny": "早期CO2激光微创手术约1.5万–3万元；局部晚期手术或放化疗保喉全程约6万–12万元；复发转移免疫靶向治疗年费约5万–15万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Approved_Curative",
+        "breakthroughs_and_trials_zh": "1) 新辅助免疫联合化疗(PD-1+TP)在多项2024–2025年局部晚期喉癌/下咽癌临床试验中取得高达50%–65%主要病理缓解率(MPR)，大幅提升既往需全喉切除患者的保喉成功率; 2) 窄带成像(NBI)电子喉镜结合AI声学语音早期筛查模型可精准识别早期声带原位癌; 3) EGFR/HER3双抗ADC(如BL-B01D1)及EGFR-ADC在铂类/免疫经治复发头颈鳞癌展现良好抗肿瘤活性。",
+        "key_unmet_needs_zh": "1) 局部晚期全喉切除患者终生颈部气管造瘘、丧失自然语音及社交障碍对生活质量冲击极大; 2) 复发转移患者对PD-1单抗总体客观缓解率仅约15%–20%; 3) 40岁以上长期吸烟男性‘声音嘶哑当成慢性咽炎’的延误率依然较高。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "Laryngeal Cancer Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/head-and-neck/hp/laryngeal-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0006456",
+      "name_zh": "胸腺瘤",
+      "name_en": "Thymoma",
+      "aliases_zh": [
+        "前纵隔胸腺瘤",
+        "重症肌无力相关胸腺瘤",
+        "胸腺上皮性肿瘤"
+      ],
+      "icd10": [
+        "D15.0",
+        "C37"
+      ],
+      "icd11": [
+        "2C27.2"
+      ],
+      "category": "恶性与交界性肿瘤 / 前纵隔胸腺上皮肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "成人前纵隔最常见肿瘤，根据WHO分型（A、AB、B1、B2、B3型）生物学行为从低度恶性到明显侵袭性不等（虽习惯称为“瘤”，临床均按具有恶性潜能的肿瘤管理）；最大急性致命隐患在于约30%–45%患者合并重症肌无力(MG)，感染、手术应激或误用禁用药物可诱发“重症肌无力危象”，数小时内因呼吸肌麻痹窒息死亡。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "总体预后极佳！Masaoka-Koga Ⅰ–Ⅱ期包膜完整患者经胸腔镜微创完整切除后，10年生存率高达85%–95%以上，绝大多数获得临床治愈；Ⅲ–Ⅳ期伴胸膜播散者依托新辅助化疗+手术+术后放疗及靶向控制，5年生存率仍达60%–75%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未单列胸腺瘤；全球胸腺上皮肿瘤年发病率约1.5–3/百万，其中胸腺瘤占约80%–85%、胸腺癌占15%–20%，约30%–45%胸腺瘤伴发重症肌无力",
+          "year": "2024",
+          "source": "Orphanet ORPHA:99867 / ITMIG Global Database"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；推算中国每年新发约2,500–4,500例，低剂量胸部CT体检普及使早期无症状检出率显著增加",
+          "year": "2024",
+          "source": "中国胸腺肿瘤协作组(ChART)多中心数据"
+        },
+        "prevalence_global": "年发病率约0.15–0.3/10万，好发于40–60岁成人，除重症肌无力外还可伴纯红细胞再生障碍性贫血(PRCA)或低丙种球蛋白血症(Good综合征，Orphanet ORPHA:99867)",
+        "prevalence_china": "前纵隔最常见肿瘤，A/AB/B1型预后极好，B2/B3型胸膜复发风险相对较高"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 【重症肌无力危象急救（核心救命要点）】胸腺瘤患者突发眼睑下垂加重、饮水呛咳、吞咽困难、抬头无力及呼吸费力：高度警惕呼吸肌麻痹！立即120送往有ICU条件的医院准备气管插管及机械通气，急诊给予静脉免疫球蛋白(IVIG)或血浆置换(PLEX)快速清除乙酰胆碱受体抗体，并排查感染诱因; 2) 【MG患者急救禁用药物清单】严禁使用氨基糖苷类抗生素(庆大霉素/阿米卡星)、多黏菌素、奎宁/氯喹、β受体阻滞剂、大剂量镁剂及肌松药，以免瞬间加重呼吸肌麻痹; 3) 巨大胸腺瘤致上腔静脉阻塞综合征(SVCS)：立即抬高床头、吸氧并多学科评估减压。",
+        "standard_drugs": [
+          {
+            "name_zh": "CAP方案(环磷酰胺+多柔比星+顺铂)",
+            "name_en": "Cyclophosphamide + Doxorubicin + Cisplatin",
+            "drug_class": "经典蒽环类联合铂类化疗",
+            "usage_role": "局部晚期Ⅲ–Ⅳ期胸腺瘤术前新辅助缩瘤及不可切除/复发转移一线标准方案",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "三药均为国家集采及基本药物，单周期药费约600–1,200元",
+            "cost_source": "国家基本药物及集采中选结果"
+          },
+          {
+            "name_zh": "溴吡斯的明 + 泼尼松 / 他克莫司",
+            "name_en": "Pyridostigmine + Prednisone / Tacrolimus",
+            "drug_class": "胆碱酯酶抑制剂及免疫抑制剂",
+            "usage_role": "合并重症肌无力患者的术前症状稳控及术后长期维持",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家药品目录及集采药，月药费约100–500元",
+            "cost_source": "国家药品目录参考价"
+          },
+          {
+            "name_zh": "紫杉醇+卡铂 / 培美曲塞",
+            "name_en": "Paclitaxel + Carboplatin / Pemetrexed",
+            "drug_class": "非蒽环类化疗替代及后线单药",
+            "usage_role": "老年心脏功能欠佳患者一线替代或铂耐药胸腺瘤二线控制",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "均为国家集采药物，单周期药费约500–1,200元",
+            "cost_source": "国家集采中选结果"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "所有拟行手术的胸腺瘤患者术前常规检测血清乙酰胆碱受体抗体(AChR-Ab)及肌电图排查隐匿性重症肌无力（避免全麻术后突发拔管困难或肌无力危象）",
+          "手术应行完整胸腺切除（合并MG者需连同前纵隔脂肪组织一并清扫，严禁术中切破包膜防胸膜种植）",
+          "ⅡB期伴切缘阳性及Ⅲ期浸润性胸腺瘤术后行辅助纵隔调强放疗",
+          "术后需坚持长达10–15年胸部CT随访（胸腺瘤具有极晚期的胸膜惰性复发特征）"
+        ],
+        "annual_total_cost_china_cny": "胸腔镜微创胸腺瘤切除全程约3万–6万元；局部晚期联合新辅助化疗及放疗约6万–11万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) 剑突下入路单孔胸腔镜及达芬奇机器人微创胸腺切除术显著减少肋间神经痛并加速合并MG患者的术后肺功能康复; 2) 对于胸腺癌及少数B3型胸腺瘤，抗血管生成TKI仑伐替尼(REMORA 2期研究ORR达38%)及舒尼替尼已确立二线标准（注：胸腺瘤B1–B3型通常不推荐盲目使用PD-1免疫检查点抑制剂，因其极易诱发致死性心肌炎及重症肌无力暴发！）; 3) 靶向TROP2及B7-H3的新型ADC正在胸腺上皮肿瘤开展早期临床。",
+        "key_unmet_needs_zh": "1) 胸腺瘤合并自身免疫风暴风险导致常规PD-1/PD-L1免疫治疗极易引发致死性心肌炎/肌炎，免疫精准安全调控仍为难题; 2) Ⅳ期胸膜广泛播散复发患者缺乏高效特异性靶向药物; 3) 术后胸腺瘤复发潜伏期可长达10年以上，亟需无创液体活检随访标志物。"
+      },
+      "sources": [
+        {
+          "title": "Thymoma (ORPHA:99867)",
+          "url": "https://www.orpha.net/en/disease/detail/99867",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Thymoma and Thymic Carcinoma Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/thymoma/hp/thymoma-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0005215",
+      "name_zh": "外阴癌",
+      "name_en": "Vulvar carcinoma",
+      "aliases_zh": [
+        "外阴鳞状细胞癌",
+        "VSCC",
+        "外阴恶性肿瘤"
+      ],
+      "icd10": [
+        "C51.8",
+        "C51.9"
+      ],
+      "icd11": [
+        "2C70"
+      ],
+      "category": "恶性肿瘤 / 罕见妇科恶性肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "约90%为鳞状细胞癌，常在长期外阴硬化性苔藓(VLS)或高危HPV16/18感染基础上缓慢演变而来；因部位隐私及患者羞于就医，常被误当“外阴湿疹/瘙痒”拖延至腹股沟淋巴结肿大破溃才就诊；晚期腹股沟转移瘤侵蚀股动静脉可突发致命性大出血。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "早期（Ⅰ期且腹股沟淋巴结阴性）经根治性局部广泛切除联合前哨淋巴结活检，5年生存率高达85%–90%；一旦发生腹股沟淋巴结转移，5年生存率降至50%–60%，广泛远处转移者5年生存率约15%–25%。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 18868,
+          "range_or_note": "2022年全球约1.89万例死亡，主要见于绝经后老年女性及HPV持续感染人群",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": 1956,
+          "range_or_note": "2022年中国约1,956例死亡，占全部妇科恶性肿瘤死亡比例较小但农村及老年女性延误就诊率高",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022 China / NCC"
+        },
+        "prevalence_global": "2022年全球新发约48,894例，分为HPV相关性（约30%–40%，年轻化）与HPV非相关性/TP53突变型（约60%–70%，关联外阴硬化性苔藓，GLOBOCAN 2022 / ORPHA:494418）",
+        "prevalence_china": "2022年中国新发约4,117例，多见于60岁以上绝经后女性"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 腹股沟转移性淋巴结破溃侵蚀股动脉/股静脉致喷射性大出血：立即用无菌敷料持续用力指压腹股沟韧带下方股动脉搏动点止血（切忌松手），120急诊送院行血管覆膜支架植入或外科血管修补/结扎; 2) 外阴巨大坏死性肿瘤伴重度盆腔/腹股沟脓毒症：立即静脉广谱抗感染及创面清创引流。",
+        "standard_drugs": [
+          {
+            "name_zh": "顺铂 / 紫杉醇+卡铂(±贝伐珠单抗)",
+            "name_en": "Cisplatin / Paclitaxel + Carboplatin (± Bevacizumab)",
+            "drug_class": "铂类同步放化疗增敏及晚期联合化疗",
+            "usage_role": "局部晚期不可切除同步放化疗及复发转移一线化疗",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "顺铂、紫杉醇、卡铂均为国家集采药物，单周期药费约400–1,200元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "帕博利珠单抗 / 纳武利尤单抗",
+            "name_en": "Pembrolizumab / Nivolumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "PD-L1阳性或MSI-H/TMB-H复发转移性外阴癌后线/一线联合免疫（CheckMate 358及KEYNOTE-158亚组有效）",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "国内尚未单列外阴癌适应症常规目录覆盖，多参照头颈/宫颈鳞癌自费或临床试验入组",
+            "cost_source": "NCCN外阴癌指南(2024)"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "早期单灶肿瘤(<4cm)优先采用‘外阴广泛局部切除+前哨淋巴结活检(SLNB)’替代传统广泛根治+双侧腹股沟淋巴结清扫，大幅减少下肢淋巴水肿与切口裂开并发症",
+          "对长期外阴瘙痒、白斑、溃疡经久不愈者尽早行多点病理活检（排查外阴上皮内瘤变VIN及分化型dVIN）",
+          "适龄女性接种HPV九价/四价疫苗可有效预防HPV相关外阴癌及癌前病变",
+          "外阴硬化性苔藓患者长期规范外用超强效激素软膏(氯倍他索)控制慢性炎症可显著降低癌变风险"
+        ],
+        "annual_total_cost_china_cny": "早期局部切除及前哨活检全程约2万–4万元；局部晚期同步放化疗及皮瓣修复约6万–12万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) GROINSS-V II与GROINSS-V III国际研究验证前哨淋巴结微转移(<2mm)患者可用精准放疗替代腹股沟淋巴结清扫，彻底消除80%以上的慢性下肢象皮肿; 2) 2024年WHO分子分层明确HPV阴性但p53异常型外阴癌复发风险显著高于HPV阳性型，推动新辅助放化疗联合PD-1免疫试验(如KEYNOTE-A18思路外推); 3) 靶向TROP2及Nectin-4的ADC药物在复发外阴鳞癌开展篮子试验。",
+        "key_unmet_needs_zh": "1) 老年女性因隐私顾忌延误就诊，初诊即伴巨大溃烂及腹股沟固定淋巴结转移比例高; 2) 腹股沟区放化疗及手术后伤口极易感染裂开及顽固性下肢淋巴水肿; 3) 缺乏专为外阴癌设计的大型3期靶向/免疫随机对照临床试验。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "Vulvar carcinoma (ORPHA:494418)",
+          "url": "https://www.orpha.net/en/disease/detail/494418",
+          "publisher": "Orphanet",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0003199",
+      "name_zh": "肛管癌",
+      "name_en": "Anal carcinoma",
+      "aliases_zh": [
+        "肛门癌",
+        "肛管鳞状细胞癌",
+        "ASCC"
+      ],
+      "icd10": [
+        "C21",
+        "C21.1"
+      ],
+      "icd11": [
+        "2C00"
+      ],
+      "category": "恶性肿瘤 / 消化道末端HPV相关鳞癌",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "约85%–90%为鳞状细胞癌且高度与高危型HPV（主要为HPV16）感染相关，早期常仅表现为无痛性便血、肛门坠胀或触及肿物，极易被当成“痔疮”或肛裂长期自行涂药膏而延误；总体慢性进展，晚期可致肠梗阻、直肠阴道瘘或盆腔大出血。",
+      "treatability_status": "curable",
+      "treatability_summary_zh": "与直肠腺癌治疗策略截然不同！肛管鳞癌对同步放化疗极度敏感，绝大多数非转移患者（Ⅰ–Ⅲ期）无需切肛门改道，首选“丝裂霉素+5-FU/卡培他滨联合调强放疗(Nigro方案)”即可获得70%–85%的5年生存率且成功保留肛门括约肌功能；仅放化疗后残留/复发者才需挽救性腹会阴联合切除(APR)。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": 21751,
+          "range_or_note": "2022年全球约2.18万例死亡，女性发病略高于男性（约1.5–2:1），HIV阳性及免疫抑制人群发病率显著升高",
+          "year": "2022",
+          "source": "IARC GLOBOCAN 2022"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "GLOBOCAN与NCC常规报告通常将肛管癌并入结直肠癌大类统计，未单独拆分中国独立死亡人数；相对结直肠癌属少见瘤种",
+          "year": "2024",
+          "source": "IARC GLOBOCAN 2022 / CSCO结直肠癌及肛管癌诊疗规范"
+        },
+        "prevalence_global": "2022年全球新发约56,402例，约90%归因于持续高危HPV感染（GLOBOCAN 2022）",
+        "prevalence_china": "在中国发病率远低于直肠腺癌，但中老年女性及HIV/肛周湿疣病史人群需高度警惕与‘痔疮’鉴别"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 肿瘤巨大堵塞肛管致完全性急性低位肠梗阻（停止排气排便、剧烈腹胀呕吐）：立即禁食胃肠减压并急诊行腹腔镜横结肠或乙状结肠造口术解除梗阻，切勿急诊强行切除肛管肿瘤，待造口后顺利完成同步放化疗; 2) 肿瘤破溃致肛门活动性大出血：压迫止血、输血扩容并急诊放疗止血或介入栓塞。",
+        "standard_drugs": [
+          {
+            "name_zh": "丝裂霉素C + 卡培他滨/5-氟尿嘧啶(同步放化疗)",
+            "name_en": "Mitomycin C + Capecitabine/5-FU (Chemoradiation)",
+            "drug_class": "经典烷化剂+氟尿嘧啶放疗增敏方案",
+            "usage_role": "非转移性肛管鳞癌一线根治保肛标准方案(替代外科挖除肛门)",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "卡培他滨、5-FU及丝裂霉素均在国家目录/集采内，药物部分全程仅约2,000–4,000元",
+            "cost_source": "国家药品目录及集采参考价"
+          },
+          {
+            "name_zh": "卡铂+紫杉醇(TC方案)",
+            "name_en": "Carboplatin + Paclitaxel",
+            "drug_class": "铂类联合紫杉类系统化疗",
+            "usage_role": "不可切除或转移性肛管鳞癌一线标准化疗（InterAACT研究优效且毒性显著低于顺铂+5-FU）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采后单周期药费约400–1,000元",
+            "cost_source": "国家组织药品集中采购中选结果"
+          },
+          {
+            "name_zh": "瑞弗利单抗 / 帕博利珠单抗",
+            "name_en": "Retifanlimab / Pembrolizumab",
+            "drug_class": "PD-1免疫检查点抑制剂",
+            "usage_role": "晚期一线联合TC化疗(POD1UM-303 3期研究PFS显著延长)及铂耐药二线单药",
+            "china_nrdl_covered": false,
+            "cost_estimate_cny": "PD-1单抗用于肛管癌国内尚属超适应症或临床试验阶段，自费参考价较高",
+            "cost_source": "ESMO 2024 POD1UM-303研究及NCCN指南"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "初诊切忌误诊为‘痔疮’行盲目痔疮切除，直肠指检与肛门镜活检明确病理为鳞癌后，首要选择是根治性同步放化疗保肛而非直接手术切肛",
+          "同步放化疗结束后需耐心等待8–26周再评估肿瘤是否完全消退（肛管癌放疗后退缩缓慢，切忌在8周内过早判定失败而盲目切肛）",
+          "高危人群（HIV感染者、既往宫颈/外阴HSIL病变女性）定期行肛门细胞学与高分辨率肛门镜(HRA)早筛，并接种HPV疫苗预防",
+          "放疗期间做好肛周皮肤护理及盆底功能康复"
+        ],
+        "annual_total_cost_china_cny": "根治性调强放疗联合丝裂霉素+卡培他滨保肛全程约4万–8万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_3",
+        "breakthroughs_and_trials_zh": "1) 3期POD1UM-303研究(ESMO 2024)证实PD-1单抗Retifanlimab联合卡铂+紫杉醇一线治疗局部复发/转移性肛管鳞癌显著延长无进展生存(9.3 vs 7.4个月)并有总生存获益趋势，确立免疫联合化疗新标准; 2) PLATO英国伞式试验正根据T1–T4分期精准探索低危小肿瘤降剂量放疗减毒与高危局部晚期加量巩固; 3) 循环HPV-ctDNA液体活检可在放化疗后提前数月极高灵敏度预测局部复发。",
+        "key_unmet_needs_zh": "1) 患者与部分基层医生长期将早期症状误认为‘痔疮’，延误甚至误行不规范局部手术; 2) 同步放化疗导致的急性放射性皮炎/直肠炎及远期肛门括约肌纤维化失禁、性功能障碍影响生活质量; 3) 转移及放化疗后复发患者缺乏国内已正式获批纳入常规报销的免疫/ADC药物。"
+      },
+      "sources": [
+        {
+          "title": "Global cancer statistics 2022: GLOBOCAN estimates",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38572751/",
+          "publisher": "IARC / ACS",
+          "year": "2024"
+        },
+        {
+          "title": "Anal Cancer Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/anal/hp/anal-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    },
+    {
+      "disease_id": "MONDO:0004971",
+      "name_zh": "腺样囊性癌",
+      "name_en": "Adenoid cystic carcinoma",
+      "aliases_zh": [
+        "ACC",
+        "涎腺腺样囊性癌",
+        "嗜神经侵袭性癌",
+        "MYB-NFIB融合癌"
+      ],
+      "icd10": [
+        "C07",
+        "C08.9"
+      ],
+      "icd11": [
+        "2B67"
+      ],
+      "category": "恶性肿瘤 / 罕见头颈涎腺嗜神经肿瘤",
+      "course_type": "chronic",
+      "lethality_speed": "chronic_years",
+      "lethality_detail_zh": "主要发生于大小唾液腺（腭部小唾液腺、腮腺、颌下腺，偶见泪腺/气管/乳腺）的特殊恶性肿瘤，核心生物学特征是“极端嗜神经生长、生长缓慢但极难切净、极晚期远隔复发”——肿瘤常沿三叉神经或面神经向颅底潜行跳跃性浸润，即使术后5年无恙，10–20年后仍可能出现多发肺转移；气管原发ACC阻塞大气道可致急性窒息。",
+      "treatability_status": "partially_manageable",
+      "treatability_summary_zh": "早期完整广泛切除联合术后高剂量精准放疗（尤其质子/重离子放疗）可实现较好的局部控制，5年生存率达75%–85%，但10年、15年生存率因极晚期肺/骨转移持续下滑至50%与40%左右；目前对传统化疗及PD-1单抗极度不敏感，尚无获批特效靶向药，肺转移多呈“惰性带瘤长期生存”。",
+      "epidemiology": {
+        "annual_deaths_global": {
+          "value": null,
+          "range_or_note": "GLOBOCAN未从头颈/涎腺癌中单列ACC；全球年发病率约3–4.5/百万，占所有唾液腺恶性肿瘤约20%–25%，约50%–70%携带MYB-NFIB或MYBL1融合基因",
+          "year": "2024",
+          "source": "Orphanet ORPHA:500062 / WHO Salivary Gland Tumours"
+        },
+        "annual_deaths_china": {
+          "value": null,
+          "range_or_note": "中国无单列全国死亡统计；在口腔颌面外科涎腺恶性肿瘤中居第2–3位，以中青年及中老年均可见",
+          "year": "2024",
+          "source": "《中国口腔颌面部恶性肿瘤诊疗指南》"
+        },
+        "prevalence_global": "年发病率约0.3–0.45/10万，实性型(Solid pattern)或伴有NOTCH1激活突变者较筛状/管状型侵袭性显著更高（Orphanet ORPHA:500062）",
+        "prevalence_china": "好发于腭部小唾液腺、腮腺及颌下腺，常以无痛性渐进性肿块伴局部麻木/疼痛就诊"
+      },
+      "clinical_management": {
+        "acute_emergency_protocol_zh": "1) 气管或主支气管原发腺样囊性癌阻塞主气道致吸气性呼吸困难及窒息先兆：立即吸氧并行急诊支气管镜下肿瘤消融/支架置入畅通气道; 2) 颅底神经侵犯伴剧烈顽固性三叉神经痛或海绵窦受累复视：予普瑞巴林/卡马西平止痛并急诊评估放疗减压。",
+        "standard_drugs": [
+          {
+            "name_zh": "仑伐替尼 / 阿帕替尼",
+            "name_en": "Lenvatinib / Apatinib",
+            "drug_class": "抗血管生成多靶点TKI（VEGFR/FGFR）",
+            "usage_role": "快速进展且有症状的复发转移性ACC国际及国内2期临床最常用靶向控制药物（疾病控制率约65%–75%）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "仑伐替尼集采后约100–300元/盒，阿帕替尼国家谈判后月费约3,000–5,000元（多属超适应症姑息控制）",
+            "cost_source": "国家集采/谈判参考价及2期临床数据(2024)"
+          },
+          {
+            "name_zh": "顺铂+多柔比星+环磷酰胺(CAP方案)",
+            "name_en": "Cisplatin + Doxorubicin + Cyclophosphamide",
+            "drug_class": "传统细胞毒联合化疗",
+            "usage_role": "仅用于少数肿瘤负荷大、进展迅速且无法靶向控制患者的姑息减瘤（整体ORR仅10%–20%）",
+            "china_nrdl_covered": true,
+            "cost_estimate_cny": "国家集采及基本药物，单周期药费约500–1,000元",
+            "cost_source": "国家基本药物及集采参考价"
+          }
+        ],
+        "non_drug_therapies_zh": [
+          "首次手术务必追求足够安全切缘并追踪受累神经至颅底，术后常规联合高剂量调强放疗或碳离子/质子放疗（重离子放疗对切不净颅底ACC局部控制率显著提升）",
+          "无症状、缓慢生长的惰性肺多发微小结节转移可采取‘观察等待’，避免过早使用低效高毒化疗",
+          "寡转移肺转移灶可评估胸腔镜切除或立体定向体部放疗(SBRT)",
+          "复发转移患者行NGS检测排查NOTCH1激活突变（预后极差但可匹配临床试验）及MYB融合，患者需坚持至少15–20年终身随访"
+        ],
+        "annual_total_cost_china_cny": "根治手术+普通术后放疗全程约5万–10万元；若采用碳离子/质子放疗全程约25万–35万元；晚期口服抗血管TKI年费约1万–5万元"
+      },
+      "research_progress": {
+        "highest_pipeline_stage": "Phase_2",
+        "breakthroughs_and_trials_zh": "1) 2024–2025年针对NOTCH1激活突变（约占复发转移实性型ACC的15%–20%）的γ-分泌酶抑制剂AL101(Osugacestat)在ACCURACY 2期研究展现约70%疾病控制率; 2) 靶向B7-H3及PRMT5、MYB转录复合物的新药，以及上海质子重离子医院等中心开展的碳离子放疗联合免疫/靶向方案正显著改善颅底不可切除ACC的局部控制; 3) 2期临床证实抗血管TKI阿西替尼/仑伐替尼联合PD-1或单药对快速进展期ACC具有稳定肿瘤作用。",
+        "key_unmet_needs_zh": "1) 尚无任何针对核心驱动基因MYB-NFIB融合的获批特异性靶向药，传统化疗和PD-1单抗客观缓解率均极低(<15%); 2) 嗜神经潜行生长导致术后10–20年极晚期复发与肺转移难以根绝; 3) 实性型伴NOTCH1突变患者易早期骨/肝转移且中位生存显著缩短。"
+      },
+      "sources": [
+        {
+          "title": "Adenoid cystic carcinoma (ORPHA:500062)",
+          "url": "https://www.orpha.net/en/disease/detail/500062",
+          "publisher": "Orphanet",
+          "year": "2024"
+        },
+        {
+          "title": "Salivary Gland Cancer Treatment (PDQ)",
+          "url": "https://www.cancer.gov/types/head-and-neck/hp/salivary-gland-treatment-pdq",
+          "publisher": "NCI PDQ",
+          "year": "2024"
+        }
+      ]
+    }
+  ]
+}

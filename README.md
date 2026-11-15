@@ -23,7 +23,7 @@ Built from normalized global biomedical ontologies, clinical drug-trial registri
 | Layer | Current Scale | Source & License |
 | --- | --- | --- |
 | **Master Disease Ontology** | **25,696** canonical diseases (`25,697` mapped atlas nodes across **14** domains) | [MONDO](https://mondo.monarchinitiative.org/) (CC BY 4.0) · [Orphanet](https://www.orpha.net/) (CC BY 4.0) · [Open Targets 26.09](https://platform.opentargets.org/) (CC0 1.0) |
-| **Deep Curated Dossiers** | **124+** structured bilingual dossiers & **431+** clinical drugs (actively expanding) | Peer-reviewed guidelines, ClinicalTrials.gov, WHO, CDE/NMPA, PubMed/NEJM/Lancet |
+| **Deep Curated Dossiers** | **264** structured bilingual dossiers & **833** clinical drugs (actively expanding) | Peer-reviewed guidelines, ClinicalTrials.gov, WHO, CDE/NMPA, PubMed/NEJM/Lancet |
 | **Global & China Mortality** | **14,137** WHO GHE (2000–2023, `226` causes) & GHO records | [WHO Global Health Estimates & GHO](https://www.who.int/data/gho) |
 | **Rare & Genetic Annotations** | **18,528** rare diseases, **6,821** inheritance modes, **4,220** causal gene links | Orphanet (`en_product1/6/9`) & MONDO |
 
